@@ -156,13 +156,31 @@ namespace RNGReporter.Objects
         {
             switch (encounterType)
             {
+                case "草丛":
+                    return EncounterType.Wild;
+                case "深色草丛":
+                    return EncounterType.WildDarkGrass;
+                case "大量出现":
+                    return EncounterType.WildSwarm;
+                case "冲浪":
+                    return EncounterType.WildSurfing;
+                case "垂钓":
+                    return EncounterType.WildSuperRod;
+                case "飞行影子":
+                    return EncounterType.WildShadow;
+                case "游走宝可梦":
+                    return EncounterType.Roamer;
+                case "燃烧虫/小福蛋的蛋":
+                    return EncounterType.LarvestaHappiny;
+                case "胖嘟嘟":
+                    return EncounterType.JellicentHA;
                 case "Wild Pokémon (Tall Grass)":
                     return EncounterType.Wild;
                 case "Wild Pokemon (Poké Radar)":
                     return EncounterType.WildRadar;
                 case "Wild Pokémon (Dark Grass)":
                     return EncounterType.WildDarkGrass;
-                case "Wild Pokémon (Surfing)":
+                case "野生宝可梦（冲浪）":
                     return EncounterType.WildSurfing;
                 case "Wild Pokémon (Fishing)":
                     return EncounterType.WildSuperRod;
@@ -202,7 +220,7 @@ namespace RNGReporter.Objects
                     return EncounterType.Entralink;
                 case "Hidden Grotto (Shiny Locked)":
                     return EncounterType.HiddenGrotto;
-                case "Bug-Catching Contest":
+                case "捕虫大赛":
                     return EncounterType.BugCatchingContest;
                 case "狩猎地带":
                     return EncounterType.SafariZone;

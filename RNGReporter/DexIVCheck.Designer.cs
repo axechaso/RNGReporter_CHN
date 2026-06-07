@@ -283,7 +283,7 @@ namespace RNGReporter
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(43, 13);
             this.label9.TabIndex = 18;
-            this.label9.Text = "特性1\n\n以上是宝可梦的种族值和特性\n\n左侧选择对应宝可梦则可显示";
+            this.label9.Text = "特性1";
             //
             // label10
             //
@@ -408,7 +408,7 @@ namespace RNGReporter
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(22, 13);
             this.label18.TabIndex = 8;
-            this.label18.Text = "觉醒力量";
+            this.label18.Text = "HP";
             //
             // buttonCheck
             //
@@ -714,7 +714,7 @@ namespace RNGReporter
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(22, 13);
             this.label24.TabIndex = 28;
-            this.label24.Text = "觉醒力量";
+            this.label24.Text = "HP";
             //
             // maxAtk
             //
@@ -943,6 +943,7 @@ namespace RNGReporter
             | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV.ColumnHeadersDefaultCellStyle.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.DGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Seed,
             this.Difference,
@@ -988,7 +989,7 @@ namespace RNGReporter
             //
             // NewDelay
             //
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.NewDelay.DefaultCellStyle = dataGridViewCellStyle1;
             this.NewDelay.HeaderText = "新 Delay";
             this.NewDelay.Name = "NewDelay";
@@ -997,8 +998,8 @@ namespace RNGReporter
             //
             // HP
             //
-            this.HP.HeaderText = "觉醒力量";
-            this.HP.Name = "觉醒力量";
+            this.HP.HeaderText = "HP";
+            this.HP.Name = "HP";
             this.HP.ReadOnly = true;
             this.HP.Width = 35;
             //
@@ -1041,6 +1042,7 @@ namespace RNGReporter
             //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.ClientSize = new System.Drawing.Size(859, 406);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.textBoxResults);

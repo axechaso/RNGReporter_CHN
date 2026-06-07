@@ -237,7 +237,7 @@
             this.L_ball.Name = "L_ball";
             this.L_ball.Size = new System.Drawing.Size(57, 20);
             this.L_ball.TabIndex = 252;
-            this.L_ball.Text = "觉醒力量";
+            this.L_ball.Text = "HP";
             this.L_ball.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // genderType
@@ -353,7 +353,7 @@
             this.L_search_H.Name = "L_search_H";
             this.L_search_H.Size = new System.Drawing.Size(40, 20);
             this.L_search_H.TabIndex = 234;
-            this.L_search_H.Text = "觉醒力量";
+            this.L_search_H.Text = "HP";
             this.L_search_H.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // abilityType
@@ -362,8 +362,8 @@
             this.abilityType.FormattingEnabled = true;
             this.abilityType.Items.AddRange(new object[] {
             "任意",
-            "Ability 0",
-            "Ability 1"});
+            "特性 0",
+            "特性 1"});
             this.abilityType.Location = new System.Drawing.Point(455, 104);
             this.abilityType.Name = "abilityType";
             this.abilityType.Size = new System.Drawing.Size(188, 21);
@@ -1380,8 +1380,8 @@
             //
             // dataGridViewTextBoxColumn17
             //
-            this.dataGridViewTextBoxColumn17.DataPropertyName = "觉醒力量";
-            this.dataGridViewTextBoxColumn17.HeaderText = "觉醒力量";
+            this.dataGridViewTextBoxColumn17.DataPropertyName = "HP";
+            this.dataGridViewTextBoxColumn17.HeaderText = "HP";
             this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
             this.dataGridViewTextBoxColumn17.ReadOnly = true;
             this.dataGridViewTextBoxColumn17.Width = 35;
@@ -1569,8 +1569,8 @@
             this.comboBoxAbilityShadow.FormattingEnabled = true;
             this.comboBoxAbilityShadow.Items.AddRange(new object[] {
             "任意",
-            "Ability 0",
-            "Ability 1"});
+            "特性 0",
+            "特性 1"});
             this.comboBoxAbilityShadow.Location = new System.Drawing.Point(774, 95);
             this.comboBoxAbilityShadow.Name = "comboBoxAbilityShadow";
             this.comboBoxAbilityShadow.Size = new System.Drawing.Size(188, 21);
@@ -1621,7 +1621,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(57, 20);
             this.label13.TabIndex = 384;
-            this.label13.Text = "觉醒力量";
+            this.label13.Text = "HP";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // label14
@@ -1639,7 +1639,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(40, 20);
             this.label4.TabIndex = 338;
-            this.label4.Text = "觉醒力量";
+            this.label4.Text = "HP";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // label6
@@ -2303,8 +2303,8 @@
             //
             // dataGridViewTextBoxColumn5
             //
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "觉醒力量";
-            this.dataGridViewTextBoxColumn5.HeaderText = "觉醒力量";
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "HP";
+            this.dataGridViewTextBoxColumn5.HeaderText = "HP";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             this.dataGridViewTextBoxColumn5.ReadOnly = true;
             this.dataGridViewTextBoxColumn5.Width = 35;

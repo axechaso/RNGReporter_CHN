@@ -895,7 +895,7 @@ namespace RNGReporter
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(22, 13);
             this.label20.TabIndex = 12;
-            this.label20.Text = "觉醒力量";
+            this.label20.Text = "HP";
             //
             // tabPage3
             //
@@ -1189,7 +1189,7 @@ namespace RNGReporter
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(22, 13);
             this.label27.TabIndex = 18;
-            this.label27.Text = "觉醒力量";
+            this.label27.Text = "HP";
             //
             // label28
             //
@@ -1678,7 +1678,7 @@ namespace RNGReporter
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(22, 13);
             this.label48.TabIndex = 36;
-            this.label48.Text = "觉醒力量";
+            this.label48.Text = "HP";
             //
             // maskedTextBoxMaxDelay_IVRange
             //
@@ -2536,7 +2536,7 @@ namespace RNGReporter
             | System.Windows.Forms.AnchorStyles.Right)));
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -2747,7 +2747,7 @@ namespace RNGReporter
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(22, 13);
             this.label60.TabIndex = 12;
-            this.label60.Text = "觉醒力量";
+            this.label60.Text = "HP";
             //
             // button2
             //
@@ -2816,7 +2816,7 @@ namespace RNGReporter
             | System.Windows.Forms.AnchorStyles.Right)));
             dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -2961,7 +2961,7 @@ namespace RNGReporter
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(22, 13);
             this.label71.TabIndex = 18;
-            this.label71.Text = "觉醒力量";
+            this.label71.Text = "HP";
             //
             // label72
             //
@@ -3178,7 +3178,7 @@ namespace RNGReporter
             this.label95.Name = "label95";
             this.label95.Size = new System.Drawing.Size(22, 13);
             this.label95.TabIndex = 36;
-            this.label95.Text = "觉醒力量";
+            this.label95.Text = "HP";
             //
             // maskedTextBox252
             //
@@ -3203,7 +3203,7 @@ namespace RNGReporter
             this.Controls.Add(this.label_main_seed);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.buttonOk);
-            this.Font = new System.Drawing.Font("宋体", 8.25F);
+            this.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "SeedFinder";
             this.ShowInTaskbar = false;

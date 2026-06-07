@@ -172,7 +172,7 @@ namespace RNGReporter
                     return direction * Functions.NatureNumber(x.Nature).CompareTo(Functions.NatureNumber(y.Nature));
                 case "特性":
                     return direction * x.Ability.CompareTo(y.Ability);
-                case "觉醒力量":
+                case "HP":
                     result = direction * x.Hp.CompareTo(y.Hp);
                     if (result == 0)
                     {

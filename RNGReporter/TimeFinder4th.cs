@@ -105,19 +105,19 @@ namespace RNGReporter
 
             comboBoxMethod.Items.AddRange(new object[]
                 {
-                    new ComboBoxItem("Method 1", FrameType.Method1),
-                    new ComboBoxItem("Method J", FrameType.MethodJ),
-                    new ComboBoxItem("Method K", FrameType.MethodK),
-                    new ComboBoxItem("Wondercard IVs", FrameType.WondercardIVs),
-                    new ComboBoxItem("PokeWalker IVs", FrameType.WondercardIVs),
-                    new ComboBoxItem("Chained Spreads", FrameType.ChainedShiny)
+                    new ComboBoxItem("算法 1", FrameType.Method1),
+                    new ComboBoxItem("算法 J", FrameType.MethodJ),
+                    new ComboBoxItem("算法 K", FrameType.MethodK),
+                    new ComboBoxItem("神秘礼物 IV", FrameType.WondercardIVs),
+                    new ComboBoxItem("宝可计步器 IV", FrameType.WondercardIVs),
+                    new ComboBoxItem("连锁异色", FrameType.ChainedShiny)
                 });
 
             var ability = new[]
                 {
                     new ComboBoxItem("任意", -1),
-                    new ComboBoxItem("Ability 0", 0),
-                    new ComboBoxItem("Ability 1", 1)
+                    new ComboBoxItem("特性 0", 0),
+                    new ComboBoxItem("特性 1", 1)
                 };
 
             var shinyNatureList = new BindingSource {DataSource = Objects.Nature.NatureDropDownCollection()};
@@ -541,7 +541,7 @@ namespace RNGReporter
 
         private void dataGridViewValues_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
-            if (dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "觉醒力量" ||
+            if (dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "HP" ||
                 dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "攻击" ||
                 dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "防御" ||
                 dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "特攻" ||
@@ -1368,12 +1368,12 @@ namespace RNGReporter
                 encounterMenu = new[]
                     {
                         "野生宝可梦",
-                        "Wild Pokémon (Surfing)",
+                        "野生宝可梦（冲浪）",
                         "野生宝可梦（破旧钓竿）",
                         "野生宝可梦（好钓竿）",
                         "野生宝可梦（厉害钓竿）",
                         "定点宝可梦",
-                        "Bug-Catching Contest",
+                        "捕虫大赛",
                         "狩猎地带",
                         "头锤树"
                     };
@@ -1387,7 +1387,7 @@ namespace RNGReporter
                 encounterMenu = new[]
                     {
                         "野生宝可梦",
-                        "Wild Pokémon (Surfing)",
+                        "野生宝可梦（冲浪）",
                         "野生宝可梦（破旧钓竿）",
                         "野生宝可梦（好钓竿）",
                         "野生宝可梦（厉害钓竿）",

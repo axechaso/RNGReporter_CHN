@@ -75,7 +75,7 @@ namespace RNGReporter.Objects
                 case (Language.Korean):
                     return Translations.powerKOR[type];
                 default:
-                    return Translations.powerENG[type];
+                    return Translations.powerCHS[type];
             }
         }
 
@@ -106,7 +106,7 @@ namespace RNGReporter.Objects
                 case (Language.Korean):
                     return Translations.NatureStringKOR[nature];
                 default:
-                    return Translations.NatureStringENG[nature];
+                    return Translations.NatureStringCHS[nature];
             }
         }
 
@@ -208,7 +208,7 @@ namespace RNGReporter.Objects
                 case (Language.Korean):
                     return Translations.encounterItemsKOR[slot - 12];
                 default:
-                    return Translations.encounterItemsENG[slot - 12];
+                    return Translations.encounterItemsCHS[slot - 12];
             }
         }
 
@@ -267,7 +267,7 @@ namespace RNGReporter.Objects
                 case (Language.Korean):
                     return Translations.characteristicStringsKOR[index];
                 default:
-                    return Translations.characteristicStringsENG[index];
+                    return Translations.characteristicStringsCHS[index];
             }
         }
 

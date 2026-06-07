@@ -4,7 +4,7 @@
 
 ## 术语基准
 
-宝可梦专有名词优先对齐 52Poké / 神奇宝贝百科；RNG 工具术语如 `Seed`、`Frame`、`Delay`、`PID`、`SID`、`TID`、`IV` 保留社区常用写法。
+宝可梦专有名词优先对齐 52Poké / 神奇宝贝百科；RNG 工具术语如 `Seed`、`Frame`、`Delay`、`PID`、`SID`、`TID`、`IV`、`HP` 保留社区常用写法。
 
 - `C-Gear` -> `Ｃ装置`: https://wiki.52poke.com/wiki/%EF%BC%A3%E8%A3%85%E7%BD%AE
 - `Entralink` -> `连入`, `Entree Forest` -> `连入之森`, `Pass Power` -> `释出之力`: https://wiki.52poke.com/wiki/%E8%BF%9E%E5%85%A5
@@ -57,7 +57,6 @@
 | `RNGReporter/Adjacents.Designer.cs` | `Shiny.HeaderText` | !!! | 异色 |
 | `RNGReporter/Adjacents.Designer.cs` | `Nature.HeaderText` | Nature | 性格 |
 | `RNGReporter/Adjacents.Designer.cs` | `Ability.HeaderText` | Ability | 特性 |
-| `RNGReporter/Adjacents.Designer.cs` | `CapHP.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/Adjacents.Designer.cs` | `CapAtk.HeaderText` | Atk | 攻击 |
 | `RNGReporter/Adjacents.Designer.cs` | `CapDef.HeaderText` | Def | 防御 |
 | `RNGReporter/Adjacents.Designer.cs` | `CapSpA.HeaderText` | SpA | 特攻 |
@@ -88,7 +87,6 @@
 | `RNGReporter/Adjacents.Designer.cs` | `literal` | !!! | 异色 |
 | `RNGReporter/Adjacents.Designer.cs` | `literal` | Nature | 性格 |
 | `RNGReporter/Adjacents.Designer.cs` | `literal` | Ability | 特性 |
-| `RNGReporter/Adjacents.Designer.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/Adjacents.Designer.cs` | `literal` | Atk | 攻击 |
 | `RNGReporter/Adjacents.Designer.cs` | `literal` | Def | 防御 |
 | `RNGReporter/Adjacents.Designer.cs` | `literal` | SpA | 特攻 |
@@ -134,7 +132,6 @@
 | `RNGReporter/CgearCalibrator.Designer.cs` | `label2.Text` | IV Frame | IV 帧 |
 | `RNGReporter/CgearCalibrator.Designer.cs` | `btnSearch.Text` | Search | 搜索 |
 | `RNGReporter/CgearCalibrator.Designer.cs` | `label3.Text` | Target Delay | 目标 Delay |
-| `RNGReporter/CgearCalibrator.Designer.cs` | `label10.Text` | HP | 觉醒力量 |
 | `RNGReporter/CgearCalibrator.Designer.cs` | `label11.Text` | Atk | 攻击 |
 | `RNGReporter/CgearCalibrator.Designer.cs` | `label12.Text` | Def | 防御 |
 | `RNGReporter/CgearCalibrator.Designer.cs` | `label13.Text` | SpA | 特攻 |
@@ -144,7 +141,6 @@
 | `RNGReporter/CgearCalibrator.Designer.cs` | `WildIVs.Text` | Wild IVs | 野生 IV |
 | `RNGReporter/CgearCalibrator.Designer.cs` | `Difference.HeaderText` | Difference | 差值 |
 | `RNGReporter/CgearCalibrator.Designer.cs` | `NewDelay.HeaderText` | New Delay | 新 Delay |
-| `RNGReporter/CgearCalibrator.Designer.cs` | `HP.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/CgearCalibrator.Designer.cs` | `Atk.HeaderText` | Atk | 攻击 |
 | `RNGReporter/CgearCalibrator.Designer.cs` | `Def.HeaderText` | Def | 防御 |
 | `RNGReporter/CgearCalibrator.Designer.cs` | `SpA.HeaderText` | SpA | 特攻 |
@@ -154,7 +150,6 @@
 | `RNGReporter/CgearCalibrator.Designer.cs` | `literal` | IV Frame | IV 帧 |
 | `RNGReporter/CgearCalibrator.Designer.cs` | `literal` | Search | 搜索 |
 | `RNGReporter/CgearCalibrator.Designer.cs` | `literal` | Target Delay | 目标 Delay |
-| `RNGReporter/CgearCalibrator.Designer.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/CgearCalibrator.Designer.cs` | `literal` | Atk | 攻击 |
 | `RNGReporter/CgearCalibrator.Designer.cs` | `literal` | Def | 防御 |
 | `RNGReporter/CgearCalibrator.Designer.cs` | `literal` | SpA | 特攻 |
@@ -173,7 +168,6 @@
 | `RNGReporter/ChainToSID.Designer.cs` | `label17.Text` | SpA | 特攻 |
 | `RNGReporter/ChainToSID.Designer.cs` | `label18.Text` | Def | 防御 |
 | `RNGReporter/ChainToSID.Designer.cs` | `label19.Text` | Atk | 攻击 |
-| `RNGReporter/ChainToSID.Designer.cs` | `label20.Text` | HP | 觉醒力量 |
 | `RNGReporter/ChainToSID.Designer.cs` | `label1.Text` | Ability | 特性 |
 | `RNGReporter/ChainToSID.Designer.cs` | `label2.Text` | Gender / Gender Ratio | 性别比例 |
 | `RNGReporter/ChainToSID.Designer.cs` | `buttonClear.Text` | Clear | 清空 |
@@ -191,8 +185,9 @@
 | `RNGReporter/ChainToSID.Designer.cs` | `literal` | SpA | 特攻 |
 | `RNGReporter/ChainToSID.Designer.cs` | `literal` | Def | 防御 |
 | `RNGReporter/ChainToSID.Designer.cs` | `literal` | Atk | 攻击 |
-| `RNGReporter/ChainToSID.Designer.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/ChainToSID.Designer.cs` | `literal` | Single Ability | 只有一个特性 |
+| `RNGReporter/ChainToSID.Designer.cs` | `literal` | Ability 0 | 0 |
+| `RNGReporter/ChainToSID.Designer.cs` | `literal` | Ability 1 | 1 |
 | `RNGReporter/ChainToSID.Designer.cs` | `literal` | Ability | 特性 |
 | `RNGReporter/ChainToSID.Designer.cs` | `literal` | Gender / Gender Ratio | 性别比例 |
 | `RNGReporter/ChainToSID.Designer.cs` | `literal` | Clear | 清空 |
@@ -214,7 +209,6 @@
 | `RNGReporter/Controls/IVFilters.Designer.cs` | `lblSpe.Text` | Spe | 速度 |
 | `RNGReporter/Controls/IVFilters.Designer.cs` | `btnClearDef.Text` | Clear | 清空 |
 | `RNGReporter/Controls/IVFilters.Designer.cs` | `btnClearAtk.Text` | Clear | 清空 |
-| `RNGReporter/Controls/IVFilters.Designer.cs` | `lblHP.Text` | HP | 觉醒力量 |
 | `RNGReporter/Controls/IVFilters.Designer.cs` | `btnClearHP.Text` | Clear | 清空 |
 | `RNGReporter/Controls/IVFilters.Designer.cs` | `lblAtk.Text` | Atk | 攻击 |
 | `RNGReporter/Controls/IVFilters.Designer.cs` | `lblDef.Text` | Def | 防御 |
@@ -222,8 +216,10 @@
 | `RNGReporter/Controls/IVFilters.Designer.cs` | `btnClearSpe.Text` | Clear | 清空 |
 | `RNGReporter/Controls/IVFilters.Designer.cs` | `lblSpD.Text` | SpD | 特防 |
 | `RNGReporter/Controls/IVFilters.Designer.cs` | `literal` | None | 无 |
-| `RNGReporter/Controls/IVFilters.Designer.cs` | `literal` | E | 炎帝 |
-| `RNGReporter/Controls/IVFilters.Designer.cs` | `literal` | HP | 觉醒力量 |
+| `RNGReporter/Controls/IVFilters.Designer.cs` | `literal` | E | 偶 |
+| `RNGReporter/Controls/IVFilters.Designer.cs` | `literal` | O | 奇 |
+| `RNGReporter/Controls/IVFilters.Designer.cs` | `literal` | HP_E | HP偶 |
+| `RNGReporter/Controls/IVFilters.Designer.cs` | `literal` | HP_O | HP奇 |
 | `RNGReporter/Controls/IVFilters.Designer.cs` | `literal` | Clear | 清空 |
 | `RNGReporter/Controls/IVFilters.Designer.cs` | `literal` | Spe | 速度 |
 | `RNGReporter/Controls/IVFilters.Designer.cs` | `literal` | Atk | 攻击 |
@@ -236,7 +232,6 @@
 | `RNGReporter/DSIDWizard.Designer.cs` | `label3.Text` | Max | 最大 |
 | `RNGReporter/DSIDWizard.Designer.cs` | `lblSeconds.Text` | Seconds | 秒数 |
 | `RNGReporter/DSIDWizard.Designer.cs` | `label8.Text` | Version | 游戏版本 |
-| `RNGReporter/DSIDWizard.Designer.cs` | `label10.Text` | HP | 觉醒力量 |
 | `RNGReporter/DSIDWizard.Designer.cs` | `label11.Text` | Atk | 攻击 |
 | `RNGReporter/DSIDWizard.Designer.cs` | `label12.Text` | Def | 防御 |
 | `RNGReporter/DSIDWizard.Designer.cs` | `label13.Text` | Speed | 速度 |
@@ -267,7 +262,6 @@
 | `RNGReporter/DSIDWizard.Designer.cs` | `literal` | Max | 最大 |
 | `RNGReporter/DSIDWizard.Designer.cs` | `literal` | Seconds | 秒数 |
 | `RNGReporter/DSIDWizard.Designer.cs` | `literal` | Version | 游戏版本 |
-| `RNGReporter/DSIDWizard.Designer.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/DSIDWizard.Designer.cs` | `literal` | Atk | 攻击 |
 | `RNGReporter/DSIDWizard.Designer.cs` | `literal` | Def | 防御 |
 | `RNGReporter/DSIDWizard.Designer.cs` | `literal` | Speed | 速度 |
@@ -313,7 +307,6 @@
 | `RNGReporter/DSParametersIVCheck.Designer.cs` | `label15.Text` | SpA | 特攻 |
 | `RNGReporter/DSParametersIVCheck.Designer.cs` | `label16.Text` | Def | 防御 |
 | `RNGReporter/DSParametersIVCheck.Designer.cs` | `label17.Text` | Atk | 攻击 |
-| `RNGReporter/DSParametersIVCheck.Designer.cs` | `label18.Text` | HP | 觉醒力量 |
 | `RNGReporter/DSParametersIVCheck.Designer.cs` | `buttonCheck.Text` | Check IVs | 计算个体 |
 | `RNGReporter/DSParametersIVCheck.Designer.cs` | `buttonOk.Text` | OK | 确定 |
 | `RNGReporter/DSParametersIVCheck.Designer.cs` | `buttonCancel.Text` | Cancel | 关闭 |
@@ -326,12 +319,10 @@
 | `RNGReporter/DSParametersIVCheck.Designer.cs` | `literal` | SpA | 特攻 |
 | `RNGReporter/DSParametersIVCheck.Designer.cs` | `literal` | Def | 防御 |
 | `RNGReporter/DSParametersIVCheck.Designer.cs` | `literal` | Atk | 攻击 |
-| `RNGReporter/DSParametersIVCheck.Designer.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/DSParametersIVCheck.Designer.cs` | `literal` | Check IVs | 计算个体 |
 | `RNGReporter/DSParametersIVCheck.Designer.cs` | `literal` | OK | 确定 |
 | `RNGReporter/DSParametersIVCheck.Designer.cs` | `literal` | Cancel | 关闭 |
 | `RNGReporter/DSParametersIVCheck.Designer.cs` | `literal` | IV Checker | 个体计算器（GEN5） |
-| `RNGReporter/DSParametersIVCheck.cs` | `literal` | The IV ranges you have listed produce a large amount of IV combinations.  It is recommended that you narrow down the IVs to avoid false positives in parameter searches. | 您输入的个体值范围产生了大量的个体值组合。建议缩小个体值的范围，以避免在参数搜索中出现误报。 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `label1.Text` | Pokémon | 宝可梦 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `label5.Text` | Base HP | 基础 HP |
 | `RNGReporter/DexIVCheck.Designer.cs` | `label6.Text` | Base Atk | 攻击 |
@@ -340,7 +331,7 @@
 | `RNGReporter/DexIVCheck.Designer.cs` | `label4.Text` | Base SpD | 特防 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `label7.Text` | Base Spe | 速度 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `label8.Text` | Ability 0 | 特性0 |
-| `RNGReporter/DexIVCheck.Designer.cs` | `label9.Text` | Ability 1 | 特性1\n\n以上是宝可梦的种族值和特性\n\n左侧选择对应宝可梦则可显示 |
+| `RNGReporter/DexIVCheck.Designer.cs` | `label9.Text` | Ability 1 | 特性1 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `label10.Text` | Level | 等级 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `label11.Text` | Nature | 性格 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `label12.Text` | Characteristic | 个性 |
@@ -349,7 +340,6 @@
 | `RNGReporter/DexIVCheck.Designer.cs` | `label15.Text` | SpA | 特攻 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `label16.Text` | Def | 防御 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `label17.Text` | Atk | 攻击 |
-| `RNGReporter/DexIVCheck.Designer.cs` | `label18.Text` | HP | 觉醒力量 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `buttonCheck.Text` | Find IVs | 计算个体 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `btnCgearIVs.Text` | Find C-Gear Seed by IVs | 通过 IV 查找 Ｃ装置 Seed |
 | `RNGReporter/DexIVCheck.Designer.cs` | `WildIVs.Text` | Wild IVs | 野生 IV |
@@ -358,14 +348,12 @@
 | `RNGReporter/DexIVCheck.Designer.cs` | `label21.Text` | SpA | 特攻 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `label22.Text` | Def | 防御 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `label23.Text` | Atk | 攻击 |
-| `RNGReporter/DexIVCheck.Designer.cs` | `label24.Text` | HP | 觉醒力量 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `InfoBox.Text` | RNG Info | RNG 信息 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `label31.Text` | Target Seed | 目标 Seed |
 | `RNGReporter/DexIVCheck.Designer.cs` | `label32.Text` | IV Frame | IV 帧 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `label33.Text` | Target Delay | 目标 Delay |
 | `RNGReporter/DexIVCheck.Designer.cs` | `Difference.HeaderText` | Difference | 差值 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `NewDelay.HeaderText` | New Delay | 新 Delay |
-| `RNGReporter/DexIVCheck.Designer.cs` | `HP.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `Atk.HeaderText` | Atk | 攻击 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `Def.HeaderText` | Def | 防御 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `SpA.HeaderText` | SpA | 特攻 |
@@ -379,7 +367,7 @@
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | Base SpD | 特防 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | Base Spe | 速度 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | Ability 0 | 特性0 |
-| `RNGReporter/DexIVCheck.Designer.cs` | `literal` | Ability 1 | 特性1\n\n以上是宝可梦的种族值和特性\n\n左侧选择对应宝可梦则可显示 |
+| `RNGReporter/DexIVCheck.Designer.cs` | `literal` | Ability 1 | 特性1 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | Level | 等级 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | Nature | 性格 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | Characteristic | 个性 |
@@ -388,16 +376,13 @@
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | SpA | 特攻 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | Def | 防御 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | Atk | 攻击 |
-| `RNGReporter/DexIVCheck.Designer.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | Find IVs | 计算个体 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | Find C-Gear Seed by IVs | 通过 IV 查找 Ｃ装置 Seed |
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | Wild IVs | 野生 IV |
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | RNG Info | RNG 信息 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | Target Seed | 目标 Seed |
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | IV Frame | IV 帧 |
-| `RNGReporter/DexIVCheck.Designer.cs` | `literal` | Target Delay | 目标 Delay |
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | Difference | 差值 |
-| `RNGReporter/DexIVCheck.Designer.cs` | `literal` | Microsoft Sans Serif | 宋体 |
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | New Delay | 新 Delay |
 | `RNGReporter/DexIVCheck.Designer.cs` | `literal` | IV Checker / Mini Dex | 个体计算器/迷你图鉴 |
 | `RNGReporter/DonationBox.Designer.cs` | `buttonOk.Text` | Okay! | 好的！ |
@@ -416,7 +401,6 @@
 | `RNGReporter/EggParents.Designer.cs` | `label4.Text` | SpA | 特攻 |
 | `RNGReporter/EggParents.Designer.cs` | `label3.Text` | Def | 防御 |
 | `RNGReporter/EggParents.Designer.cs` | `label2.Text` | Atk | 攻击 |
-| `RNGReporter/EggParents.Designer.cs` | `label1.Text` | HP | 觉醒力量 |
 | `RNGReporter/EggParents.Designer.cs` | `buttonOk1.Text` | OK | 确定 |
 | `RNGReporter/EggParents.Designer.cs` | `buttonCancel1.Text` | Cancel | 关闭 |
 | `RNGReporter/EggParents.Designer.cs` | `buttonRetrieveIVs.Text` | Get IVs from RNG | 计算乱数获取的个体 |
@@ -428,7 +412,6 @@
 | `RNGReporter/EggParents.Designer.cs` | `literal` | SpA | 特攻 |
 | `RNGReporter/EggParents.Designer.cs` | `literal` | Def | 防御 |
 | `RNGReporter/EggParents.Designer.cs` | `literal` | Atk | 攻击 |
-| `RNGReporter/EggParents.Designer.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/EggParents.Designer.cs` | `literal` | OK | 确定 |
 | `RNGReporter/EggParents.Designer.cs` | `literal` | Cancel | 关闭 |
 | `RNGReporter/EggParents.Designer.cs` | `literal` | Get IVs from RNG | 计算乱数获取的个体 |
@@ -456,7 +439,6 @@
 | `RNGReporter/EntralinkSeedSearch.Designer.cs` | `CSeedTime.HeaderText` | C-Gear Date\\Time | Ｃ装置日期\\时间 |
 | `RNGReporter/EntralinkSeedSearch.Designer.cs` | `CapOffset.HeaderText` | Frame | 帧 |
 | `RNGReporter/EntralinkSeedSearch.Designer.cs` | `Nature.HeaderText` | Nature | 性格 |
-| `RNGReporter/EntralinkSeedSearch.Designer.cs` | `CapHP.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/EntralinkSeedSearch.Designer.cs` | `CapAtk.HeaderText` | Atk | 攻击 |
 | `RNGReporter/EntralinkSeedSearch.Designer.cs` | `CapDef.HeaderText` | Def | 防御 |
 | `RNGReporter/EntralinkSeedSearch.Designer.cs` | `CapSpA.HeaderText` | SpA | 特攻 |
@@ -487,7 +469,6 @@
 | `RNGReporter/EntralinkSeedSearch.Designer.cs` | `literal` | C-Gear Date\\Time | Ｃ装置日期\\时间 |
 | `RNGReporter/EntralinkSeedSearch.Designer.cs` | `literal` | Offset | 偏移 |
 | `RNGReporter/EntralinkSeedSearch.Designer.cs` | `literal` | Frame | 帧 |
-| `RNGReporter/EntralinkSeedSearch.Designer.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/EntralinkSeedSearch.Designer.cs` | `literal` | Atk | 攻击 |
 | `RNGReporter/EntralinkSeedSearch.Designer.cs` | `literal` | Def | 防御 |
 | `RNGReporter/EntralinkSeedSearch.Designer.cs` | `literal` | SpA | 特攻 |
@@ -503,7 +484,6 @@
 | `RNGReporter/EntralinkSeedSearch.cs` | `literal` | TXT Files\|*.txt | TXT 文件\|*.txt |
 | `RNGReporter/EntralinkSeedSearch.resx` | `resx:textBoxChatot.ToolTip` | A Chatot with a recorded Chatter (not its normal cry) advances the RNG<br>by 1 frame every time its call is heard on the status screen.<br>The pitch of the cry also different for each frame.  By listening<br>carefully to the pitches, it is possible to determine the current frame.<br><br>"Low" indicates a low pitch and "High" a higher pitch.  The numbers<br>in parentheses indicate slight variations in pitch that may be detectable<br>by a well-trained ear.<br><br>L = Low, ML = Mid-Low, M = Mid, MH = Mid-High, H = High | 一只聒噪鸟有一个录音后的喋喋不休（不是原本的叫声）则可以用来推进帧数<br>	每次在这只聒噪鸟的状态面板查看时，听到他发出你的录音（不用听完），则帧数+1。<br>	每一帧的叫声音高也不同。通过倾听仔细地分辨出音高，才有可能确定当前的帧数<br><br>    "Low"表示低音，"High"表示高音。这些括号内的数字表示可以听到音高的细微区别，这可能被训练有素的耳朵察觉到<br><br>    L = Low, ML = Mid-Low(中低音), M = Mid(中音), MH = Mid-High(中高音), H = High |
 | `RNGReporter/GameCube.Designer.cs` | `Shiny_Check.Text` | Shiny Only | 仅异色 |
-| `RNGReporter/GameCube.Designer.cs` | `L_ball.Text` | HP | 觉醒力量 |
 | `RNGReporter/GameCube.Designer.cs` | `L_sex.Text` | Gender | 性别比例 |
 | `RNGReporter/GameCube.Designer.cs` | `L_ability.Text` | Ability | 特性 |
 | `RNGReporter/GameCube.Designer.cs` | `copySeed.Text` | Copy Seed to Clipboard | 复制Seed到剪贴板 |
@@ -513,7 +493,6 @@
 | `RNGReporter/GameCube.Designer.cs` | `L_search_C.Text` | SpA | 特攻 |
 | `RNGReporter/GameCube.Designer.cs` | `L_search_B.Text` | Def | 防御 |
 | `RNGReporter/GameCube.Designer.cs` | `L_search_A.Text` | Atk | 攻击 |
-| `RNGReporter/GameCube.Designer.cs` | `L_search_H.Text` | HP | 觉醒力量 |
 | `RNGReporter/GameCube.Designer.cs` | `L_mezapa.Text` | Nature | 性格 |
 | `RNGReporter/GameCube.Designer.cs` | `status.Text` | Awaiting Command | 等待操作... |
 | `RNGReporter/GameCube.Designer.cs` | `label3.Text` | Search Method | 算法 |
@@ -538,7 +517,6 @@
 | `RNGReporter/GameCube.Designer.cs` | `Frame.HeaderText` | Frame | 帧数 |
 | `RNGReporter/GameCube.Designer.cs` | `dataGridViewTextBoxColumn15.HeaderText` | Nature | 性格 |
 | `RNGReporter/GameCube.Designer.cs` | `dataGridViewTextBoxColumn16.HeaderText` | Ability | 特性 |
-| `RNGReporter/GameCube.Designer.cs` | `dataGridViewTextBoxColumn17.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/GameCube.Designer.cs` | `dataGridViewTextBoxColumn18.HeaderText` | Atk | 攻击 |
 | `RNGReporter/GameCube.Designer.cs` | `dataGridViewTextBoxColumn19.HeaderText` | Def | 防御 |
 | `RNGReporter/GameCube.Designer.cs` | `dataGridViewTextBoxColumn20.HeaderText` | SpA | 特攻 |
@@ -554,9 +532,7 @@
 | `RNGReporter/GameCube.Designer.cs` | `label15.Text` | Shadow | 黑暗宝可梦 |
 | `RNGReporter/GameCube.Designer.cs` | `label11.Text` | Ability | 特性 |
 | `RNGReporter/GameCube.Designer.cs` | `label12.Text` | Gender | 性别比例 |
-| `RNGReporter/GameCube.Designer.cs` | `label13.Text` | HP | 觉醒力量 |
 | `RNGReporter/GameCube.Designer.cs` | `label14.Text` | Nature | 性格 |
-| `RNGReporter/GameCube.Designer.cs` | `label4.Text` | HP | 觉醒力量 |
 | `RNGReporter/GameCube.Designer.cs` | `label6.Text` | Atk | 攻击 |
 | `RNGReporter/GameCube.Designer.cs` | `label7.Text` | Def | 防御 |
 | `RNGReporter/GameCube.Designer.cs` | `label8.Text` | SpA | 特攻 |
@@ -575,7 +551,6 @@
 | `RNGReporter/GameCube.Designer.cs` | `dataGridViewTextBoxColumn2.HeaderText` | !!! | 异色 |
 | `RNGReporter/GameCube.Designer.cs` | `dataGridViewTextBoxColumn3.HeaderText` | Nature | 性格 |
 | `RNGReporter/GameCube.Designer.cs` | `dataGridViewTextBoxColumn4.HeaderText` | Ability | 特性 |
-| `RNGReporter/GameCube.Designer.cs` | `dataGridViewTextBoxColumn5.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/GameCube.Designer.cs` | `dataGridViewTextBoxColumn6.HeaderText` | Atk | 攻击 |
 | `RNGReporter/GameCube.Designer.cs` | `dataGridViewTextBoxColumn7.HeaderText` | Def | 防御 |
 | `RNGReporter/GameCube.Designer.cs` | `dataGridViewTextBoxColumn8.HeaderText` | SpA | 特攻 |
@@ -585,7 +560,6 @@
 | `RNGReporter/GameCube.Designer.cs` | `HiddenPowerPower.HeaderText` | Power | 觉醒力量威力 |
 | `RNGReporter/GameCube.Designer.cs` | `Reason.HeaderText` | Reason | 原因 |
 | `RNGReporter/GameCube.Designer.cs` | `literal` | Shiny Only | 仅异色 |
-| `RNGReporter/GameCube.Designer.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/GameCube.Designer.cs` | `literal` | Don\'t Care / Genderless | 不考虑/无性别 |
 | `RNGReporter/GameCube.Designer.cs` | `literal` | Male (100% Male) | ♂(只有♂) |
 | `RNGReporter/GameCube.Designer.cs` | `literal` | Female (100% Female) | ♀(只有♀) |
@@ -599,6 +573,8 @@
 | `RNGReporter/GameCube.Designer.cs` | `literal` | Def | 防御 |
 | `RNGReporter/GameCube.Designer.cs` | `literal` | Atk | 攻击 |
 | `RNGReporter/GameCube.Designer.cs` | `literal` | Any | 任意 |
+| `RNGReporter/GameCube.Designer.cs` | `literal` | Ability 0 | 特性 0 |
+| `RNGReporter/GameCube.Designer.cs` | `literal` | Ability 1 | 特性 1 |
 | `RNGReporter/GameCube.Designer.cs` | `literal` | Nature | 性格 |
 | `RNGReporter/GameCube.Designer.cs` | `literal` | Awaiting Command | 等待操作... |
 | `RNGReporter/GameCube.Designer.cs` | `literal` | Gales | XD暗之旋风 |
@@ -891,7 +867,6 @@
 | `RNGReporter/IVtoPID_SID_SEED.Designer.cs` | `label17.Text` | SpA | 特攻 |
 | `RNGReporter/IVtoPID_SID_SEED.Designer.cs` | `label18.Text` | Def | 防御 |
 | `RNGReporter/IVtoPID_SID_SEED.Designer.cs` | `label19.Text` | Atk | 攻击 |
-| `RNGReporter/IVtoPID_SID_SEED.Designer.cs` | `label20.Text` | HP | 觉醒力量 |
 | `RNGReporter/IVtoPID_SID_SEED.Designer.cs` | `Method.HeaderText` | Method | 算法 |
 | `RNGReporter/IVtoPID_SID_SEED.Designer.cs` | `Ability.HeaderText` | Ability | 特性 |
 | `RNGReporter/IVtoPID_SID_SEED.Designer.cs` | `setSeedToolStripMenuItem.Text` | Set Seed | 设置Seed到下方显示 |
@@ -907,7 +882,6 @@
 | `RNGReporter/IVtoPID_SID_SEED.Designer.cs` | `literal` | SpA | 特攻 |
 | `RNGReporter/IVtoPID_SID_SEED.Designer.cs` | `literal` | Def | 防御 |
 | `RNGReporter/IVtoPID_SID_SEED.Designer.cs` | `literal` | Atk | 攻击 |
-| `RNGReporter/IVtoPID_SID_SEED.Designer.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/IVtoPID_SID_SEED.Designer.cs` | `literal` | Microsoft Sans Serif | 宋体 |
 | `RNGReporter/IVtoPID_SID_SEED.Designer.cs` | `literal` | Set Seed | 设置Seed到下方显示 |
 | `RNGReporter/IVtoPID_SID_SEED.Designer.cs` | `literal` | Set SID | 设置SID到下方显示 |
@@ -942,11 +916,11 @@
 | `RNGReporter/MainForm.Designer.cs` | `labelTargetFrame.Text` | None | 无 |
 | `RNGReporter/MainForm.Designer.cs` | `label16.Text` | Ability | 特性 |
 | `RNGReporter/MainForm.Designer.cs` | `label17.Text` | Coin Flips for Seed: | 投硬币获取Seed： |
-| `RNGReporter/MainForm.Designer.cs` | `label19.Text` | Elm Responses for Seed: | Elm打电话的结果获取Seed： |
+| `RNGReporter/MainForm.Designer.cs` | `label19.Text` | Elm Responses for Seed: | Elm电话获取Seed： |
 | `RNGReporter/MainForm.Designer.cs` | `checkBoxRPresent.Text` | R | 雷公 |
 | `RNGReporter/MainForm.Designer.cs` | `checkBoxEPresent.Text` | E | 炎帝 |
-| `RNGReporter/MainForm.Designer.cs` | `checkBoxLPresent.Text` | L | 拉帝欧斯\\拉迪亚斯 |
-| `RNGReporter/MainForm.Designer.cs` | `label18.Text` | Roaming Pokemon Locations: | 游走宝可梦位置： |
+| `RNGReporter/MainForm.Designer.cs` | `checkBoxLPresent.Text` | L | 拉帝亚斯/拉帝欧斯 |
+| `RNGReporter/MainForm.Designer.cs` | `label18.Text` | Roaming Pokemon Locations: | 游走位置： |
 | `RNGReporter/MainForm.Designer.cs` | `label20.Text` | Encounter Slot | 遭遇槽位 |
 | `RNGReporter/MainForm.Designer.cs` | `checkBoxDreamWorld.Text` | Dream World Egg Only | 仅梦世界的蛋 |
 | `RNGReporter/MainForm.Designer.cs` | `menuStrip1.Text` | menuStrip1 | 菜单栏1 |
@@ -1045,7 +1019,6 @@
 | `RNGReporter/MainForm.Designer.cs` | `Ability.HeaderText` | Ability | 特性 |
 | `RNGReporter/MainForm.Designer.cs` | `Dream.HeaderText` | Dream World | 梦世界 |
 | `RNGReporter/MainForm.Designer.cs` | `Coin.HeaderText` | Coin | 硬币结果 |
-| `RNGReporter/MainForm.Designer.cs` | `HP.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/MainForm.Designer.cs` | `Atk.HeaderText` | Atk | 攻击 |
 | `RNGReporter/MainForm.Designer.cs` | `Def.HeaderText` | Def | 防御 |
 | `RNGReporter/MainForm.Designer.cs` | `SpA.HeaderText` | SpA | 特攻 |
@@ -1087,11 +1060,11 @@
 | `RNGReporter/MainForm.Designer.cs` | `literal` | None | 无 |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | Ability | 特性 |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | Coin Flips for Seed: | 投硬币获取Seed： |
-| `RNGReporter/MainForm.Designer.cs` | `literal` | Elm Responses for Seed: | Elm打电话的结果获取Seed： |
+| `RNGReporter/MainForm.Designer.cs` | `literal` | Elm Responses for Seed: | Elm电话获取Seed： |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | R | 雷公 |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | E | 炎帝 |
-| `RNGReporter/MainForm.Designer.cs` | `literal` | L | 拉帝欧斯\\拉迪亚斯 |
-| `RNGReporter/MainForm.Designer.cs` | `literal` | Roaming Pokemon Locations: | 游走宝可梦位置： |
+| `RNGReporter/MainForm.Designer.cs` | `literal` | L | 拉帝亚斯/拉帝欧斯 |
+| `RNGReporter/MainForm.Designer.cs` | `literal` | Roaming Pokemon Locations: | 游走位置： |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | Encounter Slot | 遭遇槽位 |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | Dream World Egg Only | 仅梦世界的蛋 |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | menuStrip1 | 菜单栏1 |
@@ -1177,6 +1150,8 @@
 | `RNGReporter/MainForm.Designer.cs` | `literal` | Stationary Pokémon | 定点宝可梦 |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | Gift Pokémon (Non-Mystery Gift) | 礼物宝可梦 (非神秘礼物) |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | Safari Zone | 狩猎地带 |
+| `RNGReporter/MainForm.Designer.cs` | `literal` | Ability 0 | 特性 0 |
+| `RNGReporter/MainForm.Designer.cs` | `literal` | Ability 1 | 特性 1 |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | Time Finder | 时间查找 |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | Generate | 计算 |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | Frame | 帧数 |
@@ -1193,7 +1168,6 @@
 | `RNGReporter/MainForm.Designer.cs` | `literal` | !!! | 异色 |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | Dream World | 梦世界 |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | Coin | 硬币结果 |
-| `RNGReporter/MainForm.Designer.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | Atk | 攻击 |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | Def | 防御 |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | SpA | 特攻 |
@@ -1211,6 +1185,7 @@
 | `RNGReporter/MainForm.Designer.cs` | `literal` | Species | 种族 |
 | `RNGReporter/MainForm.Designer.cs` | `literal` | Synchable | 同步能力 |
 | `RNGReporter/MainForm.Designer.cs` | `literal` |  RNG Reporter 10.3.4 |  RNG Reporter 10.3.4[汉化by:自然公園/白白不是公主/Hakuhiro] |
+| `RNGReporter/MainForm.cs` | `literal` | Method 1 | 算法 1 |
 | `RNGReporter/MainForm.cs` | `literal` | Method J (DPPt) | Method J（钻石珍珠白金） |
 | `RNGReporter/MainForm.cs` | `literal` | Method K (HGSS) | Method K（心金魂银） |
 | `RNGReporter/MainForm.cs` | `literal` | Gen 5 IVs (Standard Seed) | GEN5个体值（普通的Seed） |
@@ -1239,6 +1214,8 @@
 | `RNGReporter/MainForm.cs` | `literal` | Female Lead (25% M Target) | 首发♀（目标25%♂) |
 | `RNGReporter/MainForm.cs` | `literal` | Female Lead (87.5% M Target) | 首发♀（目标87.5%♂) |
 | `RNGReporter/MainForm.cs` | `literal` | Any | 任意 |
+| `RNGReporter/MainForm.cs` | `literal` | Ability 0 | 特性 0 |
+| `RNGReporter/MainForm.cs` | `literal` | Ability 1 | 特性 1 |
 | `RNGReporter/MainForm.cs` | `literal` | RNG Reporter has detected a corrupt configuration file, which has been deleted.  RNG Reporter must be restarted. | RNG Reporter检测到一个损坏的配置文件，该文件已被删除。RNG Reporter必须重启。 |
 | `RNGReporter/MainForm.cs` | `literal` | RNG Reporter now has a new profile manager.\r\nPlease save your information in a profile. | RNG Reporter 现在有新的存档信息管理器。\r\n请将你的信息保存到存档信息中。 |
 | `RNGReporter/MainForm.cs` | `literal` | Your version of RNG Reporter is outdated.  The latest version is  | 你的 RNG Reporter 版本已过期。最新版本是  |
@@ -1248,7 +1225,6 @@
 | `RNGReporter/MainForm.cs` | `literal` | Ratio | 比例 |
 | `RNGReporter/MainForm.cs` | `literal` | Nature | 性格 |
 | `RNGReporter/MainForm.cs` | `literal` | Synchable | 同步能力 |
-| `RNGReporter/MainForm.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/MainForm.cs` | `literal` | Atk | 攻击 |
 | `RNGReporter/MainForm.cs` | `literal` | Def | 防御 |
 | `RNGReporter/MainForm.cs` | `literal` | SpA | 特攻 |
@@ -1323,9 +1299,11 @@
 | `RNGReporter/MainForm.cs` | `literal` | Info | 信息 |
 | `RNGReporter/Objects/CSVWriter.cs` | `literal` | Flip Sequence | 硬币序列 |
 | `RNGReporter/Objects/CalculateChainSid.cs` | `literal` | Single Ability | 只有一个特性 |
+| `RNGReporter/Objects/CalculateChainSid.cs` | `literal` | Ability 0 | 0 |
+| `RNGReporter/Objects/CalculateChainSid.cs` | `literal` | Ability 1 | 1 |
+| `RNGReporter/Objects/Characteristic.cs` | `literal` | NONE | 无 |
 | `RNGReporter/Objects/DisplayList.cs` | `literal` | Nature | 性格 |
 | `RNGReporter/Objects/DisplayList.cs` | `literal` | Ability | 特性 |
-| `RNGReporter/Objects/DisplayList.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/Objects/DisplayList.cs` | `literal` | Atk | 攻击 |
 | `RNGReporter/Objects/DisplayList.cs` | `literal` | Def | 防御 |
 | `RNGReporter/Objects/DisplayList.cs` | `literal` | SpA | 特攻 |
@@ -1340,6 +1318,7 @@
 | `RNGReporter/Objects/EncounterMods.cs` | `literal` | Suction Cups | 吸盘 |
 | `RNGReporter/Objects/EncounterMods.cs` | `literal` | Compoundeyes | 复眼 |
 | `RNGReporter/Objects/EncounterMods.cs` | `literal` | Everstone | 不变之石 |
+| `RNGReporter/Objects/EncounterMods.cs` | `literal` | Wild Pokémon (Surfing) | 野生宝可梦（冲浪） |
 | `RNGReporter/Objects/EncounterMods.cs` | `literal` | Wild Pokémon (Old Rod) | 野生宝可梦（破旧钓竿） |
 | `RNGReporter/Objects/EncounterMods.cs` | `literal` | Wild Pokémon (Good Rod) | 野生宝可梦（好钓竿） |
 | `RNGReporter/Objects/EncounterMods.cs` | `literal` | Wild Pokémon (Super Rod) | 野生宝可梦（厉害钓竿） |
@@ -1350,6 +1329,7 @@
 | `RNGReporter/Objects/EncounterMods.cs` | `literal` | Stationary Pokémon | 定点宝可梦 |
 | `RNGReporter/Objects/EncounterMods.cs` | `literal` | Gift Pokémon | 礼物宝可梦 |
 | `RNGReporter/Objects/EncounterMods.cs` | `literal` | Entralink Pokémon | 连入之森宝可梦 |
+| `RNGReporter/Objects/EncounterMods.cs` | `literal` | Bug-Catching Contest | 捕虫大赛 |
 | `RNGReporter/Objects/EncounterMods.cs` | `literal` | Safari Zone | 狩猎地带 |
 | `RNGReporter/Objects/EncounterMods.cs` | `literal` | Manaphy Egg | 玛纳霏的蛋 |
 | `RNGReporter/Objects/EncounterMods.cs` | `literal` | Headbutt | 头锤树 |
@@ -1413,13 +1393,13 @@
 | `RNGReporter/Objects/IFrameEggPID.cs` | `literal` | Spe | 速度 |
 | `RNGReporter/Objects/IFrameRSEggPID.cs` | `literal` | !!! | 异色 |
 | `RNGReporter/Objects/IFrameRSEggPID.cs` | `literal` | Frame | 帧 |
-| `RNGReporter/Objects/IVCheck.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/Objects/IVCheck.cs` | `literal` | Atk | 攻击 |
 | `RNGReporter/Objects/IVCheck.cs` | `literal` | Def | 防御 |
 | `RNGReporter/Objects/IVCheck.cs` | `literal` | SpA | 特攻 |
 | `RNGReporter/Objects/IVCheck.cs` | `literal` | SpD | 特防 |
 | `RNGReporter/Objects/IVCheck.cs` | `literal` | Spe | 速度 |
 | `RNGReporter/Objects/IVCheck.cs` | `literal` | Invalid | 无效 |
+| `RNGReporter/Objects/IVtoSeed.cs` | `literal` | Method 1 | 算法 1 |
 | `RNGReporter/Objects/Language.cs` | `literal` | Fighting | 格斗 |
 | `RNGReporter/Objects/Language.cs` | `literal` | Flying | 飞行 |
 | `RNGReporter/Objects/Language.cs` | `literal` | Poison | 毒 |
@@ -1547,6 +1527,7 @@
 | `RNGReporter/PIDToIVs.Designer.cs` | `literal` | Generate | 计算 |
 | `RNGReporter/PIDToIVs.Designer.cs` | `literal` | PID To IVs | 根据PID计算个体值 |
 | `RNGReporter/PIDToIVs.cs` | `literal` | Channel | 宝可梦频道 |
+| `RNGReporter/PIDToIVs.cs` | `literal` | Method 1 | 算法 1 |
 | `RNGReporter/Pandora.Designer.cs` | `grpShiny.Text` | Shiny PID | 异色PID（迷人之躯） |
 | `RNGReporter/Pandora.Designer.cs` | `cbxShinyInf.Text` | Infinite Search | 无限地计算 |
 | `RNGReporter/Pandora.Designer.cs` | `lblShinyTrainerID.Text` | Desired Trainer ID: | 想要的TID： |
@@ -1951,10 +1932,6 @@
 | `RNGReporter/Progress.cs` | `literal` | Operation Cancelled | 操作被取消 |
 | `RNGReporter/Progress.cs` | `literal` | Pause | 暂停 |
 | `RNGReporter/Progress.cs` | `literal` | Resume | 重新开始 |
-| `RNGReporter/Properties/Settings.Designer.cs` | `literal` | Year | 年份 |
-| `RNGReporter/Properties/Settings.Designer.cs` | `literal` | Month | 月份 |
-| `RNGReporter/Properties/Settings.Designer.cs` | `literal` | Date | 日期 |
-| `RNGReporter/Properties/Settings.Designer.cs` | `literal` | Seconds | 秒数 |
 | `RNGReporter/Researcher.Designer.cs` | `radioButtonCommon.Text` | Common RNGs | 常见的 RNGs |
 | `RNGReporter/Researcher.Designer.cs` | `copyItemToolStripMenuItem.Text` | Copy Item | 复制Item |
 | `RNGReporter/Researcher.Designer.cs` | `copySelectedColumnsToolStripMenuItem.Text` | Copy Selected Columns | 复制选中的列 |
@@ -2136,7 +2113,6 @@
 | `RNGReporter/SearchFlips.Designer.cs` | `literal` | Number of possible results: | 可能的结果数量： |
 | `RNGReporter/SearchFlips.Designer.cs` | `literal` | Microsoft Sans Serif | 宋体 |
 | `RNGReporter/SearchFlips.Designer.cs` | `literal` | Search Coin Flips | 掷硬币反查（DPPt） |
-| `RNGReporter/SearchIVs.Designer.cs` | `label1.Text` | HP | 觉醒力量 |
 | `RNGReporter/SearchIVs.Designer.cs` | `label2.Text` | Attack | 攻击 |
 | `RNGReporter/SearchIVs.Designer.cs` | `label3.Text` | Defense | 防御 |
 | `RNGReporter/SearchIVs.Designer.cs` | `label4.Text` | SpAttk | 特攻 |
@@ -2145,7 +2121,6 @@
 | `RNGReporter/SearchIVs.Designer.cs` | `buttonOK.Text` | OK | 确认 |
 | `RNGReporter/SearchIVs.Designer.cs` | `label7.Text` | Enter the IVs of the Pokémon caught immediately\r\nafter turning on the C-Gear. | 输入在开启Ｃ装置之后立即捕捉到的宝可梦的个体值 |
 | `RNGReporter/SearchIVs.Designer.cs` | `buttonCancel.Text` | Cancel | 取消 |
-| `RNGReporter/SearchIVs.Designer.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/SearchIVs.Designer.cs` | `literal` | Attack | 攻击 |
 | `RNGReporter/SearchIVs.Designer.cs` | `literal` | Defense | 防御 |
 | `RNGReporter/SearchIVs.Designer.cs` | `literal` | SpAttk | 特攻 |
@@ -2207,7 +2182,6 @@
 | `RNGReporter/SeedFinder.Designer.cs` | `label_a_m.Text` | Month | 月份 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label19.Text` | Atk | 攻击 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label_a_d.Text` | Date | 日期 |
-| `RNGReporter/SeedFinder.Designer.cs` | `label20.Text` | HP | 觉醒力量 |
 | `RNGReporter/SeedFinder.Designer.cs` | `tabPage3.Text` | Find Seed by Stats | 根据能力值计算seed |
 | `RNGReporter/SeedFinder.Designer.cs` | `radioButton_SS_CUSTOM.Text` | Custom | 自定义 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label_SS_MaxDelay.Text` | Max Delay | 最大Delay |
@@ -2226,7 +2200,6 @@
 | `RNGReporter/SeedFinder.Designer.cs` | `label24.Text` | SpA | 特攻 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label25.Text` | Def | 防御 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label26.Text` | Atk | 攻击 |
-| `RNGReporter/SeedFinder.Designer.cs` | `label27.Text` | HP | 觉醒力量 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label28.Text` | Characteristic | 个性 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label29.Text` | Nature | 性格 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label30.Text` | Level | 等级 |
@@ -2249,7 +2222,6 @@
 | `RNGReporter/SeedFinder.Designer.cs` | `label45.Text` | Month | 月份  |
 | `RNGReporter/SeedFinder.Designer.cs` | `label46.Text` | Atk | 攻击 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label47.Text` | Date | 日期 |
-| `RNGReporter/SeedFinder.Designer.cs` | `label48.Text` | HP | 觉醒力量 |
 | `RNGReporter/SeedFinder.Designer.cs` | `tabPage2.Text` | Simple Seed Generator | 简易版seed计算器 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label14.Text` | Language | 游戏语言 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label104.Text` | Held Button 7 | 按住的按键 7 |
@@ -2281,7 +2253,6 @@
 | `RNGReporter/SeedFinder.Designer.cs` | `label57.Text` | Month | 月份  |
 | `RNGReporter/SeedFinder.Designer.cs` | `label58.Text` | Atk | 攻击 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label59.Text` | Date | 日期 |
-| `RNGReporter/SeedFinder.Designer.cs` | `label60.Text` | HP | 觉醒力量 |
 | `RNGReporter/SeedFinder.Designer.cs` | `button2.Text` | Find | 计算 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label61.Text` | Year | 年份 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label62.Text` | Minute (0-59) | 分（0-59） |
@@ -2296,7 +2267,6 @@
 | `RNGReporter/SeedFinder.Designer.cs` | `label68.Text` | SpA | 特攻 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label69.Text` | Def | 防御 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label70.Text` | Atk | 攻击 |
-| `RNGReporter/SeedFinder.Designer.cs` | `label71.Text` | HP | 觉醒力量 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label72.Text` | Characteristic | 个性 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label73.Text` | Nature | 性格 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label74.Text` | Level | 等级 |
@@ -2318,7 +2288,6 @@
 | `RNGReporter/SeedFinder.Designer.cs` | `label92.Text` | Month | 月份  |
 | `RNGReporter/SeedFinder.Designer.cs` | `label93.Text` | Atk | 攻击 |
 | `RNGReporter/SeedFinder.Designer.cs` | `label94.Text` | Date | 日期 |
-| `RNGReporter/SeedFinder.Designer.cs` | `label95.Text` | HP | 觉醒力量 |
 | `RNGReporter/SeedFinder.Designer.cs` | `literal` | OK | 确认 |
 | `RNGReporter/SeedFinder.Designer.cs` | `literal` | Cancel | 关闭 |
 | `RNGReporter/SeedFinder.Designer.cs` | `literal` | Year | 年份 |
@@ -2349,7 +2318,6 @@
 | `RNGReporter/SeedFinder.Designer.cs` | `literal` | Def | 防御 |
 | `RNGReporter/SeedFinder.Designer.cs` | `literal` | Month | 月份 |
 | `RNGReporter/SeedFinder.Designer.cs` | `literal` | Atk | 攻击 |
-| `RNGReporter/SeedFinder.Designer.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/SeedFinder.Designer.cs` | `literal` | Find Seed by Stats | 根据能力值计算seed |
 | `RNGReporter/SeedFinder.Designer.cs` | `literal` | Offset | 偏差 |
 | `RNGReporter/SeedFinder.Designer.cs` | `literal` | Characteristic | 个性 |
@@ -2517,7 +2485,6 @@
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label91.Text` | Ability | 特性 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `radioButton4.Text` | Snagged Pokémon (with nature lock) | 捕捉的宝可梦（锁性格） |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `radioButton6.Text` | Snagged Pokémon (first position) | 捕捉的宝可梦（初见） |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `label98.Text` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label100.Text` | Atk | 攻击 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label102.Text` | Def | 防御 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label103.Text` | SpA | 特攻 |
@@ -2526,7 +2493,6 @@
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn3.HeaderText` | Ticks | 时刻 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn5.HeaderText` | Time (s) | 时间 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn6.HeaderText` | Nature | 性格 |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn8.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn9.HeaderText` | Atk | 攻击 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn10.HeaderText` | Def | 防御 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn11.HeaderText` | SpA | 特攻 |
@@ -2547,10 +2513,8 @@
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label83.Text` | SpD | 特防 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label84.Text` | SpA | 特攻 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label85.Text` | Def | 防御 |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `label77.Text` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label86.Text` | Atk | 攻击 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label76.Text` | Atk | 攻击 |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `label87.Text` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label75.Text` | Def | 防御 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label74.Text` | SpA | 特攻 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label73.Text` | SpD | 特防 |
@@ -2558,7 +2522,6 @@
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `XDTicks.HeaderText` | Ticks | 时刻 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `XDTime.HeaderText` | Time (s) | 时间 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `XDNature.HeaderText` | Nature | 性格 |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `XDHp.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `XDAtk.HeaderText` | Atk | 攻击 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `XDDef.HeaderText` | Def | 防御 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `XDSpa.HeaderText` | SpA | 特攻 |
@@ -2588,7 +2551,6 @@
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `Shiny.HeaderText` | !!! | 异色 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `cNature.HeaderText` | Nature | 性格 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `Ability.HeaderText` | Ability | 特性 |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `CapHP.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `CapAtk.HeaderText` | Atk | 攻击 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `CapDef.HeaderText` | Def | 防御 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `CapSpA.HeaderText` | SpA | 特攻 |
@@ -2617,13 +2579,11 @@
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label38.Text` | SpA | 特攻 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label39.Text` | Def | 防御 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label40.Text` | Atk | 攻击 |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `label46.Text` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `checkEIVInheritance.Text` | Show Inheritance | 显示遗传来源 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label55.Text` | Parent B | 父母B |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label63.Text` | Parent A | 父母A |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn38.HeaderText` | Egg Pickup Frame | 蛋领取帧 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn39.HeaderText` | Egg Pickup Time | 蛋领取时间 |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `EIVHP.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `EIVAtk.HeaderText` | Atk | 攻击 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `EIVDef.HeaderText` | Def | 防御 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `EIVSpA.HeaderText` | SpA | 特攻 |
@@ -2671,7 +2631,6 @@
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label68.Text` | SpA | 特攻 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label67.Text` | Def | 防御 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label45.Text` | Atk | 攻击 |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `label42.Text` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label66.Text` | Frame Held | 蛋生成帧 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `buttonShiny3rdGenerate.Text` | Generate | 计算 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label58.Text` | Compatibility | 相性 |
@@ -2690,7 +2649,6 @@
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `Shiny3rdShinyDisplay.HeaderText` | !!! | 异色 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `shiny3rdNature.HeaderText` | Nature | 性格 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `shiny3rdAbility.HeaderText` | Ability | 特性 |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `shiny3rdHP.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `shiny3rdAtk.HeaderText` | Atk | 攻击 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `shiny3rdDef.HeaderText` | Def | 防御 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `shiny3rdSpA.HeaderText` | SpA | 特攻 |
@@ -2710,7 +2668,6 @@
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label50.Text` | SpA | 特攻 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label51.Text` | Def | 防御 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label53.Text` | Atk | 攻击 |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `label59.Text` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label60.Text` | Frame Held | 蛋生成帧 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `generateFRLGEggShiny.Text` | Generate | 计算 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label61.Text` | Compatibility | 相性 |
@@ -2728,7 +2685,6 @@
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn47.HeaderText` | !!! | 异色 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn48.HeaderText` | Nature | 性格 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn49.HeaderText` | Ability | 特性 |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn50.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn51.HeaderText` | Atk | 攻击 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn52.HeaderText` | Def | 防御 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn53.HeaderText` | SpA | 特攻 |
@@ -2748,13 +2704,11 @@
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label5.Text` | Slots | 槽位 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `status.Text` | Awaiting Command | 等待操作... |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `anyHiddenPower.Text` | Any | 任意 |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `L_ball.Text` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `Lead.HeaderText` | Lead | 首发 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `WildEncounterSlot.HeaderText` | Slot | 槽位 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn19.HeaderText` | !!! | 异色 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn20.HeaderText` | Nature | 性格 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn21.HeaderText` | Ability | 特性 |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn23.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn25.HeaderText` | Atk | 攻击 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn26.HeaderText` | Def | 防御 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `dataGridViewTextBoxColumn27.HeaderText` | SpA | 特攻 |
@@ -2767,7 +2721,6 @@
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `L_search_C.Text` | SpA | 特攻 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `L_search_B.Text` | Def | 防御 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `L_search_A.Text` | Atk | 攻击 |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `L_search_H.Text` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label14.Text` | Gender | 性别比例 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label17.Text` | Method | 算法 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `label22.Text` | Ability | 特性 |
@@ -2781,10 +2734,11 @@
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Start Timer | 开始时间 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Get Current Tick | 获取当前Tick |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Any | 任意 |
+| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Ability 0 | 特性 0 |
+| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Ability 1 | 特性 1 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Ability | 特性 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Snagged Pokémon (with nature lock) | 捕捉的宝可梦（锁性格） |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Snagged Pokémon (first position) | 捕捉的宝可梦（初见） |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Atk | 攻击 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Def | 防御 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | SpA | 特攻 |
@@ -2876,6 +2830,17 @@
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Egg Held Frame | 蛋生成帧 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Egg Held Time | 蛋生成时间 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Advances | 帧数 |
+| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Female (50% Male, 50% Female) | 雌（50% 雄 / 50% 雌） |
+| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Male (50% Male, 50% Female) | 雄（50% 雄 / 50% 雌） |
+| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Female (25% Male, 75% Female) | 雌（25% 雄 / 75% 雌） |
+| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Male (25% Male, 75% Female) | 雄（25% 雄 / 75% 雌） |
+| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Female (75% Male, 25% Female) | 雌（75% 雄 / 25% 雌） |
+| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Male (75% Male, 25% Female) | 雄（75% 雄 / 25% 雌） |
+| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Female (87.5% Male, 12.5% Female) | 雌（87.5% 雄 / 12.5% 雌） |
+| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Male (87.5% Male, 12.5% Female) | 雄（87.5% 雄 / 12.5% 雌） |
+| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | The two don\'t seem to like each other | 两只宝可梦不太喜欢对方 |
+| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | The two seem to get along | 两只宝可梦关系不错 |
+| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | The two seem to get along very well | 两只宝可梦关系非常好 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Ruby\\Sapphire Shiny Egg | 红\\蓝宝石异色蛋 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Initial Seed | 初始seed |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Pickup Frame | 蛋领取帧 |
@@ -2894,9 +2859,7 @@
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Hidden | 觉醒 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Hidden | 觉醒力量威力 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Power | 威力 |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Don\'t Care / Genderless | 不考虑/无性别 |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Male (100% Male) | ♂(只有♂) |
-| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Female (100% Female) | ♀(只有♀) |
+| `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | Method 1 | 算法 1 |
 | `RNGReporter/TimeFinder3rd.Designer.cs` | `literal` | 3rd Generation Time Finder | 第三世代时间查找器 |
 | `RNGReporter/TimeFinder3rd.cs` | `literal` | Hardy | 勤奋 |
 | `RNGReporter/TimeFinder3rd.cs` | `literal` | Lonely | 怕寂寞 |
@@ -2940,7 +2903,16 @@
 | `RNGReporter/TimeFinder3rd.cs` | `literal` | Dragon | 龙 |
 | `RNGReporter/TimeFinder3rd.cs` | `literal` | Dark | 恶 |
 | `RNGReporter/TimeFinder3rd.cs` | `literal` | Any | 任意 |
+| `RNGReporter/TimeFinder3rd.cs` | `literal` | Ability 0 | 特性 0 |
+| `RNGReporter/TimeFinder3rd.cs` | `literal` | Ability 1 | 特性 1 |
+| `RNGReporter/TimeFinder3rd.cs` | `literal` | Method 1 | 算法 1 |
+| `RNGReporter/TimeFinder3rd.cs` | `literal` | Method 2 | 算法 2 |
+| `RNGReporter/TimeFinder3rd.cs` | `literal` | Method 4 | 算法 4 |
+| `RNGReporter/TimeFinder3rd.cs` | `literal` | Method H-1 | 算法 H-1 |
+| `RNGReporter/TimeFinder3rd.cs` | `literal` | Method H-2 | 算法 H-2 |
+| `RNGReporter/TimeFinder3rd.cs` | `literal` | Method H-4 | 算法 H-4 |
 | `RNGReporter/TimeFinder3rd.cs` | `literal` | Wild Pokémon | 野生宝可梦 |
+| `RNGReporter/TimeFinder3rd.cs` | `literal` | Wild Pokémon (Surfing) | 野生宝可梦（冲浪） |
 | `RNGReporter/TimeFinder3rd.cs` | `literal` | Wild Pokémon (Old Rod) | 野生宝可梦（破旧钓竿） |
 | `RNGReporter/TimeFinder3rd.cs` | `literal` | Wild Pokémon (Good Rod) | 野生宝可梦（好钓竿） |
 | `RNGReporter/TimeFinder3rd.cs` | `literal` | Wild Pokémon (Super Rod) | 野生宝可梦（厉害钓竿） |
@@ -2980,7 +2952,6 @@
 | `RNGReporter/TimeFinder4th.Designer.cs` | `label25.Text` | SpA | 特攻 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `label24.Text` | Def | 防御 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `label12.Text` | Atk | 攻击 |
-| `RNGReporter/TimeFinder4th.Designer.cs` | `label11.Text` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `lblIVB.Text` | Parent B | 父母B |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `lblIVA.Text` | Parent A | 父母A |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `label14.Text` | Year | 年份 |
@@ -2989,7 +2960,7 @@
 | `RNGReporter/TimeFinder4th.Designer.cs` | `tabPageShinyEgg.Text` | Shiny Egg | 异色蛋 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `checkBoxNoHappiness.Text` | Avoid Happiness Checker | 不轻触亲密度检测器 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `label8.Text` | Max Taps | 最大轻触下屏次数 |
-| `RNGReporter/TimeFinder4th.Designer.cs` | `checkBoxIntlParents.Text` | International Parents | 国际婚姻 |
+| `RNGReporter/TimeFinder4th.Designer.cs` | `checkBoxIntlParents.Text` | International Parents | 异国 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `radioButtonHGSS.Text` | Heart Gold\\Soul Silver | 心金\\魂银 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `radioButtonDPPt.Text` | Diamond\\Pearl\\Platinum | 钻石\\珍珠\\白金 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `label92.Text` | Gender | 性别比例 |
@@ -3030,7 +3001,6 @@
 | `RNGReporter/TimeFinder4th.Designer.cs` | `buttonShinyClearNature.Text` | Any | 任意 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `Date.HeaderText` | Date | 日期 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `Offset.HeaderText` | Frame | 帧数 |
-| `RNGReporter/TimeFinder4th.Designer.cs` | `HP.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `Atk.HeaderText` | Atk | 攻击 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `Def.HeaderText` | Def | 防御 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `SpA.HeaderText` | SpA | 特攻 |
@@ -3047,7 +3017,6 @@
 | `RNGReporter/TimeFinder4th.Designer.cs` | `Shiny.HeaderText` | !!! | 异色 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `Nature.HeaderText` | Nature | 性格 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `Ability.HeaderText` | Ability | 特性 |
-| `RNGReporter/TimeFinder4th.Designer.cs` | `CapHP.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `CapAtk.HeaderText` | Atk | 攻击 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `CapDef.HeaderText` | Def | 防御 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `CapSpA.HeaderText` | SpA | 特攻 |
@@ -3071,7 +3040,6 @@
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | SpA | 特攻 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Def | 防御 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Atk | 攻击 |
-| `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Parent B | 父母B |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Parent A | 父母A |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Year | 年份 |
@@ -3080,7 +3048,7 @@
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Shiny Egg | 异色蛋 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Avoid Happiness Checker | 不轻触亲密度检测器 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Max Taps | 最大轻触下屏次数 |
-| `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | International Parents | 国际婚姻 |
+| `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | International Parents | 异国 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Gender | 性别比例 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Shiny Only | 仅异色 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Nature | 性格 |
@@ -3100,6 +3068,8 @@
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Microsoft Sans Serif | 宋体 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Stationary\\Gift Pokémon | 定点\\礼物宝可梦 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Generate | 计算 |
+| `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Ability 0 | 特性 0 |
+| `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Ability 1 | 特性 1 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Offset | 偏移 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Frame | 帧数 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | !!! | 异色 |
@@ -3115,12 +3085,19 @@
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Hidden | 觉醒力量 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | Power | 觉醒力量威力 |
 | `RNGReporter/TimeFinder4th.Designer.cs` | `literal` | 4th Generation Time Finder | 第四世代时间查找器 |
+| `RNGReporter/TimeFinder4th.cs` | `literal` | Method 1 | 算法 1 |
+| `RNGReporter/TimeFinder4th.cs` | `literal` | Method J | 算法 J |
+| `RNGReporter/TimeFinder4th.cs` | `literal` | Method K | 算法 K |
+| `RNGReporter/TimeFinder4th.cs` | `literal` | Wondercard IVs | 神秘礼物 IV |
+| `RNGReporter/TimeFinder4th.cs` | `literal` | PokeWalker IVs | 宝可计步器 IV |
+| `RNGReporter/TimeFinder4th.cs` | `literal` | Chained Spreads | 连锁异色 |
 | `RNGReporter/TimeFinder4th.cs` | `literal` | Any | 任意 |
+| `RNGReporter/TimeFinder4th.cs` | `literal` | Ability 0 | 特性 0 |
+| `RNGReporter/TimeFinder4th.cs` | `literal` | Ability 1 | 特性 1 |
 | `RNGReporter/TimeFinder4th.cs` | `literal` | You must enter a year greater than 1999. | 你必须输入大于 1999 的年份。 |
 | `RNGReporter/TimeFinder4th.cs` | `literal` | Please Enter a Valid Year | 请输入一个有效年份 |
 | `RNGReporter/TimeFinder4th.cs` | `literal` | Flip Sequence | 硬币序列 |
 | `RNGReporter/TimeFinder4th.cs` | `literal` | Elm Sequence | 电话序列 |
-| `RNGReporter/TimeFinder4th.cs` | `literal` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder4th.cs` | `literal` | Atk | 攻击 |
 | `RNGReporter/TimeFinder4th.cs` | `literal` | Def | 防御 |
 | `RNGReporter/TimeFinder4th.cs` | `literal` | SpA | 特攻 |
@@ -3129,10 +3106,12 @@
 | `RNGReporter/TimeFinder4th.cs` | `literal` | Save Output to TXT | 保存输出到 TXT |
 | `RNGReporter/TimeFinder4th.cs` | `literal` | TXT Files\|*.txt | TXT 文件\|*.txt |
 | `RNGReporter/TimeFinder4th.cs` | `literal` | Wild Pokémon | 野生宝可梦 |
+| `RNGReporter/TimeFinder4th.cs` | `literal` | Wild Pokémon (Surfing) | 野生宝可梦（冲浪） |
 | `RNGReporter/TimeFinder4th.cs` | `literal` | Wild Pokémon (Old Rod) | 野生宝可梦（破旧钓竿） |
 | `RNGReporter/TimeFinder4th.cs` | `literal` | Wild Pokémon (Good Rod) | 野生宝可梦（好钓竿） |
 | `RNGReporter/TimeFinder4th.cs` | `literal` | Wild Pokémon (Super Rod) | 野生宝可梦（厉害钓竿） |
 | `RNGReporter/TimeFinder4th.cs` | `literal` | Stationary Pokémon | 定点宝可梦 |
+| `RNGReporter/TimeFinder4th.cs` | `literal` | Bug-Catching Contest | 捕虫大赛 |
 | `RNGReporter/TimeFinder4th.cs` | `literal` | Safari Zone | 狩猎地带 |
 | `RNGReporter/TimeFinder4th.cs` | `literal` | Headbutt | 头锤树 |
 | `RNGReporter/TimeFinder4th.cs` | `literal` | Stationary\\Gift Pokémon | 定点\\礼物宝可梦 |
@@ -3162,8 +3141,7 @@
 | `RNGReporter/TimeFinder5th.Designer.cs` | `label5.Text` | SpA | 特攻 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `label4.Text` | Def | 防御 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `label3.Text` | Atk | 攻击 |
-| `RNGReporter/TimeFinder5th.Designer.cs` | `label2.Text` | HP | 觉醒力量 |
-| `RNGReporter/TimeFinder5th.Designer.cs` | `checkBoxIntlParents.Text` | International Parents | 国际婚姻 |
+| `RNGReporter/TimeFinder5th.Designer.cs` | `checkBoxIntlParents.Text` | International Parents | 异国 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `label92.Text` | Gender | 性别比例 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `checkBoxShinyShinyOnly.Text` | Shiny Only | 仅异色 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `checkBoxShowInheritance.Text` | Show Inheritance | 显示遗传来源 |
@@ -3183,7 +3161,6 @@
 | `RNGReporter/TimeFinder5th.Designer.cs` | `ShinyNature.HeaderText` | Nature | 性格 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `dataGridViewTextBoxColumn4.HeaderText` | Ability | 特性 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `ShinyDreamAbility.HeaderText` | Dream Ability | 梦特性 |
-| `RNGReporter/TimeFinder5th.Designer.cs` | `ShinyHP.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `ShinyAtk.HeaderText` | Atk | 攻击 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `ShinyDef.HeaderText` | Def | 防御 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `ShinySpA.HeaderText` | SpA | 特攻 |
@@ -3220,12 +3197,11 @@
 | `RNGReporter/TimeFinder5th.Designer.cs` | `label9.Text` | IV filters... | 个体值筛选未设置为允许快速搜索\r\n请尝试搜索常见的分配方案\r\n如完美分配或戏法空间的分配方案 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `label52.Text` | Encounter Type | 相遇类型 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `label10.Text` | Gender Ratio | 比例 |
-| `RNGReporter/TimeFinder5th.Designer.cs` | `tabEvent.Text` | Wondercard | 神秘卡片 |
+| `RNGReporter/TimeFinder5th.Designer.cs` | `tabEvent.Text` | Wondercard | 神秘礼物 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `EventFrame.HeaderText` | Frame | 帧 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `EventShiny.HeaderText` | !!! | 异色 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `EventNature.HeaderText` | Nature | 性格 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `EventAbility.HeaderText` | Ability | 特性 |
-| `RNGReporter/TimeFinder5th.Designer.cs` | `EventHP.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `EventAtk.HeaderText` | Atk | 攻击 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `EventDef.HeaderText` | Def | 防御 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `EventSpA.HeaderText` | SpA | 特攻 |
@@ -3254,7 +3230,6 @@
 | `RNGReporter/TimeFinder5th.Designer.cs` | `checkBoxSpA.Text` | SpA | 特攻 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `checkBoxDef.Text` | Def | 防御 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `checkBoxAtk.Text` | Atk | 攻击 |
-| `RNGReporter/TimeFinder5th.Designer.cs` | `checkBoxHP.Text` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `label29.Text` | Min / Max Advances | 最小 / 最大推进 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `label31.Text` | Month | 月份 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `label35.Text` | Year | 年份 |
@@ -3296,7 +3271,6 @@
 | `RNGReporter/TimeFinder5th.Designer.cs` | `dataGridViewTextBoxColumn10.HeaderText` | Frame | 帧数 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `dataGridViewTextBoxColumn12.HeaderText` | !!! | 异色 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `dataGridViewTextBoxColumn13.HeaderText` | Nature | 性格 |
-| `RNGReporter/TimeFinder5th.Designer.cs` | `dataGridViewTextBoxColumn16.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `dataGridViewTextBoxColumn17.HeaderText` | Atk | 攻击 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `dataGridViewTextBoxColumn18.HeaderText` | Def | 防御 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `dataGridViewTextBoxColumn26.HeaderText` | SpA | 特攻 |
@@ -3355,7 +3329,6 @@
 | `RNGReporter/TimeFinder5th.Designer.cs` | `Shiny.HeaderText` | !!! | 异色 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `Nature.HeaderText` | Nature | 性格 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `Ability.HeaderText` | Ability | 特性 |
-| `RNGReporter/TimeFinder5th.Designer.cs` | `CapHP.HeaderText` | HP | 觉醒力量 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `CapAtk.HeaderText` | Atk | 攻击 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `CapDef.HeaderText` | Def | 防御 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `CapSpA.HeaderText` | SpA | 特攻 |
@@ -3383,8 +3356,7 @@
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | SpA | 特攻 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Def | 防御 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Atk | 攻击 |
-| `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | HP | 觉醒力量 |
-| `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | International Parents | 国际婚姻 |
+| `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | International Parents | 异国 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Gender | 性别比例 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Shiny Only | 仅异色 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Show Inheritance | 显示遗传来源 |
@@ -3409,6 +3381,8 @@
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Keypress | 按键 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Don\'t Care/Fixed Gender/Genderless | 不考虑/固定性别/无性别 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Any | 任意 |
+| `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Ability 0 | 特性 0 |
+| `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Ability 1 | 特性 1 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Generate | 计算 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Microsoft Sans Serif | 宋体 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Capture | 正常捕捉 |
@@ -3420,6 +3394,7 @@
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Slot | 遭遇槽位 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Level | 等级 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Gender | 性别 |
+| `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Swarm | 大量出现 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Sync Success | 仅同步生效帧 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Settings | 设置 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Calibrate Delay | 校准 Delay |
@@ -3434,7 +3409,7 @@
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | All Ratios | 所有比例 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Fixed Gender | 固定性别 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Gender Ratio | 比例 |
-| `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Wondercard | 神秘卡片 |
+| `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Wondercard | 神秘礼物 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Frame | 帧 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Hidden | 觉醒 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Power | 威力 |
@@ -3521,15 +3496,26 @@
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | Synchronized | 同步 |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | C-Gear Seed | Ｃ装置 Seed |
 | `RNGReporter/TimeFinder5th.Designer.cs` | `literal` | 5th Generation Time Finder | 第五世代时间查找器 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | PID + IVs (Standard) | PID + IVs（标准） |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | PID + IVs (Standard + C-Gear) | PID + IVs（标准 + C-Gear） |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | Any | 任意 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | Ability 0 | 特性 0 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | Ability 1 | 特性 1 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | Tall Grass | 草丛 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | Dark Grass | 深色草丛 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | Swarm | 大量出现 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | Surfing | 冲浪 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | Fishing | 垂钓 |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | Shaking Grass | 摇动草丛 |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | Bubble Spot | 水纹水面 |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | Fishing Spot | 钓鱼点 |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | Cave Spot | 卷尘地面 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | Flying Shadow | 飞行影子 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | Stationary | 定点宝可梦 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | Roamer | 游走宝可梦 |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | Gift Pokémon | 礼物宝可梦 |
-| `RNGReporter/TimeFinder5th.cs` | `literal` | No profiles were detected. Please setup a profile first. | 没有检测到GEN5的存档信息，请先新增一个存档信息。 |
-| `RNGReporter/TimeFinder5th.cs` | `literal` | This method is not possible in BW2. | 此方法在 BW2 中不可用。 |
-| `RNGReporter/TimeFinder5th.cs` | `literal` | Error | 错误 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | Larvesta/Happiny Egg | 燃烧虫/小福蛋的蛋 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | Jellicent | 胖嘟嘟 |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | You must enter a year greater than 1999. | 你必须输入大于 1999 的年份。 |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | Please Enter a Valid Year | 请输入一个有效年份 |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | error in loading roamer tables | 加载游走宝可梦表时出错 |
@@ -3548,12 +3534,21 @@
 | `RNGReporter/TimeFinder5th.cs` | `literal` | !!! | 异色 |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | A !!! in this column indicates the frame will be shiny. | 如果该帧的异色列有!!!则说明该帧是异色 |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | Encounter Slot | 遭遇槽 |
-| `RNGReporter/TimeFinder5th.cs` | `literal` | 5th Gen Wonder Card \|*.pgf | 第五世代神秘卡片 \|*.pgf |
-| `RNGReporter/TimeFinder5th.cs` | `literal` | Select a Wonder Card File | 选择神秘卡片文件 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | 5th Gen Wonder Card \|*.pgf | 第五世代神秘礼物 \|*.pgf |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | Select a Wonder Card File | 选择神秘礼物文件 |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | Unable to have Ditto parent and Dream World ability at the same time. | 不能同时拥有同上父母和梦特性。 |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | Year must be between 2000 and 2099. | 年份必须在2000到2099之间 |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | The parent IVs you have listed cannot produce your desired search results. | 你列出的父母 IV 无法产生期望的搜索结果。 |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | IV filters are set for fast searching. | IV 筛选已设置为快速搜索。 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | IV filters are set for Entralink fast searching, but\r\n | IV 筛选已适合连接森林快速搜索，但\r\n |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | Min and Max Frames need to be between\r\n | 最小/最大帧需要在 20 到 25 之间。\r\n |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | 20 and 25.  (Setting both to 20 is recommended.) | 建议两者都设为 20。 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | IV filters are set for fast searching, but\r\n | IV 筛选已适合快速搜索，但\r\n |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | Min and Max Frames need to be between\r\n | 最小/最大帧需要在 0 到 5 之间。\r\n |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | 0 and 5.  (Setting both to 0 is recommended.) | 建议两者都设为 0。 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | \r\nOr 25 and 30 for Entralink abuse | \r\n连接森林乱数可设为 25 到 30。 |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | IV filters are not set to allow fast searching.\r\nTry searching for a common spread | 当前 IV 筛选不适合快速搜索。\r\n请尝试搜索较常见的分布， |
+| `RNGReporter/TimeFinder5th.cs` | `literal` | \r\nsuch as flawless, or a Trick Room spread. | \r\n例如 6V 或戏法空间分布。 |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | Currently not supported for this method. | 当前不支持此方法。 |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | Loading the seeds file. Please be patient and wait for it to finish. | 正在加载 seed 文件，请耐心等待完成。 |
 | `RNGReporter/TimeFinder5th.cs` | `literal` | Seeds successfully loaded. | seed记载成功 |

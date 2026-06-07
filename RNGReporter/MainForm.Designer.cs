@@ -267,14 +267,14 @@ namespace RNGReporter
             //
             // label3
             //
-            this.label3.AutoSize = true;
+            this.label3.AutoSize = false;
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label3.Location = new System.Drawing.Point(54, 53);
+            this.label3.Location = new System.Drawing.Point(9, 51);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 13);
+            this.label3.Size = new System.Drawing.Size(88, 18);
             this.label3.TabIndex = 0;
             this.label3.Text = "随机数算法";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // checkBoxShinyOnly
             //
@@ -457,23 +457,25 @@ namespace RNGReporter
             //
             // label11
             //
-            this.label11.AutoSize = true;
+            this.label11.AutoSize = false;
             this.label11.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label11.Location = new System.Drawing.Point(37, 185);
+            this.label11.Location = new System.Drawing.Point(9, 183);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(56, 13);
+            this.label11.Size = new System.Drawing.Size(88, 18);
             this.label11.TabIndex = 6;
             this.label11.Text = "初始帧";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // label12
             //
-            this.label12.AutoSize = true;
+            this.label12.AutoSize = false;
             this.label12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label12.Location = new System.Drawing.Point(37, 160);
+            this.label12.Location = new System.Drawing.Point(9, 158);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(60, 13);
+            this.label12.Size = new System.Drawing.Size(88, 18);
             this.label12.TabIndex = 8;
             this.label12.Text = "Seed (Hex)";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // label13
             //
@@ -547,7 +549,7 @@ namespace RNGReporter
             this.labelElmForSeed.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.labelElmForSeed.AutoSize = true;
             this.labelElmForSeed.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelElmForSeed.Location = new System.Drawing.Point(524, 548);
+            this.labelElmForSeed.Location = new System.Drawing.Point(500, 548);
             this.labelElmForSeed.Name = "labelElmForSeed";
             this.labelElmForSeed.Size = new System.Drawing.Size(0, 13);
             this.labelElmForSeed.TabIndex = 77;
@@ -558,11 +560,11 @@ namespace RNGReporter
             this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label19.AutoSize = true;
             this.label19.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label19.Location = new System.Drawing.Point(398, 548);
+            this.label19.Location = new System.Drawing.Point(390, 548);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(126, 13);
+            this.label19.Size = new System.Drawing.Size(108, 13);
             this.label19.TabIndex = 76;
-            this.label19.Text = "Elm打电话的结果获取Seed：";
+            this.label19.Text = "Elm电话获取Seed：";
             this.label19.TextAlign = System.Drawing.ContentAlignment.TopRight;
             //
             // checkBoxRPresent
@@ -596,9 +598,9 @@ namespace RNGReporter
             this.checkBoxLPresent.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.checkBoxLPresent.Location = new System.Drawing.Point(314, 572);
             this.checkBoxLPresent.Name = "checkBoxLPresent";
-            this.checkBoxLPresent.Size = new System.Drawing.Size(32, 17);
+            this.checkBoxLPresent.Size = new System.Drawing.Size(128, 17);
             this.checkBoxLPresent.TabIndex = 43;
-            this.checkBoxLPresent.Text = "拉帝欧斯\\拉迪亚斯";
+            this.checkBoxLPresent.Text = "拉帝亚斯/拉帝欧斯";
             this.checkBoxLPresent.UseVisualStyleBackColor = true;
             //
             // label18
@@ -606,18 +608,18 @@ namespace RNGReporter
             this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label18.AutoSize = true;
             this.label18.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label18.Location = new System.Drawing.Point(375, 573);
+            this.label18.Location = new System.Drawing.Point(455, 573);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(149, 13);
+            this.label18.Size = new System.Drawing.Size(70, 13);
             this.label18.TabIndex = 85;
-            this.label18.Text = "游走宝可梦位置：";
+            this.label18.Text = "游走位置：";
             //
             // labelRoamerRoutes
             //
             this.labelRoamerRoutes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.labelRoamerRoutes.AutoSize = true;
             this.labelRoamerRoutes.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelRoamerRoutes.Location = new System.Drawing.Point(524, 573);
+            this.labelRoamerRoutes.Location = new System.Drawing.Point(525, 573);
             this.labelRoamerRoutes.Name = "labelRoamerRoutes";
             this.labelRoamerRoutes.Size = new System.Drawing.Size(0, 13);
             this.labelRoamerRoutes.TabIndex = 0;
@@ -1507,13 +1509,14 @@ namespace RNGReporter
             //
             // label4
             //
-            this.label4.AutoSize = true;
+            this.label4.AutoSize = false;
             this.label4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label4.Location = new System.Drawing.Point(15, 211);
+            this.label4.Location = new System.Drawing.Point(9, 209);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 13);
+            this.label4.Size = new System.Drawing.Size(88, 18);
             this.label4.TabIndex = 335;
             this.label4.Text = "最大帧";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // MainImportWC
             //
@@ -1713,8 +1716,8 @@ namespace RNGReporter
             this.comboBoxAbility.FormattingEnabled = true;
             this.comboBoxAbility.Items.AddRange(new object[] {
             "任意",
-            "Ability 0",
-            "Ability 1"});
+            "特性 0",
+            "特性 1"});
             this.comboBoxAbility.Location = new System.Drawing.Point(662, 61);
             this.comboBoxAbility.Name = "comboBoxAbility";
             this.comboBoxAbility.ShineColor = System.Drawing.SystemColors.Window;
@@ -2009,8 +2012,8 @@ namespace RNGReporter
             // HP
             //
             this.HP.DataPropertyName = "DisplayHp";
-            this.HP.HeaderText = "觉醒力量";
-            this.HP.Name = "觉醒力量";
+            this.HP.HeaderText = "HP";
+            this.HP.Name = "HP";
             this.HP.ReadOnly = true;
             this.HP.Visible = false;
             this.HP.Width = 35;

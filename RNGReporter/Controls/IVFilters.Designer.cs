@@ -83,11 +83,11 @@
             ">=",
             "<=",
             "!=",
-            "炎帝",
-            "O",
-            "觉醒力量",
-            "HP_E",
-            "HP_O"});
+            "偶",
+            "奇",
+            "HP",
+            "HP偶",
+            "HP奇"});
             this.cbSpe.Location = new System.Drawing.Point(37, 138);
             this.cbSpe.Name = "cbSpe";
             this.cbSpe.ShineColor = System.Drawing.SystemColors.Window;
@@ -182,7 +182,7 @@
             this.lblHP.Name = "lblHP";
             this.lblHP.Size = new System.Drawing.Size(22, 13);
             this.lblHP.TabIndex = 261;
-            this.lblHP.Text = "觉醒力量";
+            this.lblHP.Text = "HP";
             this.lblHP.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // btn31Spe
@@ -320,11 +320,11 @@
             ">=",
             "<=",
             "!=",
-            "炎帝",
-            "O",
-            "觉醒力量",
-            "HP_E",
-            "HP_O"});
+            "偶",
+            "奇",
+            "HP",
+            "HP偶",
+            "HP奇"});
             this.cbHP.Location = new System.Drawing.Point(37, 3);
             this.cbHP.Name = "cbHP";
             this.cbHP.ShineColor = System.Drawing.SystemColors.Window;
@@ -357,11 +357,11 @@
             ">=",
             "<=",
             "!=",
-            "炎帝",
-            "O",
-            "觉醒力量",
-            "HP_E",
-            "HP_O"});
+            "偶",
+            "奇",
+            "HP",
+            "HP偶",
+            "HP奇"});
             this.cbAtk.Location = new System.Drawing.Point(37, 30);
             this.cbAtk.Name = "cbAtk";
             this.cbAtk.ShineColor = System.Drawing.SystemColors.Window;
@@ -436,11 +436,11 @@
             ">=",
             "<=",
             "!=",
-            "炎帝",
-            "O",
-            "觉醒力量",
-            "HP_E",
-            "HP_O"});
+            "偶",
+            "奇",
+            "HP",
+            "HP偶",
+            "HP奇"});
             this.cbDef.Location = new System.Drawing.Point(37, 57);
             this.cbDef.Name = "cbDef";
             this.cbDef.ShineColor = System.Drawing.SystemColors.Window;
@@ -473,11 +473,11 @@
             ">=",
             "<=",
             "!=",
-            "炎帝",
-            "O",
-            "觉醒力量",
-            "HP_E",
-            "HP_O"});
+            "偶",
+            "奇",
+            "HP",
+            "HP偶",
+            "HP奇"});
             this.cbSpA.Location = new System.Drawing.Point(37, 84);
             this.cbSpA.Name = "cbSpA";
             this.cbSpA.ShineColor = System.Drawing.SystemColors.Window;
@@ -552,11 +552,11 @@
             ">=",
             "<=",
             "!=",
-            "炎帝",
-            "O",
-            "觉醒力量",
-            "HP_E",
-            "HP_O"});
+            "偶",
+            "奇",
+            "HP",
+            "HP偶",
+            "HP奇"});
             this.cbSpD.Location = new System.Drawing.Point(37, 111);
             this.cbSpD.Name = "cbSpD";
             this.cbSpD.ShineColor = System.Drawing.SystemColors.Window;

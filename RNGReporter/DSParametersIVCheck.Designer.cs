@@ -197,7 +197,7 @@ namespace RNGReporter
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(23, 15);
             this.label18.TabIndex = 8;
-            this.label18.Text = "觉醒力量";
+            this.label18.Text = "HP";
             //
             // buttonCheck
             //

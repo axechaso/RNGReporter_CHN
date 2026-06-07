@@ -109,24 +109,24 @@ namespace RNGReporter
             var ability = new[]
                 {
                     new ComboBoxItem("任意", -1),
-                    new ComboBoxItem("Ability 0", 0),
-                    new ComboBoxItem("Ability 1", 1)
+                    new ComboBoxItem("特性 0", 0),
+                    new ComboBoxItem("特性 1", 1)
                 };
 
             cbMethod.Items.AddRange(new object[]
                 {
-                    new ComboBoxItem("Method 1", FrameType.Method1),
-                    new ComboBoxItem("Method 2", FrameType.Method2),
-                    new ComboBoxItem("Method 4", FrameType.Method4),
-                    new ComboBoxItem("Method H-1", FrameType.MethodH1),
-                    new ComboBoxItem("Method H-2", FrameType.MethodH2),
-                    new ComboBoxItem("Method H-4", FrameType.MethodH4),
+                    new ComboBoxItem("算法 1", FrameType.Method1),
+                    new ComboBoxItem("算法 2", FrameType.Method2),
+                    new ComboBoxItem("算法 4", FrameType.Method4),
+                    new ComboBoxItem("算法 H-1", FrameType.MethodH1),
+                    new ComboBoxItem("算法 H-2", FrameType.MethodH2),
+                    new ComboBoxItem("算法 H-4", FrameType.MethodH4),
                 });
 
             cbEncounterType.Items.AddRange(new object[]
                 {
                     new ComboBoxItem("野生宝可梦", EncounterType.Wild),
-                    new ComboBoxItem("Wild Pokémon (Surfing)",
+                    new ComboBoxItem("野生宝可梦（冲浪）",
                                      EncounterType.WildSurfing),
                     new ComboBoxItem("野生宝可梦（破旧钓竿）",
                                      EncounterType.WildOldRod),
@@ -141,7 +141,7 @@ namespace RNGReporter
             comboBoxType.Items.AddRange(new object[]
                 {
                     new ComboBoxItem("野生宝可梦", EncounterType.Wild),
-                    new ComboBoxItem("Wild Pokémon (Surfing)",
+                    new ComboBoxItem("野生宝可梦（冲浪）",
                                      EncounterType.WildSurfing),
                     new ComboBoxItem("野生宝可梦（破旧钓竿）",
                                      EncounterType.WildOldRod),

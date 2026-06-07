@@ -33,7 +33,7 @@ namespace RNGReporter.Objects
         private readonly Nature nature;
         private readonly Pokemon pokemon;
 
-        private readonly string[] statNames = new[] {"觉醒力量", "攻击", "防御", "特攻", "特防", "速度"};
+        private readonly string[] statNames = new[] {"HP", "攻击", "防御", "特攻", "特防", "速度"};
 
         //private bool[] valid = new bool[6] { false, false, false, false, false, false };
         //public bool[] Valid

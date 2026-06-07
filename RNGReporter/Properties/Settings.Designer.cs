@@ -469,10 +469,10 @@ namespace RNGReporter.Properties {
         [global::System.Configuration.DefaultSettingValueAttribute("2017")]
         public string Year {
             get {
-                return ((string)(this["年份"]));
+                return ((string)(this["Year"]));
             }
             set {
-                this["年份"] = value;
+                this["Year"] = value;
             }
         }
 
@@ -481,10 +481,10 @@ namespace RNGReporter.Properties {
         [global::System.Configuration.DefaultSettingValueAttribute("1")]
         public string Month {
             get {
-                return ((string)(this["月份"]));
+                return ((string)(this["Month"]));
             }
             set {
-                this["月份"] = value;
+                this["Month"] = value;
             }
         }
 
@@ -493,10 +493,10 @@ namespace RNGReporter.Properties {
         [global::System.Configuration.DefaultSettingValueAttribute("1")]
         public string Date {
             get {
-                return ((string)(this["日期"]));
+                return ((string)(this["Date"]));
             }
             set {
-                this["日期"] = value;
+                this["Date"] = value;
             }
         }
 
@@ -529,10 +529,10 @@ namespace RNGReporter.Properties {
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
         public string Seconds {
             get {
-                return ((string)(this["秒数"]));
+                return ((string)(this["Seconds"]));
             }
             set {
-                this["秒数"] = value;
+                this["Seconds"] = value;
             }
         }
 

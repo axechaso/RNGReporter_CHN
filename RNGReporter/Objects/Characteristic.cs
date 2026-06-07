@@ -52,7 +52,7 @@ namespace RNGReporter.Objects
             var characteristicCollection =
                 new List<object>
                     {
-                        "NONE",
+                        "无",
                         new Characteristic(0, 0, 0),
                         new Characteristic(1, 0, 1),
                         new Characteristic(2, 0, 2),

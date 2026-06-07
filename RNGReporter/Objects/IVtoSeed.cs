@@ -220,7 +220,7 @@ namespace RNGReporter.Objects
                         //  Build a seed to add to our collection
                         var newSeed = new Seed
                         {
-                            Method = "Method 1",
+                            Method = "算法 1",
                             Pid = pid,
                             MonsterSeed = method1Seed,
                             Sid = sid
@@ -237,7 +237,7 @@ namespace RNGReporter.Objects
                         //  Build a seed to add to our collection
                         var newSeed = new Seed
                         {
-                            Method = "Method 1",
+                            Method = "算法 1",
                             Pid = pidXor,
                             MonsterSeed = method1SeedXor,
                             Sid = sid
@@ -847,7 +847,7 @@ namespace RNGReporter.Objects
                         //  Build a seed to add to our collection
                         var newSeed = new Seed
                         {
-                            Method = "Method 1",
+                            Method = "算法 1",
                             Pid = pid,
                             MonsterSeed = method1Seed
                         };
@@ -863,7 +863,7 @@ namespace RNGReporter.Objects
                         //  Build a seed to add to our collection
                         var newSeed = new Seed
                         {
-                            Method = "Method 1",
+                            Method = "算法 1",
                             Pid = pid,
                             MonsterSeed = method1Seed ^ 0x80000000
                         };

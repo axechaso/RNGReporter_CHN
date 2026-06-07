@@ -90,7 +90,7 @@ namespace RNGReporter.Objects
 
         //  We need a ctor to create an entire pokemon based
         //  on what what is passed in.  We will have a routine
-        //  that creates all of these and puts them into a 
+        //  that creates all of these and puts them into a
         //  nice collection for later lookup.
 
         public static List<Pokemon> PokemonCollection()
@@ -772,7 +772,7 @@ namespace RNGReporter.Objects
                 case (Language.Korean):
                     return Translations.pokemonNamesKOR[index];
                 default:
-                    return Translations.pokemonNamesENG[index];
+                    return Translations.pokemonNamesCHS[index];
             }
         }
 
@@ -793,7 +793,7 @@ namespace RNGReporter.Objects
                 case (Language.Korean):
                     return Translations.abilityNameKOR[ability];
                 default:
-                    return Translations.abilityNameENG[ability];
+                    return Translations.abilityNameCHS[ability];
             }
         }
 

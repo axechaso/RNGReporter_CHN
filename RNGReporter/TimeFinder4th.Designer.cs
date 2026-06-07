@@ -481,7 +481,7 @@ namespace RNGReporter
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(22, 13);
             this.label11.TabIndex = 95;
-            this.label11.Text = "觉醒力量";
+            this.label11.Text = "HP";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // lblIVB
@@ -572,8 +572,7 @@ namespace RNGReporter
             this.labelHappinessWarning.Name = "labelHappinessWarning";
             this.labelHappinessWarning.Size = new System.Drawing.Size(269, 81);
             this.labelHappinessWarning.TabIndex = 325;
-            this.labelHappinessWarning.Text = "It also assumes that you start the game from the coin flip application, and then " +
-    "switch to the happiness checker application.\r\n";
+            this.labelHappinessWarning.Text = "它同样假定你从宝可表是掷硬币开始游戏，然后“切换到亲密度检测器”。\r\n";
             //
             // checkBoxNoHappiness
             //
@@ -600,9 +599,9 @@ namespace RNGReporter
             this.checkBoxIntlParents.AutoSize = true;
             this.checkBoxIntlParents.Location = new System.Drawing.Point(55, 86);
             this.checkBoxIntlParents.Name = "checkBoxIntlParents";
-            this.checkBoxIntlParents.Size = new System.Drawing.Size(123, 17);
+            this.checkBoxIntlParents.Size = new System.Drawing.Size(62, 17);
             this.checkBoxIntlParents.TabIndex = 5;
-            this.checkBoxIntlParents.Text = "国际婚姻";
+            this.checkBoxIntlParents.Text = "异国";
             this.checkBoxIntlParents.UseVisualStyleBackColor = true;
             //
             // radioButtonHGSS
@@ -632,9 +631,9 @@ namespace RNGReporter
             // label92
             //
             this.label92.AutoSize = true;
-            this.label92.Location = new System.Drawing.Point(655, 94);
+            this.label92.Location = new System.Drawing.Point(625, 94);
             this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(42, 13);
+            this.label92.Size = new System.Drawing.Size(68, 13);
             this.label92.TabIndex = 317;
             this.label92.Text = "性别比例";
             //
@@ -654,8 +653,7 @@ namespace RNGReporter
             this.labelDPPtWarning.Name = "labelDPPtWarning";
             this.labelDPPtWarning.Size = new System.Drawing.Size(269, 71);
             this.labelDPPtWarning.TabIndex = 117;
-            this.labelDPPtWarning.Text = "Please note that number of flips and taps that are listed assume that you will al" +
-    "so be doing 10 coin flips to verify your initial seed. ";
+            this.labelDPPtWarning.Text = "请注意，列出的硬币序列和轻触次数假定你还将进行10次掷硬币以验证你的初始seed。";
             //
             // labelShinySecretID
             //
@@ -1230,8 +1228,8 @@ namespace RNGReporter
             this.comboBoxAbility.FormattingEnabled = true;
             this.comboBoxAbility.Items.AddRange(new object[] {
             "任意",
-            "Ability 0",
-            "Ability 1"});
+            "特性 0",
+            "特性 1"});
             this.comboBoxAbility.Location = new System.Drawing.Point(743, 43);
             this.comboBoxAbility.Name = "comboBoxAbility";
             this.comboBoxAbility.ShineColor = System.Drawing.SystemColors.Window;
@@ -1496,8 +1494,8 @@ namespace RNGReporter
             this.comboBoxShinyAbility.FormattingEnabled = true;
             this.comboBoxShinyAbility.Items.AddRange(new object[] {
             "任意",
-            "Ability 0",
-            "Ability 1"});
+            "特性 0",
+            "特性 1"});
             this.comboBoxShinyAbility.Location = new System.Drawing.Point(700, 43);
             this.comboBoxShinyAbility.MaxDropDownItems = 3;
             this.comboBoxShinyAbility.Name = "comboBoxShinyAbility";
@@ -1712,8 +1710,8 @@ namespace RNGReporter
             // HP
             //
             this.HP.DataPropertyName = "Hp";
-            this.HP.HeaderText = "觉醒力量";
-            this.HP.Name = "觉醒力量";
+            this.HP.HeaderText = "HP";
+            this.HP.Name = "HP";
             this.HP.ReadOnly = true;
             this.HP.Width = 30;
             //
@@ -2060,7 +2058,7 @@ namespace RNGReporter
             // CapHP
             //
             this.CapHP.DataPropertyName = "Hp";
-            this.CapHP.HeaderText = "觉醒力量";
+            this.CapHP.HeaderText = "HP";
             this.CapHP.Name = "CapHP";
             this.CapHP.ReadOnly = true;
             this.CapHP.Width = 30;

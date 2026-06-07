@@ -613,7 +613,7 @@ namespace RNGReporter
             // CapHP
             //
             this.CapHP.DataPropertyName = "Hp";
-            this.CapHP.HeaderText = "觉醒力量";
+            this.CapHP.HeaderText = "HP";
             this.CapHP.MinimumWidth = 6;
             this.CapHP.Name = "CapHP";
             this.CapHP.ReadOnly = true;

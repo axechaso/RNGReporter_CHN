@@ -164,7 +164,7 @@ namespace RNGReporter
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(23, 15);
             this.label20.TabIndex = 2;
-            this.label20.Text = "觉醒力量";
+            this.label20.Text = "HP";
             //
             // comboBoxAbility
             //

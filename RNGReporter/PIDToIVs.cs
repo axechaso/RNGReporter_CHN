@@ -119,7 +119,7 @@ namespace RNGReporter
         private void addSeed(uint seed, uint iv1)
         {
             String MonsterSeed = seed.ToString("X");
-            results.Add(new PIDIVS { Seed = MonsterSeed, Method = "Method 1", IVs = calcIVs1(iv1) });
+            results.Add(new PIDIVS { Seed = MonsterSeed, Method = "算法 1", IVs = calcIVs1(iv1) });
             results.Add(new PIDIVS { Seed = MonsterSeed, Method = "Method 2", IVs = calcIVs2(forward(iv1)) });
             results.Add(new PIDIVS { Seed = MonsterSeed, Method = "Method 4", IVs = calcIVs4(iv1) });
         }
@@ -320,7 +320,7 @@ namespace RNGReporter
         {
             switch (type)
             {
-                case "Method 1":
+                case "算法 1":
                     return 0;
                 case "Method 2":
                     return 2;

@@ -122,7 +122,11 @@ namespace RNGReporter
                     }
                     break;
                 default:
-                    font = DefaultFont;
+                    font = new Font("Microsoft YaHei UI", 9F);
+                    if (font.Name != "Microsoft YaHei UI")
+                    {
+                        font = new Font("宋体", 9F);
+                    }
                     break;
             }
 
@@ -172,12 +176,7 @@ namespace RNGReporter
 
             var stats = new[] { hp, atk, def, spa, spd, spe };
 
-            Characteristic characteristic = null;
-
-            if (comboBoxCharacteristic.SelectedItem.ToString() != "NONE")
-            {
-                characteristic = (Characteristic)comboBoxCharacteristic.SelectedItem;
-            }
+            Characteristic characteristic = comboBoxCharacteristic.SelectedItem as Characteristic;
 
             var ivCheck = new IVCheck(pokemon, level, nature, characteristic, stats);
 

@@ -110,35 +110,35 @@ namespace RNGReporter
 
             comboBoxMethod.Items.AddRange(new object[]
                 {
-                    new ComboBoxItem("PID + IVs (Standard)", FrameType.Method5Standard),
-                    new ComboBoxItem("PID + IVs (Standard + C-Gear)", FrameType.Method5Natures),
-                    new ComboBoxItem("IVs (C-Gear)", FrameType.Method5CGear),
+                    new ComboBoxItem("PID + IVs（标准）", FrameType.Method5Standard),
+                    new ComboBoxItem("PID + IVs（标准 + C-Gear）", FrameType.Method5Natures),
+                    new ComboBoxItem("IVs（C-Gear）", FrameType.Method5CGear),
                 });
 
             var ability = new[]
                 {
                     new ComboBoxItem("任意", -1),
-                    new ComboBoxItem("Ability 0", 0),
-                    new ComboBoxItem("Ability 1", 1)
+                    new ComboBoxItem("特性 0", 0),
+                    new ComboBoxItem("特性 1", 1)
                 };
 
             comboBoxEncounterType.Items.AddRange(new object[]
                 {
-                    new ComboBoxItem("Tall Grass", EncounterType.Wild),
-                    new ComboBoxItem("Dark Grass", EncounterType.WildDarkGrass),
-                    new ComboBoxItem("Swarm", EncounterType.WildSwarm),
-                    new ComboBoxItem("Surfing", EncounterType.WildSurfing),
-                    new ComboBoxItem("Fishing", EncounterType.WildSuperRod),
+                    new ComboBoxItem("草丛", EncounterType.Wild),
+                    new ComboBoxItem("深色草丛", EncounterType.WildDarkGrass),
+                    new ComboBoxItem("大量出现", EncounterType.WildSwarm),
+                    new ComboBoxItem("冲浪", EncounterType.WildSurfing),
+                    new ComboBoxItem("垂钓", EncounterType.WildSuperRod),
                     new ComboBoxItem("摇动草丛", EncounterType.WildShakerGrass),
                     new ComboBoxItem("水纹水面", EncounterType.WildWaterSpot),
                     new ComboBoxItem("钓鱼点", EncounterType.WildFishingSpot),
                     new ComboBoxItem("卷尘地面", EncounterType.WildCaveSpot),
-                    new ComboBoxItem("Flying Shadow", EncounterType.WildShadow),
-                    new ComboBoxItem("Stationary", EncounterType.Stationary),
-                    new ComboBoxItem("Roamer", EncounterType.Roamer),
+                    new ComboBoxItem("飞行影子", EncounterType.WildShadow),
+                    new ComboBoxItem("定点宝可梦", EncounterType.Stationary),
+                    new ComboBoxItem("游走宝可梦", EncounterType.Roamer),
                     new ComboBoxItem("礼物宝可梦", EncounterType.Gift),
-                    new ComboBoxItem("Larvesta/Happiny Egg", EncounterType.LarvestaHappiny),
-                    new ComboBoxItem("Jellicent", EncounterType.JellicentHA),
+                    new ComboBoxItem("燃烧虫/小福蛋的蛋", EncounterType.LarvestaHappiny),
+                    new ComboBoxItem("胖嘟嘟", EncounterType.JellicentHA),
                 });
 
             var shinyNatureList = new BindingSource {DataSource = Objects.Nature.NatureDropDownCollection()};
@@ -422,7 +422,7 @@ namespace RNGReporter
             listBindingCap = new BindingSource { DataSource = iframes };
             dataGridViewCapValues.DataSource = listBindingCap;
 
-            if (comboBoxMethod.SelectedItem.ToString().Equals("PID + IVs (Standard + C-Gear)"))
+            if (((ComboBoxItem)comboBoxMethod.SelectedItem).Reference.Equals(FrameType.Method5Natures))
             {
                 if (profile.IsBW2())
                 {
@@ -2247,8 +2247,8 @@ namespace RNGReporter
         {
             OpenFileDialog openFileDialog = new OpenFileDialog()
             {
-                Filter = "第五世代神秘卡片 |*.pgf",
-                Title = "选择神秘卡片文件"
+                Filter = "第五世代神秘礼物 |*.pgf",
+                Title = "选择神秘礼物文件"
             };
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
@@ -3191,23 +3191,23 @@ namespace RNGReporter
             {
 
                 if (((ComboBoxItem) comboBoxMethod.SelectedItem).Reference.Equals(FrameType.Method5CGear))
-                    label9.Text = "IV filters are set for Entralink fast searching, but\r\n" +
-                                  "Min and Max Frames need to be between\r\n" +
-                                  "20 and 25.  (Setting both to 20 is recommended.)";
+                    label9.Text = "IV 筛选已适合连接森林快速搜索，但\r\n" +
+                                  "最小/最大帧需要在 20 到 25 之间。\r\n" +
+                                  "建议两者都设为 20。";
                 else
                 {
-                    label9.Text = "IV filters are set for fast searching, but\r\n" +
-                                  "Min and Max Frames need to be between\r\n" +
-                                  "0 and 5.  (Setting both to 0 is recommended.)";
+                    label9.Text = "IV 筛选已适合快速搜索，但\r\n" +
+                                  "最小/最大帧需要在 0 到 5 之间。\r\n" +
+                                  "建议两者都设为 0。";
                     if (((Profile) comboBoxProfiles.SelectedItem).IsBW2())
                     {
-                        label9.Text += "\r\nOr 25 and 30 for Entralink abuse";
+                        label9.Text += "\r\n连接森林乱数可设为 25 到 30。";
                     }
                 }
             }
             else
-                label9.Text = "IV filters are not set to allow fast searching.\r\nTry searching for a common spread" +
-                              "\r\nsuch as flawless, or a Trick Room spread.";
+                label9.Text = "当前 IV 筛选不适合快速搜索。\r\n请尝试搜索较常见的分布，" +
+                              "\r\n例如 6V 或戏法空间分布。";
         }
 
         private GenderFilter constructGenderFilter()

@@ -422,7 +422,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(22, 13);
             this.label10.TabIndex = 28;
-            this.label10.Text = "觉醒力量";
+            this.label10.Text = "HP";
             //
             // label11
             //
@@ -556,8 +556,8 @@
             //
             // HP
             //
-            this.HP.HeaderText = "觉醒力量";
-            this.HP.Name = "觉醒力量";
+            this.HP.HeaderText = "HP";
+            this.HP.Name = "HP";
             this.HP.ReadOnly = true;
             this.HP.Width = 35;
             //

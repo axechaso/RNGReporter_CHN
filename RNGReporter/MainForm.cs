@@ -74,7 +74,7 @@ namespace RNGReporter
             // But Visual Studio seems to like deleting them without warning
             comboBoxMethod.Items.AddRange(new object[]
                 {
-                    new ComboBoxItem("Method 1", FrameType.Method1),
+                    new ComboBoxItem("算法 1", FrameType.Method1),
                     new ComboBoxItem("Method 1 Reverse PID", FrameType.Method1Reverse),
                     new ComboBoxItem("Method 2 (Gen 3)", FrameType.Method2),
                     new ComboBoxItem("Method 4 (Gen 3)", FrameType.Method4),
@@ -121,8 +121,8 @@ namespace RNGReporter
             var ability = new[]
                 {
                     new ComboBoxItem("任意", -1),
-                    new ComboBoxItem("Ability 0", 0),
-                    new ComboBoxItem("Ability 1", 1)
+                    new ComboBoxItem("特性 0", 0),
+                    new ComboBoxItem("特性 1", 1)
                 };
 
             currentMod = EncounterMod.Synchronize;
@@ -410,7 +410,7 @@ namespace RNGReporter
                 }
             }
 
-            if (dataGridViewValues.Columns[e.ColumnIndex].Name == "觉醒力量" ||
+            if (dataGridViewValues.Columns[e.ColumnIndex].Name == "HP" ||
                 dataGridViewValues.Columns[e.ColumnIndex].Name == "攻击" ||
                 dataGridViewValues.Columns[e.ColumnIndex].Name == "防御" ||
                 dataGridViewValues.Columns[e.ColumnIndex].Name == "特攻" ||

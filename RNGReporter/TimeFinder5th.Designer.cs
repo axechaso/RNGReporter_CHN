@@ -714,7 +714,7 @@ namespace RNGReporter
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(22, 13);
             this.label2.TabIndex = 321;
-            this.label2.Text = "觉醒力量";
+            this.label2.Text = "HP";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // checkBoxIntlParents
@@ -722,9 +722,9 @@ namespace RNGReporter
             this.checkBoxIntlParents.AutoSize = true;
             this.checkBoxIntlParents.Location = new System.Drawing.Point(6, 45);
             this.checkBoxIntlParents.Name = "checkBoxIntlParents";
-            this.checkBoxIntlParents.Size = new System.Drawing.Size(123, 17);
+            this.checkBoxIntlParents.Size = new System.Drawing.Size(62, 17);
             this.checkBoxIntlParents.TabIndex = 4;
-            this.checkBoxIntlParents.Text = "国际婚姻";
+            this.checkBoxIntlParents.Text = "异国";
             this.checkBoxIntlParents.UseVisualStyleBackColor = true;
             //
             // label92
@@ -985,7 +985,7 @@ namespace RNGReporter
             // ShinyHP
             //
             this.ShinyHP.DataPropertyName = "DisplayHpAlt";
-            this.ShinyHP.HeaderText = "觉醒力量";
+            this.ShinyHP.HeaderText = "HP";
             this.ShinyHP.Name = "ShinyHP";
             this.ShinyHP.ReadOnly = true;
             this.ShinyHP.Width = 30;
@@ -1135,8 +1135,8 @@ namespace RNGReporter
             this.comboBoxShinyAbility.FormattingEnabled = true;
             this.comboBoxShinyAbility.Items.AddRange(new object[] {
             "任意",
-            "Ability 0",
-            "Ability 1"});
+            "特性 0",
+            "特性 1"});
             this.comboBoxShinyAbility.Location = new System.Drawing.Point(700, 43);
             this.comboBoxShinyAbility.MaxDropDownItems = 3;
             this.comboBoxShinyAbility.Name = "comboBoxShinyAbility";
@@ -1502,8 +1502,8 @@ namespace RNGReporter
             this.comboCapAbility.FormattingEnabled = true;
             this.comboCapAbility.Items.AddRange(new object[] {
             "任意",
-            "Ability 0",
-            "Ability 1"});
+            "特性 0",
+            "特性 1"});
             this.comboCapAbility.Location = new System.Drawing.Point(395, 114);
             this.comboCapAbility.Name = "comboCapAbility";
             this.comboCapAbility.ShineColor = System.Drawing.SystemColors.Window;
@@ -1570,7 +1570,7 @@ namespace RNGReporter
             "9",
             "10",
             "11",
-            "Swarm"});
+            "大量出现"});
             this.comboCapEncounterSlot.Location = new System.Drawing.Point(395, 33);
             this.comboCapEncounterSlot.Name = "comboCapEncounterSlot";
             this.comboCapEncounterSlot.Size = new System.Drawing.Size(95, 21);
@@ -2079,7 +2079,7 @@ namespace RNGReporter
             this.tabEvent.Name = "tabEvent";
             this.tabEvent.Size = new System.Drawing.Size(1067, 522);
             this.tabEvent.TabIndex = 5;
-            this.tabEvent.Text = "神秘卡片";
+            this.tabEvent.Text = "神秘礼物";
             this.tabEvent.UseVisualStyleBackColor = true;
             //
             // dataGridViewEventResults
@@ -2193,7 +2193,7 @@ namespace RNGReporter
             //
             this.EventHP.DataPropertyName = "Hp";
             this.EventHP.FillWeight = 45F;
-            this.EventHP.HeaderText = "觉醒力量";
+            this.EventHP.HeaderText = "HP";
             this.EventHP.Name = "EventHP";
             this.EventHP.ReadOnly = true;
             this.EventHP.Width = 30;
@@ -2422,8 +2422,8 @@ namespace RNGReporter
             this.comboAbilityEvents.FormattingEnabled = true;
             this.comboAbilityEvents.Items.AddRange(new object[] {
             "任意",
-            "Ability 0",
-            "Ability 1"});
+            "特性 0",
+            "特性 1"});
             this.comboAbilityEvents.Location = new System.Drawing.Point(384, 90);
             this.comboAbilityEvents.Name = "comboAbilityEvents";
             this.comboAbilityEvents.ShineColor = System.Drawing.SystemColors.Window;
@@ -2799,7 +2799,7 @@ namespace RNGReporter
             this.checkBoxHP.Name = "checkBoxHP";
             this.checkBoxHP.Size = new System.Drawing.Size(41, 17);
             this.checkBoxHP.TabIndex = 346;
-            this.checkBoxHP.Text = "觉醒力量";
+            this.checkBoxHP.Text = "HP";
             this.checkBoxHP.UseVisualStyleBackColor = true;
             this.checkBoxHP.CheckedChanged += new System.EventHandler(this.checkBoxHP_CheckedChanged);
             //
@@ -3808,7 +3808,7 @@ namespace RNGReporter
             // dataGridViewTextBoxColumn16
             //
             this.dataGridViewTextBoxColumn16.DataPropertyName = "DisplayHpAlt";
-            this.dataGridViewTextBoxColumn16.HeaderText = "觉醒力量";
+            this.dataGridViewTextBoxColumn16.HeaderText = "HP";
             this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
             this.dataGridViewTextBoxColumn16.ReadOnly = true;
             this.dataGridViewTextBoxColumn16.Width = 30;
@@ -3963,8 +3963,7 @@ namespace RNGReporter
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(437, 13);
             this.label41.TabIndex = 373;
-            this.label41.Text = "3. Shiny Charm / Memory Link (BW2 only) affect the frame hit and should be accoun" +
-    "ted for.";
+            this.label41.Text = "3. 异色护符 / 记忆连接（仅 BW2）会影响命中帧，请一并计算。";
             this.label41.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             //
             // label37
@@ -4802,7 +4801,7 @@ namespace RNGReporter
             //
             this.CapHP.DataPropertyName = "Hp";
             this.CapHP.FillWeight = 45F;
-            this.CapHP.HeaderText = "觉醒力量";
+            this.CapHP.HeaderText = "HP";
             this.CapHP.Name = "CapHP";
             this.CapHP.ReadOnly = true;
             this.CapHP.Width = 30;

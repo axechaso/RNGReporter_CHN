@@ -714,8 +714,8 @@ namespace RNGReporter
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Items.AddRange(new object[] {
             "任意",
-            "Ability 0",
-            "Ability 1"});
+            "特性 0",
+            "特性 1"});
             this.comboBox4.Location = new System.Drawing.Point(528, 51);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.ShineColor = System.Drawing.SystemColors.Window;
@@ -830,7 +830,7 @@ namespace RNGReporter
             this.label98.Name = "label98";
             this.label98.Size = new System.Drawing.Size(22, 13);
             this.label98.TabIndex = 263;
-            this.label98.Text = "觉醒力量";
+            this.label98.Text = "HP";
             this.label98.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // label100
@@ -1017,7 +1017,7 @@ namespace RNGReporter
             // dataGridViewTextBoxColumn8
             //
             this.dataGridViewTextBoxColumn8.DataPropertyName = "DisplayHp";
-            this.dataGridViewTextBoxColumn8.HeaderText = "觉醒力量";
+            this.dataGridViewTextBoxColumn8.HeaderText = "HP";
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
             this.dataGridViewTextBoxColumn8.ReadOnly = true;
             this.dataGridViewTextBoxColumn8.Width = 30;
@@ -1541,7 +1541,7 @@ namespace RNGReporter
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(22, 13);
             this.label77.TabIndex = 263;
-            this.label77.Text = "觉醒力量";
+            this.label77.Text = "HP";
             this.label77.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // label86
@@ -1571,7 +1571,7 @@ namespace RNGReporter
             this.label87.Name = "label87";
             this.label87.Size = new System.Drawing.Size(22, 13);
             this.label87.TabIndex = 287;
-            this.label87.Text = "觉醒力量";
+            this.label87.Text = "HP";
             this.label87.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // label75
@@ -1748,7 +1748,7 @@ namespace RNGReporter
             // XDHp
             //
             this.XDHp.DataPropertyName = "DisplayHp";
-            this.XDHp.HeaderText = "觉醒力量";
+            this.XDHp.HeaderText = "HP";
             this.XDHp.Name = "XDHp";
             this.XDHp.ReadOnly = true;
             this.XDHp.Width = 30;
@@ -2257,7 +2257,7 @@ namespace RNGReporter
             // CapHP
             //
             this.CapHP.DataPropertyName = "Hp";
-            this.CapHP.HeaderText = "觉醒力量";
+            this.CapHP.HeaderText = "HP";
             this.CapHP.Name = "CapHP";
             this.CapHP.ReadOnly = true;
             this.CapHP.Width = 30;
@@ -2637,8 +2637,8 @@ namespace RNGReporter
             this.cbAbility.FormattingEnabled = true;
             this.cbAbility.Items.AddRange(new object[] {
             "任意",
-            "Ability 0",
-            "Ability 1"});
+            "特性 0",
+            "特性 1"});
             this.cbAbility.Location = new System.Drawing.Point(725, 36);
             this.cbAbility.Name = "cbAbility";
             this.cbAbility.ShineColor = System.Drawing.SystemColors.Window;
@@ -2856,7 +2856,7 @@ namespace RNGReporter
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(22, 13);
             this.label46.TabIndex = 408;
-            this.label46.Text = "觉醒力量";
+            this.label46.Text = "HP";
             this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // checkEIVInheritance
@@ -2965,7 +2965,7 @@ namespace RNGReporter
             // EIVHP
             //
             this.EIVHP.DataPropertyName = "DisplayHp";
-            this.EIVHP.HeaderText = "觉醒力量";
+            this.EIVHP.HeaderText = "HP";
             this.EIVHP.Name = "EIVHP";
             this.EIVHP.ReadOnly = true;
             this.EIVHP.Width = 30;
@@ -3239,12 +3239,13 @@ namespace RNGReporter
             //
             // label1
             //
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(634, 108);
+            this.label1.AutoSize = false;
+            this.label1.Location = new System.Drawing.Point(620, 104);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 13);
+            this.label1.Size = new System.Drawing.Size(68, 18);
             this.label1.TabIndex = 425;
             this.label1.Text = "不变之石";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // label2
             //
@@ -3257,12 +3258,13 @@ namespace RNGReporter
             //
             // label3
             //
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(647, 81);
+            this.label3.AutoSize = false;
+            this.label3.Location = new System.Drawing.Point(620, 77);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 13);
+            this.label3.Size = new System.Drawing.Size(68, 18);
             this.label3.TabIndex = 417;
             this.label3.Text = "性别比例";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // label4
             //
@@ -3293,12 +3295,13 @@ namespace RNGReporter
             //
             // label20
             //
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(624, 135);
+            this.label20.AutoSize = false;
+            this.label20.Location = new System.Drawing.Point(620, 131);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(65, 13);
+            this.label20.Size = new System.Drawing.Size(68, 18);
             this.label20.TabIndex = 376;
             this.label20.Text = "相性";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // checkEPIDShiny
             //
@@ -3312,21 +3315,23 @@ namespace RNGReporter
             //
             // label23
             //
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(650, 31);
+            this.label23.AutoSize = false;
+            this.label23.Location = new System.Drawing.Point(650, 27);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(39, 13);
+            this.label23.Size = new System.Drawing.Size(38, 18);
             this.label23.TabIndex = 372;
             this.label23.Text = "性格";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // label24
             //
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(655, 56);
+            this.label24.AutoSize = false;
+            this.label24.Location = new System.Drawing.Point(650, 52);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(34, 13);
+            this.label24.Size = new System.Drawing.Size(38, 18);
             this.label24.TabIndex = 373;
             this.label24.Text = "特性";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // dataGridViewEPIDs
             //
@@ -3339,7 +3344,7 @@ namespace RNGReporter
             | System.Windows.Forms.AnchorStyles.Right)));
             dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle15.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle15.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -3593,19 +3598,19 @@ namespace RNGReporter
             this.comboEPIDGender.FormattingEnabled = true;
             this.comboEPIDGender.Items.AddRange(new object[] {
             "不考虑/固定性别/无性别",
-            "Female (50% Male, 50% Female)",
-            "Male (50% Male, 50% Female)",
-            "Female (25% Male, 75% Female)",
-            "Male (25% Male, 75% Female)",
-            "Female (75% Male, 25% Female)",
-            "Male (75% Male, 25% Female)",
-            "Female (87.5% Male, 12.5% Female)",
-            "Male (87.5% Male, 12.5% Female)"});
+            "雌（50% 雄 / 50% 雌）",
+            "雄（50% 雄 / 50% 雌）",
+            "雌（25% 雄 / 75% 雌）",
+            "雄（25% 雄 / 75% 雌）",
+            "雌（75% 雄 / 25% 雌）",
+            "雄（75% 雄 / 25% 雌）",
+            "雌（87.5% 雄 / 12.5% 雌）",
+            "雄（87.5% 雄 / 12.5% 雌）"});
             this.comboEPIDGender.Location = new System.Drawing.Point(695, 78);
             this.comboEPIDGender.MaxDropDownItems = 3;
             this.comboEPIDGender.Name = "comboEPIDGender";
             this.comboEPIDGender.ShineColor = System.Drawing.SystemColors.Window;
-            this.comboEPIDGender.Size = new System.Drawing.Size(238, 21);
+            this.comboEPIDGender.Size = new System.Drawing.Size(250, 21);
             this.comboEPIDGender.TabIndex = 340;
             //
             // buttonGenerateEPIDs
@@ -3627,14 +3632,14 @@ namespace RNGReporter
             this.comboEPIDCompatibility.ForeColor = System.Drawing.Color.Black;
             this.comboEPIDCompatibility.FormattingEnabled = true;
             this.comboEPIDCompatibility.Items.AddRange(new object[] {
-            "The two don\'t seem to like each other",
-            "The two seem to get along",
-            "The two seem to get along very well"});
+            "两只宝可梦不太喜欢对方",
+            "两只宝可梦关系不错",
+            "两只宝可梦关系非常好"});
             this.comboEPIDCompatibility.Location = new System.Drawing.Point(695, 132);
             this.comboEPIDCompatibility.MaxDropDownItems = 3;
             this.comboEPIDCompatibility.Name = "comboEPIDCompatibility";
             this.comboEPIDCompatibility.ShineColor = System.Drawing.SystemColors.Window;
-            this.comboEPIDCompatibility.Size = new System.Drawing.Size(193, 21);
+            this.comboEPIDCompatibility.Size = new System.Drawing.Size(242, 21);
             this.comboEPIDCompatibility.TabIndex = 332;
             //
             // buttonEPIDAbility
@@ -3659,8 +3664,8 @@ namespace RNGReporter
             this.comboEPIDAbility.FormattingEnabled = true;
             this.comboEPIDAbility.Items.AddRange(new object[] {
             "任意",
-            "Ability 0",
-            "Ability 1"});
+            "特性 0",
+            "特性 1"});
             this.comboEPIDAbility.Location = new System.Drawing.Point(695, 53);
             this.comboEPIDAbility.MaxDropDownItems = 3;
             this.comboEPIDAbility.Name = "comboEPIDAbility";
@@ -3951,29 +3956,30 @@ namespace RNGReporter
             this.comboBoxShiny3rdGender.FormattingEnabled = true;
             this.comboBoxShiny3rdGender.Items.AddRange(new object[] {
             "不考虑/固定性别/无性别",
-            "Female (50% Male, 50% Female)",
-            "Male (50% Male, 50% Female)",
-            "Female (25% Male, 75% Female)",
-            "Male (25% Male, 75% Female)",
-            "Female (75% Male, 25% Female)",
-            "Male (75% Male, 25% Female)",
-            "Female (87.5% Male, 12.5% Female)",
-            "Male (87.5% Male, 12.5% Female)"});
+            "雌（50% 雄 / 50% 雌）",
+            "雄（50% 雄 / 50% 雌）",
+            "雌（25% 雄 / 75% 雌）",
+            "雄（25% 雄 / 75% 雌）",
+            "雌（75% 雄 / 25% 雌）",
+            "雄（75% 雄 / 25% 雌）",
+            "雌（87.5% 雄 / 12.5% 雌）",
+            "雄（87.5% 雄 / 12.5% 雌）"});
             this.comboBoxShiny3rdGender.Location = new System.Drawing.Point(342, 64);
             this.comboBoxShiny3rdGender.MaxDropDownItems = 3;
             this.comboBoxShiny3rdGender.Name = "comboBoxShiny3rdGender";
             this.comboBoxShiny3rdGender.ShineColor = System.Drawing.SystemColors.Window;
-            this.comboBoxShiny3rdGender.Size = new System.Drawing.Size(238, 21);
+            this.comboBoxShiny3rdGender.Size = new System.Drawing.Size(250, 21);
             this.comboBoxShiny3rdGender.TabIndex = 15;
             //
             // label41
             //
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(294, 67);
+            this.label41.AutoSize = false;
+            this.label41.Location = new System.Drawing.Point(268, 63);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(42, 13);
+            this.label41.Size = new System.Drawing.Size(68, 18);
             this.label41.TabIndex = 315;
             this.label41.Text = "性别比例";
+            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // buttonSwapParents
             //
@@ -4072,7 +4078,7 @@ namespace RNGReporter
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(22, 13);
             this.label42.TabIndex = 251;
-            this.label42.Text = "觉醒力量";
+            this.label42.Text = "HP";
             this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // label66
@@ -4103,24 +4109,25 @@ namespace RNGReporter
             this.comboBoxParentCompatibility.ForeColor = System.Drawing.Color.Black;
             this.comboBoxParentCompatibility.FormattingEnabled = true;
             this.comboBoxParentCompatibility.Items.AddRange(new object[] {
-            "The two don\'t seem to like each other",
-            "The two seem to get along",
-            "The two seem to get along very well"});
+            "两只宝可梦不太喜欢对方",
+            "两只宝可梦关系不错",
+            "两只宝可梦关系非常好"});
             this.comboBoxParentCompatibility.Location = new System.Drawing.Point(91, 131);
             this.comboBoxParentCompatibility.MaxDropDownItems = 3;
             this.comboBoxParentCompatibility.Name = "comboBoxParentCompatibility";
             this.comboBoxParentCompatibility.ShineColor = System.Drawing.SystemColors.Window;
-            this.comboBoxParentCompatibility.Size = new System.Drawing.Size(193, 21);
+            this.comboBoxParentCompatibility.Size = new System.Drawing.Size(242, 21);
             this.comboBoxParentCompatibility.TabIndex = 7;
             //
             // label58
             //
-            this.label58.AutoSize = true;
-            this.label58.Location = new System.Drawing.Point(19, 134);
+            this.label58.AutoSize = false;
+            this.label58.Location = new System.Drawing.Point(16, 130);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(65, 13);
+            this.label58.Size = new System.Drawing.Size(68, 18);
             this.label58.TabIndex = 204;
             this.label58.Text = "相性";
+            this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // checkBoxShiny3rdShinyOnly
             //
@@ -4183,8 +4190,8 @@ namespace RNGReporter
             this.comboBoxShiny3rdAbility.FormattingEnabled = true;
             this.comboBoxShiny3rdAbility.Items.AddRange(new object[] {
             "任意",
-            "Ability 0",
-            "Ability 1"});
+            "特性 0",
+            "特性 1"});
             this.comboBoxShiny3rdAbility.Location = new System.Drawing.Point(342, 39);
             this.comboBoxShiny3rdAbility.MaxDropDownItems = 3;
             this.comboBoxShiny3rdAbility.Name = "comboBoxShiny3rdAbility";
@@ -4221,7 +4228,7 @@ namespace RNGReporter
             | System.Windows.Forms.AnchorStyles.Right)));
             dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle19.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle19.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -4356,10 +4363,10 @@ namespace RNGReporter
             // shiny3rdHP
             //
             this.shiny3rdHP.DataPropertyName = "DisplayHp";
-            this.shiny3rdHP.HeaderText = "觉醒力量";
+            this.shiny3rdHP.HeaderText = "HP";
             this.shiny3rdHP.Name = "shiny3rdHP";
             this.shiny3rdHP.ReadOnly = true;
-            this.shiny3rdHP.Width = 30;
+            this.shiny3rdHP.Width = 36;
             //
             // shiny3rdAtk
             //
@@ -4367,7 +4374,7 @@ namespace RNGReporter
             this.shiny3rdAtk.HeaderText = "攻击";
             this.shiny3rdAtk.Name = "shiny3rdAtk";
             this.shiny3rdAtk.ReadOnly = true;
-            this.shiny3rdAtk.Width = 30;
+            this.shiny3rdAtk.Width = 36;
             //
             // shiny3rdDef
             //
@@ -4375,7 +4382,7 @@ namespace RNGReporter
             this.shiny3rdDef.HeaderText = "防御";
             this.shiny3rdDef.Name = "shiny3rdDef";
             this.shiny3rdDef.ReadOnly = true;
-            this.shiny3rdDef.Width = 30;
+            this.shiny3rdDef.Width = 36;
             //
             // shiny3rdSpA
             //
@@ -4383,7 +4390,7 @@ namespace RNGReporter
             this.shiny3rdSpA.HeaderText = "特攻";
             this.shiny3rdSpA.Name = "shiny3rdSpA";
             this.shiny3rdSpA.ReadOnly = true;
-            this.shiny3rdSpA.Width = 30;
+            this.shiny3rdSpA.Width = 36;
             //
             // shiny3rdSpD
             //
@@ -4391,7 +4398,7 @@ namespace RNGReporter
             this.shiny3rdSpD.HeaderText = "特防";
             this.shiny3rdSpD.Name = "shiny3rdSpD";
             this.shiny3rdSpD.ReadOnly = true;
-            this.shiny3rdSpD.Width = 30;
+            this.shiny3rdSpD.Width = 36;
             //
             // shiny3rdSpe
             //
@@ -4399,7 +4406,7 @@ namespace RNGReporter
             this.shiny3rdSpe.HeaderText = "速度";
             this.shiny3rdSpe.Name = "shiny3rdSpe";
             this.shiny3rdSpe.ReadOnly = true;
-            this.shiny3rdSpe.Width = 30;
+            this.shiny3rdSpe.Width = 36;
             //
             // Shiny3rdFemale50
             //
@@ -4839,19 +4846,19 @@ namespace RNGReporter
             this.glassComboBoxGenderFRLG.FormattingEnabled = true;
             this.glassComboBoxGenderFRLG.Items.AddRange(new object[] {
             "不考虑/固定性别/无性别",
-            "Female (50% Male, 50% Female)",
-            "Male (50% Male, 50% Female)",
-            "Female (25% Male, 75% Female)",
-            "Male (25% Male, 75% Female)",
-            "Female (75% Male, 25% Female)",
-            "Male (75% Male, 25% Female)",
-            "Female (87.5% Male, 12.5% Female)",
-            "Male (87.5% Male, 12.5% Female)"});
+            "雌（50% 雄 / 50% 雌）",
+            "雄（50% 雄 / 50% 雌）",
+            "雌（25% 雄 / 75% 雌）",
+            "雄（25% 雄 / 75% 雌）",
+            "雌（75% 雄 / 25% 雌）",
+            "雄（75% 雄 / 25% 雌）",
+            "雌（87.5% 雄 / 12.5% 雌）",
+            "雄（87.5% 雄 / 12.5% 雌）"});
             this.glassComboBoxGenderFRLG.Location = new System.Drawing.Point(342, 64);
             this.glassComboBoxGenderFRLG.MaxDropDownItems = 3;
             this.glassComboBoxGenderFRLG.Name = "glassComboBoxGenderFRLG";
             this.glassComboBoxGenderFRLG.ShineColor = System.Drawing.SystemColors.Window;
-            this.glassComboBoxGenderFRLG.Size = new System.Drawing.Size(238, 21);
+            this.glassComboBoxGenderFRLG.Size = new System.Drawing.Size(250, 21);
             this.glassComboBoxGenderFRLG.TabIndex = 333;
             //
             // label16
@@ -4960,7 +4967,7 @@ namespace RNGReporter
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(22, 13);
             this.label59.TabIndex = 358;
-            this.label59.Text = "觉醒力量";
+            this.label59.Text = "HP";
             this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // label60
@@ -4991,24 +4998,25 @@ namespace RNGReporter
             this.compatibilityFRLG.ForeColor = System.Drawing.Color.Black;
             this.compatibilityFRLG.FormattingEnabled = true;
             this.compatibilityFRLG.Items.AddRange(new object[] {
-            "The two don\'t seem to like each other",
-            "The two seem to get along",
-            "The two seem to get along very well"});
+            "两只宝可梦不太喜欢对方",
+            "两只宝可梦关系不错",
+            "两只宝可梦关系非常好"});
             this.compatibilityFRLG.Location = new System.Drawing.Point(91, 131);
             this.compatibilityFRLG.MaxDropDownItems = 3;
             this.compatibilityFRLG.Name = "compatibilityFRLG";
             this.compatibilityFRLG.ShineColor = System.Drawing.SystemColors.Window;
-            this.compatibilityFRLG.Size = new System.Drawing.Size(193, 21);
+            this.compatibilityFRLG.Size = new System.Drawing.Size(242, 21);
             this.compatibilityFRLG.TabIndex = 325;
             //
             // label61
             //
-            this.label61.AutoSize = true;
-            this.label61.Location = new System.Drawing.Point(19, 134);
+            this.label61.AutoSize = false;
+            this.label61.Location = new System.Drawing.Point(16, 130);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(65, 13);
+            this.label61.Size = new System.Drawing.Size(68, 18);
             this.label61.TabIndex = 356;
             this.label61.Text = "相性";
+            this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // shinyOnlyFRLG
             //
@@ -5070,8 +5078,8 @@ namespace RNGReporter
             this.glassComboBoxAbilityFRLG.FormattingEnabled = true;
             this.glassComboBoxAbilityFRLG.Items.AddRange(new object[] {
             "任意",
-            "Ability 0",
-            "Ability 1"});
+            "特性 0",
+            "特性 1"});
             this.glassComboBoxAbilityFRLG.Location = new System.Drawing.Point(342, 39);
             this.glassComboBoxAbilityFRLG.MaxDropDownItems = 3;
             this.glassComboBoxAbilityFRLG.Name = "glassComboBoxAbilityFRLG";
@@ -5081,21 +5089,23 @@ namespace RNGReporter
             //
             // label65
             //
-            this.label65.AutoSize = true;
-            this.label65.Location = new System.Drawing.Point(297, 17);
+            this.label65.AutoSize = false;
+            this.label65.Location = new System.Drawing.Point(300, 13);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(39, 13);
+            this.label65.Size = new System.Drawing.Size(36, 18);
             this.label65.TabIndex = 352;
             this.label65.Text = "性格";
+            this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // label71
             //
-            this.label71.AutoSize = true;
-            this.label71.Location = new System.Drawing.Point(302, 43);
+            this.label71.AutoSize = false;
+            this.label71.Location = new System.Drawing.Point(300, 39);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(34, 13);
+            this.label71.Size = new System.Drawing.Size(36, 18);
             this.label71.TabIndex = 353;
             this.label71.Text = "特性";
+            this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // dataGridFRLG
             //
@@ -5108,7 +5118,7 @@ namespace RNGReporter
             | System.Windows.Forms.AnchorStyles.Right)));
             dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle23.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle23.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -5233,10 +5243,10 @@ namespace RNGReporter
             // dataGridViewTextBoxColumn50
             //
             this.dataGridViewTextBoxColumn50.DataPropertyName = "DisplayHp";
-            this.dataGridViewTextBoxColumn50.HeaderText = "觉醒力量";
+            this.dataGridViewTextBoxColumn50.HeaderText = "HP";
             this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
             this.dataGridViewTextBoxColumn50.ReadOnly = true;
-            this.dataGridViewTextBoxColumn50.Width = 30;
+            this.dataGridViewTextBoxColumn50.Width = 36;
             //
             // dataGridViewTextBoxColumn51
             //
@@ -5244,7 +5254,7 @@ namespace RNGReporter
             this.dataGridViewTextBoxColumn51.HeaderText = "攻击";
             this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
             this.dataGridViewTextBoxColumn51.ReadOnly = true;
-            this.dataGridViewTextBoxColumn51.Width = 30;
+            this.dataGridViewTextBoxColumn51.Width = 36;
             //
             // dataGridViewTextBoxColumn52
             //
@@ -5252,7 +5262,7 @@ namespace RNGReporter
             this.dataGridViewTextBoxColumn52.HeaderText = "防御";
             this.dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
             this.dataGridViewTextBoxColumn52.ReadOnly = true;
-            this.dataGridViewTextBoxColumn52.Width = 30;
+            this.dataGridViewTextBoxColumn52.Width = 36;
             //
             // dataGridViewTextBoxColumn53
             //
@@ -5260,7 +5270,7 @@ namespace RNGReporter
             this.dataGridViewTextBoxColumn53.HeaderText = "特攻";
             this.dataGridViewTextBoxColumn53.Name = "dataGridViewTextBoxColumn53";
             this.dataGridViewTextBoxColumn53.ReadOnly = true;
-            this.dataGridViewTextBoxColumn53.Width = 30;
+            this.dataGridViewTextBoxColumn53.Width = 36;
             //
             // dataGridViewTextBoxColumn54
             //
@@ -5268,7 +5278,7 @@ namespace RNGReporter
             this.dataGridViewTextBoxColumn54.HeaderText = "特防";
             this.dataGridViewTextBoxColumn54.Name = "dataGridViewTextBoxColumn54";
             this.dataGridViewTextBoxColumn54.ReadOnly = true;
-            this.dataGridViewTextBoxColumn54.Width = 30;
+            this.dataGridViewTextBoxColumn54.Width = 36;
             //
             // dataGridViewTextBoxColumn55
             //
@@ -5276,7 +5286,7 @@ namespace RNGReporter
             this.dataGridViewTextBoxColumn55.HeaderText = "速度";
             this.dataGridViewTextBoxColumn55.Name = "dataGridViewTextBoxColumn55";
             this.dataGridViewTextBoxColumn55.ReadOnly = true;
-            this.dataGridViewTextBoxColumn55.Width = 30;
+            this.dataGridViewTextBoxColumn55.Width = 36;
             //
             // dataGridViewTextBoxColumn56
             //
@@ -5828,7 +5838,7 @@ namespace RNGReporter
             this.L_ball.Name = "L_ball";
             this.L_ball.Size = new System.Drawing.Size(57, 20);
             this.L_ball.TabIndex = 439;
-            this.L_ball.Text = "觉醒力量";
+            this.L_ball.Text = "HP";
             this.L_ball.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // dataGridViewResult
@@ -5936,8 +5946,8 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn23
             //
-            this.dataGridViewTextBoxColumn23.DataPropertyName = "觉醒力量";
-            this.dataGridViewTextBoxColumn23.HeaderText = "觉醒力量";
+            this.dataGridViewTextBoxColumn23.DataPropertyName = "HP";
+            this.dataGridViewTextBoxColumn23.HeaderText = "HP";
             this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
             this.dataGridViewTextBoxColumn23.ReadOnly = true;
             this.dataGridViewTextBoxColumn23.Width = 35;
@@ -6465,7 +6475,7 @@ namespace RNGReporter
             this.L_search_H.Name = "L_search_H";
             this.L_search_H.Size = new System.Drawing.Size(40, 20);
             this.L_search_H.TabIndex = 402;
-            this.L_search_H.Text = "觉醒力量";
+            this.L_search_H.Text = "HP";
             this.L_search_H.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // label14
@@ -6542,22 +6552,20 @@ namespace RNGReporter
             this.comboBoxGender.ForeColor = System.Drawing.Color.Black;
             this.comboBoxGender.FormattingEnabled = true;
             this.comboBoxGender.Items.AddRange(new object[] {
-            "不考虑/无性别",
-            "Male (50% Male / 50% Female)",
-            "Female (50% Male / 50% Female)",
-            "Male (25% Male / 75% Female)",
-            "Female (25% Male / 75% Female)",
-            "Male (75% Male / 25% Female)",
-            "Female (75% Male / 25% Female)",
-            "Male (87.5% Male / 12.5% Female)",
-            "Female (87.5% Male / 12.5% Female)",
-            "♂(只有♂)",
-            "♀(只有♀)"});
+            "不考虑/固定性别/无性别",
+            "雌（50% 雄 / 50% 雌）",
+            "雄（50% 雄 / 50% 雌）",
+            "雌（25% 雄 / 75% 雌）",
+            "雄（25% 雄 / 75% 雌）",
+            "雌（75% 雄 / 25% 雌）",
+            "雄（75% 雄 / 25% 雌）",
+            "雌（87.5% 雄 / 12.5% 雌）",
+            "雄（87.5% 雄 / 12.5% 雌）"});
             this.comboBoxGender.Location = new System.Drawing.Point(725, 63);
             this.comboBoxGender.MaxDropDownItems = 3;
             this.comboBoxGender.Name = "comboBoxGender";
             this.comboBoxGender.ShineColor = System.Drawing.SystemColors.Window;
-            this.comboBoxGender.Size = new System.Drawing.Size(176, 21);
+            this.comboBoxGender.Size = new System.Drawing.Size(250, 21);
             this.comboBoxGender.TabIndex = 385;
             //
             // comboBoxMethod
@@ -6566,7 +6574,7 @@ namespace RNGReporter
             this.comboBoxMethod.ForeColor = System.Drawing.Color.Black;
             this.comboBoxMethod.FormattingEnabled = true;
             this.comboBoxMethod.Items.AddRange(new object[] {
-            "Method 1",
+            "算法 1",
             "Method 2",
             "Method 4",
             "Method H1",
@@ -6616,8 +6624,8 @@ namespace RNGReporter
             this.comboBoxAbility.FormattingEnabled = true;
             this.comboBoxAbility.Items.AddRange(new object[] {
             "任意",
-            "Ability 0",
-            "Ability 1"});
+            "特性 0",
+            "特性 1"});
             this.comboBoxAbility.Location = new System.Drawing.Point(725, 36);
             this.comboBoxAbility.Name = "comboBoxAbility";
             this.comboBoxAbility.ShineColor = System.Drawing.SystemColors.Window;
