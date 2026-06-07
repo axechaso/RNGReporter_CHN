@@ -28,7 +28,7 @@ namespace RNGReporter.Objects
     internal class IVtoSeed
     {
         //  We need a function to return a list of monster seeds,
-        //  which will be updated to include a method.  
+        //  which will be updated to include a method.
 
         public static List<Seed> GetXDSeeds(
             uint hp,
@@ -52,7 +52,7 @@ namespace RNGReporter.Objects
             {
                 //  Set our test seed here so we can start
                 //  working backwards to see if the rest
-                //  of the information we were provided 
+                //  of the information we were provided
                 //  is a match.
 
                 uint seed = x_testXD | cnt;
@@ -208,7 +208,7 @@ namespace RNGReporter.Objects
                 //Checks that ivs line up
                 if ((rng1 & 0x7FFF) == ivs1)
                 {
-                    
+
                     uint choppedPID;
 
                     //  Check Method 1
@@ -813,7 +813,7 @@ namespace RNGReporter.Objects
             {
                 //  Set our test seed here so we can start
                 //  working backwards to see if the rest
-                //  of the information we were provided 
+                //  of the information we were provided
                 //  is a match.
 
                 uint seed = x_test | cnt;

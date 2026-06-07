@@ -58,26 +58,26 @@ namespace RNGReporter.Objects
                 while (reader.Position < reader.Length)
                 {
                     uint delta = 0;
-                    var b = (byte) reader.ReadByte();
+                    var b = (byte)reader.ReadByte();
                     //signed for << operation
                     int pos = 0;
                     while ((b > 0x7f) && reader.Position < reader.Length)
                     {
-                        delta |= (uint) ((b & 0x7f) << pos);
-                        b = (byte) reader.ReadByte();
+                        delta |= (uint)((b & 0x7f) << pos);
+                        b = (byte)reader.ReadByte();
                         pos += 7;
                     }
 
                     if (b > 0x7f) throw new Exception("Bad cache file");
 
-                    delta |= (uint) (b << pos);
+                    delta |= (uint)(b << pos);
 
                     //get next seed
                     fullseed += delta;
                     ++seedCount;
 
                     //determine next seed data chunk to use
-                    var nextChunkPos = (int) (fullseed >> 6);
+                    var nextChunkPos = (int)(fullseed >> 6);
                     if (nextChunkPos != chunkPos)
                     {
                         //new chunk, so store previous chunk
@@ -89,7 +89,7 @@ namespace RNGReporter.Objects
                     }
 
                     //mark bit in chunk
-                    chunk |= 0x1UL << (int) (fullseed & 0x3f);
+                    chunk |= 0x1UL << (int)(fullseed & 0x3f);
                 }
 
                 //write final chunk
@@ -103,12 +103,12 @@ namespace RNGReporter.Objects
             catch (OutOfMemoryException)
             {
                 MessageBox.Show(string.Format(
-                    "You do not have enough free memory to load {0} for the fast egg search.", seedFile));
+                    "可用内存不足，无法为快速蛋搜索加载 {0}。", seedFile));
             }
 
             catch (Exception e)
             {
-                MessageBox.Show(string.Format("Problem loading {0} for the fast egg search:\r\n{1}", seedFile, e.Message));
+                MessageBox.Show(string.Format("为快速蛋搜索加载 {0} 时出现问题：\r\n{1}", seedFile, e.Message));
                 return false;
             }
 
@@ -119,7 +119,7 @@ namespace RNGReporter.Objects
         {
             for (int i = 0; i < b.Length; i++)
             {
-                if ((char) a[i] != b[i])
+                if ((char)a[i] != b[i])
                     return false;
             }
             return true;

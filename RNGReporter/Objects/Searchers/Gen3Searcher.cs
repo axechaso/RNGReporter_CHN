@@ -86,7 +86,7 @@ namespace RNGReporter.Objects.Searchers
             IVFilter ivfilter = searchParams.ivfilters.IVFilter;
 
             List<int> encounterSlots = null;
-            if (searchParams.encounterSlot.Text != "Any" && searchParams.encounterSlot.CheckBoxItems.Count > 0)
+            if (searchParams.encounterSlot.Text != "任意" && searchParams.encounterSlot.CheckBoxItems.Count > 0)
             {
                 encounterSlots = new List<int>();
                 for (int i = 0; i < searchParams.encounterSlot.CheckBoxItems.Count; i++)
@@ -98,7 +98,7 @@ namespace RNGReporter.Objects.Searchers
             }
 
             List<uint> natures = null;
-            if (searchParams.nature.Text != "Any" && searchParams.nature.CheckBoxItems.Count > 0)
+            if (searchParams.nature.Text != "任意" && searchParams.nature.CheckBoxItems.Count > 0)
             {
                 natures =
                     (from t in searchParams.nature.CheckBoxItems
@@ -151,13 +151,13 @@ namespace RNGReporter.Objects.Searchers
                 case FrameType.Method1:
                 case FrameType.Method2:
                 case FrameType.Method4:
-                    dataGrid.Columns["Offset"].Visible = false;
+                    dataGrid.Columns["偏移"].Visible = false;
                     dataGrid.Columns["EncounterSlot"].Visible = false;
                     break;
                 case FrameType.MethodH1:
                 case FrameType.MethodH2:
                 case FrameType.MethodH4:
-                    dataGrid.Columns["Offset"].Visible = true;
+                    dataGrid.Columns["偏移"].Visible = true;
                     dataGrid.Columns["EncounterSlot"].Visible = true;
                     break;
             }

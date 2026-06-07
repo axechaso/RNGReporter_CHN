@@ -52,9 +52,9 @@ namespace RNGReporter
             this.tpChatotSearch.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFramePreview)).BeginInit();
             this.SuspendLayout();
-            // 
+            //
             // tcSearchTypes
-            // 
+            //
             this.tcSearchTypes.Controls.Add(this.tpChatotSearch);
             this.tcSearchTypes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tcSearchTypes.Location = new System.Drawing.Point(0, 0);
@@ -62,9 +62,9 @@ namespace RNGReporter
             this.tcSearchTypes.SelectedIndex = 0;
             this.tcSearchTypes.Size = new System.Drawing.Size(674, 381);
             this.tcSearchTypes.TabIndex = 1;
-            // 
+            //
             // tpChatotSearch
-            // 
+            //
             this.tpChatotSearch.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.tpChatotSearch.Controls.Add(this.btnAny);
             this.tpChatotSearch.Controls.Add(this.btnMidLow_Low);
@@ -89,65 +89,65 @@ namespace RNGReporter
             this.tpChatotSearch.Padding = new System.Windows.Forms.Padding(3);
             this.tpChatotSearch.Size = new System.Drawing.Size(666, 355);
             this.tpChatotSearch.TabIndex = 0;
-            this.tpChatotSearch.Text = "Chatot Pitches";
-            // 
+            this.tpChatotSearch.Text = "聒噪鸟音高";
+            //
             // btnAny
-            // 
+            //
             this.btnAny.Location = new System.Drawing.Point(408, 41);
             this.btnAny.Name = "btnAny";
             this.btnAny.Size = new System.Drawing.Size(38, 25);
             this.btnAny.TabIndex = 12;
-            this.btnAny.Text = "Any";
+            this.btnAny.Text = "任意";
             this.btnAny.UseVisualStyleBackColor = true;
             this.btnAny.Click += new System.EventHandler(this.btnAny_Click);
-            // 
+            //
             // btnMidLow_Low
-            // 
+            //
             this.btnMidLow_Low.Location = new System.Drawing.Point(308, 41);
             this.btnMidLow_Low.Name = "btnMidLow_Low";
             this.btnMidLow_Low.Size = new System.Drawing.Size(90, 25);
             this.btnMidLow_Low.TabIndex = 11;
-            this.btnMidLow_Low.Text = "Mid-Low / Low";
+            this.btnMidLow_Low.Text = "中低 / 低";
             this.btnMidLow_Low.UseVisualStyleBackColor = true;
             this.btnMidLow_Low.Click += new System.EventHandler(this.btnMidLow_Low_Click);
-            // 
+            //
             // btnMid_MidLow
-            // 
+            //
             this.btnMid_MidLow.Location = new System.Drawing.Point(208, 41);
             this.btnMid_MidLow.Name = "btnMid_MidLow";
             this.btnMid_MidLow.Size = new System.Drawing.Size(90, 25);
             this.btnMid_MidLow.TabIndex = 10;
-            this.btnMid_MidLow.Text = "Mid / Mid-Low";
+            this.btnMid_MidLow.Text = "中 / 中低";
             this.btnMid_MidLow.UseVisualStyleBackColor = true;
             this.btnMid_MidLow.Click += new System.EventHandler(this.btnMid_MidLow_Click);
-            // 
+            //
             // btbMidHigh_Mid
-            // 
+            //
             this.btbMidHigh_Mid.Location = new System.Drawing.Point(108, 41);
             this.btbMidHigh_Mid.Name = "btbMidHigh_Mid";
             this.btbMidHigh_Mid.Size = new System.Drawing.Size(90, 25);
             this.btbMidHigh_Mid.TabIndex = 9;
-            this.btbMidHigh_Mid.Text = "Mid-High / Mid";
+            this.btbMidHigh_Mid.Text = "中高 / 中";
             this.btbMidHigh_Mid.UseVisualStyleBackColor = true;
             this.btbMidHigh_Mid.Click += new System.EventHandler(this.btbMidHigh_Mid_Click);
-            // 
+            //
             // btnHigh_MidHigh
-            // 
+            //
             this.btnHigh_MidHigh.Location = new System.Drawing.Point(8, 41);
             this.btnHigh_MidHigh.Name = "btnHigh_MidHigh";
             this.btnHigh_MidHigh.Size = new System.Drawing.Size(90, 25);
             this.btnHigh_MidHigh.TabIndex = 8;
-            this.btnHigh_MidHigh.Text = "High / Mid-High";
+            this.btnHigh_MidHigh.Text = "高 / 中高";
             this.btnHigh_MidHigh.UseVisualStyleBackColor = true;
             this.btnHigh_MidHigh.Click += new System.EventHandler(this.btnHigh_MidHigh_Click);
-            // 
+            //
             // dgvFramePreview
-            // 
+            //
             this.dgvFramePreview.AllowUserToAddRows = false;
             this.dgvFramePreview.AllowUserToDeleteRows = false;
             this.dgvFramePreview.AllowUserToResizeRows = false;
-            this.dgvFramePreview.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dgvFramePreview.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvFramePreview.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dgvFramePreview.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -159,120 +159,120 @@ namespace RNGReporter
             this.dgvFramePreview.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgvFramePreview.Size = new System.Drawing.Size(650, 183);
             this.dgvFramePreview.TabIndex = 16;
-            // 
+            //
             // btnJumpToFrame
-            // 
+            //
             this.btnJumpToFrame.Location = new System.Drawing.Point(8, 133);
             this.btnJumpToFrame.Name = "btnJumpToFrame";
             this.btnJumpToFrame.Size = new System.Drawing.Size(127, 25);
             this.btnJumpToFrame.TabIndex = 17;
-            this.btnJumpToFrame.Text = "Jump to selected frame";
+            this.btnJumpToFrame.Text = "跳转到所选帧";
             this.btnJumpToFrame.UseVisualStyleBackColor = true;
             this.btnJumpToFrame.Click += new System.EventHandler(this.btnJumpToFrame_Click);
-            // 
+            //
             // lblResultCount
-            // 
+            //
             this.lblResultCount.AutoSize = true;
             this.lblResultCount.Location = new System.Drawing.Point(101, 110);
             this.lblResultCount.Name = "lblResultCount";
             this.lblResultCount.Size = new System.Drawing.Size(0, 13);
             this.lblResultCount.TabIndex = 27;
-            // 
+            //
             // lblResults
-            // 
+            //
             this.lblResults.AutoSize = true;
             this.lblResults.Location = new System.Drawing.Point(8, 110);
             this.lblResults.Name = "lblResults";
             this.lblResults.Size = new System.Drawing.Size(87, 13);
             this.lblResults.TabIndex = 26;
-            this.lblResults.Text = "Possible Results:";
-            // 
+            this.lblResults.Text = "可能结果:";
+            //
             // btnLow
-            // 
+            //
             this.btnLow.Location = new System.Drawing.Point(366, 8);
             this.btnLow.Name = "btnLow";
             this.btnLow.Size = new System.Drawing.Size(80, 25);
             this.btnLow.TabIndex = 7;
-            this.btnLow.Text = "Low";
+            this.btnLow.Text = "低";
             this.btnLow.UseVisualStyleBackColor = true;
             this.btnLow.Click += new System.EventHandler(this.btnLow_Click);
-            // 
+            //
             // btnMidLow
-            // 
+            //
             this.btnMidLow.Location = new System.Drawing.Point(276, 8);
             this.btnMidLow.Name = "btnMidLow";
             this.btnMidLow.Size = new System.Drawing.Size(80, 25);
             this.btnMidLow.TabIndex = 6;
-            this.btnMidLow.Text = "Mid-Low";
+            this.btnMidLow.Text = "中低";
             this.btnMidLow.UseVisualStyleBackColor = true;
             this.btnMidLow.Click += new System.EventHandler(this.btnMidLow_Click);
-            // 
+            //
             // btnMid
-            // 
+            //
             this.btnMid.Location = new System.Drawing.Point(186, 8);
             this.btnMid.Name = "btnMid";
             this.btnMid.Size = new System.Drawing.Size(80, 25);
             this.btnMid.TabIndex = 5;
-            this.btnMid.Text = "Mid";
+            this.btnMid.Text = "中";
             this.btnMid.UseVisualStyleBackColor = true;
             this.btnMid.Click += new System.EventHandler(this.btnMid_Click);
-            // 
+            //
             // btnHigh
-            // 
+            //
             this.btnHigh.Location = new System.Drawing.Point(8, 8);
             this.btnHigh.Name = "btnHigh";
             this.btnHigh.Size = new System.Drawing.Size(80, 25);
             this.btnHigh.TabIndex = 3;
-            this.btnHigh.Text = "High";
+            this.btnHigh.Text = "高";
             this.btnHigh.UseVisualStyleBackColor = true;
             this.btnHigh.Click += new System.EventHandler(this.btnHigh_Click);
-            // 
+            //
             // btnMidHigh
-            // 
+            //
             this.btnMidHigh.Location = new System.Drawing.Point(96, 8);
             this.btnMidHigh.Name = "btnMidHigh";
             this.btnMidHigh.Size = new System.Drawing.Size(80, 25);
             this.btnMidHigh.TabIndex = 4;
-            this.btnMidHigh.Text = "Mid-High";
+            this.btnMidHigh.Text = "中高";
             this.btnMidHigh.UseVisualStyleBackColor = true;
             this.btnMidHigh.Click += new System.EventHandler(this.btnMidHigh_Click);
-            // 
+            //
             // btnClear
-            // 
+            //
             this.btnClear.Location = new System.Drawing.Point(543, 71);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(60, 25);
             this.btnClear.TabIndex = 15;
-            this.btnClear.Text = "Clear";
+            this.btnClear.Text = "清除";
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
-            // 
+            //
             // btnRemove
-            // 
+            //
             this.btnRemove.Location = new System.Drawing.Point(473, 71);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(60, 25);
             this.btnRemove.TabIndex = 14;
-            this.btnRemove.Text = "Remove";
+            this.btnRemove.Text = "移除";
             this.btnRemove.UseVisualStyleBackColor = true;
             this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
-            // 
+            //
             // txtChatotPitches
-            // 
+            //
             this.txtChatotPitches.Location = new System.Drawing.Point(8, 74);
             this.txtChatotPitches.Name = "txtChatotPitches";
             this.txtChatotPitches.Size = new System.Drawing.Size(438, 20);
             this.txtChatotPitches.TabIndex = 13;
             this.txtChatotPitches.TextChanged += new System.EventHandler(this.txtChatotPitches_TextChanged);
-            // 
+            //
             // Gen5FrameFinder
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(674, 381);
             this.Controls.Add(this.tcSearchTypes);
             this.Name = "Gen5FrameFinder";
-            this.Text = "Gen 5 Frame Finder";
+            this.Text = "第五世代帧查找器";
             this.Load += new System.EventHandler(this.Gen5FrameFinder_Load);
             this.tcSearchTypes.ResumeLayout(false);
             this.tpChatotSearch.ResumeLayout(false);

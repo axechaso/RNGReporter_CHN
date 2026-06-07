@@ -12,7 +12,7 @@ namespace RNGReporter.Controls
     ///     --------------------------------
     ///     This is a usefull control in Filters. Allows you to save space and can replace a Grouped Box of CheckBoxes.
     ///     Currently used on the TasksFilter for TaskStatusses, which means the user can select which Statusses to include
-    ///     in the "Search".
+    ///     in the "搜索".
     ///     This control does not implement a CheckBoxListBox, instead it adds a wrapper for the normal ComboBox and Items.
     ///     See the CheckBoxItems property.
     ///     ----------------
@@ -256,11 +256,11 @@ namespace RNGReporter.Controls
             // part of the "textbox" should match a single item.
             if (DropDownStyle != ComboBoxStyle.DropDownList)
                 Text = ListText;
-                // This refreshes the Text of the first item (which is not visible)
+            // This refreshes the Text of the first item (which is not visible)
             else if (DataSource == null)
             {
                 Items[0] = ListText;
-                // Keep the hidden item and first checkbox item in 
+                // Keep the hidden item and first checkbox item in
                 // sync in order to ensure the Synchronise process
                 // can match the items.
                 CheckBoxItems[0].ComboBoxItem = ListText;
@@ -288,7 +288,7 @@ namespace RNGReporter.Controls
 
         protected override void OnResize(EventArgs e)
         {
-            // When the ComboBox is resized, the width of the dropdown 
+            // When the ComboBox is resized, the width of the dropdown
             // is also resized to match the width of the ComboBox. I think it looks better.
             var Size = new Size(Width, DropDownControl.Height);
             dropDown.Size = Size;
@@ -472,7 +472,7 @@ namespace RNGReporter.Controls
                 && !DesignMode;
 
             var NewList = new CheckBoxComboBoxItemList(_CheckBoxComboBox);
-            for (int Index0 = 0; Index0 <= _CheckBoxComboBox.Items.Count - 1; Index0 ++)
+            for (int Index0 = 0; Index0 <= _CheckBoxComboBox.Items.Count - 1; Index0++)
             {
                 object Object = _CheckBoxComboBox.Items[Index0];
                 CheckBoxComboBoxItem Item = null;
@@ -483,7 +483,7 @@ namespace RNGReporter.Controls
                 else
                 {
                     int StartIndex = HasHiddenItem
-                                         ? 1 // Skip the hidden item, it could match 
+                                         ? 1 // Skip the hidden item, it could match
                                          : 0;
                     for (int Index1 = StartIndex; Index1 <= _Items.Count - 1; Index1++)
                     {
@@ -514,9 +514,9 @@ namespace RNGReporter.Controls
             {
                 // This reverse helps to maintain correct docking order.
                 NewList.Reverse();
-                // If you get an error here that "Cannot convert to the desired 
+                // If you get an error here that "Cannot convert to the desired
                 // type, it probably means the controls are not binding correctly.
-                // The Checked property is binded to the ValueMember property. 
+                // The Checked property is binded to the ValueMember property.
                 // It must be a bool for example.
                 Controls.AddRange(NewList.ToArray());
             }
@@ -616,7 +616,7 @@ namespace RNGReporter.Controls
             // Helps to maintain the Checked status of this
             // checkbox before the control is visible
             if (_ComboBoxItem is INotifyPropertyChanged)
-                ((INotifyPropertyChanged) _ComboBoxItem).PropertyChanged +=
+                ((INotifyPropertyChanged)_ComboBoxItem).PropertyChanged +=
                     CheckBoxComboBoxItem_PropertyChanged;
         }
 
@@ -681,7 +681,7 @@ namespace RNGReporter.Controls
         {
             if (e.PropertyName == _CheckBoxComboBox.ValueMember)
                 Checked =
-                    (bool) _ComboBoxItem
+                    (bool)_ComboBoxItem
                                .GetType()
                                .GetProperty(_CheckBoxComboBox.ValueMember)
                                .GetValue(_ComboBoxItem, null);
@@ -775,14 +775,14 @@ namespace RNGReporter.Controls
             get
             {
                 int StartIndex =
-                    // An invisible item exists in this scenario to help 
+                    // An invisible item exists in this scenario to help
                     // with the Text displayed in the TextBox of the Combo
                     _CheckBoxComboBox.DropDownStyle == ComboBoxStyle.DropDownList
                     && _CheckBoxComboBox.DataSource == null
                         ? 1
                         // Ubiklou : 2008-04-28 : Ignore first item. (http://www.codeproject.com/KB/combobox/extending_combobox.aspx?fid=476622&df=90&mpp=25&noise=3&sort=Position&view=Quick&select=2526813&fr=1#xx2526813xx)
                         : 0;
-                for (int Index = StartIndex; Index <= Count - 1; Index ++)
+                for (int Index = StartIndex; Index <= Count - 1; Index++)
                 {
                     CheckBoxComboBoxItem Item = this[Index];
 
@@ -797,7 +797,7 @@ namespace RNGReporter.Controls
                         PropertyInfo PropertyInfo
                             = Item.ComboBoxItem.GetType().GetProperty(
                                 Item.DataBindings["Text"].BindingMemberInfo.BindingMember);
-                        Text = (string) PropertyInfo.GetValue(Item.ComboBoxItem, null);
+                        Text = (string)PropertyInfo.GetValue(Item.ComboBoxItem, null);
                     }
                     else
                         Text = Item.Text;
@@ -812,7 +812,7 @@ namespace RNGReporter.Controls
         #endregion
     }
 
-    [TypeConverter(typeof (ExpandableObjectConverter))]
+    [TypeConverter(typeof(ExpandableObjectConverter))]
     public class CheckBoxProperties
     {
         #region PRIVATE PROPERTIES
@@ -892,7 +892,7 @@ namespace RNGReporter.Controls
             }
         }
 
-        [DefaultValue(typeof (Color), "")]
+        [DefaultValue(typeof(Color), "")]
         public Color FlatAppearanceBorderColor
         {
             get { return _FlatAppearanceBorderColor; }
@@ -914,7 +914,7 @@ namespace RNGReporter.Controls
             }
         }
 
-        [DefaultValue(typeof (Color), "")]
+        [DefaultValue(typeof(Color), "")]
         public Color FlatAppearanceCheckedBackColor
         {
             get { return _FlatAppearanceCheckedBackColor; }
@@ -925,7 +925,7 @@ namespace RNGReporter.Controls
             }
         }
 
-        [DefaultValue(typeof (Color), "")]
+        [DefaultValue(typeof(Color), "")]
         public Color FlatAppearanceMouseDownBackColor
         {
             get { return _FlatAppearanceMouseDownBackColor; }
@@ -936,7 +936,7 @@ namespace RNGReporter.Controls
             }
         }
 
-        [DefaultValue(typeof (Color), "")]
+        [DefaultValue(typeof(Color), "")]
         public Color FlatAppearanceMouseOverBackColor
         {
             get { return _FlatAppearanceMouseOverBackColor; }
@@ -958,7 +958,7 @@ namespace RNGReporter.Controls
             }
         }
 
-        [DefaultValue(typeof (SystemColors), "ControlText")]
+        [DefaultValue(typeof(SystemColors), "ControlText")]
         public Color ForeColor
         {
             get { return _ForeColor; }

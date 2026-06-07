@@ -32,17 +32,17 @@ namespace RNGReporter.Objects
 
         public string Taps
         {
-            get { return (((Offset - 11)/12) - 1).ToString(); }
+            get { return (((Offset - 11) / 12) - 1).ToString(); }
         }
 
         public string Flips
         {
-            get { return ((Offset - 11)%12).ToString(); }
+            get { return ((Offset - 11) % 12).ToString(); }
         }
 
         public string Nature
         {
-            get { return Functions.NatureStrings((int) Functions.Nature(Pid)); }
+            get { return Functions.NatureStrings((int)Functions.Nature(Pid)); }
         }
 
         public string Ability
@@ -57,22 +57,22 @@ namespace RNGReporter.Objects
 
         public string Female50
         {
-            get { return ((Pid & 0xFF) >= 127) ? "M" : "F"; }
+            get { return ((Pid & 0xFF) >= 127) ? "♂" : "♀"; }
         }
 
         public string Female125
         {
-            get { return ((Pid & 0xFF) >= 31) ? "M" : "F"; }
+            get { return ((Pid & 0xFF) >= 31) ? "♂" : "♀"; }
         }
 
         public string Female25
         {
-            get { return ((Pid & 0xFF) >= 63) ? "M" : "F"; }
+            get { return ((Pid & 0xFF) >= 63) ? "♂" : "♀"; }
         }
 
         public string Female75
         {
-            get { return ((Pid & 0xFF) >= 191) ? "M" : "F"; }
+            get { return ((Pid & 0xFF) >= 191) ? "♂" : "♀"; }
         }
 
         public string FlipSequence
@@ -88,7 +88,7 @@ namespace RNGReporter.Objects
 
         public string ShinyDisplay
         {
-            get { return shiny ? "!!!" : ""; }
+            get { return shiny ? "异色" : ""; }
         }
     }
 
@@ -130,15 +130,15 @@ namespace RNGReporter.Objects
                         result = direction * x.Offset.CompareTo(y.Offset);
                     }
                     return result;
-                case "Offset":
+                case "偏移":
                     return direction * x.Offset.CompareTo(y.Offset);
                 case "NearestShiny":
                     return direction * x.NearestShiny.CompareTo(y.NearestShiny);
                 case "Pid":
                     return direction * x.Pid.CompareTo(y.Pid);
-                case "Ability":
+                case "特性":
                     return direction * x.Ability.CompareTo(y.Ability);
-                case "Nature":
+                case "性格":
                     return direction * x.NatureNumber.CompareTo(y.NatureNumber);
                 case "HiddenPowerPower":
                     return direction * x.HiddenPowerPower.CompareTo(y.HiddenPowerPower);
@@ -175,7 +175,7 @@ namespace RNGReporter.Objects
                         }
                     }
                     return result;
-                case "Atk":
+                case "攻击":
                     result = direction * x.Atk.CompareTo(y.Atk);
                     if (result == 0)
                     {
@@ -198,7 +198,7 @@ namespace RNGReporter.Objects
                         }
                     }
                     return result;
-                case "Def":
+                case "防御":
                     result = direction * x.Def.CompareTo(y.Def);
                     if (result == 0)
                     {
@@ -221,7 +221,7 @@ namespace RNGReporter.Objects
                         }
                     }
                     return result;
-                case "SpA":
+                case "特攻":
                     result = direction * x.SpA.CompareTo(y.SpA);
                     if (result == 0)
                     {
@@ -244,7 +244,7 @@ namespace RNGReporter.Objects
                         }
                     }
                     return result;
-                case "SpD":
+                case "特防":
                     result = direction * x.SpD.CompareTo(y.SpD);
                     if (result == 0)
                     {
@@ -267,7 +267,7 @@ namespace RNGReporter.Objects
                         }
                     }
                     return result;
-                case "Spe":
+                case "速度":
                     result = direction * x.Spe.CompareTo(y.Spe);
                     if (result == 0)
                     {

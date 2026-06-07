@@ -21,12 +21,12 @@ namespace RNGReporter.Objects
 {
     internal class Seed
     {
-        //  Needs to hold all of the information about 
+        //  Needs to hold all of the information about
         //  a seed that we have created from an IV and
         //  nature combo.
 
         //  Need to come up with a better name for this, as it
-        //  cant seem to have the same name as the containing 
+        //  cant seem to have the same name as the containing
         //  class :P
         public uint MonsterSeed { get; set; }
 
@@ -44,22 +44,22 @@ namespace RNGReporter.Objects
         //  gender number
         public string Female50
         {
-            get { return ((Pid & 0xFF) > 126) ? "M" : "F"; }
+            get { return ((Pid & 0xFF) > 126) ? "♂" : "♀"; }
         }
 
         public string Female125
         {
-            get { return ((Pid & 0xFF) > 30) ? "M" : "F"; }
+            get { return ((Pid & 0xFF) > 30) ? "♂" : "♀"; }
         }
 
         public string Female25
         {
-            get { return ((Pid & 0xFF) > 63) ? "M" : "F"; }
+            get { return ((Pid & 0xFF) > 63) ? "♂" : "♀"; }
         }
 
         public string Female75
         {
-            get { return ((Pid & 0xFF) > 190) ? "M" : "F"; }
+            get { return ((Pid & 0xFF) > 190) ? "♂" : "♀"; }
         }
 
         public string Method { get; set; }

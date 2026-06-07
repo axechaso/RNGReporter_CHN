@@ -95,40 +95,40 @@ namespace RNGReporter
 
             comboBoxMethod.Items.AddRange(new object[]
                 {
-                    new ComboBoxItem("IVs (Standard Seed)", FrameType.Method5Standard),
+                    new ComboBoxItem("个体值（普通的Seed）", FrameType.Method5Standard),
                     new ComboBoxItem("PIDRNG", FrameType.Method5Natures),
-                    new ComboBoxItem("Eggs", FrameType.BWBred),
-                    new ComboBoxItem("Wondercard", FrameType.Wondercard5thGen),
+                    new ComboBoxItem("蛋", FrameType.BWBred),
+                    new ComboBoxItem("神秘卡片", FrameType.Wondercard5thGen),
                 });
 
             comboBoxEncounterType.Items.AddRange(new object[]
                 {
-                    new ComboBoxItem("Wild Pokémon", EncounterType.Wild),
-                    new ComboBoxItem("Wild Pokémon (Swarm)",
+                    new ComboBoxItem("野生宝可梦", EncounterType.Wild),
+                    new ComboBoxItem("野生宝可梦（虫之预感）",
                                      EncounterType.WildSwarm),
                     new ComboBoxItem("Wild Pokémon (Surfing)",
                                      EncounterType.WildSurfing),
                     new ComboBoxItem("Wild Pokémon (Fishing)",
                                      EncounterType.WildSuperRod),
-                    new ComboBoxItem("Wild Pokémon (Shaking Grass)",
+                    new ComboBoxItem("野生宝可梦（摇动草丛）",
                                      EncounterType.WildShakerGrass),
-                    new ComboBoxItem("Wild Pokémon (Bubble Spot)",
+                    new ComboBoxItem("野生宝可梦（水纹水面）",
                                      EncounterType.WildWaterSpot),
-                    new ComboBoxItem("Wild Pokémon (Cave Spot)",
+                    new ComboBoxItem("野生宝可梦（卷尘地面）",
                                      EncounterType.WildCaveSpot),
-                    new ComboBoxItem("Stationary Pokémon", EncounterType.Stationary)
+                    new ComboBoxItem("定点宝可梦", EncounterType.Stationary)
                     ,
                     new ComboBoxItem("Roaming Pokémon", EncounterType.Roamer),
-                    new ComboBoxItem("Gift Pokémon", EncounterType.Gift),
-                    new ComboBoxItem("Larvesta Egg", EncounterType.LarvestaHappiny)
+                    new ComboBoxItem("礼物宝可梦", EncounterType.Gift),
+                    new ComboBoxItem("燃烧虫的蛋", EncounterType.LarvestaHappiny)
                 });
 
             comboBoxLead.Items.AddRange(new object[]
                 {
-                    new ComboBoxItem("None", EncounterMod.None),
-                    new ComboBoxItem("Synchronize", EncounterMod.Synchronize),
-                    new ComboBoxItem("Cute Charm", EncounterMod.CuteCharm),
-                    new ComboBoxItem("Suction Cups", EncounterMod.SuctionCups)
+                    new ComboBoxItem("无", EncounterMod.None),
+                    new ComboBoxItem("同步", EncounterMod.Synchronize),
+                    new ComboBoxItem("迷人之躯", EncounterMod.CuteCharm),
+                    new ComboBoxItem("吸盘", EncounterMod.SuctionCups)
                 });
 
             Settings.Default.PropertyChanged += ChangeLanguage;
@@ -336,7 +336,7 @@ namespace RNGReporter
 
             if (generator.FrameType == FrameType.Wondercard5thGen)
             {
-                MessageBox.Show("Unsupported for now.");
+                MessageBox.Show("暂不支持。");
                 return;
             }
 
@@ -535,7 +535,7 @@ namespace RNGReporter
             {
                 var nature = (string) e.Value;
 
-                if ((bool) dataGridViewCapValues.Rows[e.RowIndex].Cells["Synchable"].Value)
+                if ((bool) dataGridViewCapValues.Rows[e.RowIndex].Cells["同步能力"].Value)
                 {
                     e.CellStyle.Font = new Font(e.CellStyle.Font, FontStyle.Bold);
                 }
@@ -575,19 +575,19 @@ namespace RNGReporter
 
         private void outputCapResultsToTXTToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //  Going to need to present the user with a File Dialog and 
+            //  Going to need to present the user with a File Dialog and
             //  then interate through the Grid, outputting columns that
             //  are visible.
 
             saveFileDialogTxt.AddExtension = true;
-            saveFileDialogTxt.Title = "Save Output to TXT";
-            saveFileDialogTxt.Filter = "TXT Files|*.txt";
+            saveFileDialogTxt.Title = "保存输出到 TXT";
+            saveFileDialogTxt.Filter = "TXT 文件|*.txt";
             saveFileDialogTxt.FileName = "rngreporter.txt";
             if (saveFileDialogTxt.ShowDialog() == DialogResult.OK)
             {
-                //  Get the name of the file and then go ahead 
+                //  Get the name of the file and then go ahead
                 //  and create and save the thing to the hard
-                //  drive.   
+                //  drive.
                 List<IFrameCapture> frames = iframes;
 
                 if (frames.Count > 0)
@@ -626,7 +626,7 @@ namespace RNGReporter
             }
         }
 
-        // Sorts the grid 
+        // Sorts the grid
         // Can't use SortCompare method because this grid is data-bound
         private void dataGridViewCapValues_ColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
@@ -684,8 +684,8 @@ namespace RNGReporter
                     comboBoxLead.Enabled = false;
                     maskedTextBoxCapMaxOffset.Enabled = true;
                     maskedTextBoxCapMinOffset.Enabled = true;
-                    labelMinFrame.Text = "Min Frame";
-                    labelMaxFrame.Text = "Max Frame";
+                    labelMinFrame.Text = "最小帧";
+                    labelMaxFrame.Text = "最大帧";
 
                     /*if (maskedTextBoxCapMinOffset.Text == "0")
                         maskedTextBoxCapMinOffset.Text = "1";
@@ -693,15 +693,15 @@ namespace RNGReporter
                     if (maskedTextBoxCapMaxOffset.Text == "0")
                         maskedTextBoxCapMaxOffset.Text = "1";*/
 
-                    textBoxDescription.Text = "This RNG handles IVs only.";
+                    textBoxDescription.Text = "此 RNG 仅处理 IV。";
                     break;
                 case FrameType.Method5Natures:
                     comboBoxEncounterType.Enabled = true;
                     comboBoxLead.Enabled = true;
                     maskedTextBoxCapMaxOffset.Enabled = true;
                     maskedTextBoxCapMinOffset.Enabled = true;
-                    labelMinFrame.Text = "Min Advances";
-                    labelMaxFrame.Text = "Max Advances";
+                    labelMinFrame.Text = "最小帧";
+                    labelMaxFrame.Text = "最大帧";
 
                     if (maskedTextBoxCapMinOffset.Text == "1")
                         maskedTextBoxCapMinOffset.Text = "0";
@@ -709,15 +709,15 @@ namespace RNGReporter
                     if (maskedTextBoxCapMaxOffset.Text == "1")
                         maskedTextBoxCapMaxOffset.Text = "0";
 
-                    textBoxDescription.Text = "This RNG handles natures, gender, encounter slot, and shininess only.";
+                    textBoxDescription.Text = "此 RNG 仅处理性格、性别、遭遇槽和闪光。";
                     break;
                 case FrameType.BWBred:
                     comboBoxEncounterType.Enabled = false;
                     comboBoxLead.Enabled = false;
                     maskedTextBoxCapMaxOffset.Enabled = false;
                     maskedTextBoxCapMinOffset.Enabled = false;
-                    labelMinFrame.Text = "Min Advances";
-                    labelMaxFrame.Text = "Max Advances";
+                    labelMinFrame.Text = "最小帧";
+                    labelMaxFrame.Text = "最大帧";
                     textBoxDescription.Text =
                         "After obtaining an egg from the Day-Care Man, you must immediately capture a Pokémon to confirm your seed.  " +
                         "The IVs of the captured Pokémon will appear on frames 14-20.";
@@ -727,8 +727,8 @@ namespace RNGReporter
                     comboBoxLead.Enabled = false;
                     maskedTextBoxCapMaxOffset.Enabled = true;
                     maskedTextBoxCapMinOffset.Enabled = true;
-                    labelMinFrame.Text = "Min Advances";
-                    labelMaxFrame.Text = "Max Advances";
+                    labelMinFrame.Text = "最小帧";
+                    labelMaxFrame.Text = "最大帧";
 
                     if (maskedTextBoxCapMinOffset.Text == "1")
                         maskedTextBoxCapMinOffset.Text = "0";
@@ -737,13 +737,13 @@ namespace RNGReporter
                         maskedTextBoxCapMaxOffset.Text = "0";
 
                     textBoxDescription.Text =
-                        "Most Mystery Gifts use this method.  However, Mystery Gifts that can have any nature but are locked into a single gender " +
-                        "must use the GLAN (Gender Locked, Any Nature) Wondercard method.";
+                        "大多数神秘礼物都使用这种算法。神秘礼物宝可梦可以是任何性格，但仅限于单一性别。" +
+                        "必须使用GLAN（锁性别，任意性格）神秘卡片算法";
                     break;
             }
 
             textBoxDescription.Text += Environment.NewLine +
-                                       "Frames listed with a grey background are from seeds adjacent to the target.";
+                                       "灰色背景的帧数是目标附近的seed";
         }
 
         private void FocusControl(object sender, MouseEventArgs e)

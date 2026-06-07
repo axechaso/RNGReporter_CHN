@@ -155,9 +155,9 @@ namespace RNGReporter
             this.menuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewValues)).BeginInit();
             this.SuspendLayout();
-            // 
+            //
             // radioButtonCommon
-            // 
+            //
             this.radioButtonCommon.AutoSize = true;
             this.radioButtonCommon.Checked = true;
             this.radioButtonCommon.Location = new System.Drawing.Point(10, 27);
@@ -165,11 +165,11 @@ namespace RNGReporter
             this.radioButtonCommon.Size = new System.Drawing.Size(98, 17);
             this.radioButtonCommon.TabIndex = 0;
             this.radioButtonCommon.TabStop = true;
-            this.radioButtonCommon.Text = "Common RNGs";
+            this.radioButtonCommon.Text = "常见的 RNGs";
             this.radioButtonCommon.UseVisualStyleBackColor = true;
-            // 
+            //
             // contextMenuStripGrid
-            // 
+            //
             this.contextMenuStripGrid.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.copyItemToolStripMenuItem,
             this.toolStripSeparator1,
@@ -181,176 +181,176 @@ namespace RNGReporter
             this.contextMenuStripGrid.Name = "contextMenuStripGrid";
             this.contextMenuStripGrid.Size = new System.Drawing.Size(256, 126);
             this.contextMenuStripGrid.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStripGrid_Opening);
-            // 
+            //
             // copyItemToolStripMenuItem
-            // 
+            //
             this.copyItemToolStripMenuItem.Name = "copyItemToolStripMenuItem";
             this.copyItemToolStripMenuItem.Size = new System.Drawing.Size(255, 22);
-            this.copyItemToolStripMenuItem.Text = "Copy Item";
+            this.copyItemToolStripMenuItem.Text = "复制Item";
             this.copyItemToolStripMenuItem.Click += new System.EventHandler(this.copyItemToolStripMenuItem_Click);
-            // 
+            //
             // toolStripSeparator1
-            // 
+            //
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(252, 6);
-            // 
+            //
             // copySelectedColumnsToolStripMenuItem
-            // 
+            //
             this.copySelectedColumnsToolStripMenuItem.Name = "copySelectedColumnsToolStripMenuItem";
             this.copySelectedColumnsToolStripMenuItem.Size = new System.Drawing.Size(255, 22);
-            this.copySelectedColumnsToolStripMenuItem.Text = "Copy Selected Columns";
+            this.copySelectedColumnsToolStripMenuItem.Text = "复制选中的列";
             this.copySelectedColumnsToolStripMenuItem.Click += new System.EventHandler(this.copySelectedColumnsToolStripMenuItem_Click);
-            // 
+            //
             // copyColumnToolStripMenuItem
-            // 
+            //
             this.copyColumnToolStripMenuItem.Name = "copyColumnToolStripMenuItem";
             this.copyColumnToolStripMenuItem.Size = new System.Drawing.Size(255, 22);
-            this.copyColumnToolStripMenuItem.Text = "Copy Row from Selected Columns";
+            this.copyColumnToolStripMenuItem.Text = "从选定列复制行";
             this.copyColumnToolStripMenuItem.Click += new System.EventHandler(this.copyColumnToolStripMenuItem_Click);
-            // 
+            //
             // toolStripMenuItem1
-            // 
+            //
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(252, 6);
-            // 
+            //
             // outputResultsToTXTToolStripMenuItem
-            // 
+            //
             this.outputResultsToTXTToolStripMenuItem.Name = "outputResultsToTXTToolStripMenuItem";
             this.outputResultsToTXTToolStripMenuItem.Size = new System.Drawing.Size(255, 22);
-            this.outputResultsToTXTToolStripMenuItem.Text = "Output Results to TXT ...";
+            this.outputResultsToTXTToolStripMenuItem.Text = "输出结果至TXT文本文件";
             this.outputResultsToTXTToolStripMenuItem.Click += new System.EventHandler(this.outputResultsToTXTToolStripMenuItem_Click);
-            // 
+            //
             // outputSelectedColumnsToTXTToolStripMenuItem
-            // 
+            //
             this.outputSelectedColumnsToTXTToolStripMenuItem.Name = "outputSelectedColumnsToTXTToolStripMenuItem";
             this.outputSelectedColumnsToTXTToolStripMenuItem.Size = new System.Drawing.Size(255, 22);
-            this.outputSelectedColumnsToTXTToolStripMenuItem.Text = "Output Selected Columns to TXT...";
+            this.outputSelectedColumnsToTXTToolStripMenuItem.Text = "将选定列输出到TXT文本文件...";
             this.outputSelectedColumnsToTXTToolStripMenuItem.Click += new System.EventHandler(this.outputSelectedColumnsToTXTToolStripMenuItem_Click);
-            // 
+            //
             // label12
-            // 
+            //
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(10, 192);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(60, 13);
             this.label12.TabIndex = 11;
             this.label12.Text = "Seed (Hex)";
-            // 
+            //
             // radioButtonCustom
-            // 
+            //
             this.radioButtonCustom.AutoSize = true;
             this.radioButtonCustom.Location = new System.Drawing.Point(10, 65);
             this.radioButtonCustom.Name = "radioButtonCustom";
             this.radioButtonCustom.Size = new System.Drawing.Size(60, 17);
             this.radioButtonCustom.TabIndex = 4;
-            this.radioButtonCustom.Text = "Custom";
+            this.radioButtonCustom.Text = "自定义";
             this.radioButtonCustom.UseVisualStyleBackColor = true;
-            // 
+            //
             // label1
-            // 
+            //
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(99, 67);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(14, 13);
             this.label1.TabIndex = 7;
             this.label1.Text = "X";
-            // 
+            //
             // label2
-            // 
+            //
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(100, 94);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(13, 13);
             this.label2.TabIndex = 8;
             this.label2.Text = "+";
-            // 
+            //
             // label3
-            // 
+            //
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(392, 28);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(51, 13);
             this.label3.TabIndex = 13;
-            this.label3.Text = "Custom 1";
-            // 
+            this.label3.Text = "自定义 1";
+            //
             // label4
-            // 
+            //
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(392, 54);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(51, 13);
             this.label4.TabIndex = 18;
-            this.label4.Text = "Custom 2";
-            // 
+            this.label4.Text = "自定义 2";
+            //
             // label5
-            // 
+            //
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(392, 81);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(51, 13);
             this.label5.TabIndex = 23;
-            this.label5.Text = "Custom 3";
-            // 
+            this.label5.Text = "自定义 3";
+            //
             // label6
-            // 
+            //
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(392, 108);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(51, 13);
             this.label6.TabIndex = 28;
-            this.label6.Text = "Custom 4";
-            // 
+            this.label6.Text = "自定义 4";
+            //
             // label10
-            // 
+            //
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(10, 166);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(65, 13);
             this.label10.TabIndex = 9;
-            this.label10.Text = "Max Results";
-            // 
+            this.label10.Text = "最大帧";
+            //
             // checkBoxCustom1Hex
-            // 
+            //
             this.checkBoxCustom1Hex.AutoSize = true;
             this.checkBoxCustom1Hex.Location = new System.Drawing.Point(656, 28);
             this.checkBoxCustom1Hex.Name = "checkBoxCustom1Hex";
             this.checkBoxCustom1Hex.Size = new System.Drawing.Size(45, 17);
             this.checkBoxCustom1Hex.TabIndex = 17;
-            this.checkBoxCustom1Hex.Text = "Hex";
+            this.checkBoxCustom1Hex.Text = "16进制";
             this.checkBoxCustom1Hex.UseVisualStyleBackColor = true;
-            // 
+            //
             // checkBoxCustom2Hex
-            // 
+            //
             this.checkBoxCustom2Hex.AutoSize = true;
             this.checkBoxCustom2Hex.Location = new System.Drawing.Point(656, 55);
             this.checkBoxCustom2Hex.Name = "checkBoxCustom2Hex";
             this.checkBoxCustom2Hex.Size = new System.Drawing.Size(45, 17);
             this.checkBoxCustom2Hex.TabIndex = 22;
-            this.checkBoxCustom2Hex.Text = "Hex";
+            this.checkBoxCustom2Hex.Text = "16进制";
             this.checkBoxCustom2Hex.UseVisualStyleBackColor = true;
-            // 
+            //
             // checkBoxCustom3Hex
-            // 
+            //
             this.checkBoxCustom3Hex.AutoSize = true;
             this.checkBoxCustom3Hex.Location = new System.Drawing.Point(656, 82);
             this.checkBoxCustom3Hex.Name = "checkBoxCustom3Hex";
             this.checkBoxCustom3Hex.Size = new System.Drawing.Size(45, 17);
             this.checkBoxCustom3Hex.TabIndex = 27;
-            this.checkBoxCustom3Hex.Text = "Hex";
+            this.checkBoxCustom3Hex.Text = "16进制";
             this.checkBoxCustom3Hex.UseVisualStyleBackColor = true;
-            // 
+            //
             // checkBoxCustom4Hex
-            // 
+            //
             this.checkBoxCustom4Hex.AutoSize = true;
             this.checkBoxCustom4Hex.Location = new System.Drawing.Point(656, 109);
             this.checkBoxCustom4Hex.Name = "checkBoxCustom4Hex";
             this.checkBoxCustom4Hex.Size = new System.Drawing.Size(45, 17);
             this.checkBoxCustom4Hex.TabIndex = 32;
-            this.checkBoxCustom4Hex.Text = "Hex";
+            this.checkBoxCustom4Hex.Text = "16进制";
             this.checkBoxCustom4Hex.UseVisualStyleBackColor = true;
-            // 
+            //
             // checkBox64bit
-            // 
+            //
             this.checkBox64bit.AutoSize = true;
             this.checkBox64bit.Location = new System.Drawing.Point(117, 118);
             this.checkBox64bit.Name = "checkBox64bit";
@@ -359,66 +359,66 @@ namespace RNGReporter
             this.checkBox64bit.Text = "64-bit RNG";
             this.checkBox64bit.UseVisualStyleBackColor = true;
             this.checkBox64bit.CheckedChanged += new System.EventHandler(this.checkBox64bit_CheckedChanged);
-            // 
+            //
             // checkBoxCustom5Hex
-            // 
+            //
             this.checkBoxCustom5Hex.AutoSize = true;
             this.checkBoxCustom5Hex.Location = new System.Drawing.Point(656, 136);
             this.checkBoxCustom5Hex.Name = "checkBoxCustom5Hex";
             this.checkBoxCustom5Hex.Size = new System.Drawing.Size(45, 17);
             this.checkBoxCustom5Hex.TabIndex = 45;
-            this.checkBoxCustom5Hex.Text = "Hex";
+            this.checkBoxCustom5Hex.Text = "16进制";
             this.checkBoxCustom5Hex.UseVisualStyleBackColor = true;
-            // 
+            //
             // label7
-            // 
+            //
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(392, 135);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(51, 13);
             this.label7.TabIndex = 41;
-            this.label7.Text = "Custom 5";
-            // 
+            this.label7.Text = "自定义 5";
+            //
             // checkBoxCustom6Hex
-            // 
+            //
             this.checkBoxCustom6Hex.AutoSize = true;
             this.checkBoxCustom6Hex.Location = new System.Drawing.Point(656, 163);
             this.checkBoxCustom6Hex.Name = "checkBoxCustom6Hex";
             this.checkBoxCustom6Hex.Size = new System.Drawing.Size(45, 17);
             this.checkBoxCustom6Hex.TabIndex = 50;
-            this.checkBoxCustom6Hex.Text = "Hex";
+            this.checkBoxCustom6Hex.Text = "16进制";
             this.checkBoxCustom6Hex.UseVisualStyleBackColor = true;
-            // 
+            //
             // label8
-            // 
+            //
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(392, 162);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(51, 13);
             this.label8.TabIndex = 46;
-            this.label8.Text = "Custom 6";
-            // 
+            this.label8.Text = "自定义 6";
+            //
             // checkBoxCustom7Hex
-            // 
+            //
             this.checkBoxCustom7Hex.AutoSize = true;
             this.checkBoxCustom7Hex.Location = new System.Drawing.Point(656, 191);
             this.checkBoxCustom7Hex.Name = "checkBoxCustom7Hex";
             this.checkBoxCustom7Hex.Size = new System.Drawing.Size(45, 17);
             this.checkBoxCustom7Hex.TabIndex = 55;
-            this.checkBoxCustom7Hex.Text = "Hex";
+            this.checkBoxCustom7Hex.Text = "16进制";
             this.checkBoxCustom7Hex.UseVisualStyleBackColor = true;
-            // 
+            //
             // label9
-            // 
+            //
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(392, 190);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(51, 13);
             this.label9.TabIndex = 51;
-            this.label9.Text = "Custom 7";
-            // 
+            this.label9.Text = "自定义 7";
+            //
             // menuStrip
-            // 
+            //
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
@@ -426,115 +426,115 @@ namespace RNGReporter
             this.menuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
             this.menuStrip.Size = new System.Drawing.Size(801, 24);
             this.menuStrip.TabIndex = 71;
-            // 
+            //
             // fileToolStripMenuItem
-            // 
+            //
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newToolStripMenuItem,
             this.openToolStripMenuItem,
             this.saveToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
-            // 
+            this.fileToolStripMenuItem.Text = "文件";
+            //
             // newToolStripMenuItem
-            // 
+            //
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
             this.newToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
-            this.newToolStripMenuItem.Text = "&New";
+            this.newToolStripMenuItem.Text = "新建";
             this.newToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
-            // 
+            //
             // openToolStripMenuItem
-            // 
+            //
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
-            this.openToolStripMenuItem.Text = "&Open";
+            this.openToolStripMenuItem.Text = "打开";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
-            // 
+            //
             // saveToolStripMenuItem
-            // 
+            //
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
-            this.saveToolStripMenuItem.Text = "&Save";
+            this.saveToolStripMenuItem.Text = "保存";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
-            // 
+            //
             // openFileDialog1
-            // 
-            this.openFileDialog1.Title = "Open Researcher Profile";
-            // 
+            //
+            this.openFileDialog1.Title = "打开 Researcher 配置";
+            //
             // saveFileDialog1
-            // 
+            //
             this.saveFileDialog1.DefaultExt = "xml";
-            this.saveFileDialog1.Title = "Save Researcher Profile";
-            // 
+            this.saveFileDialog1.Title = "保存研究文件";
+            //
             // checkBoxCustom8Hex
-            // 
+            //
             this.checkBoxCustom8Hex.AutoSize = true;
             this.checkBoxCustom8Hex.Location = new System.Drawing.Point(656, 219);
             this.checkBoxCustom8Hex.Name = "checkBoxCustom8Hex";
             this.checkBoxCustom8Hex.Size = new System.Drawing.Size(45, 17);
             this.checkBoxCustom8Hex.TabIndex = 75;
-            this.checkBoxCustom8Hex.Text = "Hex";
+            this.checkBoxCustom8Hex.Text = "16进制";
             this.checkBoxCustom8Hex.UseVisualStyleBackColor = true;
-            // 
+            //
             // label11
-            // 
+            //
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(392, 218);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(51, 13);
             this.label11.TabIndex = 72;
-            this.label11.Text = "Custom 8";
-            // 
+            this.label11.Text = "自定义 8";
+            //
             // checkBoxCustom9Hex
-            // 
+            //
             this.checkBoxCustom9Hex.AutoSize = true;
             this.checkBoxCustom9Hex.Location = new System.Drawing.Point(656, 246);
             this.checkBoxCustom9Hex.Name = "checkBoxCustom9Hex";
             this.checkBoxCustom9Hex.Size = new System.Drawing.Size(45, 17);
             this.checkBoxCustom9Hex.TabIndex = 81;
-            this.checkBoxCustom9Hex.Text = "Hex";
+            this.checkBoxCustom9Hex.Text = "16进制";
             this.checkBoxCustom9Hex.UseVisualStyleBackColor = true;
-            // 
+            //
             // label13
-            // 
+            //
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(392, 245);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(51, 13);
             this.label13.TabIndex = 78;
-            this.label13.Text = "Custom 9";
-            // 
+            this.label13.Text = "自定义 9";
+            //
             // checkBoxCustom10Hex
-            // 
+            //
             this.checkBoxCustom10Hex.AutoSize = true;
             this.checkBoxCustom10Hex.Location = new System.Drawing.Point(656, 274);
             this.checkBoxCustom10Hex.Name = "checkBoxCustom10Hex";
             this.checkBoxCustom10Hex.Size = new System.Drawing.Size(45, 17);
             this.checkBoxCustom10Hex.TabIndex = 87;
-            this.checkBoxCustom10Hex.Text = "Hex";
+            this.checkBoxCustom10Hex.Text = "16进制";
             this.checkBoxCustom10Hex.UseVisualStyleBackColor = true;
-            // 
+            //
             // label14
-            // 
+            //
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(392, 273);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(57, 13);
             this.label14.TabIndex = 84;
-            this.label14.Text = "Custom 10";
-            // 
+            this.label14.Text = "自定义 10";
+            //
             // label15
-            // 
+            //
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(10, 249);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(97, 13);
             this.label15.TabIndex = 95;
-            this.label15.Text = "Search Seed (Hex)";
-            // 
+            this.label15.Text = "计算Seed (Hex)";
+            //
             // buttonNext
-            // 
+            //
             this.buttonNext.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonNext.ForeColor = System.Drawing.Color.Black;
             this.buttonNext.Location = new System.Drawing.Point(166, 274);
@@ -543,27 +543,27 @@ namespace RNGReporter
             this.buttonNext.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonNext.Size = new System.Drawing.Size(145, 23);
             this.buttonNext.TabIndex = 94;
-            this.buttonNext.Text = "Next";
+            this.buttonNext.Text = "下一个";
             this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
-            // 
+            //
             // glassComboBox1
-            // 
+            //
             this.glassComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.glassComboBox1.ForeColor = System.Drawing.Color.Black;
             this.glassComboBox1.FormattingEnabled = true;
             this.glassComboBox1.Items.AddRange(new object[] {
             "32Bit",
-            "16BitHigh",
-            "16BitLow",
-            "Frame"});
+            "16位高位",
+            "16位低位",
+            "帧"});
             this.glassComboBox1.Location = new System.Drawing.Point(217, 245);
             this.glassComboBox1.Name = "glassComboBox1";
             this.glassComboBox1.ShineColor = System.Drawing.SystemColors.Window;
             this.glassComboBox1.Size = new System.Drawing.Size(94, 21);
             this.glassComboBox1.TabIndex = 93;
-            // 
+            //
             // buttonSearch
-            // 
+            //
             this.buttonSearch.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonSearch.ForeColor = System.Drawing.Color.Black;
             this.buttonSearch.Location = new System.Drawing.Point(13, 274);
@@ -572,11 +572,11 @@ namespace RNGReporter
             this.buttonSearch.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonSearch.Size = new System.Drawing.Size(145, 23);
             this.buttonSearch.TabIndex = 92;
-            this.buttonSearch.Text = "Search";
+            this.buttonSearch.Text = "计算";
             this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
-            // 
+            //
             // textBoxSearch
-            // 
+            //
             this.textBoxSearch.Location = new System.Drawing.Point(111, 245);
             this.textBoxSearch.MaxLength = 16;
             this.textBoxSearch.Name = "textBoxSearch";
@@ -584,29 +584,29 @@ namespace RNGReporter
             this.textBoxSearch.TabIndex = 90;
             this.textBoxSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxSearch_KeyDown);
             this.textBoxSearch.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxHex_KeyPress);
-            // 
+            //
             // comboBoxRValue10
-            // 
+            //
             this.comboBoxRValue10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxRValue10.ForeColor = System.Drawing.Color.Black;
             this.comboBoxRValue10.FormattingEnabled = true;
             this.comboBoxRValue10.Items.AddRange(new object[] {
-            "None",
+            "无",
             "64Bit",
             "32Bit",
             "32Bit High",
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
-            "Custom 2",
-            "Custom 3",
-            "Custom 4",
-            "Custom 5",
-            "Custom 6",
-            "Custom 7",
-            "Custom 8",
-            "Custom 9",
+            "自定义 1",
+            "自定义 2",
+            "自定义 3",
+            "自定义 4",
+            "自定义 5",
+            "自定义 6",
+            "自定义 7",
+            "自定义 8",
+            "自定义 9",
             "Previous 1",
             "Previous 2",
             "Previous 3",
@@ -621,9 +621,9 @@ namespace RNGReporter
             this.comboBoxRValue10.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxRValue10.Size = new System.Drawing.Size(80, 21);
             this.comboBoxRValue10.TabIndex = 89;
-            // 
+            //
             // textBoxRValue10
-            // 
+            //
             this.textBoxRValue10.Location = new System.Drawing.Point(592, 270);
             this.textBoxRValue10.MaxLength = 16;
             this.textBoxRValue10.Name = "textBoxRValue10";
@@ -631,9 +631,9 @@ namespace RNGReporter
             this.textBoxRValue10.TabIndex = 88;
             this.textBoxRValue10.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxSearch_KeyDown);
             this.textBoxRValue10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxHex_KeyPress);
-            // 
+            //
             // comboBoxLValue10
-            // 
+            //
             this.comboBoxLValue10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxLValue10.ForeColor = System.Drawing.Color.Black;
             this.comboBoxLValue10.FormattingEnabled = true;
@@ -644,15 +644,15 @@ namespace RNGReporter
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
-            "Custom 2",
-            "Custom 3",
-            "Custom 4",
-            "Custom 5",
-            "Custom 6",
-            "Custom 7",
-            "Custom 8",
-            "Custom 9",
+            "自定义 1",
+            "自定义 2",
+            "自定义 3",
+            "自定义 4",
+            "自定义 5",
+            "自定义 6",
+            "自定义 7",
+            "自定义 8",
+            "自定义 9",
             "Previous 1",
             "Previous 2",
             "Previous 3",
@@ -667,9 +667,9 @@ namespace RNGReporter
             this.comboBoxLValue10.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxLValue10.Size = new System.Drawing.Size(80, 21);
             this.comboBoxLValue10.TabIndex = 85;
-            // 
+            //
             // comboBoxOperator10
-            // 
+            //
             this.comboBoxOperator10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxOperator10.ForeColor = System.Drawing.Color.Black;
             this.comboBoxOperator10.FormattingEnabled = true;
@@ -689,28 +689,28 @@ namespace RNGReporter
             this.comboBoxOperator10.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxOperator10.Size = new System.Drawing.Size(51, 21);
             this.comboBoxOperator10.TabIndex = 86;
-            // 
+            //
             // comboBoxRValue9
-            // 
+            //
             this.comboBoxRValue9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxRValue9.ForeColor = System.Drawing.Color.Black;
             this.comboBoxRValue9.FormattingEnabled = true;
             this.comboBoxRValue9.Items.AddRange(new object[] {
-            "None",
+            "无",
             "64Bit",
             "32Bit",
             "32Bit High",
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
-            "Custom 2",
-            "Custom 3",
-            "Custom 4",
-            "Custom 5",
-            "Custom 6",
-            "Custom 7",
-            "Custom 8",
+            "自定义 1",
+            "自定义 2",
+            "自定义 3",
+            "自定义 4",
+            "自定义 5",
+            "自定义 6",
+            "自定义 7",
+            "自定义 8",
             "Previous 1",
             "Previous 2",
             "Previous 3",
@@ -724,9 +724,9 @@ namespace RNGReporter
             this.comboBoxRValue9.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxRValue9.Size = new System.Drawing.Size(80, 21);
             this.comboBoxRValue9.TabIndex = 83;
-            // 
+            //
             // textBoxRValue9
-            // 
+            //
             this.textBoxRValue9.Location = new System.Drawing.Point(592, 242);
             this.textBoxRValue9.MaxLength = 16;
             this.textBoxRValue9.Name = "textBoxRValue9";
@@ -734,9 +734,9 @@ namespace RNGReporter
             this.textBoxRValue9.TabIndex = 82;
             this.textBoxRValue9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxSearch_KeyDown);
             this.textBoxRValue9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxHex_KeyPress);
-            // 
+            //
             // comboBoxLValue9
-            // 
+            //
             this.comboBoxLValue9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxLValue9.ForeColor = System.Drawing.Color.Black;
             this.comboBoxLValue9.FormattingEnabled = true;
@@ -747,14 +747,14 @@ namespace RNGReporter
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
-            "Custom 2",
-            "Custom 3",
-            "Custom 4",
-            "Custom 5",
-            "Custom 6",
-            "Custom 7",
-            "Custom 8",
+            "自定义 1",
+            "自定义 2",
+            "自定义 3",
+            "自定义 4",
+            "自定义 5",
+            "自定义 6",
+            "自定义 7",
+            "自定义 8",
             "Previous 1",
             "Previous 2",
             "Previous 3",
@@ -768,9 +768,9 @@ namespace RNGReporter
             this.comboBoxLValue9.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxLValue9.Size = new System.Drawing.Size(80, 21);
             this.comboBoxLValue9.TabIndex = 79;
-            // 
+            //
             // comboBoxOperator9
-            // 
+            //
             this.comboBoxOperator9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxOperator9.ForeColor = System.Drawing.Color.Black;
             this.comboBoxOperator9.FormattingEnabled = true;
@@ -790,27 +790,27 @@ namespace RNGReporter
             this.comboBoxOperator9.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxOperator9.Size = new System.Drawing.Size(51, 21);
             this.comboBoxOperator9.TabIndex = 80;
-            // 
+            //
             // comboBoxRValue8
-            // 
+            //
             this.comboBoxRValue8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxRValue8.ForeColor = System.Drawing.Color.Black;
             this.comboBoxRValue8.FormattingEnabled = true;
             this.comboBoxRValue8.Items.AddRange(new object[] {
-            "None",
+            "无",
             "64Bit",
             "32Bit",
             "32Bit High",
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
-            "Custom 2",
-            "Custom 3",
-            "Custom 4",
-            "Custom 5",
-            "Custom 6",
-            "Custom 7",
+            "自定义 1",
+            "自定义 2",
+            "自定义 3",
+            "自定义 4",
+            "自定义 5",
+            "自定义 6",
+            "自定义 7",
             "Previous 1",
             "Previous 2",
             "Previous 3",
@@ -823,9 +823,9 @@ namespace RNGReporter
             this.comboBoxRValue8.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxRValue8.Size = new System.Drawing.Size(80, 21);
             this.comboBoxRValue8.TabIndex = 77;
-            // 
+            //
             // textBoxRValue8
-            // 
+            //
             this.textBoxRValue8.Location = new System.Drawing.Point(592, 215);
             this.textBoxRValue8.MaxLength = 16;
             this.textBoxRValue8.Name = "textBoxRValue8";
@@ -833,9 +833,9 @@ namespace RNGReporter
             this.textBoxRValue8.TabIndex = 76;
             this.textBoxRValue8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxSearch_KeyDown);
             this.textBoxRValue8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxHex_KeyPress);
-            // 
+            //
             // comboBoxLValue8
-            // 
+            //
             this.comboBoxLValue8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxLValue8.ForeColor = System.Drawing.Color.Black;
             this.comboBoxLValue8.FormattingEnabled = true;
@@ -846,13 +846,13 @@ namespace RNGReporter
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
-            "Custom 2",
-            "Custom 3",
-            "Custom 4",
-            "Custom 5",
-            "Custom 6",
-            "Custom 7",
+            "自定义 1",
+            "自定义 2",
+            "自定义 3",
+            "自定义 4",
+            "自定义 5",
+            "自定义 6",
+            "自定义 7",
             "Previous 1",
             "Previous 2",
             "Previous 3",
@@ -865,9 +865,9 @@ namespace RNGReporter
             this.comboBoxLValue8.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxLValue8.Size = new System.Drawing.Size(80, 21);
             this.comboBoxLValue8.TabIndex = 73;
-            // 
+            //
             // comboBoxOperator8
-            // 
+            //
             this.comboBoxOperator8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxOperator8.ForeColor = System.Drawing.Color.Black;
             this.comboBoxOperator8.FormattingEnabled = true;
@@ -887,9 +887,9 @@ namespace RNGReporter
             this.comboBoxOperator8.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxOperator8.Size = new System.Drawing.Size(51, 21);
             this.comboBoxOperator8.TabIndex = 74;
-            // 
+            //
             // comboBoxRNG
-            // 
+            //
             this.comboBoxRNG.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxRNG.ForeColor = System.Drawing.Color.Black;
             this.comboBoxRNG.FormattingEnabled = true;
@@ -916,26 +916,26 @@ namespace RNGReporter
             this.comboBoxRNG.Size = new System.Drawing.Size(170, 21);
             this.comboBoxRNG.TabIndex = 70;
             this.comboBoxRNG.SelectedIndexChanged += new System.EventHandler(this.comboBoxRNG_SelectedIndexChanged);
-            // 
+            //
             // comboBoxRValue7
-            // 
+            //
             this.comboBoxRValue7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxRValue7.ForeColor = System.Drawing.Color.Black;
             this.comboBoxRValue7.FormattingEnabled = true;
             this.comboBoxRValue7.Items.AddRange(new object[] {
-            "None",
+            "无",
             "64Bit",
             "32Bit",
             "32Bit High",
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
-            "Custom 2",
-            "Custom 3",
-            "Custom 4",
-            "Custom 5",
-            "Custom 6",
+            "自定义 1",
+            "自定义 2",
+            "自定义 3",
+            "自定义 4",
+            "自定义 5",
+            "自定义 6",
             "Previous 1",
             "Previous 2",
             "Previous 3",
@@ -947,25 +947,25 @@ namespace RNGReporter
             this.comboBoxRValue7.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxRValue7.Size = new System.Drawing.Size(80, 21);
             this.comboBoxRValue7.TabIndex = 68;
-            // 
+            //
             // comboBoxRValue6
-            // 
+            //
             this.comboBoxRValue6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxRValue6.ForeColor = System.Drawing.Color.Black;
             this.comboBoxRValue6.FormattingEnabled = true;
             this.comboBoxRValue6.Items.AddRange(new object[] {
-            "None",
+            "无",
             "64Bit",
             "32Bit",
             "32Bit High",
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
-            "Custom 2",
-            "Custom 3",
-            "Custom 4",
-            "Custom 5",
+            "自定义 1",
+            "自定义 2",
+            "自定义 3",
+            "自定义 4",
+            "自定义 5",
             "Previous 1",
             "Previous 2",
             "Previous 3",
@@ -976,9 +976,9 @@ namespace RNGReporter
             this.comboBoxRValue6.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxRValue6.Size = new System.Drawing.Size(80, 21);
             this.comboBoxRValue6.TabIndex = 67;
-            // 
+            //
             // comboBoxOperator5
-            // 
+            //
             this.comboBoxOperator5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxOperator5.ForeColor = System.Drawing.Color.Black;
             this.comboBoxOperator5.FormattingEnabled = true;
@@ -998,24 +998,24 @@ namespace RNGReporter
             this.comboBoxOperator5.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxOperator5.Size = new System.Drawing.Size(51, 21);
             this.comboBoxOperator5.TabIndex = 43;
-            // 
+            //
             // comboBoxRValue5
-            // 
+            //
             this.comboBoxRValue5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxRValue5.ForeColor = System.Drawing.Color.Black;
             this.comboBoxRValue5.FormattingEnabled = true;
             this.comboBoxRValue5.Items.AddRange(new object[] {
-            "None",
+            "无",
             "64Bit",
             "32Bit",
             "32Bit High",
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
-            "Custom 2",
-            "Custom 3",
-            "Custom 4",
+            "自定义 1",
+            "自定义 2",
+            "自定义 3",
+            "自定义 4",
             "Previous 1",
             "Previous 2",
             "Previous 3",
@@ -1025,23 +1025,23 @@ namespace RNGReporter
             this.comboBoxRValue5.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxRValue5.Size = new System.Drawing.Size(80, 21);
             this.comboBoxRValue5.TabIndex = 66;
-            // 
+            //
             // comboBoxRValue4
-            // 
+            //
             this.comboBoxRValue4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxRValue4.ForeColor = System.Drawing.Color.Black;
             this.comboBoxRValue4.FormattingEnabled = true;
             this.comboBoxRValue4.Items.AddRange(new object[] {
-            "None",
+            "无",
             "64Bit",
             "32Bit",
             "32Bit High",
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
-            "Custom 2",
-            "Custom 3",
+            "自定义 1",
+            "自定义 2",
+            "自定义 3",
             "Previous 1",
             "Previous 2",
             "Previous 3"});
@@ -1050,22 +1050,22 @@ namespace RNGReporter
             this.comboBoxRValue4.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxRValue4.Size = new System.Drawing.Size(80, 21);
             this.comboBoxRValue4.TabIndex = 65;
-            // 
+            //
             // comboBoxRValue3
-            // 
+            //
             this.comboBoxRValue3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxRValue3.ForeColor = System.Drawing.Color.Black;
             this.comboBoxRValue3.FormattingEnabled = true;
             this.comboBoxRValue3.Items.AddRange(new object[] {
-            "None",
+            "无",
             "64Bit",
             "32Bit",
             "32Bit High",
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
-            "Custom 2",
+            "自定义 1",
+            "自定义 2",
             "Previous 1",
             "Previous 2"});
             this.comboBoxRValue3.Location = new System.Drawing.Point(709, 78);
@@ -1073,30 +1073,30 @@ namespace RNGReporter
             this.comboBoxRValue3.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxRValue3.Size = new System.Drawing.Size(80, 21);
             this.comboBoxRValue3.TabIndex = 64;
-            // 
+            //
             // comboBoxRValue2
-            // 
+            //
             this.comboBoxRValue2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxRValue2.ForeColor = System.Drawing.Color.Black;
             this.comboBoxRValue2.FormattingEnabled = true;
             this.comboBoxRValue2.Items.AddRange(new object[] {
-            "None",
+            "无",
             "64Bit",
             "32Bit",
             "32Bit High",
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
+            "自定义 1",
             "Previous 1"});
             this.comboBoxRValue2.Location = new System.Drawing.Point(709, 51);
             this.comboBoxRValue2.Name = "comboBoxRValue2";
             this.comboBoxRValue2.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxRValue2.Size = new System.Drawing.Size(80, 21);
             this.comboBoxRValue2.TabIndex = 63;
-            // 
+            //
             // textBoxRValue7
-            // 
+            //
             this.textBoxRValue7.Location = new System.Drawing.Point(592, 187);
             this.textBoxRValue7.MaxLength = 16;
             this.textBoxRValue7.Name = "textBoxRValue7";
@@ -1104,9 +1104,9 @@ namespace RNGReporter
             this.textBoxRValue7.TabIndex = 62;
             this.textBoxRValue7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxSearch_KeyDown);
             this.textBoxRValue7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxHex_KeyPress);
-            // 
+            //
             // textBoxRValue6
-            // 
+            //
             this.textBoxRValue6.Location = new System.Drawing.Point(592, 159);
             this.textBoxRValue6.MaxLength = 16;
             this.textBoxRValue6.Name = "textBoxRValue6";
@@ -1114,9 +1114,9 @@ namespace RNGReporter
             this.textBoxRValue6.TabIndex = 61;
             this.textBoxRValue6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxSearch_KeyDown);
             this.textBoxRValue6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxHex_KeyPress);
-            // 
+            //
             // textBoxRValue5
-            // 
+            //
             this.textBoxRValue5.Location = new System.Drawing.Point(592, 132);
             this.textBoxRValue5.MaxLength = 16;
             this.textBoxRValue5.Name = "textBoxRValue5";
@@ -1124,9 +1124,9 @@ namespace RNGReporter
             this.textBoxRValue5.TabIndex = 60;
             this.textBoxRValue5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxSearch_KeyDown);
             this.textBoxRValue5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxHex_KeyPress);
-            // 
+            //
             // textBoxRValue4
-            // 
+            //
             this.textBoxRValue4.Location = new System.Drawing.Point(592, 105);
             this.textBoxRValue4.MaxLength = 16;
             this.textBoxRValue4.Name = "textBoxRValue4";
@@ -1134,9 +1134,9 @@ namespace RNGReporter
             this.textBoxRValue4.TabIndex = 59;
             this.textBoxRValue4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxSearch_KeyDown);
             this.textBoxRValue4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxHex_KeyPress);
-            // 
+            //
             // textBoxRValue3
-            // 
+            //
             this.textBoxRValue3.Location = new System.Drawing.Point(592, 78);
             this.textBoxRValue3.MaxLength = 16;
             this.textBoxRValue3.Name = "textBoxRValue3";
@@ -1144,9 +1144,9 @@ namespace RNGReporter
             this.textBoxRValue3.TabIndex = 58;
             this.textBoxRValue3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxSearch_KeyDown);
             this.textBoxRValue3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxHex_KeyPress);
-            // 
+            //
             // textBoxRValue2
-            // 
+            //
             this.textBoxRValue2.Location = new System.Drawing.Point(592, 50);
             this.textBoxRValue2.MaxLength = 16;
             this.textBoxRValue2.Name = "textBoxRValue2";
@@ -1154,9 +1154,9 @@ namespace RNGReporter
             this.textBoxRValue2.TabIndex = 57;
             this.textBoxRValue2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxSearch_KeyDown);
             this.textBoxRValue2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxHex_KeyPress);
-            // 
+            //
             // textBoxRValue1
-            // 
+            //
             this.textBoxRValue1.Location = new System.Drawing.Point(592, 24);
             this.textBoxRValue1.MaxLength = 16;
             this.textBoxRValue1.Name = "textBoxRValue1";
@@ -1164,9 +1164,9 @@ namespace RNGReporter
             this.textBoxRValue1.TabIndex = 56;
             this.textBoxRValue1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxSearch_KeyDown);
             this.textBoxRValue1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxHex_KeyPress);
-            // 
+            //
             // comboBoxLValue7
-            // 
+            //
             this.comboBoxLValue7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxLValue7.ForeColor = System.Drawing.Color.Black;
             this.comboBoxLValue7.FormattingEnabled = true;
@@ -1177,12 +1177,12 @@ namespace RNGReporter
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
-            "Custom 2",
-            "Custom 3",
-            "Custom 4",
-            "Custom 5",
-            "Custom 6",
+            "自定义 1",
+            "自定义 2",
+            "自定义 3",
+            "自定义 4",
+            "自定义 5",
+            "自定义 6",
             "Previous 1",
             "Previous 2",
             "Previous 3",
@@ -1194,9 +1194,9 @@ namespace RNGReporter
             this.comboBoxLValue7.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxLValue7.Size = new System.Drawing.Size(80, 21);
             this.comboBoxLValue7.TabIndex = 52;
-            // 
+            //
             // comboBoxOperator7
-            // 
+            //
             this.comboBoxOperator7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxOperator7.ForeColor = System.Drawing.Color.Black;
             this.comboBoxOperator7.FormattingEnabled = true;
@@ -1216,9 +1216,9 @@ namespace RNGReporter
             this.comboBoxOperator7.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxOperator7.Size = new System.Drawing.Size(51, 21);
             this.comboBoxOperator7.TabIndex = 53;
-            // 
+            //
             // comboBoxLValue6
-            // 
+            //
             this.comboBoxLValue6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxLValue6.ForeColor = System.Drawing.Color.Black;
             this.comboBoxLValue6.FormattingEnabled = true;
@@ -1229,11 +1229,11 @@ namespace RNGReporter
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
-            "Custom 2",
-            "Custom 3",
-            "Custom 4",
-            "Custom 5",
+            "自定义 1",
+            "自定义 2",
+            "自定义 3",
+            "自定义 4",
+            "自定义 5",
             "Previous 1",
             "Previous 2",
             "Previous 3",
@@ -1244,9 +1244,9 @@ namespace RNGReporter
             this.comboBoxLValue6.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxLValue6.Size = new System.Drawing.Size(80, 21);
             this.comboBoxLValue6.TabIndex = 47;
-            // 
+            //
             // comboBoxOperator6
-            // 
+            //
             this.comboBoxOperator6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxOperator6.ForeColor = System.Drawing.Color.Black;
             this.comboBoxOperator6.FormattingEnabled = true;
@@ -1266,9 +1266,9 @@ namespace RNGReporter
             this.comboBoxOperator6.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxOperator6.Size = new System.Drawing.Size(51, 21);
             this.comboBoxOperator6.TabIndex = 48;
-            // 
+            //
             // comboBoxLValue5
-            // 
+            //
             this.comboBoxLValue5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxLValue5.ForeColor = System.Drawing.Color.Black;
             this.comboBoxLValue5.FormattingEnabled = true;
@@ -1279,10 +1279,10 @@ namespace RNGReporter
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
-            "Custom 2",
-            "Custom 3",
-            "Custom 4",
+            "自定义 1",
+            "自定义 2",
+            "自定义 3",
+            "自定义 4",
             "Previous 1",
             "Previous 2",
             "Previous 3",
@@ -1292,9 +1292,9 @@ namespace RNGReporter
             this.comboBoxLValue5.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxLValue5.Size = new System.Drawing.Size(80, 21);
             this.comboBoxLValue5.TabIndex = 42;
-            // 
+            //
             // maskedTextBoxMaxFrames
-            // 
+            //
             this.maskedTextBoxMaxFrames.Hex = false;
             this.maskedTextBoxMaxFrames.Location = new System.Drawing.Point(76, 163);
             this.maskedTextBoxMaxFrames.Mask = "0000000000";
@@ -1302,9 +1302,9 @@ namespace RNGReporter
             this.maskedTextBoxMaxFrames.Size = new System.Drawing.Size(85, 20);
             this.maskedTextBoxMaxFrames.TabIndex = 10;
             this.maskedTextBoxMaxFrames.Text = "1000";
-            // 
+            //
             // comboBoxLValue4
-            // 
+            //
             this.comboBoxLValue4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxLValue4.ForeColor = System.Drawing.Color.Black;
             this.comboBoxLValue4.FormattingEnabled = true;
@@ -1315,9 +1315,9 @@ namespace RNGReporter
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
-            "Custom 2",
-            "Custom 3",
+            "自定义 1",
+            "自定义 2",
+            "自定义 3",
             "Previous 1",
             "Previous 2",
             "Previous 3"});
@@ -1326,9 +1326,9 @@ namespace RNGReporter
             this.comboBoxLValue4.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxLValue4.Size = new System.Drawing.Size(80, 21);
             this.comboBoxLValue4.TabIndex = 29;
-            // 
+            //
             // comboBoxLValue3
-            // 
+            //
             this.comboBoxLValue3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxLValue3.ForeColor = System.Drawing.Color.Black;
             this.comboBoxLValue3.FormattingEnabled = true;
@@ -1339,8 +1339,8 @@ namespace RNGReporter
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
-            "Custom 2",
+            "自定义 1",
+            "自定义 2",
             "Previous 1",
             "Previous 2"});
             this.comboBoxLValue3.Location = new System.Drawing.Point(449, 78);
@@ -1348,9 +1348,9 @@ namespace RNGReporter
             this.comboBoxLValue3.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxLValue3.Size = new System.Drawing.Size(80, 21);
             this.comboBoxLValue3.TabIndex = 24;
-            // 
+            //
             // comboBoxLValue2
-            // 
+            //
             this.comboBoxLValue2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxLValue2.ForeColor = System.Drawing.Color.Black;
             this.comboBoxLValue2.FormattingEnabled = true;
@@ -1361,16 +1361,16 @@ namespace RNGReporter
             "32Bit Low",
             "16Bit High",
             "16Bit Low",
-            "Custom 1",
+            "自定义 1",
             "Previous 1"});
             this.comboBoxLValue2.Location = new System.Drawing.Point(449, 51);
             this.comboBoxLValue2.Name = "comboBoxLValue2";
             this.comboBoxLValue2.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxLValue2.Size = new System.Drawing.Size(80, 21);
             this.comboBoxLValue2.TabIndex = 19;
-            // 
+            //
             // comboBoxLValue1
-            // 
+            //
             this.comboBoxLValue1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxLValue1.ForeColor = System.Drawing.Color.Black;
             this.comboBoxLValue1.FormattingEnabled = true;
@@ -1386,9 +1386,9 @@ namespace RNGReporter
             this.comboBoxLValue1.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxLValue1.Size = new System.Drawing.Size(80, 21);
             this.comboBoxLValue1.TabIndex = 14;
-            // 
+            //
             // textBoxSeed
-            // 
+            //
             this.textBoxSeed.Location = new System.Drawing.Point(76, 189);
             this.textBoxSeed.MaxLength = 16;
             this.textBoxSeed.Name = "textBoxSeed";
@@ -1396,9 +1396,9 @@ namespace RNGReporter
             this.textBoxSeed.TabIndex = 12;
             this.textBoxSeed.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxSearch_KeyDown);
             this.textBoxSeed.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxHex_KeyPress);
-            // 
+            //
             // comboBoxOperator4
-            // 
+            //
             this.comboBoxOperator4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxOperator4.ForeColor = System.Drawing.Color.Black;
             this.comboBoxOperator4.FormattingEnabled = true;
@@ -1418,9 +1418,9 @@ namespace RNGReporter
             this.comboBoxOperator4.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxOperator4.Size = new System.Drawing.Size(51, 21);
             this.comboBoxOperator4.TabIndex = 30;
-            // 
+            //
             // comboBoxOperator3
-            // 
+            //
             this.comboBoxOperator3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxOperator3.ForeColor = System.Drawing.Color.Black;
             this.comboBoxOperator3.FormattingEnabled = true;
@@ -1440,9 +1440,9 @@ namespace RNGReporter
             this.comboBoxOperator3.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxOperator3.Size = new System.Drawing.Size(51, 21);
             this.comboBoxOperator3.TabIndex = 25;
-            // 
+            //
             // comboBoxOperator2
-            // 
+            //
             this.comboBoxOperator2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxOperator2.ForeColor = System.Drawing.Color.Black;
             this.comboBoxOperator2.FormattingEnabled = true;
@@ -1462,9 +1462,9 @@ namespace RNGReporter
             this.comboBoxOperator2.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxOperator2.Size = new System.Drawing.Size(51, 21);
             this.comboBoxOperator2.TabIndex = 20;
-            // 
+            //
             // comboBoxOperator1
-            // 
+            //
             this.comboBoxOperator1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxOperator1.ForeColor = System.Drawing.Color.Black;
             this.comboBoxOperator1.FormattingEnabled = true;
@@ -1484,9 +1484,9 @@ namespace RNGReporter
             this.comboBoxOperator1.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxOperator1.Size = new System.Drawing.Size(51, 21);
             this.comboBoxOperator1.TabIndex = 15;
-            // 
+            //
             // textBoxMult
-            // 
+            //
             this.textBoxMult.Location = new System.Drawing.Point(116, 63);
             this.textBoxMult.MaxLength = 8;
             this.textBoxMult.Name = "textBoxMult";
@@ -1494,9 +1494,9 @@ namespace RNGReporter
             this.textBoxMult.TabIndex = 5;
             this.textBoxMult.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxSearch_KeyDown);
             this.textBoxMult.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxHex_KeyPress);
-            // 
+            //
             // textBoxAdd
-            // 
+            //
             this.textBoxAdd.Location = new System.Drawing.Point(116, 91);
             this.textBoxAdd.MaxLength = 8;
             this.textBoxAdd.Name = "textBoxAdd";
@@ -1504,18 +1504,18 @@ namespace RNGReporter
             this.textBoxAdd.TabIndex = 6;
             this.textBoxAdd.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxSearch_KeyDown);
             this.textBoxAdd.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxHex_KeyPress);
-            // 
+            //
             // dataGridViewValues
-            // 
+            //
             this.dataGridViewValues.AllowUserToAddRows = false;
             this.dataGridViewValues.AllowUserToDeleteRows = false;
             this.dataGridViewValues.AllowUserToResizeRows = false;
-            this.dataGridViewValues.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dataGridViewValues.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -1561,7 +1561,7 @@ namespace RNGReporter
             this.dataGridViewValues.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -1574,193 +1574,193 @@ namespace RNGReporter
             this.dataGridViewValues.Size = new System.Drawing.Size(776, 340);
             this.dataGridViewValues.TabIndex = 33;
             this.dataGridViewValues.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridViewValues_MouseDown);
-            // 
+            //
             // ColumnFrame
-            // 
+            //
             this.ColumnFrame.DataPropertyName = "FrameNumber";
-            this.ColumnFrame.HeaderText = "Frame";
+            this.ColumnFrame.HeaderText = "帧数";
             this.ColumnFrame.Name = "ColumnFrame";
             this.ColumnFrame.ReadOnly = true;
             this.ColumnFrame.Width = 50;
-            // 
+            //
             // Column64Bit
-            // 
+            //
             this.Column64Bit.DataPropertyName = "Full64";
             this.Column64Bit.HeaderText = "64Bit";
             this.Column64Bit.Name = "Column64Bit";
             this.Column64Bit.ReadOnly = true;
             this.Column64Bit.Width = 120;
-            // 
+            //
             // Column32Bit
-            // 
+            //
             this.Column32Bit.DataPropertyName = "Full32";
             this.Column32Bit.HeaderText = "32Bit";
             this.Column32Bit.Name = "Column32Bit";
             this.Column32Bit.ReadOnly = true;
             this.Column32Bit.Width = 70;
-            // 
+            //
             // Column32BitHigh
-            // 
+            //
             this.Column32BitHigh.DataPropertyName = "High32";
-            this.Column32BitHigh.HeaderText = "32BitHigh";
+            this.Column32BitHigh.HeaderText = "32位高位";
             this.Column32BitHigh.Name = "Column32BitHigh";
             this.Column32BitHigh.ReadOnly = true;
             this.Column32BitHigh.Width = 70;
-            // 
+            //
             // Column32BitLow
-            // 
+            //
             this.Column32BitLow.DataPropertyName = "Low32";
-            this.Column32BitLow.HeaderText = "32BitLow";
+            this.Column32BitLow.HeaderText = "32位低位";
             this.Column32BitLow.Name = "Column32BitLow";
             this.Column32BitLow.ReadOnly = true;
             this.Column32BitLow.Width = 70;
-            // 
+            //
             // Column16BitHigh
-            // 
+            //
             this.Column16BitHigh.DataPropertyName = "High16";
-            this.Column16BitHigh.HeaderText = "16BitHigh";
+            this.Column16BitHigh.HeaderText = "16位高位";
             this.Column16BitHigh.Name = "Column16BitHigh";
             this.Column16BitHigh.ReadOnly = true;
             this.Column16BitHigh.Width = 55;
-            // 
+            //
             // Column16BitLow
-            // 
+            //
             this.Column16BitLow.DataPropertyName = "Low16";
-            this.Column16BitLow.HeaderText = "16BitLow";
+            this.Column16BitLow.HeaderText = "16位低位";
             this.Column16BitLow.Name = "Column16BitLow";
             this.Column16BitLow.ReadOnly = true;
             this.Column16BitLow.Width = 55;
-            // 
+            //
             // Custom1
-            // 
-            this.Custom1.DataPropertyName = "Custom1";
-            this.Custom1.HeaderText = "Custom1";
-            this.Custom1.Name = "Custom1";
+            //
+            this.Custom1.DataPropertyName = "自定义1";
+            this.Custom1.HeaderText = "自定义1";
+            this.Custom1.Name = "自定义1";
             this.Custom1.ReadOnly = true;
             this.Custom1.Width = 70;
-            // 
+            //
             // Custom2
-            // 
-            this.Custom2.DataPropertyName = "Custom2";
-            this.Custom2.HeaderText = "Custom2";
-            this.Custom2.Name = "Custom2";
+            //
+            this.Custom2.DataPropertyName = "自定义2";
+            this.Custom2.HeaderText = "自定义2";
+            this.Custom2.Name = "自定义2";
             this.Custom2.ReadOnly = true;
             this.Custom2.Width = 70;
-            // 
+            //
             // Custom3
-            // 
-            this.Custom3.DataPropertyName = "Custom3";
-            this.Custom3.HeaderText = "Custom3";
-            this.Custom3.Name = "Custom3";
+            //
+            this.Custom3.DataPropertyName = "自定义3";
+            this.Custom3.HeaderText = "自定义3";
+            this.Custom3.Name = "自定义3";
             this.Custom3.ReadOnly = true;
             this.Custom3.Width = 70;
-            // 
+            //
             // Custom4
-            // 
-            this.Custom4.DataPropertyName = "Custom4";
-            this.Custom4.HeaderText = "Custom4";
-            this.Custom4.Name = "Custom4";
+            //
+            this.Custom4.DataPropertyName = "自定义4";
+            this.Custom4.HeaderText = "自定义4";
+            this.Custom4.Name = "自定义4";
             this.Custom4.ReadOnly = true;
             this.Custom4.Width = 70;
-            // 
+            //
             // Custom5
-            // 
-            this.Custom5.DataPropertyName = "Custom5";
-            this.Custom5.HeaderText = "Custom5";
-            this.Custom5.Name = "Custom5";
+            //
+            this.Custom5.DataPropertyName = "自定义5";
+            this.Custom5.HeaderText = "自定义5";
+            this.Custom5.Name = "自定义5";
             this.Custom5.ReadOnly = true;
             this.Custom5.Width = 70;
-            // 
+            //
             // Custom6
-            // 
-            this.Custom6.DataPropertyName = "Custom6";
-            this.Custom6.HeaderText = "Custom6";
-            this.Custom6.Name = "Custom6";
+            //
+            this.Custom6.DataPropertyName = "自定义6";
+            this.Custom6.HeaderText = "自定义6";
+            this.Custom6.Name = "自定义6";
             this.Custom6.ReadOnly = true;
             this.Custom6.Width = 70;
-            // 
+            //
             // Custom7
-            // 
-            this.Custom7.DataPropertyName = "Custom7";
-            this.Custom7.HeaderText = "Custom7";
-            this.Custom7.Name = "Custom7";
+            //
+            this.Custom7.DataPropertyName = "自定义7";
+            this.Custom7.HeaderText = "自定义7";
+            this.Custom7.Name = "自定义7";
             this.Custom7.ReadOnly = true;
             this.Custom7.Width = 70;
-            // 
+            //
             // Custom8
-            // 
-            this.Custom8.DataPropertyName = "Custom8";
-            this.Custom8.HeaderText = "Custom8";
-            this.Custom8.Name = "Custom8";
+            //
+            this.Custom8.DataPropertyName = "自定义8";
+            this.Custom8.HeaderText = "自定义8";
+            this.Custom8.Name = "自定义8";
             this.Custom8.ReadOnly = true;
             this.Custom8.Width = 70;
-            // 
+            //
             // Custom9
-            // 
-            this.Custom9.DataPropertyName = "Custom9";
-            this.Custom9.HeaderText = "Custom9";
-            this.Custom9.Name = "Custom9";
+            //
+            this.Custom9.DataPropertyName = "自定义9";
+            this.Custom9.HeaderText = "自定义9";
+            this.Custom9.Name = "自定义9";
             this.Custom9.ReadOnly = true;
             this.Custom9.Width = 70;
-            // 
+            //
             // Custom10
-            // 
-            this.Custom10.DataPropertyName = "Custom10";
-            this.Custom10.HeaderText = "Custom10";
-            this.Custom10.Name = "Custom10";
+            //
+            this.Custom10.DataPropertyName = "自定义10";
+            this.Custom10.HeaderText = "自定义10";
+            this.Custom10.Name = "自定义10";
             this.Custom10.ReadOnly = true;
             this.Custom10.Width = 70;
-            // 
+            //
             // Mod3
-            // 
+            //
             this.Mod3.DataPropertyName = "Mod3";
             this.Mod3.HeaderText = "%3";
             this.Mod3.Name = "Mod3";
             this.Mod3.ReadOnly = true;
             this.Mod3.Width = 35;
-            // 
+            //
             // Mod25
-            // 
+            //
             this.Mod25.DataPropertyName = "Mod25";
             this.Mod25.HeaderText = "%25";
             this.Mod25.Name = "Mod25";
             this.Mod25.ReadOnly = true;
             this.Mod25.Width = 35;
-            // 
+            //
             // Mod100
-            // 
+            //
             this.Mod100.DataPropertyName = "Mod100";
             this.Mod100.HeaderText = "%100";
             this.Mod100.Name = "Mod100";
             this.Mod100.ReadOnly = true;
             this.Mod100.Width = 35;
-            // 
+            //
             // Div656
-            // 
+            //
             this.Div656.DataPropertyName = "Div656";
             this.Div656.HeaderText = "/656";
             this.Div656.Name = "Div656";
             this.Div656.ReadOnly = true;
             this.Div656.Width = 35;
-            // 
+            //
             // Mod2
-            // 
+            //
             this.Mod2.DataPropertyName = "LowBit";
             this.Mod2.HeaderText = "LBit";
             this.Mod2.Name = "Mod2";
             this.Mod2.ReadOnly = true;
             this.Mod2.Width = 35;
-            // 
+            //
             // HighBit
-            // 
+            //
             this.HighBit.DataPropertyName = "HighBit";
             this.HighBit.HeaderText = "HBit";
             this.HighBit.Name = "HighBit";
             this.HighBit.ReadOnly = true;
             this.HighBit.Width = 35;
-            // 
+            //
             // buttonGenerate
-            // 
+            //
             this.buttonGenerate.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonGenerate.ForeColor = System.Drawing.Color.Black;
             this.buttonGenerate.Location = new System.Drawing.Point(226, 187);
@@ -1769,11 +1769,11 @@ namespace RNGReporter
             this.buttonGenerate.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonGenerate.Size = new System.Drawing.Size(85, 23);
             this.buttonGenerate.TabIndex = 34;
-            this.buttonGenerate.Text = "Generate";
+            this.buttonGenerate.Text = "计算";
             this.buttonGenerate.Click += new System.EventHandler(this.buttonGenerate_Click);
-            // 
+            //
             // Researcher
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(801, 654);
@@ -1858,8 +1858,8 @@ namespace RNGReporter
             this.Controls.Add(this.buttonGenerate);
             this.MainMenuStrip = this.menuStrip;
             this.MinimumSize = new System.Drawing.Size(642, 524);
-            this.Name = "Researcher";
-            this.Text = "Researcher";
+            this.Name = "算法研究计算器";
+            this.Text = "算法研究计算器";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Researcher_FormClosing);
             this.Load += new System.EventHandler(this.Researcher_Load);
             this.contextMenuStripGrid.ResumeLayout(false);

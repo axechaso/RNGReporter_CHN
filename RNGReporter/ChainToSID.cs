@@ -1,6 +1,6 @@
-﻿using System;
+﻿using RNGReporter.Objects;
+using System;
 using System.Windows.Forms;
-using RNGReporter.Objects;
 
 namespace RNGReporter
 {
@@ -91,7 +91,7 @@ namespace RNGReporter
                 spe = uint.Parse(maskedTextBoxSpe.Text);
 
             //  Get Nature
-            var nature = (Nature) comboBoxNature.SelectedValue;
+            var nature = (Nature)comboBoxNature.SelectedValue;
 
             //  Get Gender -- Need to look for a better way to do this, would
             //  like to actually be able to directly store and get a reference
@@ -109,7 +109,7 @@ namespace RNGReporter
             //  something special in that case.
             if (calculate.CandidateSids.Count == 1)
             {
-                labelInfo.Text = "SID Found - " + calculate.CandidateSids[0];
+                labelInfo.Text = "计算出SID：" + calculate.CandidateSids[0];
 
                 labelSid.Text = calculate.CandidateSids[0].ToString();
                 returnSid = calculate.CandidateSids[0];
@@ -125,7 +125,7 @@ namespace RNGReporter
             dataGridViewValues.DataSource = null;
             dataGridViewValues.DataSource = calculate.Pokemon;
 
-            //  Clear all of the boxes that we want the user to 
+            //  Clear all of the boxes that we want the user to
             //  re-enter things into for this run and reset all
             //  of the dropdowns
             maskedTextBoxHP.Text = "";
@@ -152,7 +152,7 @@ namespace RNGReporter
             //  something new here.
             maskedTextBoxID.Enabled = true;
 
-            //  Clear out the grid now since the information 
+            //  Clear out the grid now since the information
             //  id old at this point.
             dataGridViewValues.DataSource = null;
 

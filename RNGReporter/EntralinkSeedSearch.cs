@@ -235,9 +235,9 @@ namespace RNGReporter
 
             #region Initialize
 
-            if (comboBoxNature.Text == "Any")
+            if (comboBoxNature.Text == "任意")
             {
-                MessageBox.Show("Please select a specific list of natures.");
+                MessageBox.Show("请选择具体的性格列表。");
                 return;
             }
             List<uint> natures =
@@ -258,7 +258,7 @@ namespace RNGReporter
 
             if (generateYear < 2000 || generateYear > 2099)
             {
-                MessageBox.Show("Year must be a value between 2000 and 2099, inclusive.");
+                MessageBox.Show("年份必须是 2000 到 2099 之间的值（含端点）。");
                 return;
             }
 
@@ -287,8 +287,8 @@ namespace RNGReporter
             //  on it.
             if (hour > 23)
             {
-                MessageBox.Show("This seed is invalid, please verify that you have entered it correctly and try again.",
-                                "Invalid Seed", MessageBoxButtons.OK);
+                MessageBox.Show("这个Seed无效，请确认您是否正确输入，并再试一次",
+                                "无效Seed", MessageBoxButtons.OK);
 
                 return;
             }
@@ -679,19 +679,19 @@ namespace RNGReporter
 
         private void outputCapResultsToTXTToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //  Going to need to present the user with a File Dialog and 
+            //  Going to need to present the user with a File Dialog and
             //  then interate through the Grid, outputting columns that
             //  are visible.
 
             saveFileDialogTxt.AddExtension = true;
-            saveFileDialogTxt.Title = "Save Output to TXT";
-            saveFileDialogTxt.Filter = "TXT Files|*.txt";
+            saveFileDialogTxt.Title = "保存输出到 TXT";
+            saveFileDialogTxt.Filter = "TXT 文件|*.txt";
             saveFileDialogTxt.FileName = "rngreporter.txt";
             if (saveFileDialogTxt.ShowDialog() == DialogResult.OK)
             {
-                //  Get the name of the file and then go ahead 
+                //  Get the name of the file and then go ahead
                 //  and create and save the thing to the hard
-                //  drive.   
+                //  drive.
                 List<IFrameCapture> frames = iframes;
 
                 if (frames.Count > 0)
@@ -730,7 +730,7 @@ namespace RNGReporter
             }
         }
 
-        // Sorts the grid 
+        // Sorts the grid
         // Can't use SortCompare method because this grid is data-bound
         private void dataGridViewCapValues_ColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {

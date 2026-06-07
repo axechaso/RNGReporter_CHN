@@ -72,8 +72,8 @@ namespace RNGReporter
         private List<uint> rlist = new List<uint>();
         private uint shinyval, genderFilter, abilityFilter;
         private static List<uint> hiddenPowerList;
-        private readonly String[] Natures = { "Hardy", "Lonely", "Brave", "Adamant", "Naughty", "Bold", "Docile", "Relaxed", "Impish", "Lax", "Timid", "Hasty", "Serious", "Jolly", "Naive", "Modest", "Mild", "Quiet", "Bashful", "Rash", "Calm", "Gentle", "Sassy", "Careful", "Quirky" };
-        private readonly String[] hiddenPowers = { "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass", "Electric", "Psychic", "Ice", "Dragon", "Dark" };
+        private readonly String[] Natures = { "勤奋", "怕寂寞", "勇敢", "固执", "顽皮", "大胆", "坦率", "悠闲", "淘气", "乐天", "胆小", "急躁", "认真", "爽朗", "天真", "内敛", "慢吞吞", "冷静", "害羞", "马虎", "温和", "温顺", "自大", "慎重", "浮躁" };
+        private readonly String[] hiddenPowers = { "格斗", "飞行", "毒", "地面", "岩石", "虫", "幽灵", "钢", "火", "水", "草", "电", "超能", "冰", "龙", "恶" };
 
         public TimeFinder3rd(ushort id, ushort sid)
         {
@@ -108,7 +108,7 @@ namespace RNGReporter
 
             var ability = new[]
                 {
-                    new ComboBoxItem("Any", -1),
+                    new ComboBoxItem("任意", -1),
                     new ComboBoxItem("Ability 0", 0),
                     new ComboBoxItem("Ability 1", 1)
                 };
@@ -125,29 +125,29 @@ namespace RNGReporter
 
             cbEncounterType.Items.AddRange(new object[]
                 {
-                    new ComboBoxItem("Wild Pokémon", EncounterType.Wild),
+                    new ComboBoxItem("野生宝可梦", EncounterType.Wild),
                     new ComboBoxItem("Wild Pokémon (Surfing)",
                                      EncounterType.WildSurfing),
-                    new ComboBoxItem("Wild Pokémon (Old Rod)",
+                    new ComboBoxItem("野生宝可梦（破旧钓竿）",
                                      EncounterType.WildOldRod),
-                    new ComboBoxItem("Wild Pokémon (Good Rod)",
+                    new ComboBoxItem("野生宝可梦（好钓竿）",
                                      EncounterType.WildGoodRod),
-                    new ComboBoxItem("Wild Pokémon (Super Rod)",
+                    new ComboBoxItem("野生宝可梦（厉害钓竿）",
                                      EncounterType.WildSuperRod),
-                    new ComboBoxItem("Stationary Pokémon", EncounterType.Stationary),
-                    new ComboBoxItem("Safari Zone", EncounterType.SafariZone)
+                    new ComboBoxItem("定点宝可梦", EncounterType.Stationary),
+                    new ComboBoxItem("狩猎地带", EncounterType.SafariZone)
                 });
 
             comboBoxType.Items.AddRange(new object[]
                 {
-                    new ComboBoxItem("Wild Pokémon", EncounterType.Wild),
+                    new ComboBoxItem("野生宝可梦", EncounterType.Wild),
                     new ComboBoxItem("Wild Pokémon (Surfing)",
                                      EncounterType.WildSurfing),
-                    new ComboBoxItem("Wild Pokémon (Old Rod)",
+                    new ComboBoxItem("野生宝可梦（破旧钓竿）",
                                      EncounterType.WildOldRod),
-                    new ComboBoxItem("Wild Pokémon (Good Rod)",
+                    new ComboBoxItem("野生宝可梦（好钓竿）",
                                      EncounterType.WildGoodRod),
-                    new ComboBoxItem("Wild Pokémon (Super Rod)",
+                    new ComboBoxItem("野生宝可梦（厉害钓竿）",
                                      EncounterType.WildSuperRod)
                 });
 
@@ -347,7 +347,7 @@ namespace RNGReporter
         {
             uint searchRange = ivGenerator.MaxResults;
 
-            //  This is where we actually go ahead and call our 
+            //  This is where we actually go ahead and call our
             //  generator for a list of egg PIDs based on parameters
             //  that have been passed in.
             List<Frame> frames = lowerGenerator.Generate(frameCompare, id, sid);
@@ -414,7 +414,7 @@ namespace RNGReporter
                     ivGenerator.InitialSeed = seed;
                     lowerGenerator.InitialSeed = seed;
 
-                    //  This is where we actually go ahead and call our 
+                    //  This is where we actually go ahead and call our
                     //  generator for a list of egg PIDs based on parameters
                     //  that have been passed in.
                     List<Frame> frames = lowerGenerator.Generate(frameCompare, id, sid);
@@ -474,7 +474,7 @@ namespace RNGReporter
         {
             uint searchRange = ivGenerator.MaxResults;
 
-            //  This is where we actually go ahead and call our 
+            //  This is where we actually go ahead and call our
             //  generator for a list of egg PIDs based on parameters
             //  that have been passed in.
             List<Frame> frames = lowerGenerator.Generate(frameCompare, id, sid);
@@ -515,7 +515,7 @@ namespace RNGReporter
                         DisplaySpeInh = shinyFrame.DisplaySpe
                     };
 
-                    
+
 
                     //lowerHalf = (ushort)iframe.Pid;
                     //if ((iframe.Pid >> 16) >= 0xEFF0)
@@ -700,7 +700,7 @@ namespace RNGReporter
             switch (frameType)
             {
                 case FrameType.EBredPID:
-                    var iframeComparer = new IFrameEEggPIDComparer { CompareType = "Frame" };
+                    var iframeComparer = new IFrameEEggPIDComparer { CompareType = "帧" };
                     ((List<IFrameEEggPID>)bindingSource.DataSource).Sort(iframeComparer);
                     EPIDFrame.HeaderCell.SortGlyphDirection = SortOrder.Ascending;
                     break;
@@ -759,19 +759,19 @@ namespace RNGReporter
 
         private void outputShiny3rdResultsToTXTToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //  Going to need to present the user with a File Dialog and 
+            //  Going to need to present the user with a File Dialog and
             //  then interate through the Grid, outputting columns that
             //  are visible.
 
             saveFileDialogTxt.AddExtension = true;
-            saveFileDialogTxt.Title = "Save Output to TXT";
-            saveFileDialogTxt.Filter = "TXT Files|*.txt";
+            saveFileDialogTxt.Title = "保存输出到 TXT";
+            saveFileDialogTxt.Filter = "TXT 文件|*.txt";
             saveFileDialogTxt.FileName = "rngreporter.txt";
             if (saveFileDialogTxt.ShowDialog() == DialogResult.OK)
             {
-                //  Get the name of the file and then go ahead 
+                //  Get the name of the file and then go ahead
                 //  and create and save the thing to the hard
-                //  drive.   
+                //  drive.
                 List<IFrameRSEggPID> frames = iframesRSEgg;
 
                 if (frames != null)
@@ -802,7 +802,7 @@ namespace RNGReporter
                 }
             }
         }
-        
+
         private void buttonShiny3rdGenerate_Click(object sender, EventArgs e)
         {
             uint seed = 0;
@@ -931,7 +931,7 @@ namespace RNGReporter
             ivGenerator.ParentB = parentB;
 
             List<uint> natures = null;
-            if (comboBoxShiny3rdNature.Text != "Any" && comboBoxShiny3rdNature.CheckBoxItems.Count > 0)
+            if (comboBoxShiny3rdNature.Text != "任意" && comboBoxShiny3rdNature.CheckBoxItems.Count > 0)
             {
                 natures = new List<uint>();
                 for (int i = 0; i < comboBoxShiny3rdNature.CheckBoxItems.Count; i++)
@@ -985,7 +985,7 @@ namespace RNGReporter
 
             if (parentPassCount < 3)
             {
-                MessageBox.Show("The parent IVs you have listed cannot produce your desired search results.");
+                MessageBox.Show("你列出的父母 IV 无法产生期望的搜索结果。");
                 return;
             }
 
@@ -1110,7 +1110,7 @@ namespace RNGReporter
             ivGenerator.ParentB = parentB;
 
             List<uint> natures = null;
-            if (comboBoxShiny3rdNature.Text != "Any" && comboBoxShiny3rdNature.CheckBoxItems.Count > 0)
+            if (comboBoxShiny3rdNature.Text != "任意" && comboBoxShiny3rdNature.CheckBoxItems.Count > 0)
             {
                 natures = new List<uint>();
                 for (int i = 0; i < comboBoxShiny3rdNature.CheckBoxItems.Count; i++)
@@ -1164,7 +1164,7 @@ namespace RNGReporter
 
             if (parentPassCount < 3)
             {
-                MessageBox.Show("The parent IVs you have listed cannot produce your desired search results.");
+                MessageBox.Show("你列出的父母 IV 无法产生期望的搜索结果。");
                 return;
             }
 
@@ -1489,7 +1489,7 @@ namespace RNGReporter
             lowerGenerator.InitialSeed = seed;
 
             List<uint> natures = null;
-            if (comboEPIDNature.Text != "Any" && comboEPIDNature.CheckBoxItems.Count > 0)
+            if (comboEPIDNature.Text != "任意" && comboEPIDNature.CheckBoxItems.Count > 0)
             {
                 natures = new List<uint>();
                 for (int i = 0; i < comboEPIDNature.CheckBoxItems.Count; i++)
@@ -2000,13 +2000,13 @@ namespace RNGReporter
             ivGenerator.InitialSeed = seed;
 
             ivGenerator.ParentA = parentA;
-            ivGenerator.ParentB = parentB;  
+            ivGenerator.ParentB = parentB;
 
             uint.TryParse(lowerHalfPID.Text, NumberStyles.HexNumber, CultureInfo.InvariantCulture, out uint PIDHalfValue);
             ivGenerator.halfPIDvalue = PIDHalfValue;
 
             List<uint> natures = null;
-            if (checkBoxNatureFRLG.Text != "Any" && checkBoxNatureFRLG.CheckBoxItems.Count > 0)
+            if (checkBoxNatureFRLG.Text != "任意" && checkBoxNatureFRLG.CheckBoxItems.Count > 0)
             {
                 natures = new List<uint>();
                 for (int i = 0; i < checkBoxNatureFRLG.CheckBoxItems.Count; i++)
@@ -2060,7 +2060,7 @@ namespace RNGReporter
 
             if (parentPassCount < 3)
             {
-                MessageBox.Show("The parent IVs you have listed cannot produce your desired search results.");
+                MessageBox.Show("你列出的父母 IV 无法产生期望的搜索结果。");
                 return;
             }
 
@@ -2117,24 +2117,24 @@ namespace RNGReporter
             getIVs(out ivsLower, out ivsUpper);
 
             if (ivsLower[0] > ivsUpper[0])
-                MessageBox.Show("HP: Lower limit > Upper limit");
+                MessageBox.Show("HP：下限 > 上限");
             else if (ivsLower[1] > ivsUpper[1])
-                MessageBox.Show("Atk: Lower limit > Upper limit");
+                MessageBox.Show("攻击：下限 > 上限");
             else if (ivsLower[2] > ivsUpper[2])
-                MessageBox.Show("Def: Lower limit > Upper limit");
+                MessageBox.Show("防御：下限 > 上限");
             else if (ivsLower[3] > ivsUpper[3])
-                MessageBox.Show("SpA: Lower limit > Upper limit");
+                MessageBox.Show("特攻：下限 > 上限");
             else if (ivsLower[4] > ivsUpper[4])
-                MessageBox.Show("SpD: Lower limit > Upper limit");
+                MessageBox.Show("特防：下限 > 上限");
             else if (ivsLower[5] > ivsUpper[5])
-                MessageBox.Show("Spe: Lower limit > Upper limit");
+                MessageBox.Show("速度：下限 > 上限");
             else
             {
                 if (isSearching)
                     return;
 
                 isSearching = true;
-                status.Text = "Searching";
+                status.Text = "计算中";
                 int methodNum = comboBoxMethod.SelectedIndex;
                 encounterType = getEncounterType(comboBoxType.SelectedIndex);
                 wildSlots = new List<WildSlots>();
@@ -2145,11 +2145,11 @@ namespace RNGReporter
                 shinyval = ((uint.Parse(wildTID.Text)) ^ (uint.Parse(wildSID.Text))) >> 3;
 
                 natureList = null;
-                if (comboBoxNature.Text != "Any" && comboBoxNature.CheckBoxItems.Count > 0)
+                if (comboBoxNature.Text != "任意" && comboBoxNature.CheckBoxItems.Count > 0)
                     natureList = (from t in comboBoxNature.CheckBoxItems where t.Checked select (uint)((Nature)t.ComboBoxItem).Number).ToList();
 
                 slotsList = null;
-                if (comboBoxSlots.Text != "Any" && comboBoxSlots.CheckBoxItems.Count > 0)
+                if (comboBoxSlots.Text != "任意" && comboBoxSlots.CheckBoxItems.Count > 0)
                 {
                     slotsList = new List<int>();
                     for (int i = 0; i < comboBoxSlots.CheckBoxItems.Count; i++)
@@ -2162,7 +2162,7 @@ namespace RNGReporter
 
                 hiddenPowerList = null;
                 List<uint> temp = new List<uint>();
-                if (comboBoxHiddenPower.Text != "Any" && comboBoxHiddenPower.CheckBoxItems.Count > 0)
+                if (comboBoxHiddenPower.Text != "任意" && comboBoxHiddenPower.CheckBoxItems.Count > 0)
                     for (int x = 1; x <= 16; x++)
                         if (comboBoxHiddenPower.CheckBoxItems[x].Checked)
                             temp.Add((uint)(x - 1));
@@ -2230,7 +2230,7 @@ namespace RNGReporter
                             }
 
             isSearching = false;
-            status.Invoke((MethodInvoker)(() => status.Text = "Done. - Awaiting Command"));
+            status.Invoke((MethodInvoker)(() => status.Text = "完成了 -等待操作..."));
         }
 
         private void checkSeed1(uint hp, uint atk, uint def, uint spa, uint spd, uint spe, int method)
@@ -2305,7 +2305,7 @@ namespace RNGReporter
                             }
 
             isSearching = false;
-            status.Invoke((MethodInvoker)(() => status.Text = "Done. - Awaiting Command"));
+            status.Invoke((MethodInvoker)(() => status.Text = "完成了 -等待操作..."));
         }
 
         private void checkSeed2(uint hp, uint atk, uint def, uint spa, uint spd, uint spe, int method)
@@ -2377,7 +2377,7 @@ namespace RNGReporter
                             }
 
             isSearching = false;
-            status.Invoke((MethodInvoker)(() => status.Text = "Done. - Awaiting Command"));
+            status.Invoke((MethodInvoker)(() => status.Text = "完成了 -等待操作..."));
         }
 
         private void checkSeed4(uint hp, uint atk, uint def, uint spa, uint spd, uint spe, int method)
@@ -2454,7 +2454,7 @@ namespace RNGReporter
                         slot = testSeed * 0xeeb9eb65 + 0xa3561a1;
                         testSeed = slot * 0xeeb9eb65 + 0xa3561a1;
 
-                        filterSeed(hp, atk, def, spa, spd, spe, pid, nature, testSeed, method, EncounterSlotCalc.encounterSlot(slot, FrameType.MethodH1, encounterType), "None");
+                        filterSeed(hp, atk, def, spa, spd, spe, pid, nature, testSeed, method, EncounterSlotCalc.encounterSlot(slot, FrameType.MethodH1, encounterType), "无");
 
                         // Change so no conflict between failed synch and cute charm
                         slot = slot * 0xeeb9eb65 + 0xa3561a1;
@@ -2466,7 +2466,7 @@ namespace RNGReporter
 
                         // Check Cute Charm
                         if (synchCharm && (nextRNG2 % 3) > 0)
-                            filterSeed(hp, atk, def, spa, spd, spe, pid, nature, testSeed, method, EncounterSlotCalc.encounterSlot(slot, FrameType.MethodH1, encounterType), "Cute Charm");
+                            filterSeed(hp, atk, def, spa, spd, spe, pid, nature, testSeed, method, EncounterSlotCalc.encounterSlot(slot, FrameType.MethodH1, encounterType), "迷人之躯");
                     }
                     // Check synch
                     else if (synchCharm && (nextRNG & 1) == 0)
@@ -2494,7 +2494,7 @@ namespace RNGReporter
             {
                 if (!isShiny(pid))
                     return;
-                shiny = "!!!";
+                shiny = "异色";
             }
 
             if (method == 3 || method == 4 || method == 5)
@@ -2554,7 +2554,7 @@ namespace RNGReporter
         {
             if (shiny == "")
                 if (isShiny(pid))
-                    shiny = "!!!";
+                    shiny = "异色";
 
             wildSlots.Add(new WildSlots
             {
@@ -2840,22 +2840,22 @@ namespace RNGReporter
         {
             String[] temp = new String[]
                 {
-                    "Fighting",
-                    "Flying",
-                    "Poison",
-                    "Ground",
-                    "Rock",
-                    "Bug",
-                    "Ghost",
-                    "Steel",
-                    "Fire",
-                    "Water",
-                    "Grass",
-                    "Electric",
-                    "Psychic",
-                    "Ice",
-                    "Dragon",
-                    "Dark"
+                    "格斗",
+                    "飞行",
+                    "毒",
+                    "地面",
+                    "岩石",
+                    "虫",
+                    "幽灵",
+                    "钢",
+                    "火",
+                    "水",
+                    "草",
+                    "电",
+                    "超能",
+                    "冰",
+                    "龙",
+                    "恶"
                 };
             return temp;
         }
@@ -3037,7 +3037,7 @@ namespace RNGReporter
             if (radioButton1.Checked == true)
             {
                 maskedTextBox21.ReadOnly = dateTimePicker1.Enabled = false;
-                minMinute.ReadOnly = maxMinute.ReadOnly = minHour.ReadOnly = maxHour.ReadOnly = true;                
+                minMinute.ReadOnly = maxMinute.ReadOnly = minHour.ReadOnly = maxHour.ReadOnly = true;
             }
             else
             {
@@ -3051,7 +3051,7 @@ namespace RNGReporter
             if (isSearching)
             {
                 isSearching = false;
-                status.Text = "Cancelled. - Awaiting Command";
+                status.Text = "取消了 -等待操作...";
                 searchThread.Abort();
             }
         }

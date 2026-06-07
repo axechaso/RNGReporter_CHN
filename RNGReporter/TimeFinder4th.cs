@@ -115,7 +115,7 @@ namespace RNGReporter
 
             var ability = new[]
                 {
-                    new ComboBoxItem("Any", -1),
+                    new ComboBoxItem("任意", -1),
                     new ComboBoxItem("Ability 0", 0),
                     new ComboBoxItem("Ability 1", 1)
                 };
@@ -366,13 +366,13 @@ namespace RNGReporter
                 //  Need to validate the year here
                 if (year < 2000)
                 {
-                    MessageBox.Show("You must enter a year greater than 1999.", "Please Enter a Valid Year",
+                    MessageBox.Show("你必须输入大于 1999 的年份。", "请输入一个有效年份",
                                     MessageBoxButtons.OK);
                     return;
                 }
             }
 
-            //  We are going to need to make sure that 
+            //  We are going to need to make sure that
             //  this matches the offset that we show
             //  on the main frame screen so that people
             //  will be able to see.
@@ -388,7 +388,7 @@ namespace RNGReporter
             uint minOffset = uint.Parse(maskedTextBoxMinOffset.Text);
 
             //now with min and max to avoid annoying manual searching
-            //default to single value search though 
+            //default to single value search though
             if (maskedTextBoxMaxOffset.Text != "")
             {
                 maskedTextBoxMaxOffset.Focus();
@@ -496,13 +496,13 @@ namespace RNGReporter
             if (radioButtonEggDPPt.Checked)
             {
                 generator.FrameType = FrameType.DPPtBred;
-                Flips.HeaderText = "Flip Sequence";
+                Flips.HeaderText = "硬币序列";
                 Flips.DataPropertyName = "Flips";
             }
             else
             {
                 generator.FrameType = FrameType.HGSSBred;
-                Flips.HeaderText = "Elm Sequence";
+                Flips.HeaderText = "电话序列";
                 Flips.DataPropertyName = "ElmResponses";
             }
 
@@ -541,12 +541,12 @@ namespace RNGReporter
 
         private void dataGridViewValues_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
-            if (dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "HP" ||
-                dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "Atk" ||
-                dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "Def" ||
-                dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "SpA" ||
-                dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "SpD" ||
-                dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "Spe")
+            if (dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "觉醒力量" ||
+                dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "攻击" ||
+                dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "防御" ||
+                dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "特攻" ||
+                dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "特防" ||
+                dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "速度")
             {
                 if ((string) e.Value == "30" || (string) e.Value == "31")
                 {
@@ -627,7 +627,7 @@ namespace RNGReporter
                     for (uint rdelay = adjacent.ReturnMinDelay; rdelay <= adjacent.ReturnMaxDelay; rdelay++)
                     {
                         //  Get the information (year, month, date from the frame) and build
-                        //  our initial seed to feed to the Frame Generator so that we can 
+                        //  our initial seed to feed to the Frame Generator so that we can
                         uint seed =
                             ((((uint) adjacentTime.Month*
                                (uint) adjacentTime.Day +
@@ -649,7 +649,7 @@ namespace RNGReporter
 
                         foreach (Frame frame in frames)
                         {
-                            //  Create our PlatinumIFrame and then add this to the 
+                            //  Create our PlatinumIFrame and then add this to the
                             //  master collection that we are going to display to
                             //  the user.
                             var iframe = new IFrameBreeding
@@ -705,19 +705,19 @@ namespace RNGReporter
 
         private void outputResultsToTXTToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //  Going to need to present the user with a File Dialog and 
+            //  Going to need to present the user with a File Dialog and
             //  then interate through the Grid, outputting columns that
             //  are visible.
 
             saveFileDialogTxt.AddExtension = true;
-            saveFileDialogTxt.Title = "Save Output to TXT";
-            saveFileDialogTxt.Filter = "TXT Files|*.txt";
+            saveFileDialogTxt.Title = "保存输出到 TXT";
+            saveFileDialogTxt.Filter = "TXT 文件|*.txt";
             saveFileDialogTxt.FileName = "rngreporter.txt";
             if (saveFileDialogTxt.ShowDialog() == DialogResult.OK)
             {
-                //  Get the name of the file and then go ahead 
+                //  Get the name of the file and then go ahead
                 //  and create and save the thing to the hard
-                //  drive.   
+                //  drive.
 
                 List<IFrameBreeding> frames = iframesEggIVs;
 
@@ -785,7 +785,7 @@ namespace RNGReporter
             dataGridViewEggIVValues.Rows[targetFrameIndex].Selected = true;
         }
 
-        //  Capture code begins here -- This is all of the good stuff for 
+        //  Capture code begins here -- This is all of the good stuff for
         //  captured Pokemon.
 
         private void buttonCapGenerate_Click(object sender, EventArgs e)
@@ -821,7 +821,7 @@ namespace RNGReporter
                 //  Need to validate the year here
                 if (year < 2000)
                 {
-                    MessageBox.Show("You must enter a year greater than 1999.", "Please Enter a Valid Year",
+                    MessageBox.Show("你必须输入大于 1999 的年份。", "请输入一个有效年份",
                                     MessageBoxButtons.OK);
                     return;
                 }
@@ -874,7 +874,7 @@ namespace RNGReporter
             IVFilter ivfilter = ivFiltersCapture.IVFilter;
 
             List<int> encounterSlots = null;
-            if (comboBoxEncounterSlot.Text != "Any" && comboBoxEncounterSlot.CheckBoxItems.Count > 0)
+            if (comboBoxEncounterSlot.Text != "任意" && comboBoxEncounterSlot.CheckBoxItems.Count > 0)
             {
                 encounterSlots = new List<int>();
                 for (int i = 0; i < comboBoxEncounterSlot.CheckBoxItems.Count; i++)
@@ -886,7 +886,7 @@ namespace RNGReporter
             }
 
             List<uint> natures = null;
-            if (comboBoxNature.Text != "Any" && comboBoxNature.CheckBoxItems.Count > 0)
+            if (comboBoxNature.Text != "任意" && comboBoxNature.CheckBoxItems.Count > 0)
             {
                 natures = new List<uint>();
                 for (int i = 0; i < comboBoxNature.CheckBoxItems.Count; i++)
@@ -1150,7 +1150,7 @@ namespace RNGReporter
                         if (iframesEggShiny.Count > 1000000)
                             break;
 
-                        //  This is where we actually go ahead and call our 
+                        //  This is where we actually go ahead and call our
                         //  generator for a list of egg PIDs based on parameters
                         //  that have been passed in.
                         List<Frame> frames = generator.Generate(frameCompare, id, sid);
@@ -1207,7 +1207,7 @@ namespace RNGReporter
                         if (iframesEggIVs.Count > 1000000)
                             break;
 
-                        //  This is where we actually go ahead and call our 
+                        //  This is where we actually go ahead and call our
                         //  generator for a list of egg PIDs based on parameters
                         //  that have been passed in.
                         List<Frame> frames = generator.Generate(frameCompare, id, sid);
@@ -1359,7 +1359,7 @@ namespace RNGReporter
         private void comboBoxMethod_SelectedIndexChanged(object sender, EventArgs e)
         {
             string[] encounterMenu;
-            string previousEncounter = "Wild Pokémon";
+            string previousEncounter = "野生宝可梦";
             if (comboBoxEncounterType.SelectedItem != null)
                 previousEncounter = comboBoxEncounterType.SelectedItem.ToString();
 
@@ -1367,15 +1367,15 @@ namespace RNGReporter
             {
                 encounterMenu = new[]
                     {
-                        "Wild Pokémon",
+                        "野生宝可梦",
                         "Wild Pokémon (Surfing)",
-                        "Wild Pokémon (Old Rod)",
-                        "Wild Pokémon (Good Rod)",
-                        "Wild Pokémon (Super Rod)",
-                        "Stationary Pokémon",
+                        "野生宝可梦（破旧钓竿）",
+                        "野生宝可梦（好钓竿）",
+                        "野生宝可梦（厉害钓竿）",
+                        "定点宝可梦",
                         "Bug-Catching Contest",
-                        "Safari Zone",
-                        "Headbutt"
+                        "狩猎地带",
+                        "头锤树"
                     };
 
                 comboBoxEncounterType.Enabled = true;
@@ -1386,12 +1386,12 @@ namespace RNGReporter
             {
                 encounterMenu = new[]
                     {
-                        "Wild Pokémon",
+                        "野生宝可梦",
                         "Wild Pokémon (Surfing)",
-                        "Wild Pokémon (Old Rod)",
-                        "Wild Pokémon (Good Rod)",
-                        "Wild Pokémon (Super Rod)",
-                        "Stationary Pokémon"
+                        "野生宝可梦（破旧钓竿）",
+                        "野生宝可梦（好钓竿）",
+                        "野生宝可梦（厉害钓竿）",
+                        "定点宝可梦"
                     };
 
                 comboBoxEncounterType.Enabled = true;
@@ -1402,7 +1402,7 @@ namespace RNGReporter
             {
                 encounterMenu = new[]
                     {
-                        "Stationary\\Gift Pokémon"
+                        "定点\\礼物宝可梦"
                     };
 
                 comboBoxEncounterType.Enabled = false;
@@ -1413,7 +1413,7 @@ namespace RNGReporter
             {
                 encounterMenu = new[]
                     {
-                        "Stationary\\Gift Pokémon"
+                        "定点\\礼物宝可梦"
                     };
 
                 comboBoxEncounterType.Enabled = false;
@@ -1482,7 +1482,7 @@ namespace RNGReporter
 
                 // This is a bit of a strange hack, because this window
                 //  needs to be hidden before we load the seed to time
-                //  form or it wont be able to be focused. 
+                //  form or it wont be able to be focused.
                 bool showMap = HgSsRoamerSW.Window.Map.Visible;
                 HgSsRoamerSW.Window.Hide();
 
@@ -1513,19 +1513,19 @@ namespace RNGReporter
 
         private void outputCapResultsToTXTToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //  Going to need to present the user with a File Dialog and 
+            //  Going to need to present the user with a File Dialog and
             //  then interate through the Grid, outputting columns that
             //  are visible.
 
             saveFileDialogTxt.AddExtension = true;
-            saveFileDialogTxt.Title = "Save Output to TXT";
-            saveFileDialogTxt.Filter = "TXT Files|*.txt";
+            saveFileDialogTxt.Title = "保存输出到 TXT";
+            saveFileDialogTxt.Filter = "TXT 文件|*.txt";
             saveFileDialogTxt.FileName = "rngreporter.txt";
             if (saveFileDialogTxt.ShowDialog() == DialogResult.OK)
             {
-                //  Get the name of the file and then go ahead 
+                //  Get the name of the file and then go ahead
                 //  and create and save the thing to the hard
-                //  drive.   
+                //  drive.
                 List<IFrameCapture> frames = iframes;
 
                 if (frames.Count > 0)
@@ -1802,7 +1802,7 @@ namespace RNGReporter
 
                 // This is a bit of a strange hack, because this window
                 //  needs to be hidden before we load the seed to time
-                //  form or it wont be able to be focused. 
+                //  form or it wont be able to be focused.
                 bool showMap = HgSsRoamerSW.Window.Map.Visible;
                 HgSsRoamerSW.Window.Hide();
 
@@ -1826,19 +1826,19 @@ namespace RNGReporter
 
         private void outputResultsToTXTToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            //  Going to need to present the user with a File Dialog and 
+            //  Going to need to present the user with a File Dialog and
             //  then interate through the Grid, outputting columns that
             //  are visible.
 
             saveFileDialogTxt.AddExtension = true;
-            saveFileDialogTxt.Title = "Save Output to TXT";
-            saveFileDialogTxt.Filter = "TXT Files|*.txt";
+            saveFileDialogTxt.Title = "保存输出到 TXT";
+            saveFileDialogTxt.Filter = "TXT 文件|*.txt";
             saveFileDialogTxt.FileName = "rngreporter.txt";
             if (saveFileDialogTxt.ShowDialog() == DialogResult.OK)
             {
-                //  Get the name of the file and then go ahead 
+                //  Get the name of the file and then go ahead
                 //  and create and save the thing to the hard
-                //  drive.   
+                //  drive.
 
                 // Throws an exception if the wrong object type
                 // And goes to the other one
@@ -1966,7 +1966,7 @@ namespace RNGReporter
             }
         }
 
-        // Sorts the grid 
+        // Sorts the grid
         // Can't use SortCompare method because this grid is data-bound
         private void dataGridViewCapValues_ColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
@@ -2180,7 +2180,7 @@ namespace RNGReporter
                             ((IFrameCapture) dataGridViewCapValues.Rows[e.RowIndex].DataBoundItem).Frame.EncounterMod)
                         {
                             case Objects.EncounterMod.Synchronize:
-                                toolTipDataGrid.ToolTipTitle = "Synchronize";
+                                toolTipDataGrid.ToolTipTitle = "同步";
 
                                 toolTipDataGrid.Show(
                                     "When encountering the desired Pokémon, the lead Pokémon in your party\r\n" +
@@ -2200,7 +2200,7 @@ namespace RNGReporter
                             case Objects.EncounterMod.CuteCharm75M:
                             case Objects.EncounterMod.CuteCharm25M:
                             case Objects.EncounterMod.CuteCharmFemale:
-                                toolTipDataGrid.ToolTipTitle = "Cute Charm";
+                                toolTipDataGrid.ToolTipTitle = "迷人之躯";
 
                                 toolTipDataGrid.Show(
                                     "When encountering the target Pokémon, the lead Pokémon in your party\r\n" +
@@ -2217,7 +2217,7 @@ namespace RNGReporter
                                     15000);
                                 break;
                             case Objects.EncounterMod.SuctionCups:
-                                toolTipDataGrid.ToolTipTitle = "Suction Cups";
+                                toolTipDataGrid.ToolTipTitle = "吸盘";
 
                                 toolTipDataGrid.Show(
                                     "When fishing for the target Pokémon, the lead Pokémon in your party\r\n" +
@@ -2234,11 +2234,11 @@ namespace RNGReporter
                         }
                     }
                 }
-                else if (dataGridViewCapValues.Columns[e.ColumnIndex].Name == "Nature")
+                else if (dataGridViewCapValues.Columns[e.ColumnIndex].Name == "性格")
                 {
-                    toolTipDataGrid.ToolTipTitle = "Nature";
+                    toolTipDataGrid.ToolTipTitle = "性格";
 
-                    toolTipDataGrid.Show("Greyed-out natures are natures with no competitive value.",
+                    toolTipDataGrid.Show("灰色字体的性格是没有竞争价值的性格。",
                                          this,
                                          dataGridViewCapValues.Location.X + cellRect.X + cellRect.Size.Width,
                                          dataGridViewCapValues.Location.Y + cellRect.Y + cellRect.Size.Height,
@@ -2246,9 +2246,9 @@ namespace RNGReporter
                 }
                 else if (dataGridViewCapValues.Columns[e.ColumnIndex].Name == "Shiny")
                 {
-                    toolTipDataGrid.ToolTipTitle = "!!!";
+                    toolTipDataGrid.ToolTipTitle = "异色";
 
-                    toolTipDataGrid.Show("A !!! in this column indicates the frame will be shiny.",
+                    toolTipDataGrid.Show("如果该帧的异色列有!!!则说明该帧是异色",
                                          this,
                                          dataGridViewCapValues.Location.X + cellRect.X + cellRect.Size.Width,
                                          dataGridViewCapValues.Location.Y + cellRect.Y + cellRect.Size.Height,
@@ -2256,7 +2256,7 @@ namespace RNGReporter
                 }
                 else if (dataGridViewCapValues.Columns[e.ColumnIndex].Name == "EncounterSlot")
                 {
-                    toolTipDataGrid.ToolTipTitle = "Encounter Slot";
+                    toolTipDataGrid.ToolTipTitle = "遭遇槽";
 
                     toolTipDataGrid.Show("Encounter slots are used to determine what Pokémon appears for\r\n" +
                                          "a wild battle.  Use the encounter tables under the main menus to look up\r\n" +

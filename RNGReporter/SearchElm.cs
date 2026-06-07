@@ -1,7 +1,7 @@
-﻿using System;
+﻿using RNGReporter.Objects;
+using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using RNGReporter.Objects;
 
 namespace RNGReporter
 {
@@ -59,7 +59,7 @@ namespace RNGReporter
 
         private void buttonE_Click(object sender, EventArgs e)
         {
-            AddLetter("E");
+            AddLetter("炎帝");
         }
 
         private void buttonP_Click(object sender, EventArgs e)
@@ -81,7 +81,7 @@ namespace RNGReporter
         {
             if (_adjacents == null || _adjacents.Count == 0) return;
             Possible = _adjacents.FindAll(HasElms);
-            labelResults.Text = "Possible Results: " + Possible.Count;
+            labelResults.Text = "可能的结果数量：" + Possible.Count;
         }
 
         private bool HasElms(Adjacent adjacent)
@@ -134,6 +134,11 @@ namespace RNGReporter
             labelKIrwin.Visible = radioButtonIrwin.Checked;
             labelEIrwin.Visible = radioButtonIrwin.Checked;
             labelPIrwin.Visible = radioButtonIrwin.Checked;
+        }
+
+        private void labelKIrwin_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

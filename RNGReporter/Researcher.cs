@@ -324,7 +324,7 @@ namespace RNGReporter
             }
             catch (Exception ex)
             {
-                MessageBox.Show("You must check off the Hex box in order to calculate using hex values.", ex.Message);
+                MessageBox.Show("您必须勾选16进制框才能使用16进制值进行计算", ex.Message);
                 return;
             }
 
@@ -421,7 +421,7 @@ namespace RNGReporter
                 if (calcCustom2)
                 {
                     ulong customLValue2 = CustomCalcs(comboBoxLValue2, frame, frames);
-                    if ((string)comboBoxRValue2.SelectedItem != "None")
+                    if ((string)comboBoxRValue2.SelectedItem != "无")
                         customRValue2 = CustomCalcs(comboBoxRValue2, frame, frames);
 
                     if (!rngIs64Bit)
@@ -435,7 +435,7 @@ namespace RNGReporter
                 if (calcCustom3)
                 {
                     ulong customLValue3 = CustomCalcs(comboBoxLValue3, frame, frames);
-                    if ((string)comboBoxRValue3.SelectedItem != "None")
+                    if ((string)comboBoxRValue3.SelectedItem != "无")
                         customRValue3 = CustomCalcs(comboBoxRValue3, frame, frames);
 
                     if (!rngIs64Bit)
@@ -449,7 +449,7 @@ namespace RNGReporter
                 if (calcCustom4)
                 {
                     ulong customLValue4 = CustomCalcs(comboBoxLValue4, frame, frames);
-                    if ((string)comboBoxRValue4.SelectedItem != "None")
+                    if ((string)comboBoxRValue4.SelectedItem != "无")
                         customRValue4 = CustomCalcs(comboBoxRValue4, frame, frames);
 
                     if (!rngIs64Bit)
@@ -463,7 +463,7 @@ namespace RNGReporter
                 if (calcCustom5)
                 {
                     ulong customLValue5 = CustomCalcs(comboBoxLValue5, frame, frames);
-                    if ((string)comboBoxRValue5.SelectedItem != "None")
+                    if ((string)comboBoxRValue5.SelectedItem != "无")
                         customRValue5 = CustomCalcs(comboBoxRValue5, frame, frames);
 
                     if (!rngIs64Bit)
@@ -477,7 +477,7 @@ namespace RNGReporter
                 if (calcCustom6)
                 {
                     ulong customLValue6 = CustomCalcs(comboBoxLValue6, frame, frames);
-                    if ((string)comboBoxRValue6.SelectedItem != "None")
+                    if ((string)comboBoxRValue6.SelectedItem != "无")
                         customRValue6 = CustomCalcs(comboBoxRValue6, frame, frames);
 
                     if (!rngIs64Bit)
@@ -491,7 +491,7 @@ namespace RNGReporter
                 if (calcCustom7)
                 {
                     ulong customLValue7 = CustomCalcs(comboBoxLValue7, frame, frames);
-                    if ((string)comboBoxRValue7.SelectedItem != "None")
+                    if ((string)comboBoxRValue7.SelectedItem != "无")
                         customRValue7 = CustomCalcs(comboBoxRValue7, frame, frames);
 
                     if (!rngIs64Bit)
@@ -505,7 +505,7 @@ namespace RNGReporter
                 if (calcCustom8)
                 {
                     ulong customLValue8 = CustomCalcs(comboBoxLValue8, frame, frames);
-                    if ((string)comboBoxRValue8.SelectedItem != "None")
+                    if ((string)comboBoxRValue8.SelectedItem != "无")
                         customRValue8 = CustomCalcs(comboBoxRValue8, frame, frames);
 
                     if (!rngIs64Bit)
@@ -519,7 +519,7 @@ namespace RNGReporter
                 if (calcCustom9)
                 {
                     ulong customLValue9 = CustomCalcs(comboBoxLValue9, frame, frames);
-                    if ((string)comboBoxRValue9.SelectedItem != "None")
+                    if ((string)comboBoxRValue9.SelectedItem != "无")
                         customRValue9 = CustomCalcs(comboBoxRValue9, frame, frames);
 
                     if (!rngIs64Bit)
@@ -533,7 +533,7 @@ namespace RNGReporter
                 if (calcCustom10)
                 {
                     ulong customLValue10 = CustomCalcs(comboBoxLValue10, frame, frames);
-                    if ((string)comboBoxRValue10.SelectedItem != "None")
+                    if ((string)comboBoxRValue10.SelectedItem != "无")
                         customRValue10 = CustomCalcs(comboBoxRValue10, frame, frames);
 
                     if (!rngIs64Bit)
@@ -590,25 +590,25 @@ namespace RNGReporter
                     return frame.High16;
                 case "16Bit Low":
                     return frame.Low16;
-                case "Custom 1":
+                case "自定义 1":
                     return frame.Custom1;
-                case "Custom 2":
+                case "自定义 2":
                     return frame.Custom2;
-                case "Custom 3":
+                case "自定义 3":
                     return frame.Custom3;
-                case "Custom 4":
+                case "自定义 4":
                     return frame.Custom4;
-                case "Custom 5":
+                case "自定义 5":
                     return frame.Custom5;
-                case "Custom 6":
+                case "自定义 6":
                     return frame.Custom6;
-                case "Custom 7":
+                case "自定义 7":
                     return frame.Custom7;
-                case "Custom 8":
+                case "自定义 8":
                     return frame.Custom8;
-                case "Custom 9":
+                case "自定义 9":
                     return frame.Custom9;
-                case "Custom 10":
+                case "自定义 10":
                     return frame.Custom10;
                 case "Previous 1":
                     return frames.Count == 0 ? 0 : frames[frames.Count - 1].Custom1;
@@ -644,7 +644,7 @@ namespace RNGReporter
 
             if (columnHover != null)
             {
-                copyItemToolStripMenuItem.Text = "Copy " + dataGridViewValues.Columns[columnHover].HeaderText;
+                copyItemToolStripMenuItem.Text = "复制" + dataGridViewValues.Columns[columnHover].HeaderText;
             }
 
             if (columns.Count == 0)
@@ -726,14 +726,14 @@ namespace RNGReporter
         private void outputResultsToTXTToolStripMenuItem_Click(object sender, EventArgs e)
         {
             saveFileDialogTxt.AddExtension = true;
-            saveFileDialogTxt.Title = "Save Output to TXT";
-            saveFileDialogTxt.Filter = "TXT Files|*.txt";
+            saveFileDialogTxt.Title = "保存输出到 TXT";
+            saveFileDialogTxt.Filter = "TXT 文件|*.txt";
             saveFileDialogTxt.FileName = "rngreporter.txt";
             if (saveFileDialogTxt.ShowDialog() == DialogResult.OK)
             {
-                //  Get the name of the file and then go ahead 
+                //  Get the name of the file and then go ahead
                 //  and create and save the thing to the hard
-                //  drive.   
+                //  drive.
                 var frames = (List<FrameResearch>)dataGridViewValues.DataSource;
 
                 if (frames.Count > 0)
@@ -806,14 +806,14 @@ namespace RNGReporter
             if (columns != null && columns.Count > 0)
             {
                 saveFileDialogTxt.AddExtension = true;
-                saveFileDialogTxt.Title = "Save Output to TXT";
-                saveFileDialogTxt.Filter = "TXT Files|*.txt";
+                saveFileDialogTxt.Title = "保存输出到 TXT";
+                saveFileDialogTxt.Filter = "TXT 文件|*.txt";
                 saveFileDialogTxt.FileName = "rngreporter.txt";
                 if (saveFileDialogTxt.ShowDialog() == DialogResult.OK)
                 {
-                    //  Get the name of the file and then go ahead 
+                    //  Get the name of the file and then go ahead
                     //  and create and save the thing to the hard
-                    //  drive.   
+                    //  drive.
                     var frames = (List<FrameResearch>)dataGridViewValues.DataSource;
 
                     if (frames.Count > 0)
@@ -855,7 +855,7 @@ namespace RNGReporter
         {
             if (profile.Custom.Length != 10)
             {
-                MessageBox.Show("Corrupt profile detected");
+                MessageBox.Show("检测到损坏的配置文件");
                 return;
             }
 
@@ -1043,13 +1043,13 @@ namespace RNGReporter
 
         private void searchValue(bool search)
         {
-            dataGridViewValues.Focus();                     
+            dataGridViewValues.Focus();
 
             if (dataGridViewValues.RowCount > 0 && textBoxSearch.Text.Length > 0)
             {
                 ulong value;
 
-                if(glassComboBox1.SelectedItem.ToString() == "Frame")
+                if(glassComboBox1.SelectedItem.ToString() == "帧")
                 {
                     try
                     {
@@ -1057,7 +1057,7 @@ namespace RNGReporter
                     }
                     catch
                     {
-                        MessageBox.Show("The Frame research accepts only decimal numbers.", "Error");
+                        MessageBox.Show("请输入10进制的帧数", "错误");
                         return;
                     }
                 }
@@ -1126,8 +1126,8 @@ namespace RNGReporter
             if (comboBoxRNG.SelectedIndex != 3 && comboBoxRNG.SelectedIndex != 4)
             {
                 glassComboBox1.Items.Remove("64Bit");
-                glassComboBox1.Items.Remove("32BitHigh");
-                glassComboBox1.Items.Remove("32BitLow");
+                glassComboBox1.Items.Remove("32位高位");
+                glassComboBox1.Items.Remove("32位低位");
 
                 if (!glassComboBox1.Items.Contains("32Bit"))
                 {
@@ -1143,13 +1143,13 @@ namespace RNGReporter
                 {
                     glassComboBox1.Items.Insert(0, "64Bit");
                 }
-                if (!glassComboBox1.Items.Contains("32BitHigh"))
+                if (!glassComboBox1.Items.Contains("32位高位"))
                 {
-                    glassComboBox1.Items.Insert(1, "32BitHigh");
+                    glassComboBox1.Items.Insert(1, "32位高位");
                 }
-                if (!glassComboBox1.Items.Contains("32BitLow"))
+                if (!glassComboBox1.Items.Contains("32位低位"))
                 {
-                    glassComboBox1.Items.Insert(2, "32BitLow");
+                    glassComboBox1.Items.Insert(2, "32位低位");
                 }
                 glassComboBox1.SelectedIndex = 0;
             }

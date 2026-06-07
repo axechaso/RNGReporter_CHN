@@ -83,7 +83,7 @@ namespace RNGReporter
             listNature_IVRange = new BindingSource(Nature.NatureCollection(), null);
             listCharacteristic_Stat = new BindingSource(Characteristic.CharacteristicCollection(), null);
 
-            //  Load our previous information out of the 
+            //  Load our previous information out of the
             //  registry so users do not constantly have
             //  to re-enter the information.
             RegistryKey registrySoftware = Registry.CurrentUser.OpenSubKey("Software", true);
@@ -98,7 +98,7 @@ namespace RNGReporter
                     maskedTextBoxDate.Text = (string) registryRngReporter.GetValue("date", "01");
                     maskedTextBoxHours.Text = (string) registryRngReporter.GetValue("hours", "00");
                     maskedTextBoxMinutes.Text = (string) registryRngReporter.GetValue("minutes", "00");
-                    maskedTextBoxSeconds.Text = (string) registryRngReporter.GetValue("seconds", "00");
+                    maskedTextBoxSeconds.Text = (string) registryRngReporter.GetValue("秒", "00");
                     maskedTextBoxDelay.Text = (string) registryRngReporter.GetValue("wait", "0");
 
                     maskedTextBoxYear_A.Text = (string) registryRngReporter.GetValue("year_a", "2000");
@@ -514,12 +514,12 @@ namespace RNGReporter
 
             if (!monsterFound)
             {
-                MessageBox.Show("No matches found for the IVs entered.  Please check and try again.", "No Data Found",
+                MessageBox.Show("未找到与输入 IV 匹配的结果，请检查后重试。", "未找到数据",
                                 MessageBoxButtons.OK);
             }
             else if (!initialFound)
             {
-                MessageBox.Show("No reasonable initial seed found. Please check your DATE and TIME.", "No Data Found",
+                MessageBox.Show("未找到合理的初始 seed。请检查日期和时间。", "未找到数据",
                                 MessageBoxButtons.OK);
             }
 
@@ -638,8 +638,8 @@ namespace RNGReporter
             if (!ivCheck.IsValid)
             {
                 MessageBox.Show(
-                    "There was a problem with the stats/nature/Pokemon you have entered.  Please check them and try again. " +
-                    Environment.NewLine + Environment.NewLine + ivCheck, "Invalid Stats");
+                    "你输入的能力值、性格或宝可梦有问题。请检查后重试。" +
+                    Environment.NewLine + Environment.NewLine + ivCheck, "能力值无效");
             }
             else
             {
@@ -667,8 +667,8 @@ namespace RNGReporter
                 if (combinations > 100)
                 {
                     MessageBox.Show(
-                        "There were too many combinations of IV possibilities to accurately find your intitial seed (" +
-                        combinations + ") please try with a higher level Pokemon,", "To many IV Combinations");
+                        "存在太多的个体值可能性组合，因此无法准确地找到您的初始seed。 (" +
+                        combinations + ") 请尝试使用更高等级的宝可梦,", "IV 组合过多");
                 }
                 else
                 {
@@ -692,7 +692,7 @@ namespace RNGReporter
                                             allSeeds.AddRange(startingSeeds);
                                         }
 
-                    //  We now have a complete list of starting seeds so we can run the 
+                    //  We now have a complete list of starting seeds so we can run the
                     //  same logic that we normally run here, but we might want to tone
                     //  down how much we actually search.
 
@@ -765,13 +765,13 @@ namespace RNGReporter
 
                     if (!monsterFound)
                     {
-                        MessageBox.Show("No matches found for the IVs entered.  Please check and try again.",
-                                        "No Data Found", MessageBoxButtons.OK);
+                        MessageBox.Show("未找到与输入 IV 匹配的结果，请检查后重试。",
+                                        "未找到数据", MessageBoxButtons.OK);
                     }
                     else if (!initialFound)
                     {
-                        MessageBox.Show("No reasonable initial seed found. Please check your DATE and TIME.",
-                                        "No Data Found", MessageBoxButtons.OK);
+                        MessageBox.Show("未找到合理的初始 seed。请检查日期和时间。",
+                                        "未找到数据", MessageBoxButtons.OK);
                     }
 
                     //  Save our information for the next run
@@ -963,8 +963,8 @@ namespace RNGReporter
             if (combinations > 100)
             {
                 MessageBox.Show(
-                    "There were too many combinations of IV possibilities to accurately find your intitial seed (" +
-                    combinations + ") please try with a higher level Pokemon,", "Too many IV Combinations");
+                    "存在太多的个体值可能性组合，因此无法准确地找到您的初始seed。 (" +
+                    combinations + ") 请尝试使用更高等级的宝可梦,", "太多个体值组合啦");
             }
             else
             {
@@ -988,7 +988,7 @@ namespace RNGReporter
                                         allSeeds.AddRange(startingSeeds);
                                     }
 
-                //  We now have a complete list of starting seeds so we can run the 
+                //  We now have a complete list of starting seeds so we can run the
                 //  same logic that we normally run here, but we might want to tone
                 //  down how much we actually search.
 
@@ -1062,13 +1062,13 @@ namespace RNGReporter
 
                 if (!monsterFound)
                 {
-                    MessageBox.Show("No matches found for the IVs entered.  Please check and try again.",
-                                    "No Data Found", MessageBoxButtons.OK);
+                    MessageBox.Show("未找到与输入 IV 匹配的结果，请检查后重试。",
+                                    "未找到数据", MessageBoxButtons.OK);
                 }
                 else if (!initialFound)
                 {
-                    MessageBox.Show("No reasonable initial seed found. Please check your DATE and TIME.",
-                                    "No Data Found", MessageBoxButtons.OK);
+                    MessageBox.Show("未找到合理的初始 seed。请检查日期和时间。",
+                                    "未找到数据", MessageBoxButtons.OK);
                 }
 
                 Settings.Default.YearIVR = year_ivrange.ToString();

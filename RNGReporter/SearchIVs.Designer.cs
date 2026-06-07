@@ -44,63 +44,64 @@
             this.label7 = new System.Windows.Forms.Label();
             this.buttonCancel = new RNGReporter.GlassButton();
             this.SuspendLayout();
-            // 
+            //
             // label1
-            // 
+            //
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 9);
+            this.label1.Location = new System.Drawing.Point(25, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(22, 13);
+            this.label1.Size = new System.Drawing.Size(17, 12);
             this.label1.TabIndex = 0;
-            this.label1.Text = "HP";
-            // 
+            this.label1.Text = "觉醒力量";
+            //
             // label2
-            // 
+            //
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(73, 9);
+            this.label2.Location = new System.Drawing.Point(73, 8);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 13);
+            this.label2.Size = new System.Drawing.Size(29, 12);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Attack";
-            // 
+            this.label2.Text = "攻击";
+            //
             // label3
-            // 
+            //
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(124, 9);
+            this.label3.Location = new System.Drawing.Point(124, 8);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 13);
+            this.label3.Size = new System.Drawing.Size(29, 12);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Defense";
-            // 
+            this.label3.Text = "防御";
+            //
             // label4
-            // 
+            //
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(182, 9);
+            this.label4.Location = new System.Drawing.Point(182, 8);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(39, 13);
+            this.label4.Size = new System.Drawing.Size(29, 12);
             this.label4.TabIndex = 3;
-            this.label4.Text = "SpAttk";
-            // 
+            this.label4.Text = "特攻";
+            //
             // label5
-            // 
+            //
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(237, 9);
+            this.label5.Location = new System.Drawing.Point(237, 8);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(37, 13);
+            this.label5.Size = new System.Drawing.Size(29, 12);
             this.label5.TabIndex = 4;
-            this.label5.Text = "SpDef";
-            // 
+            this.label5.Text = "特防";
+            //
             // label6
-            // 
+            //
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(291, 9);
+            this.label6.Location = new System.Drawing.Point(291, 8);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 13);
+            this.label6.Size = new System.Drawing.Size(29, 12);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Speed";
-            // 
+            this.label6.Text = "速度";
+            //
             // comboBoxHP
-            // 
+            //
+            this.comboBoxHP.ForeColor = System.Drawing.Color.Black;
             this.comboBoxHP.FormattingEnabled = true;
             this.comboBoxHP.Items.AddRange(new object[] {
             "0",
@@ -135,13 +136,16 @@
             "29",
             "30",
             "31"});
-            this.comboBoxHP.Location = new System.Drawing.Point(12, 25);
+            this.comboBoxHP.Location = new System.Drawing.Point(12, 23);
+            this.comboBoxHP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxHP.Name = "comboBoxHP";
-            this.comboBoxHP.Size = new System.Drawing.Size(49, 21);
+            this.comboBoxHP.ShineColor = System.Drawing.SystemColors.Window;
+            this.comboBoxHP.Size = new System.Drawing.Size(49, 20);
             this.comboBoxHP.TabIndex = 6;
-            // 
+            //
             // comboBoxAtk
-            // 
+            //
+            this.comboBoxAtk.ForeColor = System.Drawing.Color.Black;
             this.comboBoxAtk.FormattingEnabled = true;
             this.comboBoxAtk.Items.AddRange(new object[] {
             "0",
@@ -176,13 +180,16 @@
             "29",
             "30",
             "31"});
-            this.comboBoxAtk.Location = new System.Drawing.Point(67, 25);
+            this.comboBoxAtk.Location = new System.Drawing.Point(67, 23);
+            this.comboBoxAtk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxAtk.Name = "comboBoxAtk";
-            this.comboBoxAtk.Size = new System.Drawing.Size(49, 21);
+            this.comboBoxAtk.ShineColor = System.Drawing.SystemColors.Window;
+            this.comboBoxAtk.Size = new System.Drawing.Size(49, 20);
             this.comboBoxAtk.TabIndex = 7;
-            // 
+            //
             // comboBoxDef
-            // 
+            //
+            this.comboBoxDef.ForeColor = System.Drawing.Color.Black;
             this.comboBoxDef.FormattingEnabled = true;
             this.comboBoxDef.Items.AddRange(new object[] {
             "0",
@@ -217,13 +224,16 @@
             "29",
             "30",
             "31"});
-            this.comboBoxDef.Location = new System.Drawing.Point(122, 25);
+            this.comboBoxDef.Location = new System.Drawing.Point(122, 23);
+            this.comboBoxDef.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxDef.Name = "comboBoxDef";
-            this.comboBoxDef.Size = new System.Drawing.Size(49, 21);
+            this.comboBoxDef.ShineColor = System.Drawing.SystemColors.Window;
+            this.comboBoxDef.Size = new System.Drawing.Size(49, 20);
             this.comboBoxDef.TabIndex = 8;
-            // 
+            //
             // comboBoxSpAtk
-            // 
+            //
+            this.comboBoxSpAtk.ForeColor = System.Drawing.Color.Black;
             this.comboBoxSpAtk.FormattingEnabled = true;
             this.comboBoxSpAtk.Items.AddRange(new object[] {
             "0",
@@ -258,13 +268,16 @@
             "29",
             "30",
             "31"});
-            this.comboBoxSpAtk.Location = new System.Drawing.Point(177, 25);
+            this.comboBoxSpAtk.Location = new System.Drawing.Point(177, 23);
+            this.comboBoxSpAtk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxSpAtk.Name = "comboBoxSpAtk";
-            this.comboBoxSpAtk.Size = new System.Drawing.Size(49, 21);
+            this.comboBoxSpAtk.ShineColor = System.Drawing.SystemColors.Window;
+            this.comboBoxSpAtk.Size = new System.Drawing.Size(49, 20);
             this.comboBoxSpAtk.TabIndex = 9;
-            // 
+            //
             // comboBoxSpDef
-            // 
+            //
+            this.comboBoxSpDef.ForeColor = System.Drawing.Color.Black;
             this.comboBoxSpDef.FormattingEnabled = true;
             this.comboBoxSpDef.Items.AddRange(new object[] {
             "0",
@@ -299,13 +312,16 @@
             "29",
             "30",
             "31"});
-            this.comboBoxSpDef.Location = new System.Drawing.Point(232, 25);
+            this.comboBoxSpDef.Location = new System.Drawing.Point(232, 23);
+            this.comboBoxSpDef.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxSpDef.Name = "comboBoxSpDef";
-            this.comboBoxSpDef.Size = new System.Drawing.Size(49, 21);
+            this.comboBoxSpDef.ShineColor = System.Drawing.SystemColors.Window;
+            this.comboBoxSpDef.Size = new System.Drawing.Size(49, 20);
             this.comboBoxSpDef.TabIndex = 10;
-            // 
+            //
             // comboBoxSpeed
-            // 
+            //
+            this.comboBoxSpeed.ForeColor = System.Drawing.Color.Black;
             this.comboBoxSpeed.FormattingEnabled = true;
             this.comboBoxSpeed.Items.AddRange(new object[] {
             "0",
@@ -340,54 +356,58 @@
             "29",
             "30",
             "31"});
-            this.comboBoxSpeed.Location = new System.Drawing.Point(287, 25);
+            this.comboBoxSpeed.Location = new System.Drawing.Point(287, 23);
+            this.comboBoxSpeed.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxSpeed.Name = "comboBoxSpeed";
-            this.comboBoxSpeed.Size = new System.Drawing.Size(49, 21);
+            this.comboBoxSpeed.ShineColor = System.Drawing.SystemColors.Window;
+            this.comboBoxSpeed.Size = new System.Drawing.Size(49, 20);
             this.comboBoxSpeed.TabIndex = 11;
-            // 
+            //
             // buttonOK
-            // 
+            //
+            this.buttonOK.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonOK.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.buttonOK.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.buttonOK.FlatAppearance.BorderSize = 2;
-            this.buttonOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonOK.Location = new System.Drawing.Point(96, 96);
+            this.buttonOK.ForeColor = System.Drawing.Color.Black;
+            this.buttonOK.Location = new System.Drawing.Point(96, 89);
+            this.buttonOK.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonOK.Name = "buttonOK";
-            this.buttonOK.Size = new System.Drawing.Size(75, 23);
+            this.buttonOK.OuterBorderColor = System.Drawing.Color.Transparent;
+            this.buttonOK.ShineColor = System.Drawing.SystemColors.Window;
+            this.buttonOK.Size = new System.Drawing.Size(75, 22);
             this.buttonOK.TabIndex = 12;
-            this.buttonOK.Text = "OK";
-            this.buttonOK.UseVisualStyleBackColor = true;
+            this.buttonOK.Text = "确认";
             this.buttonOK.Click += new System.EventHandler(this.buttonOK_Click);
-            // 
+            //
             // label7
-            // 
+            //
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(13, 53);
+            this.label7.Location = new System.Drawing.Point(13, 49);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(239, 26);
+            this.label7.Size = new System.Drawing.Size(275, 12);
             this.label7.TabIndex = 13;
-            this.label7.Text = "Enter the IVs of the Pokémon caught immediately\r\nafter turning on the C-Gear.";
-            // 
+            this.label7.Text = "输入在开启Ｃ装置之后立即捕捉到的宝可梦的个体值";
+            //
             // buttonCancel
-            // 
+            //
+            this.buttonCancel.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonCancel.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.buttonCancel.FlatAppearance.BorderSize = 2;
-            this.buttonCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCancel.Location = new System.Drawing.Point(177, 96);
+            this.buttonCancel.ForeColor = System.Drawing.Color.Black;
+            this.buttonCancel.Location = new System.Drawing.Point(177, 89);
+            this.buttonCancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(75, 23);
+            this.buttonCancel.OuterBorderColor = System.Drawing.Color.Transparent;
+            this.buttonCancel.ShineColor = System.Drawing.SystemColors.Window;
+            this.buttonCancel.Size = new System.Drawing.Size(75, 22);
             this.buttonCancel.TabIndex = 14;
-            this.buttonCancel.Text = "Cancel";
-            this.buttonCancel.UseVisualStyleBackColor = true;
-            // 
+            this.buttonCancel.Text = "取消";
+            //
             // SearchIVs
-            // 
+            //
             this.AcceptButton = this.buttonOK;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.buttonCancel;
-            this.ClientSize = new System.Drawing.Size(345, 131);
+            this.ClientSize = new System.Drawing.Size(337, 109);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.buttonOK);
@@ -403,14 +423,15 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(353, 158);
-            this.MinimumSize = new System.Drawing.Size(353, 158);
+            this.MaximumSize = new System.Drawing.Size(353, 148);
+            this.MinimumSize = new System.Drawing.Size(353, 148);
             this.Name = "SearchIVs";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
-            this.Text = "Search IVs";
+            this.Text = "计算个体值";
             this.ResumeLayout(false);
             this.PerformLayout();
 

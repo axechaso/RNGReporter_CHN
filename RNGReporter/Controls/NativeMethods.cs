@@ -1,4 +1,4 @@
-/*
+﻿/*
  * This file is part of RNG Reporter
  * Copyright (C) 2012 by Bill Young, Mike Suleski, and Andrew Ringer
  *
@@ -54,7 +54,7 @@ namespace RNGReporter.Objects
 
         internal static int HIWORD(IntPtr n)
         {
-            return HIWORD(unchecked((int) (long) n));
+            return HIWORD(unchecked((int)(long)n));
         }
 
         internal static int LOWORD(int n)
@@ -64,7 +64,7 @@ namespace RNGReporter.Objects
 
         internal static int LOWORD(IntPtr n)
         {
-            return LOWORD(unchecked((int) (long) n));
+            return LOWORD(unchecked((int)(long)n));
         }
 
         #region Nested type: MINMAXINFO

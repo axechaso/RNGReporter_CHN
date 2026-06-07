@@ -8,6 +8,8 @@
 
 **Tech Stack:** Windows PowerShell, Git, Python 3, C# WinForms, `.resx` XML resources, .NET Framework 4.8 target project.
 
+**Terminology Source:** Pokemon-specific names must follow 52Poke / 神奇宝贝百科. Keep RNG tool terms such as `Seed`, `Frame`, `Delay`, `PID`, `SID`, `TID`, and `IV` in the established RNG community style unless 52Poke provides a clearly relevant in-game name.
+
 ---
 
 ## File Structure
@@ -124,7 +126,7 @@ MANUAL_TRANSLATIONS = {
     "Possible Results:": "可能结果:",
     "Clear": "清除",
     "Remove": "移除",
-    "C-Gear Calibrator": "C-Gear 校准器",
+    "C-Gear Calibrator": "Ｃ装置校准器",
     "Target Seed": "目标 Seed",
     "Target Delay": "目标 Delay",
     "IV Frame": "IV 帧",
@@ -166,7 +168,7 @@ MANUAL_TRANSLATIONS = {
     "Encounter Type": "遭遇类型",
     "Encounter Slot": "遭遇槽",
     "Synchronized": "同步",
-    "C-Gear Seed": "C-Gear Seed",
+    "C-Gear Seed": "Ｃ装置 Seed",
     "Delay": "Delay",
 }
 
@@ -510,7 +512,7 @@ High -> 高
 Use:
 
 ```text
-C-Gear Calibrator -> C-Gear 校准器
+C-Gear Calibrator -> Ｃ装置校准器
 Target Seed -> 目标 Seed
 Target Delay -> 目标 Delay
 IV Frame -> IV 帧
@@ -536,7 +538,7 @@ Party 4 -> 队伍 4
 Party 5 -> 队伍 5
 Party 6 -> 队伍 6
 Min / Max Advances -> 最小 / 最大推进
-1. Use Honey / Sweet Scent at the frame indicated, then defeat the wild Pokémon. -> 1. 在指定帧使用甜甜香气/蜂蜜，然后击败野生宝可梦。
+1. Use Honey / Sweet Scent at the frame indicated, then defeat the wild Pokémon. -> 1. 在指定帧使用甜甜蜜/甜甜香气，然后击败野生宝可梦。
 Celestial Tower rooftop is recommended since it also has no NPCs. -> 推荐天堂之塔塔顶，因为那里也没有 NPC。
 2. An "Active Roamer" (BW only) affects the initial frame. -> 2. 活动游走宝可梦（仅 BW）会影响初始帧。
 3. Shiny Charm / Memory Link (BW2 only) affect the frame hit and should be accounted for. -> 3. 闪耀护符/回忆链接（仅 BW2）会影响命中帧，需要计入。

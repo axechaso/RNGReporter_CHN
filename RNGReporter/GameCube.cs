@@ -13,8 +13,8 @@ namespace RNGReporter
 {
     public partial class GameCube : Form
     {
-        private readonly String[] Natures = { "Hardy", "Lonely", "Brave", "Adamant", "Naughty", "Bold", "Docile", "Relaxed", "Impish", "Lax", "Timid", "Hasty", "Serious", "Jolly", "Naive", "Modest", "Mild", "Quiet", "Bashful", "Rash", "Calm", "Gentle", "Sassy", "Careful", "Quirky" };
-        private readonly String[] hiddenPowers = { "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass", "Electric", "Psychic", "Ice", "Dragon", "Dark" };
+        private readonly String[] Natures = { "勤奋", "怕寂寞", "勇敢", "固执", "顽皮", "大胆", "坦率", "悠闲", "淘气", "乐天", "胆小", "急躁", "认真", "爽朗", "天真", "内敛", "慢吞吞", "冷静", "害羞", "马虎", "温和", "温顺", "自大", "慎重", "浮躁" };
+        private readonly String[] hiddenPowers = { "格斗", "飞行", "毒", "地面", "岩石", "虫", "幽灵", "钢", "火", "水", "草", "电", "超能", "冰", "龙", "恶" };
         private Thread[] searchThread;
         private BindingSource binding, bindingShadow;
         private List<DisplayList> displayList;
@@ -102,7 +102,7 @@ namespace RNGReporter
             {
                 for (int x = 0; x < searchThread.Length; x++)
                     searchThread[x].Abort();
-                status.Text = "Cancelled. - Awaiting Command";
+                status.Text = "取消了 -等待操作...";
             }
             Hide();
         }
@@ -113,7 +113,7 @@ namespace RNGReporter
         {
             if (isSearching)
             {
-                status.Text = "Previous search is still running";
+                status.Text = "上一个计算仍在运行";
                 return;
             }
 
@@ -121,26 +121,26 @@ namespace RNGReporter
             shinyLock = false;
 
             if (ivsLower[0] > ivsUpper[0])
-                MessageBox.Show("HP: Lower limit > Upper limit");
+                MessageBox.Show("HP：下限 > 上限");
             else if (ivsLower[1] > ivsUpper[1])
-                MessageBox.Show("Atk: Lower limit > Upper limit");
+                MessageBox.Show("攻击：下限 > 上限");
             else if (ivsLower[2] > ivsUpper[2])
-                MessageBox.Show("Def: Lower limit > Upper limit");
+                MessageBox.Show("防御：下限 > 上限");
             else if (ivsLower[3] > ivsUpper[3])
-                MessageBox.Show("SpA: Lower limit > Upper limit");
+                MessageBox.Show("特攻：下限 > 上限");
             else if (ivsLower[4] > ivsUpper[4])
-                MessageBox.Show("SpD: Lower limit > Upper limit");
+                MessageBox.Show("特防：下限 > 上限");
             else if (ivsLower[5] > ivsUpper[5])
-                MessageBox.Show("Spe: Lower limit > Upper limit");
+                MessageBox.Show("速度：下限 > 上限");
             else
             {
                 natureList = null;
-                if (comboBoxNature.Text != "Any" && comboBoxNature.CheckBoxItems.Count > 0)
+                if (comboBoxNature.Text != "任意" && comboBoxNature.CheckBoxItems.Count > 0)
                     natureList = (from t in comboBoxNature.CheckBoxItems where t.Checked select (uint)((Nature)t.ComboBoxItem).Number).ToList();
 
                 hiddenPowerList = null;
                 List<uint> temp = new List<uint>();
-                if (comboBoxHiddenPower.Text != "Any" && comboBoxHiddenPower.CheckBoxItems.Count > 0)
+                if (comboBoxHiddenPower.Text != "任意" && comboBoxHiddenPower.CheckBoxItems.Count > 0)
                     for (int x = 1; x <= 16; x++)
                         if (comboBoxHiddenPower.CheckBoxItems[x].Checked)
                             temp.Add((uint)(x - 1));
@@ -153,7 +153,7 @@ namespace RNGReporter
 
                 displayList.Clear();
                 binding.ResetBindings(false);
-                status.Text = "Searching";
+                status.Text = "计算中";
                 isSearching = true;
                 try
                 {
@@ -230,7 +230,7 @@ namespace RNGReporter
                                     checkSeedGales(a, b, c, d, e, f);
             isSearching = false;
             Invoke(new Action(() => { binding.ResetBindings(false); }));
-            status.Invoke((MethodInvoker)(() => status.Text = "Done. - Awaiting Command"));
+            status.Invoke((MethodInvoker)(() => status.Text = "完成了 -等待操作..."));
         }
 
         private void checkSeedGales(uint hp, uint atk, uint def, uint spa, uint spd, uint spe)
@@ -520,7 +520,7 @@ namespace RNGReporter
             {
                 if (!isShiny(pid, 0))
                     return;
-                shiny = "!!!";
+                shiny = "异色";
             }
 
             uint actualHP = calcHP(hp, atk, def, spa, spd, spe);
@@ -598,7 +598,7 @@ namespace RNGReporter
                                     checkSeedColo(a, b, c, d, e, f);
             isSearching = false;
             Invoke(new Action(() => { binding.ResetBindings(false); }));
-            status.Invoke((MethodInvoker)(() => status.Text = "Done. - Awaiting Command"));
+            status.Invoke((MethodInvoker)(() => status.Text = "完成了 -等待操作..."));
         }
 
         private void checkSeedColo(uint hp, uint atk, uint def, uint spa, uint spd, uint spe)
@@ -648,7 +648,7 @@ namespace RNGReporter
             {
                 if (!isShiny(pid, 0))
                     return;
-                shiny = "!!!";
+                shiny = "异色";
             }
 
             uint actualHP = calcHP(hp, atk, def, spa, spd, spe);
@@ -722,7 +722,7 @@ namespace RNGReporter
 
             isSearching = false;
             Invoke(new Action(() => { binding.ResetBindings(false); }));
-            status.Invoke((MethodInvoker)(() => status.Text = "Done. - Awaiting Command"));
+            status.Invoke((MethodInvoker)(() => status.Text = "完成了 -等待操作..."));
         }
 
         private void checkSeed(uint hp, uint atk, uint def, uint spa, uint spd, uint spe)
@@ -765,7 +765,7 @@ namespace RNGReporter
             {
                 if (!isShiny(pid, 0))
                     return;
-                shiny = "!!!";
+                shiny = "异色";
             }
 
             uint actualHP = calcHP(hp, atk, def, spa, spd, spe);
@@ -917,7 +917,7 @@ namespace RNGReporter
 
             isSearching = false;
             Invoke(new Action(() => { binding.ResetBindings(false); }));
-            status.Invoke((MethodInvoker)(() => status.Text = "Done. - Awaiting Command"));
+            status.Invoke((MethodInvoker)(() => status.Text = "完成了 -等待操作..."));
         }
 
         private void checkSeedChannel(uint hp, uint atk, uint def, uint spa, uint spd, uint spe)
@@ -1043,7 +1043,7 @@ namespace RNGReporter
             }
             isSearching = false;
             Invoke(new Action(() => { binding.ResetBindings(false); }));
-            status.Invoke((MethodInvoker)(() => status.Text = "Done. - Awaiting Command"));
+            status.Invoke((MethodInvoker)(() => status.Text = "完成了 -等待操作..."));
         }
 
         private uint[] createIVsChannel(uint[] iv)
@@ -1061,7 +1061,7 @@ namespace RNGReporter
             {
                 if (!isShiny(pid, shinyIndex))
                     return;
-                shiny = "!!!";
+                shiny = "异色";
             }
 
             uint actualHP = calcHP(hp, atk, def, spa, spd, spe);
@@ -1136,7 +1136,7 @@ namespace RNGReporter
 
             isSearching = false;
             Invoke(new Action(() => { binding.ResetBindings(false); }));
-            status.Invoke((MethodInvoker)(() => status.Text = "Done. - Awaiting Command"));
+            status.Invoke((MethodInvoker)(() => status.Text = "完成了 -等待操作..."));
         }
 
         private void checkSeedR(uint hp, uint atk, uint def, uint spa, uint spd, uint spe)
@@ -1200,7 +1200,7 @@ namespace RNGReporter
             }
             isSearching = false;
             Invoke(new Action(() => { binding.ResetBindings(false); }));
-            status.Invoke((MethodInvoker)(() => status.Text = "Done. - Awaiting Command"));
+            status.Invoke((MethodInvoker)(() => status.Text = "完成了 -等待操作..."));
         }
         #endregion
 
@@ -1210,7 +1210,7 @@ namespace RNGReporter
             {
                 Seed = seed.ToString("X"),
                 PID = pid.ToString("X"),
-                Shiny = !shinyLock ? shiny == "" ? isShiny(pid, shinyIndex) ? "!!!" : "" : shiny : shiny,
+                Shiny = !shinyLock ? shiny == "" ? isShiny(pid, shinyIndex) ? "异色" : "" : shiny : shiny,
                 Nature = Natures[nature],
                 Ability = ability,
                 Hp = hp,
@@ -1236,32 +1236,32 @@ namespace RNGReporter
         {
             getIVsShadow(out ivsLower, out ivsUpper);
             if (ivsLower[0] > ivsUpper[0])
-                MessageBox.Show("HP: Lower limit > Upper limit");
+                MessageBox.Show("HP：下限 > 上限");
             else if (ivsLower[1] > ivsUpper[1])
-                MessageBox.Show("Atk: Lower limit > Upper limit");
+                MessageBox.Show("攻击：下限 > 上限");
             else if (ivsLower[2] > ivsUpper[2])
-                MessageBox.Show("Def: Lower limit > Upper limit");
+                MessageBox.Show("防御：下限 > 上限");
             else if (ivsLower[3] > ivsUpper[3])
-                MessageBox.Show("SpA: Lower limit > Upper limit");
+                MessageBox.Show("特攻：下限 > 上限");
             else if (ivsLower[4] > ivsUpper[4])
-                MessageBox.Show("SpD: Lower limit > Upper limit");
+                MessageBox.Show("特防：下限 > 上限");
             else if (ivsLower[5] > ivsUpper[5])
-                MessageBox.Show("Spe: Lower limit > Upper limit");
+                MessageBox.Show("速度：下限 > 上限");
             else
             {
                 if (isSearching)
                 {
-                    status.Text = "Previous search is still running";
+                    status.Text = "上一个计算仍在运行";
                     return;
                 }
 
                 natureList = null;
-                if (checkBoxNatureShadow.Text != "Any" && checkBoxNatureShadow.CheckBoxItems.Count > 0)
+                if (checkBoxNatureShadow.Text != "任意" && checkBoxNatureShadow.CheckBoxItems.Count > 0)
                     natureList = (from t in checkBoxNatureShadow.CheckBoxItems where t.Checked select (uint)((Nature)t.ComboBoxItem).Number).ToList();
 
                 hiddenPowerList = null;
                 List<uint> temp = new List<uint>();
-                if (checkBoxHPShadow.Text != "Any" && checkBoxHPShadow.CheckBoxItems.Count > 0)
+                if (checkBoxHPShadow.Text != "任意" && checkBoxHPShadow.CheckBoxItems.Count > 0)
                     for (int x = 1; x <= 16; x++)
                         if (checkBoxHPShadow.CheckBoxItems[x].Checked)
                             temp.Add((uint)(x - 1));
@@ -1284,7 +1284,7 @@ namespace RNGReporter
                 shadowDisplay.Clear();
                 bindingShadow.ResetBindings(false);
                 isSearching = true;
-                status.Text = "Searching";
+                status.Text = "计算中";
 
                 searchThread = new Thread[1];
                 searchThread[0] = new Thread(() => shadowSearch(initialFrame, maxFrame, seed, shadowMethod));
@@ -1414,7 +1414,7 @@ namespace RNGReporter
             natureLock.rand.Clear();
             isSearching = false;
             Invoke(new Action(() => { bindingShadow.ResetBindings(false); }));
-            status.Invoke((MethodInvoker)(() => status.Text = "Done. - Awaiting Command"));
+            status.Invoke((MethodInvoker)(() => status.Text = "完成了 -等待操作..."));
         }
 
         public void filterSeedShadow(uint hp, uint atk, uint def, uint spa, uint spd, uint spe, int frame, uint nature, uint pid)
@@ -1795,7 +1795,7 @@ namespace RNGReporter
             if (isSearching)
             {
                 isSearching = false;
-                status.Text = "Cancelled. - Awaiting Command";
+                status.Text = "取消了 -等待操作...";
                 for (int x = 0; x < searchThread.Length; x++)
                     searchThread[x].Abort();
                 natureLock.rand.Clear();
@@ -1993,22 +1993,22 @@ namespace RNGReporter
         {
             return new String[]
             {
-                "Fighting",
-                "Flying",
-                "Poison",
-                "Ground",
-                "Rock",
-                "Bug",
-                "Ghost",
-                "Steel",
-                "Fire",
-                "Water",
-                "Grass",
-                "Electric",
-                "Psychic",
-                "Ice",
-                "Dragon",
-                "Dark"
+                "格斗",
+                "飞行",
+                "毒",
+                "地面",
+                "岩石",
+                "虫",
+                "幽灵",
+                "钢",
+                "火",
+                "水",
+                "草",
+                "电",
+                "超能",
+                "冰",
+                "龙",
+                "恶"
             };
         }
 
@@ -2016,102 +2016,102 @@ namespace RNGReporter
         {
             return new String[]
             {
-                "Altaria",
-                "Arbok",
-                "Articuno",
-                "Baltoy (Citadark)",
-                "Baltoy (Initial)",
-                "Baltoy (Phenac)",
-                "Banette",
-                "Beedrill",
-                "Butterfree",
-                "Carvanha",
-                "Chansey",
-                "Delcatty",
-                "Dodrio",
-                "Dragonite",
-                "Dugtrio",
-                "Duskull",
-                "Electabuzz",
-                "Eevee",
-                "Exeggutor",
-                "Farfetch'd",
-                "Golduck",
-                "Grimer",
-                "Growlithe",
-                "Gulpin (Citadark)",
-                "Gulpin (Initial)",
-                "Gulpin (Phenac)",
-                "Hitmonchan",
-                "Hitmonlee",
-                "Houndour (Citadark)",
-                "Houndour (Initial)",
-                "Houndour (Phenac)",
-                "Hypno",
-                "Kangaskhan",
-                "Lapras",
-                "Ledyba",
-                "Lickitung",
-                "Lugia",
-                "Lunatone",
-                "Magcargo",
-                "Magmar",
-                "Magneton",
-                "Makuhita",
-                "Manectric",
-                "Mareep (Citadark)",
-                "Mareep (Initial)",
-                "Mareep (Phenac)",
-                "Marowak",
-                "Mawile",
-                "Meowth",
-                "Moltres",
-                "Mr. Mime",
-                "Natu",
-                "Nosepass",
-                "Numel",
-                "Paras",
-                "Pidgeotto",
-                "Pineco",
-                "Pinsir",
-                "Poliwrath",
-                "Poochyena",
-                "Primeape",
-                "Ralts",
-                "Rapidash",
-                "Raticate",
-                "Rhydon",
-                "Roselia",
-                "Sableye",
-                "Salamence",
-                "Scyther",
-                "Seedot (Citadark)",
-                "Seedot (Initial)",
-                "Seedot (Phenac)",
-                "Seel",
-                "Shellder",
-                "Shroomish",
-                "Snorlax",
-                "Snorunt",
-                "Solrock",
-                "Spearow",
-                "Spheal (Citadark)",
-                "Spheal (Initial)",
-                "Spheal (Phenac)",
-                "Spinarak",
-                "Starmie",
-                "Swellow",
-                "Swinub",
-                "Tangela",
-                "Tauros",
-                "Teddiursa",
-                "Togepi",
-                "Venomoth",
-                "Voltorb",
-                "Vulpix",
-                "Weepinbell",
-                "Zangoose",
-                "Zapdos"
+                "七夕青鸟",
+                "阿柏怪",
+                "急冻鸟",
+                "天秤偶（镍暗岛）",
+                "天秤偶（初始的）",
+                "天秤偶（矽铍市）",
+                "诅咒娃娃",
+                "大针蜂",
+                "巴大蝶",
+                "利牙鱼",
+                "吉利蛋",
+                "优雅猫",
+                "嘟嘟利",
+                "快龙",
+                "三地鼠",
+                "夜巡灵",
+                "电击兽",
+                "伊布",
+                "椰蛋树",
+                "大葱鸭",
+                "哥达鸭",
+                "臭泥",
+                "卡蒂狗",
+                "溶食兽（镍暗岛）",
+                "溶食兽（初始的）",
+                "溶食兽（矽铍市）",
+                "快拳郎",
+                "飞腿郎",
+                "戴鲁比（镍暗岛）",
+                "戴鲁比（初始的）",
+                "戴鲁比（矽铍市）",
+                "引梦貘人",
+                "袋兽",
+                "拉普拉斯",
+                "芭瓢虫",
+                "大舌头",
+                "洛奇亚",
+                "月石",
+                "熔岩蜗牛",
+                "鸭嘴火兽",
+                "三合一磁怪",
+                "幕下力士",
+                "雷电兽",
+                "咩利羊（镍暗岛）",
+                "咩利羊（初始的）",
+                "咩利羊（矽铍市）",
+                "嘎啦嘎啦",
+                "大嘴娃",
+                "喵喵",
+                "火焰鸟",
+                "魔墙人偶",
+                "天然雀",
+                "朝北鼻",
+                "呆火驼",
+                "派拉斯",
+                "比比鸟",
+                "榛果球",
+                "凯罗斯",
+                "蚊香泳士",
+                "土狼犬",
+                "火暴猴",
+                "拉鲁拉丝",
+                "烈焰马",
+                "拉达",
+                "钻角犀兽",
+                "毒蔷薇",
+                "勾魂眼",
+                "暴飞龙",
+                "飞天螳螂",
+                "橡实果（镍暗岛）",
+                "橡实果（初始的）",
+                "橡实果（矽铍市）",
+                "小海狮",
+                "大舌贝",
+                "蘑蘑菇",
+                "卡比兽",
+                "雪童子",
+                "太阳岩",
+                "烈雀",
+                "海豹球（镍暗岛）",
+                "海豹球（初始的）",
+                "海豹球（矽铍市）",
+                "圆丝蛛",
+                "宝石海星",
+                "大王燕",
+                "小山猪",
+                "蔓藤怪",
+                "肯泰罗",
+                "熊宝宝",
+                "波克比",
+                "摩鲁蛾",
+                "霹雳电球",
+                "六尾",
+                "口呆花",
+                "猫鼬斩",
+                "闪电鸟"
             };
         }
 
@@ -2129,11 +2129,11 @@ namespace RNGReporter
         {
             return new String[]
             {
-                "Gligar",
-                "Heracross",
-                "Makuhita",
-                "Murkrow",
-                "Ursaring"
+                "天蝎",
+                "赫拉克罗斯",
+                "幕下力士",
+                "黑暗鸦",
+                "圈圈熊"
             };
         }
 
@@ -2269,7 +2269,7 @@ namespace RNGReporter
         private void outputResultsToTXTToolStripMenuItem_Click(object sender, EventArgs e)
         {
             StreamWriter file = new System.IO.StreamWriter("rngreporter.txt");
-            String result = "Seed\t\t" + "PID\t\t" + "Shiny\t" + "Nature\t" + "Ability\t" + "HP\t" + "Atk\t" + "Def\t" + "SpA\t" + "SpD\t" + "Spe\t" + "Hidden\t\t" + "Power\t" + "12.5%F\t" + "25%F\t" + "50%\t" + "75%\t" + "Reason\t\n";
+            String result = "Seed\t\t" + "PID\t\t" + "异色\t" + "性格\t" + "特性\t" + "HP\t" + "攻击\t" + "防御\t" + "通过\t" + "特防\t" + "速度\t" + "Hidden\t\t" + "Power\t" + "12.5%F\t" + "25%F\t" + "50%\t" + "75%\t" + "Reason\t\n";
             file.WriteLine(result);
             for (int x = 0; x < displayList.Count; x++)
             {
@@ -2286,7 +2286,7 @@ namespace RNGReporter
                 file.WriteLine(temp);
             }
             file.Close();
-            MessageBox.Show("Results exported to folder with RNGReporter.exe");
+            MessageBox.Show("计算结果导出到带有RNGReporter.exe的文件夹");
         }
 
         private void dataGridViewResult_ColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)

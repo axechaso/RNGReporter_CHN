@@ -49,8 +49,8 @@ namespace RNGReporter
             this.seed = seed;
             this.offset = offset;
             this.year = year;
-            delay = (uint) ((seed & 0xFFFF) - (year - 2000));
-            hour = (int) (seed & 0xFF0000) >> 16;
+            delay = (uint)((seed & 0xFFFF) - (year - 2000));
+            hour = (int)(seed & 0xFF0000) >> 16;
             ab = seed >> 24;
         }
 
@@ -99,7 +99,7 @@ namespace RNGReporter
             dataGridViewValues.AutoGenerateColumns = false;
             dateTimePicker1.CustomFormat = "dd MMM yyyy";
 
-            //  Use what we were passed in to create some decent 
+            //  Use what we were passed in to create some decent
             //  default values for our dialog.
             listValidTimes(0, 0);
 
@@ -159,7 +159,7 @@ namespace RNGReporter
                         //  Loop through all seconds
                         for (int second = 0; second <= 59; second++)
                         {
-                            if (ab == ((month*day + minute + second)&0xFF))
+                            if (ab == ((month * day + minute + second) & 0xFF))
                             {
                                 //  Create Date/Time and add item to collection
                                 var timeAndDelay = new TimeAndDelay();
@@ -168,7 +168,7 @@ namespace RNGReporter
                                 var dateTime = new DateTime(year, month, day, hour, minute, second);
 
                                 timeAndDelay.Date = dateTime;
-                                timeAndDelay.Delay = (int) delay;
+                                timeAndDelay.Delay = (int)delay;
 
                                 //  Add to collection
                                 timeAndDelays.Add(timeAndDelay);
@@ -178,7 +178,7 @@ namespace RNGReporter
                 }
             }
 
-            //  Do our databind to the grid here so the user 
+            //  Do our databind to the grid here so the user
             //  can get the time listing.
             dataGridViewValues.DataSource = timeAndDelays;
         }
@@ -193,18 +193,18 @@ namespace RNGReporter
 
             returnMaxOffset = maskedTextBoxMaxOffset.Text != "" ? uint.Parse(maskedTextBoxMaxOffset.Text) : offset;
 
-            if (delay > (uint) numericUpDownDelay.Value)
-                returnMinDelay = delay - (uint) numericUpDownDelay.Value;
+            if (delay > (uint)numericUpDownDelay.Value)
+                returnMinDelay = delay - (uint)numericUpDownDelay.Value;
             else
                 returnMinDelay = 0;
 
-            returnMaxDelay = delay + (uint) numericUpDownDelay.Value;
+            returnMaxDelay = delay + (uint)numericUpDownDelay.Value;
 
-            DateTime selected = ((TimeAndDelay) dataGridViewValues.SelectedRows[0].DataBoundItem).Date;
+            DateTime selected = ((TimeAndDelay)dataGridViewValues.SelectedRows[0].DataBoundItem).Date;
             adjacentTimeList = new List<DateTime>();
 
-            for (int seconds = -1*(int) numericUpDownSeconds.Value;
-                 seconds <= (int) numericUpDownSeconds.Value;
+            for (int seconds = -1 * (int)numericUpDownSeconds.Value;
+                 seconds <= (int)numericUpDownSeconds.Value;
                  seconds++)
             {
                 adjacentTimeList.Add(selected.AddSeconds(seconds));
@@ -214,7 +214,7 @@ namespace RNGReporter
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
             year = dateTimePicker1.Value.Date.Year;
-            delay = (uint) ((seed & 0xFFFF) - (year - 2000));
+            delay = (uint)((seed & 0xFFFF) - (year - 2000));
 
             listValidTimes(dateTimePicker1.Value.Date.Month, dateTimePicker1.Value.Date.Day);
         }

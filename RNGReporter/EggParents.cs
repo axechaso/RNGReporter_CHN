@@ -58,7 +58,7 @@ namespace RNGReporter
             if (frameType == FrameType.BWBred || frameType == FrameType.BWBredInternational)
             {
                 Text = "Display Parent IVs";
-                buttonRetrieveIVs.Text = "Get IVs from IVRNG (Frame 8)";
+                buttonRetrieveIVs.Text = "从 IVRNG 获取 IV（第 8 帧）";
             }
             else if (frameType == FrameType.DPPtBred ||
                      frameType == FrameType.HGSSBred ||
@@ -66,8 +66,8 @@ namespace RNGReporter
                      frameType == FrameType.BredSplit ||
                      frameType == FrameType.BredAlternate)
             {
-                labelParentA.Text = "Parent A";
-                labelParentB.Text = "Parent B";
+                labelParentA.Text = "父母A";
+                labelParentB.Text = "父母B";
 
                 labelParentA.Location = new Point(39, 40);
                 labelParentB.Location = new Point(39, 66);

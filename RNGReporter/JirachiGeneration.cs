@@ -1,4 +1,4 @@
-using RNGReporter.Objects;
+﻿using RNGReporter.Objects;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -28,7 +28,7 @@ namespace RNGReporter
         private void genListOut(uint seed)
         {
             String genlistout = calcProbable(seed);
-            
+
             String result = genlistout.Replace("|", " | ");
             generation.Add(new ProbableGeneration
             {

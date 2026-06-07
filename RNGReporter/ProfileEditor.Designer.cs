@@ -66,19 +66,19 @@
             this.label2 = new System.Windows.Forms.Label();
             this.labelLuckyPower = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
+            //
             // checkBoxSkipLR
-            // 
+            //
             this.checkBoxSkipLR.AutoSize = true;
             this.checkBoxSkipLR.Location = new System.Drawing.Point(534, 19);
             this.checkBoxSkipLR.Name = "checkBoxSkipLR";
             this.checkBoxSkipLR.Size = new System.Drawing.Size(108, 17);
             this.checkBoxSkipLR.TabIndex = 5;
-            this.checkBoxSkipLR.Text = "Skip L\\R Buttons";
+            this.checkBoxSkipLR.Text = "跳过含L\\R按键的搜索结果";
             this.checkBoxSkipLR.UseVisualStyleBackColor = true;
-            // 
+            //
             // btnParameters
-            // 
+            //
             this.btnParameters.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btnParameters.ForeColor = System.Drawing.Color.Black;
             this.btnParameters.Location = new System.Drawing.Point(366, 185);
@@ -87,12 +87,12 @@
             this.btnParameters.ShineColor = System.Drawing.SystemColors.Window;
             this.btnParameters.Size = new System.Drawing.Size(155, 23);
             this.btnParameters.TabIndex = 154;
-            this.btnParameters.Text = "Find DS Parameters";
+            this.btnParameters.Text = "校准计算DS参数";
             this.btnParameters.Click += new System.EventHandler(this.btnParameters_Click);
-            // 
+            //
             // comboBoxKeypresses
-            // 
-            this.comboBoxKeypresses.BlankText = "Any";
+            //
+            this.comboBoxKeypresses.BlankText = "任意";
             checkBoxProperties1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.comboBoxKeypresses.CheckBoxProperties = checkBoxProperties1;
             this.comboBoxKeypresses.DisplayMemberSingleItem = "";
@@ -100,7 +100,7 @@
             this.comboBoxKeypresses.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxKeypresses.FormattingEnabled = true;
             this.comboBoxKeypresses.Items.AddRange(new object[] {
-            "None",
+            "无",
             "1",
             "2",
             "3",
@@ -113,26 +113,26 @@
             this.comboBoxKeypresses.Size = new System.Drawing.Size(132, 21);
             this.comboBoxKeypresses.TabIndex = 9;
             this.comboBoxKeypresses.MouseClick += new System.Windows.Forms.MouseEventHandler(this.comboBoxKeypresses_MouseClick);
-            // 
+            //
             // label71
-            // 
+            //
             this.label71.AutoSize = true;
             this.label71.Location = new System.Drawing.Point(364, 120);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(49, 13);
             this.label71.TabIndex = 151;
-            this.label71.Text = "DS Type";
-            // 
+            this.label71.Text = "DS机型";
+            //
             // textBoxTimer0Max
-            // 
+            //
             this.textBoxTimer0Max.Location = new System.Drawing.Point(431, 64);
             this.textBoxTimer0Max.MaxLength = 6;
             this.textBoxTimer0Max.Name = "textBoxTimer0Max";
             this.textBoxTimer0Max.Size = new System.Drawing.Size(40, 20);
             this.textBoxTimer0Max.TabIndex = 7;
-            // 
+            //
             // comboBoxDSType
-            // 
+            //
             this.comboBoxDSType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxDSType.ForeColor = System.Drawing.Color.Black;
             this.comboBoxDSType.FormattingEnabled = true;
@@ -145,92 +145,92 @@
             this.comboBoxDSType.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxDSType.Size = new System.Drawing.Size(124, 21);
             this.comboBoxDSType.TabIndex = 11;
-            // 
+            //
             // label49
-            // 
+            //
             this.label49.AutoSize = true;
             this.label49.Location = new System.Drawing.Point(363, 48);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(59, 13);
             this.label49.TabIndex = 138;
-            this.label49.Text = "Timer0 Min";
+            this.label49.Text = "最小Timer0";
             this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // textBoxTimer0Min
-            // 
+            //
             this.textBoxTimer0Min.Location = new System.Drawing.Point(366, 64);
             this.textBoxTimer0Min.MaxLength = 6;
             this.textBoxTimer0Min.Name = "textBoxTimer0Min";
             this.textBoxTimer0Min.Size = new System.Drawing.Size(38, 20);
             this.textBoxTimer0Min.TabIndex = 6;
-            // 
+            //
             // label53
-            // 
+            //
             this.label53.AutoSize = true;
             this.label53.Location = new System.Drawing.Point(428, 48);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(62, 13);
             this.label53.TabIndex = 144;
-            this.label53.Text = "Timer0 Max";
+            this.label53.Text = "最大Timer0";
             this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label51
-            // 
+            //
             this.label51.AutoSize = true;
             this.label51.Location = new System.Drawing.Point(204, 47);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(61, 13);
             this.label51.TabIndex = 146;
-            this.label51.Text = "Keypresses";
+            this.label51.Text = "按键";
             this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label50
-            // 
+            //
             this.label50.AutoSize = true;
             this.label50.Location = new System.Drawing.Point(204, 120);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(42, 13);
             this.label50.TabIndex = 142;
-            this.label50.Text = "Version";
+            this.label50.Text = "游戏版本";
             this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // checkBoxSoftReset
-            // 
+            //
             this.checkBoxSoftReset.AutoSize = true;
             this.checkBoxSoftReset.Location = new System.Drawing.Point(534, 42);
             this.checkBoxSoftReset.Name = "checkBoxSoftReset";
             this.checkBoxSoftReset.Size = new System.Drawing.Size(76, 17);
             this.checkBoxSoftReset.TabIndex = 8;
-            this.checkBoxSoftReset.Text = "Soft Reset";
+            this.checkBoxSoftReset.Text = "软复位";
             this.checkBoxSoftReset.UseVisualStyleBackColor = true;
-            // 
+            //
             // comboBoxVersion
-            // 
+            //
             this.comboBoxVersion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxVersion.ForeColor = System.Drawing.Color.Black;
             this.comboBoxVersion.FormattingEnabled = true;
             this.comboBoxVersion.Items.AddRange(new object[] {
-            "Black",
-            "White",
-            "Black 2",
-            "White 2"});
+            "黑",
+            "白",
+            "黑2",
+            "白2"});
             this.comboBoxVersion.Location = new System.Drawing.Point(207, 135);
             this.comboBoxVersion.Name = "comboBoxVersion";
             this.comboBoxVersion.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxVersion.Size = new System.Drawing.Size(132, 21);
             this.comboBoxVersion.TabIndex = 10;
             this.comboBoxVersion.SelectedIndexChanged += new System.EventHandler(this.comboBoxVersion_SelectedIndexChanged);
-            // 
+            //
             // textBoxGxStat
-            // 
+            //
             this.textBoxGxStat.Location = new System.Drawing.Point(416, 25);
             this.textBoxGxStat.MaxLength = 6;
             this.textBoxGxStat.Name = "textBoxGxStat";
             this.textBoxGxStat.Size = new System.Drawing.Size(40, 20);
             this.textBoxGxStat.TabIndex = 3;
-            // 
+            //
             // label48
-            // 
+            //
             this.label48.AutoSize = true;
             this.label48.Location = new System.Drawing.Point(459, 10);
             this.label48.Name = "label48";
@@ -238,9 +238,9 @@
             this.label48.TabIndex = 139;
             this.label48.Text = "VFrame";
             this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label47
-            // 
+            //
             this.label47.AutoSize = true;
             this.label47.Location = new System.Drawing.Point(365, 8);
             this.label47.Name = "label47";
@@ -248,9 +248,9 @@
             this.label47.TabIndex = 137;
             this.label47.Text = "VCount";
             this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label46
-            // 
+            //
             this.label46.AutoSize = true;
             this.label46.Location = new System.Drawing.Point(413, 9);
             this.label46.Name = "label46";
@@ -258,78 +258,78 @@
             this.label46.TabIndex = 136;
             this.label46.Text = "GxStat";
             this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // textBoxVFrame
-            // 
+            //
             this.textBoxVFrame.Location = new System.Drawing.Point(462, 26);
             this.textBoxVFrame.MaxLength = 6;
             this.textBoxVFrame.Name = "textBoxVFrame";
             this.textBoxVFrame.Size = new System.Drawing.Size(40, 20);
             this.textBoxVFrame.TabIndex = 4;
-            // 
+            //
             // textBoxMAC
-            // 
+            //
             this.textBoxMAC.Location = new System.Drawing.Point(207, 24);
             this.textBoxMAC.MaxLength = 12;
             this.textBoxMAC.Name = "textBoxMAC";
             this.textBoxMAC.Size = new System.Drawing.Size(132, 20);
             this.textBoxMAC.TabIndex = 1;
-            // 
+            //
             // labelMACAddress
-            // 
+            //
             this.labelMACAddress.AutoSize = true;
             this.labelMACAddress.Location = new System.Drawing.Point(204, 9);
             this.labelMACAddress.Name = "labelMACAddress";
             this.labelMACAddress.Size = new System.Drawing.Size(89, 13);
             this.labelMACAddress.TabIndex = 130;
-            this.labelMACAddress.Text = "DS MAC Address";
+            this.labelMACAddress.Text = "DS MAC 地址";
             this.labelMACAddress.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // textBoxVCount
-            // 
+            //
             this.textBoxVCount.Location = new System.Drawing.Point(368, 24);
             this.textBoxVCount.MaxLength = 6;
             this.textBoxVCount.Name = "textBoxVCount";
             this.textBoxVCount.Size = new System.Drawing.Size(40, 20);
             this.textBoxVCount.TabIndex = 2;
-            // 
+            //
             // textBoxName
-            // 
+            //
             this.textBoxName.Location = new System.Drawing.Point(88, 24);
             this.textBoxName.MaxLength = 16;
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(113, 20);
             this.textBoxName.TabIndex = 126;
-            // 
+            //
             // label41
-            // 
+            //
             this.label41.AutoSize = true;
             this.label41.Location = new System.Drawing.Point(15, 27);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(67, 13);
             this.label41.TabIndex = 132;
-            this.label41.Text = "Profile Name";
-            // 
+            this.label41.Text = "存档名称";
+            //
             // label27
-            // 
+            //
             this.label27.AutoSize = true;
             this.label27.Location = new System.Drawing.Point(57, 79);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(25, 13);
             this.label27.TabIndex = 131;
             this.label27.Text = "SID";
-            // 
+            //
             // label31
-            // 
+            //
             this.label31.AutoSize = true;
             this.label31.Location = new System.Drawing.Point(64, 53);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(18, 13);
             this.label31.TabIndex = 130;
             this.label31.Text = "ID";
-            // 
+            //
             // maskedTextBoxSID
-            // 
+            //
             this.maskedTextBoxSID.Hex = false;
             this.maskedTextBoxSID.Location = new System.Drawing.Point(88, 76);
             this.maskedTextBoxSID.Mask = "00000";
@@ -337,9 +337,9 @@
             this.maskedTextBoxSID.Size = new System.Drawing.Size(60, 20);
             this.maskedTextBoxSID.TabIndex = 128;
             this.maskedTextBoxSID.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
+            //
             // maskedTextBoxID
-            // 
+            //
             this.maskedTextBoxID.Hex = false;
             this.maskedTextBoxID.Location = new System.Drawing.Point(88, 50);
             this.maskedTextBoxID.Mask = "00000";
@@ -347,9 +347,9 @@
             this.maskedTextBoxID.Size = new System.Drawing.Size(60, 20);
             this.maskedTextBoxID.TabIndex = 127;
             this.maskedTextBoxID.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
+            //
             // btnOK
-            // 
+            //
             this.btnOK.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btnOK.ForeColor = System.Drawing.Color.Black;
             this.btnOK.Location = new System.Drawing.Point(23, 185);
@@ -358,11 +358,11 @@
             this.btnOK.ShineColor = System.Drawing.SystemColors.Window;
             this.btnOK.Size = new System.Drawing.Size(155, 23);
             this.btnOK.TabIndex = 155;
-            this.btnOK.Text = "&OK";
+            this.btnOK.Text = "确认";
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
-            // 
+            //
             // btnCancel
-            // 
+            //
             this.btnCancel.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btnCancel.ForeColor = System.Drawing.Color.Black;
             this.btnCancel.Location = new System.Drawing.Point(184, 185);
@@ -371,31 +371,31 @@
             this.btnCancel.ShineColor = System.Drawing.SystemColors.Window;
             this.btnCancel.Size = new System.Drawing.Size(155, 23);
             this.btnCancel.TabIndex = 156;
-            this.btnCancel.Text = "&Cancel";
+            this.btnCancel.Text = "关闭";
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
+            //
             // checkBoxMemoryLink
-            // 
+            //
             this.checkBoxMemoryLink.AutoSize = true;
             this.checkBoxMemoryLink.Location = new System.Drawing.Point(534, 88);
             this.checkBoxMemoryLink.Name = "checkBoxMemoryLink";
             this.checkBoxMemoryLink.Size = new System.Drawing.Size(134, 17);
             this.checkBoxMemoryLink.TabIndex = 157;
-            this.checkBoxMemoryLink.Text = "Memory Link Activated";
+            this.checkBoxMemoryLink.Text = "记忆连接";
             this.checkBoxMemoryLink.UseVisualStyleBackColor = true;
-            // 
+            //
             // label1
-            // 
+            //
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(43, 119);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 159;
-            this.label1.Text = "Language";
+            this.label1.Text = "游戏语言";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // comboBoxLanguage
-            // 
+            //
             this.comboBoxLanguage.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxLanguage.ForeColor = System.Drawing.Color.Black;
             this.comboBoxLanguage.FormattingEnabled = true;
@@ -412,19 +412,19 @@
             this.comboBoxLanguage.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxLanguage.Size = new System.Drawing.Size(132, 21);
             this.comboBoxLanguage.TabIndex = 158;
-            // 
+            //
             // checkBoxShinyCharm
-            // 
+            //
             this.checkBoxShinyCharm.AutoSize = true;
             this.checkBoxShinyCharm.Location = new System.Drawing.Point(534, 65);
             this.checkBoxShinyCharm.Name = "checkBoxShinyCharm";
             this.checkBoxShinyCharm.Size = new System.Drawing.Size(85, 17);
             this.checkBoxShinyCharm.TabIndex = 160;
-            this.checkBoxShinyCharm.Text = "Shiny Charm";
+            this.checkBoxShinyCharm.Text = "闪耀护符";
             this.checkBoxShinyCharm.UseVisualStyleBackColor = true;
-            // 
+            //
             // comboLuckyPower
-            // 
+            //
             this.comboLuckyPower.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboLuckyPower.ForeColor = System.Drawing.Color.Black;
             this.comboLuckyPower.FormattingEnabled = true;
@@ -439,31 +439,31 @@
             this.comboLuckyPower.Size = new System.Drawing.Size(108, 21);
             this.comboLuckyPower.TabIndex = 161;
             this.comboLuckyPower.SelectedIndexChanged += new System.EventHandler(this.comboLuckyPower_SelectedIndexChanged);
-            // 
+            //
             // label2
-            // 
+            //
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(531, 119);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(98, 13);
             this.label2.TabIndex = 162;
-            this.label2.Text = "Lucky Power Level";
-            // 
+            this.label2.Text = "幸运之力等级";
+            //
             // labelLuckyPower
-            // 
-            this.labelLuckyPower.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            //
+            this.labelLuckyPower.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.labelLuckyPower.AutoSize = true;
             this.labelLuckyPower.Location = new System.Drawing.Point(531, 169);
             this.labelLuckyPower.Name = "labelLuckyPower";
             this.labelLuckyPower.Size = new System.Drawing.Size(95, 13);
             this.labelLuckyPower.TabIndex = 163;
-            this.labelLuckyPower.Text = "Lucky Power Note";
+            this.labelLuckyPower.Text = "幸运之力备注";
             this.labelLuckyPower.Visible = false;
-            // 
+            //
             // ProfileEditor
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(694, 230);
@@ -503,8 +503,8 @@
             this.Controls.Add(this.label47);
             this.Controls.Add(this.textBoxGxStat);
             this.Controls.Add(this.label48);
-            this.Name = "ProfileEditor";
-            this.Text = "ProfileEditor";
+            this.Name = "存档信息编辑（GEN5）";
+            this.Text = "存档信息编辑（GEN5）";
             this.Load += new System.EventHandler(this.ProfileEditor_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

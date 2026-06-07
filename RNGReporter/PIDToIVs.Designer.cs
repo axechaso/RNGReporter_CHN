@@ -43,19 +43,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewValues)).BeginInit();
             this.contextMenuStripGrid.SuspendLayout();
             this.SuspendLayout();
-            // 
+            //
             // dataGridViewValues
-            // 
+            //
             this.dataGridViewValues.AllowUserToAddRows = false;
             this.dataGridViewValues.AllowUserToDeleteRows = false;
             this.dataGridViewValues.AllowUserToResizeRows = false;
-            this.dataGridViewValues.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dataGridViewValues.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewValues.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -66,19 +66,19 @@
             this.dataGridViewValues.ContextMenuStrip = this.contextMenuStripGrid;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewValues.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridViewValues.Location = new System.Drawing.Point(12, 110);
+            this.dataGridViewValues.Location = new System.Drawing.Point(12, 102);
             this.dataGridViewValues.MultiSelect = false;
             this.dataGridViewValues.Name = "dataGridViewValues";
             this.dataGridViewValues.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -91,79 +91,80 @@
             this.dataGridViewValues.ShowCellToolTips = false;
             this.dataGridViewValues.ShowEditingIcon = false;
             this.dataGridViewValues.ShowRowErrors = false;
-            this.dataGridViewValues.Size = new System.Drawing.Size(439, 213);
+            this.dataGridViewValues.Size = new System.Drawing.Size(439, 197);
             this.dataGridViewValues.TabIndex = 11;
+            this.dataGridViewValues.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewValues_CellContentClick);
             this.dataGridViewValues.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridViewValues_MouseDown);
-            // 
+            //
             // contextMenuStripGrid
-            // 
+            //
             this.contextMenuStripGrid.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.copySeed,
             this.moveResultToMainForm,
             this.moveIVsToMainForm});
             this.contextMenuStripGrid.Name = "contextMenuStripGrid";
-            this.contextMenuStripGrid.Size = new System.Drawing.Size(226, 70);
+            this.contextMenuStripGrid.Size = new System.Drawing.Size(233, 70);
             this.contextMenuStripGrid.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStripGrid_Opening);
-            // 
+            //
             // copySeed
-            // 
+            //
             this.copySeed.Name = "copySeed";
-            this.copySeed.Size = new System.Drawing.Size(225, 22);
-            this.copySeed.Text = "Copy Seed to Clipboard";
+            this.copySeed.Size = new System.Drawing.Size(232, 22);
+            this.copySeed.Text = "复制Seed到剪贴板";
             this.copySeed.Click += new System.EventHandler(this.copySeedToClipboard_Click);
-            // 
+            //
             // moveResultToMainForm
-            // 
+            //
             this.moveResultToMainForm.Name = "moveResultToMainForm";
-            this.moveResultToMainForm.Size = new System.Drawing.Size(225, 22);
-            this.moveResultToMainForm.Text = "Move result to main window";
+            this.moveResultToMainForm.Size = new System.Drawing.Size(232, 22);
+            this.moveResultToMainForm.Text = "将该计算所有结果移动到主界面";
             this.moveResultToMainForm.Click += new System.EventHandler(this.moveResultToMainForm_Click);
-            // 
+            //
             // moveIVsToMainForm
-            // 
+            //
             this.moveIVsToMainForm.Name = "moveIVsToMainForm";
-            this.moveIVsToMainForm.Size = new System.Drawing.Size(225, 22);
-            this.moveIVsToMainForm.Text = "Move IVs to main window";
+            this.moveIVsToMainForm.Size = new System.Drawing.Size(232, 22);
+            this.moveIVsToMainForm.Text = "仅将该个体值结果移动到主界面";
             this.moveIVsToMainForm.Click += new System.EventHandler(this.moveIVsToMainForm_Click);
-            // 
+            //
             // textBoxSeed
-            // 
+            //
             this.textBoxSeed.Hex = true;
-            this.textBoxSeed.Location = new System.Drawing.Point(12, 25);
+            this.textBoxSeed.Location = new System.Drawing.Point(12, 23);
             this.textBoxSeed.Mask = "AAAAAAAA";
             this.textBoxSeed.Name = "textBoxSeed";
-            this.textBoxSeed.Size = new System.Drawing.Size(60, 20);
+            this.textBoxSeed.Size = new System.Drawing.Size(60, 19);
             this.textBoxSeed.TabIndex = 12;
-            // 
+            //
             // label12
-            // 
+            //
             this.label12.AutoSize = true;
             this.label12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label12.Location = new System.Drawing.Point(12, 9);
+            this.label12.Location = new System.Drawing.Point(12, 8);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(53, 13);
+            this.label12.Size = new System.Drawing.Size(77, 12);
             this.label12.TabIndex = 13;
             this.label12.Text = "PID (Hex)";
-            // 
+            //
             // buttonGenerate
-            // 
+            //
             this.buttonGenerate.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonGenerate.ForeColor = System.Drawing.Color.Black;
             this.buttonGenerate.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGenerate.Location = new System.Drawing.Point(377, 81);
+            this.buttonGenerate.Location = new System.Drawing.Point(377, 75);
             this.buttonGenerate.Name = "buttonGenerate";
             this.buttonGenerate.OuterBorderColor = System.Drawing.Color.Transparent;
             this.buttonGenerate.ShineColor = System.Drawing.SystemColors.Window;
-            this.buttonGenerate.Size = new System.Drawing.Size(74, 23);
+            this.buttonGenerate.Size = new System.Drawing.Size(74, 21);
             this.buttonGenerate.TabIndex = 14;
-            this.buttonGenerate.Text = "Generate";
+            this.buttonGenerate.Text = "计算";
             this.buttonGenerate.Click += new System.EventHandler(this.buttonGenerate_Click);
-            // 
+            //
             // PIDToIVs
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            //
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(463, 335);
+            this.ClientSize = new System.Drawing.Size(463, 309);
             this.Controls.Add(this.buttonGenerate);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.textBoxSeed);
@@ -171,7 +172,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "PIDToIVs";
-            this.Text = "PID To IVs";
+            this.Text = "根据PID计算个体值";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PIDToIVs_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewValues)).EndInit();
             this.contextMenuStripGrid.ResumeLayout(false);

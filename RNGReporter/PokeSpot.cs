@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Windows.Forms;
-using System.Globalization;
 
 namespace RNGReporter.Objects
 {
     public partial class PokeSpot : Form
     {
-        private readonly String[] Natures = { "Hardy", "Lonely", "Brave", "Adamant", "Naughty", "Bold", "Docile", "Relaxed", "Impish", "Lax", "Timid", "Hasty", "Serious", "Jolly", "Naive", "Modest", "Mild", "Quiet", "Bashful", "Rash", "Calm", "Gentle", "Sassy", "Careful", "Quirky" };
+        private readonly String[] Natures = { "勤奋", "怕寂寞", "勇敢", "固执", "顽皮", "大胆", "坦率", "悠闲", "淘气", "乐天", "胆小", "急躁", "认真", "爽朗", "天真", "内敛", "慢吞吞", "冷静", "害羞", "马虎", "温和", "温顺", "自大", "慎重", "浮躁" };
         private List<PokeSpotDisplay> displayList;
         private List<uint> natureList;
         private List<String> spotList;
@@ -60,12 +60,12 @@ namespace RNGReporter.Objects
             uint.TryParse(maxFrame.Text, out frame);
 
             natureList = null;
-            if (comboBoxNature.Text != "Any" && comboBoxNature.CheckBoxItems.Count > 0)
+            if (comboBoxNature.Text != "任意" && comboBoxNature.CheckBoxItems.Count > 0)
                 natureList = (from t in comboBoxNature.CheckBoxItems where t.Checked select (uint)((Nature)t.ComboBoxItem).Number).ToList();
 
             spotList = null;
             List<String> temp = new List<String>();
-            if (comboBoxSpotType.Text != "Any" && comboBoxSpotType.CheckBoxItems.Count > 0)
+            if (comboBoxSpotType.Text != "任意" && comboBoxSpotType.CheckBoxItems.Count > 0)
                 for (int x = 1; x < 4; x++)
                     if (comboBoxSpotType.CheckBoxItems[x].Checked)
                         temp.Add(comboBoxSpotType.CheckBoxItems[x].Text);
@@ -73,7 +73,7 @@ namespace RNGReporter.Objects
             if (temp.Count != 0)
                 spotList = temp;
             else
-                spotList = new List<String> { "Common", "Uncommon", "Rare" };
+                spotList = new List<String> { "常见的", "不常见的", "稀有的" };
 
             genderFilter = (uint)genderType.SelectedIndex;
             abilityFilter = (uint)abilityType.SelectedIndex;
@@ -117,7 +117,7 @@ namespace RNGReporter.Objects
             {
                 if (shinyNum != shinyval)
                     return;
-                shiny = "!!!";
+                shiny = "异色";
             }
 
             uint ability = pid & 1;
@@ -165,6 +165,16 @@ namespace RNGReporter.Objects
             calcPokeSpot(pid, frame, nature, gender, ability, shiny);
         }
 
+        private void comboBoxSpotType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void abilityType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void calcPokeSpot(uint pid, uint frame, uint nature, uint gender, uint ability, String shiny)
         {
             call1 = rngList[j >= 5 ? j - 5 : j + 1] >> 16;
@@ -180,11 +190,11 @@ namespace RNGReporter.Objects
 
                 call3 = (rngList[j >= 3 ? j - 3 : j + 3] >> 16) % 100;
                 if (call3 < 50)
-                    spotType = "Common";
+                    spotType = "常见的";
                 else if (call3 > 49 && call3 < 85)
-                    spotType = "Uncommon";
+                    spotType = "不常见的";
                 else if (call3 > 84)
-                    spotType = "Rare";
+                    spotType = "稀有的";
 
                 if (!spotList.Contains(spotType))
                     return;
@@ -194,14 +204,14 @@ namespace RNGReporter.Objects
                     Seed = rngList[j].ToString("X"),
                     Frame = (int)frame,
                     PID = pid.ToString("X"),
-                    Shiny = shiny == "" ? shinyNum == shinyval ? "!!!" : shiny : shiny,
+                    Shiny = shiny == "" ? shinyNum == shinyval ? "异色" : shiny : shiny,
                     Type = spotType,
                     Nature = Natures[nature],
                     Ability = (int)ability,
-                    Eighth = gender < 31 ? 'F' : 'M',
-                    Quarter = gender < 64 ? 'F' : 'M',
-                    Half = gender < 126 ? 'F' : 'M',
-                    Three_Fourths = gender < 191 ? 'F' : 'M'
+                    Eighth = gender < 31 ? '♀' : '♂',
+                    Quarter = gender < 64 ? '♀' : '♂',
+                    Half = gender < 126 ? '♀' : '♂',
+                    Three_Fourths = gender < 191 ? '♀' : '♂'
                 });
             }
         }
@@ -230,9 +240,9 @@ namespace RNGReporter.Objects
         {
             return new String[]
                 {
-                    "Common",
-                    "Uncommon",
-                    "Rare"
+                    "常见的",
+                    "不常见的",
+                    "稀有的"
                 };
         }
     }

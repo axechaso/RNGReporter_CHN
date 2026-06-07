@@ -168,11 +168,11 @@ namespace RNGReporter
                     return result;
                 case "PID":
                     return direction * uint.Parse(x.PID, NumberStyles.HexNumber).CompareTo(uint.Parse(y.PID, NumberStyles.HexNumber));
-                case "Nature":
+                case "性格":
                     return direction * Functions.NatureNumber(x.Nature).CompareTo(Functions.NatureNumber(y.Nature));
-                case "Ability":
+                case "特性":
                     return direction * x.Ability.CompareTo(y.Ability);
-                case "HP":
+                case "觉醒力量":
                     result = direction * x.Hp.CompareTo(y.Hp);
                     if (result == 0)
                     {
@@ -195,7 +195,7 @@ namespace RNGReporter
                         }
                     }
                     return result;
-                case "Atk":
+                case "攻击":
                     result = direction * x.Atk.CompareTo(y.Atk);
                     if (result == 0)
                     {
@@ -218,7 +218,7 @@ namespace RNGReporter
                         }
                     }
                     return result;
-                case "Def":
+                case "防御":
                     result = direction * x.Def.CompareTo(y.Def);
                     if (result == 0)
                     {
@@ -241,7 +241,7 @@ namespace RNGReporter
                         }
                     }
                     return result;
-                case "SpA":
+                case "特攻":
                     result = direction * x.SpA.CompareTo(y.SpA);
                     if (result == 0)
                     {
@@ -264,7 +264,7 @@ namespace RNGReporter
                         }
                     }
                     return result;
-                case "SpD":
+                case "特防":
                     result = direction * x.SpD.CompareTo(y.SpD);
                     if (result == 0)
                     {
@@ -287,7 +287,7 @@ namespace RNGReporter
                         }
                     }
                     return result;
-                case "Spe":
+                case "速度":
                     result = direction * x.Spe.CompareTo(y.Spe);
                     if (result == 0)
                     {
@@ -310,7 +310,7 @@ namespace RNGReporter
                         }
                     }
                     return result;
-                case "Power":
+                case "威力":
                     return direction * x.Power.CompareTo(y.Power);
                 default:
                     //use ordinal due to better efficiency and because it uses the current culture

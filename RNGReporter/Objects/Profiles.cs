@@ -52,7 +52,7 @@ namespace RNGReporter.Objects
             catch (Exception)
             {
                 textReader.Close();
-                MessageBox.Show("Corrupt or old format profiles detected. Unable to load.");
+                MessageBox.Show("检测到损坏或旧格式的存档信息，无法加载。");
                 Settings.Default.ProfileLocation = "profiles.xml";
             }
         }
@@ -144,7 +144,7 @@ namespace RNGReporter.Objects
         {
             get
             {
-                if (Keypresses == 0) return "None";
+                if (Keypresses == 0) return "无";
                 string keyString = "";
                 byte b = 0x1;
                 for (int i = 0; i < 8; ++i)
@@ -153,7 +153,7 @@ namespace RNGReporter.Objects
                     {
                         if (keyString.Length > 0)
                             keyString += ", ";
-                        keyString += i == 0 ? "None" : i.ToString();
+                        keyString += i == 0 ? "无" : i.ToString();
                     }
                     b <<= 1;
                 }

@@ -373,7 +373,7 @@ namespace RNGReporter
 
             /*if (textBoxMACAddress.Text.Length < 12)
             {
-                MessageBox.Show("Your MAC address is missing some digits.  Double-check your MAC address.");
+                MessageBox.Show("MAC 地址缺少部分数字，请再次检查 MAC 地址。");
             }*/
 
             if (textBoxDirectSeed.Text != "")
@@ -409,8 +409,8 @@ namespace RNGReporter
                 if (combinations > 200)
                 {
                     MessageBox.Show(
-                        "There were too many combinations of IV possibilities to accurately find your intitial seed (" +
-                        combinations + ") please try with a higher level Pokemon,", "Too many IV Combinations");
+                        "存在太多的个体值可能性组合，因此无法准确地找到您的初始seed。 (" +
+                        combinations + ") 请尝试使用更高等级的宝可梦,", "太多个体值组合啦");
                     return;
                 }
             }

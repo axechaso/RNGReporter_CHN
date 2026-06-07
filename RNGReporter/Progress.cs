@@ -79,7 +79,7 @@ namespace RNGReporter
 
             labelSearched.Text = searched.ToString();
             labelFound.Text = found.ToString();
-            
+
             this.caller = caller;
             progressBar.Value = 0;
             if (delayedDisplay)
@@ -122,7 +122,7 @@ namespace RNGReporter
             {
                 try
                 {
-                    progressBar.MasterValue = (int) (percent*100.0);
+                    progressBar.MasterValue = (int)(percent * 100.0);
                 }
                 catch
                 {
@@ -147,7 +147,7 @@ namespace RNGReporter
             {
                 Application.RemoveMessageFilter(this);
                 Hide();
-                throw new Exception("Operation Cancelled");
+                throw new Exception("操作被取消");
             }
             if (allowPause)
             {
@@ -179,17 +179,22 @@ namespace RNGReporter
             Dispose();
         }
 
+        private void Progress_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void buttonPause_Click(object sender, EventArgs e)
         {
-            if (buttonPause.Text == "Pause")
+            if (buttonPause.Text == "暂停")
             {
                 pleasePause = true;
-                buttonPause.Text = "Resume";
+                buttonPause.Text = "重新开始";
             }
             else
             {
                 pleaseUnpause = true;
-                buttonPause.Text = "Pause";
+                buttonPause.Text = "暂停";
             }
         }
     }

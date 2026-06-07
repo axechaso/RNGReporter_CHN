@@ -189,7 +189,7 @@ namespace RNGReporter.Objects
         }
 
         public string Double
-        { 
+        {
             get { return DoubleBattle ? "Double" : ""; }
             set { }
         }
@@ -198,7 +198,7 @@ namespace RNGReporter.Objects
 
         public string LuckyPowerString
         {
-            get { return luckyPower == 0 ? "None" : string.Concat(Enumerable.Repeat("↑", luckyPower)); }
+            get { return luckyPower == 0 ? "无" : string.Concat(Enumerable.Repeat("↑", luckyPower)); }
         }
 
         public FrameType FrameType { get; set; }
@@ -219,11 +219,11 @@ namespace RNGReporter.Objects
         /// </summary>
         public string ShinyDisplay
         {
-            get { return Shiny ? "!!!" : ""; }
+            get { return Shiny ? "异色" : ""; }
         }
 
         //  The following are cacluated differently based
-        //  on the creation method of the pokemon. 
+        //  on the creation method of the pokemon.
 
         public uint Pid
         {
@@ -356,7 +356,7 @@ namespace RNGReporter.Objects
                     uint[] available = {0, 1, 2, 3, 4, 5};
 
                     // Dumb that we have to do this, but we really
-                    // need these guys in an array for things to 
+                    // need these guys in an array for things to
                     // work correctly.
                     var rngArray = new uint[6];
                     rngArray[0] = inh1;
@@ -373,8 +373,8 @@ namespace RNGReporter.Objects
 
                         // Decide which stat to pick for IV inheritance
                         uint ivslot = available[rngArray[0 + cnt]%(6 - cnt)];
-                        //  We have our parent and we have our slot, so lets 
-                        //  put them in the correct place here 
+                        //  We have our parent and we have our slot, so lets
+                        //  put them in the correct place here
                         string parentString = (parent == 0 ? "A" : "B");
 
                         switch (ivslot)
@@ -619,7 +619,7 @@ namespace RNGReporter.Objects
                 };
 
 
-            //  Set up the ID and SID before we calculate 
+            //  Set up the ID and SID before we calculate
             //  the pid, as we are going to need this.
 
 
@@ -717,7 +717,7 @@ namespace RNGReporter.Objects
                 };
 
 
-            //  Set up the ID and SID before we calculate 
+            //  Set up the ID and SID before we calculate
             //  the pid, as we are going to need this.
 
 
@@ -740,8 +740,8 @@ namespace RNGReporter.Objects
                     {
                         uint parent = rngArray[3 + cnt] & 1;
                         uint ivslot = available[rngArray[0 + cnt]%(6 - cnt)];
-                        //  We have our parent and we have our slot, so lets 
-                        //  put them in the correct place here 
+                        //  We have our parent and we have our slot, so lets
+                        //  put them in the correct place here
 
                         switch (ivslot)
                         {
@@ -879,7 +879,7 @@ namespace RNGReporter.Objects
                 };
 
 
-            //  Set up the ID and SID before we calculate 
+            //  Set up the ID and SID before we calculate
             //  the pid, as we are going to need this.
 
 
@@ -915,7 +915,7 @@ namespace RNGReporter.Objects
                 sid = sid,
                 Pid = (pid1 << 16) | pid2
             };
-            
+
             frame.Hp = dv1;
             frame.Atk = dv2;
             frame.Def = dv3;
@@ -957,7 +957,7 @@ namespace RNGReporter.Objects
                 };
 
 
-            //  Set up the ID and SID before we calculate 
+            //  Set up the ID and SID before we calculate
             //  the pid, as we are going to need this.
 
 
@@ -976,7 +976,7 @@ namespace RNGReporter.Objects
                 {Number = number, RngResult = rngResult, id = id, sid = sid, Pid = pid, Dv = 0};
 
 
-            //  Set up the ID and SID before we calculate 
+            //  Set up the ID and SID before we calculate
             //  the pid, as we are going to need this.
             //  frame.Pid = pid;
 
@@ -1065,8 +1065,8 @@ namespace RNGReporter.Objects
                 {
                     uint parent = rngArray[3 + cnt] & 1;
                     uint ivslot = available[rngArray[0 + cnt]%(6 - cnt)];
-                    //  We have our parent and we have our slot, so lets 
-                    //  put them in the correct place here 
+                    //  We have our parent and we have our slot, so lets
+                    //  put them in the correct place here
 
                     switch (ivslot)
                     {
@@ -1153,7 +1153,7 @@ namespace RNGReporter.Objects
             };
 
 
-            //  Set up the ID and SID before we calculate 
+            //  Set up the ID and SID before we calculate
             //  the pid, as we are going to need this.
 
 
@@ -1196,7 +1196,7 @@ namespace RNGReporter.Objects
             };
 
 
-            //  Set up the ID and SID before we calculate 
+            //  Set up the ID and SID before we calculate
             //  the pid, as we are going to need this.
 
 
@@ -1311,8 +1311,8 @@ namespace RNGReporter.Objects
             {
                 uint parent = rngArray[3 + cnt] & 1;
 
-                //  We have our parent and we have our slot, so lets 
-                //  put them in the correct place here 
+                //  We have our parent and we have our slot, so lets
+                //  put them in the correct place here
                 uint parentIV = (parent == 1 ? parentA[rngArray[cnt]] : parentB[rngArray[cnt]]);
 
                 switch (rngArray[cnt])
@@ -1416,8 +1416,8 @@ namespace RNGReporter.Objects
                 {
                     uint parent = rngArray[3 + cnt] & 1;
 
-                    //  We have our parent and we have our slot, so lets 
-                    //  put them in the correct place here 
+                    //  We have our parent and we have our slot, so lets
+                    //  put them in the correct place here
                     string parentString = (parent == 1 ? "Fe" : "Ma");
 
                     switch (rngArray[cnt])

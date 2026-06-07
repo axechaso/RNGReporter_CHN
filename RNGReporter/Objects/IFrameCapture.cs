@@ -159,7 +159,7 @@ namespace RNGReporter.Objects
             get { return Frame.Ratio; }
         }
 
-        public byte Level 
+        public byte Level
         {
             get { return Frame.Level; }
         }
@@ -332,7 +332,7 @@ namespace RNGReporter.Objects
                         result = direction*x.Offset.CompareTo(y.Offset);
                     }
                     return result;
-                case "Hour":
+                case "时":
                     uint hourX = x.Hour;
                     uint hourY = y.Hour;
 
@@ -342,7 +342,7 @@ namespace RNGReporter.Objects
                         result = direction*x.Offset.CompareTo(y.Offset);
                     }
                     return result;
-                case "Offset":
+                case "偏移":
                     return direction * x.Offset.CompareTo(y.Offset);
                 case "PatchFrame":
                     return direction*x.PatchFrame.CompareTo(y.PatchFrame);
@@ -350,9 +350,9 @@ namespace RNGReporter.Objects
                     return direction*x.NearestShiny.CompareTo(y.NearestShiny);
                 case "Pid":
                     return direction*x.Pid.CompareTo(y.Pid);
-                case "Ability":
+                case "特性":
                     return direction*x.Ability.CompareTo(y.Ability);
-                case "Nature":
+                case "性格":
                     return direction*x.NatureNumber.CompareTo(y.NatureNumber);
                 case "HiddenPowerPower":
                     return direction*x.HiddenPowerPower.CompareTo(y.HiddenPowerPower);
@@ -364,9 +364,9 @@ namespace RNGReporter.Objects
                     }
 
                     return result;
-                case "Ratio":
+                case "比例":
                     return direction * x.Ratio.CompareTo(y.Ratio);
-                case "Level":
+                case "等级":
                     return direction * x.Level.CompareTo(y.Level);
                 case "EncounterSlot":
                     return direction*x.Frame.EncounterSlot.CompareTo(y.Frame.EncounterSlot);
@@ -405,7 +405,7 @@ namespace RNGReporter.Objects
                         }
                     }
                     return result;
-                case "Atk":
+                case "攻击":
                     result = direction*x.Atk.CompareTo(y.Atk);
                     if (result == 0)
                     {
@@ -428,7 +428,7 @@ namespace RNGReporter.Objects
                         }
                     }
                     return result;
-                case "Def":
+                case "防御":
                     result = direction*x.Def.CompareTo(y.Def);
                     if (result == 0)
                     {
@@ -451,7 +451,7 @@ namespace RNGReporter.Objects
                         }
                     }
                     return result;
-                case "SpA":
+                case "特攻":
                     result = direction*x.SpA.CompareTo(y.SpA);
                     if (result == 0)
                     {
@@ -474,7 +474,7 @@ namespace RNGReporter.Objects
                         }
                     }
                     return result;
-                case "SpD":
+                case "特防":
                     result = direction*x.SpD.CompareTo(y.SpD);
                     if (result == 0)
                     {
@@ -497,7 +497,7 @@ namespace RNGReporter.Objects
                         }
                     }
                     return result;
-                case "Spe":
+                case "速度":
                     result = direction*x.Spe.CompareTo(y.Spe);
                     if (result == 0)
                     {

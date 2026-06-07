@@ -220,32 +220,32 @@
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridShadow)).BeginInit();
             this.SuspendLayout();
-            // 
+            //
             // Shiny_Check
-            // 
+            //
             this.Shiny_Check.AutoSize = true;
             this.Shiny_Check.Location = new System.Drawing.Point(480, 225);
             this.Shiny_Check.Name = "Shiny_Check";
             this.Shiny_Check.Size = new System.Drawing.Size(76, 17);
             this.Shiny_Check.TabIndex = 253;
-            this.Shiny_Check.Text = "Shiny Only";
+            this.Shiny_Check.Text = "仅异色";
             this.Shiny_Check.UseVisualStyleBackColor = true;
-            // 
+            //
             // L_ball
-            // 
+            //
             this.L_ball.Location = new System.Drawing.Point(396, 139);
             this.L_ball.Name = "L_ball";
             this.L_ball.Size = new System.Drawing.Size(57, 20);
             this.L_ball.TabIndex = 252;
-            this.L_ball.Text = "HP";
+            this.L_ball.Text = "觉醒力量";
             this.L_ball.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // genderType
-            // 
+            //
             this.genderType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.genderType.FormattingEnabled = true;
             this.genderType.Items.AddRange(new object[] {
-            "Don\'t Care / Genderless",
+            "不考虑/无性别",
             "Male (50% Male / 50% Female)",
             "Female (50% Male / 50% Female)",
             "Male (25% Male / 75% Female)",
@@ -254,184 +254,184 @@
             "Female (75% Male / 25% Female)",
             "Male (87.5% Male / 12.5% Female)",
             "Female (87.5% Male / 12.5% Female)",
-            "Male (100% Male)",
-            "Female (100% Female)"});
+            "♂(只有♂)",
+            "♀(只有♀)"});
             this.genderType.Location = new System.Drawing.Point(455, 69);
             this.genderType.Name = "genderType";
             this.genderType.Size = new System.Drawing.Size(188, 21);
             this.genderType.TabIndex = 235;
-            // 
+            //
             // L_sex
-            // 
+            //
             this.L_sex.Location = new System.Drawing.Point(396, 69);
             this.L_sex.Name = "L_sex";
             this.L_sex.Size = new System.Drawing.Size(57, 20);
             this.L_sex.TabIndex = 251;
-            this.L_sex.Text = "Gender";
+            this.L_sex.Text = "性别比例";
             this.L_sex.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // L_ability
-            // 
+            //
             this.L_ability.Location = new System.Drawing.Point(396, 105);
             this.L_ability.Name = "L_ability";
             this.L_ability.Size = new System.Drawing.Size(57, 20);
             this.L_ability.TabIndex = 249;
-            this.L_ability.Text = "Ability";
+            this.L_ability.Text = "特性";
             this.L_ability.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // contextMenuStripGrid
-            // 
+            //
             this.contextMenuStripGrid.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.copySeed,
             this.outputResultsToTXTToolStripMenuItem});
             this.contextMenuStripGrid.Name = "contextMenuStripGrid";
             this.contextMenuStripGrid.Size = new System.Drawing.Size(203, 48);
             this.contextMenuStripGrid.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStripGrid_Opening);
-            // 
+            //
             // copySeed
-            // 
+            //
             this.copySeed.Name = "copySeed";
             this.copySeed.Size = new System.Drawing.Size(202, 22);
-            this.copySeed.Text = "Copy Seed to Clipboard";
+            this.copySeed.Text = "复制Seed到剪贴板";
             this.copySeed.Click += new System.EventHandler(this.copySeedToClipboard_Click);
-            // 
+            //
             // outputResultsToTXTToolStripMenuItem
-            // 
+            //
             this.outputResultsToTXTToolStripMenuItem.Name = "outputResultsToTXTToolStripMenuItem";
             this.outputResultsToTXTToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
-            this.outputResultsToTXTToolStripMenuItem.Text = "Output Results to TXT ...";
+            this.outputResultsToTXTToolStripMenuItem.Text = "输出结果至TXT文本文件";
             this.outputResultsToTXTToolStripMenuItem.Click += new System.EventHandler(this.outputResultsToTXTToolStripMenuItem_Click);
-            // 
+            //
             // L_search_S
-            // 
+            //
             this.L_search_S.Location = new System.Drawing.Point(28, 204);
             this.L_search_S.Name = "L_search_S";
             this.L_search_S.Size = new System.Drawing.Size(40, 20);
             this.L_search_S.TabIndex = 242;
-            this.L_search_S.Text = "Spe";
+            this.L_search_S.Text = "速度";
             this.L_search_S.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // L_search_D
-            // 
+            //
             this.L_search_D.Location = new System.Drawing.Point(28, 169);
             this.L_search_D.Name = "L_search_D";
             this.L_search_D.Size = new System.Drawing.Size(40, 20);
             this.L_search_D.TabIndex = 241;
-            this.L_search_D.Text = "SpD";
+            this.L_search_D.Text = "特防";
             this.L_search_D.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // L_search_C
-            // 
+            //
             this.L_search_C.Location = new System.Drawing.Point(28, 135);
             this.L_search_C.Name = "L_search_C";
             this.L_search_C.Size = new System.Drawing.Size(40, 20);
             this.L_search_C.TabIndex = 240;
-            this.L_search_C.Text = "SpA";
+            this.L_search_C.Text = "特攻";
             this.L_search_C.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // L_search_B
-            // 
+            //
             this.L_search_B.Location = new System.Drawing.Point(28, 100);
             this.L_search_B.Name = "L_search_B";
             this.L_search_B.Size = new System.Drawing.Size(40, 20);
             this.L_search_B.TabIndex = 239;
-            this.L_search_B.Text = "Def";
+            this.L_search_B.Text = "防御";
             this.L_search_B.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // L_search_A
-            // 
+            //
             this.L_search_A.Location = new System.Drawing.Point(28, 65);
             this.L_search_A.Name = "L_search_A";
             this.L_search_A.Size = new System.Drawing.Size(40, 20);
             this.L_search_A.TabIndex = 237;
-            this.L_search_A.Text = "Atk";
+            this.L_search_A.Text = "攻击";
             this.L_search_A.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // L_search_H
-            // 
+            //
             this.L_search_H.Location = new System.Drawing.Point(28, 31);
             this.L_search_H.Name = "L_search_H";
             this.L_search_H.Size = new System.Drawing.Size(40, 20);
             this.L_search_H.TabIndex = 234;
-            this.L_search_H.Text = "HP";
+            this.L_search_H.Text = "觉醒力量";
             this.L_search_H.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // abilityType
-            // 
+            //
             this.abilityType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.abilityType.FormattingEnabled = true;
             this.abilityType.Items.AddRange(new object[] {
-            "Any",
+            "任意",
             "Ability 0",
             "Ability 1"});
             this.abilityType.Location = new System.Drawing.Point(455, 104);
             this.abilityType.Name = "abilityType";
             this.abilityType.Size = new System.Drawing.Size(188, 21);
             this.abilityType.TabIndex = 233;
-            // 
+            //
             // L_mezapa
-            // 
+            //
             this.L_mezapa.Location = new System.Drawing.Point(396, 35);
             this.L_mezapa.Name = "L_mezapa";
             this.L_mezapa.Size = new System.Drawing.Size(57, 20);
             this.L_mezapa.TabIndex = 255;
-            this.L_mezapa.Text = "Nature";
+            this.L_mezapa.Text = "性格";
             this.L_mezapa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label1
-            // 
+            //
             this.label1.Location = new System.Drawing.Point(466, 199);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(20, 20);
             this.label1.TabIndex = 257;
             this.label1.Text = "ID";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label2
-            // 
+            //
             this.label2.Location = new System.Drawing.Point(537, 199);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(39, 20);
             this.label2.TabIndex = 259;
             this.label2.Text = "SID";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // status
-            // 
+            //
             this.status.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.status.Location = new System.Drawing.Point(12, 593);
             this.status.Name = "status";
             this.status.Size = new System.Drawing.Size(257, 20);
             this.status.TabIndex = 267;
-            this.status.Text = "Awaiting Command";
+            this.status.Text = "等待操作...";
             this.status.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
+            //
             // searchMethod
-            // 
+            //
             this.searchMethod.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.searchMethod.FormattingEnabled = true;
             this.searchMethod.Items.AddRange(new object[] {
             "Reverse Method 1",
-            "Gales",
-            "Colo",
-            "Channel"});
+            "XD暗之旋风",
+            "圆形竞技场",
+            "宝可梦频道"});
             this.searchMethod.Location = new System.Drawing.Point(128, 248);
             this.searchMethod.Name = "searchMethod";
             this.searchMethod.Size = new System.Drawing.Size(126, 21);
             this.searchMethod.TabIndex = 268;
             this.searchMethod.SelectionChangeCommitted += new System.EventHandler(this.searchMethod_SelectionChangeCommitted);
-            // 
+            //
             // label3
-            // 
+            //
             this.label3.Location = new System.Drawing.Point(35, 247);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(87, 20);
             this.label3.TabIndex = 269;
-            this.label3.Text = "Search Method";
+            this.label3.Text = "算法";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // shadowPokemon
-            // 
+            //
             this.shadowPokemon.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.shadowPokemon.FormattingEnabled = true;
             this.shadowPokemon.Location = new System.Drawing.Point(809, 35);
@@ -439,30 +439,30 @@
             this.shadowPokemon.Size = new System.Drawing.Size(174, 21);
             this.shadowPokemon.TabIndex = 271;
             this.shadowPokemon.SelectionChangeCommitted += new System.EventHandler(this.shadowPokemon_SelectionChangeCommitted);
-            // 
+            //
             // shadowCheck
-            // 
+            //
             this.shadowCheck.AutoSize = true;
             this.shadowCheck.Location = new System.Drawing.Point(736, 37);
             this.shadowCheck.Name = "shadowCheck";
             this.shadowCheck.Size = new System.Drawing.Size(70, 17);
             this.shadowCheck.TabIndex = 272;
-            this.shadowCheck.Text = "Shadows";
+            this.shadowCheck.Text = "黑暗宝可梦";
             this.shadowCheck.UseVisualStyleBackColor = true;
             this.shadowCheck.CheckedChanged += new System.EventHandler(this.galesCheck_CheckedChanged);
-            // 
+            //
             // wshMkr
-            // 
+            //
             this.wshMkr.AutoSize = true;
             this.wshMkr.Location = new System.Drawing.Point(50, 274);
             this.wshMkr.Name = "wshMkr";
             this.wshMkr.Size = new System.Drawing.Size(100, 17);
             this.wshMkr.TabIndex = 274;
-            this.wshMkr.Text = "Wishmkr Jirachi";
+            this.wshMkr.Text = "Wishmkr的基拉祈";
             this.wshMkr.UseVisualStyleBackColor = true;
-            // 
+            //
             // hpLogic
-            // 
+            //
             this.hpLogic.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.hpLogic.FormattingEnabled = true;
             this.hpLogic.Items.AddRange(new object[] {
@@ -473,9 +473,9 @@
             this.hpLogic.Name = "hpLogic";
             this.hpLogic.Size = new System.Drawing.Size(41, 21);
             this.hpLogic.TabIndex = 286;
-            // 
+            //
             // atkLogic
-            // 
+            //
             this.atkLogic.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.atkLogic.FormattingEnabled = true;
             this.atkLogic.Items.AddRange(new object[] {
@@ -486,9 +486,9 @@
             this.atkLogic.Name = "atkLogic";
             this.atkLogic.Size = new System.Drawing.Size(41, 21);
             this.atkLogic.TabIndex = 297;
-            // 
+            //
             // defLogic
-            // 
+            //
             this.defLogic.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.defLogic.FormattingEnabled = true;
             this.defLogic.Items.AddRange(new object[] {
@@ -499,9 +499,9 @@
             this.defLogic.Name = "defLogic";
             this.defLogic.Size = new System.Drawing.Size(41, 21);
             this.defLogic.TabIndex = 301;
-            // 
+            //
             // spaLogic
-            // 
+            //
             this.spaLogic.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.spaLogic.FormattingEnabled = true;
             this.spaLogic.Items.AddRange(new object[] {
@@ -512,9 +512,9 @@
             this.spaLogic.Name = "spaLogic";
             this.spaLogic.Size = new System.Drawing.Size(41, 21);
             this.spaLogic.TabIndex = 305;
-            // 
+            //
             // spdLogic
-            // 
+            //
             this.spdLogic.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.spdLogic.FormattingEnabled = true;
             this.spdLogic.Items.AddRange(new object[] {
@@ -525,9 +525,9 @@
             this.spdLogic.Name = "spdLogic";
             this.spdLogic.Size = new System.Drawing.Size(41, 21);
             this.spdLogic.TabIndex = 309;
-            // 
+            //
             // speLogic
-            // 
+            //
             this.speLogic.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.speLogic.FormattingEnabled = true;
             this.speLogic.Items.AddRange(new object[] {
@@ -538,9 +538,9 @@
             this.speLogic.Name = "speLogic";
             this.speLogic.Size = new System.Drawing.Size(41, 21);
             this.speLogic.TabIndex = 313;
-            // 
+            //
             // tabControl1
-            // 
+            //
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Location = new System.Drawing.Point(15, 12);
@@ -548,9 +548,9 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1117, 578);
             this.tabControl1.TabIndex = 338;
-            // 
+            //
             // tabPage1
-            // 
+            //
             this.tabPage1.Controls.Add(this.comboBoxHiddenPower);
             this.tabPage1.Controls.Add(this.abilityType);
             this.tabPage1.Controls.Add(this.dataGridViewResult);
@@ -623,12 +623,12 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(1109, 552);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Spread Finder";
+            this.tabPage1.Text = "搜索Seed";
             this.tabPage1.UseVisualStyleBackColor = true;
-            // 
+            //
             // comboBoxHiddenPower
-            // 
-            this.comboBoxHiddenPower.BlankText = "Any";
+            //
+            this.comboBoxHiddenPower.BlankText = "任意";
             checkBoxProperties1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.comboBoxHiddenPower.CheckBoxProperties = checkBoxProperties1;
             this.comboBoxHiddenPower.DisplayMemberSingleItem = "";
@@ -639,9 +639,9 @@
             this.comboBoxHiddenPower.Name = "comboBoxHiddenPower";
             this.comboBoxHiddenPower.Size = new System.Drawing.Size(188, 21);
             this.comboBoxHiddenPower.TabIndex = 319;
-            // 
+            //
             // dataGridViewResult
-            // 
+            //
             this.dataGridViewResult.AllowUserToAddRows = false;
             this.dataGridViewResult.AllowUserToDeleteRows = false;
             this.dataGridViewResult.AllowUserToResizeRows = false;
@@ -686,9 +686,9 @@
             this.dataGridViewResult.TabIndex = 317;
             this.dataGridViewResult.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridViewResult_ColumnHeaderMouseClick);
             this.dataGridViewResult.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridViewValues_MouseDown);
-            // 
+            //
             // id
-            // 
+            //
             this.id.Hex = false;
             this.id.Location = new System.Drawing.Point(492, 200);
             this.id.Mask = "00000";
@@ -698,9 +698,9 @@
             this.id.Tag = "id/sid";
             this.id.Text = "0";
             this.id.ValidatingType = typeof(int);
-            // 
+            //
             // cancel
-            // 
+            //
             this.cancel.BackColor = System.Drawing.Color.AntiqueWhite;
             this.cancel.ForeColor = System.Drawing.Color.Black;
             this.cancel.Location = new System.Drawing.Point(1028, 284);
@@ -709,11 +709,11 @@
             this.cancel.ShineColor = System.Drawing.SystemColors.Window;
             this.cancel.Size = new System.Drawing.Size(75, 23);
             this.cancel.TabIndex = 293;
-            this.cancel.Text = "Cancel";
+            this.cancel.Text = "取消";
             this.cancel.Click += new System.EventHandler(this.cancel_Click);
-            // 
+            //
             // search
-            // 
+            //
             this.search.BackColor = System.Drawing.Color.AntiqueWhite;
             this.search.ForeColor = System.Drawing.Color.Black;
             this.search.Location = new System.Drawing.Point(947, 284);
@@ -722,11 +722,11 @@
             this.search.ShineColor = System.Drawing.SystemColors.Window;
             this.search.Size = new System.Drawing.Size(75, 23);
             this.search.TabIndex = 292;
-            this.search.Text = "Search";
+            this.search.Text = "计算";
             this.search.Click += new System.EventHandler(this.search_Click);
-            // 
+            //
             // sid
-            // 
+            //
             this.sid.Hex = false;
             this.sid.Location = new System.Drawing.Point(582, 200);
             this.sid.Mask = "00000";
@@ -736,9 +736,9 @@
             this.sid.Tag = "id/sid";
             this.sid.Text = "0";
             this.sid.ValidatingType = typeof(int);
-            // 
+            //
             // speClear
-            // 
+            //
             this.speClear.BackColor = System.Drawing.Color.AntiqueWhite;
             this.speClear.ForeColor = System.Drawing.Color.Black;
             this.speClear.Location = new System.Drawing.Point(306, 202);
@@ -747,11 +747,11 @@
             this.speClear.ShineColor = System.Drawing.SystemColors.Window;
             this.speClear.Size = new System.Drawing.Size(44, 23);
             this.speClear.TabIndex = 337;
-            this.speClear.Text = "Clear";
+            this.speClear.Text = "清空";
             this.speClear.Click += new System.EventHandler(this.speClear_Click);
-            // 
+            //
             // spdClear
-            // 
+            //
             this.spdClear.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spdClear.ForeColor = System.Drawing.Color.Black;
             this.spdClear.Location = new System.Drawing.Point(306, 167);
@@ -760,11 +760,11 @@
             this.spdClear.ShineColor = System.Drawing.SystemColors.Window;
             this.spdClear.Size = new System.Drawing.Size(44, 23);
             this.spdClear.TabIndex = 336;
-            this.spdClear.Text = "Clear";
+            this.spdClear.Text = "清空";
             this.spdClear.Click += new System.EventHandler(this.spdClear_Click);
-            // 
+            //
             // spaClear
-            // 
+            //
             this.spaClear.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spaClear.ForeColor = System.Drawing.Color.Black;
             this.spaClear.Location = new System.Drawing.Point(306, 133);
@@ -773,11 +773,11 @@
             this.spaClear.ShineColor = System.Drawing.SystemColors.Window;
             this.spaClear.Size = new System.Drawing.Size(44, 23);
             this.spaClear.TabIndex = 335;
-            this.spaClear.Text = "Clear";
+            this.spaClear.Text = "清空";
             this.spaClear.Click += new System.EventHandler(this.spaClear_Click);
-            // 
+            //
             // defClear
-            // 
+            //
             this.defClear.BackColor = System.Drawing.Color.AntiqueWhite;
             this.defClear.ForeColor = System.Drawing.Color.Black;
             this.defClear.Location = new System.Drawing.Point(306, 99);
@@ -786,11 +786,11 @@
             this.defClear.ShineColor = System.Drawing.SystemColors.Window;
             this.defClear.Size = new System.Drawing.Size(44, 23);
             this.defClear.TabIndex = 334;
-            this.defClear.Text = "Clear";
+            this.defClear.Text = "清空";
             this.defClear.Click += new System.EventHandler(this.defClear_Click);
-            // 
+            //
             // atkClear
-            // 
+            //
             this.atkClear.BackColor = System.Drawing.Color.AntiqueWhite;
             this.atkClear.ForeColor = System.Drawing.Color.Black;
             this.atkClear.Location = new System.Drawing.Point(306, 63);
@@ -799,11 +799,11 @@
             this.atkClear.ShineColor = System.Drawing.SystemColors.Window;
             this.atkClear.Size = new System.Drawing.Size(44, 23);
             this.atkClear.TabIndex = 333;
-            this.atkClear.Text = "Clear";
+            this.atkClear.Text = "清空";
             this.atkClear.Click += new System.EventHandler(this.atkClear_Click);
-            // 
+            //
             // hpClear
-            // 
+            //
             this.hpClear.BackColor = System.Drawing.Color.AntiqueWhite;
             this.hpClear.ForeColor = System.Drawing.Color.Black;
             this.hpClear.Location = new System.Drawing.Point(306, 30);
@@ -812,11 +812,11 @@
             this.hpClear.ShineColor = System.Drawing.SystemColors.Window;
             this.hpClear.Size = new System.Drawing.Size(44, 23);
             this.hpClear.TabIndex = 332;
-            this.hpClear.Text = "Clear";
+            this.hpClear.Text = "清空";
             this.hpClear.Click += new System.EventHandler(this.hpClear_Click);
-            // 
+            //
             // speValue
-            // 
+            //
             this.speValue.Hex = false;
             this.speValue.Location = new System.Drawing.Point(79, 203);
             this.speValue.Mask = "00";
@@ -826,9 +826,9 @@
             this.speValue.Tag = "ivs";
             this.speValue.Text = "31";
             this.speValue.ValidatingType = typeof(int);
-            // 
+            //
             // spdValue
-            // 
+            //
             this.spdValue.Hex = false;
             this.spdValue.Location = new System.Drawing.Point(79, 168);
             this.spdValue.Mask = "00";
@@ -838,9 +838,9 @@
             this.spdValue.Tag = "ivs";
             this.spdValue.Text = "31";
             this.spdValue.ValidatingType = typeof(int);
-            // 
+            //
             // spaValue
-            // 
+            //
             this.spaValue.Hex = false;
             this.spaValue.Location = new System.Drawing.Point(79, 134);
             this.spaValue.Mask = "00";
@@ -850,9 +850,9 @@
             this.spaValue.Tag = "ivs";
             this.spaValue.Text = "0";
             this.spaValue.ValidatingType = typeof(int);
-            // 
+            //
             // defValue
-            // 
+            //
             this.defValue.Hex = false;
             this.defValue.Location = new System.Drawing.Point(79, 100);
             this.defValue.Mask = "00";
@@ -862,9 +862,9 @@
             this.defValue.Tag = "ivs";
             this.defValue.Text = "31";
             this.defValue.ValidatingType = typeof(int);
-            // 
+            //
             // atkValue
-            // 
+            //
             this.atkValue.Hex = false;
             this.atkValue.Location = new System.Drawing.Point(79, 64);
             this.atkValue.Mask = "00";
@@ -874,9 +874,9 @@
             this.atkValue.Tag = "ivs";
             this.atkValue.Text = "31";
             this.atkValue.ValidatingType = typeof(int);
-            // 
+            //
             // hpValue
-            // 
+            //
             this.hpValue.Hex = false;
             this.hpValue.Location = new System.Drawing.Point(79, 31);
             this.hpValue.Mask = "00";
@@ -886,9 +886,9 @@
             this.hpValue.Tag = "ivs";
             this.hpValue.Text = "31";
             this.hpValue.ValidatingType = typeof(int);
-            // 
+            //
             // anyHiddenPower
-            // 
+            //
             this.anyHiddenPower.BackColor = System.Drawing.Color.AntiqueWhite;
             this.anyHiddenPower.ForeColor = System.Drawing.Color.Black;
             this.anyHiddenPower.Location = new System.Drawing.Point(649, 139);
@@ -897,11 +897,11 @@
             this.anyHiddenPower.ShineColor = System.Drawing.SystemColors.Window;
             this.anyHiddenPower.Size = new System.Drawing.Size(33, 23);
             this.anyHiddenPower.TabIndex = 288;
-            this.anyHiddenPower.Text = "Any";
+            this.anyHiddenPower.Text = "任意";
             this.anyHiddenPower.Click += new System.EventHandler(this.anyHiddenPower_Click);
-            // 
+            //
             // anyAbility
-            // 
+            //
             this.anyAbility.BackColor = System.Drawing.Color.AntiqueWhite;
             this.anyAbility.ForeColor = System.Drawing.Color.Black;
             this.anyAbility.Location = new System.Drawing.Point(649, 105);
@@ -910,11 +910,11 @@
             this.anyAbility.ShineColor = System.Drawing.SystemColors.Window;
             this.anyAbility.Size = new System.Drawing.Size(33, 23);
             this.anyAbility.TabIndex = 289;
-            this.anyAbility.Text = "Any";
+            this.anyAbility.Text = "任意";
             this.anyAbility.Click += new System.EventHandler(this.anyAbility_Click);
-            // 
+            //
             // anyGender
-            // 
+            //
             this.anyGender.BackColor = System.Drawing.Color.AntiqueWhite;
             this.anyGender.ForeColor = System.Drawing.Color.Black;
             this.anyGender.Location = new System.Drawing.Point(649, 69);
@@ -923,11 +923,11 @@
             this.anyGender.ShineColor = System.Drawing.SystemColors.Window;
             this.anyGender.Size = new System.Drawing.Size(33, 23);
             this.anyGender.TabIndex = 290;
-            this.anyGender.Text = "Any";
+            this.anyGender.Text = "任意";
             this.anyGender.Click += new System.EventHandler(this.anyGender_Click);
-            // 
+            //
             // anyNature
-            // 
+            //
             this.anyNature.BackColor = System.Drawing.Color.AntiqueWhite;
             this.anyNature.ForeColor = System.Drawing.Color.Black;
             this.anyNature.Location = new System.Drawing.Point(649, 35);
@@ -936,12 +936,12 @@
             this.anyNature.ShineColor = System.Drawing.SystemColors.Window;
             this.anyNature.Size = new System.Drawing.Size(33, 23);
             this.anyNature.TabIndex = 291;
-            this.anyNature.Text = "Any";
+            this.anyNature.Text = "任意";
             this.anyNature.Click += new System.EventHandler(this.anyNature_Click);
-            // 
+            //
             // comboBoxNature
-            // 
-            this.comboBoxNature.BlankText = "Any";
+            //
+            this.comboBoxNature.BlankText = "任意";
             checkBoxProperties2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.comboBoxNature.CheckBoxProperties = checkBoxProperties2;
             this.comboBoxNature.DisplayMemberSingleItem = "";
@@ -952,9 +952,9 @@
             this.comboBoxNature.Name = "comboBoxNature";
             this.comboBoxNature.Size = new System.Drawing.Size(188, 21);
             this.comboBoxNature.TabIndex = 318;
-            // 
+            //
             // hp31Quick
-            // 
+            //
             this.hp31Quick.BackColor = System.Drawing.Color.AntiqueWhite;
             this.hp31Quick.ForeColor = System.Drawing.Color.Black;
             this.hp31Quick.Location = new System.Drawing.Point(156, 30);
@@ -965,9 +965,9 @@
             this.hp31Quick.TabIndex = 294;
             this.hp31Quick.Text = "==31";
             this.hp31Quick.Click += new System.EventHandler(this.hp31Quick_Click);
-            // 
+            //
             // hp30Quick
-            // 
+            //
             this.hp30Quick.BackColor = System.Drawing.Color.AntiqueWhite;
             this.hp30Quick.ForeColor = System.Drawing.Color.Black;
             this.hp30Quick.Location = new System.Drawing.Point(206, 30);
@@ -978,9 +978,9 @@
             this.hp30Quick.TabIndex = 295;
             this.hp30Quick.Text = "==30";
             this.hp30Quick.Click += new System.EventHandler(this.hp30Quick_Click);
-            // 
+            //
             // spe30Above
-            // 
+            //
             this.spe30Above.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spe30Above.ForeColor = System.Drawing.Color.Black;
             this.spe30Above.Location = new System.Drawing.Point(256, 202);
@@ -991,9 +991,9 @@
             this.spe30Above.TabIndex = 316;
             this.spe30Above.Text = ">=30";
             this.spe30Above.Click += new System.EventHandler(this.spe30Above_Click);
-            // 
+            //
             // hp30Above
-            // 
+            //
             this.hp30Above.BackColor = System.Drawing.Color.AntiqueWhite;
             this.hp30Above.ForeColor = System.Drawing.Color.Black;
             this.hp30Above.Location = new System.Drawing.Point(256, 30);
@@ -1004,9 +1004,9 @@
             this.hp30Above.TabIndex = 296;
             this.hp30Above.Text = ">=30";
             this.hp30Above.Click += new System.EventHandler(this.hp30Above_Click);
-            // 
+            //
             // spe30Quick
-            // 
+            //
             this.spe30Quick.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spe30Quick.ForeColor = System.Drawing.Color.Black;
             this.spe30Quick.Location = new System.Drawing.Point(206, 202);
@@ -1017,9 +1017,9 @@
             this.spe30Quick.TabIndex = 315;
             this.spe30Quick.Text = "==30";
             this.spe30Quick.Click += new System.EventHandler(this.spe30Quick_Click);
-            // 
+            //
             // spe31Quick
-            // 
+            //
             this.spe31Quick.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spe31Quick.ForeColor = System.Drawing.Color.Black;
             this.spe31Quick.Location = new System.Drawing.Point(156, 202);
@@ -1030,9 +1030,9 @@
             this.spe31Quick.TabIndex = 314;
             this.spe31Quick.Text = "==31";
             this.spe31Quick.Click += new System.EventHandler(this.spe31Quick_Click);
-            // 
+            //
             // atk31Quick
-            // 
+            //
             this.atk31Quick.BackColor = System.Drawing.Color.AntiqueWhite;
             this.atk31Quick.ForeColor = System.Drawing.Color.Black;
             this.atk31Quick.Location = new System.Drawing.Point(156, 63);
@@ -1043,9 +1043,9 @@
             this.atk31Quick.TabIndex = 298;
             this.atk31Quick.Text = "==31";
             this.atk31Quick.Click += new System.EventHandler(this.atk31Quick_Click);
-            // 
+            //
             // atk30Quick
-            // 
+            //
             this.atk30Quick.BackColor = System.Drawing.Color.AntiqueWhite;
             this.atk30Quick.ForeColor = System.Drawing.Color.Black;
             this.atk30Quick.Location = new System.Drawing.Point(206, 63);
@@ -1056,9 +1056,9 @@
             this.atk30Quick.TabIndex = 299;
             this.atk30Quick.Text = "==30";
             this.atk30Quick.Click += new System.EventHandler(this.atk30Quick_Click);
-            // 
+            //
             // spd30Above
-            // 
+            //
             this.spd30Above.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spd30Above.ForeColor = System.Drawing.Color.Black;
             this.spd30Above.Location = new System.Drawing.Point(256, 167);
@@ -1069,9 +1069,9 @@
             this.spd30Above.TabIndex = 312;
             this.spd30Above.Text = ">=30";
             this.spd30Above.Click += new System.EventHandler(this.spd30Above_Click);
-            // 
+            //
             // atk30Above
-            // 
+            //
             this.atk30Above.BackColor = System.Drawing.Color.AntiqueWhite;
             this.atk30Above.ForeColor = System.Drawing.Color.Black;
             this.atk30Above.Location = new System.Drawing.Point(256, 63);
@@ -1082,9 +1082,9 @@
             this.atk30Above.TabIndex = 300;
             this.atk30Above.Text = ">=30";
             this.atk30Above.Click += new System.EventHandler(this.atk30Above_Click);
-            // 
+            //
             // spd30Quick
-            // 
+            //
             this.spd30Quick.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spd30Quick.ForeColor = System.Drawing.Color.Black;
             this.spd30Quick.Location = new System.Drawing.Point(206, 167);
@@ -1095,9 +1095,9 @@
             this.spd30Quick.TabIndex = 311;
             this.spd30Quick.Text = "==30";
             this.spd30Quick.Click += new System.EventHandler(this.spd30Quick_Click);
-            // 
+            //
             // spd31Quick
-            // 
+            //
             this.spd31Quick.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spd31Quick.ForeColor = System.Drawing.Color.Black;
             this.spd31Quick.Location = new System.Drawing.Point(156, 167);
@@ -1108,9 +1108,9 @@
             this.spd31Quick.TabIndex = 310;
             this.spd31Quick.Text = "==31";
             this.spd31Quick.Click += new System.EventHandler(this.spd31Quick_Click);
-            // 
+            //
             // def31Quick
-            // 
+            //
             this.def31Quick.BackColor = System.Drawing.Color.AntiqueWhite;
             this.def31Quick.ForeColor = System.Drawing.Color.Black;
             this.def31Quick.Location = new System.Drawing.Point(156, 99);
@@ -1121,9 +1121,9 @@
             this.def31Quick.TabIndex = 302;
             this.def31Quick.Text = "==31";
             this.def31Quick.Click += new System.EventHandler(this.def31Quick_Click);
-            // 
+            //
             // def30Quick
-            // 
+            //
             this.def30Quick.BackColor = System.Drawing.Color.AntiqueWhite;
             this.def30Quick.ForeColor = System.Drawing.Color.Black;
             this.def30Quick.Location = new System.Drawing.Point(206, 99);
@@ -1134,9 +1134,9 @@
             this.def30Quick.TabIndex = 303;
             this.def30Quick.Text = "==30";
             this.def30Quick.Click += new System.EventHandler(this.def30Quick_Click);
-            // 
+            //
             // spa30Above
-            // 
+            //
             this.spa30Above.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spa30Above.ForeColor = System.Drawing.Color.Black;
             this.spa30Above.Location = new System.Drawing.Point(256, 133);
@@ -1147,9 +1147,9 @@
             this.spa30Above.TabIndex = 308;
             this.spa30Above.Text = ">=30";
             this.spa30Above.Click += new System.EventHandler(this.spa30Above_Click);
-            // 
+            //
             // def30Above
-            // 
+            //
             this.def30Above.BackColor = System.Drawing.Color.AntiqueWhite;
             this.def30Above.ForeColor = System.Drawing.Color.Black;
             this.def30Above.Location = new System.Drawing.Point(256, 99);
@@ -1160,9 +1160,9 @@
             this.def30Above.TabIndex = 304;
             this.def30Above.Text = ">=30";
             this.def30Above.Click += new System.EventHandler(this.def30Above_Click);
-            // 
+            //
             // spa30Quick
-            // 
+            //
             this.spa30Quick.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spa30Quick.ForeColor = System.Drawing.Color.Black;
             this.spa30Quick.Location = new System.Drawing.Point(206, 133);
@@ -1173,9 +1173,9 @@
             this.spa30Quick.TabIndex = 307;
             this.spa30Quick.Text = "==30";
             this.spa30Quick.Click += new System.EventHandler(this.spa30Quick_Click);
-            // 
+            //
             // spa31Quick
-            // 
+            //
             this.spa31Quick.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spa31Quick.ForeColor = System.Drawing.Color.Black;
             this.spa31Quick.Location = new System.Drawing.Point(156, 133);
@@ -1186,9 +1186,9 @@
             this.spa31Quick.TabIndex = 306;
             this.spa31Quick.Text = "==31";
             this.spa31Quick.Click += new System.EventHandler(this.spa31Quick_Click);
-            // 
+            //
             // tabPage2
-            // 
+            //
             this.tabPage2.Controls.Add(this.label5);
             this.tabPage2.Controls.Add(this.comboBoxGame);
             this.tabPage2.Controls.Add(this.generateShadow);
@@ -1264,33 +1264,33 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(1109, 552);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Shadow Checker";
+            this.tabPage2.Text = "黑暗宝可梦";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
+            //
             // label5
-            // 
+            //
             this.label5.Location = new System.Drawing.Point(67, 99);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(37, 20);
             this.label5.TabIndex = 407;
-            this.label5.Text = "Game";
+            this.label5.Text = "游戏版本";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // comboBoxGame
-            // 
+            //
             this.comboBoxGame.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxGame.FormattingEnabled = true;
             this.comboBoxGame.Items.AddRange(new object[] {
-            "Gales",
-            "Colo"});
+            "XD暗之旋风",
+            "圆形竞技场"});
             this.comboBoxGame.Location = new System.Drawing.Point(113, 99);
             this.comboBoxGame.Name = "comboBoxGame";
             this.comboBoxGame.Size = new System.Drawing.Size(174, 21);
             this.comboBoxGame.TabIndex = 406;
             this.comboBoxGame.SelectedIndexChanged += new System.EventHandler(this.comboBoxGame_SelectedIndexChanged);
-            // 
+            //
             // generateShadow
-            // 
+            //
             this.generateShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.generateShadow.ForeColor = System.Drawing.Color.Black;
             this.generateShadow.Location = new System.Drawing.Point(6, 184);
@@ -1299,11 +1299,11 @@
             this.generateShadow.ShineColor = System.Drawing.SystemColors.Window;
             this.generateShadow.Size = new System.Drawing.Size(75, 23);
             this.generateShadow.TabIndex = 405;
-            this.generateShadow.Text = "Generate";
+            this.generateShadow.Text = "计算";
             this.generateShadow.Click += new System.EventHandler(this.generateShadow_Click);
-            // 
+            //
             // dataGridShadow
-            // 
+            //
             this.dataGridShadow.AllowUserToAddRows = false;
             this.dataGridShadow.AllowUserToDeleteRows = false;
             this.dataGridShadow.AllowUserToResizeRows = false;
@@ -1344,16 +1344,16 @@
             this.dataGridShadow.ShowRowErrors = false;
             this.dataGridShadow.Size = new System.Drawing.Size(1097, 333);
             this.dataGridShadow.TabIndex = 404;
-            // 
+            //
             // Frame
-            // 
-            this.Frame.DataPropertyName = "Frame";
-            this.Frame.HeaderText = "Frame";
-            this.Frame.Name = "Frame";
+            //
+            this.Frame.DataPropertyName = "帧";
+            this.Frame.HeaderText = "帧数";
+            this.Frame.Name = "帧";
             this.Frame.ReadOnly = true;
-            // 
+            //
             // dataGridViewTextBoxColumn13
-            // 
+            //
             this.dataGridViewTextBoxColumn13.DataPropertyName = "PID";
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Consolas", 8.75F);
             this.dataGridViewTextBoxColumn13.DefaultCellStyle = dataGridViewCellStyle2;
@@ -1361,130 +1361,130 @@
             this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
             this.dataGridViewTextBoxColumn13.ReadOnly = true;
             this.dataGridViewTextBoxColumn13.Width = 75;
-            // 
+            //
             // dataGridViewTextBoxColumn15
-            // 
-            this.dataGridViewTextBoxColumn15.DataPropertyName = "Nature";
-            this.dataGridViewTextBoxColumn15.HeaderText = "Nature";
+            //
+            this.dataGridViewTextBoxColumn15.DataPropertyName = "性格";
+            this.dataGridViewTextBoxColumn15.HeaderText = "性格";
             this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
             this.dataGridViewTextBoxColumn15.ReadOnly = true;
             this.dataGridViewTextBoxColumn15.Width = 75;
-            // 
+            //
             // dataGridViewTextBoxColumn16
-            // 
-            this.dataGridViewTextBoxColumn16.DataPropertyName = "Ability";
-            this.dataGridViewTextBoxColumn16.HeaderText = "Ability";
+            //
+            this.dataGridViewTextBoxColumn16.DataPropertyName = "特性";
+            this.dataGridViewTextBoxColumn16.HeaderText = "特性";
             this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
             this.dataGridViewTextBoxColumn16.ReadOnly = true;
             this.dataGridViewTextBoxColumn16.Width = 45;
-            // 
+            //
             // dataGridViewTextBoxColumn17
-            // 
-            this.dataGridViewTextBoxColumn17.DataPropertyName = "HP";
-            this.dataGridViewTextBoxColumn17.HeaderText = "HP";
+            //
+            this.dataGridViewTextBoxColumn17.DataPropertyName = "觉醒力量";
+            this.dataGridViewTextBoxColumn17.HeaderText = "觉醒力量";
             this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
             this.dataGridViewTextBoxColumn17.ReadOnly = true;
             this.dataGridViewTextBoxColumn17.Width = 35;
-            // 
+            //
             // dataGridViewTextBoxColumn18
-            // 
-            this.dataGridViewTextBoxColumn18.DataPropertyName = "Atk";
-            this.dataGridViewTextBoxColumn18.HeaderText = "Atk";
+            //
+            this.dataGridViewTextBoxColumn18.DataPropertyName = "攻击";
+            this.dataGridViewTextBoxColumn18.HeaderText = "攻击";
             this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
             this.dataGridViewTextBoxColumn18.ReadOnly = true;
             this.dataGridViewTextBoxColumn18.Width = 35;
-            // 
+            //
             // dataGridViewTextBoxColumn19
-            // 
-            this.dataGridViewTextBoxColumn19.DataPropertyName = "Def";
-            this.dataGridViewTextBoxColumn19.HeaderText = "Def";
+            //
+            this.dataGridViewTextBoxColumn19.DataPropertyName = "防御";
+            this.dataGridViewTextBoxColumn19.HeaderText = "防御";
             this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
             this.dataGridViewTextBoxColumn19.ReadOnly = true;
             this.dataGridViewTextBoxColumn19.Width = 35;
-            // 
+            //
             // dataGridViewTextBoxColumn20
-            // 
-            this.dataGridViewTextBoxColumn20.DataPropertyName = "SpA";
-            this.dataGridViewTextBoxColumn20.HeaderText = "SpA";
+            //
+            this.dataGridViewTextBoxColumn20.DataPropertyName = "特攻";
+            this.dataGridViewTextBoxColumn20.HeaderText = "特攻";
             this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
             this.dataGridViewTextBoxColumn20.ReadOnly = true;
             this.dataGridViewTextBoxColumn20.Width = 35;
-            // 
+            //
             // dataGridViewTextBoxColumn21
-            // 
-            this.dataGridViewTextBoxColumn21.DataPropertyName = "SpD";
-            this.dataGridViewTextBoxColumn21.HeaderText = "SpD";
+            //
+            this.dataGridViewTextBoxColumn21.DataPropertyName = "特防";
+            this.dataGridViewTextBoxColumn21.HeaderText = "特防";
             this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
             this.dataGridViewTextBoxColumn21.ReadOnly = true;
             this.dataGridViewTextBoxColumn21.Width = 35;
-            // 
+            //
             // dataGridViewTextBoxColumn22
-            // 
-            this.dataGridViewTextBoxColumn22.DataPropertyName = "Spe";
-            this.dataGridViewTextBoxColumn22.HeaderText = "Spe";
+            //
+            this.dataGridViewTextBoxColumn22.DataPropertyName = "速度";
+            this.dataGridViewTextBoxColumn22.HeaderText = "速度";
             this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
             this.dataGridViewTextBoxColumn22.ReadOnly = true;
             this.dataGridViewTextBoxColumn22.Width = 35;
-            // 
+            //
             // dataGridViewTextBoxColumn23
-            // 
-            this.dataGridViewTextBoxColumn23.DataPropertyName = "Hidden";
-            this.dataGridViewTextBoxColumn23.HeaderText = "Hidden";
+            //
+            this.dataGridViewTextBoxColumn23.DataPropertyName = "觉醒";
+            this.dataGridViewTextBoxColumn23.HeaderText = "觉醒力量";
             this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
             this.dataGridViewTextBoxColumn23.ReadOnly = true;
             this.dataGridViewTextBoxColumn23.Width = 50;
-            // 
+            //
             // dataGridViewTextBoxColumn24
-            // 
-            this.dataGridViewTextBoxColumn24.DataPropertyName = "Power";
-            this.dataGridViewTextBoxColumn24.HeaderText = "Power";
+            //
+            this.dataGridViewTextBoxColumn24.DataPropertyName = "威力";
+            this.dataGridViewTextBoxColumn24.HeaderText = "觉醒力量威力";
             this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
             this.dataGridViewTextBoxColumn24.ReadOnly = true;
             this.dataGridViewTextBoxColumn24.Width = 50;
-            // 
+            //
             // dataGridViewTextBoxColumn25
-            // 
+            //
             this.dataGridViewTextBoxColumn25.DataPropertyName = "Eighth";
             this.dataGridViewTextBoxColumn25.HeaderText = "12.5%F";
             this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
             this.dataGridViewTextBoxColumn25.ReadOnly = true;
             this.dataGridViewTextBoxColumn25.Width = 50;
-            // 
+            //
             // dataGridViewTextBoxColumn26
-            // 
+            //
             this.dataGridViewTextBoxColumn26.DataPropertyName = "Quarter";
             this.dataGridViewTextBoxColumn26.HeaderText = "25% F";
             this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
             this.dataGridViewTextBoxColumn26.ReadOnly = true;
             this.dataGridViewTextBoxColumn26.Width = 50;
-            // 
+            //
             // dataGridViewTextBoxColumn27
-            // 
+            //
             this.dataGridViewTextBoxColumn27.DataPropertyName = "Half";
             this.dataGridViewTextBoxColumn27.HeaderText = "50% F";
             this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
             this.dataGridViewTextBoxColumn27.ReadOnly = true;
             this.dataGridViewTextBoxColumn27.Width = 50;
-            // 
+            //
             // dataGridViewTextBoxColumn28
-            // 
+            //
             this.dataGridViewTextBoxColumn28.DataPropertyName = "Three_Fourths";
             this.dataGridViewTextBoxColumn28.HeaderText = "75% F";
             this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
             this.dataGridViewTextBoxColumn28.ReadOnly = true;
             this.dataGridViewTextBoxColumn28.Width = 50;
-            // 
+            //
             // label21
-            // 
+            //
             this.label21.Location = new System.Drawing.Point(50, 153);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(57, 20);
             this.label21.TabIndex = 403;
-            this.label21.Text = "Method";
+            this.label21.Text = "算法";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // comboBoxMethodShadow
-            // 
+            //
             this.comboBoxMethodShadow.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxMethodShadow.FormattingEnabled = true;
             this.comboBoxMethodShadow.Items.AddRange(new object[] {
@@ -1495,27 +1495,27 @@
             this.comboBoxMethodShadow.Name = "comboBoxMethodShadow";
             this.comboBoxMethodShadow.Size = new System.Drawing.Size(174, 21);
             this.comboBoxMethodShadow.TabIndex = 402;
-            // 
+            //
             // label20
-            // 
+            //
             this.label20.Location = new System.Drawing.Point(758, 184);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(199, 20);
             this.label20.TabIndex = 401;
-            this.label20.Text = "any shiny changes from TID and SID";
+            this.label20.Text = "任何因 TID 和 SID 造成的闪光变化";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label19
-            // 
+            //
             this.label19.Location = new System.Drawing.Point(763, 169);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(199, 20);
             this.label19.TabIndex = 400;
-            this.label19.Text = "Shadow Checker does not account for";
+            this.label19.Text = "黑暗宝可梦不会考虑TID和SID引起的任何闪光变化";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label16
-            // 
+            //
             this.label16.AutoSize = true;
             this.label16.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label16.Location = new System.Drawing.Point(47, 77);
@@ -1523,38 +1523,38 @@
             this.label16.Size = new System.Drawing.Size(60, 13);
             this.label16.TabIndex = 399;
             this.label16.Text = "Seed (Hex)";
-            // 
+            //
             // label17
-            // 
+            //
             this.label17.AutoSize = true;
             this.label17.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label17.Location = new System.Drawing.Point(32, 50);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(75, 13);
             this.label17.TabIndex = 396;
-            this.label17.Text = "Starting Frame";
-            // 
+            this.label17.Text = "初始帧";
+            //
             // label18
-            // 
+            //
             this.label18.AutoSize = true;
             this.label18.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label18.Location = new System.Drawing.Point(42, 24);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(65, 13);
             this.label18.TabIndex = 394;
-            this.label18.Text = "Max Results";
-            // 
+            this.label18.Text = "最大结果帧";
+            //
             // label15
-            // 
+            //
             this.label15.Location = new System.Drawing.Point(50, 128);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(57, 20);
             this.label15.TabIndex = 393;
-            this.label15.Text = "Shadow";
+            this.label15.Text = "黑暗宝可梦";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // comboBoxShadow
-            // 
+            //
             this.comboBoxShadow.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxShadow.FormattingEnabled = true;
             this.comboBoxShadow.Location = new System.Drawing.Point(113, 126);
@@ -1562,44 +1562,44 @@
             this.comboBoxShadow.Size = new System.Drawing.Size(174, 21);
             this.comboBoxShadow.TabIndex = 392;
             this.comboBoxShadow.SelectionChangeCommitted += new System.EventHandler(this.comboBoxShadow_SelectionChangeCommitted);
-            // 
+            //
             // comboBoxAbilityShadow
-            // 
+            //
             this.comboBoxAbilityShadow.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxAbilityShadow.FormattingEnabled = true;
             this.comboBoxAbilityShadow.Items.AddRange(new object[] {
-            "Any",
+            "任意",
             "Ability 0",
             "Ability 1"});
             this.comboBoxAbilityShadow.Location = new System.Drawing.Point(774, 95);
             this.comboBoxAbilityShadow.Name = "comboBoxAbilityShadow";
             this.comboBoxAbilityShadow.Size = new System.Drawing.Size(188, 21);
             this.comboBoxAbilityShadow.TabIndex = 380;
-            // 
+            //
             // label11
-            // 
+            //
             this.label11.Location = new System.Drawing.Point(715, 96);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(57, 20);
             this.label11.TabIndex = 382;
-            this.label11.Text = "Ability";
+            this.label11.Text = "特性";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label12
-            // 
+            //
             this.label12.Location = new System.Drawing.Point(715, 60);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(57, 20);
             this.label12.TabIndex = 383;
-            this.label12.Text = "Gender";
+            this.label12.Text = "性别比例";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // comboBoxGenderShadow
-            // 
+            //
             this.comboBoxGenderShadow.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxGenderShadow.FormattingEnabled = true;
             this.comboBoxGenderShadow.Items.AddRange(new object[] {
-            "Don\'t Care / Genderless",
+            "不考虑/无性别",
             "Male (50% Male / 50% Female)",
             "Female (50% Male / 50% Female)",
             "Male (25% Male / 75% Female)",
@@ -1608,91 +1608,91 @@
             "Female (75% Male / 25% Female)",
             "Male (87.5% Male / 12.5% Female)",
             "Female (87.5% Male / 12.5% Female)",
-            "Male (100% Male)",
-            "Female (100% Female)"});
+            "♂(只有♂)",
+            "♀(只有♀)"});
             this.comboBoxGenderShadow.Location = new System.Drawing.Point(774, 60);
             this.comboBoxGenderShadow.Name = "comboBoxGenderShadow";
             this.comboBoxGenderShadow.Size = new System.Drawing.Size(188, 21);
             this.comboBoxGenderShadow.TabIndex = 381;
-            // 
+            //
             // label13
-            // 
+            //
             this.label13.Location = new System.Drawing.Point(715, 130);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(57, 20);
             this.label13.TabIndex = 384;
-            this.label13.Text = "HP";
+            this.label13.Text = "觉醒力量";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label14
-            // 
+            //
             this.label14.Location = new System.Drawing.Point(715, 26);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(57, 20);
             this.label14.TabIndex = 385;
-            this.label14.Text = "Nature";
+            this.label14.Text = "性格";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label4
-            // 
+            //
             this.label4.Location = new System.Drawing.Point(328, 13);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(40, 20);
             this.label4.TabIndex = 338;
-            this.label4.Text = "HP";
+            this.label4.Text = "觉醒力量";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label6
-            // 
+            //
             this.label6.Location = new System.Drawing.Point(328, 47);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(40, 20);
             this.label6.TabIndex = 339;
-            this.label6.Text = "Atk";
+            this.label6.Text = "攻击";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label7
-            // 
+            //
             this.label7.Location = new System.Drawing.Point(328, 82);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(40, 20);
             this.label7.TabIndex = 340;
-            this.label7.Text = "Def";
+            this.label7.Text = "防御";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label8
-            // 
+            //
             this.label8.Location = new System.Drawing.Point(328, 117);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(40, 20);
             this.label8.TabIndex = 341;
-            this.label8.Text = "SpA";
+            this.label8.Text = "特攻";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label9
-            // 
+            //
             this.label9.Location = new System.Drawing.Point(328, 151);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(40, 20);
             this.label9.TabIndex = 342;
-            this.label9.Text = "SpD";
+            this.label9.Text = "特防";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label10
-            // 
+            //
             this.label10.Location = new System.Drawing.Point(328, 186);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(40, 20);
             this.label10.TabIndex = 343;
-            this.label10.Text = "Spe";
+            this.label10.Text = "速度";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // hpLogicShadow
-            // 
+            //
             this.hpLogicShadow.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.hpLogicShadow.FormattingEnabled = true;
             this.hpLogicShadow.Items.AddRange(new object[] {
-            "None",
+            "无",
             "==",
             ">=",
             "<="});
@@ -1700,13 +1700,13 @@
             this.hpLogicShadow.Name = "hpLogicShadow";
             this.hpLogicShadow.Size = new System.Drawing.Size(54, 21);
             this.hpLogicShadow.TabIndex = 344;
-            // 
+            //
             // atkLogicShadow
-            // 
+            //
             this.atkLogicShadow.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.atkLogicShadow.FormattingEnabled = true;
             this.atkLogicShadow.Items.AddRange(new object[] {
-            "None",
+            "无",
             "==",
             ">=",
             "<="});
@@ -1714,13 +1714,13 @@
             this.atkLogicShadow.Name = "atkLogicShadow";
             this.atkLogicShadow.Size = new System.Drawing.Size(54, 21);
             this.atkLogicShadow.TabIndex = 348;
-            // 
+            //
             // speLogicShadow
-            // 
+            //
             this.speLogicShadow.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.speLogicShadow.FormattingEnabled = true;
             this.speLogicShadow.Items.AddRange(new object[] {
-            "None",
+            "无",
             "==",
             ">=",
             "<="});
@@ -1728,13 +1728,13 @@
             this.speLogicShadow.Name = "speLogicShadow";
             this.speLogicShadow.Size = new System.Drawing.Size(54, 21);
             this.speLogicShadow.TabIndex = 364;
-            // 
+            //
             // defLogicShadow
-            // 
+            //
             this.defLogicShadow.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.defLogicShadow.FormattingEnabled = true;
             this.defLogicShadow.Items.AddRange(new object[] {
-            "None",
+            "无",
             "==",
             ">=",
             "<="});
@@ -1742,13 +1742,13 @@
             this.defLogicShadow.Name = "defLogicShadow";
             this.defLogicShadow.Size = new System.Drawing.Size(54, 21);
             this.defLogicShadow.TabIndex = 352;
-            // 
+            //
             // spdLogicShadow
-            // 
+            //
             this.spdLogicShadow.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.spdLogicShadow.FormattingEnabled = true;
             this.spdLogicShadow.Items.AddRange(new object[] {
-            "None",
+            "无",
             "==",
             ">=",
             "<="});
@@ -1756,13 +1756,13 @@
             this.spdLogicShadow.Name = "spdLogicShadow";
             this.spdLogicShadow.Size = new System.Drawing.Size(54, 21);
             this.spdLogicShadow.TabIndex = 360;
-            // 
+            //
             // spaLogicShadow
-            // 
+            //
             this.spaLogicShadow.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.spaLogicShadow.FormattingEnabled = true;
             this.spaLogicShadow.Items.AddRange(new object[] {
-            "None",
+            "无",
             "==",
             ">=",
             "<="});
@@ -1770,18 +1770,18 @@
             this.spaLogicShadow.Name = "spaLogicShadow";
             this.spaLogicShadow.Size = new System.Drawing.Size(54, 21);
             this.spaLogicShadow.TabIndex = 356;
-            // 
+            //
             // textBoxSeed
-            // 
+            //
             this.textBoxSeed.Hex = true;
             this.textBoxSeed.Location = new System.Drawing.Point(113, 73);
             this.textBoxSeed.Mask = "AAAAAAAA";
             this.textBoxSeed.Name = "textBoxSeed";
             this.textBoxSeed.Size = new System.Drawing.Size(85, 20);
             this.textBoxSeed.TabIndex = 398;
-            // 
+            //
             // maskedTextBoxStartingFrame
-            // 
+            //
             this.maskedTextBoxStartingFrame.Hex = false;
             this.maskedTextBoxStartingFrame.Location = new System.Drawing.Point(113, 47);
             this.maskedTextBoxStartingFrame.Mask = "0000000000";
@@ -1790,9 +1790,9 @@
             this.maskedTextBoxStartingFrame.TabIndex = 397;
             this.maskedTextBoxStartingFrame.Text = "1";
             this.maskedTextBoxStartingFrame.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxMaxFrames
-            // 
+            //
             this.maskedTextBoxMaxFrames.Hex = false;
             this.maskedTextBoxMaxFrames.Location = new System.Drawing.Point(113, 21);
             this.maskedTextBoxMaxFrames.Mask = "0000000000";
@@ -1800,10 +1800,10 @@
             this.maskedTextBoxMaxFrames.Size = new System.Drawing.Size(85, 20);
             this.maskedTextBoxMaxFrames.TabIndex = 395;
             this.maskedTextBoxMaxFrames.Text = "100000";
-            // 
+            //
             // checkBoxHPShadow
-            // 
-            this.checkBoxHPShadow.BlankText = "Any";
+            //
+            this.checkBoxHPShadow.BlankText = "任意";
             checkBoxProperties3.ForeColor = System.Drawing.SystemColors.ControlText;
             this.checkBoxHPShadow.CheckBoxProperties = checkBoxProperties3;
             this.checkBoxHPShadow.DisplayMemberSingleItem = "";
@@ -1814,9 +1814,9 @@
             this.checkBoxHPShadow.Name = "checkBoxHPShadow";
             this.checkBoxHPShadow.Size = new System.Drawing.Size(188, 21);
             this.checkBoxHPShadow.TabIndex = 391;
-            // 
+            //
             // anyHPShadow
-            // 
+            //
             this.anyHPShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.anyHPShadow.ForeColor = System.Drawing.Color.Black;
             this.anyHPShadow.Location = new System.Drawing.Point(968, 130);
@@ -1825,11 +1825,11 @@
             this.anyHPShadow.ShineColor = System.Drawing.SystemColors.Window;
             this.anyHPShadow.Size = new System.Drawing.Size(33, 23);
             this.anyHPShadow.TabIndex = 386;
-            this.anyHPShadow.Text = "Any";
+            this.anyHPShadow.Text = "任意";
             this.anyHPShadow.Click += new System.EventHandler(this.anyHPShadow_Click);
-            // 
+            //
             // anyAbilityShadow
-            // 
+            //
             this.anyAbilityShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.anyAbilityShadow.ForeColor = System.Drawing.Color.Black;
             this.anyAbilityShadow.Location = new System.Drawing.Point(968, 96);
@@ -1838,11 +1838,11 @@
             this.anyAbilityShadow.ShineColor = System.Drawing.SystemColors.Window;
             this.anyAbilityShadow.Size = new System.Drawing.Size(33, 23);
             this.anyAbilityShadow.TabIndex = 387;
-            this.anyAbilityShadow.Text = "Any";
+            this.anyAbilityShadow.Text = "任意";
             this.anyAbilityShadow.Click += new System.EventHandler(this.anyAbilityShadow_Click);
-            // 
+            //
             // anyGenderShadow
-            // 
+            //
             this.anyGenderShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.anyGenderShadow.ForeColor = System.Drawing.Color.Black;
             this.anyGenderShadow.Location = new System.Drawing.Point(968, 60);
@@ -1851,11 +1851,11 @@
             this.anyGenderShadow.ShineColor = System.Drawing.SystemColors.Window;
             this.anyGenderShadow.Size = new System.Drawing.Size(33, 23);
             this.anyGenderShadow.TabIndex = 388;
-            this.anyGenderShadow.Text = "Any";
+            this.anyGenderShadow.Text = "任意";
             this.anyGenderShadow.Click += new System.EventHandler(this.anyGenderShadow_Click);
-            // 
+            //
             // anyNatureShadow
-            // 
+            //
             this.anyNatureShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.anyNatureShadow.ForeColor = System.Drawing.Color.Black;
             this.anyNatureShadow.Location = new System.Drawing.Point(968, 26);
@@ -1864,12 +1864,12 @@
             this.anyNatureShadow.ShineColor = System.Drawing.SystemColors.Window;
             this.anyNatureShadow.Size = new System.Drawing.Size(33, 23);
             this.anyNatureShadow.TabIndex = 389;
-            this.anyNatureShadow.Text = "Any";
+            this.anyNatureShadow.Text = "任意";
             this.anyNatureShadow.Click += new System.EventHandler(this.anyNatureShadow_Click);
-            // 
+            //
             // checkBoxNatureShadow
-            // 
-            this.checkBoxNatureShadow.BlankText = "Any";
+            //
+            this.checkBoxNatureShadow.BlankText = "任意";
             checkBoxProperties4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.checkBoxNatureShadow.CheckBoxProperties = checkBoxProperties4;
             this.checkBoxNatureShadow.DisplayMemberSingleItem = "";
@@ -1880,9 +1880,9 @@
             this.checkBoxNatureShadow.Name = "checkBoxNatureShadow";
             this.checkBoxNatureShadow.Size = new System.Drawing.Size(188, 21);
             this.checkBoxNatureShadow.TabIndex = 390;
-            // 
+            //
             // speClearShadow
-            // 
+            //
             this.speClearShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.speClearShadow.ForeColor = System.Drawing.Color.Black;
             this.speClearShadow.Location = new System.Drawing.Point(619, 184);
@@ -1891,11 +1891,11 @@
             this.speClearShadow.ShineColor = System.Drawing.SystemColors.Window;
             this.speClearShadow.Size = new System.Drawing.Size(44, 23);
             this.speClearShadow.TabIndex = 379;
-            this.speClearShadow.Text = "Clear";
+            this.speClearShadow.Text = "清空";
             this.speClearShadow.Click += new System.EventHandler(this.speClearShadow_Click);
-            // 
+            //
             // spdClearShadow
-            // 
+            //
             this.spdClearShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spdClearShadow.ForeColor = System.Drawing.Color.Black;
             this.spdClearShadow.Location = new System.Drawing.Point(619, 149);
@@ -1904,11 +1904,11 @@
             this.spdClearShadow.ShineColor = System.Drawing.SystemColors.Window;
             this.spdClearShadow.Size = new System.Drawing.Size(44, 23);
             this.spdClearShadow.TabIndex = 378;
-            this.spdClearShadow.Text = "Clear";
+            this.spdClearShadow.Text = "清空";
             this.spdClearShadow.Click += new System.EventHandler(this.spdClearShadow_Click);
-            // 
+            //
             // spaClearShadow
-            // 
+            //
             this.spaClearShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spaClearShadow.ForeColor = System.Drawing.Color.Black;
             this.spaClearShadow.Location = new System.Drawing.Point(619, 115);
@@ -1917,11 +1917,11 @@
             this.spaClearShadow.ShineColor = System.Drawing.SystemColors.Window;
             this.spaClearShadow.Size = new System.Drawing.Size(44, 23);
             this.spaClearShadow.TabIndex = 377;
-            this.spaClearShadow.Text = "Clear";
+            this.spaClearShadow.Text = "清空";
             this.spaClearShadow.Click += new System.EventHandler(this.spaClearShadow_Click);
-            // 
+            //
             // defClearShadow
-            // 
+            //
             this.defClearShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.defClearShadow.ForeColor = System.Drawing.Color.Black;
             this.defClearShadow.Location = new System.Drawing.Point(619, 81);
@@ -1930,11 +1930,11 @@
             this.defClearShadow.ShineColor = System.Drawing.SystemColors.Window;
             this.defClearShadow.Size = new System.Drawing.Size(44, 23);
             this.defClearShadow.TabIndex = 376;
-            this.defClearShadow.Text = "Clear";
+            this.defClearShadow.Text = "清空";
             this.defClearShadow.Click += new System.EventHandler(this.defClearShadow_Click);
-            // 
+            //
             // atkClearShadow
-            // 
+            //
             this.atkClearShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.atkClearShadow.ForeColor = System.Drawing.Color.Black;
             this.atkClearShadow.Location = new System.Drawing.Point(619, 45);
@@ -1943,11 +1943,11 @@
             this.atkClearShadow.ShineColor = System.Drawing.SystemColors.Window;
             this.atkClearShadow.Size = new System.Drawing.Size(44, 23);
             this.atkClearShadow.TabIndex = 375;
-            this.atkClearShadow.Text = "Clear";
+            this.atkClearShadow.Text = "清空";
             this.atkClearShadow.Click += new System.EventHandler(this.atkClearShadow_Click);
-            // 
+            //
             // hpClearShadow
-            // 
+            //
             this.hpClearShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.hpClearShadow.ForeColor = System.Drawing.Color.Black;
             this.hpClearShadow.Location = new System.Drawing.Point(619, 12);
@@ -1956,11 +1956,11 @@
             this.hpClearShadow.ShineColor = System.Drawing.SystemColors.Window;
             this.hpClearShadow.Size = new System.Drawing.Size(44, 23);
             this.hpClearShadow.TabIndex = 374;
-            this.hpClearShadow.Text = "Clear";
+            this.hpClearShadow.Text = "清空";
             this.hpClearShadow.Click += new System.EventHandler(this.hpClearShadow_Click);
-            // 
+            //
             // speShadow
-            // 
+            //
             this.speShadow.Hex = false;
             this.speShadow.Location = new System.Drawing.Point(379, 185);
             this.speShadow.Mask = "00";
@@ -1969,9 +1969,9 @@
             this.speShadow.TabIndex = 373;
             this.speShadow.Tag = "ivs";
             this.speShadow.ValidatingType = typeof(int);
-            // 
+            //
             // spdShadow
-            // 
+            //
             this.spdShadow.Hex = false;
             this.spdShadow.Location = new System.Drawing.Point(379, 150);
             this.spdShadow.Mask = "00";
@@ -1980,9 +1980,9 @@
             this.spdShadow.TabIndex = 372;
             this.spdShadow.Tag = "ivs";
             this.spdShadow.ValidatingType = typeof(int);
-            // 
+            //
             // spaShadow
-            // 
+            //
             this.spaShadow.Hex = false;
             this.spaShadow.Location = new System.Drawing.Point(379, 116);
             this.spaShadow.Mask = "00";
@@ -1991,9 +1991,9 @@
             this.spaShadow.TabIndex = 371;
             this.spaShadow.Tag = "ivs";
             this.spaShadow.ValidatingType = typeof(int);
-            // 
+            //
             // defShadow
-            // 
+            //
             this.defShadow.Hex = false;
             this.defShadow.Location = new System.Drawing.Point(379, 82);
             this.defShadow.Mask = "00";
@@ -2002,9 +2002,9 @@
             this.defShadow.TabIndex = 370;
             this.defShadow.Tag = "ivs";
             this.defShadow.ValidatingType = typeof(int);
-            // 
+            //
             // atkShadow
-            // 
+            //
             this.atkShadow.Hex = false;
             this.atkShadow.Location = new System.Drawing.Point(379, 46);
             this.atkShadow.Mask = "00";
@@ -2013,9 +2013,9 @@
             this.atkShadow.TabIndex = 369;
             this.atkShadow.Tag = "ivs";
             this.atkShadow.ValidatingType = typeof(int);
-            // 
+            //
             // hpShadow
-            // 
+            //
             this.hpShadow.Hex = false;
             this.hpShadow.Location = new System.Drawing.Point(379, 13);
             this.hpShadow.Mask = "00";
@@ -2024,9 +2024,9 @@
             this.hpShadow.TabIndex = 368;
             this.hpShadow.Tag = "ivs";
             this.hpShadow.ValidatingType = typeof(int);
-            // 
+            //
             // hpMaxShadow
-            // 
+            //
             this.hpMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.hpMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.hpMaxShadow.Location = new System.Drawing.Point(469, 12);
@@ -2037,9 +2037,9 @@
             this.hpMaxShadow.TabIndex = 345;
             this.hpMaxShadow.Text = "==31";
             this.hpMaxShadow.Click += new System.EventHandler(this.hpMaxShadow_Click);
-            // 
+            //
             // hpNearMaxShadow
-            // 
+            //
             this.hpNearMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.hpNearMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.hpNearMaxShadow.Location = new System.Drawing.Point(519, 12);
@@ -2050,9 +2050,9 @@
             this.hpNearMaxShadow.TabIndex = 346;
             this.hpNearMaxShadow.Text = "==30";
             this.hpNearMaxShadow.Click += new System.EventHandler(this.hpNearMaxShadow_Click);
-            // 
+            //
             // speAlmostMaxShadow
-            // 
+            //
             this.speAlmostMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.speAlmostMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.speAlmostMaxShadow.Location = new System.Drawing.Point(569, 184);
@@ -2063,9 +2063,9 @@
             this.speAlmostMaxShadow.TabIndex = 367;
             this.speAlmostMaxShadow.Text = ">=30";
             this.speAlmostMaxShadow.Click += new System.EventHandler(this.speAlmostMaxShadow_Click);
-            // 
+            //
             // hpAlmostMaxShadow
-            // 
+            //
             this.hpAlmostMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.hpAlmostMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.hpAlmostMaxShadow.Location = new System.Drawing.Point(569, 12);
@@ -2076,9 +2076,9 @@
             this.hpAlmostMaxShadow.TabIndex = 347;
             this.hpAlmostMaxShadow.Text = ">=30";
             this.hpAlmostMaxShadow.Click += new System.EventHandler(this.hpAlmostMaxShadow_Click);
-            // 
+            //
             // speNearMaxShadow
-            // 
+            //
             this.speNearMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.speNearMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.speNearMaxShadow.Location = new System.Drawing.Point(519, 184);
@@ -2089,9 +2089,9 @@
             this.speNearMaxShadow.TabIndex = 366;
             this.speNearMaxShadow.Text = "==30";
             this.speNearMaxShadow.Click += new System.EventHandler(this.speNearMaxShadow_Click);
-            // 
+            //
             // speMaxShadow
-            // 
+            //
             this.speMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.speMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.speMaxShadow.Location = new System.Drawing.Point(469, 184);
@@ -2102,9 +2102,9 @@
             this.speMaxShadow.TabIndex = 365;
             this.speMaxShadow.Text = "==31";
             this.speMaxShadow.Click += new System.EventHandler(this.speMaxShadow_Click);
-            // 
+            //
             // atkMaxShadow
-            // 
+            //
             this.atkMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.atkMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.atkMaxShadow.Location = new System.Drawing.Point(469, 45);
@@ -2115,9 +2115,9 @@
             this.atkMaxShadow.TabIndex = 349;
             this.atkMaxShadow.Text = "==31";
             this.atkMaxShadow.Click += new System.EventHandler(this.atkMaxShadow_Click);
-            // 
+            //
             // atkNearMaxShadow
-            // 
+            //
             this.atkNearMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.atkNearMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.atkNearMaxShadow.Location = new System.Drawing.Point(519, 45);
@@ -2128,9 +2128,9 @@
             this.atkNearMaxShadow.TabIndex = 350;
             this.atkNearMaxShadow.Text = "==30";
             this.atkNearMaxShadow.Click += new System.EventHandler(this.atkNearMaxShadow_Click);
-            // 
+            //
             // spdAlmostMaxShadow
-            // 
+            //
             this.spdAlmostMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spdAlmostMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.spdAlmostMaxShadow.Location = new System.Drawing.Point(569, 149);
@@ -2141,9 +2141,9 @@
             this.spdAlmostMaxShadow.TabIndex = 363;
             this.spdAlmostMaxShadow.Text = ">=30";
             this.spdAlmostMaxShadow.Click += new System.EventHandler(this.spdAlmostMaxShadow_Click);
-            // 
+            //
             // atkAlmostMaxShadow
-            // 
+            //
             this.atkAlmostMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.atkAlmostMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.atkAlmostMaxShadow.Location = new System.Drawing.Point(569, 45);
@@ -2154,9 +2154,9 @@
             this.atkAlmostMaxShadow.TabIndex = 351;
             this.atkAlmostMaxShadow.Text = ">=30";
             this.atkAlmostMaxShadow.Click += new System.EventHandler(this.atkAlmostMaxShadow_Click);
-            // 
+            //
             // spdNearMaxShadow
-            // 
+            //
             this.spdNearMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spdNearMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.spdNearMaxShadow.Location = new System.Drawing.Point(519, 149);
@@ -2167,9 +2167,9 @@
             this.spdNearMaxShadow.TabIndex = 362;
             this.spdNearMaxShadow.Text = "==30";
             this.spdNearMaxShadow.Click += new System.EventHandler(this.spdNearMaxShadow_Click);
-            // 
+            //
             // spdMaxShadow
-            // 
+            //
             this.spdMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spdMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.spdMaxShadow.Location = new System.Drawing.Point(469, 149);
@@ -2180,9 +2180,9 @@
             this.spdMaxShadow.TabIndex = 361;
             this.spdMaxShadow.Text = "==31";
             this.spdMaxShadow.Click += new System.EventHandler(this.spdMaxShadow_Click);
-            // 
+            //
             // defMaxShadow
-            // 
+            //
             this.defMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.defMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.defMaxShadow.Location = new System.Drawing.Point(469, 81);
@@ -2193,9 +2193,9 @@
             this.defMaxShadow.TabIndex = 353;
             this.defMaxShadow.Text = "==31";
             this.defMaxShadow.Click += new System.EventHandler(this.defMaxShadow_Click);
-            // 
+            //
             // defNearMaxShadow
-            // 
+            //
             this.defNearMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.defNearMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.defNearMaxShadow.Location = new System.Drawing.Point(519, 81);
@@ -2206,9 +2206,9 @@
             this.defNearMaxShadow.TabIndex = 354;
             this.defNearMaxShadow.Text = "==30";
             this.defNearMaxShadow.Click += new System.EventHandler(this.defNearMaxShadow_Click);
-            // 
+            //
             // spaAlmostMaxShadow
-            // 
+            //
             this.spaAlmostMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spaAlmostMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.spaAlmostMaxShadow.Location = new System.Drawing.Point(569, 115);
@@ -2219,9 +2219,9 @@
             this.spaAlmostMaxShadow.TabIndex = 359;
             this.spaAlmostMaxShadow.Text = ">=30";
             this.spaAlmostMaxShadow.Click += new System.EventHandler(this.spaAlmostMaxShadow_Click);
-            // 
+            //
             // defAlmostMaxShadow
-            // 
+            //
             this.defAlmostMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.defAlmostMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.defAlmostMaxShadow.Location = new System.Drawing.Point(569, 81);
@@ -2232,9 +2232,9 @@
             this.defAlmostMaxShadow.TabIndex = 355;
             this.defAlmostMaxShadow.Text = ">=30";
             this.defAlmostMaxShadow.Click += new System.EventHandler(this.defAlmostMaxShadow_Click);
-            // 
+            //
             // spaNearMaxShadow
-            // 
+            //
             this.spaNearMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spaNearMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.spaNearMaxShadow.Location = new System.Drawing.Point(519, 115);
@@ -2245,9 +2245,9 @@
             this.spaNearMaxShadow.TabIndex = 358;
             this.spaNearMaxShadow.Text = "==30";
             this.spaNearMaxShadow.Click += new System.EventHandler(this.spaNearMaxShadow_Click);
-            // 
+            //
             // spaMaxShadow
-            // 
+            //
             this.spaMaxShadow.BackColor = System.Drawing.Color.AntiqueWhite;
             this.spaMaxShadow.ForeColor = System.Drawing.Color.Black;
             this.spaMaxShadow.Location = new System.Drawing.Point(469, 115);
@@ -2258,17 +2258,17 @@
             this.spaMaxShadow.TabIndex = 357;
             this.spaMaxShadow.Text = "==31";
             this.spaMaxShadow.Click += new System.EventHandler(this.spaMaxShadow_Click);
-            // 
+            //
             // dataGridViewTextBoxColumn0
-            // 
+            //
             this.dataGridViewTextBoxColumn0.DataPropertyName = "Seed";
             this.dataGridViewTextBoxColumn0.HeaderText = "Seed";
             this.dataGridViewTextBoxColumn0.Name = "dataGridViewTextBoxColumn0";
             this.dataGridViewTextBoxColumn0.ReadOnly = true;
             this.dataGridViewTextBoxColumn0.Width = 75;
-            // 
+            //
             // dataGridViewTextBoxColumn1
-            // 
+            //
             this.dataGridViewTextBoxColumn1.DataPropertyName = "PID";
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Consolas", 8.75F);
             this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle1;
@@ -2276,137 +2276,137 @@
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.ReadOnly = true;
             this.dataGridViewTextBoxColumn1.Width = 75;
-            // 
+            //
             // dataGridViewTextBoxColumn2
-            // 
+            //
             this.dataGridViewTextBoxColumn2.DataPropertyName = "Shiny";
-            this.dataGridViewTextBoxColumn2.HeaderText = "!!!";
+            this.dataGridViewTextBoxColumn2.HeaderText = "异色";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.ReadOnly = true;
             this.dataGridViewTextBoxColumn2.Width = 25;
-            // 
+            //
             // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "Nature";
-            this.dataGridViewTextBoxColumn3.HeaderText = "Nature";
+            //
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "性格";
+            this.dataGridViewTextBoxColumn3.HeaderText = "性格";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             this.dataGridViewTextBoxColumn3.ReadOnly = true;
             this.dataGridViewTextBoxColumn3.Width = 75;
-            // 
+            //
             // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "Ability";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Ability";
+            //
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "特性";
+            this.dataGridViewTextBoxColumn4.HeaderText = "特性";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             this.dataGridViewTextBoxColumn4.ReadOnly = true;
             this.dataGridViewTextBoxColumn4.Width = 45;
-            // 
+            //
             // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "HP";
-            this.dataGridViewTextBoxColumn5.HeaderText = "HP";
+            //
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "觉醒力量";
+            this.dataGridViewTextBoxColumn5.HeaderText = "觉醒力量";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             this.dataGridViewTextBoxColumn5.ReadOnly = true;
             this.dataGridViewTextBoxColumn5.Width = 35;
-            // 
+            //
             // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "Atk";
-            this.dataGridViewTextBoxColumn6.HeaderText = "Atk";
+            //
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "攻击";
+            this.dataGridViewTextBoxColumn6.HeaderText = "攻击";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             this.dataGridViewTextBoxColumn6.ReadOnly = true;
             this.dataGridViewTextBoxColumn6.Width = 35;
-            // 
+            //
             // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "Def";
-            this.dataGridViewTextBoxColumn7.HeaderText = "Def";
+            //
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "防御";
+            this.dataGridViewTextBoxColumn7.HeaderText = "防御";
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             this.dataGridViewTextBoxColumn7.ReadOnly = true;
             this.dataGridViewTextBoxColumn7.Width = 35;
-            // 
+            //
             // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "SpA";
-            this.dataGridViewTextBoxColumn8.HeaderText = "SpA";
+            //
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "特攻";
+            this.dataGridViewTextBoxColumn8.HeaderText = "特攻";
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
             this.dataGridViewTextBoxColumn8.ReadOnly = true;
             this.dataGridViewTextBoxColumn8.Width = 35;
-            // 
+            //
             // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.DataPropertyName = "SpD";
-            this.dataGridViewTextBoxColumn9.HeaderText = "SpD";
+            //
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "特防";
+            this.dataGridViewTextBoxColumn9.HeaderText = "特防";
             this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
             this.dataGridViewTextBoxColumn9.ReadOnly = true;
             this.dataGridViewTextBoxColumn9.Width = 35;
-            // 
+            //
             // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.DataPropertyName = "Spe";
-            this.dataGridViewTextBoxColumn10.HeaderText = "Spe";
+            //
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "速度";
+            this.dataGridViewTextBoxColumn10.HeaderText = "速度";
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             this.dataGridViewTextBoxColumn10.ReadOnly = true;
             this.dataGridViewTextBoxColumn10.Width = 35;
-            // 
+            //
             // dataGridViewTextBoxColumn11
-            // 
-            this.dataGridViewTextBoxColumn11.DataPropertyName = "Hidden";
-            this.dataGridViewTextBoxColumn11.HeaderText = "Hidden";
+            //
+            this.dataGridViewTextBoxColumn11.DataPropertyName = "觉醒";
+            this.dataGridViewTextBoxColumn11.HeaderText = "觉醒力量";
             this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
             this.dataGridViewTextBoxColumn11.ReadOnly = true;
             this.dataGridViewTextBoxColumn11.Width = 50;
-            // 
+            //
             // HiddenPowerPower
-            // 
-            this.HiddenPowerPower.DataPropertyName = "Power";
-            this.HiddenPowerPower.HeaderText = "Power";
+            //
+            this.HiddenPowerPower.DataPropertyName = "威力";
+            this.HiddenPowerPower.HeaderText = "觉醒力量威力";
             this.HiddenPowerPower.Name = "HiddenPowerPower";
             this.HiddenPowerPower.ReadOnly = true;
             this.HiddenPowerPower.Width = 50;
-            // 
+            //
             // f125
-            // 
+            //
             this.f125.DataPropertyName = "Eighth";
             this.f125.HeaderText = "12.5%F";
             this.f125.Name = "f125";
             this.f125.ReadOnly = true;
             this.f125.Width = 50;
-            // 
+            //
             // f25
-            // 
+            //
             this.f25.DataPropertyName = "Quarter";
             this.f25.HeaderText = "25% F";
             this.f25.Name = "f25";
             this.f25.ReadOnly = true;
             this.f25.Width = 50;
-            // 
+            //
             // f50
-            // 
+            //
             this.f50.DataPropertyName = "Half";
             this.f50.HeaderText = "50% F";
             this.f50.Name = "f50";
             this.f50.ReadOnly = true;
             this.f50.Width = 50;
-            // 
+            //
             // f75
-            // 
+            //
             this.f75.DataPropertyName = "Three_Fourths";
             this.f75.HeaderText = "75% F";
             this.f75.Name = "f75";
             this.f75.ReadOnly = true;
             this.f75.Width = 50;
-            // 
+            //
             // Reason
-            // 
+            //
             this.Reason.DataPropertyName = "Reason";
-            this.Reason.HeaderText = "Reason";
+            this.Reason.HeaderText = "原因";
             this.Reason.Name = "Reason";
             this.Reason.ReadOnly = true;
             this.Reason.Width = 175;
-            // 
+            //
             // GameCube
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1144, 622);
@@ -2414,7 +2414,7 @@
             this.Controls.Add(this.status);
             this.MinimumSize = new System.Drawing.Size(1160, 661);
             this.Name = "GameCube";
-            this.Text = "GameCube RNG";
+            this.Text = "NGC乱数";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GameCube_FormClosing);
             this.Load += new System.EventHandler(this.GameCube_Load);
             this.contextMenuStripGrid.ResumeLayout(false);

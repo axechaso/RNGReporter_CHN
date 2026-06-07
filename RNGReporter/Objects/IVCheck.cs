@@ -23,17 +23,17 @@ using System.Collections.Generic;
 
 namespace RNGReporter.Objects
 {
-    //  This class is going to return a bundle of 
+    //  This class is going to return a bundle of
     //  IV possibilities for each different stat
     internal class IVCheck
     {
         //  We need a collection of collections.  A List of Lists is probably
-        //  the easiest thing to do here.  
+        //  the easiest thing to do here.
 
         private readonly Nature nature;
         private readonly Pokemon pokemon;
 
-        private readonly string[] statNames = new[] {"HP", "Atk", "Def", "SpA", "SpD", "Spe"};
+        private readonly string[] statNames = new[] {"觉醒力量", "攻击", "防御", "特攻", "特防", "速度"};
 
         //private bool[] valid = new bool[6] { false, false, false, false, false, false };
         //public bool[] Valid
@@ -79,7 +79,7 @@ namespace RNGReporter.Objects
             double ev = 0;
 
             //  This is our internal storage for the IV ranges that
-            //  we get with the initial set of data, before the 
+            //  we get with the initial set of data, before the
             //  characteristic correction.
             var minIvs = new uint[] {31, 31, 31, 31, 31, 31};
             var maxIvs = new uint[] {0, 0, 0, 0, 0, 0};
@@ -163,8 +163,8 @@ namespace RNGReporter.Objects
                 }
             }
 
-            //  Now we want to go and explode out all of the other items, skipping 
-            //  the characteristic affected stat is there was one.  We are also 
+            //  Now we want to go and explode out all of the other items, skipping
+            //  the characteristic affected stat is there was one.  We are also
             //  going to clip to the high mark of the characteristic stat
             for (uint statCnt = 0; statCnt <= 5; statCnt++)
             {
@@ -173,7 +173,7 @@ namespace RNGReporter.Objects
                     //  Make sure we dont make any changes to the characteristic stat
                     if (characteristic == null || characteristic.AffectedStat != statCnt)
                     {
-                        // 
+                        //
                         for (uint charCnt = minIvs[statCnt];
                              charCnt <= maxIvs[statCnt];
                              charCnt++)
@@ -232,7 +232,7 @@ namespace RNGReporter.Objects
                 " (" + nature.Name + ")" +
                 Environment.NewLine;
 
-            //  Need to go through each stat now and display 
+            //  Need to go through each stat now and display
             //  the ranges.  General format will be:
             //
             //  2-7,9 (Range and single possibility)
@@ -248,7 +248,7 @@ namespace RNGReporter.Objects
 
                 if (statBlock.Count == 0)
                 {
-                    ivs += "Invalid";
+                    ivs += "无效";
                 }
                 else
                 {

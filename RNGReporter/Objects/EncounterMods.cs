@@ -77,12 +77,12 @@ namespace RNGReporter.Objects
     {
         public static string[] encounterStringENG =
             {
-                "None",
-                "Synchronize",
-                "Cute Charm",
-                "Suction Cups",
-                "Compoundeyes",
-                "Everstone",
+                "无",
+                "同步",
+                "迷人之躯",
+                "吸盘",
+                "复眼",
+                "不变之石",
                 "Unknown"
             };
 
@@ -166,29 +166,29 @@ namespace RNGReporter.Objects
                     return EncounterType.WildSurfing;
                 case "Wild Pokémon (Fishing)":
                     return EncounterType.WildSuperRod;
-                case "Wild Pokémon (Old Rod)":
+                case "野生宝可梦（破旧钓竿）":
                     return EncounterType.WildOldRod;
-                case "Wild Pokémon (Good Rod)":
+                case "野生宝可梦（好钓竿）":
                     return EncounterType.WildGoodRod;
-                case "Wild Pokémon (Super Rod)":
+                case "野生宝可梦（厉害钓竿）":
                     return EncounterType.WildSuperRod;
-                case "Wild Pokémon (Swarm)":
+                case "野生宝可梦（虫之预感）":
                     return EncounterType.WildSwarm;
-                case "Wild Pokémon (Shaking Grass)":
+                case "野生宝可梦（摇动草丛）":
                     return EncounterType.WildShakerGrass;
-                case "Wild Pokémon (Bubble Spot)":
+                case "野生宝可梦（水纹水面）":
                     return EncounterType.WildWaterSpot;
                 case "Wild Pokémon (Fishing Spot)":
                     return EncounterType.WildFishingSpot;
-                case "Wild Pokémon (Cave Spot)":
+                case "野生宝可梦（卷尘地面）":
                     return EncounterType.WildCaveSpot;
                 case "Wild Pokémon (Flying Shadow)":
                     return EncounterType.WildShadow;
                 case "Roaming Pokémon":
                     return EncounterType.Roamer;
-                case "Stationary Pokémon":
+                case "定点宝可梦":
                     return EncounterType.Stationary;
-                case "Gift Pokémon":
+                case "礼物宝可梦":
                     return EncounterType.Gift;
                 case "Jellicent":
                     return EncounterType.JellicentHA;
@@ -198,17 +198,17 @@ namespace RNGReporter.Objects
                     return EncounterType.Haxorus;
                 case "Gible/Dratini (Forced Shiny)":
                     return EncounterType.GibleDratini;
-                case "Entralink Pokémon":
+                case "连入之森宝可梦":
                     return EncounterType.Entralink;
                 case "Hidden Grotto (Shiny Locked)":
                     return EncounterType.HiddenGrotto;
                 case "Bug-Catching Contest":
                     return EncounterType.BugCatchingContest;
-                case "Safari Zone":
+                case "狩猎地带":
                     return EncounterType.SafariZone;
-                case "Manaphy Egg":
+                case "玛纳霏的蛋":
                     return EncounterType.Manaphy;
-                case "Headbutt":
+                case "头锤树":
                     return EncounterType.Headbutt;
                 default:
                     return EncounterType.Wild;

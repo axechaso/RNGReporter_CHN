@@ -27,7 +27,7 @@ namespace RNGReporter
         }
 
         // NOTE: The following procedure is required by the Windows Form Designer
-        // It can be modified using the Windows Form Designer.  
+        // It can be modified using the Windows Form Designer.
         // Do not modify it using the code editor.
         private void InitializeComponent()
         {
@@ -223,9 +223,9 @@ namespace RNGReporter
             this.groupVPID.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResults)).BeginInit();
             this.SuspendLayout();
-            // 
+            //
             // grpShiny
-            // 
+            //
             this.grpShiny.Controls.Add(this.cbxShinyInf);
             this.grpShiny.Controls.Add(this.textBoxShinyTID);
             this.grpShiny.Controls.Add(this.lblShinyTrainerID);
@@ -245,21 +245,21 @@ namespace RNGReporter
             this.grpShiny.Size = new System.Drawing.Size(183, 284);
             this.grpShiny.TabIndex = 1;
             this.grpShiny.TabStop = false;
-            this.grpShiny.Text = "Shiny PID";
-            // 
+            this.grpShiny.Text = "异色PID（迷人之躯）";
+            //
             // cbxShinyInf
-            // 
+            //
             this.cbxShinyInf.AutoSize = true;
             this.cbxShinyInf.Location = new System.Drawing.Point(9, 184);
             this.cbxShinyInf.Name = "cbxShinyInf";
             this.cbxShinyInf.Size = new System.Drawing.Size(94, 17);
             this.cbxShinyInf.TabIndex = 7;
-            this.cbxShinyInf.Text = "Infinite Search";
+            this.cbxShinyInf.Text = "无限地计算";
             this.cbxShinyInf.UseVisualStyleBackColor = true;
             this.cbxShinyInf.CheckedChanged += new System.EventHandler(this.cbxShinyInf_CheckedChanged);
-            // 
+            //
             // textBoxShinyTID
-            // 
+            //
             this.textBoxShinyTID.Enabled = false;
             this.textBoxShinyTID.Hex = false;
             this.textBoxShinyTID.Location = new System.Drawing.Point(104, 77);
@@ -267,31 +267,31 @@ namespace RNGReporter
             this.textBoxShinyTID.Name = "textBoxShinyTID";
             this.textBoxShinyTID.Size = new System.Drawing.Size(37, 20);
             this.textBoxShinyTID.TabIndex = 3;
-            // 
+            //
             // lblShinyTrainerID
-            // 
+            //
             this.lblShinyTrainerID.AutoSize = true;
             this.lblShinyTrainerID.Enabled = false;
             this.lblShinyTrainerID.Location = new System.Drawing.Point(6, 80);
             this.lblShinyTrainerID.Name = "lblShinyTrainerID";
             this.lblShinyTrainerID.Size = new System.Drawing.Size(96, 13);
             this.lblShinyTrainerID.TabIndex = 10;
-            this.lblShinyTrainerID.Text = "Desired Trainer ID:";
+            this.lblShinyTrainerID.Text = "想要的TID：";
             this.lblShinyTrainerID.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // cbxSearchID
-            // 
+            //
             this.cbxSearchID.AutoSize = true;
             this.cbxSearchID.Location = new System.Drawing.Point(9, 54);
             this.cbxSearchID.Name = "cbxSearchID";
             this.cbxSearchID.Size = new System.Drawing.Size(125, 17);
             this.cbxSearchID.TabIndex = 2;
-            this.cbxSearchID.Text = "Search for Trainer ID";
+            this.cbxSearchID.Text = "搜索想要的TID（表ID）";
             this.cbxSearchID.UseVisualStyleBackColor = true;
             this.cbxSearchID.CheckedChanged += new System.EventHandler(this.cbxSearchID_CheckedChanged);
-            // 
+            //
             // btnShinyCancel
-            // 
+            //
             this.btnShinyCancel.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btnShinyCancel.Enabled = false;
             this.btnShinyCancel.ForeColor = System.Drawing.Color.Black;
@@ -301,11 +301,11 @@ namespace RNGReporter
             this.btnShinyCancel.ShineColor = System.Drawing.SystemColors.Window;
             this.btnShinyCancel.Size = new System.Drawing.Size(159, 29);
             this.btnShinyCancel.TabIndex = 9;
-            this.btnShinyCancel.Text = "Cancel";
+            this.btnShinyCancel.Text = "取消计算";
             this.btnShinyCancel.Click += new System.EventHandler(this.btnShinyCancel_Click);
-            // 
+            //
             // btnShinyGo
-            // 
+            //
             this.btnShinyGo.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btnShinyGo.ForeColor = System.Drawing.Color.Black;
             this.btnShinyGo.Location = new System.Drawing.Point(10, 210);
@@ -314,87 +314,87 @@ namespace RNGReporter
             this.btnShinyGo.ShineColor = System.Drawing.SystemColors.Window;
             this.btnShinyGo.Size = new System.Drawing.Size(159, 29);
             this.btnShinyGo.TabIndex = 8;
-            this.btnShinyGo.Text = "Find Compatible Seeds";
+            this.btnShinyGo.Text = "计算目标seed";
             this.btnShinyGo.Click += new System.EventHandler(this.btnShinyGo_Click);
-            // 
+            //
             // txtShinyMaxDelay
-            // 
+            //
             this.txtShinyMaxDelay.Hex = false;
             this.txtShinyMaxDelay.Location = new System.Drawing.Point(104, 156);
             this.txtShinyMaxDelay.Mask = "00000000";
             this.txtShinyMaxDelay.Name = "txtShinyMaxDelay";
             this.txtShinyMaxDelay.Size = new System.Drawing.Size(65, 20);
             this.txtShinyMaxDelay.TabIndex = 6;
-            // 
+            //
             // lblShinyMaxDelay
-            // 
+            //
             this.lblShinyMaxDelay.AutoSize = true;
             this.lblShinyMaxDelay.Location = new System.Drawing.Point(14, 159);
             this.lblShinyMaxDelay.Name = "lblShinyMaxDelay";
             this.lblShinyMaxDelay.Size = new System.Drawing.Size(84, 13);
             this.lblShinyMaxDelay.TabIndex = 6;
-            this.lblShinyMaxDelay.Text = "Maximum Delay:";
+            this.lblShinyMaxDelay.Text = "最大Delay：";
             this.lblShinyMaxDelay.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // lblShinyMinDelay
-            // 
+            //
             this.lblShinyMinDelay.AutoSize = true;
             this.lblShinyMinDelay.Location = new System.Drawing.Point(20, 132);
             this.lblShinyMinDelay.Name = "lblShinyMinDelay";
             this.lblShinyMinDelay.Size = new System.Drawing.Size(81, 13);
             this.lblShinyMinDelay.TabIndex = 5;
-            this.lblShinyMinDelay.Text = "Minimum Delay:";
+            this.lblShinyMinDelay.Text = "最小Delay：";
             this.lblShinyMinDelay.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // txtShinyMinDelay
-            // 
+            //
             this.txtShinyMinDelay.Hex = false;
             this.txtShinyMinDelay.Location = new System.Drawing.Point(104, 129);
             this.txtShinyMinDelay.Mask = "00000000";
             this.txtShinyMinDelay.Name = "txtShinyMinDelay";
             this.txtShinyMinDelay.Size = new System.Drawing.Size(65, 20);
             this.txtShinyMinDelay.TabIndex = 5;
-            // 
+            //
             // textBoxShinyYear
-            // 
+            //
             this.textBoxShinyYear.Hex = false;
             this.textBoxShinyYear.Location = new System.Drawing.Point(104, 103);
             this.textBoxShinyYear.Mask = "2\\000";
             this.textBoxShinyYear.Name = "textBoxShinyYear";
             this.textBoxShinyYear.Size = new System.Drawing.Size(35, 20);
             this.textBoxShinyYear.TabIndex = 4;
-            // 
+            //
             // lblShinyYr
-            // 
+            //
             this.lblShinyYr.AutoSize = true;
             this.lblShinyYr.Location = new System.Drawing.Point(69, 106);
             this.lblShinyYr.Name = "lblShinyYr";
             this.lblShinyYr.Size = new System.Drawing.Size(32, 13);
             this.lblShinyYr.TabIndex = 2;
-            this.lblShinyYr.Text = "Year:";
+            this.lblShinyYr.Text = "年份：";
             this.lblShinyYr.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // lblShinyPID
-            // 
+            //
             this.lblShinyPID.AutoSize = true;
             this.lblShinyPID.Location = new System.Drawing.Point(6, 28);
             this.lblShinyPID.Name = "lblShinyPID";
             this.lblShinyPID.Size = new System.Drawing.Size(95, 13);
             this.lblShinyPID.TabIndex = 1;
-            this.lblShinyPID.Text = "Desired PID (Hex):";
+            this.lblShinyPID.Text = "想要的PID（Hex）";
             this.lblShinyPID.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // textBoxShinyPID
-            // 
+            //
             this.textBoxShinyPID.Hex = true;
             this.textBoxShinyPID.Location = new System.Drawing.Point(104, 25);
             this.textBoxShinyPID.Mask = "AAAAAAAA";
             this.textBoxShinyPID.Name = "textBoxShinyPID";
             this.textBoxShinyPID.Size = new System.Drawing.Size(65, 20);
             this.textBoxShinyPID.TabIndex = 1;
-            // 
+            //
             // grpID
-            // 
+            //
             this.grpID.Controls.Add(this.cbxIDInf);
             this.grpID.Controls.Add(this.btnIDCancel);
             this.grpID.Controls.Add(this.btnIDGo);
@@ -414,21 +414,21 @@ namespace RNGReporter
             this.grpID.Size = new System.Drawing.Size(183, 284);
             this.grpID.TabIndex = 2;
             this.grpID.TabStop = false;
-            this.grpID.Text = "Trainer ID";
-            // 
+            this.grpID.Text = "TID（表ID）";
+            //
             // cbxIDInf
-            // 
+            //
             this.cbxIDInf.AutoSize = true;
             this.cbxIDInf.Location = new System.Drawing.Point(9, 182);
             this.cbxIDInf.Name = "cbxIDInf";
             this.cbxIDInf.Size = new System.Drawing.Size(94, 17);
             this.cbxIDInf.TabIndex = 16;
-            this.cbxIDInf.Text = "Infinite Search";
+            this.cbxIDInf.Text = "无限地计算";
             this.cbxIDInf.UseVisualStyleBackColor = true;
             this.cbxIDInf.CheckedChanged += new System.EventHandler(this.cbxIDInf_CheckedChanged);
-            // 
+            //
             // btnIDCancel
-            // 
+            //
             this.btnIDCancel.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btnIDCancel.Enabled = false;
             this.btnIDCancel.ForeColor = System.Drawing.Color.Black;
@@ -438,11 +438,11 @@ namespace RNGReporter
             this.btnIDCancel.ShineColor = System.Drawing.SystemColors.Window;
             this.btnIDCancel.Size = new System.Drawing.Size(159, 29);
             this.btnIDCancel.TabIndex = 18;
-            this.btnIDCancel.Text = "Cancel";
+            this.btnIDCancel.Text = "取消计算";
             this.btnIDCancel.Click += new System.EventHandler(this.btnIDCancel_Click);
-            // 
+            //
             // btnIDGo
-            // 
+            //
             this.btnIDGo.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btnIDGo.ForeColor = System.Drawing.Color.Black;
             this.btnIDGo.Location = new System.Drawing.Point(12, 210);
@@ -451,68 +451,68 @@ namespace RNGReporter
             this.btnIDGo.ShineColor = System.Drawing.SystemColors.Window;
             this.btnIDGo.Size = new System.Drawing.Size(159, 29);
             this.btnIDGo.TabIndex = 17;
-            this.btnIDGo.Text = "Find Compatible Seeds";
+            this.btnIDGo.Text = "计算目标seed";
             this.btnIDGo.Click += new System.EventHandler(this.btnIDGo_Click);
-            // 
+            //
             // textBoxIDMaxDelay
-            // 
+            //
             this.textBoxIDMaxDelay.Hex = false;
             this.textBoxIDMaxDelay.Location = new System.Drawing.Point(106, 156);
             this.textBoxIDMaxDelay.Mask = "00000000";
             this.textBoxIDMaxDelay.Name = "textBoxIDMaxDelay";
             this.textBoxIDMaxDelay.Size = new System.Drawing.Size(65, 20);
             this.textBoxIDMaxDelay.TabIndex = 15;
-            // 
+            //
             // textBoxIDMinDelay
-            // 
+            //
             this.textBoxIDMinDelay.Hex = false;
             this.textBoxIDMinDelay.Location = new System.Drawing.Point(106, 129);
             this.textBoxIDMinDelay.Mask = "00000000";
             this.textBoxIDMinDelay.Name = "textBoxIDMinDelay";
             this.textBoxIDMinDelay.Size = new System.Drawing.Size(65, 20);
             this.textBoxIDMinDelay.TabIndex = 14;
-            // 
+            //
             // lblIDMaxDelay
-            // 
+            //
             this.lblIDMaxDelay.AutoSize = true;
             this.lblIDMaxDelay.Location = new System.Drawing.Point(16, 159);
             this.lblIDMaxDelay.Name = "lblIDMaxDelay";
             this.lblIDMaxDelay.Size = new System.Drawing.Size(84, 13);
             this.lblIDMaxDelay.TabIndex = 13;
-            this.lblIDMaxDelay.Text = "Maximum Delay:";
+            this.lblIDMaxDelay.Text = "最大Delay：";
             this.lblIDMaxDelay.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // lblIDMinDelay
-            // 
+            //
             this.lblIDMinDelay.AutoSize = true;
             this.lblIDMinDelay.Location = new System.Drawing.Point(19, 132);
             this.lblIDMinDelay.Name = "lblIDMinDelay";
             this.lblIDMinDelay.Size = new System.Drawing.Size(81, 13);
             this.lblIDMinDelay.TabIndex = 12;
-            this.lblIDMinDelay.Text = "Minimum Delay:";
+            this.lblIDMinDelay.Text = "最小Delay：";
             this.lblIDMinDelay.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // textBoxIDYear
-            // 
+            //
             this.textBoxIDYear.Hex = false;
             this.textBoxIDYear.Location = new System.Drawing.Point(106, 103);
             this.textBoxIDYear.Mask = "2\\000";
             this.textBoxIDYear.Name = "textBoxIDYear";
             this.textBoxIDYear.Size = new System.Drawing.Size(49, 20);
             this.textBoxIDYear.TabIndex = 13;
-            // 
+            //
             // lblIDYr
-            // 
+            //
             this.lblIDYr.AutoSize = true;
             this.lblIDYr.Location = new System.Drawing.Point(68, 106);
             this.lblIDYr.Name = "lblIDYr";
             this.lblIDYr.Size = new System.Drawing.Size(32, 13);
             this.lblIDYr.TabIndex = 10;
-            this.lblIDYr.Text = "Year:";
+            this.lblIDYr.Text = "年份：";
             this.lblIDYr.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // textBoxDesiredSID
-            // 
+            //
             this.textBoxDesiredSID.Enabled = false;
             this.textBoxDesiredSID.Hex = false;
             this.textBoxDesiredSID.Location = new System.Drawing.Point(106, 77);
@@ -520,50 +520,50 @@ namespace RNGReporter
             this.textBoxDesiredSID.Name = "textBoxDesiredSID";
             this.textBoxDesiredSID.Size = new System.Drawing.Size(49, 20);
             this.textBoxDesiredSID.TabIndex = 12;
-            // 
+            //
             // lblSecretID
-            // 
+            //
             this.lblSecretID.AutoSize = true;
             this.lblSecretID.Enabled = false;
             this.lblSecretID.Location = new System.Drawing.Point(6, 80);
             this.lblSecretID.Name = "lblSecretID";
             this.lblSecretID.Size = new System.Drawing.Size(94, 13);
             this.lblSecretID.TabIndex = 6;
-            this.lblSecretID.Text = "Desired Secret ID:";
+            this.lblSecretID.Text = "想要的SID：";
             this.lblSecretID.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // cbxSearchSID
-            // 
+            //
             this.cbxSearchSID.AutoSize = true;
             this.cbxSearchSID.Location = new System.Drawing.Point(9, 53);
             this.cbxSearchSID.Name = "cbxSearchSID";
             this.cbxSearchSID.Size = new System.Drawing.Size(96, 17);
             this.cbxSearchSID.TabIndex = 11;
-            this.cbxSearchSID.Text = "Search for SID";
+            this.cbxSearchSID.Text = "搜索想要的SID（里ID）";
             this.cbxSearchSID.UseVisualStyleBackColor = true;
             this.cbxSearchSID.CheckedChanged += new System.EventHandler(this.cbxSearchSID_CheckedChanged);
-            // 
+            //
             // textBoxDesiredTID
-            // 
+            //
             this.textBoxDesiredTID.Hex = false;
             this.textBoxDesiredTID.Location = new System.Drawing.Point(108, 25);
             this.textBoxDesiredTID.Mask = "00000";
             this.textBoxDesiredTID.Name = "textBoxDesiredTID";
             this.textBoxDesiredTID.Size = new System.Drawing.Size(47, 20);
             this.textBoxDesiredTID.TabIndex = 10;
-            // 
+            //
             // lblTrainerID
-            // 
+            //
             this.lblTrainerID.AutoSize = true;
             this.lblTrainerID.Location = new System.Drawing.Point(6, 28);
             this.lblTrainerID.Name = "lblTrainerID";
             this.lblTrainerID.Size = new System.Drawing.Size(96, 13);
             this.lblTrainerID.TabIndex = 2;
-            this.lblTrainerID.Text = "Desired Trainer ID:";
+            this.lblTrainerID.Text = "想要的TID";
             this.lblTrainerID.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // grpSeed
-            // 
+            //
             this.grpSeed.Controls.Add(this.lblSeedMaxDelay);
             this.grpSeed.Controls.Add(this.lblSeedMinDelay);
             this.grpSeed.Controls.Add(this.lblMinute);
@@ -586,73 +586,73 @@ namespace RNGReporter
             this.grpSeed.Size = new System.Drawing.Size(190, 284);
             this.grpSeed.TabIndex = 3;
             this.grpSeed.TabStop = false;
-            this.grpSeed.Text = "Seed Finder";
-            // 
+            this.grpSeed.Text = "反查seed";
+            //
             // lblSeedMaxDelay
-            // 
+            //
             this.lblSeedMaxDelay.AutoSize = true;
             this.lblSeedMaxDelay.Location = new System.Drawing.Point(24, 211);
             this.lblSeedMaxDelay.Name = "lblSeedMaxDelay";
             this.lblSeedMaxDelay.Size = new System.Drawing.Size(84, 13);
             this.lblSeedMaxDelay.TabIndex = 30;
-            this.lblSeedMaxDelay.Text = "Maximum Delay:";
-            // 
+            this.lblSeedMaxDelay.Text = "最大Delay：";
+            //
             // lblSeedMinDelay
-            // 
+            //
             this.lblSeedMinDelay.AutoSize = true;
             this.lblSeedMinDelay.Location = new System.Drawing.Point(25, 185);
             this.lblSeedMinDelay.Name = "lblSeedMinDelay";
             this.lblSeedMinDelay.Size = new System.Drawing.Size(81, 13);
             this.lblSeedMinDelay.TabIndex = 29;
-            this.lblSeedMinDelay.Text = "Minimum Delay:";
-            // 
+            this.lblSeedMinDelay.Text = "最小Delay：";
+            //
             // lblMinute
-            // 
+            //
             this.lblMinute.AutoSize = true;
             this.lblMinute.Location = new System.Drawing.Point(64, 159);
             this.lblMinute.Name = "lblMinute";
             this.lblMinute.Size = new System.Drawing.Size(42, 13);
             this.lblMinute.TabIndex = 28;
-            this.lblMinute.Text = "Minute:";
-            // 
+            this.lblMinute.Text = "分钟：";
+            //
             // lblHour
-            // 
+            //
             this.lblHour.AutoSize = true;
             this.lblHour.Location = new System.Drawing.Point(73, 132);
             this.lblHour.Name = "lblHour";
             this.lblHour.Size = new System.Drawing.Size(33, 13);
             this.lblHour.TabIndex = 27;
-            this.lblHour.Text = "Hour:";
-            // 
+            this.lblHour.Text = "时：";
+            //
             // lblSeedYr
-            // 
+            //
             this.lblSeedYr.AutoSize = true;
             this.lblSeedYr.Location = new System.Drawing.Point(74, 106);
             this.lblSeedYr.Name = "lblSeedYr";
             this.lblSeedYr.Size = new System.Drawing.Size(32, 13);
             this.lblSeedYr.TabIndex = 26;
-            this.lblSeedYr.Text = "Year:";
-            // 
+            this.lblSeedYr.Text = "年份：";
+            //
             // lblDay
-            // 
+            //
             this.lblDay.AutoSize = true;
             this.lblDay.Location = new System.Drawing.Point(77, 80);
             this.lblDay.Name = "lblDay";
             this.lblDay.Size = new System.Drawing.Size(29, 13);
             this.lblDay.TabIndex = 25;
-            this.lblDay.Text = "Day:";
-            // 
+            this.lblDay.Text = "日：";
+            //
             // txtSeedMaxDelay
-            // 
+            //
             this.txtSeedMaxDelay.Hex = false;
             this.txtSeedMaxDelay.Location = new System.Drawing.Point(112, 208);
             this.txtSeedMaxDelay.Mask = "00000000";
             this.txtSeedMaxDelay.Name = "txtSeedMaxDelay";
             this.txtSeedMaxDelay.Size = new System.Drawing.Size(65, 20);
             this.txtSeedMaxDelay.TabIndex = 26;
-            // 
+            //
             // btnSeedGo
-            // 
+            //
             this.btnSeedGo.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btnSeedGo.ForeColor = System.Drawing.Color.Black;
             this.btnSeedGo.Location = new System.Drawing.Point(12, 234);
@@ -661,93 +661,93 @@ namespace RNGReporter
             this.btnSeedGo.ShineColor = System.Drawing.SystemColors.Window;
             this.btnSeedGo.Size = new System.Drawing.Size(159, 29);
             this.btnSeedGo.TabIndex = 27;
-            this.btnSeedGo.Text = "Find Compatible Seeds";
+            this.btnSeedGo.Text = "反查目标seed";
             this.btnSeedGo.Click += new System.EventHandler(this.btnSeedGo_Click);
-            // 
+            //
             // txtSeedMinDelay
-            // 
+            //
             this.txtSeedMinDelay.Hex = false;
             this.txtSeedMinDelay.Location = new System.Drawing.Point(112, 182);
             this.txtSeedMinDelay.Mask = "00000000";
             this.txtSeedMinDelay.Name = "txtSeedMinDelay";
             this.txtSeedMinDelay.Size = new System.Drawing.Size(65, 20);
             this.txtSeedMinDelay.TabIndex = 25;
-            // 
+            //
             // txtMinute
-            // 
+            //
             this.txtMinute.Hex = false;
             this.txtMinute.Location = new System.Drawing.Point(112, 156);
             this.txtMinute.Mask = "00";
             this.txtMinute.Name = "txtMinute";
             this.txtMinute.Size = new System.Drawing.Size(24, 20);
             this.txtMinute.TabIndex = 24;
-            // 
+            //
             // txtHour
-            // 
+            //
             this.txtHour.Hex = false;
             this.txtHour.Location = new System.Drawing.Point(112, 129);
             this.txtHour.Mask = "00";
             this.txtHour.Name = "txtHour";
             this.txtHour.Size = new System.Drawing.Size(24, 20);
             this.txtHour.TabIndex = 23;
-            // 
+            //
             // txtSeedYr
-            // 
+            //
             this.txtSeedYr.Hex = false;
             this.txtSeedYr.Location = new System.Drawing.Point(112, 103);
             this.txtSeedYr.Mask = "2\\000";
             this.txtSeedYr.Name = "txtSeedYr";
             this.txtSeedYr.Size = new System.Drawing.Size(35, 20);
             this.txtSeedYr.TabIndex = 22;
-            // 
+            //
             // txtDay
-            // 
+            //
             this.txtDay.Hex = false;
             this.txtDay.Location = new System.Drawing.Point(112, 77);
             this.txtDay.Mask = "00";
             this.txtDay.Name = "txtDay";
             this.txtDay.Size = new System.Drawing.Size(24, 20);
             this.txtDay.TabIndex = 21;
-            // 
+            //
             // lblMonth
-            // 
+            //
             this.lblMonth.AutoSize = true;
             this.lblMonth.Location = new System.Drawing.Point(66, 54);
             this.lblMonth.Name = "lblMonth";
             this.lblMonth.Size = new System.Drawing.Size(40, 13);
             this.lblMonth.TabIndex = 17;
-            this.lblMonth.Text = "Month:";
+            this.lblMonth.Text = "月份：";
             this.lblMonth.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // txtMonth
-            // 
+            //
             this.txtMonth.Hex = false;
             this.txtMonth.Location = new System.Drawing.Point(112, 50);
             this.txtMonth.Mask = "00";
             this.txtMonth.Name = "txtMonth";
             this.txtMonth.Size = new System.Drawing.Size(24, 20);
             this.txtMonth.TabIndex = 20;
-            // 
+            //
             // txtIDObtained
-            // 
+            //
             this.txtIDObtained.Hex = false;
             this.txtIDObtained.Location = new System.Drawing.Point(112, 25);
             this.txtIDObtained.Mask = "00000";
             this.txtIDObtained.Name = "txtIDObtained";
             this.txtIDObtained.Size = new System.Drawing.Size(49, 20);
             this.txtIDObtained.TabIndex = 19;
-            // 
+            //
             // lblIDObtained
-            // 
+            //
             this.lblIDObtained.AutoSize = true;
             this.lblIDObtained.Location = new System.Drawing.Point(3, 28);
             this.lblIDObtained.Name = "lblIDObtained";
             this.lblIDObtained.Size = new System.Drawing.Size(103, 13);
             this.lblIDObtained.TabIndex = 0;
-            this.lblIDObtained.Text = "Trainer ID Obtained:";
-            // 
+            this.lblIDObtained.Text = "击中的TID：";
+            //
             // StatusBar
-            // 
+            //
             this.StatusBar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblAction});
             this.StatusBar.Location = new System.Drawing.Point(0, 635);
@@ -755,29 +755,29 @@ namespace RNGReporter
             this.StatusBar.Size = new System.Drawing.Size(615, 22);
             this.StatusBar.SizingGrip = false;
             this.StatusBar.TabIndex = 5;
-            // 
+            //
             // lblAction
-            // 
+            //
             this.lblAction.Name = "lblAction";
             this.lblAction.Size = new System.Drawing.Size(114, 17);
-            this.lblAction.Text = "Awaiting Command";
-            // 
+            this.lblAction.Text = "等待操作...";
+            //
             // bgwShiny
-            // 
+            //
             this.bgwShiny.WorkerReportsProgress = true;
             this.bgwShiny.WorkerSupportsCancellation = true;
             this.bgwShiny.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bgwShiny_DoWork);
             this.bgwShiny.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgwShiny_RunWorkerCompleted);
-            // 
+            //
             // bgwID
-            // 
+            //
             this.bgwID.WorkerReportsProgress = true;
             this.bgwID.WorkerSupportsCancellation = true;
             this.bgwID.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bgwID_DoWork);
             this.bgwID.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgwID_RunWorkerCompleted);
-            // 
+            //
             // contextMenuStrip
-            // 
+            //
             this.contextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.copySeedToClipboardToolStripMenuItem1,
             this.toolStripMenuItem6,
@@ -785,54 +785,54 @@ namespace RNGReporter
             this.contextMenuStrip.Name = "contextMenuStripCap";
             this.contextMenuStrip.Size = new System.Drawing.Size(200, 54);
             this.contextMenuStrip.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip_Opening);
-            // 
+            //
             // copySeedToClipboardToolStripMenuItem1
-            // 
+            //
             this.copySeedToClipboardToolStripMenuItem1.Name = "copySeedToClipboardToolStripMenuItem1";
             this.copySeedToClipboardToolStripMenuItem1.Size = new System.Drawing.Size(199, 22);
-            this.copySeedToClipboardToolStripMenuItem1.Text = "Copy Seed to Clipboard";
+            this.copySeedToClipboardToolStripMenuItem1.Text = "复制Seed到剪贴板";
             this.copySeedToClipboardToolStripMenuItem1.Click += new System.EventHandler(this.copySeedToClipboardToolStripMenuItem1_Click);
-            // 
+            //
             // toolStripMenuItem6
-            // 
+            //
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
             this.toolStripMenuItem6.Size = new System.Drawing.Size(196, 6);
-            // 
+            //
             // generateTimesToolStripMenuItem
-            // 
+            //
             this.generateTimesToolStripMenuItem.Name = "generateTimesToolStripMenuItem";
             this.generateTimesToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.generateTimesToolStripMenuItem.Text = "Generate More Times ...";
+            this.generateTimesToolStripMenuItem.Text = "复制seed到seed to time";
             this.generateTimesToolStripMenuItem.Click += new System.EventHandler(this.generateTimesToolStripMenuItem_Click);
-            // 
+            //
             // bgwIDInf
-            // 
+            //
             this.bgwIDInf.WorkerReportsProgress = true;
             this.bgwIDInf.WorkerSupportsCancellation = true;
             this.bgwIDInf.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bgwIDInf_DoWork);
             this.bgwIDInf.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgwIDInf_RunWorkerCompleted);
-            // 
+            //
             // lblSimple
-            // 
+            //
             this.lblSimple.AutoSize = true;
             this.lblSimple.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(213)))));
             this.lblSimple.Location = new System.Drawing.Point(6, 13);
             this.lblSimple.Name = "lblSimple";
             this.lblSimple.Size = new System.Drawing.Size(165, 13);
             this.lblSimple.TabIndex = 26;
-            this.lblSimple.Text = "Simple Seed to ID/SID Calculator";
-            // 
+            this.lblSimple.Text = "根据seed简单地计算ID/SID";
+            //
             // lblSeed
-            // 
+            //
             this.lblSeed.AutoSize = true;
             this.lblSeed.Location = new System.Drawing.Point(191, 13);
             this.lblSeed.Name = "lblSeed";
             this.lblSeed.Size = new System.Drawing.Size(63, 13);
             this.lblSeed.TabIndex = 27;
-            this.lblSeed.Text = "Seed (Hex):";
-            // 
+            this.lblSeed.Text = "Seed （16进制）";
+            //
             // GroupBox1
-            // 
+            //
             this.GroupBox1.Controls.Add(this.btnSimpleGo);
             this.GroupBox1.Controls.Add(this.textBoxSeed);
             this.GroupBox1.Controls.Add(this.lblSeed);
@@ -842,9 +842,9 @@ namespace RNGReporter
             this.GroupBox1.Size = new System.Drawing.Size(376, 34);
             this.GroupBox1.TabIndex = 30;
             this.GroupBox1.TabStop = false;
-            // 
+            //
             // btnSimpleGo
-            // 
+            //
             this.btnSimpleGo.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btnSimpleGo.ForeColor = System.Drawing.Color.Black;
             this.btnSimpleGo.Location = new System.Drawing.Point(327, 7);
@@ -855,25 +855,25 @@ namespace RNGReporter
             this.btnSimpleGo.TabIndex = 30;
             this.btnSimpleGo.Text = "Go";
             this.btnSimpleGo.Click += new System.EventHandler(this.btnSimpleGo_Click);
-            // 
+            //
             // textBoxSeed
-            // 
+            //
             this.textBoxSeed.Hex = true;
             this.textBoxSeed.Location = new System.Drawing.Point(256, 10);
             this.textBoxSeed.Mask = "AAAAAAAA";
             this.textBoxSeed.Name = "textBoxSeed";
             this.textBoxSeed.Size = new System.Drawing.Size(65, 20);
             this.textBoxSeed.TabIndex = 29;
-            // 
+            //
             // bgwShinyInf
-            // 
+            //
             this.bgwShinyInf.WorkerReportsProgress = true;
             this.bgwShinyInf.WorkerSupportsCancellation = true;
             this.bgwShinyInf.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bgwShinyInf_DoWork);
             this.bgwShinyInf.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgwShinyInf_RunWorkerCompleted);
-            // 
+            //
             // tabGenSelect
-            // 
+            //
             this.tabGenSelect.Controls.Add(this.tabXDColo);
             this.tabGenSelect.Controls.Add(this.tabGen3FRLGE);
             this.tabGenSelect.Controls.Add(this.tabGen3RS);
@@ -885,9 +885,9 @@ namespace RNGReporter
             this.tabGenSelect.Size = new System.Drawing.Size(593, 355);
             this.tabGenSelect.TabIndex = 31;
             this.tabGenSelect.SelectedIndexChanged += new System.EventHandler(this.tabGenSelect_SelectedIndexChanged);
-            // 
+            //
             // tabXDColo
-            // 
+            //
             this.tabXDColo.Controls.Add(this.labelXDColo);
             this.tabXDColo.Controls.Add(this.genCancelXDColo);
             this.tabXDColo.Controls.Add(this.searchGenXDColo);
@@ -897,19 +897,19 @@ namespace RNGReporter
             this.tabXDColo.Name = "tabXDColo";
             this.tabXDColo.Size = new System.Drawing.Size(585, 329);
             this.tabXDColo.TabIndex = 4;
-            this.tabXDColo.Text = "XD/Colo";
+            this.tabXDColo.Text = "XD暗之旋风/圆形竞技场";
             this.tabXDColo.UseVisualStyleBackColor = true;
-            // 
+            //
             // labelXDColo
-            // 
+            //
             this.labelXDColo.Location = new System.Drawing.Point(6, 262);
             this.labelXDColo.Name = "labelXDColo";
             this.labelXDColo.Size = new System.Drawing.Size(269, 30);
             this.labelXDColo.TabIndex = 123;
-            this.labelXDColo.Text = "This feature will only work for Gales of Darkness and Colosseum.";
-            // 
+            this.labelXDColo.Text = "此功能只适用于XD暗之旋风和Colo竞技场。";
+            //
             // genCancelXDColo
-            // 
+            //
             this.genCancelXDColo.BackColor = System.Drawing.Color.AntiqueWhite;
             this.genCancelXDColo.ForeColor = System.Drawing.Color.Black;
             this.genCancelXDColo.Location = new System.Drawing.Point(204, 234);
@@ -918,11 +918,11 @@ namespace RNGReporter
             this.genCancelXDColo.ShineColor = System.Drawing.SystemColors.Window;
             this.genCancelXDColo.Size = new System.Drawing.Size(177, 25);
             this.genCancelXDColo.TabIndex = 122;
-            this.genCancelXDColo.Text = "Cancel";
+            this.genCancelXDColo.Text = "取消计算";
             this.genCancelXDColo.Click += new System.EventHandler(this.genCancelXDColo_Click);
-            // 
+            //
             // searchGenXDColo
-            // 
+            //
             this.searchGenXDColo.BackColor = System.Drawing.Color.AntiqueWhite;
             this.searchGenXDColo.ForeColor = System.Drawing.Color.Black;
             this.searchGenXDColo.Location = new System.Drawing.Point(3, 234);
@@ -931,11 +931,11 @@ namespace RNGReporter
             this.searchGenXDColo.ShineColor = System.Drawing.SystemColors.Window;
             this.searchGenXDColo.Size = new System.Drawing.Size(195, 25);
             this.searchGenXDColo.TabIndex = 32;
-            this.searchGenXDColo.Text = "Find ID Frames";
+            this.searchGenXDColo.Text = "计算目标ID帧数";
             this.searchGenXDColo.Click += new System.EventHandler(this.searchGenXDColo_Click);
-            // 
+            //
             // groupBox7
-            // 
+            //
             this.groupBox7.Controls.Add(this.XDColoMaxFrame);
             this.groupBox7.Controls.Add(this.label16);
             this.groupBox7.Controls.Add(this.XDColoMinFrame);
@@ -945,10 +945,10 @@ namespace RNGReporter
             this.groupBox7.Size = new System.Drawing.Size(177, 77);
             this.groupBox7.TabIndex = 31;
             this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Search Parameters";
-            // 
+            this.groupBox7.Text = "计算参数";
+            //
             // XDColoMaxFrame
-            // 
+            //
             this.XDColoMaxFrame.Hex = false;
             this.XDColoMaxFrame.Location = new System.Drawing.Point(72, 50);
             this.XDColoMaxFrame.Mask = "000000";
@@ -956,19 +956,19 @@ namespace RNGReporter
             this.XDColoMaxFrame.Size = new System.Drawing.Size(90, 20);
             this.XDColoMaxFrame.TabIndex = 7;
             this.XDColoMaxFrame.Text = "10000";
-            // 
+            //
             // label16
-            // 
+            //
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(12, 24);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(59, 13);
             this.label16.TabIndex = 9;
-            this.label16.Text = "Min Frame:";
+            this.label16.Text = "最小帧：";
             this.label16.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // XDColoMinFrame
-            // 
+            //
             this.XDColoMinFrame.Hex = false;
             this.XDColoMinFrame.Location = new System.Drawing.Point(72, 24);
             this.XDColoMinFrame.Mask = "000000";
@@ -976,19 +976,19 @@ namespace RNGReporter
             this.XDColoMinFrame.Size = new System.Drawing.Size(90, 20);
             this.XDColoMinFrame.TabIndex = 6;
             this.XDColoMinFrame.Text = "5000";
-            // 
+            //
             // label17
-            // 
+            //
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(9, 50);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(62, 13);
             this.label17.TabIndex = 7;
-            this.label17.Text = "Max Frame:";
+            this.label17.Text = "最大帧：";
             this.label17.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // groupBox6
-            // 
+            //
             this.groupBox6.Controls.Add(this.label13);
             this.groupBox6.Controls.Add(this.label15);
             this.groupBox6.Controls.Add(this.XDColoPID);
@@ -998,48 +998,48 @@ namespace RNGReporter
             this.groupBox6.Size = new System.Drawing.Size(195, 77);
             this.groupBox6.TabIndex = 27;
             this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Search By";
-            // 
+            this.groupBox6.Text = "计算条件";
+            //
             // label13
-            // 
+            //
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(19, 50);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(38, 13);
             this.label13.TabIndex = 27;
             this.label13.Text = "PRNG";
-            // 
+            //
             // label15
-            // 
+            //
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(19, 20);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(25, 13);
             this.label15.TabIndex = 27;
             this.label15.Text = "PID";
-            // 
+            //
             // XDColoPID
-            // 
+            //
             this.XDColoPID.Hex = true;
             this.XDColoPID.Location = new System.Drawing.Point(62, 17);
             this.XDColoPID.Mask = "AAAAAAAA";
             this.XDColoPID.Name = "XDColoPID";
             this.XDColoPID.Size = new System.Drawing.Size(119, 20);
             this.XDColoPID.TabIndex = 7;
-            this.toolTips.SetToolTip(this.XDColoPID, "Enter the PID you want shiny.");
-            // 
+            this.toolTips.SetToolTip(this.XDColoPID, "输入你想要的异色PID");
+            //
             // XDColoPRNG
-            // 
+            //
             this.XDColoPRNG.Hex = true;
             this.XDColoPRNG.Location = new System.Drawing.Point(62, 43);
             this.XDColoPRNG.Mask = "AAAAAAAA";
             this.XDColoPRNG.Name = "XDColoPRNG";
             this.XDColoPRNG.Size = new System.Drawing.Size(119, 20);
             this.XDColoPRNG.TabIndex = 3;
-            this.toolTips.SetToolTip(this.XDColoPRNG, "Enter the current PRNG state.");
-            // 
+            this.toolTips.SetToolTip(this.XDColoPRNG, "进入当前PRNG状态");
+            //
             // tabGen3FRLGE
-            // 
+            //
             this.tabGen3FRLGE.Controls.Add(this.label11);
             this.tabGen3FRLGE.Controls.Add(this.groupBox5);
             this.tabGen3FRLGE.Controls.Add(this.groupBox2);
@@ -1049,19 +1049,19 @@ namespace RNGReporter
             this.tabGen3FRLGE.Name = "tabGen3FRLGE";
             this.tabGen3FRLGE.Size = new System.Drawing.Size(585, 329);
             this.tabGen3FRLGE.TabIndex = 3;
-            this.tabGen3FRLGE.Text = "Gen III FRLGE";
+            this.tabGen3FRLGE.Text = "GEN3 火红叶绿绿宝石";
             this.tabGen3FRLGE.UseVisualStyleBackColor = true;
-            // 
+            //
             // label11
-            // 
+            //
             this.label11.Location = new System.Drawing.Point(3, 248);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(269, 30);
             this.label11.TabIndex = 122;
-            this.label11.Text = "This feature will only work for Fire Red, Leaf Green, and Emerald.";
-            // 
+            this.label11.Text = "此功能只适用于火红，叶绿和绿宝石。";
+            //
             // groupBox5
-            // 
+            //
             this.groupBox5.Controls.Add(this.genFRLGEMaxFrame);
             this.groupBox5.Controls.Add(this.label12);
             this.groupBox5.Controls.Add(this.genFRLGEMinFrame);
@@ -1071,10 +1071,10 @@ namespace RNGReporter
             this.groupBox5.Size = new System.Drawing.Size(177, 77);
             this.groupBox5.TabIndex = 30;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Search Parameters";
-            // 
+            this.groupBox5.Text = "计算参数";
+            //
             // genFRLGEMaxFrame
-            // 
+            //
             this.genFRLGEMaxFrame.Hex = false;
             this.genFRLGEMaxFrame.Location = new System.Drawing.Point(72, 50);
             this.genFRLGEMaxFrame.Mask = "000000";
@@ -1082,19 +1082,19 @@ namespace RNGReporter
             this.genFRLGEMaxFrame.Size = new System.Drawing.Size(90, 20);
             this.genFRLGEMaxFrame.TabIndex = 7;
             this.genFRLGEMaxFrame.Text = "10000";
-            // 
+            //
             // label12
-            // 
+            //
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(12, 24);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(59, 13);
             this.label12.TabIndex = 9;
-            this.label12.Text = "Min Frame:";
+            this.label12.Text = "最小帧：";
             this.label12.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // genFRLGEMinFrame
-            // 
+            //
             this.genFRLGEMinFrame.Hex = false;
             this.genFRLGEMinFrame.Location = new System.Drawing.Point(72, 24);
             this.genFRLGEMinFrame.Mask = "000000";
@@ -1102,19 +1102,19 @@ namespace RNGReporter
             this.genFRLGEMinFrame.Size = new System.Drawing.Size(90, 20);
             this.genFRLGEMinFrame.TabIndex = 6;
             this.genFRLGEMinFrame.Text = "5000";
-            // 
+            //
             // label14
-            // 
+            //
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(9, 50);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(62, 13);
             this.label14.TabIndex = 7;
-            this.label14.Text = "Max Frame:";
+            this.label14.Text = "最大帧：";
             this.label14.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // groupBox2
-            // 
+            //
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.genFRLGEPID);
@@ -1124,38 +1124,38 @@ namespace RNGReporter
             this.groupBox2.Size = new System.Drawing.Size(195, 77);
             this.groupBox2.TabIndex = 26;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Search By";
-            // 
+            this.groupBox2.Text = "计算条件";
+            //
             // label10
-            // 
+            //
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(19, 50);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(25, 13);
             this.label10.TabIndex = 27;
             this.label10.Text = "TID";
-            // 
+            //
             // label9
-            // 
+            //
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(19, 20);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(25, 13);
             this.label9.TabIndex = 27;
             this.label9.Text = "PID";
-            // 
+            //
             // genFRLGEPID
-            // 
+            //
             this.genFRLGEPID.Hex = true;
             this.genFRLGEPID.Location = new System.Drawing.Point(62, 17);
             this.genFRLGEPID.Mask = "AAAAAAAA";
             this.genFRLGEPID.Name = "genFRLGEPID";
             this.genFRLGEPID.Size = new System.Drawing.Size(119, 20);
             this.genFRLGEPID.TabIndex = 7;
-            this.toolTips.SetToolTip(this.genFRLGEPID, "Enter the PID you want shiny.");
-            // 
+            this.toolTips.SetToolTip(this.genFRLGEPID, "输入你想要的异色PID");
+            //
             // genFRLGETID
-            // 
+            //
             this.genFRLGETID.Hex = false;
             this.genFRLGETID.Location = new System.Drawing.Point(62, 43);
             this.genFRLGETID.Mask = "00000";
@@ -1163,10 +1163,10 @@ namespace RNGReporter
             this.genFRLGETID.Size = new System.Drawing.Size(119, 20);
             this.genFRLGETID.TabIndex = 3;
             this.genFRLGETID.Tag = "id/sid";
-            this.toolTips.SetToolTip(this.genFRLGETID, "Enter the TID you obtained.");
-            // 
+            this.toolTips.SetToolTip(this.genFRLGETID, "输入你获取的TID");
+            //
             // genCancelFRLGE
-            // 
+            //
             this.genCancelFRLGE.BackColor = System.Drawing.Color.AntiqueWhite;
             this.genCancelFRLGE.ForeColor = System.Drawing.Color.Black;
             this.genCancelFRLGE.Location = new System.Drawing.Point(204, 220);
@@ -1175,11 +1175,11 @@ namespace RNGReporter
             this.genCancelFRLGE.ShineColor = System.Drawing.SystemColors.Window;
             this.genCancelFRLGE.Size = new System.Drawing.Size(177, 25);
             this.genCancelFRLGE.TabIndex = 121;
-            this.genCancelFRLGE.Text = "Cancel";
+            this.genCancelFRLGE.Text = "取消计算";
             this.genCancelFRLGE.Click += new System.EventHandler(this.genCancelFRLGE_Click);
-            // 
+            //
             // genSearchFRLGE
-            // 
+            //
             this.genSearchFRLGE.BackColor = System.Drawing.Color.AntiqueWhite;
             this.genSearchFRLGE.ForeColor = System.Drawing.Color.Black;
             this.genSearchFRLGE.Location = new System.Drawing.Point(3, 220);
@@ -1188,11 +1188,11 @@ namespace RNGReporter
             this.genSearchFRLGE.ShineColor = System.Drawing.SystemColors.Window;
             this.genSearchFRLGE.Size = new System.Drawing.Size(195, 25);
             this.genSearchFRLGE.TabIndex = 31;
-            this.genSearchFRLGE.Text = "Find ID Frames";
+            this.genSearchFRLGE.Text = "计算目标ID帧数";
             this.genSearchFRLGE.Click += new System.EventHandler(this.genSearchFRLGE_Click);
-            // 
+            //
             // tabGen3RS
-            // 
+            //
             this.tabGen3RS.Controls.Add(this.buttonIIICancel);
             this.tabGen3RS.Controls.Add(this.groupBox4);
             this.tabGen3RS.Controls.Add(this.groupBox3);
@@ -1202,11 +1202,11 @@ namespace RNGReporter
             this.tabGen3RS.Padding = new System.Windows.Forms.Padding(3);
             this.tabGen3RS.Size = new System.Drawing.Size(585, 329);
             this.tabGen3RS.TabIndex = 2;
-            this.tabGen3RS.Text = "Gen III RS";
+            this.tabGen3RS.Text = "GEN3 红/蓝宝石";
             this.tabGen3RS.UseVisualStyleBackColor = true;
-            // 
+            //
             // buttonIIICancel
-            // 
+            //
             this.buttonIIICancel.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonIIICancel.ForeColor = System.Drawing.Color.Black;
             this.buttonIIICancel.Location = new System.Drawing.Point(207, 226);
@@ -1215,11 +1215,11 @@ namespace RNGReporter
             this.buttonIIICancel.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonIIICancel.Size = new System.Drawing.Size(177, 25);
             this.buttonIIICancel.TabIndex = 120;
-            this.buttonIIICancel.Text = "Cancel";
+            this.buttonIIICancel.Text = "取消计算";
             this.buttonIIICancel.Click += new System.EventHandler(this.buttonIIICancel_Click);
-            // 
+            //
             // groupBox4
-            // 
+            //
             this.groupBox4.Controls.Add(this.maskedTextBox21);
             this.groupBox4.Controls.Add(this.radioButton1);
             this.groupBox4.Controls.Add(this.radioButton2);
@@ -1238,10 +1238,10 @@ namespace RNGReporter
             this.groupBox4.Size = new System.Drawing.Size(198, 214);
             this.groupBox4.TabIndex = 29;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Search Parameters";
-            // 
+            this.groupBox4.Text = "计算参数";
+            //
             // maskedTextBox21
-            // 
+            //
             this.maskedTextBox21.Enabled = false;
             this.maskedTextBox21.Hex = true;
             this.maskedTextBox21.Location = new System.Drawing.Point(98, 43);
@@ -1250,20 +1250,20 @@ namespace RNGReporter
             this.maskedTextBox21.ReadOnly = true;
             this.maskedTextBox21.Size = new System.Drawing.Size(73, 20);
             this.maskedTextBox21.TabIndex = 123;
-            // 
+            //
             // radioButton1
-            // 
+            //
             this.radioButton1.AutoSize = true;
             this.radioButton1.Enabled = false;
             this.radioButton1.Location = new System.Drawing.Point(15, 45);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(80, 17);
             this.radioButton1.TabIndex = 121;
-            this.radioButton1.Text = "Initial Seed:";
+            this.radioButton1.Text = "初始Seed：";
             this.radioButton1.UseVisualStyleBackColor = true;
-            // 
+            //
             // radioButton2
-            // 
+            //
             this.radioButton2.AutoSize = true;
             this.radioButton2.Checked = true;
             this.radioButton2.Enabled = false;
@@ -1272,12 +1272,12 @@ namespace RNGReporter
             this.radioButton2.Size = new System.Drawing.Size(51, 17);
             this.radioButton2.TabIndex = 122;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Date:";
+            this.radioButton2.Text = "日期：";
             this.radioButton2.UseVisualStyleBackColor = true;
             this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
-            // 
+            //
             // checkIIIClock
-            // 
+            //
             this.checkIIIClock.AutoSize = true;
             this.checkIIIClock.Checked = true;
             this.checkIIIClock.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -1285,22 +1285,22 @@ namespace RNGReporter
             this.checkIIIClock.Name = "checkIIIClock";
             this.checkIIIClock.Size = new System.Drawing.Size(88, 17);
             this.checkIIIClock.TabIndex = 33;
-            this.checkIIIClock.Text = "Dead Battery";
+            this.checkIIIClock.Text = "电池没电";
             this.checkIIIClock.UseVisualStyleBackColor = true;
             this.checkIIIClock.CheckedChanged += new System.EventHandler(this.checkIIIClock_CheckedChanged);
-            // 
+            //
             // label5
-            // 
+            //
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(27, 126);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(42, 13);
             this.label5.TabIndex = 32;
-            this.label5.Text = "Minute:";
+            this.label5.Text = "分钟：";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // textIIIMaxFrame
-            // 
+            //
             this.textIIIMaxFrame.Hex = false;
             this.textIIIMaxFrame.Location = new System.Drawing.Point(72, 175);
             this.textIIIMaxFrame.Mask = "000000";
@@ -1308,29 +1308,29 @@ namespace RNGReporter
             this.textIIIMaxFrame.Size = new System.Drawing.Size(90, 20);
             this.textIIIMaxFrame.TabIndex = 7;
             this.textIIIMaxFrame.Text = "10000";
-            // 
+            //
             // label6
-            // 
+            //
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(12, 152);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(59, 13);
             this.label6.TabIndex = 9;
-            this.label6.Text = "Min Frame:";
+            this.label6.Text = "最小帧：";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // label8
-            // 
+            //
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(35, 98);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(33, 13);
             this.label8.TabIndex = 31;
-            this.label8.Text = "Hour:";
+            this.label8.Text = "时：";
             this.label8.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // textIIIMinFrame
-            // 
+            //
             this.textIIIMinFrame.Hex = false;
             this.textIIIMinFrame.Location = new System.Drawing.Point(72, 149);
             this.textIIIMinFrame.Mask = "000000";
@@ -1338,19 +1338,19 @@ namespace RNGReporter
             this.textIIIMinFrame.Size = new System.Drawing.Size(90, 20);
             this.textIIIMinFrame.TabIndex = 6;
             this.textIIIMinFrame.Text = "5000";
-            // 
+            //
             // label7
-            // 
+            //
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(9, 178);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(62, 13);
             this.label7.TabIndex = 7;
-            this.label7.Text = "Max Frame:";
+            this.label7.Text = "最大帧：";
             this.label7.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // textIIIMinute
-            // 
+            //
             this.textIIIMinute.Enabled = false;
             this.textIIIMinute.Hex = false;
             this.textIIIMinute.Location = new System.Drawing.Point(72, 123);
@@ -1359,9 +1359,9 @@ namespace RNGReporter
             this.textIIIMinute.Size = new System.Drawing.Size(24, 20);
             this.textIIIMinute.TabIndex = 30;
             this.textIIIMinute.Text = "0";
-            // 
+            //
             // dateIII
-            // 
+            //
             this.dateIII.CustomFormat = "";
             this.dateIII.Enabled = false;
             this.dateIII.Format = System.Windows.Forms.DateTimePickerFormat.Short;
@@ -1373,9 +1373,9 @@ namespace RNGReporter
             this.dateIII.TabIndex = 10;
             this.toolTips.SetToolTip(this.dateIII, "Select the date to search.");
             this.dateIII.Value = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
-            // 
+            //
             // textIIIHour
-            // 
+            //
             this.textIIIHour.Enabled = false;
             this.textIIIHour.Hex = false;
             this.textIIIHour.Location = new System.Drawing.Point(72, 95);
@@ -1384,9 +1384,9 @@ namespace RNGReporter
             this.textIIIHour.Size = new System.Drawing.Size(24, 20);
             this.textIIIHour.TabIndex = 29;
             this.textIIIHour.Text = "0";
-            // 
+            //
             // groupBox3
-            // 
+            //
             this.groupBox3.Controls.Add(this.textIIISID);
             this.groupBox3.Controls.Add(this.checkIIISID);
             this.groupBox3.Controls.Add(this.checkIIIPID);
@@ -1398,10 +1398,10 @@ namespace RNGReporter
             this.groupBox3.Size = new System.Drawing.Size(195, 97);
             this.groupBox3.TabIndex = 25;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Search By";
-            // 
+            this.groupBox3.Text = "计算条件";
+            //
             // textIIISID
-            // 
+            //
             this.textIIISID.Enabled = false;
             this.textIIISID.Hex = false;
             this.textIIISID.Location = new System.Drawing.Point(62, 67);
@@ -1410,10 +1410,10 @@ namespace RNGReporter
             this.textIIISID.Size = new System.Drawing.Size(119, 20);
             this.textIIISID.TabIndex = 9;
             this.textIIISID.Tag = "id/sid";
-            this.toolTips.SetToolTip(this.textIIISID, "Enter TID to search for here.");
-            // 
+            this.toolTips.SetToolTip(this.textIIISID, "在这里输入TID进行搜索");
+            //
             // checkIIISID
-            // 
+            //
             this.checkIIISID.AutoSize = true;
             this.checkIIISID.Location = new System.Drawing.Point(6, 69);
             this.checkIIISID.Name = "checkIIISID";
@@ -1422,9 +1422,9 @@ namespace RNGReporter
             this.checkIIISID.Text = "SID: ";
             this.checkIIISID.UseVisualStyleBackColor = true;
             this.checkIIISID.CheckedChanged += new System.EventHandler(this.checkIIISID_CheckedChanged);
-            // 
+            //
             // checkIIIPID
-            // 
+            //
             this.checkIIIPID.AutoSize = true;
             this.checkIIIPID.Location = new System.Drawing.Point(6, 19);
             this.checkIIIPID.Name = "checkIIIPID";
@@ -1433,9 +1433,9 @@ namespace RNGReporter
             this.checkIIIPID.Text = "PID:";
             this.checkIIIPID.UseVisualStyleBackColor = true;
             this.checkIIIPID.CheckedChanged += new System.EventHandler(this.checkIIIPID_CheckedChanged);
-            // 
+            //
             // textIIIPID
-            // 
+            //
             this.textIIIPID.Enabled = false;
             this.textIIIPID.Hex = true;
             this.textIIIPID.Location = new System.Drawing.Point(62, 17);
@@ -1443,10 +1443,10 @@ namespace RNGReporter
             this.textIIIPID.Name = "textIIIPID";
             this.textIIIPID.Size = new System.Drawing.Size(119, 20);
             this.textIIIPID.TabIndex = 7;
-            this.toolTips.SetToolTip(this.textIIIPID, "Enter the full seed given by RNG Reporter.");
-            // 
+            this.toolTips.SetToolTip(this.textIIIPID, "输入RNG Reporter给出的完整seed");
+            //
             // textIIITID
-            // 
+            //
             this.textIIITID.Enabled = false;
             this.textIIITID.Hex = false;
             this.textIIITID.Location = new System.Drawing.Point(62, 43);
@@ -1455,10 +1455,10 @@ namespace RNGReporter
             this.textIIITID.Size = new System.Drawing.Size(119, 20);
             this.textIIITID.TabIndex = 3;
             this.textIIITID.Tag = "id/sid";
-            this.toolTips.SetToolTip(this.textIIITID, "Enter TID to search for here.");
-            // 
+            this.toolTips.SetToolTip(this.textIIITID, "在这里输入TID进行搜索");
+            //
             // checkIIITID
-            // 
+            //
             this.checkIIITID.AutoSize = true;
             this.checkIIITID.Location = new System.Drawing.Point(6, 45);
             this.checkIIITID.Name = "checkIIITID";
@@ -1467,9 +1467,9 @@ namespace RNGReporter
             this.checkIIITID.Text = "TID: ";
             this.checkIIITID.UseVisualStyleBackColor = true;
             this.checkIIITID.CheckedChanged += new System.EventHandler(this.checkIIITID_CheckedChanged);
-            // 
+            //
             // buttonIIIFindFrames
-            // 
+            //
             this.buttonIIIFindFrames.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonIIIFindFrames.ForeColor = System.Drawing.Color.Black;
             this.buttonIIIFindFrames.Location = new System.Drawing.Point(6, 226);
@@ -1478,11 +1478,11 @@ namespace RNGReporter
             this.buttonIIIFindFrames.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonIIIFindFrames.Size = new System.Drawing.Size(195, 25);
             this.buttonIIIFindFrames.TabIndex = 26;
-            this.buttonIIIFindFrames.Text = "Find ID Frames";
+            this.buttonIIIFindFrames.Text = "计算目标ID帧数";
             this.buttonIIIFindFrames.Click += new System.EventHandler(this.buttonIIIFindFrames_Click);
-            // 
+            //
             // tabGen4
-            // 
+            //
             this.tabGen4.Controls.Add(this.labelBy);
             this.tabGen4.Controls.Add(this.GroupBox1);
             this.tabGen4.Controls.Add(this.grpShiny);
@@ -1496,19 +1496,19 @@ namespace RNGReporter
             this.tabGen4.TabIndex = 0;
             this.tabGen4.Text = "Gen IV";
             this.tabGen4.UseVisualStyleBackColor = true;
-            // 
+            //
             // labelBy
-            // 
+            //
             this.labelBy.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelBy.AutoSize = true;
             this.labelBy.Location = new System.Drawing.Point(20, 14);
             this.labelBy.Name = "labelBy";
             this.labelBy.Size = new System.Drawing.Size(62, 13);
             this.labelBy.TabIndex = 32;
-            this.labelBy.Text = "By WildEep";
-            // 
+            this.labelBy.Text = "由WildEep开发";
+            //
             // btnCredits
-            // 
+            //
             this.btnCredits.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btnCredits.ForeColor = System.Drawing.Color.Black;
             this.btnCredits.Location = new System.Drawing.Point(99, 6);
@@ -1517,11 +1517,11 @@ namespace RNGReporter
             this.btnCredits.ShineColor = System.Drawing.SystemColors.Window;
             this.btnCredits.Size = new System.Drawing.Size(90, 29);
             this.btnCredits.TabIndex = 0;
-            this.btnCredits.Text = "Credits";
+            this.btnCredits.Text = "感谢名单";
             this.btnCredits.Click += new System.EventHandler(this.btnCredits_Click);
-            // 
+            //
             // tabGen5
-            // 
+            //
             this.tabGen5.Controls.Add(this.buttonVFindSeedHit);
             this.tabGen5.Controls.Add(this.groupVSeedFinder);
             this.tabGen5.Controls.Add(this.groupVDSParams);
@@ -1535,9 +1535,9 @@ namespace RNGReporter
             this.tabGen5.TabIndex = 1;
             this.tabGen5.Text = "Gen V";
             this.tabGen5.UseVisualStyleBackColor = true;
-            // 
+            //
             // buttonVFindSeedHit
-            // 
+            //
             this.buttonVFindSeedHit.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonVFindSeedHit.ForeColor = System.Drawing.Color.Black;
             this.buttonVFindSeedHit.Location = new System.Drawing.Point(208, 296);
@@ -1546,11 +1546,11 @@ namespace RNGReporter
             this.buttonVFindSeedHit.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonVFindSeedHit.Size = new System.Drawing.Size(190, 25);
             this.buttonVFindSeedHit.TabIndex = 15;
-            this.buttonVFindSeedHit.Text = "Find Seed Hit";
+            this.buttonVFindSeedHit.Text = "反查击中seed";
             this.buttonVFindSeedHit.Click += new System.EventHandler(this.buttonVFindSeedHit_Click);
-            // 
+            //
             // groupVSeedFinder
-            // 
+            //
             this.groupVSeedFinder.Controls.Add(this.textVMinute);
             this.groupVSeedFinder.Controls.Add(this.textVHour);
             this.groupVSeedFinder.Controls.Add(this.labelTIDReceived);
@@ -1570,103 +1570,103 @@ namespace RNGReporter
             this.groupVSeedFinder.Size = new System.Drawing.Size(190, 172);
             this.groupVSeedFinder.TabIndex = 24;
             this.groupVSeedFinder.TabStop = false;
-            this.groupVSeedFinder.Text = "Seed Finder";
-            // 
+            this.groupVSeedFinder.Text = "反查seed";
+            //
             // textVMinute
-            // 
+            //
             this.textVMinute.Hex = false;
             this.textVMinute.Location = new System.Drawing.Point(139, 80);
             this.textVMinute.Name = "textVMinute";
             this.textVMinute.Size = new System.Drawing.Size(41, 20);
             this.textVMinute.TabIndex = 10;
             this.textVMinute.Text = "0";
-            this.toolTips.SetToolTip(this.textVMinute, "Enter the minute you started your game/");
-            // 
+            this.toolTips.SetToolTip(this.textVMinute, "输入你开始游戏的分钟数");
+            //
             // textVHour
-            // 
+            //
             this.textVHour.Hex = false;
             this.textVHour.Location = new System.Drawing.Point(42, 80);
             this.textVHour.Name = "textVHour";
             this.textVHour.Size = new System.Drawing.Size(44, 20);
             this.textVHour.TabIndex = 11;
             this.textVHour.Text = "0";
-            this.toolTips.SetToolTip(this.textVHour, "Enter the hour that you started the game.");
-            // 
+            this.toolTips.SetToolTip(this.textVHour, "输入你开始游戏的时数");
+            //
             // labelTIDReceived
-            // 
+            //
             this.labelTIDReceived.AutoSize = true;
             this.labelTIDReceived.Location = new System.Drawing.Point(6, 31);
             this.labelTIDReceived.Name = "labelTIDReceived";
             this.labelTIDReceived.Size = new System.Drawing.Size(67, 13);
             this.labelTIDReceived.TabIndex = 22;
-            this.labelTIDReceived.Text = "ID Received";
-            // 
+            this.labelTIDReceived.Text = "击中的TID";
+            //
             // labelVMinute
-            // 
+            //
             this.labelVMinute.AutoSize = true;
             this.labelVMinute.Location = new System.Drawing.Point(95, 83);
             this.labelVMinute.Name = "labelVMinute";
             this.labelVMinute.Size = new System.Drawing.Size(42, 13);
             this.labelVMinute.TabIndex = 25;
-            this.labelVMinute.Text = "Minute:";
-            // 
+            this.labelVMinute.Text = "分钟：";
+            //
             // textVTIDReceived
-            // 
+            //
             this.textVTIDReceived.Hex = false;
             this.textVTIDReceived.Location = new System.Drawing.Point(84, 28);
             this.textVTIDReceived.Mask = "00000";
             this.textVTIDReceived.Name = "textVTIDReceived";
             this.textVTIDReceived.Size = new System.Drawing.Size(100, 20);
             this.textVTIDReceived.TabIndex = 8;
-            this.toolTips.SetToolTip(this.textVTIDReceived, "Enter the ID you received here to see what seed you hit.");
-            // 
+            this.toolTips.SetToolTip(this.textVTIDReceived, "输入你在这里获取的ID，看看你击中了什么seed");
+            //
             // textVMaxSec
-            // 
+            //
             this.textVMaxSec.Hex = false;
             this.textVMaxSec.Location = new System.Drawing.Point(139, 107);
             this.textVMaxSec.Name = "textVMaxSec";
             this.textVMaxSec.Size = new System.Drawing.Size(44, 20);
             this.textVMaxSec.TabIndex = 13;
             this.textVMaxSec.Text = "59";
-            // 
+            //
             // labelVHour
-            // 
+            //
             this.labelVHour.AutoSize = true;
             this.labelVHour.Location = new System.Drawing.Point(6, 83);
             this.labelVHour.Name = "labelVHour";
             this.labelVHour.Size = new System.Drawing.Size(33, 13);
             this.labelVHour.TabIndex = 23;
-            this.labelVHour.Text = "Hour:";
-            // 
+            this.labelVHour.Text = "时：";
+            //
             // textVMinSec
-            // 
+            //
             this.textVMinSec.Hex = false;
             this.textVMinSec.Location = new System.Drawing.Point(89, 107);
             this.textVMinSec.Name = "textVMinSec";
             this.textVMinSec.Size = new System.Drawing.Size(44, 20);
             this.textVMinSec.TabIndex = 12;
             this.textVMinSec.Text = "0";
-            // 
+            //
             // label1
-            // 
+            //
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(5, 110);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(74, 13);
             this.label1.TabIndex = 18;
-            this.label1.Text = "Min/Max Sec:";
-            // 
+            this.label1.Text = "最小/最大秒数";
+            //
             // textVMaxFrameHit
-            // 
+            //
             this.textVMaxFrameHit.Hex = false;
             this.textVMaxFrameHit.Location = new System.Drawing.Point(139, 133);
             this.textVMaxFrameHit.Name = "textVMaxFrameHit";
             this.textVMaxFrameHit.Size = new System.Drawing.Size(44, 20);
             this.textVMaxFrameHit.TabIndex = 15;
             this.textVMaxFrameHit.Text = "40";
-            // 
+            //
             // dateTimeSeedSearch
-            // 
+            //
             this.dateTimeSeedSearch.CustomFormat = "";
             this.dateTimeSeedSearch.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimeSeedSearch.Location = new System.Drawing.Point(84, 54);
@@ -1676,36 +1676,36 @@ namespace RNGReporter
             this.dateTimeSeedSearch.Size = new System.Drawing.Size(99, 20);
             this.dateTimeSeedSearch.TabIndex = 9;
             this.dateTimeSeedSearch.Value = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
-            // 
+            //
             // label3
-            // 
+            //
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(6, 56);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(33, 13);
             this.label3.TabIndex = 13;
-            this.label3.Text = "Date:";
-            // 
+            this.label3.Text = "日期：";
+            //
             // textVMinFrameHit
-            // 
+            //
             this.textVMinFrameHit.Hex = false;
             this.textVMinFrameHit.Location = new System.Drawing.Point(89, 133);
             this.textVMinFrameHit.Name = "textVMinFrameHit";
             this.textVMinFrameHit.Size = new System.Drawing.Size(44, 20);
             this.textVMinFrameHit.TabIndex = 14;
             this.textVMinFrameHit.Text = "10";
-            // 
+            //
             // label2
-            // 
+            //
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(5, 136);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 13);
             this.label2.TabIndex = 14;
-            this.label2.Text = "Min/Max Frame:";
-            // 
+            this.label2.Text = "最小/最大帧：";
+            //
             // groupVDSParams
-            // 
+            //
             this.groupVDSParams.Controls.Add(this.label4);
             this.groupVDSParams.Controls.Add(this.labelProfileInformation);
             this.groupVDSParams.Controls.Add(this.comboBoxProfiles);
@@ -1715,27 +1715,27 @@ namespace RNGReporter
             this.groupVDSParams.Size = new System.Drawing.Size(562, 105);
             this.groupVDSParams.TabIndex = 23;
             this.groupVDSParams.TabStop = false;
-            this.groupVDSParams.Text = "DS Parameters";
-            // 
+            this.groupVDSParams.Text = "DS配置参数";
+            //
             // label4
-            // 
+            //
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(3, 73);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(199, 13);
             this.label4.TabIndex = 324;
-            this.label4.Text = "Please note: only the min Timer0 is used.";
-            // 
+            this.label4.Text = "请注意:只使用最小的Timer0。";
+            //
             // labelProfileInformation
-            // 
+            //
             this.labelProfileInformation.AutoSize = true;
             this.labelProfileInformation.Location = new System.Drawing.Point(3, 47);
             this.labelProfileInformation.Name = "labelProfileInformation";
             this.labelProfileInformation.Size = new System.Drawing.Size(0, 13);
             this.labelProfileInformation.TabIndex = 323;
-            // 
+            //
             // comboBoxProfiles
-            // 
+            //
             this.comboBoxProfiles.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxProfiles.ForeColor = System.Drawing.Color.Black;
             this.comboBoxProfiles.FormattingEnabled = true;
@@ -1746,9 +1746,9 @@ namespace RNGReporter
             this.comboBoxProfiles.Size = new System.Drawing.Size(119, 21);
             this.comboBoxProfiles.TabIndex = 322;
             this.comboBoxProfiles.SelectedIndexChanged += new System.EventHandler(this.comboBoxProfiles_SelectedIndexChanged);
-            // 
+            //
             // buttonEditProfile
-            // 
+            //
             this.buttonEditProfile.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonEditProfile.ForeColor = System.Drawing.Color.Black;
             this.buttonEditProfile.Location = new System.Drawing.Point(131, 17);
@@ -1757,11 +1757,11 @@ namespace RNGReporter
             this.buttonEditProfile.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonEditProfile.Size = new System.Drawing.Size(39, 23);
             this.buttonEditProfile.TabIndex = 321;
-            this.buttonEditProfile.Text = "Edit";
+            this.buttonEditProfile.Text = "编辑";
             this.buttonEditProfile.Click += new System.EventHandler(this.buttonEditProfile_Click);
-            // 
+            //
             // groupVPID
-            // 
+            //
             this.groupVPID.Controls.Add(this.textVSID);
             this.groupVPID.Controls.Add(this.checkVSID);
             this.groupVPID.Controls.Add(this.textVMaxAdvances);
@@ -1778,10 +1778,10 @@ namespace RNGReporter
             this.groupVPID.Size = new System.Drawing.Size(195, 172);
             this.groupVPID.TabIndex = 0;
             this.groupVPID.TabStop = false;
-            this.groupVPID.Text = "Search By";
-            // 
+            this.groupVPID.Text = "计算条件";
+            //
             // textVSID
-            // 
+            //
             this.textVSID.Enabled = false;
             this.textVSID.Hex = false;
             this.textVSID.Location = new System.Drawing.Point(100, 141);
@@ -1790,10 +1790,10 @@ namespace RNGReporter
             this.textVSID.Size = new System.Drawing.Size(81, 20);
             this.textVSID.TabIndex = 9;
             this.textVSID.Tag = "id/sid";
-            this.toolTips.SetToolTip(this.textVSID, "Enter TID to search for here.");
-            // 
+            this.toolTips.SetToolTip(this.textVSID, "在这里输入TID进行搜索");
+            //
             // checkVSID
-            // 
+            //
             this.checkVSID.AutoSize = true;
             this.checkVSID.Location = new System.Drawing.Point(11, 143);
             this.checkVSID.Name = "checkVSID";
@@ -1802,9 +1802,9 @@ namespace RNGReporter
             this.checkVSID.Text = "SID: ";
             this.checkVSID.UseVisualStyleBackColor = true;
             this.checkVSID.CheckedChanged += new System.EventHandler(this.checkVSID_CheckedChanged);
-            // 
+            //
             // textVMaxAdvances
-            // 
+            //
             this.textVMaxAdvances.Hex = false;
             this.textVMaxAdvances.Location = new System.Drawing.Point(100, 68);
             this.textVMaxAdvances.Mask = "000";
@@ -1812,9 +1812,9 @@ namespace RNGReporter
             this.textVMaxAdvances.Size = new System.Drawing.Size(81, 20);
             this.textVMaxAdvances.TabIndex = 7;
             this.textVMaxAdvances.Text = "5";
-            // 
+            //
             // checkVPID
-            // 
+            //
             this.checkVPID.AutoSize = true;
             this.checkVPID.Location = new System.Drawing.Point(11, 96);
             this.checkVPID.Name = "checkVPID";
@@ -1823,18 +1823,18 @@ namespace RNGReporter
             this.checkVPID.Text = "PID:";
             this.checkVPID.UseVisualStyleBackColor = true;
             this.checkVPID.CheckedChanged += new System.EventHandler(this.checkVPID_CheckedChanged);
-            // 
+            //
             // labelVMaxFrame
-            // 
+            //
             this.labelVMaxFrame.AutoSize = true;
             this.labelVMaxFrame.Location = new System.Drawing.Point(8, 71);
             this.labelVMaxFrame.Name = "labelVMaxFrame";
             this.labelVMaxFrame.Size = new System.Drawing.Size(81, 13);
             this.labelVMaxFrame.TabIndex = 9;
-            this.labelVMaxFrame.Text = "Max Advances:";
-            // 
+            this.labelVMaxFrame.Text = "最大帧：";
+            //
             // textVPID
-            // 
+            //
             this.textVPID.Enabled = false;
             this.textVPID.Hex = true;
             this.textVPID.Location = new System.Drawing.Point(100, 94);
@@ -1842,21 +1842,21 @@ namespace RNGReporter
             this.textVPID.Name = "textVPID";
             this.textVPID.Size = new System.Drawing.Size(81, 20);
             this.textVPID.TabIndex = 7;
-            this.toolTips.SetToolTip(this.textVPID, "Enter the full seed given by RNG Reporter.");
-            // 
+            this.toolTips.SetToolTip(this.textVPID, "输入RNG Reporter给出的完整seed");
+            //
             // checkVMonth
-            // 
+            //
             this.checkVMonth.AutoSize = true;
             this.checkVMonth.Location = new System.Drawing.Point(11, 43);
             this.checkVMonth.Name = "checkVMonth";
             this.checkVMonth.Size = new System.Drawing.Size(123, 17);
             this.checkVMonth.TabIndex = 5;
-            this.checkVMonth.Text = "Search Entire Month";
-            this.toolTips.SetToolTip(this.checkVMonth, "Choose any day during the month you want to search.");
+            this.checkVMonth.Text = "日期范围改为整个月";
+            this.toolTips.SetToolTip(this.checkVMonth, "在一个月内选择您想要搜索的任何一天");
             this.checkVMonth.UseVisualStyleBackColor = true;
-            // 
+            //
             // textVTID
-            // 
+            //
             this.textVTID.Enabled = false;
             this.textVTID.Hex = false;
             this.textVTID.Location = new System.Drawing.Point(100, 117);
@@ -1865,10 +1865,10 @@ namespace RNGReporter
             this.textVTID.Size = new System.Drawing.Size(81, 20);
             this.textVTID.TabIndex = 3;
             this.textVTID.Tag = "id/sid";
-            this.toolTips.SetToolTip(this.textVTID, "Enter TID to search for here.");
-            // 
+            this.toolTips.SetToolTip(this.textVTID, "在这里输入TID进行搜索");
+            //
             // checkVTID
-            // 
+            //
             this.checkVTID.AutoSize = true;
             this.checkVTID.Location = new System.Drawing.Point(11, 119);
             this.checkVTID.Name = "checkVTID";
@@ -1877,18 +1877,18 @@ namespace RNGReporter
             this.checkVTID.Text = "TID: ";
             this.checkVTID.UseVisualStyleBackColor = true;
             this.checkVTID.CheckedChanged += new System.EventHandler(this.checkTID_CheckedChanged);
-            // 
+            //
             // labelVDate
-            // 
+            //
             this.labelVDate.AutoSize = true;
             this.labelVDate.Location = new System.Drawing.Point(8, 18);
             this.labelVDate.Name = "labelVDate";
             this.labelVDate.Size = new System.Drawing.Size(33, 13);
             this.labelVDate.TabIndex = 6;
-            this.labelVDate.Text = "Date:";
-            // 
+            this.labelVDate.Text = "日期：";
+            //
             // dateTimeSearch
-            // 
+            //
             this.dateTimeSearch.CustomFormat = "";
             this.dateTimeSearch.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimeSearch.Location = new System.Drawing.Point(100, 15);
@@ -1899,9 +1899,9 @@ namespace RNGReporter
             this.dateTimeSearch.TabIndex = 4;
             this.toolTips.SetToolTip(this.dateTimeSearch, "Select the date to search.");
             this.dateTimeSearch.Value = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
-            // 
+            //
             // buttonVFindSeeds
-            // 
+            //
             this.buttonVFindSeeds.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonVFindSeeds.ForeColor = System.Drawing.Color.Black;
             this.buttonVFindSeeds.Location = new System.Drawing.Point(7, 296);
@@ -1910,11 +1910,11 @@ namespace RNGReporter
             this.buttonVFindSeeds.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonVFindSeeds.Size = new System.Drawing.Size(95, 25);
             this.buttonVFindSeeds.TabIndex = 8;
-            this.buttonVFindSeeds.Text = "Search";
+            this.buttonVFindSeeds.Text = "计算目标seed";
             this.buttonVFindSeeds.Click += new System.EventHandler(this.buttonVFindSeeds_Click);
-            // 
+            //
             // buttonVCancel
-            // 
+            //
             this.buttonVCancel.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonVCancel.ForeColor = System.Drawing.Color.Black;
             this.buttonVCancel.Location = new System.Drawing.Point(106, 296);
@@ -1923,16 +1923,16 @@ namespace RNGReporter
             this.buttonVCancel.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonVCancel.Size = new System.Drawing.Size(95, 25);
             this.buttonVCancel.TabIndex = 22;
-            this.buttonVCancel.Text = "Cancel";
+            this.buttonVCancel.Text = "取消计算";
             this.buttonVCancel.Click += new System.EventHandler(this.buttonVCancel_Click);
-            // 
+            //
             // dgvResults
-            // 
+            //
             this.dgvResults.AllowUserToAddRows = false;
             this.dgvResults.AllowUserToDeleteRows = false;
             this.dgvResults.AllowUserToResizeRows = false;
-            this.dgvResults.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dgvResults.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvResults.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvResults.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -1958,95 +1958,95 @@ namespace RNGReporter
             this.dgvResults.TabIndex = 25;
             this.dgvResults.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridViewCapValues_ColumnHeaderMouseClick);
             this.dgvResults.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dgvResults_MouseDown);
-            // 
+            //
             // clmSeed
-            // 
+            //
             this.clmSeed.DataPropertyName = "Seed";
             this.clmSeed.HeaderText = "Seed";
             this.clmSeed.Name = "clmSeed";
             this.clmSeed.ReadOnly = true;
-            // 
+            //
             // clmFrame
-            // 
-            this.clmFrame.DataPropertyName = "Frame";
-            this.clmFrame.HeaderText = "Frame";
+            //
+            this.clmFrame.DataPropertyName = "帧";
+            this.clmFrame.HeaderText = "帧";
             this.clmFrame.Name = "clmFrame";
             this.clmFrame.ReadOnly = true;
             this.clmFrame.Visible = false;
-            // 
+            //
             // clmInitialFrame
-            // 
+            //
             this.clmInitialFrame.DataPropertyName = "InitialFrame";
-            this.clmInitialFrame.HeaderText = "Initial Frame";
+            this.clmInitialFrame.HeaderText = "初始帧";
             this.clmInitialFrame.Name = "clmInitialFrame";
             this.clmInitialFrame.ReadOnly = true;
             this.clmInitialFrame.Visible = false;
             this.clmInitialFrame.Width = 75;
-            // 
+            //
             // clmID
-            // 
+            //
             this.clmID.DataPropertyName = "ID";
             this.clmID.HeaderText = "ID";
             this.clmID.Name = "clmID";
             this.clmID.ReadOnly = true;
-            // 
+            //
             // clmSID
-            // 
+            //
             this.clmSID.DataPropertyName = "SID";
             this.clmSID.HeaderText = "SID";
             this.clmSID.Name = "clmSID";
             this.clmSID.ReadOnly = true;
-            // 
+            //
             // clmDelay
-            // 
+            //
             this.clmDelay.DataPropertyName = "Delay";
             this.clmDelay.HeaderText = "Delay";
             this.clmDelay.Name = "clmDelay";
             this.clmDelay.ReadOnly = true;
             this.clmDelay.Visible = false;
-            // 
+            //
             // clmSeconds
-            // 
-            this.clmSeconds.DataPropertyName = "Seconds";
-            this.clmSeconds.HeaderText = "Seconds";
+            //
+            this.clmSeconds.DataPropertyName = "秒数";
+            this.clmSeconds.HeaderText = "秒数";
             this.clmSeconds.Name = "clmSeconds";
             this.clmSeconds.ReadOnly = true;
             this.clmSeconds.Visible = false;
-            // 
+            //
             // clmStarter
-            // 
-            this.clmStarter.DataPropertyName = "Starter";
-            this.clmStarter.HeaderText = "Starter";
+            //
+            this.clmStarter.DataPropertyName = "初始宝可梦";
+            this.clmStarter.HeaderText = "初始宝可梦";
             this.clmStarter.Name = "clmStarter";
             this.clmStarter.ReadOnly = true;
             this.clmStarter.Visible = false;
-            // 
+            //
             // clmDate
-            // 
-            this.clmDate.DataPropertyName = "Date";
-            this.clmDate.HeaderText = "Date";
+            //
+            this.clmDate.DataPropertyName = "日期";
+            this.clmDate.HeaderText = "日期";
             this.clmDate.Name = "clmDate";
             this.clmDate.ReadOnly = true;
             this.clmDate.Visible = false;
-            // 
+            //
             // clmTime
-            // 
-            this.clmTime.DataPropertyName = "Time";
-            this.clmTime.HeaderText = "Time";
+            //
+            this.clmTime.DataPropertyName = "时间";
+            this.clmTime.HeaderText = "时间";
             this.clmTime.Name = "clmTime";
             this.clmTime.ReadOnly = true;
             this.clmTime.Visible = false;
-            // 
+            //
             // clmButton
-            // 
-            this.clmButton.DataPropertyName = "Keypress";
-            this.clmButton.HeaderText = "Buttons";
+            //
+            this.clmButton.DataPropertyName = "按键";
+            this.clmButton.HeaderText = "按键";
             this.clmButton.Name = "clmButton";
             this.clmButton.ReadOnly = true;
             this.clmButton.Visible = false;
-            // 
+            //
             // Pandora
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(615, 657);
@@ -2057,7 +2057,7 @@ namespace RNGReporter
             this.MaximizeBox = false;
             this.Name = "Pandora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "\"Pandora\'s Box\" - ID\\SID Manipulation Tool";
+            this.Text = "TID\\SID 计算器 （\"潘多拉魔盒\"）";
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.grpShiny.ResumeLayout(false);
             this.grpShiny.PerformLayout();

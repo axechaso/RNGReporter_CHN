@@ -18,12 +18,12 @@
  */
 
 
+using RNGReporter.Objects.Generators;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
-using RNGReporter.Objects.Generators;
 
 namespace RNGReporter.Objects
 {
@@ -67,7 +67,7 @@ namespace RNGReporter.Objects
         {
             foreach (int columnIndex in selectedColumns)
             {
-                if (dataGrid.Columns[columnIndex].HeaderText == "Flip Sequence")
+                if (dataGrid.Columns[columnIndex].HeaderText == "硬币序列")
                 {
                     sb.Append("Flip1\tFlip2\tFlip3\tFlip4\tFlip5\t");
                     sb.Append("Flip6\tFlip7\tFlip8\tFlip9\tFlip10\t");
@@ -277,7 +277,7 @@ namespace RNGReporter.Objects
 
             foreach (int columnIndex in selectedColumns)
             {
-                if (dataGrid.Columns[columnIndex].HeaderText != "Flip Sequence" &&
+                if (dataGrid.Columns[columnIndex].HeaderText != "硬币序列" &&
                     dataGrid.Columns[columnIndex].HeaderText != "Seed")
                 {
                     sb.AppendFormat("{0:" + dataGrid.Columns[columnIndex].DefaultCellStyle.Format + "}",

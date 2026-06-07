@@ -1,9 +1,9 @@
-﻿using System;
+﻿using RNGReporter.Objects;
+using System;
 using System.Collections.Generic;
-using System.Windows.Forms;
-using RNGReporter.Objects;
 using System.ComponentModel;
 using System.Globalization;
+using System.Windows.Forms;
 
 namespace RNGReporter
 {
@@ -11,7 +11,7 @@ namespace RNGReporter
     {
         private List<PIDIVS> results;
         private MainForm mainForm;
-        private readonly String[] Method = { "XD/Colo", "Channel" };
+        private readonly String[] Method = { "XD/Colo", "宝可梦频道" };
         private bool[] flags = new bool[0x10000];
         private byte[] low8 = new byte[0x10000];
 
@@ -258,7 +258,7 @@ namespace RNGReporter
             uint iv5 = forwardXD(iv4);
             uint iv6 = forwardXD(iv5);
             uint[] ivContainer = { iv1, iv2, iv3, iv5, iv6, iv4 };
-            for (int x = 0; x < 6; x ++)
+            for (int x = 0; x < 6; x++)
             {
                 uint iv = ivContainer[x] >> 27;
                 ivs += iv.ToString();
@@ -318,7 +318,7 @@ namespace RNGReporter
 
         private int getType(String type)
         {
-            switch(type)
+            switch (type)
             {
                 case "Method 1":
                     return 0;
@@ -349,6 +349,11 @@ namespace RNGReporter
                     }
                 }
             }
+        }
+
+        private void dataGridViewValues_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

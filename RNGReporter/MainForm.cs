@@ -81,46 +81,46 @@ namespace RNGReporter
                     new ComboBoxItem("Method H-1 (Gen 3)", FrameType.MethodH1),
                     new ComboBoxItem("Method H-2 (Gen 3)", FrameType.MethodH2),
                     new ComboBoxItem("Method H-4 (Gen 3)", FrameType.MethodH4),
-                    new ComboBoxItem("Method J (DPPt)", FrameType.MethodJ),
-                    new ComboBoxItem("Method K (HGSS)", FrameType.MethodK),
-                    new ComboBoxItem("Gen 5 IVs (Standard Seed)", FrameType.Method5Standard),
-                    new ComboBoxItem("Gen 5 IVs (C-Gear Seed)", FrameType.Method5CGear),
+                    new ComboBoxItem("Method J（钻石珍珠白金）", FrameType.MethodJ),
+                    new ComboBoxItem("Method K（心金魂银）", FrameType.MethodK),
+                    new ComboBoxItem("GEN5个体值（普通的Seed）", FrameType.Method5Standard),
+                    new ComboBoxItem("GEN5个体值（Ｃ装置 Seed）", FrameType.Method5CGear),
                     new ComboBoxItem("Gen 5 PIDRNG", FrameType.Method5Natures),
-                    new ComboBoxItem("Chained Shiny", FrameType.ChainedShiny),
-                    new ComboBoxItem("Gen 4 Egg PID (Normal)", FrameType.Gen4Normal),
-                    new ComboBoxItem("Gen 4 Egg PID (International)", FrameType.Gen4International),
-                    new ComboBoxItem("Breeding (Emerald No Splits)", FrameType.Bred),
-                    new ComboBoxItem("Breeding (Emerald Splits)", FrameType.BredSplit),
-                    new ComboBoxItem("Breeding (Emerald Alternate)", FrameType.BredAlternate),
-                    new ComboBoxItem("Breeding (RSUpper)", FrameType.RSBredUpper),
-                    new ComboBoxItem("Breeding (DPPt)", FrameType.DPPtBred),
-                    new ComboBoxItem("Breeding (HGSS)", FrameType.HGSSBred),
-                    new ComboBoxItem("Breeding (BW)", FrameType.BWBred),
-                    new ComboBoxItem("Breeding (BW, International)", FrameType.BWBredInternational),
-                    new ComboBoxItem("Wondercard IVs (4th Gen)", FrameType.WondercardIVs),
-                    new ComboBoxItem("Wondercard (5th Gen)", FrameType.Wondercard5thGen),
-                    new ComboBoxItem("Colosseum\\XD", FrameType.ColoXD),
-                    new ComboBoxItem("Channel", FrameType.Channel),
+                    new ComboBoxItem("连锁异色", FrameType.ChainedShiny),
+                    new ComboBoxItem("GEN4蛋PID（普通的）", FrameType.Gen4Normal),
+                    new ComboBoxItem("GEN4蛋PID（异国）", FrameType.Gen4International),
+                    new ComboBoxItem("孵蛋（绿宝石 普通遗传）", FrameType.Bred),
+                    new ComboBoxItem("孵蛋（绿宝石 分裂遗传）", FrameType.BredSplit),
+                    new ComboBoxItem("孵蛋（绿宝石 交替遗传）", FrameType.BredAlternate),
+                    new ComboBoxItem("孵蛋（红蓝宝石）", FrameType.RSBredUpper),
+                    new ComboBoxItem("孵蛋（钻石珍珠白金）", FrameType.DPPtBred),
+                    new ComboBoxItem("孵蛋（心金魂银）", FrameType.HGSSBred),
+                    new ComboBoxItem("孵蛋（黑白）", FrameType.BWBred),
+                    new ComboBoxItem("孵蛋（黑白，异国）", FrameType.BWBredInternational),
+                    new ComboBoxItem("神秘卡片个体值（GEN4）", FrameType.WondercardIVs),
+                    new ComboBoxItem("神秘卡片（GEN5）", FrameType.Wondercard5thGen),
+                    new ComboBoxItem("圆形竞技场\\XD暗之旋风", FrameType.ColoXD),
+                    new ComboBoxItem("宝可梦频道", FrameType.Channel),
                     new ComboBoxItem("Pickup (Gen 5)", FrameType.Gen5Pickup),
                 });
 
-            
+
 
             cuteCharm = new[]
                 {
-                    new ComboBoxItem("Male Lead (50% F Target)", -1),
-                    new ComboBoxItem("Male Lead (75% F Target)", -2),
-                    new ComboBoxItem("Male Lead (25% F Target)", -3),
-                    new ComboBoxItem("Male Lead (12.5% F Target)", -4),
-                    new ComboBoxItem("Female Lead (50% M Target)", 1),
-                    new ComboBoxItem("Female Lead (75% M Target)", 2),
-                    new ComboBoxItem("Female Lead (25% M Target)", 3),
-                    new ComboBoxItem("Female Lead (87.5% M Target)", 4)
+                    new ComboBoxItem("首发♂（目标50%♀)", -1),
+                    new ComboBoxItem("首发♂（目标75%♀)", -2),
+                    new ComboBoxItem("首发♂（目标25%♀)", -3),
+                    new ComboBoxItem("首发♂（目标12.5%♀)", -4),
+                    new ComboBoxItem("首发♀（目标50%♂)", 1),
+                    new ComboBoxItem("首发♀（目标75%♂)", 2),
+                    new ComboBoxItem("首发♀（目标25%♂)", 3),
+                    new ComboBoxItem("首发♀（目标87.5%♂)", 4)
                 };
 
             var ability = new[]
                 {
-                    new ComboBoxItem("Any", -1),
+                    new ComboBoxItem("任意", -1),
                     new ComboBoxItem("Ability 0", 0),
                     new ComboBoxItem("Ability 1", 1)
                 };
@@ -140,7 +140,7 @@ namespace RNGReporter
                 Settings.Default.Reload();
 
                 MessageBox.Show(
-                    "RNG Reporter has detected a corrupt configuration file, which has been deleted.  RNG Reporter must be restarted.");
+                    "RNG Reporter检测到一个损坏的配置文件，该文件已被删除。RNG Reporter必须重启。");
 
                 Process.GetCurrentProcess().Kill();
             }
@@ -227,7 +227,7 @@ namespace RNGReporter
                                           MAC_Address = mac
                                       };
                     MessageBox.Show(
-                        "RNG Reporter now has a new profile manager.\r\nPlease save your information in a profile.");
+                        "RNG Reporter 现在有新的存档信息管理器。\r\n请将你的信息保存到存档信息中。");
                     Profiles.ProfileManager.AddProfile(profile);
                     if (!Profiles.ProfileManager.Visible)
                         Profiles.ProfileManager.Show();
@@ -323,10 +323,10 @@ namespace RNGReporter
                 if (latestVersion > VersionNumber)
                 {
                     DialogResult result = MessageBox.Show(
-                        "Your version of RNG Reporter is outdated.  The latest version is " + versionInfo[1] + "."
-                        + Environment.NewLine + Environment.NewLine + "What's new: " + versionInfo[3] +
+                        "你的 RNG Reporter 版本已过期。最新版本是 " + versionInfo[1] + "."
+                        + Environment.NewLine + Environment.NewLine + "新内容：" + versionInfo[3] +
                         Environment.NewLine + Environment.NewLine +
-                        "Would you like to download and install the latest version now?", "", MessageBoxButtons.YesNo);
+                        "是否立即下载并安装最新版本？", "", MessageBoxButtons.YesNo);
                     if (result == DialogResult.Yes)
                     {
                         string temp = Path.GetTempFileName() + ".exe";
@@ -345,7 +345,7 @@ namespace RNGReporter
 
         private void dataGridViewValues_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
-            if (Convert.ToString(dataGridViewValues.Rows[e.RowIndex].Cells["Shiny"].Value).Equals("!!!"))
+            if (Convert.ToString(dataGridViewValues.Rows[e.RowIndex].Cells["Shiny"].Value).Equals("异色"))
             {
                 uint tid = (Convert.ToUInt32(maskedTextBoxID.Text) & 0xffff) | ((Convert.ToUInt32(maskedTextBoxSID.Text) & 0xffff) << 16);
                 uint a = Convert.ToUInt32(dataGridViewValues.Rows[e.RowIndex].Cells["PID"].Value) ^ tid;
@@ -357,7 +357,7 @@ namespace RNGReporter
                 else
                     dataGridViewValues.Rows[e.RowIndex].DefaultCellStyle.BackColor = Color.LightCyan;
             }
-               
+
             if (EncType.Visible)
             {
                 if (!Convert.ToString(dataGridViewValues.Rows[e.RowIndex].Cells["EncType"].Value).Equals(""))
@@ -365,16 +365,16 @@ namespace RNGReporter
                     if (dataGridViewValues.Columns[e.ColumnIndex].Name == "EncType")
                     {
                         e.CellStyle.Font = new Font(e.CellStyle.Font, FontStyle.Bold);
-                    }  
+                    }
                 }
             }
 
             if (Ratio.Visible)
             {
-                int RatioValue = Convert.ToInt32(dataGridViewValues.Rows[e.RowIndex].Cells["Ratio"].Value);
-                if (dataGridViewValues.Columns[e.ColumnIndex].Name == "Ratio")
+                int RatioValue = Convert.ToInt32(dataGridViewValues.Rows[e.RowIndex].Cells["比例"].Value);
+                if (dataGridViewValues.Columns[e.ColumnIndex].Name == "比例")
                 {
-                    if ((RatioValue < 14 && comboBoxEncounterType.SelectedIndex <= 2) || 
+                    if ((RatioValue < 14 && comboBoxEncounterType.SelectedIndex <= 2) ||
                         (RatioValue < 6 && comboBoxEncounterType.SelectedIndex == 3) ||
                         (comboBoxEncounterType.SelectedIndex == 4 && RatioValue < 50))
                     {
@@ -389,7 +389,7 @@ namespace RNGReporter
             }
 
             //  Make all of the junk natures show up in a lighter color
-            if (dataGridViewValues.Columns[e.ColumnIndex].Name == "Nature")
+            if (dataGridViewValues.Columns[e.ColumnIndex].Name == "性格")
             {
                 var nature = (string) e.Value;
 
@@ -404,18 +404,18 @@ namespace RNGReporter
                     e.CellStyle.ForeColor = Color.Gray;
                 }
 
-                if ((bool) dataGridViewValues.Rows[e.RowIndex].Cells["Synchable"].Value)
+                if ((bool) dataGridViewValues.Rows[e.RowIndex].Cells["同步能力"].Value)
                 {
                     e.CellStyle.Font = new Font(e.CellStyle.Font, FontStyle.Bold);
                 }
             }
 
-            if (dataGridViewValues.Columns[e.ColumnIndex].Name == "HP" ||
-                dataGridViewValues.Columns[e.ColumnIndex].Name == "Atk" ||
-                dataGridViewValues.Columns[e.ColumnIndex].Name == "Def" ||
-                dataGridViewValues.Columns[e.ColumnIndex].Name == "SpA" ||
-                dataGridViewValues.Columns[e.ColumnIndex].Name == "SpD" ||
-                dataGridViewValues.Columns[e.ColumnIndex].Name == "Spe")
+            if (dataGridViewValues.Columns[e.ColumnIndex].Name == "觉醒力量" ||
+                dataGridViewValues.Columns[e.ColumnIndex].Name == "攻击" ||
+                dataGridViewValues.Columns[e.ColumnIndex].Name == "防御" ||
+                dataGridViewValues.Columns[e.ColumnIndex].Name == "特攻" ||
+                dataGridViewValues.Columns[e.ColumnIndex].Name == "特防" ||
+                dataGridViewValues.Columns[e.ColumnIndex].Name == "速度")
             {
                 if ((string) e.Value == "30" || (string) e.Value == "31")
                 {
@@ -455,7 +455,7 @@ namespace RNGReporter
             Ratio.Visible = (checkBoxTrigger.Checked && checkBoxTrigger.Visible) ||                     //Battle Trigger box is visible and checked or
                 (comboBoxEncounterType.SelectedIndex == 4 && currentMod != EncounterMod.SuctionCups);   //fishing without Suction Cups
             Level.Visible = labelMinMaxLevel.Visible;
-            
+
 
             //  Nuke the target frame when we generate a new list.  This may
             //  end up being controversial need to be revisted, but we can
@@ -471,14 +471,14 @@ namespace RNGReporter
 
             if (generator.FrameType == FrameType.Gen5Pickup && timeFinder5th == null)
             {
-                MessageBox.Show("You need to adjust settings in Time Finder first.");
+                MessageBox.Show("你需要先在 Time Finder 中调整设置。");
                 return;
             }
-            Offset.HeaderText = generator.FrameType == FrameType.Gen5Pickup ? "Frame" : "Occidentary";
+            Offset.HeaderText = generator.FrameType == FrameType.Gen5Pickup ? "帧" : "偶然值Occidentary";
 
             var offset = (uint)(checkBoxBW2.Visible && checkBoxBW2.Checked &&
                 generator.FrameType != FrameType.Method5Natures &&
-                generator.FrameType != FrameType.BWBred && 
+                generator.FrameType != FrameType.BWBred &&
                 generator.FrameType != FrameType.BWBredInternational &&
                 generator.FrameType != FrameType.Wondercard5thGen ? 2 : 0);
 
@@ -523,7 +523,7 @@ namespace RNGReporter
                 generator.EncounterType != EncounterType.GibleDratini && generator.EncounterType != EncounterType.Entralink &&
                 generator.EncounterType != EncounterType.HiddenGrotto)
             {
-                if (comboBoxEncounterSlot.Text != "Any" && comboBoxEncounterSlot.CheckBoxItems.Count > 0)
+                if (comboBoxEncounterSlot.Text != "任意" && comboBoxEncounterSlot.CheckBoxItems.Count > 0)
                 {
                     encounterSlots = new List<int>();
                     for (int i = 0; i < comboBoxEncounterSlot.CheckBoxItems.Count; i++)
@@ -534,10 +534,10 @@ namespace RNGReporter
                     }
                 }
             }
-            
+
 
             List<uint> natures = null;
-            if (comboBoxNature.Text != "Any" && comboBoxNature.CheckBoxItems.Count > 0)
+            if (comboBoxNature.Text != "任意" && comboBoxNature.CheckBoxItems.Count > 0)
             {
                 natures = (from t in comboBoxNature.CheckBoxItems where t.Checked select (uint)((Nature)t.ComboBoxItem).Number).ToList();
             }
@@ -695,7 +695,7 @@ namespace RNGReporter
                      generator.FrameType == FrameType.Method5Natures) &&
                     textBoxSeed.Text.Length == 8)
                 {
-                    MessageBox.Show("This method requires you to copy the Full Seed from the Time Finder window.");
+                    MessageBox.Show("此方法需要你从 Time Finder 窗口复制 Full Seed。");
                     seed = ulong.Parse(textBoxSeed.Text, NumberStyles.HexNumber);
                 }
                 else if (generator.FrameType == FrameType.Method5Standard && textBoxSeed.Text.Length > 8)
@@ -714,7 +714,7 @@ namespace RNGReporter
             //  Handle add seed finding activities
             labelFlipsForSeed.Text = CoinFlips.GetFlips((uint) seed, 10);
 
-            // Handle all of the roaming Pokemon here            
+            // Handle all of the roaming Pokemon here
             uint rRoute = 0;
             uint eRoute = 0;
             uint lRoute = 0;
@@ -729,7 +729,7 @@ namespace RNGReporter
             if (maskedTextBoxLRoute.Text != "")
                 lRoute = uint.Parse(maskedTextBoxLRoute.Text);
 
-            //  We need to know two things, forced advancement and the 
+            //  We need to know two things, forced advancement and the
             //  starting route of each of the roamers the user has
             //  shown interest in --
             HgSsRoamerInformation information = HgSsRoamers.GetHgSsRoamerInformation(
@@ -775,7 +775,7 @@ namespace RNGReporter
             if (!firstDisplay)
             {
                 labelRoamerRoutesText += "  ---  ";
-                labelRoamerRoutesText += "Frame(s) Advanced: " + information.RngCalls;
+                labelRoamerRoutesText += "游走消耗的帧数: " + information.RngCalls;
             }
 
             labelRoamerRoutes.Text = labelRoamerRoutesText;
@@ -814,7 +814,7 @@ namespace RNGReporter
             ushort.TryParse(maskedTextBoxID.Text, out id);
             ushort.TryParse(maskedTextBoxSID.Text, out sid);
 
-            //  This is where we actually go ahead and call our 
+            //  This is where we actually go ahead and call our
             //  generator for a list of IVs based on parameters
             //  that have been passed in.
 
@@ -846,8 +846,8 @@ namespace RNGReporter
             {
                 if (WCdata == null)
                 {
-                    if (MessageBox.Show("You need to import a Wonder Card (.pgf file) first. Import one now?",
-                        "Warning", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                    if (MessageBox.Show("你需要先导入神秘卡片（.pgf 文件）。现在导入吗？",
+                        "警告", MessageBoxButtons.YesNo) == DialogResult.Yes)
                     {
                         MainImportWC_Click(null, null);
                         if (WCdata == null)
@@ -1017,7 +1017,7 @@ namespace RNGReporter
                 ItemCalc.Visible = false;
                 PID.Visible = true;
                 Time.Visible = true;
-                Time.DataPropertyName = "Time";
+                Time.DataPropertyName = "时间";
                 Shiny.Visible = false;
                 Nature.Visible = false;
                 Ability.Visible = true;
@@ -1053,7 +1053,7 @@ namespace RNGReporter
                 ItemCalc.Visible = false;
                 PID.Visible = true;
                 Time.Visible = true;
-                Time.DataPropertyName = "Time";
+                Time.DataPropertyName = "时间";
                 Shiny.Visible = true;
                 Nature.Visible = true;
                 Ability.Visible = true;
@@ -1092,7 +1092,7 @@ namespace RNGReporter
                 ItemCalc.Visible = false;
                 PID.Visible = false;
                 Time.Visible = true;
-                Time.DataPropertyName = "Time";
+                Time.DataPropertyName = "时间";
                 Shiny.Visible = false;
                 Nature.Visible = false;
                 Ability.Visible = false;
@@ -1223,7 +1223,7 @@ namespace RNGReporter
                 else
                 {
                     Time.Visible = false;
-                    Time.DataPropertyName = "Time";
+                    Time.DataPropertyName = "时间";
                 }
 
                 Shiny.Visible = true;
@@ -1241,13 +1241,13 @@ namespace RNGReporter
                 {
                     CaveSpot.Visible = true;
                     if (generator.EncounterType == EncounterType.WildCaveSpot)
-                        CaveSpot.HeaderText = "Cave Spot";
+                        CaveSpot.HeaderText = "卷尘地面";
                     else if (generator.EncounterType == EncounterType.WildWaterSpot)
-                        CaveSpot.HeaderText = "Bubble Spot";
+                        CaveSpot.HeaderText = "水纹水面";
                     else if (generator.EncounterType == EncounterType.WildFishingSpot)
-                        CaveSpot.HeaderText = "Fishing Spot";
+                        CaveSpot.HeaderText = "钓鱼点";
                     else
-                        CaveSpot.HeaderText = "Shaking Grass";
+                        CaveSpot.HeaderText = "摇动草丛";
                 }
                 else
                 {
@@ -1263,7 +1263,7 @@ namespace RNGReporter
                 HiddenPower.Visible = false;
                 HiddenPowerPower.Visible = false;
 
-                Shiny.Visible = 
+                Shiny.Visible =
                     generator.EncounterType != EncounterType.HiddenGrotto;
 
                 Ability.Visible =
@@ -1406,7 +1406,7 @@ namespace RNGReporter
                 ItemCalc.Visible = false;
                 PID.Visible = true;
                 Time.Visible = true;
-                Time.DataPropertyName = "Time";
+                Time.DataPropertyName = "时间";
                 Shiny.Visible = true;
                 Nature.Visible = true;
                 Ability.Visible = true;
@@ -1451,7 +1451,7 @@ namespace RNGReporter
                 if (generator.FrameType != FrameType.ColoXD && generator.FrameType != FrameType.Channel)
                 {
                     Time.Visible = true;
-                    Time.DataPropertyName = "Time";
+                    Time.DataPropertyName = "时间";
                 }
                 else
                 {
@@ -1578,7 +1578,7 @@ namespace RNGReporter
                 ItemCalc.Visible = false;
                 PID.Visible = true;
                 Time.Visible = true;
-                Time.DataPropertyName = "Time";
+                Time.DataPropertyName = "时间";
                 Shiny.Visible = true;
                 Nature.Visible = true;
                 Ability.Visible = true;
@@ -1628,11 +1628,11 @@ namespace RNGReporter
                 Frame.Visible = generator.FrameType == FrameType.Wondercard5thGen;
                 Offset.Visible = generator.FrameType == FrameType.Gen5Pickup;
 
-                PID.Visible = Shiny.Visible = Nature.Visible = Ability.Visible = 
-                    HP.Visible = Atk.Visible = Def.Visible = SpA.Visible = SpD.Visible = Spe.Visible = 
-                    HiddenPower.Visible = HiddenPowerPower.Visible = 
-                    f50.Visible = f125.Visible = f25.Visible = f75.Visible = 
-                    generator.FrameType == FrameType.Wondercard5thGen; 
+                PID.Visible = Shiny.Visible = Nature.Visible = Ability.Visible =
+                    HP.Visible = Atk.Visible = Def.Visible = SpA.Visible = SpD.Visible = Spe.Visible =
+                    HiddenPower.Visible = HiddenPowerPower.Visible =
+                    f50.Visible = f125.Visible = f25.Visible = f75.Visible =
+                    generator.FrameType == FrameType.Wondercard5thGen;
             }
 
             if (generator.FrameType == FrameType.BWBred ||
@@ -1690,13 +1690,13 @@ namespace RNGReporter
 
                 if (generator.FrameType == FrameType.Method5Natures)
                 {
-                    displayParentsInSearchToolStripMenuItem.Text = "Display Characteristics in Search...";
-                    resetParentsToolStripMenuItem.Text = "Reset Characteristics";
+                    displayParentsInSearchToolStripMenuItem.Text = "在计算结果中显示个性";
+                    resetParentsToolStripMenuItem.Text = "重置个性";
                 }
                 else
                 {
-                    displayParentsInSearchToolStripMenuItem.Text = "Display Parents in Search...";
-                    resetParentsToolStripMenuItem.Text = "Reset Parents";
+                    displayParentsInSearchToolStripMenuItem.Text = "在搜索中显示父母...";
+                    resetParentsToolStripMenuItem.Text = "重置父母";
                 }
             }
             else
@@ -1754,7 +1754,7 @@ namespace RNGReporter
                 //  has selected.
                 var frameType = (FrameType) ((ComboBoxItem) comboBoxMethod.SelectedItem).Reference;
 
-                //  We only want the option to calculate Poketch taps 
+                //  We only want the option to calculate Poketch taps
                 //  to be availible when the user have 4th gen breeding
                 //  selected as it is not applicable to other methods.
                 if (frameType == FrameType.Gen4Normal ||
@@ -1802,7 +1802,7 @@ namespace RNGReporter
             //  Get the currently selected item so we can make sure we have something
             if (dataGridViewValues.SelectedRows[0] != null)
             {
-                //  We need to clear all filters because the point of 
+                //  We need to clear all filters because the point of
                 //  this is to have a small list of the thing that are
                 //  close by so we can find out where we are.
                 ClearAllFilters();
@@ -1810,7 +1810,7 @@ namespace RNGReporter
                 //  Get the currently selected frame.
                 var frame = (Frame) dataGridViewValues.SelectedRows[0].DataBoundItem;
 
-                //  Figure out what our starting frame is going to be 
+                //  Figure out what our starting frame is going to be
                 //  for the clipping, using the frame number as our
                 //  bottom if it is less than the number we actually
                 //  want to show.
@@ -1832,7 +1832,7 @@ namespace RNGReporter
             }
         }
 
-        //  This will set up the internal target information and 
+        //  This will set up the internal target information and
         private void SetTargetFrame(int index)
         {
             //  We need a single location to show
@@ -1851,7 +1851,7 @@ namespace RNGReporter
             }
             else
             {
-                labelTargetFrame.Text = "None";
+                labelTargetFrame.Text = "无";
             }
         }
 
@@ -1963,7 +1963,7 @@ namespace RNGReporter
                         nextFrame = cnt + 10;
 
                         //  We need to cheat if we are the absolute last
-                        //  item found, as we cant highlight the one after                       
+                        //  item found, as we cant highlight the one after
                         if (nextFrame >= frames.Count)
                             nextFrame = frames.Count - 1;
 
@@ -1978,7 +1978,7 @@ namespace RNGReporter
                 }
                 else
                 {
-                    MessageBox.Show("No matches found for the sequence of responses entered.", "No Match Found",
+                    MessageBox.Show("输入的响应序列未找到匹配项。", "未找到匹配项",
                                     MessageBoxButtons.OK);
                 }
             }
@@ -2024,7 +2024,7 @@ namespace RNGReporter
                         nextFrame = cnt + 10;
 
                         //  We need to cheat if we are the absolute last
-                        //  item found, as we cant highlight the one after                       
+                        //  item found, as we cant highlight the one after
                         if (nextFrame >= frames.Count)
                             nextFrame = frames.Count - 1;
 
@@ -2039,7 +2039,7 @@ namespace RNGReporter
                 }
                 else
                 {
-                    MessageBox.Show("No matches found for the sequence of responses entered.", "No Match Found",
+                    MessageBox.Show("输入的响应序列未找到匹配项。", "未找到匹配项",
                                     MessageBoxButtons.OK);
                 }
             }
@@ -2085,7 +2085,7 @@ namespace RNGReporter
                         nextFrame = cnt + 3;
 
                         //  We need to cheat if we are the absolute last
-                        //  item found, as we cant highlight the one after                       
+                        //  item found, as we cant highlight the one after
                         if (nextFrame >= frames.Count)
                             nextFrame = frames.Count - 1;
 
@@ -2100,7 +2100,7 @@ namespace RNGReporter
                 }
                 else
                 {
-                    MessageBox.Show("No matches found for the sequence of responses entered.", "No Match Found",
+                    MessageBox.Show("输入的响应序列未找到匹配项。", "未找到匹配项",
                                     MessageBoxButtons.OK);
                 }
             }
@@ -2108,19 +2108,19 @@ namespace RNGReporter
 
         private void outputResultsToTXTToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //  Going to need to present the user with a File Dialog and 
+            //  Going to need to present the user with a File Dialog and
             //  then interate through the Grid, outputting columns that
             //  are visible.
 
             saveFileDialogTxt.AddExtension = true;
-            saveFileDialogTxt.Title = "Save Output to TXT";
-            saveFileDialogTxt.Filter = "TXT Files|*.txt";
+            saveFileDialogTxt.Title = "保存输出到 TXT";
+            saveFileDialogTxt.Filter = "TXT 文件|*.txt";
             saveFileDialogTxt.FileName = "rngreporter.txt";
             if (saveFileDialogTxt.ShowDialog() == DialogResult.OK)
             {
-                //  Get the name of the file and then go ahead 
+                //  Get the name of the file and then go ahead
                 //  and create and save the thing to the hard
-                //  drive.   
+                //  drive.
                 var frames = (List<Frame>) dataGridViewValues.DataSource;
 
                 if (frames.Count > 0)
@@ -2213,13 +2213,13 @@ namespace RNGReporter
                     {
                         "Wild Pokémon (Tall Grass)",
                         "Wild Pokémon (Surfing)",
-                        "Wild Pokémon (Old Rod)",
-                        "Wild Pokémon (Good Rod)",
-                        "Wild Pokémon (Super Rod)",
-                        "Stationary Pokémon",
+                        "野生宝可梦（破旧钓竿）",
+                        "野生宝可梦（好钓竿）",
+                        "野生宝可梦（厉害钓竿）",
+                        "定点宝可梦",
                         "Bug-Catching Contest",
-                        "Safari Zone",
-                        "Headbutt"
+                        "狩猎地带",
+                        "头锤树"
                     };
 
                 comboBoxEncounterType.DataSource = encounterMenu;
@@ -2232,11 +2232,11 @@ namespace RNGReporter
                     {
                         "Wild Pokémon (Tall Grass)",
                         "Wild Pokémon (Surfing)",
-                        "Wild Pokémon (Old Rod)",
-                        "Wild Pokémon (Good Rod)",
-                        "Wild Pokémon (Super Rod)",
-                        "Stationary Pokémon",
-                        "Safari Zone"
+                        "野生宝可梦（破旧钓竿）",
+                        "野生宝可梦（好钓竿）",
+                        "野生宝可梦（厉害钓竿）",
+                        "定点宝可梦",
+                        "狩猎地带"
                     };
 
                 comboBoxEncounterType.DataSource = encounterMenu;
@@ -2248,11 +2248,11 @@ namespace RNGReporter
                         "Wild Pokémon (Tall Grass)",
                         "Wild Pokemon (Poké Radar)",
                         "Wild Pokémon (Surfing)",
-                        "Wild Pokémon (Old Rod)",
-                        "Wild Pokémon (Good Rod)",
-                        "Wild Pokémon (Super Rod)",
-                        "Stationary Pokémon",
-                        "Safari Zone"
+                        "野生宝可梦（破旧钓竿）",
+                        "野生宝可梦（好钓竿）",
+                        "野生宝可梦（厉害钓竿）",
+                        "定点宝可梦",
+                        "狩猎地带"
                     };
 
                 comboBoxEncounterType.DataSource = encounterMenu;
@@ -2263,22 +2263,22 @@ namespace RNGReporter
                     {
                         "Wild Pokémon (Tall Grass)",
                         "Wild Pokémon (Dark Grass)",
-                        "Wild Pokémon (Swarm)",
+                        "野生宝可梦（虫之预感）",
                         "Wild Pokémon (Surfing)",
                         "Wild Pokémon (Fishing)",
-                        "Wild Pokémon (Shaking Grass)",
-                        "Wild Pokémon (Bubble Spot)",
+                        "野生宝可梦（摇动草丛）",
+                        "野生宝可梦（水纹水面）",
                         "Wild Pokémon (Fishing Spot)",
-                        "Wild Pokémon (Cave Spot)",
+                        "野生宝可梦（卷尘地面）",
                         "Wild Pokémon (Flying Shadow)",
                         "Roaming Pokémon",
-                        "Stationary Pokémon",
-                        "Gift Pokémon",
+                        "定点宝可梦",
+                        "礼物宝可梦",
                         "Jellicent",
                         "Larvesta/Happiny Egg",
                         "Haxorus (Forced Shiny)",
                         "Gible/Dratini (Forced Shiny)",
-                        "Entralink Pokémon",
+                        "连入之森宝可梦",
                         "Hidden Grotto (Shiny Locked)"
                     };
 
@@ -2290,9 +2290,9 @@ namespace RNGReporter
                 encounterMenu = new[]
                     {
                         "Wild Pokémon (Tall Grass)",
-                        "Stationary Pokémon",
+                        "定点宝可梦",
                         "Roaming Pokémon",
-                        "Gift Pokémon"
+                        "礼物宝可梦"
                     };
 
                 comboBoxEncounterType.DataSource = encounterMenu;
@@ -2301,8 +2301,8 @@ namespace RNGReporter
             {
                 encounterMenu = new[]
                     {
-                        "Normal Wondercard",
-                        "Manaphy Egg"
+                        "普通神秘卡片",
+                        "玛纳霏的蛋"
                     };
 
                 comboBoxEncounterType.DataSource = encounterMenu;
@@ -2504,7 +2504,7 @@ namespace RNGReporter
         {
             label17.Visible = label18.Visible = label19.Visible = buttonRoamerMap.Visible = checkBoxRPresent.Visible =
                     maskedTextBoxRRoute.Visible = checkBoxEPresent.Visible = maskedTextBoxERoute.Visible = checkBoxLPresent.Visible =
-                    maskedTextBoxLRoute.Visible = labelFlipsForSeed.Visible = labelElmForSeed.Visible = 
+                    maskedTextBoxLRoute.Visible = labelFlipsForSeed.Visible = labelElmForSeed.Visible =
                     !((ComboBoxItem)comboBoxMethod.SelectedItem).Reference.Equals(FrameType.Method5Natures) &&
                     !((ComboBoxItem)comboBoxMethod.SelectedItem).Reference.Equals(FrameType.BWBred) &&
                     !((ComboBoxItem)comboBoxMethod.SelectedItem).Reference.Equals(FrameType.BW2BredInternational) &&
@@ -2587,7 +2587,7 @@ namespace RNGReporter
         {
             // This is a bit of a strange hack, because this window
             //  needs to be hidden before we load the seed to time
-            //  form or it wont be able to be focused. 
+            //  form or it wont be able to be focused.
             bool showMap = HgSsRoamerSW.Window.Map.Visible;
             HgSsRoamerSW.Window.Hide();
 
@@ -2616,7 +2616,7 @@ namespace RNGReporter
         {
             // This is a bit of a strange hack, because this window
             //  needs to be hidden before we load the seed to time
-            //  form or it wont be able to be focused. 
+            //  form or it wont be able to be focused.
             bool showMap = HgSsRoamerSW.Window.Map.Visible;
             HgSsRoamerSW.Window.Hide();
 
@@ -2784,7 +2784,7 @@ namespace RNGReporter
         {
             // This is a bit of a strange hack, because this window
             //  needs to be hidden before we load the seed to time
-            //  form or it wont be able to be focused. 
+            //  form or it wont be able to be focused.
             bool showMap = HgSsRoamerSW.Window.Map.Visible;
             HgSsRoamerSW.Window.Hide();
 
@@ -2842,7 +2842,7 @@ namespace RNGReporter
                      frameType == FrameType.Method5Natures) &&
                     textBoxSeed.Text.Length == 8)
                 {
-                    MessageBox.Show("This method requires you to copy the Full Seed from the Time Finder window.");
+                    MessageBox.Show("此方法需要你从 Time Finder 窗口复制 Full Seed。");
                     seed = uint.Parse(textBoxSeed.Text, NumberStyles.HexNumber);
                 }
                 else if (textBoxSeed.Text.Length > 8)
@@ -2966,8 +2966,8 @@ namespace RNGReporter
                             CellStyle.Font = new Font("MS Mincho", 7.75F);
                             if (CellStyle.Font.Name != "MS Mincho")
                             {
-                                MessageBox.Show("Cannot display Japanese without a Japanese-supported font.",
-                                                "Unsupported Language", MessageBoxButtons.OK, MessageBoxIcon.Warning,
+                                MessageBox.Show("没有支持日文的字体，无法显示日文。",
+                                                "不支持的语言", MessageBoxButtons.OK, MessageBoxIcon.Warning,
                                                 MessageBoxDefaultButton.Button1);
                                 return false;
                             }
@@ -3021,8 +3021,8 @@ namespace RNGReporter
                             CellStyle.Font = new Font("Arial Unicode MS", 7.75F);
                             break;
                         default:
-                            MessageBox.Show("Cannot display Korean without a Korean-supported font.",
-                                            "Unsupported Language", MessageBoxButtons.OK, MessageBoxIcon.Warning,
+                            MessageBox.Show("没有支持韩文的字体，无法显示韩文。",
+                                            "不支持的语言", MessageBoxButtons.OK, MessageBoxIcon.Warning,
                                             MessageBoxDefaultButton.Button1);
                             return false;
                     }
@@ -3133,7 +3133,7 @@ namespace RNGReporter
 
                 if (dataGridViewValues.Columns[e.ColumnIndex].Name == "Chatot")
                 {
-                    toolTipDataGrid.ToolTipTitle = "Chatot Pitch";
+                    toolTipDataGrid.ToolTipTitle = "聒噪鸟音高";
 
                     toolTipDataGrid.Show("A Chatot with a recorded Chatter (not its normal cry) advances the RNG\r\n" +
                                          "by 1 frame every time its call is heard on the status screen.\r\n" +
@@ -3147,13 +3147,13 @@ namespace RNGReporter
                                          dataGridViewValues.Location.Y + cellRect.Y + cellRect.Size.Height,
                                          8000);
                 }
-                else if (dataGridViewValues.Columns[e.ColumnIndex].Name == "Nature")
+                else if (dataGridViewValues.Columns[e.ColumnIndex].Name == "性格")
                 {
-                    toolTipDataGrid.ToolTipTitle = "Nature";
+                    toolTipDataGrid.ToolTipTitle = "性格";
 
                     toolTipDataGrid.Show("A bolded nature indicates that the nature can be changed by a lead\r\n" +
                                          "Pokémon with Synchronize.\r\n\r\n" +
-                                         "Greyed-out natures are natures with no competitive value.",
+                                         "灰色字体的性格是没有竞争价值的性格。",
                                          this,
                                          dataGridViewValues.Location.X + cellRect.X + cellRect.Size.Width,
                                          dataGridViewValues.Location.Y + cellRect.Y + cellRect.Size.Height,
@@ -3161,19 +3161,19 @@ namespace RNGReporter
                 }
                 else if (dataGridViewValues.Columns[e.ColumnIndex].Name == "Shiny")
                 {
-                    toolTipDataGrid.ToolTipTitle = "!!!";
+                    toolTipDataGrid.ToolTipTitle = "异色";
 
-                    toolTipDataGrid.Show("A !!! in this column indicates the frame will be shiny.",
+                    toolTipDataGrid.Show("如果该帧的异色列有!!!则说明该帧是异色",
                                          this,
                                          dataGridViewValues.Location.X + cellRect.X + cellRect.Size.Width,
                                          dataGridViewValues.Location.Y + cellRect.Y + cellRect.Size.Height,
                                          5000);
                 }
-                else if (dataGridViewValues.Columns[e.ColumnIndex].Name == "Offset")
+                else if (dataGridViewValues.Columns[e.ColumnIndex].Name == "偏移")
                 {
-                    toolTipDataGrid.ToolTipTitle = "Occidentary";
+                    toolTipDataGrid.ToolTipTitle = "偶然值Occidentary";
 
-                    toolTipDataGrid.Show("The frame of the RNG after a battle is equal to the occidentary + 6.",
+                    toolTipDataGrid.Show("该值是对战结束后的帧数，宝可梦对战后的帧数等于偶然值+6，该值一般作用于大湿地等场景",
                                          this,
                                          dataGridViewValues.Location.X + cellRect.X + cellRect.Size.Width,
                                          dataGridViewValues.Location.Y + cellRect.Y + cellRect.Size.Height,
@@ -3181,7 +3181,7 @@ namespace RNGReporter
                 }
                 else if (dataGridViewValues.Columns[e.ColumnIndex].Name == "EncounterSlot")
                 {
-                    toolTipDataGrid.ToolTipTitle = "Encounter Slot";
+                    toolTipDataGrid.ToolTipTitle = "遭遇槽";
 
                     toolTipDataGrid.Show("Encounter slots are used to determine what Pokémon appears for\r\n" +
                                          "a wild battle.  Use the encounter tables under the menus to look up\r\n" +
@@ -3191,9 +3191,9 @@ namespace RNGReporter
                                          dataGridViewValues.Location.Y + cellRect.Y + cellRect.Size.Height,
                                          5000);
                 }
-                else if (dataGridViewValues.Columns[e.ColumnIndex].HeaderText == "Cave Spot")
+                else if (dataGridViewValues.Columns[e.ColumnIndex].HeaderText == "卷尘地面")
                 {
-                    toolTipDataGrid.ToolTipTitle = "Possible Cave Spot";
+                    toolTipDataGrid.ToolTipTitle = "可能的洞穴尘点";
 
                     toolTipDataGrid.Show("Every 20 steps, the game checks if the current frame will produce a\r\n" +
                                          "swirling dust spot if in a cave.\r\n\r\n" +
@@ -3203,9 +3203,9 @@ namespace RNGReporter
                                          dataGridViewValues.Location.Y + cellRect.Y + cellRect.Size.Height,
                                          5000);
                 }
-                else if (dataGridViewValues.Columns[e.ColumnIndex].HeaderText == "Bubble Spot")
+                else if (dataGridViewValues.Columns[e.ColumnIndex].HeaderText == "水纹水面")
                 {
-                    toolTipDataGrid.ToolTipTitle = "Possible Bubble Spot";
+                    toolTipDataGrid.ToolTipTitle = "可能的水泡点";
 
                     toolTipDataGrid.Show("Every 20 steps, the game checks if the current frame will produce a\r\n" +
                                          "bubble in nearby water.\r\n\r\n" +
@@ -3215,9 +3215,9 @@ namespace RNGReporter
                                          dataGridViewValues.Location.Y + cellRect.Y + cellRect.Size.Height,
                                          5000);
                 }
-                else if (dataGridViewValues.Columns[e.ColumnIndex].HeaderText == "Shaking Grass")
+                else if (dataGridViewValues.Columns[e.ColumnIndex].HeaderText == "摇动草丛")
                 {
-                    toolTipDataGrid.ToolTipTitle = "Possible Shaking Grass";
+                    toolTipDataGrid.ToolTipTitle = "可能的摇晃草丛";
 
                     toolTipDataGrid.Show("Every 20 steps, the game checks if the current frame will produce a\r\n" +
                                          "swirling dust spot.\r\n\r\n" +
@@ -3229,7 +3229,7 @@ namespace RNGReporter
                 }
                 else if (dataGridViewValues.Columns[e.ColumnIndex].DataPropertyName == "EntralinkTime")
                 {
-                    toolTipDataGrid.ToolTipTitle = "Entralink Time";
+                    toolTipDataGrid.ToolTipTitle = "连入之森时间";
 
                     toolTipDataGrid.Show(
                         "Turning on the C-Gear advances the PIDRNG over time.  This column lists the minimum\r\n" +
@@ -3383,8 +3383,8 @@ namespace RNGReporter
         {
             OpenFileDialog openFileDialog = new OpenFileDialog()
             {
-                Filter = "5th Gen Wonder Card |*.pgf",
-                Title = "Select a Wonder Card File"
+                Filter = "第五世代神秘卡片 |*.pgf",
+                Title = "选择神秘卡片文件"
             };
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
@@ -3392,21 +3392,21 @@ namespace RNGReporter
                 WCdata = br.ReadBytes(204);
                 Wondercard wc = setWC(WCdata);
                 MessageBox.Show(
-                    "Wonder Card loaded successfully:" + "\n\n" + 
+                    "神秘卡片加载成功：" + "\n\n" +
                     "TID: " + wc.eventTid + "\n" +
                     "SID: " + wc.eventSid + "\n\n" +
-                    "Nature: " + (wc.eventNature == -1 ? "Random" : Functions.NatureStrings(wc.eventNature)) + "\n" +
-                    "Ability: " + (wc.eventAbility == -1 ? "Random" : wc.eventAbility.ToString()) + "\n" +
-                    "Gender: " + (wc.eventGender == -1 ? "Random" : wc.eventGender == 0 ? "Male" : "Female") + "\n" +
-                    "Shininess: " + 
-                    (wc.eventShininess == 1 ? "May be Shiny" : wc.eventShininess == 0 ? "Never Shiny" : "Always Shiny") + "\n\n" +
+                    "性格: " + (wc.eventNature == -1 ? "随机" : Functions.NatureStrings(wc.eventNature)) + "\n" +
+                    "特性: " + (wc.eventAbility == -1 ? "随机" : wc.eventAbility.ToString()) + "\n" +
+                    "性别: " + (wc.eventGender == -1 ? "随机" : wc.eventGender == 0 ? "雄性" : "雌性") + "\n" +
+                    "闪光: " +
+                    (wc.eventShininess == 1 ? "可能闪光" : wc.eventShininess == 0 ? "不可能异色" : "必定异色") + "\n\n" +
                     "HP: " + (wc.eventIVInfo[0] == -1 ? "x" : wc.eventIVInfo[0].ToString()) + "\n" +
-                    "Atk: " + (wc.eventIVInfo[1] == -1 ? "x" : wc.eventIVInfo[1].ToString()) + "\n" +
-                    "Def: " + (wc.eventIVInfo[2] == -1 ? "x" : wc.eventIVInfo[2].ToString()) + "\n" +
-                    "SpA: " + (wc.eventIVInfo[3] == -1 ? "x" : wc.eventIVInfo[3].ToString()) + "\n" +
-                    "SpD: " + (wc.eventIVInfo[4] == -1 ? "x" : wc.eventIVInfo[4].ToString()) + "\n" +
-                    "Spe: " + (wc.eventIVInfo[5] == -1 ? "x" : wc.eventIVInfo[5].ToString()) + "\n",
-                    "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    "攻击: " + (wc.eventIVInfo[1] == -1 ? "x" : wc.eventIVInfo[1].ToString()) + "\n" +
+                    "防御: " + (wc.eventIVInfo[2] == -1 ? "x" : wc.eventIVInfo[2].ToString()) + "\n" +
+                    "特攻: " + (wc.eventIVInfo[3] == -1 ? "x" : wc.eventIVInfo[3].ToString()) + "\n" +
+                    "特防: " + (wc.eventIVInfo[4] == -1 ? "x" : wc.eventIVInfo[4].ToString()) + "\n" +
+                    "速度: " + (wc.eventIVInfo[5] == -1 ? "x" : wc.eventIVInfo[5].ToString()) + "\n",
+                    "信息", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 

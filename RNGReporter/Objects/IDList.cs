@@ -145,7 +145,7 @@ namespace RNGReporter.Objects
                     return direction * x.ID.CompareTo(y.ID);
                 case "SID":
                     return direction * x.SID.CompareTo(y.SID);
-                case "Seconds":
+                case "秒数":
                     return direction * x.Seconds.CompareTo(y.Seconds);
                 default:
                     //use ordinal due to better efficiency and because it uses the current culture
@@ -175,9 +175,9 @@ namespace RNGReporter.Objects
             {
                 case "Seed":
                     return direction * x.Seed.CompareTo(y.Seed);
-                case "Initial Frame":
+                case "初始帧":
                     return direction * x.InitialFrame.CompareTo(y.InitialFrame);
-                case "Frame":
+                case "帧":
                     return direction * x.Frame.CompareTo(y.Frame);
                 case "ID":
                     return direction * x.ID.CompareTo(y.ID);

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Drawing;
 using System.Drawing.Drawing2D;
@@ -100,7 +100,7 @@ namespace RNGReporter
 
         protected override void PaintThisGloss(Rectangle box, Graphics g)
         {
-            var y = (int) ((box.Height*(float) percent)/100f);
+            var y = (int)((box.Height * (float)percent) / 100f);
             if (box.Y + y > box.Height)
             {
                 y = box.Height;

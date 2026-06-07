@@ -158,7 +158,7 @@ namespace RNGReporter
             }
             catch (Exception ex)
             {
-    
+
             }
         }
 
@@ -178,16 +178,16 @@ namespace RNGReporter
 
                 switch (pitch)
                 {
-                    case "High": pitch = "H"; break;
-                    case "Mid-High": pitch = "MH"; break;
-                    case "Mid": pitch = "M"; break;
-                    case "Mid-Low":  pitch = "ML"; break;
-                    case "Low": pitch = "L"; break;
+                    case "高": pitch = "H"; break;
+                    case "中高": pitch = "MH"; break;
+                    case "中": pitch = "M"; break;
+                    case "中低":  pitch = "ML"; break;
+                    case "低": pitch = "拉帝欧斯\\拉迪亚斯"; break;
                 }
-                
+
                 chatotPitches.Append( $"{pitch},");
             }
-            
+
             return chatotPitches.ToString();
         }
 
@@ -212,7 +212,7 @@ namespace RNGReporter
             {
                 lblResultCount.Text = GetFramesFromMainWindow().Count.ToString();
                 //displays the amount of results from the main window cause the regex would show matches for whitespaces / empty strings
-            }            
+            }
         }
 
         private string CreateRegexPattern(string chatotPitchSequence)
@@ -259,7 +259,7 @@ namespace RNGReporter
             {
                 if (dgvFramePreview.SelectedCells.Count < 1)
                 {
-                    MessageBox.Show("You need to select a target frame in the preview!", "", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    MessageBox.Show("你需要在预览中选择目标帧！", "", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
                 else
                 {
@@ -278,6 +278,6 @@ namespace RNGReporter
             }
         }
 
-        
+
     }
 }

@@ -468,9 +468,9 @@ namespace RNGReporter
             this.groupBox1.SuspendLayout();
             this.groupBoxConfiguration.SuspendLayout();
             this.SuspendLayout();
-            // 
+            //
             // contextMenuStripCap
-            // 
+            //
             this.contextMenuStripCap.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.copySeedToClipboardToolStripMenuItem1,
             this.copyCgearToClipboard,
@@ -484,68 +484,68 @@ namespace RNGReporter
             this.contextMenuStripCap.Name = "contextMenuStripCap";
             this.contextMenuStripCap.Size = new System.Drawing.Size(255, 170);
             this.contextMenuStripCap.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStripCap_Opening);
-            // 
+            //
             // copySeedToClipboardToolStripMenuItem1
-            // 
+            //
             this.copySeedToClipboardToolStripMenuItem1.Name = "copySeedToClipboardToolStripMenuItem1";
             this.copySeedToClipboardToolStripMenuItem1.Size = new System.Drawing.Size(254, 22);
-            this.copySeedToClipboardToolStripMenuItem1.Text = "Copy Seed to Clipboard";
+            this.copySeedToClipboardToolStripMenuItem1.Text = "复制Seed到剪贴板";
             this.copySeedToClipboardToolStripMenuItem1.Click += new System.EventHandler(this.copySeedToClipboardToolStripMenuItem1_Click);
-            // 
+            //
             // copyCgearToClipboard
-            // 
+            //
             this.copyCgearToClipboard.Name = "copyCgearToClipboard";
             this.copyCgearToClipboard.Size = new System.Drawing.Size(254, 22);
-            this.copyCgearToClipboard.Text = "Copy C-Gear Seed to Clipboard";
+            this.copyCgearToClipboard.Text = "复制 Ｃ装置 Seed 到剪贴板";
             this.copyCgearToClipboard.Click += new System.EventHandler(this.copyCgearToClipboard_Click);
-            // 
+            //
             // toolStripMenuItem6
-            // 
+            //
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
             this.toolStripMenuItem6.Size = new System.Drawing.Size(251, 6);
-            // 
+            //
             // calibrateDelayIVs
-            // 
+            //
             this.calibrateDelayIVs.Name = "calibrateDelayIVs";
             this.calibrateDelayIVs.Size = new System.Drawing.Size(254, 22);
-            this.calibrateDelayIVs.Text = "Calibrate C-Gear Delay by Wild IVs";
+            this.calibrateDelayIVs.Text = "通过野生 IV 校准 Ｃ装置 Delay";
             this.calibrateDelayIVs.Click += new System.EventHandler(this.calibrateDelayIVs_Click);
-            // 
+            //
             // generateTimesToolStripMenuItem
-            // 
+            //
             this.generateTimesToolStripMenuItem.Name = "generateTimesToolStripMenuItem";
             this.generateTimesToolStripMenuItem.Size = new System.Drawing.Size(254, 22);
-            this.generateTimesToolStripMenuItem.Text = "Generate More Times ...";
+            this.generateTimesToolStripMenuItem.Text = "复制seed到seed to time";
             this.generateTimesToolStripMenuItem.Click += new System.EventHandler(this.generateTimesToolStripMenuItem_Click);
-            // 
+            //
             // generateAdjacentSeedsToolStripMenuItem
-            // 
+            //
             this.generateAdjacentSeedsToolStripMenuItem.Name = "generateAdjacentSeedsToolStripMenuItem";
             this.generateAdjacentSeedsToolStripMenuItem.Size = new System.Drawing.Size(254, 22);
-            this.generateAdjacentSeedsToolStripMenuItem.Text = "Generate Adjacent Seeds ...";
+            this.generateAdjacentSeedsToolStripMenuItem.Text = "计算附近的Seed...";
             this.generateAdjacentSeedsToolStripMenuItem.Click += new System.EventHandler(this.generateAdjacentSeedsToolStripMenuItem_Click);
-            // 
+            //
             // generateEntralinkNatureSeedsToolStripMenuItem
-            // 
+            //
             this.generateEntralinkNatureSeedsToolStripMenuItem.Name = "generateEntralinkNatureSeedsToolStripMenuItem";
             this.generateEntralinkNatureSeedsToolStripMenuItem.Size = new System.Drawing.Size(254, 22);
-            this.generateEntralinkNatureSeedsToolStripMenuItem.Text = "Generate Entralink Nature Seeds ...";
+            this.generateEntralinkNatureSeedsToolStripMenuItem.Text = "计算连入之森特性的Seed...";
             this.generateEntralinkNatureSeedsToolStripMenuItem.Click += new System.EventHandler(this.generateEntralinkNatureSeedsToolStripMenuItem_Click);
-            // 
+            //
             // toolStripMenuItem3
-            // 
+            //
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             this.toolStripMenuItem3.Size = new System.Drawing.Size(251, 6);
-            // 
+            //
             // outputCapResultsToTXTToolStripMenuItem
-            // 
+            //
             this.outputCapResultsToTXTToolStripMenuItem.Name = "outputCapResultsToTXTToolStripMenuItem";
             this.outputCapResultsToTXTToolStripMenuItem.Size = new System.Drawing.Size(254, 22);
-            this.outputCapResultsToTXTToolStripMenuItem.Text = "Output Results to TXT ...";
+            this.outputCapResultsToTXTToolStripMenuItem.Text = "输出结果至TXT文本文件";
             this.outputCapResultsToTXTToolStripMenuItem.Click += new System.EventHandler(this.outputCapResultsToTXTToolStripMenuItem_Click);
-            // 
+            //
             // contextMenuStripEggPid
-            // 
+            //
             this.contextMenuStripEggPid.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.copySeedToClipboardToolStripMenuItem2,
             this.generateAdjacentSeedsToolStripMenuItem1,
@@ -554,35 +554,35 @@ namespace RNGReporter
             this.contextMenuStripEggPid.Name = "contextMenuStripEggPid";
             this.contextMenuStripEggPid.Size = new System.Drawing.Size(214, 76);
             this.contextMenuStripEggPid.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStripEggPid_Opening);
-            // 
+            //
             // copySeedToClipboardToolStripMenuItem2
-            // 
+            //
             this.copySeedToClipboardToolStripMenuItem2.Name = "copySeedToClipboardToolStripMenuItem2";
             this.copySeedToClipboardToolStripMenuItem2.Size = new System.Drawing.Size(213, 22);
-            this.copySeedToClipboardToolStripMenuItem2.Text = "Copy Seed to Clipboard";
+            this.copySeedToClipboardToolStripMenuItem2.Text = "复制Seed到剪贴板";
             this.copySeedToClipboardToolStripMenuItem2.Click += new System.EventHandler(this.copySeedToClipboardToolStripMenuItem2_Click);
-            // 
+            //
             // generateAdjacentSeedsToolStripMenuItem1
-            // 
+            //
             this.generateAdjacentSeedsToolStripMenuItem1.Name = "generateAdjacentSeedsToolStripMenuItem1";
             this.generateAdjacentSeedsToolStripMenuItem1.Size = new System.Drawing.Size(213, 22);
-            this.generateAdjacentSeedsToolStripMenuItem1.Text = "Generate Adjacent Seeds...";
+            this.generateAdjacentSeedsToolStripMenuItem1.Text = "计算附近的Seed...";
             this.generateAdjacentSeedsToolStripMenuItem1.Click += new System.EventHandler(this.generateAdjacentSeedsToolStripMenuItem1_Click);
-            // 
+            //
             // toolStripMenuItem7
-            // 
+            //
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
             this.toolStripMenuItem7.Size = new System.Drawing.Size(210, 6);
-            // 
+            //
             // outputResultsToTXTToolStripMenuItem1
-            // 
+            //
             this.outputResultsToTXTToolStripMenuItem1.Name = "outputResultsToTXTToolStripMenuItem1";
             this.outputResultsToTXTToolStripMenuItem1.Size = new System.Drawing.Size(213, 22);
-            this.outputResultsToTXTToolStripMenuItem1.Text = "Output Results to TXT ...";
+            this.outputResultsToTXTToolStripMenuItem1.Text = "输出结果至TXT文本文件";
             this.outputResultsToTXTToolStripMenuItem1.Click += new System.EventHandler(this.outputResultsToTXTToolStripMenuItem1_Click);
-            // 
+            //
             // tabPageShinyEgg
-            // 
+            //
             this.tabPageShinyEgg.Controls.Add(this.cbShinyCharm);
             this.tabPageShinyEgg.Controls.Add(this.cbNidoBeat);
             this.tabPageShinyEgg.Controls.Add(this.label8);
@@ -634,230 +634,230 @@ namespace RNGReporter
             this.tabPageShinyEgg.Name = "tabPageShinyEgg";
             this.tabPageShinyEgg.Size = new System.Drawing.Size(1067, 522);
             this.tabPageShinyEgg.TabIndex = 2;
-            this.tabPageShinyEgg.Text = "Eggs";
+            this.tabPageShinyEgg.Text = "蛋";
             this.tabPageShinyEgg.UseVisualStyleBackColor = true;
-            // 
+            //
             // cbShinyCharm
-            // 
+            //
             this.cbShinyCharm.AutoSize = true;
             this.cbShinyCharm.Location = new System.Drawing.Point(782, 118);
             this.cbShinyCharm.Name = "cbShinyCharm";
             this.cbShinyCharm.Size = new System.Drawing.Size(85, 17);
             this.cbShinyCharm.TabIndex = 330;
-            this.cbShinyCharm.Text = "Shiny Charm";
+            this.cbShinyCharm.Text = "闪耀护符";
             this.cbShinyCharm.UseVisualStyleBackColor = true;
-            // 
+            //
             // cbNidoBeat
-            // 
+            //
             this.cbNidoBeat.AutoSize = true;
             this.cbNidoBeat.Location = new System.Drawing.Point(218, 45);
             this.cbNidoBeat.Name = "cbNidoBeat";
             this.cbNidoBeat.Size = new System.Drawing.Size(104, 17);
             this.cbNidoBeat.TabIndex = 329;
-            this.cbNidoBeat.Text = "Nidoran/Volbeat";
+            this.cbNidoBeat.Text = "尼多一家/电萤虫";
             this.cbNidoBeat.UseVisualStyleBackColor = true;
-            // 
+            //
             // label8
-            // 
+            //
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(256, 68);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(26, 13);
             this.label8.TabIndex = 326;
-            this.label8.Text = "Spe";
+            this.label8.Text = "速度";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label7
-            // 
+            //
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(224, 68);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(28, 13);
             this.label7.TabIndex = 325;
-            this.label7.Text = "SpD";
+            this.label7.Text = "特防";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label5
-            // 
+            //
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(191, 68);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(27, 13);
             this.label5.TabIndex = 324;
-            this.label5.Text = "SpA";
+            this.label5.Text = "特攻";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label4
-            // 
+            //
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(161, 68);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(24, 13);
             this.label4.TabIndex = 323;
-            this.label4.Text = "Def";
+            this.label4.Text = "防御";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label3
-            // 
+            //
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(130, 68);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(23, 13);
             this.label3.TabIndex = 322;
-            this.label3.Text = "Atk";
+            this.label3.Text = "攻击";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label2
-            // 
+            //
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(97, 68);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(22, 13);
             this.label2.TabIndex = 321;
-            this.label2.Text = "HP";
+            this.label2.Text = "觉醒力量";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // checkBoxIntlParents
-            // 
+            //
             this.checkBoxIntlParents.AutoSize = true;
             this.checkBoxIntlParents.Location = new System.Drawing.Point(6, 45);
             this.checkBoxIntlParents.Name = "checkBoxIntlParents";
             this.checkBoxIntlParents.Size = new System.Drawing.Size(123, 17);
             this.checkBoxIntlParents.TabIndex = 4;
-            this.checkBoxIntlParents.Text = "International Parents";
+            this.checkBoxIntlParents.Text = "国际婚姻";
             this.checkBoxIntlParents.UseVisualStyleBackColor = true;
-            // 
+            //
             // label92
-            // 
+            //
             this.label92.AutoSize = true;
             this.label92.Location = new System.Drawing.Point(655, 94);
             this.label92.Name = "label92";
             this.label92.Size = new System.Drawing.Size(42, 13);
             this.label92.TabIndex = 317;
-            this.label92.Text = "Gender";
-            // 
+            this.label92.Text = "性别比例";
+            //
             // checkBoxShinyShinyOnly
-            // 
+            //
             this.checkBoxShinyShinyOnly.AutoSize = true;
             this.checkBoxShinyShinyOnly.Location = new System.Drawing.Point(700, 118);
             this.checkBoxShinyShinyOnly.Name = "checkBoxShinyShinyOnly";
             this.checkBoxShinyShinyOnly.Size = new System.Drawing.Size(76, 17);
             this.checkBoxShinyShinyOnly.TabIndex = 41;
-            this.checkBoxShinyShinyOnly.Text = "Shiny Only";
+            this.checkBoxShinyShinyOnly.Text = "仅异色";
             this.checkBoxShinyShinyOnly.UseVisualStyleBackColor = true;
-            // 
+            //
             // checkBoxShowInheritance
-            // 
+            //
             this.checkBoxShowInheritance.AutoSize = true;
             this.checkBoxShowInheritance.Location = new System.Drawing.Point(96, 161);
             this.checkBoxShowInheritance.Name = "checkBoxShowInheritance";
             this.checkBoxShowInheritance.Size = new System.Drawing.Size(109, 17);
             this.checkBoxShowInheritance.TabIndex = 19;
-            this.checkBoxShowInheritance.Text = "Show Inheritance";
+            this.checkBoxShowInheritance.Text = "显示遗传来源";
             this.checkBoxShowInheritance.UseVisualStyleBackColor = true;
             this.checkBoxShowInheritance.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
-            // 
+            //
             // labelShinyFatherIVs
-            // 
+            //
             this.labelShinyFatherIVs.AutoSize = true;
             this.labelShinyFatherIVs.Location = new System.Drawing.Point(38, 111);
             this.labelShinyFatherIVs.Name = "labelShinyFatherIVs";
             this.labelShinyFatherIVs.Size = new System.Drawing.Size(55, 13);
             this.labelShinyFatherIVs.TabIndex = 186;
-            this.labelShinyFatherIVs.Text = "Father IVs";
-            // 
+            this.labelShinyFatherIVs.Text = "父亲个体";
+            //
             // checkBoxShinyDittoParent
-            // 
+            //
             this.checkBoxShinyDittoParent.AutoSize = true;
             this.checkBoxShinyDittoParent.Location = new System.Drawing.Point(130, 45);
             this.checkBoxShinyDittoParent.Name = "checkBoxShinyDittoParent";
             this.checkBoxShinyDittoParent.Size = new System.Drawing.Size(82, 17);
             this.checkBoxShinyDittoParent.TabIndex = 5;
-            this.checkBoxShinyDittoParent.Text = "Ditto Parent";
+            this.checkBoxShinyDittoParent.Text = "百变怪";
             this.checkBoxShinyDittoParent.UseVisualStyleBackColor = true;
-            // 
+            //
             // label33
-            // 
+            //
             this.label33.AutoSize = true;
             this.label33.Location = new System.Drawing.Point(38, 135);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(55, 13);
             this.label33.TabIndex = 183;
-            this.label33.Text = "Everstone";
-            // 
+            this.label33.Text = "不变之石";
+            //
             // labelShinyMinMaxFrame
-            // 
+            //
             this.labelShinyMinMaxFrame.AutoSize = true;
             this.labelShinyMinMaxFrame.Location = new System.Drawing.Point(184, 9);
             this.labelShinyMinMaxFrame.Name = "labelShinyMinMaxFrame";
             this.labelShinyMinMaxFrame.Size = new System.Drawing.Size(106, 13);
             this.labelShinyMinMaxFrame.TabIndex = 179;
-            this.labelShinyMinMaxFrame.Text = "Min / Max Advances";
-            // 
+            this.labelShinyMinMaxFrame.Text = "最小/最大帧";
+            //
             // checkBoxShinyDreamWorld
-            // 
+            //
             this.checkBoxShinyDreamWorld.AutoSize = true;
             this.checkBoxShinyDreamWorld.Location = new System.Drawing.Point(700, 69);
             this.checkBoxShinyDreamWorld.Name = "checkBoxShinyDreamWorld";
             this.checkBoxShinyDreamWorld.Size = new System.Drawing.Size(142, 17);
             this.checkBoxShinyDreamWorld.TabIndex = 37;
-            this.checkBoxShinyDreamWorld.Text = "Dream World Ability Only";
+            this.checkBoxShinyDreamWorld.Text = "仅梦特性";
             this.checkBoxShinyDreamWorld.UseVisualStyleBackColor = true;
-            // 
+            //
             // labelShinyMotherIVs
-            // 
+            //
             this.labelShinyMotherIVs.AutoSize = true;
             this.labelShinyMotherIVs.Location = new System.Drawing.Point(35, 87);
             this.labelShinyMotherIVs.Name = "labelShinyMotherIVs";
             this.labelShinyMotherIVs.Size = new System.Drawing.Size(58, 13);
             this.labelShinyMotherIVs.TabIndex = 132;
-            this.labelShinyMotherIVs.Text = "Mother IVs";
-            // 
+            this.labelShinyMotherIVs.Text = "母亲个体";
+            //
             // labelShinyNature
-            // 
+            //
             this.labelShinyNature.AutoSize = true;
             this.labelShinyNature.Location = new System.Drawing.Point(660, 20);
             this.labelShinyNature.Name = "labelShinyNature";
             this.labelShinyNature.Size = new System.Drawing.Size(39, 13);
             this.labelShinyNature.TabIndex = 14;
-            this.labelShinyNature.Text = "Nature";
-            // 
+            this.labelShinyNature.Text = "性格";
+            //
             // labelShinyAbility
-            // 
+            //
             this.labelShinyAbility.AutoSize = true;
             this.labelShinyAbility.Location = new System.Drawing.Point(663, 47);
             this.labelShinyAbility.Name = "labelShinyAbility";
             this.labelShinyAbility.Size = new System.Drawing.Size(34, 13);
             this.labelShinyAbility.TabIndex = 20;
-            this.labelShinyAbility.Text = "Ability";
-            // 
+            this.labelShinyAbility.Text = "特性";
+            //
             // labelShinyMonth
-            // 
+            //
             this.labelShinyMonth.AutoSize = true;
             this.labelShinyMonth.Location = new System.Drawing.Point(96, 9);
             this.labelShinyMonth.Name = "labelShinyMonth";
             this.labelShinyMonth.Size = new System.Drawing.Size(37, 13);
             this.labelShinyMonth.TabIndex = 4;
-            this.labelShinyMonth.Text = "Month";
-            // 
+            this.labelShinyMonth.Text = "月份 ";
+            //
             // labelShinyYear
-            // 
+            //
             this.labelShinyYear.AutoSize = true;
             this.labelShinyYear.Location = new System.Drawing.Point(52, 9);
             this.labelShinyYear.Name = "labelShinyYear";
             this.labelShinyYear.Size = new System.Drawing.Size(29, 13);
             this.labelShinyYear.TabIndex = 2;
-            this.labelShinyYear.Text = "Year";
-            // 
+            this.labelShinyYear.Text = "年份";
+            //
             // ivFiltersEggs
-            // 
+            //
             this.ivFiltersEggs.Location = new System.Drawing.Point(319, 9);
             this.ivFiltersEggs.Name = "ivFiltersEggs";
             this.ivFiltersEggs.Size = new System.Drawing.Size(315, 166);
             this.ivFiltersEggs.TabIndex = 328;
-            // 
+            //
             // buttonLoadEggSeeds
-            // 
+            //
             this.buttonLoadEggSeeds.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonLoadEggSeeds.ForeColor = System.Drawing.Color.Black;
             this.buttonLoadEggSeeds.Location = new System.Drawing.Point(700, 148);
@@ -866,18 +866,18 @@ namespace RNGReporter
             this.buttonLoadEggSeeds.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonLoadEggSeeds.Size = new System.Drawing.Size(130, 23);
             this.buttonLoadEggSeeds.TabIndex = 327;
-            this.buttonLoadEggSeeds.Text = "Load eggseeds.dat";
+            this.buttonLoadEggSeeds.Text = "加载蛋seed数据";
             this.buttonLoadEggSeeds.Visible = false;
             this.buttonLoadEggSeeds.Click += new System.EventHandler(this.buttonLoadEggSeeds_Click);
-            // 
+            //
             // dataGridViewShinyResults
-            // 
+            //
             this.dataGridViewShinyResults.AllowUserToAddRows = false;
             this.dataGridViewShinyResults.AllowUserToDeleteRows = false;
             this.dataGridViewShinyResults.AllowUserToOrderColumns = true;
             this.dataGridViewShinyResults.AllowUserToResizeRows = false;
-            this.dataGridViewShinyResults.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dataGridViewShinyResults.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewShinyResults.ColumnHeadersHeight = 20;
             this.dataGridViewShinyResults.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -918,9 +918,9 @@ namespace RNGReporter
             this.dataGridViewShinyResults.TabIndex = 21;
             this.dataGridViewShinyResults.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridViewShinyResults_CellFormatting);
             this.dataGridViewShinyResults.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridViewShinyResults_MouseDown);
-            // 
+            //
             // EggSeed
-            // 
+            //
             this.EggSeed.DataPropertyName = "Seed";
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Consolas", 8.75F);
             dataGridViewCellStyle1.Format = "X16";
@@ -929,17 +929,17 @@ namespace RNGReporter
             this.EggSeed.Name = "EggSeed";
             this.EggSeed.ReadOnly = true;
             this.EggSeed.Width = 160;
-            // 
+            //
             // ShinyOffset
-            // 
-            this.ShinyOffset.DataPropertyName = "Offset";
-            this.ShinyOffset.HeaderText = "Frame";
+            //
+            this.ShinyOffset.DataPropertyName = "偏移";
+            this.ShinyOffset.HeaderText = "帧数";
             this.ShinyOffset.Name = "ShinyOffset";
             this.ShinyOffset.ReadOnly = true;
             this.ShinyOffset.Width = 45;
-            // 
+            //
             // EggPID
-            // 
+            //
             this.EggPID.DataPropertyName = "Pid";
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Consolas", 8.75F);
             dataGridViewCellStyle2.Format = "X8";
@@ -948,159 +948,159 @@ namespace RNGReporter
             this.EggPID.Name = "EggPID";
             this.EggPID.ReadOnly = true;
             this.EggPID.Width = 70;
-            // 
+            //
             // shinyShinyDisplay
-            // 
+            //
             this.shinyShinyDisplay.DataPropertyName = "ShinyDisplay";
-            this.shinyShinyDisplay.HeaderText = "!!!";
+            this.shinyShinyDisplay.HeaderText = "异色";
             this.shinyShinyDisplay.Name = "shinyShinyDisplay";
             this.shinyShinyDisplay.ReadOnly = true;
             this.shinyShinyDisplay.Width = 31;
-            // 
+            //
             // ShinyNature
-            // 
-            this.ShinyNature.DataPropertyName = "Nature";
-            this.ShinyNature.HeaderText = "Nature";
+            //
+            this.ShinyNature.DataPropertyName = "性格";
+            this.ShinyNature.HeaderText = "性格";
             this.ShinyNature.Name = "ShinyNature";
             this.ShinyNature.ReadOnly = true;
             this.ShinyNature.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.ShinyNature.Width = 65;
-            // 
+            //
             // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "Ability";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Ability";
+            //
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "特性";
+            this.dataGridViewTextBoxColumn4.HeaderText = "特性";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             this.dataGridViewTextBoxColumn4.ReadOnly = true;
             this.dataGridViewTextBoxColumn4.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.dataGridViewTextBoxColumn4.Width = 40;
-            // 
+            //
             // ShinyDreamAbility
-            // 
+            //
             this.ShinyDreamAbility.DataPropertyName = "DreamAbility";
-            this.ShinyDreamAbility.HeaderText = "Dream Ability";
+            this.ShinyDreamAbility.HeaderText = "梦特性";
             this.ShinyDreamAbility.Name = "ShinyDreamAbility";
             this.ShinyDreamAbility.Width = 75;
-            // 
+            //
             // ShinyHP
-            // 
+            //
             this.ShinyHP.DataPropertyName = "DisplayHpAlt";
-            this.ShinyHP.HeaderText = "HP";
+            this.ShinyHP.HeaderText = "觉醒力量";
             this.ShinyHP.Name = "ShinyHP";
             this.ShinyHP.ReadOnly = true;
             this.ShinyHP.Width = 30;
-            // 
+            //
             // ShinyAtk
-            // 
+            //
             this.ShinyAtk.DataPropertyName = "DisplayAtkAlt";
-            this.ShinyAtk.HeaderText = "Atk";
+            this.ShinyAtk.HeaderText = "攻击";
             this.ShinyAtk.Name = "ShinyAtk";
             this.ShinyAtk.ReadOnly = true;
             this.ShinyAtk.Width = 30;
-            // 
+            //
             // ShinyDef
-            // 
+            //
             this.ShinyDef.DataPropertyName = "DisplayDefAlt";
-            this.ShinyDef.HeaderText = "Def";
+            this.ShinyDef.HeaderText = "防御";
             this.ShinyDef.Name = "ShinyDef";
             this.ShinyDef.ReadOnly = true;
             this.ShinyDef.Width = 30;
-            // 
+            //
             // ShinySpA
-            // 
+            //
             this.ShinySpA.DataPropertyName = "DisplaySpaAlt";
-            this.ShinySpA.HeaderText = "SpA";
+            this.ShinySpA.HeaderText = "特攻";
             this.ShinySpA.Name = "ShinySpA";
             this.ShinySpA.ReadOnly = true;
             this.ShinySpA.Width = 30;
-            // 
+            //
             // ShinySpD
-            // 
+            //
             this.ShinySpD.DataPropertyName = "DisplaySpdAlt";
-            this.ShinySpD.HeaderText = "SpD";
+            this.ShinySpD.HeaderText = "特防";
             this.ShinySpD.Name = "ShinySpD";
             this.ShinySpD.ReadOnly = true;
             this.ShinySpD.Width = 30;
-            // 
+            //
             // ShinySpe
-            // 
+            //
             this.ShinySpe.DataPropertyName = "DisplaySpeAlt";
-            this.ShinySpe.HeaderText = "Spe";
+            this.ShinySpe.HeaderText = "速度";
             this.ShinySpe.Name = "ShinySpe";
             this.ShinySpe.ReadOnly = true;
             this.ShinySpe.Width = 30;
-            // 
+            //
             // ShinyHidden
-            // 
+            //
             this.ShinyHidden.DataPropertyName = "HiddenPowerType";
-            this.ShinyHidden.HeaderText = "Hidden";
+            this.ShinyHidden.HeaderText = "觉醒力量";
             this.ShinyHidden.Name = "ShinyHidden";
             this.ShinyHidden.ReadOnly = true;
             this.ShinyHidden.Width = 50;
-            // 
+            //
             // ShinyPower
-            // 
+            //
             this.ShinyPower.DataPropertyName = "HiddenPowerPower";
-            this.ShinyPower.HeaderText = "Power";
+            this.ShinyPower.HeaderText = "觉醒力量威力";
             this.ShinyPower.Name = "ShinyPower";
             this.ShinyPower.ReadOnly = true;
             this.ShinyPower.Width = 45;
-            // 
+            //
             // ShinyFemale50
-            // 
+            //
             this.ShinyFemale50.DataPropertyName = "Female50";
             this.ShinyFemale50.HeaderText = "50% F";
             this.ShinyFemale50.Name = "ShinyFemale50";
             this.ShinyFemale50.ReadOnly = true;
             this.ShinyFemale50.Width = 45;
-            // 
+            //
             // ShinyFemale25
-            // 
+            //
             this.ShinyFemale25.DataPropertyName = "Female25";
             this.ShinyFemale25.HeaderText = "25% F";
             this.ShinyFemale25.Name = "ShinyFemale25";
             this.ShinyFemale25.ReadOnly = true;
             this.ShinyFemale25.Width = 45;
-            // 
+            //
             // ShinyFemale125
-            // 
+            //
             this.ShinyFemale125.DataPropertyName = "Female125";
             this.ShinyFemale125.HeaderText = "12.5%F";
             this.ShinyFemale125.Name = "ShinyFemale125";
             this.ShinyFemale125.ReadOnly = true;
             this.ShinyFemale125.Width = 45;
-            // 
+            //
             // ShinyFemale75
-            // 
+            //
             this.ShinyFemale75.DataPropertyName = "Female75";
             this.ShinyFemale75.HeaderText = "75% F";
             this.ShinyFemale75.Name = "ShinyFemale75";
             this.ShinyFemale75.ReadOnly = true;
             this.ShinyFemale75.Width = 45;
-            // 
+            //
             // ColumnEggDate
-            // 
+            //
             this.ColumnEggDate.DataPropertyName = "TimeDate";
             dataGridViewCellStyle3.Format = "MM/dd/yy HH:mm:ss";
             this.ColumnEggDate.DefaultCellStyle = dataGridViewCellStyle3;
-            this.ColumnEggDate.HeaderText = "Date\\Time";
+            this.ColumnEggDate.HeaderText = "日期\\时间";
             this.ColumnEggDate.Name = "ColumnEggDate";
             this.ColumnEggDate.ReadOnly = true;
-            // 
+            //
             // shinyKeypress
-            // 
-            this.shinyKeypress.DataPropertyName = "Keypress";
-            this.shinyKeypress.HeaderText = "Keypress";
+            //
+            this.shinyKeypress.DataPropertyName = "按键";
+            this.shinyKeypress.HeaderText = "按键";
             this.shinyKeypress.Name = "shinyKeypress";
             this.shinyKeypress.Width = 120;
-            // 
+            //
             // comboBoxShinyGender
-            // 
+            //
             this.comboBoxShinyGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxShinyGender.ForeColor = System.Drawing.Color.Black;
             this.comboBoxShinyGender.FormattingEnabled = true;
             this.comboBoxShinyGender.Items.AddRange(new object[] {
-            "Don\'t Care/Fixed Gender/Genderless",
+            "不考虑/固定性别/无性别",
             "Female (50% Male, 50% Female)",
             "Male (50% Male, 50% Female)",
             "Female (25% Male, 75% Female)",
@@ -1115,9 +1115,9 @@ namespace RNGReporter
             this.comboBoxShinyGender.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxShinyGender.Size = new System.Drawing.Size(220, 21);
             this.comboBoxShinyGender.TabIndex = 38;
-            // 
+            //
             // comboBoxShinyEverstoneNature
-            // 
+            //
             this.comboBoxShinyEverstoneNature.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxShinyEverstoneNature.ForeColor = System.Drawing.Color.Black;
             this.comboBoxShinyEverstoneNature.FormattingEnabled = true;
@@ -1127,14 +1127,14 @@ namespace RNGReporter
             this.comboBoxShinyEverstoneNature.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxShinyEverstoneNature.Size = new System.Drawing.Size(86, 21);
             this.comboBoxShinyEverstoneNature.TabIndex = 18;
-            // 
+            //
             // comboBoxShinyAbility
-            // 
+            //
             this.comboBoxShinyAbility.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxShinyAbility.ForeColor = System.Drawing.Color.Black;
             this.comboBoxShinyAbility.FormattingEnabled = true;
             this.comboBoxShinyAbility.Items.AddRange(new object[] {
-            "Any",
+            "任意",
             "Ability 0",
             "Ability 1"});
             this.comboBoxShinyAbility.Location = new System.Drawing.Point(700, 43);
@@ -1143,9 +1143,9 @@ namespace RNGReporter
             this.comboBoxShinyAbility.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxShinyAbility.Size = new System.Drawing.Size(67, 21);
             this.comboBoxShinyAbility.TabIndex = 36;
-            // 
+            //
             // buttonShinyGenerate
-            // 
+            //
             this.buttonShinyGenerate.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonShinyGenerate.ForeColor = System.Drawing.Color.Black;
             this.buttonShinyGenerate.Location = new System.Drawing.Point(12, 157);
@@ -1154,13 +1154,13 @@ namespace RNGReporter
             this.buttonShinyGenerate.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonShinyGenerate.Size = new System.Drawing.Size(73, 23);
             this.buttonShinyGenerate.TabIndex = 20;
-            this.buttonShinyGenerate.Text = "Generate";
+            this.buttonShinyGenerate.Text = "计算";
             this.buttonShinyGenerate.Click += new System.EventHandler(this.buttonShinyGenerate_Click);
-            // 
+            //
             // buttonShinyClearNature
-            // 
+            //
             this.buttonShinyClearNature.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.buttonShinyClearNature.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.buttonShinyClearNature.Font = new System.Drawing.Font("宋体", 8.25F);
             this.buttonShinyClearNature.ForeColor = System.Drawing.Color.Black;
             this.buttonShinyClearNature.Location = new System.Drawing.Point(879, 14);
             this.buttonShinyClearNature.Name = "buttonShinyClearNature";
@@ -1169,11 +1169,11 @@ namespace RNGReporter
             this.buttonShinyClearNature.Size = new System.Drawing.Size(41, 23);
             this.buttonShinyClearNature.TabIndex = 35;
             this.buttonShinyClearNature.TabStop = false;
-            this.buttonShinyClearNature.Text = "Any";
+            this.buttonShinyClearNature.Text = "任意";
             this.buttonShinyClearNature.Click += new System.EventHandler(this.buttonShinyClearNature_Click);
-            // 
+            //
             // comboBoxShinyNature
-            // 
+            //
             this.comboBoxShinyNature.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxShinyNature.ForeColor = System.Drawing.Color.Black;
             this.comboBoxShinyNature.FormattingEnabled = true;
@@ -1184,9 +1184,9 @@ namespace RNGReporter
             this.comboBoxShinyNature.Size = new System.Drawing.Size(176, 21);
             this.comboBoxShinyNature.TabIndex = 34;
             this.comboBoxShinyNature.MouseClick += new System.Windows.Forms.MouseEventHandler(this.FocusControl);
-            // 
+            //
             // comboBoxShinyMonth
-            // 
+            //
             this.comboBoxShinyMonth.BlankText = null;
             checkBoxProperties1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.comboBoxShinyMonth.CheckBoxProperties = checkBoxProperties1;
@@ -1212,9 +1212,9 @@ namespace RNGReporter
             this.comboBoxShinyMonth.Size = new System.Drawing.Size(87, 21);
             this.comboBoxShinyMonth.TabIndex = 1;
             this.comboBoxShinyMonth.MouseClick += new System.Windows.Forms.MouseEventHandler(this.FocusControl);
-            // 
+            //
             // maskedTextBoxShinyMaxFrame
-            // 
+            //
             this.maskedTextBoxShinyMaxFrame.Hex = false;
             this.maskedTextBoxShinyMaxFrame.Location = new System.Drawing.Point(238, 24);
             this.maskedTextBoxShinyMaxFrame.Mask = "0000";
@@ -1223,9 +1223,9 @@ namespace RNGReporter
             this.maskedTextBoxShinyMaxFrame.TabIndex = 3;
             this.maskedTextBoxShinyMaxFrame.Text = "45";
             this.maskedTextBoxShinyMaxFrame.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
+            //
             // maskedTextBoxShinyMinFrame
-            // 
+            //
             this.maskedTextBoxShinyMinFrame.Hex = false;
             this.maskedTextBoxShinyMinFrame.Location = new System.Drawing.Point(188, 24);
             this.maskedTextBoxShinyMinFrame.Mask = "0000";
@@ -1234,9 +1234,9 @@ namespace RNGReporter
             this.maskedTextBoxShinyMinFrame.TabIndex = 2;
             this.maskedTextBoxShinyMinFrame.Text = "10";
             this.maskedTextBoxShinyMinFrame.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
+            //
             // maskedTextBoxShinyDefParentB
-            // 
+            //
             this.maskedTextBoxShinyDefParentB.Hex = false;
             this.maskedTextBoxShinyDefParentB.Location = new System.Drawing.Point(160, 108);
             this.maskedTextBoxShinyDefParentB.Mask = "00";
@@ -1245,9 +1245,9 @@ namespace RNGReporter
             this.maskedTextBoxShinyDefParentB.TabIndex = 14;
             this.maskedTextBoxShinyDefParentB.Tag = "ivs";
             this.maskedTextBoxShinyDefParentB.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxShinyAtkParentB
-            // 
+            //
             this.maskedTextBoxShinyAtkParentB.Hex = false;
             this.maskedTextBoxShinyAtkParentB.Location = new System.Drawing.Point(129, 108);
             this.maskedTextBoxShinyAtkParentB.Mask = "00";
@@ -1256,9 +1256,9 @@ namespace RNGReporter
             this.maskedTextBoxShinyAtkParentB.TabIndex = 13;
             this.maskedTextBoxShinyAtkParentB.Tag = "ivs";
             this.maskedTextBoxShinyAtkParentB.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxShinySpeParentB
-            // 
+            //
             this.maskedTextBoxShinySpeParentB.Hex = false;
             this.maskedTextBoxShinySpeParentB.Location = new System.Drawing.Point(256, 108);
             this.maskedTextBoxShinySpeParentB.Mask = "00";
@@ -1267,9 +1267,9 @@ namespace RNGReporter
             this.maskedTextBoxShinySpeParentB.TabIndex = 17;
             this.maskedTextBoxShinySpeParentB.Tag = "ivs";
             this.maskedTextBoxShinySpeParentB.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxShinySpDParentB
-            // 
+            //
             this.maskedTextBoxShinySpDParentB.Hex = false;
             this.maskedTextBoxShinySpDParentB.Location = new System.Drawing.Point(224, 108);
             this.maskedTextBoxShinySpDParentB.Mask = "00";
@@ -1278,9 +1278,9 @@ namespace RNGReporter
             this.maskedTextBoxShinySpDParentB.TabIndex = 16;
             this.maskedTextBoxShinySpDParentB.Tag = "ivs";
             this.maskedTextBoxShinySpDParentB.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxShinySpAParentB
-            // 
+            //
             this.maskedTextBoxShinySpAParentB.Hex = false;
             this.maskedTextBoxShinySpAParentB.Location = new System.Drawing.Point(192, 108);
             this.maskedTextBoxShinySpAParentB.Mask = "00";
@@ -1289,9 +1289,9 @@ namespace RNGReporter
             this.maskedTextBoxShinySpAParentB.TabIndex = 15;
             this.maskedTextBoxShinySpAParentB.Tag = "ivs";
             this.maskedTextBoxShinySpAParentB.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxShinyHPParentB
-            // 
+            //
             this.maskedTextBoxShinyHPParentB.Hex = false;
             this.maskedTextBoxShinyHPParentB.Location = new System.Drawing.Point(97, 108);
             this.maskedTextBoxShinyHPParentB.Mask = "00";
@@ -1299,9 +1299,9 @@ namespace RNGReporter
             this.maskedTextBoxShinyHPParentB.Size = new System.Drawing.Size(27, 21);
             this.maskedTextBoxShinyHPParentB.TabIndex = 12;
             this.maskedTextBoxShinyHPParentB.Tag = "ivs";
-            // 
+            //
             // maskedTextBoxShinyDefParentA
-            // 
+            //
             this.maskedTextBoxShinyDefParentA.Hex = false;
             this.maskedTextBoxShinyDefParentA.Location = new System.Drawing.Point(160, 83);
             this.maskedTextBoxShinyDefParentA.Mask = "00";
@@ -1310,9 +1310,9 @@ namespace RNGReporter
             this.maskedTextBoxShinyDefParentA.TabIndex = 8;
             this.maskedTextBoxShinyDefParentA.Tag = "ivs";
             this.maskedTextBoxShinyDefParentA.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxShinyAtkParentA
-            // 
+            //
             this.maskedTextBoxShinyAtkParentA.Hex = false;
             this.maskedTextBoxShinyAtkParentA.Location = new System.Drawing.Point(129, 83);
             this.maskedTextBoxShinyAtkParentA.Mask = "00";
@@ -1321,9 +1321,9 @@ namespace RNGReporter
             this.maskedTextBoxShinyAtkParentA.TabIndex = 7;
             this.maskedTextBoxShinyAtkParentA.Tag = "ivs";
             this.maskedTextBoxShinyAtkParentA.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxShinySpeParentA
-            // 
+            //
             this.maskedTextBoxShinySpeParentA.Hex = false;
             this.maskedTextBoxShinySpeParentA.Location = new System.Drawing.Point(256, 83);
             this.maskedTextBoxShinySpeParentA.Mask = "00";
@@ -1332,9 +1332,9 @@ namespace RNGReporter
             this.maskedTextBoxShinySpeParentA.TabIndex = 11;
             this.maskedTextBoxShinySpeParentA.Tag = "ivs";
             this.maskedTextBoxShinySpeParentA.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxShinySpDParentA
-            // 
+            //
             this.maskedTextBoxShinySpDParentA.Hex = false;
             this.maskedTextBoxShinySpDParentA.Location = new System.Drawing.Point(224, 83);
             this.maskedTextBoxShinySpDParentA.Mask = "00";
@@ -1343,9 +1343,9 @@ namespace RNGReporter
             this.maskedTextBoxShinySpDParentA.TabIndex = 10;
             this.maskedTextBoxShinySpDParentA.Tag = "ivs";
             this.maskedTextBoxShinySpDParentA.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxShinySpAParentA
-            // 
+            //
             this.maskedTextBoxShinySpAParentA.Hex = false;
             this.maskedTextBoxShinySpAParentA.Location = new System.Drawing.Point(192, 83);
             this.maskedTextBoxShinySpAParentA.Mask = "00";
@@ -1354,9 +1354,9 @@ namespace RNGReporter
             this.maskedTextBoxShinySpAParentA.TabIndex = 9;
             this.maskedTextBoxShinySpAParentA.Tag = "ivs";
             this.maskedTextBoxShinySpAParentA.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxShinyHPParentA
-            // 
+            //
             this.maskedTextBoxShinyHPParentA.Hex = false;
             this.maskedTextBoxShinyHPParentA.Location = new System.Drawing.Point(97, 83);
             this.maskedTextBoxShinyHPParentA.Mask = "00";
@@ -1364,9 +1364,9 @@ namespace RNGReporter
             this.maskedTextBoxShinyHPParentA.Size = new System.Drawing.Size(27, 21);
             this.maskedTextBoxShinyHPParentA.TabIndex = 6;
             this.maskedTextBoxShinyHPParentA.Tag = "ivs";
-            // 
+            //
             // maskedTextBoxShinyYear
-            // 
+            //
             this.maskedTextBoxShinyYear.Hex = false;
             this.maskedTextBoxShinyYear.Location = new System.Drawing.Point(55, 24);
             this.maskedTextBoxShinyYear.Mask = "0000";
@@ -1374,9 +1374,9 @@ namespace RNGReporter
             this.maskedTextBoxShinyYear.Size = new System.Drawing.Size(35, 21);
             this.maskedTextBoxShinyYear.TabIndex = 0;
             this.maskedTextBoxShinyYear.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
+            //
             // tabPageCapture
-            // 
+            //
             this.tabPageCapture.Controls.Add(this.PrefGroupBox);
             this.tabPageCapture.Controls.Add(this.SettingsGroupBox);
             this.tabPageCapture.Controls.Add(this.dataGridViewCapValues);
@@ -1385,11 +1385,11 @@ namespace RNGReporter
             this.tabPageCapture.Padding = new System.Windows.Forms.Padding(3);
             this.tabPageCapture.Size = new System.Drawing.Size(1067, 522);
             this.tabPageCapture.TabIndex = 1;
-            this.tabPageCapture.Text = "Capture";
+            this.tabPageCapture.Text = "正常捕捉";
             this.tabPageCapture.UseVisualStyleBackColor = true;
-            // 
+            //
             // PrefGroupBox
-            // 
+            //
             this.PrefGroupBox.Controls.Add(this.ivFiltersCapture);
             this.PrefGroupBox.Controls.Add(this.comboBoxCapGender);
             this.PrefGroupBox.Controls.Add(this.comboBoxCapNature);
@@ -1412,35 +1412,35 @@ namespace RNGReporter
             this.PrefGroupBox.Size = new System.Drawing.Size(665, 208);
             this.PrefGroupBox.TabIndex = 347;
             this.PrefGroupBox.TabStop = false;
-            this.PrefGroupBox.Text = "Preferences";
-            // 
+            this.PrefGroupBox.Text = "偏好";
+            //
             // ivFiltersCapture
-            // 
+            //
             this.ivFiltersCapture.Location = new System.Drawing.Point(6, 28);
             this.ivFiltersCapture.Name = "ivFiltersCapture";
             this.ivFiltersCapture.Size = new System.Drawing.Size(315, 166);
             this.ivFiltersCapture.TabIndex = 329;
             this.ivFiltersCapture.FiltersChanged += new System.EventHandler(this.IVFilters_Changed);
-            // 
+            //
             // comboBoxCapGender
-            // 
+            //
             this.comboBoxCapGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxCapGender.ForeColor = System.Drawing.Color.Black;
             this.comboBoxCapGender.FormattingEnabled = true;
             this.comboBoxCapGender.Items.AddRange(new object[] {
-            "Any",
-            "Male",
-            "Female"});
+            "任意",
+            "雄性",
+            "雌性"});
             this.comboBoxCapGender.Location = new System.Drawing.Point(395, 87);
             this.comboBoxCapGender.MaxDropDownItems = 3;
             this.comboBoxCapGender.Name = "comboBoxCapGender";
             this.comboBoxCapGender.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxCapGender.Size = new System.Drawing.Size(95, 21);
             this.comboBoxCapGender.TabIndex = 31;
-            // 
+            //
             // comboBoxCapNature
-            // 
-            this.comboBoxCapNature.BlankText = "Any";
+            //
+            this.comboBoxCapNature.BlankText = "任意";
             checkBoxProperties2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.comboBoxCapNature.CheckBoxProperties = checkBoxProperties2;
             this.comboBoxCapNature.DisplayMemberSingleItem = "";
@@ -1452,38 +1452,38 @@ namespace RNGReporter
             this.comboBoxCapNature.Size = new System.Drawing.Size(95, 21);
             this.comboBoxCapNature.TabIndex = 24;
             this.comboBoxCapNature.MouseClick += new System.Windows.Forms.MouseEventHandler(this.FocusControl);
-            // 
+            //
             // label21
-            // 
+            //
             this.label21.AutoSize = true;
             this.label21.Location = new System.Drawing.Point(340, 63);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(39, 13);
             this.label21.TabIndex = 11;
-            this.label21.Text = "Nature";
+            this.label21.Text = "性格";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // checkBoxTriggerBattle
-            // 
+            //
             this.checkBoxTriggerBattle.AutoSize = true;
             this.checkBoxTriggerBattle.Location = new System.Drawing.Point(552, 35);
             this.checkBoxTriggerBattle.Name = "checkBoxTriggerBattle";
             this.checkBoxTriggerBattle.Size = new System.Drawing.Size(89, 17);
             this.checkBoxTriggerBattle.TabIndex = 341;
-            this.checkBoxTriggerBattle.Text = "Battle Trigger";
+            this.checkBoxTriggerBattle.Text = "对战触发";
             this.checkBoxTriggerBattle.UseVisualStyleBackColor = true;
-            // 
+            //
             // label23
-            // 
+            //
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(340, 117);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(34, 13);
             this.label23.TabIndex = 68;
-            this.label23.Text = "Ability";
-            // 
+            this.label23.Text = "特性";
+            //
             // buttonCapGenerate
-            // 
+            //
             this.buttonCapGenerate.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonCapGenerate.ForeColor = System.Drawing.Color.Black;
             this.buttonCapGenerate.Location = new System.Drawing.Point(552, 166);
@@ -1492,16 +1492,16 @@ namespace RNGReporter
             this.buttonCapGenerate.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonCapGenerate.Size = new System.Drawing.Size(100, 28);
             this.buttonCapGenerate.TabIndex = 10;
-            this.buttonCapGenerate.Text = "Search";
+            this.buttonCapGenerate.Text = "计算";
             this.buttonCapGenerate.Click += new System.EventHandler(this.buttonCapGenerate_Click);
-            // 
+            //
             // comboCapAbility
-            // 
+            //
             this.comboCapAbility.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboCapAbility.ForeColor = System.Drawing.Color.Black;
             this.comboCapAbility.FormattingEnabled = true;
             this.comboCapAbility.Items.AddRange(new object[] {
-            "Any",
+            "任意",
             "Ability 0",
             "Ability 1"});
             this.comboCapAbility.Location = new System.Drawing.Point(395, 114);
@@ -1509,47 +1509,47 @@ namespace RNGReporter
             this.comboCapAbility.ShineColor = System.Drawing.SystemColors.Window;
             this.comboCapAbility.Size = new System.Drawing.Size(95, 21);
             this.comboCapAbility.TabIndex = 29;
-            // 
+            //
             // numericLevel
-            // 
+            //
             this.numericLevel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.numericLevel.Location = new System.Drawing.Point(395, 141);
             this.numericLevel.Name = "numericLevel";
             this.numericLevel.Size = new System.Drawing.Size(61, 22);
             this.numericLevel.TabIndex = 338;
-            // 
+            //
             // label54
-            // 
+            //
             this.label54.AutoSize = true;
             this.label54.Location = new System.Drawing.Point(340, 36);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(25, 13);
             this.label54.TabIndex = 120;
-            this.label54.Text = "Slot";
+            this.label54.Text = "遭遇槽位";
             this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // LevelLabel
-            // 
+            //
             this.LevelLabel.AutoSize = true;
             this.LevelLabel.Location = new System.Drawing.Point(340, 143);
             this.LevelLabel.Name = "LevelLabel";
             this.LevelLabel.Size = new System.Drawing.Size(33, 13);
             this.LevelLabel.TabIndex = 335;
-            this.LevelLabel.Text = "Level";
+            this.LevelLabel.Text = "等级";
             this.LevelLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
+            //
             // label1
-            // 
+            //
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(340, 90);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 13);
             this.label1.TabIndex = 319;
-            this.label1.Text = "Gender";
-            // 
+            this.label1.Text = "性别";
+            //
             // comboCapEncounterSlot
-            // 
-            this.comboCapEncounterSlot.BlankText = "Any";
+            //
+            this.comboCapEncounterSlot.BlankText = "任意";
             checkBoxProperties3.ForeColor = System.Drawing.SystemColors.ControlText;
             this.comboCapEncounterSlot.CheckBoxProperties = checkBoxProperties3;
             this.comboCapEncounterSlot.DisplayMemberSingleItem = "";
@@ -1576,21 +1576,21 @@ namespace RNGReporter
             this.comboCapEncounterSlot.Size = new System.Drawing.Size(95, 21);
             this.comboCapEncounterSlot.TabIndex = 8;
             this.comboCapEncounterSlot.MouseClick += new System.Windows.Forms.MouseEventHandler(this.FocusControl);
-            // 
+            //
             // checkBoxShinyOnly
-            // 
+            //
             this.checkBoxShinyOnly.AutoSize = true;
             this.checkBoxShinyOnly.Location = new System.Drawing.Point(552, 89);
             this.checkBoxShinyOnly.Name = "checkBoxShinyOnly";
             this.checkBoxShinyOnly.Size = new System.Drawing.Size(76, 17);
             this.checkBoxShinyOnly.TabIndex = 36;
-            this.checkBoxShinyOnly.Text = "Shiny Only";
+            this.checkBoxShinyOnly.Text = "仅异色";
             this.checkBoxShinyOnly.UseVisualStyleBackColor = true;
-            // 
+            //
             // buttonAnyNature
-            // 
+            //
             this.buttonAnyNature.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.buttonAnyNature.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.buttonAnyNature.Font = new System.Drawing.Font("宋体", 8.25F);
             this.buttonAnyNature.ForeColor = System.Drawing.Color.Black;
             this.buttonAnyNature.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonAnyNature.Location = new System.Drawing.Point(497, 59);
@@ -1600,24 +1600,24 @@ namespace RNGReporter
             this.buttonAnyNature.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonAnyNature.Size = new System.Drawing.Size(41, 22);
             this.buttonAnyNature.TabIndex = 25;
-            this.buttonAnyNature.Text = "Any";
+            this.buttonAnyNature.Text = "任意";
             this.buttonAnyNature.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonAnyNature.Click += new System.EventHandler(this.buttonAnyNature_Click);
-            // 
+            //
             // checkBoxSynchOnly
-            // 
+            //
             this.checkBoxSynchOnly.AutoSize = true;
             this.checkBoxSynchOnly.Location = new System.Drawing.Point(552, 62);
             this.checkBoxSynchOnly.Name = "checkBoxSynchOnly";
             this.checkBoxSynchOnly.Size = new System.Drawing.Size(94, 17);
             this.checkBoxSynchOnly.TabIndex = 30;
-            this.checkBoxSynchOnly.Text = "Sync Success";
+            this.checkBoxSynchOnly.Text = "仅同步生效帧";
             this.checkBoxSynchOnly.UseVisualStyleBackColor = true;
-            // 
+            //
             // buttonAnySlot
-            // 
+            //
             this.buttonAnySlot.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.buttonAnySlot.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.buttonAnySlot.Font = new System.Drawing.Font("宋体", 8.25F);
             this.buttonAnySlot.ForeColor = System.Drawing.Color.Black;
             this.buttonAnySlot.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonAnySlot.Location = new System.Drawing.Point(497, 32);
@@ -1627,12 +1627,12 @@ namespace RNGReporter
             this.buttonAnySlot.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonAnySlot.Size = new System.Drawing.Size(41, 22);
             this.buttonAnySlot.TabIndex = 9;
-            this.buttonAnySlot.Text = "Any";
+            this.buttonAnySlot.Text = "任意";
             this.buttonAnySlot.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonAnySlot.Click += new System.EventHandler(this.buttonAnySlot_Click);
-            // 
+            //
             // SettingsGroupBox
-            // 
+            //
             this.SettingsGroupBox.BackColor = System.Drawing.Color.White;
             this.SettingsGroupBox.Controls.Add(this.checkBoxRAD);
             this.SettingsGroupBox.Controls.Add(this.numCalibrateDelay);
@@ -1665,10 +1665,10 @@ namespace RNGReporter
             this.SettingsGroupBox.Size = new System.Drawing.Size(383, 208);
             this.SettingsGroupBox.TabIndex = 346;
             this.SettingsGroupBox.TabStop = false;
-            this.SettingsGroupBox.Text = "Settings";
-            // 
+            this.SettingsGroupBox.Text = "设置";
+            //
             // checkBoxRAD
-            // 
+            //
             this.checkBoxRAD.AutoSize = true;
             this.checkBoxRAD.Location = new System.Drawing.Point(82, 149);
             this.checkBoxRAD.Name = "checkBoxRAD";
@@ -1676,9 +1676,9 @@ namespace RNGReporter
             this.checkBoxRAD.TabIndex = 349;
             this.checkBoxRAD.Text = "RunAsDate";
             this.checkBoxRAD.UseVisualStyleBackColor = true;
-            // 
+            //
             // numCalibrateDelay
-            // 
+            //
             this.numCalibrateDelay.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.numCalibrateDelay.Location = new System.Drawing.Point(188, 169);
             this.numCalibrateDelay.Maximum = new decimal(new int[] {
@@ -1694,9 +1694,9 @@ namespace RNGReporter
             0,
             0,
             0});
-            // 
+            //
             // checkBoxDelay
-            // 
+            //
             this.checkBoxDelay.AutoSize = true;
             this.checkBoxDelay.Checked = true;
             this.checkBoxDelay.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -1704,22 +1704,22 @@ namespace RNGReporter
             this.checkBoxDelay.Name = "checkBoxDelay";
             this.checkBoxDelay.Size = new System.Drawing.Size(97, 17);
             this.checkBoxDelay.TabIndex = 347;
-            this.checkBoxDelay.Text = "Calibrate Delay";
+            this.checkBoxDelay.Text = "校准 Delay";
             this.checkBoxDelay.UseVisualStyleBackColor = true;
             this.checkBoxDelay.CheckedChanged += new System.EventHandler(this.checkBoxDelay_CheckedChanged);
-            // 
+            //
             // labelDelay
-            // 
+            //
             this.labelDelay.AutoSize = true;
             this.labelDelay.Location = new System.Drawing.Point(252, 108);
             this.labelDelay.Name = "labelDelay";
             this.labelDelay.Size = new System.Drawing.Size(85, 13);
             this.labelDelay.TabIndex = 346;
-            this.labelDelay.Text = "Min / Max Delay";
+            this.labelDelay.Text = "最小/最大Delay";
             this.labelDelay.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // comboBoxCapMonth
-            // 
+            //
             this.comboBoxCapMonth.BlankText = null;
             checkBoxProperties4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.comboBoxCapMonth.CheckBoxProperties = checkBoxProperties4;
@@ -1745,9 +1745,9 @@ namespace RNGReporter
             this.comboBoxCapMonth.Size = new System.Drawing.Size(142, 21);
             this.comboBoxCapMonth.TabIndex = 1;
             this.comboBoxCapMonth.MouseClick += new System.Windows.Forms.MouseEventHandler(this.FocusControl);
-            // 
+            //
             // maskedTextBoxMinShiny
-            // 
+            //
             this.maskedTextBoxMinShiny.Hex = false;
             this.maskedTextBoxMinShiny.Location = new System.Drawing.Point(253, 79);
             this.maskedTextBoxMinShiny.Mask = "0000";
@@ -1756,9 +1756,9 @@ namespace RNGReporter
             this.maskedTextBoxMinShiny.TabIndex = 345;
             this.maskedTextBoxMinShiny.Text = "0";
             this.maskedTextBoxMinShiny.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxCapMaxOffset
-            // 
+            //
             this.maskedTextBoxCapMaxOffset.Hex = false;
             this.maskedTextBoxCapMaxOffset.Location = new System.Drawing.Point(303, 34);
             this.maskedTextBoxCapMaxOffset.Mask = "00000";
@@ -1766,9 +1766,9 @@ namespace RNGReporter
             this.maskedTextBoxCapMaxOffset.Size = new System.Drawing.Size(49, 21);
             this.maskedTextBoxCapMaxOffset.TabIndex = 5;
             this.maskedTextBoxCapMaxOffset.TextChanged += new System.EventHandler(this.IVFilters_Changed);
-            // 
+            //
             // maskedTextBoxCapMinDelay
-            // 
+            //
             this.maskedTextBoxCapMinDelay.Hex = false;
             this.maskedTextBoxCapMinDelay.Location = new System.Drawing.Point(253, 124);
             this.maskedTextBoxCapMinDelay.Mask = "00000";
@@ -1776,9 +1776,9 @@ namespace RNGReporter
             this.maskedTextBoxCapMinDelay.Size = new System.Drawing.Size(44, 21);
             this.maskedTextBoxCapMinDelay.TabIndex = 330;
             this.maskedTextBoxCapMinDelay.ValidatingType = typeof(int);
-            // 
+            //
             // numericLevelMax
-            // 
+            //
             this.numericLevelMax.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.numericLevelMax.Location = new System.Drawing.Point(303, 169);
             this.numericLevelMax.Minimum = new decimal(new int[] {
@@ -1794,18 +1794,18 @@ namespace RNGReporter
             0,
             0,
             0});
-            // 
+            //
             // maskedTextBoxCapMaxDelay
-            // 
+            //
             this.maskedTextBoxCapMaxDelay.Hex = false;
             this.maskedTextBoxCapMaxDelay.Location = new System.Drawing.Point(303, 124);
             this.maskedTextBoxCapMaxDelay.Mask = "000000";
             this.maskedTextBoxCapMaxDelay.Name = "maskedTextBoxCapMaxDelay";
             this.maskedTextBoxCapMaxDelay.Size = new System.Drawing.Size(49, 21);
             this.maskedTextBoxCapMaxDelay.TabIndex = 331;
-            // 
+            //
             // numericLevelMin
-            // 
+            //
             this.numericLevelMin.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.numericLevelMin.Location = new System.Drawing.Point(253, 169);
             this.numericLevelMin.Minimum = new decimal(new int[] {
@@ -1821,9 +1821,9 @@ namespace RNGReporter
             0,
             0,
             0});
-            // 
+            //
             // maskedTextBoxMaxShiny
-            // 
+            //
             this.maskedTextBoxMaxShiny.Hex = false;
             this.maskedTextBoxMaxShiny.Location = new System.Drawing.Point(303, 79);
             this.maskedTextBoxMaxShiny.Mask = "0000000";
@@ -1832,48 +1832,48 @@ namespace RNGReporter
             this.maskedTextBoxMaxShiny.TabIndex = 35;
             this.maskedTextBoxMaxShiny.Text = "300";
             this.maskedTextBoxMaxShiny.ValidatingType = typeof(int);
-            // 
+            //
             // labelMaxShiny
-            // 
+            //
             this.labelMaxShiny.AutoSize = true;
             this.labelMaxShiny.Location = new System.Drawing.Point(243, 63);
             this.labelMaxShiny.Name = "labelMaxShiny";
             this.labelMaxShiny.Size = new System.Drawing.Size(135, 13);
             this.labelMaxShiny.TabIndex = 100;
-            this.labelMaxShiny.Text = "Min / Max Shiny Advances";
+            this.labelMaxShiny.Text = "最大异色帧";
             this.labelMaxShiny.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // labelCapMonth
-            // 
+            //
             this.labelCapMonth.AutoSize = true;
             this.labelCapMonth.Location = new System.Drawing.Point(95, 18);
             this.labelCapMonth.Name = "labelCapMonth";
             this.labelCapMonth.Size = new System.Drawing.Size(37, 13);
             this.labelCapMonth.TabIndex = 117;
-            this.labelCapMonth.Text = "Month";
+            this.labelCapMonth.Text = "月份";
             this.labelCapMonth.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
+            //
             // labelCapMinMaxLevel
-            // 
+            //
             this.labelCapMinMaxLevel.AutoSize = true;
             this.labelCapMinMaxLevel.Location = new System.Drawing.Point(251, 153);
             this.labelCapMinMaxLevel.Name = "labelCapMinMaxLevel";
             this.labelCapMinMaxLevel.Size = new System.Drawing.Size(84, 13);
             this.labelCapMinMaxLevel.TabIndex = 332;
-            this.labelCapMinMaxLevel.Text = "Min / Max Level";
-            // 
+            this.labelCapMinMaxLevel.Text = "最小 / 最大等级";
+            //
             // label30
-            // 
+            //
             this.label30.AutoSize = true;
             this.label30.Location = new System.Drawing.Point(46, 63);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(43, 13);
             this.label30.TabIndex = 113;
-            this.label30.Text = "Method";
+            this.label30.Text = "算法";
             this.label30.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // comboBoxMethod
-            // 
+            //
             this.comboBoxMethod.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxMethod.ForeColor = System.Drawing.Color.Black;
             this.comboBoxMethod.FormattingEnabled = true;
@@ -1883,27 +1883,27 @@ namespace RNGReporter
             this.comboBoxMethod.Size = new System.Drawing.Size(142, 21);
             this.comboBoxMethod.TabIndex = 6;
             this.comboBoxMethod.SelectedIndexChanged += new System.EventHandler(this.comboBoxMethod_SelectedIndexChanged);
-            // 
+            //
             // label20
-            // 
+            //
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(51, 18);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(29, 13);
             this.label20.TabIndex = 106;
-            this.label20.Text = "Year";
-            // 
+            this.label20.Text = "年份";
+            //
             // labelCapMinMaxFrame
-            // 
+            //
             this.labelCapMinMaxFrame.AutoSize = true;
             this.labelCapMinMaxFrame.Location = new System.Drawing.Point(252, 18);
             this.labelCapMinMaxFrame.Name = "labelCapMinMaxFrame";
             this.labelCapMinMaxFrame.Size = new System.Drawing.Size(100, 13);
             this.labelCapMinMaxFrame.TabIndex = 107;
-            this.labelCapMinMaxFrame.Text = "Min / Max IV Frame";
-            // 
+            this.labelCapMinMaxFrame.Text = "最小/最大帧";
+            //
             // maskedTextBoxCapYear
-            // 
+            //
             this.maskedTextBoxCapYear.Hex = false;
             this.maskedTextBoxCapYear.Location = new System.Drawing.Point(54, 33);
             this.maskedTextBoxCapYear.Mask = "0000";
@@ -1911,38 +1911,38 @@ namespace RNGReporter
             this.maskedTextBoxCapYear.Size = new System.Drawing.Size(35, 21);
             this.maskedTextBoxCapYear.TabIndex = 0;
             this.maskedTextBoxCapYear.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
+            //
             // label9
-            // 
+            //
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(19, 152);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(53, 13);
             this.label9.TabIndex = 321;
-            this.label9.Text = "IV filters...";
-            // 
+            this.label9.Text = "个体值筛选未设置为允许快速搜索\r\n请尝试搜索常见的分配方案\r\n如完美分配或戏法空间的分配方案";
+            //
             // label52
-            // 
+            //
             this.label52.AutoSize = true;
             this.label52.Location = new System.Drawing.Point(8, 90);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(83, 13);
             this.label52.TabIndex = 121;
-            this.label52.Text = "Encounter Type";
+            this.label52.Text = "相遇类型";
             this.label52.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // comboBoxCapGenderRatio
-            // 
+            //
             this.comboBoxCapGenderRatio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxCapGenderRatio.ForeColor = System.Drawing.Color.Black;
             this.comboBoxCapGenderRatio.FormattingEnabled = true;
             this.comboBoxCapGenderRatio.Items.AddRange(new object[] {
-            "All Ratios",
+            "所有比例",
             "50% M / 50% F",
             "25% M / 75% F",
             "75% M / 25% F",
             "87.5% M / 12.5% F",
-            "Fixed Gender"});
+            "固定性别"});
             this.comboBoxCapGenderRatio.Location = new System.Drawing.Point(95, 114);
             this.comboBoxCapGenderRatio.MaxDropDownItems = 3;
             this.comboBoxCapGenderRatio.Name = "comboBoxCapGenderRatio";
@@ -1954,18 +1954,18 @@ namespace RNGReporter
             this.comboBoxCapGenderRatio.SelectedIndexChanged += new System.EventHandler(this.comboBoxCapGenderRatio_SelectedIndexChanged);
             this.comboBoxCapGenderRatio.EnabledChanged += new System.EventHandler(this.comboBoxCapGenderRatio_SelectedIndexChanged);
             this.comboBoxCapGenderRatio.MouseDown += new System.Windows.Forms.MouseEventHandler(this.comboBoxCapGenderRatio_MouseDown);
-            // 
+            //
             // label10
-            // 
+            //
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(19, 117);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(70, 13);
             this.label10.TabIndex = 322;
-            this.label10.Text = "Gender Ratio";
-            // 
+            this.label10.Text = "比例";
+            //
             // comboBoxEncounterType
-            // 
+            //
             this.comboBoxEncounterType.DisplayMember = "Value";
             this.comboBoxEncounterType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxEncounterType.Enabled = false;
@@ -1978,9 +1978,9 @@ namespace RNGReporter
             this.comboBoxEncounterType.TabIndex = 7;
             this.comboBoxEncounterType.ValueMember = "Key";
             this.comboBoxEncounterType.SelectedIndexChanged += new System.EventHandler(this.comboBoxEncounterType_SelectedIndexChanged);
-            // 
+            //
             // maskedTextBoxCapMinOffset
-            // 
+            //
             this.maskedTextBoxCapMinOffset.Hex = false;
             this.maskedTextBoxCapMinOffset.Location = new System.Drawing.Point(253, 34);
             this.maskedTextBoxCapMinOffset.Mask = "00000";
@@ -1989,14 +1989,14 @@ namespace RNGReporter
             this.maskedTextBoxCapMinOffset.TabIndex = 4;
             this.maskedTextBoxCapMinOffset.Text = "0";
             this.maskedTextBoxCapMinOffset.TextChanged += new System.EventHandler(this.IVFilters_Changed);
-            // 
+            //
             // dataGridViewCapValues
-            // 
+            //
             this.dataGridViewCapValues.AllowUserToAddRows = false;
             this.dataGridViewCapValues.AllowUserToDeleteRows = false;
             this.dataGridViewCapValues.AllowUserToResizeRows = false;
-            this.dataGridViewCapValues.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dataGridViewCapValues.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewCapValues.ColumnHeadersHeight = 20;
             this.dataGridViewCapValues.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
@@ -2051,11 +2051,11 @@ namespace RNGReporter
             this.dataGridViewCapValues.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridViewCapValues_ColumnHeaderMouseClick);
             this.dataGridViewCapValues.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridViewCapValues_KeyDown);
             this.dataGridViewCapValues.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridViewCapValues_MouseDown);
-            // 
+            //
             // tabControl
-            // 
-            this.tabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            //
+            this.tabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl.Controls.Add(this.tabPageCapture);
             this.tabControl.Controls.Add(this.tabEvent);
@@ -2069,9 +2069,9 @@ namespace RNGReporter
             this.tabControl.Size = new System.Drawing.Size(1075, 548);
             this.tabControl.TabIndex = 0;
             this.tabControl.Tag = "";
-            // 
+            //
             // tabEvent
-            // 
+            //
             this.tabEvent.Controls.Add(this.dataGridViewEventResults);
             this.tabEvent.Controls.Add(this.groupBoxPref);
             this.tabEvent.Controls.Add(this.groupBoxSettings);
@@ -2079,16 +2079,16 @@ namespace RNGReporter
             this.tabEvent.Name = "tabEvent";
             this.tabEvent.Size = new System.Drawing.Size(1067, 522);
             this.tabEvent.TabIndex = 5;
-            this.tabEvent.Text = "Wondercard";
+            this.tabEvent.Text = "神秘卡片";
             this.tabEvent.UseVisualStyleBackColor = true;
-            // 
+            //
             // dataGridViewEventResults
-            // 
+            //
             this.dataGridViewEventResults.AllowUserToAddRows = false;
             this.dataGridViewEventResults.AllowUserToDeleteRows = false;
             this.dataGridViewEventResults.AllowUserToResizeRows = false;
-            this.dataGridViewEventResults.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dataGridViewEventResults.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewEventResults.ColumnHeadersHeight = 20;
             this.dataGridViewEventResults.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
@@ -2129,9 +2129,9 @@ namespace RNGReporter
             this.dataGridViewEventResults.TabIndex = 349;
             this.dataGridViewEventResults.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridViewEventResults_CellFormatting);
             this.dataGridViewEventResults.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridViewEventResults_MouseDown);
-            // 
+            //
             // EventSeed
-            // 
+            //
             this.EventSeed.DataPropertyName = "Seed";
             dataGridViewCellStyle9.Font = new System.Drawing.Font("Consolas", 8.75F);
             dataGridViewCellStyle9.Format = "X16";
@@ -2142,17 +2142,17 @@ namespace RNGReporter
             this.EventSeed.ReadOnly = true;
             this.EventSeed.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
             this.EventSeed.Width = 70;
-            // 
+            //
             // EventFrame
-            // 
-            this.EventFrame.DataPropertyName = "Offset";
-            this.EventFrame.HeaderText = "Frame";
+            //
+            this.EventFrame.DataPropertyName = "偏移";
+            this.EventFrame.HeaderText = "帧";
             this.EventFrame.Name = "EventFrame";
             this.EventFrame.ReadOnly = true;
             this.EventFrame.Width = 75;
-            // 
+            //
             // EventPID
-            // 
+            //
             this.EventPID.DataPropertyName = "eventPID";
             dataGridViewCellStyle10.Font = new System.Drawing.Font("Consolas", 8.75F);
             dataGridViewCellStyle10.Format = "X8";
@@ -2161,108 +2161,108 @@ namespace RNGReporter
             this.EventPID.Name = "EventPID";
             this.EventPID.ReadOnly = true;
             this.EventPID.Width = 80;
-            // 
+            //
             // EventShiny
-            // 
+            //
             this.EventShiny.DataPropertyName = "ShinyDisplay";
             this.EventShiny.FillWeight = 30F;
-            this.EventShiny.HeaderText = "!!!";
+            this.EventShiny.HeaderText = "异色";
             this.EventShiny.Name = "EventShiny";
             this.EventShiny.ReadOnly = true;
             this.EventShiny.Width = 31;
-            // 
+            //
             // EventNature
-            // 
-            this.EventNature.DataPropertyName = "Nature";
+            //
+            this.EventNature.DataPropertyName = "性格";
             this.EventNature.FillWeight = 80F;
-            this.EventNature.HeaderText = "Nature";
+            this.EventNature.HeaderText = "性格";
             this.EventNature.Name = "EventNature";
             this.EventNature.ReadOnly = true;
             this.EventNature.Width = 65;
-            // 
+            //
             // EventAbility
-            // 
+            //
             this.EventAbility.DataPropertyName = "eventAbility";
             this.EventAbility.FillWeight = 50F;
-            this.EventAbility.HeaderText = "Ability";
+            this.EventAbility.HeaderText = "特性";
             this.EventAbility.Name = "EventAbility";
             this.EventAbility.ReadOnly = true;
             this.EventAbility.Width = 40;
-            // 
+            //
             // EventHP
-            // 
+            //
             this.EventHP.DataPropertyName = "Hp";
             this.EventHP.FillWeight = 45F;
-            this.EventHP.HeaderText = "HP";
+            this.EventHP.HeaderText = "觉醒力量";
             this.EventHP.Name = "EventHP";
             this.EventHP.ReadOnly = true;
             this.EventHP.Width = 30;
-            // 
+            //
             // EventAtk
-            // 
-            this.EventAtk.DataPropertyName = "Atk";
+            //
+            this.EventAtk.DataPropertyName = "攻击";
             this.EventAtk.FillWeight = 45F;
-            this.EventAtk.HeaderText = "Atk";
+            this.EventAtk.HeaderText = "攻击";
             this.EventAtk.Name = "EventAtk";
             this.EventAtk.ReadOnly = true;
             this.EventAtk.Width = 30;
-            // 
+            //
             // EventDef
-            // 
-            this.EventDef.DataPropertyName = "Def";
+            //
+            this.EventDef.DataPropertyName = "防御";
             this.EventDef.FillWeight = 45F;
-            this.EventDef.HeaderText = "Def";
+            this.EventDef.HeaderText = "防御";
             this.EventDef.Name = "EventDef";
             this.EventDef.ReadOnly = true;
             this.EventDef.Width = 30;
-            // 
+            //
             // EventSpA
-            // 
-            this.EventSpA.DataPropertyName = "SpA";
+            //
+            this.EventSpA.DataPropertyName = "特攻";
             this.EventSpA.FillWeight = 45F;
-            this.EventSpA.HeaderText = "SpA";
+            this.EventSpA.HeaderText = "特攻";
             this.EventSpA.Name = "EventSpA";
             this.EventSpA.ReadOnly = true;
             this.EventSpA.Width = 30;
-            // 
+            //
             // EventSpD
-            // 
-            this.EventSpD.DataPropertyName = "SpD";
+            //
+            this.EventSpD.DataPropertyName = "特防";
             this.EventSpD.FillWeight = 45F;
-            this.EventSpD.HeaderText = "SpD";
+            this.EventSpD.HeaderText = "特防";
             this.EventSpD.Name = "EventSpD";
             this.EventSpD.ReadOnly = true;
             this.EventSpD.Width = 30;
-            // 
+            //
             // EventSpe
-            // 
-            this.EventSpe.DataPropertyName = "Spe";
+            //
+            this.EventSpe.DataPropertyName = "速度";
             this.EventSpe.FillWeight = 45F;
-            this.EventSpe.HeaderText = "Spe";
+            this.EventSpe.HeaderText = "速度";
             this.EventSpe.Name = "EventSpe";
             this.EventSpe.ReadOnly = true;
             this.EventSpe.Width = 30;
-            // 
+            //
             // dataGridViewTextBoxColumn50
-            // 
+            //
             this.dataGridViewTextBoxColumn50.DataPropertyName = "HiddenPowerType";
             this.dataGridViewTextBoxColumn50.FillWeight = 80F;
-            this.dataGridViewTextBoxColumn50.HeaderText = "Hidden";
+            this.dataGridViewTextBoxColumn50.HeaderText = "觉醒";
             this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
             this.dataGridViewTextBoxColumn50.ReadOnly = true;
             this.dataGridViewTextBoxColumn50.Width = 50;
-            // 
+            //
             // dataGridViewTextBoxColumn51
-            // 
+            //
             this.dataGridViewTextBoxColumn51.DataPropertyName = "HiddenPowerPower";
             this.dataGridViewTextBoxColumn51.FillWeight = 50F;
-            this.dataGridViewTextBoxColumn51.HeaderText = "Power";
+            this.dataGridViewTextBoxColumn51.HeaderText = "威力";
             this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
             this.dataGridViewTextBoxColumn51.ReadOnly = true;
             this.dataGridViewTextBoxColumn51.Width = 50;
-            // 
+            //
             // eventf50
-            // 
+            //
             this.eventf50.DataPropertyName = "Female50";
             this.eventf50.FillWeight = 50F;
             this.eventf50.HeaderText = "50% F";
@@ -2270,9 +2270,9 @@ namespace RNGReporter
             this.eventf50.ReadOnly = true;
             this.eventf50.Visible = false;
             this.eventf50.Width = 50;
-            // 
+            //
             // eventf125
-            // 
+            //
             this.eventf125.DataPropertyName = "Female125";
             this.eventf125.FillWeight = 50F;
             this.eventf125.HeaderText = "12.5%F";
@@ -2280,9 +2280,9 @@ namespace RNGReporter
             this.eventf125.ReadOnly = true;
             this.eventf125.Visible = false;
             this.eventf125.Width = 50;
-            // 
+            //
             // eventf25
-            // 
+            //
             this.eventf25.DataPropertyName = "Female25";
             this.eventf25.FillWeight = 50F;
             this.eventf25.HeaderText = "25% F";
@@ -2290,9 +2290,9 @@ namespace RNGReporter
             this.eventf25.ReadOnly = true;
             this.eventf25.Visible = false;
             this.eventf25.Width = 50;
-            // 
+            //
             // eventf75
-            // 
+            //
             this.eventf75.DataPropertyName = "Female75";
             this.eventf75.FillWeight = 50F;
             this.eventf75.HeaderText = "75% F";
@@ -2300,18 +2300,18 @@ namespace RNGReporter
             this.eventf75.ReadOnly = true;
             this.eventf75.Visible = false;
             this.eventf75.Width = 50;
-            // 
+            //
             // EventDateTime
-            // 
+            //
             this.EventDateTime.DataPropertyName = "TimeDate";
             dataGridViewCellStyle11.Format = "MM/dd/yy HH:mm:ss";
             this.EventDateTime.DefaultCellStyle = dataGridViewCellStyle11;
-            this.EventDateTime.HeaderText = "Date\\Time";
+            this.EventDateTime.HeaderText = "日期\\时间";
             this.EventDateTime.Name = "EventDateTime";
             this.EventDateTime.ReadOnly = true;
-            // 
+            //
             // dataGridViewTextBoxColumn57
-            // 
+            //
             this.dataGridViewTextBoxColumn57.DataPropertyName = "Timer0";
             dataGridViewCellStyle12.Format = "X";
             this.dataGridViewTextBoxColumn57.DefaultCellStyle = dataGridViewCellStyle12;
@@ -2319,16 +2319,16 @@ namespace RNGReporter
             this.dataGridViewTextBoxColumn57.HeaderText = "Timer0";
             this.dataGridViewTextBoxColumn57.Name = "dataGridViewTextBoxColumn57";
             this.dataGridViewTextBoxColumn57.Width = 45;
-            // 
+            //
             // EventKeys
-            // 
-            this.EventKeys.DataPropertyName = "Keypress";
-            this.EventKeys.HeaderText = "Keypresses";
+            //
+            this.EventKeys.DataPropertyName = "按键";
+            this.EventKeys.HeaderText = "按键";
             this.EventKeys.Name = "EventKeys";
             this.EventKeys.Width = 120;
-            // 
+            //
             // groupBoxPref
-            // 
+            //
             this.groupBoxPref.Controls.Add(this.ivFiltersEvent);
             this.groupBoxPref.Controls.Add(this.glassComboBox1);
             this.groupBoxPref.Controls.Add(this.glassComboEventNatures);
@@ -2344,34 +2344,34 @@ namespace RNGReporter
             this.groupBoxPref.Size = new System.Drawing.Size(543, 202);
             this.groupBoxPref.TabIndex = 348;
             this.groupBoxPref.TabStop = false;
-            this.groupBoxPref.Text = "Preferences";
-            // 
+            this.groupBoxPref.Text = "偏好";
+            //
             // ivFiltersEvent
-            // 
+            //
             this.ivFiltersEvent.Location = new System.Drawing.Point(6, 33);
             this.ivFiltersEvent.Name = "ivFiltersEvent";
             this.ivFiltersEvent.Size = new System.Drawing.Size(315, 166);
             this.ivFiltersEvent.TabIndex = 329;
-            // 
+            //
             // glassComboBox1
-            // 
+            //
             this.glassComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.glassComboBox1.ForeColor = System.Drawing.Color.Black;
             this.glassComboBox1.FormattingEnabled = true;
             this.glassComboBox1.Items.AddRange(new object[] {
-            "Any",
-            "Male",
-            "Female"});
+            "任意",
+            "雄性",
+            "雌性"});
             this.glassComboBox1.Location = new System.Drawing.Point(384, 63);
             this.glassComboBox1.MaxDropDownItems = 3;
             this.glassComboBox1.Name = "glassComboBox1";
             this.glassComboBox1.ShineColor = System.Drawing.SystemColors.Window;
             this.glassComboBox1.Size = new System.Drawing.Size(95, 21);
             this.glassComboBox1.TabIndex = 31;
-            // 
+            //
             // glassComboEventNatures
-            // 
-            this.glassComboEventNatures.BlankText = "Any";
+            //
+            this.glassComboEventNatures.BlankText = "任意";
             checkBoxProperties5.ForeColor = System.Drawing.SystemColors.ControlText;
             this.glassComboEventNatures.CheckBoxProperties = checkBoxProperties5;
             this.glassComboEventNatures.DisplayMemberSingleItem = "";
@@ -2382,28 +2382,28 @@ namespace RNGReporter
             this.glassComboEventNatures.Name = "glassComboEventNatures";
             this.glassComboEventNatures.Size = new System.Drawing.Size(95, 21);
             this.glassComboEventNatures.TabIndex = 24;
-            // 
+            //
             // label32
-            // 
+            //
             this.label32.AutoSize = true;
             this.label32.Location = new System.Drawing.Point(329, 39);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(39, 13);
             this.label32.TabIndex = 11;
-            this.label32.Text = "Nature";
+            this.label32.Text = "性格";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label34
-            // 
+            //
             this.label34.AutoSize = true;
             this.label34.Location = new System.Drawing.Point(329, 93);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(34, 13);
             this.label34.TabIndex = 68;
-            this.label34.Text = "Ability";
-            // 
+            this.label34.Text = "特性";
+            //
             // buttonEventGenerate
-            // 
+            //
             this.buttonEventGenerate.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonEventGenerate.ForeColor = System.Drawing.Color.Black;
             this.buttonEventGenerate.Location = new System.Drawing.Point(427, 158);
@@ -2412,16 +2412,16 @@ namespace RNGReporter
             this.buttonEventGenerate.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonEventGenerate.Size = new System.Drawing.Size(100, 28);
             this.buttonEventGenerate.TabIndex = 10;
-            this.buttonEventGenerate.Text = "Search";
+            this.buttonEventGenerate.Text = "搜索";
             this.buttonEventGenerate.Click += new System.EventHandler(this.buttonEventGenerate_Click);
-            // 
+            //
             // comboAbilityEvents
-            // 
+            //
             this.comboAbilityEvents.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboAbilityEvents.ForeColor = System.Drawing.Color.Black;
             this.comboAbilityEvents.FormattingEnabled = true;
             this.comboAbilityEvents.Items.AddRange(new object[] {
-            "Any",
+            "任意",
             "Ability 0",
             "Ability 1"});
             this.comboAbilityEvents.Location = new System.Drawing.Point(384, 90);
@@ -2429,30 +2429,30 @@ namespace RNGReporter
             this.comboAbilityEvents.ShineColor = System.Drawing.SystemColors.Window;
             this.comboAbilityEvents.Size = new System.Drawing.Size(95, 21);
             this.comboAbilityEvents.TabIndex = 29;
-            // 
+            //
             // label38
-            // 
+            //
             this.label38.AutoSize = true;
             this.label38.Location = new System.Drawing.Point(329, 66);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(42, 13);
             this.label38.TabIndex = 319;
-            this.label38.Text = "Gender";
-            // 
+            this.label38.Text = "性别";
+            //
             // shinyOnlyEvent
-            // 
+            //
             this.shinyOnlyEvent.AutoSize = true;
             this.shinyOnlyEvent.Location = new System.Drawing.Point(332, 129);
             this.shinyOnlyEvent.Name = "shinyOnlyEvent";
             this.shinyOnlyEvent.Size = new System.Drawing.Size(76, 17);
             this.shinyOnlyEvent.TabIndex = 36;
-            this.shinyOnlyEvent.Text = "Shiny Only";
+            this.shinyOnlyEvent.Text = "仅异色";
             this.shinyOnlyEvent.UseVisualStyleBackColor = true;
-            // 
+            //
             // AnyNatureEvent
-            // 
+            //
             this.AnyNatureEvent.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.AnyNatureEvent.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.AnyNatureEvent.Font = new System.Drawing.Font("宋体", 8.25F);
             this.AnyNatureEvent.ForeColor = System.Drawing.Color.Black;
             this.AnyNatureEvent.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.AnyNatureEvent.Location = new System.Drawing.Point(486, 35);
@@ -2462,12 +2462,12 @@ namespace RNGReporter
             this.AnyNatureEvent.ShineColor = System.Drawing.SystemColors.Window;
             this.AnyNatureEvent.Size = new System.Drawing.Size(41, 22);
             this.AnyNatureEvent.TabIndex = 25;
-            this.AnyNatureEvent.Text = "Any";
+            this.AnyNatureEvent.Text = "任意";
             this.AnyNatureEvent.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.AnyNatureEvent.Click += new System.EventHandler(this.AnyNatureEvent_Click);
-            // 
+            //
             // groupBoxSettings
-            // 
+            //
             this.groupBoxSettings.BackColor = System.Drawing.Color.White;
             this.groupBoxSettings.Controls.Add(this.SpeciesDex);
             this.groupBoxSettings.Controls.Add(this.checkBoxGender);
@@ -2508,48 +2508,48 @@ namespace RNGReporter
             this.groupBoxSettings.Size = new System.Drawing.Size(512, 202);
             this.groupBoxSettings.TabIndex = 347;
             this.groupBoxSettings.TabStop = false;
-            this.groupBoxSettings.Text = "Settings";
-            // 
+            this.groupBoxSettings.Text = "设置";
+            //
             // SpeciesDex
-            // 
+            //
             this.SpeciesDex.AutoSize = true;
             this.SpeciesDex.Location = new System.Drawing.Point(202, 34);
             this.SpeciesDex.Name = "SpeciesDex";
             this.SpeciesDex.Size = new System.Drawing.Size(45, 13);
             this.SpeciesDex.TabIndex = 368;
-            this.SpeciesDex.Text = "Species";
+            this.SpeciesDex.Text = "种族";
             this.SpeciesDex.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.SpeciesDex.Visible = false;
-            // 
+            //
             // checkBoxGender
-            // 
+            //
             this.checkBoxGender.AutoSize = true;
             this.checkBoxGender.Location = new System.Drawing.Point(205, 144);
             this.checkBoxGender.Name = "checkBoxGender";
             this.checkBoxGender.Size = new System.Drawing.Size(61, 17);
             this.checkBoxGender.TabIndex = 367;
-            this.checkBoxGender.Text = "Gender";
+            this.checkBoxGender.Text = "性别";
             this.checkBoxGender.UseVisualStyleBackColor = true;
             this.checkBoxGender.CheckedChanged += new System.EventHandler(this.checkBoxGender_CheckedChanged);
-            // 
+            //
             // glassComboGender
-            // 
+            //
             this.glassComboGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.glassComboGender.Enabled = false;
             this.glassComboGender.ForeColor = System.Drawing.Color.Black;
             this.glassComboGender.FormattingEnabled = true;
             this.glassComboGender.Items.AddRange(new object[] {
-            "Male",
-            "Female"});
+            "雄性",
+            "雌性"});
             this.glassComboGender.Location = new System.Drawing.Point(278, 142);
             this.glassComboGender.MaxDropDownItems = 3;
             this.glassComboGender.Name = "glassComboGender";
             this.glassComboGender.ShineColor = System.Drawing.SystemColors.Window;
             this.glassComboGender.Size = new System.Drawing.Size(104, 21);
             this.glassComboGender.TabIndex = 366;
-            // 
+            //
             // glassComboAbility
-            // 
+            //
             this.glassComboAbility.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.glassComboAbility.Enabled = false;
             this.glassComboAbility.ForeColor = System.Drawing.Color.Black;
@@ -2564,9 +2564,9 @@ namespace RNGReporter
             this.glassComboAbility.ShineColor = System.Drawing.SystemColors.Window;
             this.glassComboAbility.Size = new System.Drawing.Size(104, 21);
             this.glassComboAbility.TabIndex = 365;
-            // 
+            //
             // buttonImportWondercard
-            // 
+            //
             this.buttonImportWondercard.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonImportWondercard.ForeColor = System.Drawing.Color.Black;
             this.buttonImportWondercard.Location = new System.Drawing.Point(22, 145);
@@ -2575,22 +2575,22 @@ namespace RNGReporter
             this.buttonImportWondercard.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonImportWondercard.Size = new System.Drawing.Size(159, 31);
             this.buttonImportWondercard.TabIndex = 359;
-            this.buttonImportWondercard.Text = "Import";
+            this.buttonImportWondercard.Text = "导入";
             this.buttonImportWondercard.Click += new System.EventHandler(this.buttonImportWondercard_Click);
-            // 
+            //
             // checkBoxAbility
-            // 
+            //
             this.checkBoxAbility.AutoSize = true;
             this.checkBoxAbility.Location = new System.Drawing.Point(205, 63);
             this.checkBoxAbility.Name = "checkBoxAbility";
             this.checkBoxAbility.Size = new System.Drawing.Size(53, 17);
             this.checkBoxAbility.TabIndex = 364;
-            this.checkBoxAbility.Text = "Ability";
+            this.checkBoxAbility.Text = "特性";
             this.checkBoxAbility.UseVisualStyleBackColor = true;
             this.checkBoxAbility.CheckedChanged += new System.EventHandler(this.checkBoxAbility_CheckedChanged);
-            // 
+            //
             // maskedTextTID
-            // 
+            //
             this.maskedTextTID.Hex = false;
             this.maskedTextTID.Location = new System.Drawing.Point(283, 31);
             this.maskedTextTID.Mask = "00000";
@@ -2599,9 +2599,9 @@ namespace RNGReporter
             this.maskedTextTID.TabIndex = 363;
             this.maskedTextTID.Text = "0";
             this.maskedTextTID.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextSID
-            // 
+            //
             this.maskedTextSID.Hex = false;
             this.maskedTextSID.Location = new System.Drawing.Point(334, 31);
             this.maskedTextSID.Mask = "00000";
@@ -2610,69 +2610,69 @@ namespace RNGReporter
             this.maskedTextSID.TabIndex = 361;
             this.maskedTextSID.Text = "0";
             this.maskedTextSID.ValidatingType = typeof(int);
-            // 
+            //
             // label36
-            // 
+            //
             this.label36.AutoSize = true;
             this.label36.Location = new System.Drawing.Point(281, 11);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(85, 13);
             this.label36.TabIndex = 362;
-            this.label36.Text = "Event TID / SID";
+            this.label36.Text = "活动 TID / SID";
             this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // glassComboBoxNatureList
-            // 
+            //
             this.glassComboBoxNatureList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.glassComboBoxNatureList.Enabled = false;
             this.glassComboBoxNatureList.ForeColor = System.Drawing.Color.Black;
             this.glassComboBoxNatureList.FormattingEnabled = true;
             this.glassComboBoxNatureList.Items.AddRange(new object[] {
-            "Hardy",
-            "Lonely",
-            "Brave",
-            "Adamant",
-            "Naughty",
-            "Bold",
-            "Docile",
-            "Relaxed",
-            "Impish",
-            "Lax",
-            "Timid",
-            "Hasty",
-            "Serious",
-            "Jolly",
-            "Naive",
-            "Modest",
-            "Mild",
-            "Quiet",
-            "Bashful",
-            "Rash",
-            "Calm",
-            "Gentle",
-            "Sassy",
-            "Careful",
-            "Quirky"});
+            "勤奋",
+            "怕寂寞",
+            "勇敢",
+            "固执",
+            "顽皮",
+            "大胆",
+            "坦率",
+            "悠闲",
+            "淘气",
+            "乐天",
+            "胆小",
+            "急躁",
+            "认真",
+            "爽朗",
+            "天真",
+            "内敛",
+            "慢吞吞",
+            "冷静",
+            "害羞",
+            "马虎",
+            "温和",
+            "温顺",
+            "自大",
+            "慎重",
+            "浮躁"});
             this.glassComboBoxNatureList.Location = new System.Drawing.Point(278, 88);
             this.glassComboBoxNatureList.MaxDropDownItems = 3;
             this.glassComboBoxNatureList.Name = "glassComboBoxNatureList";
             this.glassComboBoxNatureList.ShineColor = System.Drawing.SystemColors.Window;
             this.glassComboBoxNatureList.Size = new System.Drawing.Size(104, 21);
             this.glassComboBoxNatureList.TabIndex = 360;
-            // 
+            //
             // checkBoxNatureLock
-            // 
+            //
             this.checkBoxNatureLock.AutoSize = true;
             this.checkBoxNatureLock.Location = new System.Drawing.Point(205, 90);
             this.checkBoxNatureLock.Name = "checkBoxNatureLock";
             this.checkBoxNatureLock.Size = new System.Drawing.Size(58, 17);
             this.checkBoxNatureLock.TabIndex = 358;
-            this.checkBoxNatureLock.Text = "Nature";
+            this.checkBoxNatureLock.Text = "性格";
             this.checkBoxNatureLock.UseVisualStyleBackColor = true;
             this.checkBoxNatureLock.CheckedChanged += new System.EventHandler(this.checkBoxNatureLock_CheckedChanged);
-            // 
+            //
             // maskedTextBoxSpe
-            // 
+            //
             this.maskedTextBoxSpe.Enabled = false;
             this.maskedTextBoxSpe.Hex = false;
             this.maskedTextBoxSpe.Location = new System.Drawing.Point(465, 166);
@@ -2681,20 +2681,20 @@ namespace RNGReporter
             this.maskedTextBoxSpe.Size = new System.Drawing.Size(26, 21);
             this.maskedTextBoxSpe.TabIndex = 357;
             this.maskedTextBoxSpe.ValidatingType = typeof(int);
-            // 
+            //
             // checkBoxSpe
-            // 
+            //
             this.checkBoxSpe.AutoSize = true;
             this.checkBoxSpe.Location = new System.Drawing.Point(412, 168);
             this.checkBoxSpe.Name = "checkBoxSpe";
             this.checkBoxSpe.Size = new System.Drawing.Size(45, 17);
             this.checkBoxSpe.TabIndex = 356;
-            this.checkBoxSpe.Text = "Spe";
+            this.checkBoxSpe.Text = "速度";
             this.checkBoxSpe.UseVisualStyleBackColor = true;
             this.checkBoxSpe.CheckedChanged += new System.EventHandler(this.checkBoxSpe_CheckedChanged);
-            // 
+            //
             // maskedTextBoxSpD
-            // 
+            //
             this.maskedTextBoxSpD.Enabled = false;
             this.maskedTextBoxSpD.Hex = false;
             this.maskedTextBoxSpD.Location = new System.Drawing.Point(465, 139);
@@ -2703,20 +2703,20 @@ namespace RNGReporter
             this.maskedTextBoxSpD.Size = new System.Drawing.Size(26, 21);
             this.maskedTextBoxSpD.TabIndex = 355;
             this.maskedTextBoxSpD.ValidatingType = typeof(int);
-            // 
+            //
             // checkBoxSpD
-            // 
+            //
             this.checkBoxSpD.AutoSize = true;
             this.checkBoxSpD.Location = new System.Drawing.Point(412, 141);
             this.checkBoxSpD.Name = "checkBoxSpD";
             this.checkBoxSpD.Size = new System.Drawing.Size(47, 17);
             this.checkBoxSpD.TabIndex = 354;
-            this.checkBoxSpD.Text = "SpD";
+            this.checkBoxSpD.Text = "特防";
             this.checkBoxSpD.UseVisualStyleBackColor = true;
             this.checkBoxSpD.CheckedChanged += new System.EventHandler(this.checkBoxSpD_CheckedChanged);
-            // 
+            //
             // maskedTextBoxSpA
-            // 
+            //
             this.maskedTextBoxSpA.Enabled = false;
             this.maskedTextBoxSpA.Hex = false;
             this.maskedTextBoxSpA.Location = new System.Drawing.Point(465, 112);
@@ -2725,20 +2725,20 @@ namespace RNGReporter
             this.maskedTextBoxSpA.Size = new System.Drawing.Size(26, 21);
             this.maskedTextBoxSpA.TabIndex = 353;
             this.maskedTextBoxSpA.ValidatingType = typeof(int);
-            // 
+            //
             // checkBoxSpA
-            // 
+            //
             this.checkBoxSpA.AutoSize = true;
             this.checkBoxSpA.Location = new System.Drawing.Point(412, 114);
             this.checkBoxSpA.Name = "checkBoxSpA";
             this.checkBoxSpA.Size = new System.Drawing.Size(46, 17);
             this.checkBoxSpA.TabIndex = 352;
-            this.checkBoxSpA.Text = "SpA";
+            this.checkBoxSpA.Text = "特攻";
             this.checkBoxSpA.UseVisualStyleBackColor = true;
             this.checkBoxSpA.CheckedChanged += new System.EventHandler(this.checkBoxSpA_CheckedChanged);
-            // 
+            //
             // maskedTextBoxDef
-            // 
+            //
             this.maskedTextBoxDef.Enabled = false;
             this.maskedTextBoxDef.Hex = false;
             this.maskedTextBoxDef.Location = new System.Drawing.Point(465, 85);
@@ -2747,20 +2747,20 @@ namespace RNGReporter
             this.maskedTextBoxDef.Size = new System.Drawing.Size(26, 21);
             this.maskedTextBoxDef.TabIndex = 351;
             this.maskedTextBoxDef.ValidatingType = typeof(int);
-            // 
+            //
             // checkBoxDef
-            // 
+            //
             this.checkBoxDef.AutoSize = true;
             this.checkBoxDef.Location = new System.Drawing.Point(412, 87);
             this.checkBoxDef.Name = "checkBoxDef";
             this.checkBoxDef.Size = new System.Drawing.Size(43, 17);
             this.checkBoxDef.TabIndex = 350;
-            this.checkBoxDef.Text = "Def";
+            this.checkBoxDef.Text = "防御";
             this.checkBoxDef.UseVisualStyleBackColor = true;
             this.checkBoxDef.CheckedChanged += new System.EventHandler(this.checkBoxDef_CheckedChanged);
-            // 
+            //
             // maskedTextBoxAtk
-            // 
+            //
             this.maskedTextBoxAtk.Enabled = false;
             this.maskedTextBoxAtk.Hex = false;
             this.maskedTextBoxAtk.Location = new System.Drawing.Point(465, 58);
@@ -2769,20 +2769,20 @@ namespace RNGReporter
             this.maskedTextBoxAtk.Size = new System.Drawing.Size(26, 21);
             this.maskedTextBoxAtk.TabIndex = 349;
             this.maskedTextBoxAtk.ValidatingType = typeof(int);
-            // 
+            //
             // checkBoxAtk
-            // 
+            //
             this.checkBoxAtk.AutoSize = true;
             this.checkBoxAtk.Location = new System.Drawing.Point(412, 60);
             this.checkBoxAtk.Name = "checkBoxAtk";
             this.checkBoxAtk.Size = new System.Drawing.Size(42, 17);
             this.checkBoxAtk.TabIndex = 348;
-            this.checkBoxAtk.Text = "Atk";
+            this.checkBoxAtk.Text = "攻击";
             this.checkBoxAtk.UseVisualStyleBackColor = true;
             this.checkBoxAtk.CheckedChanged += new System.EventHandler(this.checkBoxAtk_CheckedChanged);
-            // 
+            //
             // maskedTextBoxHP
-            // 
+            //
             this.maskedTextBoxHP.Enabled = false;
             this.maskedTextBoxHP.Hex = false;
             this.maskedTextBoxHP.Location = new System.Drawing.Point(465, 31);
@@ -2791,20 +2791,20 @@ namespace RNGReporter
             this.maskedTextBoxHP.Size = new System.Drawing.Size(26, 21);
             this.maskedTextBoxHP.TabIndex = 347;
             this.maskedTextBoxHP.ValidatingType = typeof(int);
-            // 
+            //
             // checkBoxHP
-            // 
+            //
             this.checkBoxHP.AutoSize = true;
             this.checkBoxHP.Location = new System.Drawing.Point(412, 33);
             this.checkBoxHP.Name = "checkBoxHP";
             this.checkBoxHP.Size = new System.Drawing.Size(41, 17);
             this.checkBoxHP.TabIndex = 346;
-            this.checkBoxHP.Text = "HP";
+            this.checkBoxHP.Text = "觉醒力量";
             this.checkBoxHP.UseVisualStyleBackColor = true;
             this.checkBoxHP.CheckedChanged += new System.EventHandler(this.checkBoxHP_CheckedChanged);
-            // 
+            //
             // checkBoxComboMonths
-            // 
+            //
             this.checkBoxComboMonths.BlankText = null;
             checkBoxProperties6.ForeColor = System.Drawing.SystemColors.ControlText;
             this.checkBoxComboMonths.CheckBoxProperties = checkBoxProperties6;
@@ -2829,9 +2829,9 @@ namespace RNGReporter
             this.checkBoxComboMonths.Name = "checkBoxComboMonths";
             this.checkBoxComboMonths.Size = new System.Drawing.Size(115, 21);
             this.checkBoxComboMonths.TabIndex = 1;
-            // 
+            //
             // maskedMinAdv
-            // 
+            //
             this.maskedMinAdv.Hex = false;
             this.maskedMinAdv.Location = new System.Drawing.Point(22, 91);
             this.maskedMinAdv.Mask = "0000";
@@ -2840,24 +2840,24 @@ namespace RNGReporter
             this.maskedMinAdv.TabIndex = 345;
             this.maskedMinAdv.Text = "0";
             this.maskedMinAdv.ValidatingType = typeof(int);
-            // 
+            //
             // glassComboShininess
-            // 
+            //
             this.glassComboShininess.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.glassComboShininess.ForeColor = System.Drawing.Color.Black;
             this.glassComboShininess.FormattingEnabled = true;
             this.glassComboShininess.Items.AddRange(new object[] {
-            "Never Shiny",
-            "May Be Shiny",
-            "Always Shiny"});
+            "不可能异色",
+            "可能异色",
+            "必定异色"});
             this.glassComboShininess.Location = new System.Drawing.Point(278, 169);
             this.glassComboShininess.Name = "glassComboShininess";
             this.glassComboShininess.ShineColor = System.Drawing.SystemColors.Window;
             this.glassComboShininess.Size = new System.Drawing.Size(104, 21);
             this.glassComboShininess.TabIndex = 323;
-            // 
+            //
             // maskedMaxAdv
-            // 
+            //
             this.maskedMaxAdv.Hex = false;
             this.maskedMaxAdv.Location = new System.Drawing.Point(72, 91);
             this.maskedMaxAdv.Mask = "0000000";
@@ -2866,47 +2866,47 @@ namespace RNGReporter
             this.maskedMaxAdv.TabIndex = 35;
             this.maskedMaxAdv.Text = "300";
             this.maskedMaxAdv.ValidatingType = typeof(int);
-            // 
+            //
             // label29
-            // 
+            //
             this.label29.AutoSize = true;
             this.label29.Location = new System.Drawing.Point(19, 71);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(106, 13);
             this.label29.TabIndex = 100;
-            this.label29.Text = "Min / Max Advances";
+            this.label29.Text = "最小 / 最大推进";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label31
-            // 
+            //
             this.label31.AutoSize = true;
             this.label31.Location = new System.Drawing.Point(63, 20);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(37, 13);
             this.label31.TabIndex = 117;
-            this.label31.Text = "Month";
+            this.label31.Text = "月份";
             this.label31.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
+            //
             // label35
-            // 
+            //
             this.label35.AutoSize = true;
             this.label35.Location = new System.Drawing.Point(19, 20);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(29, 13);
             this.label35.TabIndex = 106;
-            this.label35.Text = "Year";
-            // 
+            this.label35.Text = "年份";
+            //
             // label40
-            // 
+            //
             this.label40.AutoSize = true;
             this.label40.Location = new System.Drawing.Point(202, 173);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(52, 13);
             this.label40.TabIndex = 324;
-            this.label40.Text = "Shininess";
-            // 
+            this.label40.Text = "异色情况";
+            //
             // maskedTextYear
-            // 
+            //
             this.maskedTextYear.Hex = false;
             this.maskedTextYear.Location = new System.Drawing.Point(22, 35);
             this.maskedTextYear.Mask = "0000";
@@ -2914,9 +2914,9 @@ namespace RNGReporter
             this.maskedTextYear.Size = new System.Drawing.Size(35, 21);
             this.maskedTextYear.TabIndex = 0;
             this.maskedTextYear.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
+            //
             // glassComboGenderRatio
-            // 
+            //
             this.glassComboGenderRatio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.glassComboGenderRatio.ForeColor = System.Drawing.Color.Black;
             this.glassComboGenderRatio.FormattingEnabled = true;
@@ -2925,7 +2925,7 @@ namespace RNGReporter
             "25% M / 75% F",
             "75% M / 25% F",
             "87.5% M / 12.5% F",
-            "Fixed Gender"});
+            "固定性别"});
             this.glassComboGenderRatio.Location = new System.Drawing.Point(278, 115);
             this.glassComboGenderRatio.MaxDropDownItems = 3;
             this.glassComboGenderRatio.Name = "glassComboGenderRatio";
@@ -2934,18 +2934,18 @@ namespace RNGReporter
             this.glassComboGenderRatio.TabIndex = 32;
             this.toolTipGenderRatio.SetToolTip(this.glassComboGenderRatio, "Right-click to look up the gender\r\nratio of a certain Pokémon.\r\n\r\nUse this box to" +
         " filter out unwanted\r\nCute Charm results.");
-            // 
+            //
             // label39
-            // 
+            //
             this.label39.AutoSize = true;
             this.label39.Location = new System.Drawing.Point(202, 118);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(70, 13);
             this.label39.TabIndex = 322;
-            this.label39.Text = "Gender Ratio";
-            // 
+            this.label39.Text = "性别比例";
+            //
             // tabPageHiddenGrotto
-            // 
+            //
             this.tabPageHiddenGrotto.Controls.Add(this.cbHHGenderRatio);
             this.tabPageHiddenGrotto.Controls.Add(this.cbHHGender);
             this.tabPageHiddenGrotto.Controls.Add(this.label18);
@@ -2971,11 +2971,11 @@ namespace RNGReporter
             this.tabPageHiddenGrotto.Padding = new System.Windows.Forms.Padding(3);
             this.tabPageHiddenGrotto.Size = new System.Drawing.Size(1067, 522);
             this.tabPageHiddenGrotto.TabIndex = 3;
-            this.tabPageHiddenGrotto.Text = "Hidden Grotto";
+            this.tabPageHiddenGrotto.Text = "隐藏洞穴";
             this.tabPageHiddenGrotto.UseVisualStyleBackColor = true;
-            // 
+            //
             // cbHHGenderRatio
-            // 
+            //
             this.cbHHGenderRatio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbHHGenderRatio.ForeColor = System.Drawing.Color.Black;
             this.cbHHGenderRatio.FormattingEnabled = true;
@@ -2990,9 +2990,9 @@ namespace RNGReporter
             this.cbHHGenderRatio.ShineColor = System.Drawing.SystemColors.Window;
             this.cbHHGenderRatio.Size = new System.Drawing.Size(87, 21);
             this.cbHHGenderRatio.TabIndex = 322;
-            // 
+            //
             // cbHHGender
-            // 
+            //
             this.cbHHGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbHHGender.ForeColor = System.Drawing.Color.Black;
             this.cbHHGender.FormattingEnabled = true;
@@ -3005,94 +3005,94 @@ namespace RNGReporter
             this.cbHHGender.ShineColor = System.Drawing.SystemColors.Window;
             this.cbHHGender.Size = new System.Drawing.Size(87, 21);
             this.cbHHGender.TabIndex = 321;
-            // 
+            //
             // label18
-            // 
+            //
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(554, 59);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(96, 13);
             this.label18.TabIndex = 138;
-            this.label18.Text = "Gender Ratio (% F)";
-            // 
+            this.label18.Text = "性别比例(%♀)";
+            //
             // label17
-            // 
+            //
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(461, 59);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(42, 13);
             this.label17.TabIndex = 137;
-            this.label17.Text = "Gender";
-            // 
+            this.label17.Text = "性别比例";
+            //
             // label16
-            // 
+            //
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(368, 59);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(44, 13);
             this.label16.TabIndex = 131;
-            this.label16.Text = "SubSlot";
-            // 
+            this.label16.Text = "子槽位";
+            //
             // label14
-            // 
+            //
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(275, 59);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(25, 13);
             this.label14.TabIndex = 130;
-            this.label14.Text = "Slot";
-            // 
+            this.label14.Text = "槽位";
+            //
             // label15
-            // 
+            //
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(185, 59);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(76, 13);
             this.label15.TabIndex = 129;
-            this.label15.Text = "Grotto Number";
+            this.label15.Text = "洞穴数量";
             this.label15.Visible = false;
-            // 
+            //
             // label13
-            // 
+            //
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(275, 9);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(73, 13);
             this.label13.TabIndex = 126;
-            this.label13.Text = "Open Hollows";
+            this.label13.Text = "空洞穴";
             this.label13.Visible = false;
-            // 
+            //
             // label6
-            // 
+            //
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(191, 9);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(78, 13);
             this.label6.TabIndex = 124;
-            this.label6.Text = "Max Advances";
+            this.label6.Text = "最大帧";
             this.label6.Visible = false;
-            // 
+            //
             // label11
-            // 
+            //
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(52, 9);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(29, 13);
             this.label11.TabIndex = 123;
-            this.label11.Text = "Year";
-            // 
+            this.label11.Text = "年份";
+            //
             // label12
-            // 
+            //
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(96, 9);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(37, 13);
             this.label12.TabIndex = 125;
-            this.label12.Text = "Month";
+            this.label12.Text = "月份 ";
             this.label12.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
+            //
             // cbHHSubSlot
-            // 
+            //
             this.cbHHSubSlot.BlankText = null;
             checkBoxProperties7.ForeColor = System.Drawing.SystemColors.ControlText;
             this.cbHHSubSlot.CheckBoxProperties = checkBoxProperties7;
@@ -3109,9 +3109,9 @@ namespace RNGReporter
             this.cbHHSubSlot.Name = "cbHHSubSlot";
             this.cbHHSubSlot.Size = new System.Drawing.Size(87, 21);
             this.cbHHSubSlot.TabIndex = 134;
-            // 
+            //
             // cbHHSlot
-            // 
+            //
             this.cbHHSlot.BlankText = null;
             checkBoxProperties8.ForeColor = System.Drawing.SystemColors.ControlText;
             this.cbHHSlot.CheckBoxProperties = checkBoxProperties8;
@@ -3135,9 +3135,9 @@ namespace RNGReporter
             this.cbHHSlot.Name = "cbHHSlot";
             this.cbHHSlot.Size = new System.Drawing.Size(87, 21);
             this.cbHHSlot.TabIndex = 133;
-            // 
+            //
             // cbHHHollowNumber
-            // 
+            //
             this.cbHHHollowNumber.BlankText = null;
             checkBoxProperties9.ForeColor = System.Drawing.SystemColors.ControlText;
             this.cbHHHollowNumber.CheckBoxProperties = checkBoxProperties9;
@@ -3171,9 +3171,9 @@ namespace RNGReporter
             this.cbHHHollowNumber.Size = new System.Drawing.Size(87, 21);
             this.cbHHHollowNumber.TabIndex = 132;
             this.cbHHHollowNumber.Visible = false;
-            // 
+            //
             // cbHHMonth
-            // 
+            //
             this.cbHHMonth.BlankText = null;
             checkBoxProperties10.ForeColor = System.Drawing.SystemColors.ControlText;
             this.cbHHMonth.CheckBoxProperties = checkBoxProperties10;
@@ -3198,9 +3198,9 @@ namespace RNGReporter
             this.cbHHMonth.Name = "cbHHMonth";
             this.cbHHMonth.Size = new System.Drawing.Size(87, 21);
             this.cbHHMonth.TabIndex = 119;
-            // 
+            //
             // txtHHAdvances
-            // 
+            //
             this.txtHHAdvances.Hex = false;
             this.txtHHAdvances.Location = new System.Drawing.Point(188, 24);
             this.txtHHAdvances.Mask = "00000";
@@ -3209,9 +3209,9 @@ namespace RNGReporter
             this.txtHHAdvances.TabIndex = 120;
             this.txtHHAdvances.Text = "0";
             this.txtHHAdvances.Visible = false;
-            // 
+            //
             // txtHHYear
-            // 
+            //
             this.txtHHYear.Hex = false;
             this.txtHHYear.Location = new System.Drawing.Point(55, 24);
             this.txtHHYear.Mask = "0000";
@@ -3219,9 +3219,9 @@ namespace RNGReporter
             this.txtHHYear.Size = new System.Drawing.Size(35, 21);
             this.txtHHYear.TabIndex = 118;
             this.txtHHYear.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
+            //
             // txtHHOpenHollows
-            // 
+            //
             this.txtHHOpenHollows.Hex = false;
             this.txtHHOpenHollows.Location = new System.Drawing.Point(278, 25);
             this.txtHHOpenHollows.Mask = "00";
@@ -3230,9 +3230,9 @@ namespace RNGReporter
             this.txtHHOpenHollows.TabIndex = 121;
             this.txtHHOpenHollows.Text = "1";
             this.txtHHOpenHollows.Visible = false;
-            // 
+            //
             // btnHHGenerate
-            // 
+            //
             this.btnHHGenerate.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btnHHGenerate.ForeColor = System.Drawing.Color.Black;
             this.btnHHGenerate.Location = new System.Drawing.Point(12, 157);
@@ -3241,16 +3241,16 @@ namespace RNGReporter
             this.btnHHGenerate.ShineColor = System.Drawing.SystemColors.Window;
             this.btnHHGenerate.Size = new System.Drawing.Size(73, 23);
             this.btnHHGenerate.TabIndex = 122;
-            this.btnHHGenerate.Text = "Generate";
+            this.btnHHGenerate.Text = "计算";
             this.btnHHGenerate.Click += new System.EventHandler(this.btnHHGenerate_Click);
-            // 
+            //
             // dgvHiddenGrottos
-            // 
+            //
             this.dgvHiddenGrottos.AllowUserToAddRows = false;
             this.dgvHiddenGrottos.AllowUserToDeleteRows = false;
             this.dgvHiddenGrottos.AllowUserToResizeRows = false;
-            this.dgvHiddenGrottos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dgvHiddenGrottos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvHiddenGrottos.ColumnHeadersHeight = 20;
             this.dgvHiddenGrottos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
@@ -3283,9 +3283,9 @@ namespace RNGReporter
             this.dgvHiddenGrottos.ShowRowErrors = false;
             this.dgvHiddenGrottos.Size = new System.Drawing.Size(1061, 333);
             this.dgvHiddenGrottos.TabIndex = 1;
-            // 
+            //
             // dataGridViewTextBoxColumn1
-            // 
+            //
             this.dataGridViewTextBoxColumn1.DataPropertyName = "Seed";
             dataGridViewCellStyle13.Font = new System.Drawing.Font("Consolas", 8.75F);
             dataGridViewCellStyle13.Format = "X16";
@@ -3296,112 +3296,112 @@ namespace RNGReporter
             this.dataGridViewTextBoxColumn1.ReadOnly = true;
             this.dataGridViewTextBoxColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
             this.dataGridViewTextBoxColumn1.Width = 70;
-            // 
+            //
             // dataGridViewTextBoxColumn8
-            // 
+            //
             this.dataGridViewTextBoxColumn8.DataPropertyName = "HollowNumber";
             this.dataGridViewTextBoxColumn8.FillWeight = 30F;
-            this.dataGridViewTextBoxColumn8.HeaderText = "Hollow Number";
+            this.dataGridViewTextBoxColumn8.HeaderText = "空洞穴数量";
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
             this.dataGridViewTextBoxColumn8.ReadOnly = true;
             this.dataGridViewTextBoxColumn8.Visible = false;
             this.dataGridViewTextBoxColumn8.Width = 31;
-            // 
+            //
             // dataGridViewTextBoxColumn2
-            // 
+            //
             this.dataGridViewTextBoxColumn2.DataPropertyName = "StartingFrame";
             this.dataGridViewTextBoxColumn2.FillWeight = 80F;
-            this.dataGridViewTextBoxColumn2.HeaderText = "Starting Frame";
+            this.dataGridViewTextBoxColumn2.HeaderText = "初始帧";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.ReadOnly = true;
             this.dataGridViewTextBoxColumn2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
             this.dataGridViewTextBoxColumn2.Visible = false;
             this.dataGridViewTextBoxColumn2.Width = 45;
-            // 
+            //
             // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "Frame";
+            //
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "帧";
             this.dataGridViewTextBoxColumn3.FillWeight = 150F;
-            this.dataGridViewTextBoxColumn3.HeaderText = "Frame";
+            this.dataGridViewTextBoxColumn3.HeaderText = "帧数";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             this.dataGridViewTextBoxColumn3.ReadOnly = true;
             this.dataGridViewTextBoxColumn3.Visible = false;
             this.dataGridViewTextBoxColumn3.Width = 130;
-            // 
+            //
             // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "Slot";
-            this.dataGridViewTextBoxColumn5.HeaderText = "Slot";
+            //
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "槽位";
+            this.dataGridViewTextBoxColumn5.HeaderText = "槽位";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             this.dataGridViewTextBoxColumn5.ReadOnly = true;
             this.dataGridViewTextBoxColumn5.Width = 75;
-            // 
+            //
             // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "SubSlot";
+            //
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "子槽位";
             this.dataGridViewTextBoxColumn7.FillWeight = 120F;
-            this.dataGridViewTextBoxColumn7.HeaderText = "Sub Slot";
+            this.dataGridViewTextBoxColumn7.HeaderText = "子槽位";
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             this.dataGridViewTextBoxColumn7.ReadOnly = true;
             this.dataGridViewTextBoxColumn7.Width = 85;
-            // 
+            //
             // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.DataPropertyName = "Gender";
+            //
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "性别";
             this.dataGridViewTextBoxColumn9.FillWeight = 80F;
-            this.dataGridViewTextBoxColumn9.HeaderText = "Gender";
+            this.dataGridViewTextBoxColumn9.HeaderText = "性别比例";
             this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
             this.dataGridViewTextBoxColumn9.ReadOnly = true;
             this.dataGridViewTextBoxColumn9.Visible = false;
             this.dataGridViewTextBoxColumn9.Width = 65;
-            // 
+            //
             // dataGridViewTextBoxColumn19
-            // 
+            //
             this.dataGridViewTextBoxColumn19.DataPropertyName = "Female60";
             this.dataGridViewTextBoxColumn19.FillWeight = 50F;
             this.dataGridViewTextBoxColumn19.HeaderText = "60% F";
             this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
             this.dataGridViewTextBoxColumn19.ReadOnly = true;
             this.dataGridViewTextBoxColumn19.Width = 50;
-            // 
+            //
             // dataGridViewTextBoxColumn20
-            // 
+            //
             this.dataGridViewTextBoxColumn20.DataPropertyName = "Female30";
             this.dataGridViewTextBoxColumn20.FillWeight = 50F;
             this.dataGridViewTextBoxColumn20.HeaderText = "30%F";
             this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
             this.dataGridViewTextBoxColumn20.ReadOnly = true;
             this.dataGridViewTextBoxColumn20.Width = 50;
-            // 
+            //
             // dataGridViewTextBoxColumn21
-            // 
+            //
             this.dataGridViewTextBoxColumn21.DataPropertyName = "Female10";
             this.dataGridViewTextBoxColumn21.FillWeight = 50F;
             this.dataGridViewTextBoxColumn21.HeaderText = "10% F";
             this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
             this.dataGridViewTextBoxColumn21.ReadOnly = true;
             this.dataGridViewTextBoxColumn21.Width = 50;
-            // 
+            //
             // dataGridViewTextBoxColumn22
-            // 
+            //
             this.dataGridViewTextBoxColumn22.DataPropertyName = "Female5";
             this.dataGridViewTextBoxColumn22.FillWeight = 50F;
             this.dataGridViewTextBoxColumn22.HeaderText = "5% F";
             this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
             this.dataGridViewTextBoxColumn22.ReadOnly = true;
             this.dataGridViewTextBoxColumn22.Width = 50;
-            // 
+            //
             // dataGridViewTextBoxColumn23
-            // 
+            //
             this.dataGridViewTextBoxColumn23.DataPropertyName = "DateTime";
             dataGridViewCellStyle14.Format = "MM/dd/yy HH:mm:ss";
             this.dataGridViewTextBoxColumn23.DefaultCellStyle = dataGridViewCellStyle14;
-            this.dataGridViewTextBoxColumn23.HeaderText = "Date\\Time";
+            this.dataGridViewTextBoxColumn23.HeaderText = "日期\\时间";
             this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
             this.dataGridViewTextBoxColumn23.ReadOnly = true;
-            // 
+            //
             // dataGridViewTextBoxColumn24
-            // 
+            //
             this.dataGridViewTextBoxColumn24.DataPropertyName = "Timer0";
             dataGridViewCellStyle15.Format = "X";
             this.dataGridViewTextBoxColumn24.DefaultCellStyle = dataGridViewCellStyle15;
@@ -3409,16 +3409,16 @@ namespace RNGReporter
             this.dataGridViewTextBoxColumn24.HeaderText = "Timer0";
             this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
             this.dataGridViewTextBoxColumn24.Width = 45;
-            // 
+            //
             // dataGridViewTextBoxColumn25
-            // 
-            this.dataGridViewTextBoxColumn25.DataPropertyName = "Keypress";
-            this.dataGridViewTextBoxColumn25.HeaderText = "Keypresses";
+            //
+            this.dataGridViewTextBoxColumn25.DataPropertyName = "按键";
+            this.dataGridViewTextBoxColumn25.HeaderText = "按键";
             this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
             this.dataGridViewTextBoxColumn25.Width = 120;
-            // 
+            //
             // cmsHiddenGrotto
-            // 
+            //
             this.cmsHiddenGrotto.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
             this.toolStripMenuItem2,
@@ -3426,35 +3426,35 @@ namespace RNGReporter
             this.toolStripMenuItem4});
             this.cmsHiddenGrotto.Name = "contextMenuStripEggPid";
             this.cmsHiddenGrotto.Size = new System.Drawing.Size(214, 76);
-            // 
+            //
             // toolStripMenuItem1
-            // 
+            //
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(213, 22);
-            this.toolStripMenuItem1.Text = "Copy Seed to Clipboard";
+            this.toolStripMenuItem1.Text = "复制Seed到剪贴板";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
-            // 
+            //
             // toolStripMenuItem2
-            // 
+            //
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Size = new System.Drawing.Size(213, 22);
-            this.toolStripMenuItem2.Text = "Generate Adjacent Seeds...";
+            this.toolStripMenuItem2.Text = "计算附近的Seed...";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
-            // 
+            //
             // toolStripSeparator1
-            // 
+            //
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(210, 6);
-            // 
+            //
             // toolStripMenuItem4
-            // 
+            //
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
             this.toolStripMenuItem4.Size = new System.Drawing.Size(213, 22);
-            this.toolStripMenuItem4.Text = "Output Results to TXT ...";
+            this.toolStripMenuItem4.Text = "输出结果至TXT文本文件";
             this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
-            // 
+            //
             // tabPageDreamRadar
-            // 
+            //
             this.tabPageDreamRadar.Controls.Add(this.ivDR);
             this.tabPageDreamRadar.Controls.Add(this.cbDRShinyness);
             this.tabPageDreamRadar.Controls.Add(this.label19);
@@ -3480,120 +3480,120 @@ namespace RNGReporter
             this.tabPageDreamRadar.Padding = new System.Windows.Forms.Padding(3);
             this.tabPageDreamRadar.Size = new System.Drawing.Size(1067, 522);
             this.tabPageDreamRadar.TabIndex = 4;
-            this.tabPageDreamRadar.Text = "Dream Radar";
+            this.tabPageDreamRadar.Text = "宝可梦AR搜寻器";
             this.tabPageDreamRadar.UseVisualStyleBackColor = true;
-            // 
+            //
             // ivDR
-            // 
+            //
             this.ivDR.Location = new System.Drawing.Point(319, 9);
             this.ivDR.Name = "ivDR";
             this.ivDR.Size = new System.Drawing.Size(315, 166);
             this.ivDR.TabIndex = 345;
-            // 
+            //
             // cbDRShinyness
-            // 
+            //
             this.cbDRShinyness.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbDRShinyness.ForeColor = System.Drawing.Color.Black;
             this.cbDRShinyness.FormattingEnabled = true;
             this.cbDRShinyness.Items.AddRange(new object[] {
-            "Never Shiny",
-            "May Be Shiny",
-            "Always Shiny"});
+            "不可能异色",
+            "可能异色",
+            "必定异色"});
             this.cbDRShinyness.Location = new System.Drawing.Point(801, 155);
             this.cbDRShinyness.Name = "cbDRShinyness";
             this.cbDRShinyness.ShineColor = System.Drawing.SystemColors.Window;
             this.cbDRShinyness.Size = new System.Drawing.Size(119, 21);
             this.cbDRShinyness.TabIndex = 343;
             this.cbDRShinyness.Visible = false;
-            // 
+            //
             // label19
-            // 
+            //
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(798, 140);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(52, 13);
             this.label19.TabIndex = 344;
-            this.label19.Text = "Shininess";
+            this.label19.Text = "异色情况";
             this.label19.Visible = false;
-            // 
+            //
             // label22
-            // 
+            //
             this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(768, 95);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(32, 13);
             this.label22.TabIndex = 342;
-            this.label22.Text = "Ratio";
-            // 
+            this.label22.Text = "比例";
+            //
             // label24
-            // 
+            //
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(655, 94);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(42, 13);
             this.label24.TabIndex = 341;
-            this.label24.Text = "Gender";
-            // 
+            this.label24.Text = "性别";
+            //
             // label25
-            // 
+            //
             this.label25.AutoSize = true;
             this.label25.Location = new System.Drawing.Point(191, 9);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(87, 13);
             this.label25.TabIndex = 339;
-            this.label25.Text = "Min / Max Frame";
-            // 
+            this.label25.Text = "最小/最大帧";
+            //
             // label26
-            // 
+            //
             this.label26.AutoSize = true;
             this.label26.Location = new System.Drawing.Point(52, 9);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(29, 13);
             this.label26.TabIndex = 338;
-            this.label26.Text = "Year";
-            // 
+            this.label26.Text = "年份";
+            //
             // label27
-            // 
+            //
             this.label27.AutoSize = true;
             this.label27.Location = new System.Drawing.Point(96, 9);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(37, 13);
             this.label27.TabIndex = 340;
-            this.label27.Text = "Month";
+            this.label27.Text = "月份 ";
             this.label27.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
+            //
             // cbDRShiny
-            // 
+            //
             this.cbDRShiny.AutoSize = true;
             this.cbDRShiny.Location = new System.Drawing.Point(700, 157);
             this.cbDRShiny.Name = "cbDRShiny";
             this.cbDRShiny.Size = new System.Drawing.Size(76, 17);
             this.cbDRShiny.TabIndex = 337;
-            this.cbDRShiny.Text = "Shiny Only";
+            this.cbDRShiny.Text = "仅异色";
             this.cbDRShiny.UseVisualStyleBackColor = true;
-            // 
+            //
             // label28
-            // 
+            //
             this.label28.AutoSize = true;
             this.label28.Location = new System.Drawing.Point(660, 20);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(39, 13);
             this.label28.TabIndex = 332;
-            this.label28.Text = "Nature";
+            this.label28.Text = "性格";
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // cbDRRatio
-            // 
+            //
             this.cbDRRatio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbDRRatio.ForeColor = System.Drawing.Color.Black;
             this.cbDRRatio.FormattingEnabled = true;
             this.cbDRRatio.Items.AddRange(new object[] {
-            "All Ratios",
+            "所有比例",
             "50% M / 50% F",
             "25% M / 75% F",
             "75% M / 25% F",
             "87.5% M / 12.5% F",
-            "Fixed Gender"});
+            "固定性别"});
             this.cbDRRatio.Location = new System.Drawing.Point(801, 90);
             this.cbDRRatio.MaxDropDownItems = 3;
             this.cbDRRatio.Name = "cbDRRatio";
@@ -3602,25 +3602,25 @@ namespace RNGReporter
             this.cbDRRatio.TabIndex = 336;
             this.toolTipGenderRatio.SetToolTip(this.cbDRRatio, "Right-click to look up the gender\r\nratio of a certain Pokémon.\r\n\r\nUse this box to" +
         " filter out unwanted\r\nCute Charm results.");
-            // 
+            //
             // cbDRGender
-            // 
+            //
             this.cbDRGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbDRGender.ForeColor = System.Drawing.Color.Black;
             this.cbDRGender.FormattingEnabled = true;
             this.cbDRGender.Items.AddRange(new object[] {
-            "Any",
-            "Male",
-            "Female"});
+            "任意",
+            "雄性",
+            "雌性"});
             this.cbDRGender.Location = new System.Drawing.Point(700, 91);
             this.cbDRGender.MaxDropDownItems = 3;
             this.cbDRGender.Name = "cbDRGender";
             this.cbDRGender.ShineColor = System.Drawing.SystemColors.Window;
             this.cbDRGender.Size = new System.Drawing.Size(59, 21);
             this.cbDRGender.TabIndex = 335;
-            // 
+            //
             // cbDRMonth
-            // 
+            //
             this.cbDRMonth.BlankText = null;
             checkBoxProperties11.ForeColor = System.Drawing.SystemColors.ControlText;
             this.cbDRMonth.CheckBoxProperties = checkBoxProperties11;
@@ -3645,9 +3645,9 @@ namespace RNGReporter
             this.cbDRMonth.Name = "cbDRMonth";
             this.cbDRMonth.Size = new System.Drawing.Size(87, 21);
             this.cbDRMonth.TabIndex = 327;
-            // 
+            //
             // txtDRMinFrame
-            // 
+            //
             this.txtDRMinFrame.Hex = false;
             this.txtDRMinFrame.Location = new System.Drawing.Point(188, 24);
             this.txtDRMinFrame.Mask = "00000";
@@ -3655,9 +3655,9 @@ namespace RNGReporter
             this.txtDRMinFrame.Size = new System.Drawing.Size(44, 21);
             this.txtDRMinFrame.TabIndex = 329;
             this.txtDRMinFrame.Text = "1";
-            // 
+            //
             // txtDRYear
-            // 
+            //
             this.txtDRYear.Hex = false;
             this.txtDRYear.Location = new System.Drawing.Point(55, 24);
             this.txtDRYear.Mask = "0000";
@@ -3665,18 +3665,18 @@ namespace RNGReporter
             this.txtDRYear.Size = new System.Drawing.Size(35, 21);
             this.txtDRYear.TabIndex = 325;
             this.txtDRYear.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
+            //
             // txtDRMaxFrame
-            // 
+            //
             this.txtDRMaxFrame.Hex = false;
             this.txtDRMaxFrame.Location = new System.Drawing.Point(238, 24);
             this.txtDRMaxFrame.Mask = "00000";
             this.txtDRMaxFrame.Name = "txtDRMaxFrame";
             this.txtDRMaxFrame.Size = new System.Drawing.Size(44, 21);
             this.txtDRMaxFrame.TabIndex = 330;
-            // 
+            //
             // btnDRGenerate
-            // 
+            //
             this.btnDRGenerate.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btnDRGenerate.ForeColor = System.Drawing.Color.Black;
             this.btnDRGenerate.Location = new System.Drawing.Point(12, 157);
@@ -3685,13 +3685,13 @@ namespace RNGReporter
             this.btnDRGenerate.ShineColor = System.Drawing.SystemColors.Window;
             this.btnDRGenerate.Size = new System.Drawing.Size(73, 23);
             this.btnDRGenerate.TabIndex = 331;
-            this.btnDRGenerate.Text = "Generate";
+            this.btnDRGenerate.Text = "计算";
             this.btnDRGenerate.Click += new System.EventHandler(this.btnDRGenerate_Click);
-            // 
+            //
             // btnDRAnyNature
-            // 
+            //
             this.btnDRAnyNature.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.btnDRAnyNature.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.btnDRAnyNature.Font = new System.Drawing.Font("宋体", 8.25F);
             this.btnDRAnyNature.ForeColor = System.Drawing.Color.Black;
             this.btnDRAnyNature.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnDRAnyNature.Location = new System.Drawing.Point(879, 15);
@@ -3701,13 +3701,13 @@ namespace RNGReporter
             this.btnDRAnyNature.ShineColor = System.Drawing.SystemColors.Window;
             this.btnDRAnyNature.Size = new System.Drawing.Size(41, 22);
             this.btnDRAnyNature.TabIndex = 334;
-            this.btnDRAnyNature.Text = "Any";
+            this.btnDRAnyNature.Text = "任意";
             this.btnDRAnyNature.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnDRAnyNature.Click += new System.EventHandler(this.btnDRAnyNature_Click);
-            // 
+            //
             // cbDRNature
-            // 
-            this.cbDRNature.BlankText = "Any";
+            //
+            this.cbDRNature.BlankText = "任意";
             checkBoxProperties12.ForeColor = System.Drawing.SystemColors.ControlText;
             this.cbDRNature.CheckBoxProperties = checkBoxProperties12;
             this.cbDRNature.DisplayMemberSingleItem = "";
@@ -3718,15 +3718,15 @@ namespace RNGReporter
             this.cbDRNature.Name = "cbDRNature";
             this.cbDRNature.Size = new System.Drawing.Size(176, 21);
             this.cbDRNature.TabIndex = 333;
-            // 
+            //
             // gvDreamRadar
-            // 
+            //
             this.gvDreamRadar.AllowUserToAddRows = false;
             this.gvDreamRadar.AllowUserToDeleteRows = false;
             this.gvDreamRadar.AllowUserToOrderColumns = true;
             this.gvDreamRadar.AllowUserToResizeRows = false;
-            this.gvDreamRadar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.gvDreamRadar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.gvDreamRadar.ColumnHeadersHeight = 20;
             this.gvDreamRadar.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -3759,9 +3759,9 @@ namespace RNGReporter
             this.gvDreamRadar.ShowRowErrors = false;
             this.gvDreamRadar.Size = new System.Drawing.Size(1061, 333);
             this.gvDreamRadar.TabIndex = 22;
-            // 
+            //
             // dataGridViewTextBoxColumn6
-            // 
+            //
             this.dataGridViewTextBoxColumn6.DataPropertyName = "Seed";
             dataGridViewCellStyle16.Font = new System.Drawing.Font("Consolas", 8.75F);
             this.dataGridViewTextBoxColumn6.DefaultCellStyle = dataGridViewCellStyle16;
@@ -3769,17 +3769,17 @@ namespace RNGReporter
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             this.dataGridViewTextBoxColumn6.ReadOnly = true;
             this.dataGridViewTextBoxColumn6.Width = 160;
-            // 
+            //
             // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.DataPropertyName = "Offset";
-            this.dataGridViewTextBoxColumn10.HeaderText = "Frame";
+            //
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "偏移";
+            this.dataGridViewTextBoxColumn10.HeaderText = "帧数";
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             this.dataGridViewTextBoxColumn10.ReadOnly = true;
             this.dataGridViewTextBoxColumn10.Width = 45;
-            // 
+            //
             // dataGridViewTextBoxColumn11
-            // 
+            //
             this.dataGridViewTextBoxColumn11.DataPropertyName = "Pid";
             dataGridViewCellStyle17.Font = new System.Drawing.Font("Consolas", 8.75F);
             this.dataGridViewTextBoxColumn11.DefaultCellStyle = dataGridViewCellStyle17;
@@ -3787,104 +3787,104 @@ namespace RNGReporter
             this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
             this.dataGridViewTextBoxColumn11.ReadOnly = true;
             this.dataGridViewTextBoxColumn11.Width = 70;
-            // 
+            //
             // dataGridViewTextBoxColumn12
-            // 
+            //
             this.dataGridViewTextBoxColumn12.DataPropertyName = "ShinyDisplay";
-            this.dataGridViewTextBoxColumn12.HeaderText = "!!!";
+            this.dataGridViewTextBoxColumn12.HeaderText = "异色";
             this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
             this.dataGridViewTextBoxColumn12.ReadOnly = true;
             this.dataGridViewTextBoxColumn12.Width = 31;
-            // 
+            //
             // dataGridViewTextBoxColumn13
-            // 
-            this.dataGridViewTextBoxColumn13.DataPropertyName = "Nature";
-            this.dataGridViewTextBoxColumn13.HeaderText = "Nature";
+            //
+            this.dataGridViewTextBoxColumn13.DataPropertyName = "性格";
+            this.dataGridViewTextBoxColumn13.HeaderText = "性格";
             this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
             this.dataGridViewTextBoxColumn13.ReadOnly = true;
             this.dataGridViewTextBoxColumn13.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.dataGridViewTextBoxColumn13.Width = 65;
-            // 
+            //
             // dataGridViewTextBoxColumn16
-            // 
+            //
             this.dataGridViewTextBoxColumn16.DataPropertyName = "DisplayHpAlt";
-            this.dataGridViewTextBoxColumn16.HeaderText = "HP";
+            this.dataGridViewTextBoxColumn16.HeaderText = "觉醒力量";
             this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
             this.dataGridViewTextBoxColumn16.ReadOnly = true;
             this.dataGridViewTextBoxColumn16.Width = 30;
-            // 
+            //
             // dataGridViewTextBoxColumn17
-            // 
+            //
             this.dataGridViewTextBoxColumn17.DataPropertyName = "DisplayAtkAlt";
-            this.dataGridViewTextBoxColumn17.HeaderText = "Atk";
+            this.dataGridViewTextBoxColumn17.HeaderText = "攻击";
             this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
             this.dataGridViewTextBoxColumn17.ReadOnly = true;
             this.dataGridViewTextBoxColumn17.Width = 30;
-            // 
+            //
             // dataGridViewTextBoxColumn18
-            // 
+            //
             this.dataGridViewTextBoxColumn18.DataPropertyName = "DisplayDefAlt";
-            this.dataGridViewTextBoxColumn18.HeaderText = "Def";
+            this.dataGridViewTextBoxColumn18.HeaderText = "防御";
             this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
             this.dataGridViewTextBoxColumn18.ReadOnly = true;
             this.dataGridViewTextBoxColumn18.Width = 30;
-            // 
+            //
             // dataGridViewTextBoxColumn26
-            // 
+            //
             this.dataGridViewTextBoxColumn26.DataPropertyName = "DisplaySpaAlt";
-            this.dataGridViewTextBoxColumn26.HeaderText = "SpA";
+            this.dataGridViewTextBoxColumn26.HeaderText = "特攻";
             this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
             this.dataGridViewTextBoxColumn26.ReadOnly = true;
             this.dataGridViewTextBoxColumn26.Width = 30;
-            // 
+            //
             // dataGridViewTextBoxColumn27
-            // 
+            //
             this.dataGridViewTextBoxColumn27.DataPropertyName = "DisplaySpdAlt";
-            this.dataGridViewTextBoxColumn27.HeaderText = "SpD";
+            this.dataGridViewTextBoxColumn27.HeaderText = "特防";
             this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
             this.dataGridViewTextBoxColumn27.ReadOnly = true;
             this.dataGridViewTextBoxColumn27.Width = 30;
-            // 
+            //
             // dataGridViewTextBoxColumn28
-            // 
+            //
             this.dataGridViewTextBoxColumn28.DataPropertyName = "DisplaySpeAlt";
-            this.dataGridViewTextBoxColumn28.HeaderText = "Spe";
+            this.dataGridViewTextBoxColumn28.HeaderText = "速度";
             this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
             this.dataGridViewTextBoxColumn28.ReadOnly = true;
             this.dataGridViewTextBoxColumn28.Width = 30;
-            // 
+            //
             // dataGridViewTextBoxColumn29
-            // 
+            //
             this.dataGridViewTextBoxColumn29.DataPropertyName = "HiddenPowerType";
-            this.dataGridViewTextBoxColumn29.HeaderText = "Hidden";
+            this.dataGridViewTextBoxColumn29.HeaderText = "觉醒力量";
             this.dataGridViewTextBoxColumn29.Name = "dataGridViewTextBoxColumn29";
             this.dataGridViewTextBoxColumn29.ReadOnly = true;
             this.dataGridViewTextBoxColumn29.Width = 50;
-            // 
+            //
             // dataGridViewTextBoxColumn30
-            // 
+            //
             this.dataGridViewTextBoxColumn30.DataPropertyName = "HiddenPowerPower";
-            this.dataGridViewTextBoxColumn30.HeaderText = "Power";
+            this.dataGridViewTextBoxColumn30.HeaderText = "觉醒力量威力";
             this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
             this.dataGridViewTextBoxColumn30.ReadOnly = true;
             this.dataGridViewTextBoxColumn30.Width = 45;
-            // 
+            //
             // dataGridViewTextBoxColumn35
-            // 
+            //
             this.dataGridViewTextBoxColumn35.DataPropertyName = "TimeDate";
-            this.dataGridViewTextBoxColumn35.HeaderText = "Date\\Time";
+            this.dataGridViewTextBoxColumn35.HeaderText = "日期\\时间";
             this.dataGridViewTextBoxColumn35.Name = "dataGridViewTextBoxColumn35";
             this.dataGridViewTextBoxColumn35.ReadOnly = true;
-            // 
+            //
             // dataGridViewTextBoxColumn36
-            // 
-            this.dataGridViewTextBoxColumn36.DataPropertyName = "Keypress";
-            this.dataGridViewTextBoxColumn36.HeaderText = "Keypress";
+            //
+            this.dataGridViewTextBoxColumn36.DataPropertyName = "按键";
+            this.dataGridViewTextBoxColumn36.HeaderText = "按键";
             this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
             this.dataGridViewTextBoxColumn36.Width = 120;
-            // 
+            //
             // tabPagePickup
-            // 
+            //
             this.tabPagePickup.Controls.Add(this.label45);
             this.tabPagePickup.Controls.Add(this.label44);
             this.tabPagePickup.Controls.Add(this.label43);
@@ -3913,51 +3913,51 @@ namespace RNGReporter
             this.tabPagePickup.Name = "tabPagePickup";
             this.tabPagePickup.Size = new System.Drawing.Size(1067, 522);
             this.tabPagePickup.TabIndex = 6;
-            this.tabPagePickup.Text = "Pickup";
+            this.tabPagePickup.Text = "拾取";
             this.tabPagePickup.UseVisualStyleBackColor = true;
-            // 
+            //
             // label45
-            // 
+            //
             this.label45.AutoSize = true;
             this.label45.Location = new System.Drawing.Point(540, 73);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(399, 13);
             this.label45.TabIndex = 377;
-            this.label45.Text = "1. Use Honey / Sweet Scent at the frame indicated, then defeat the wild Pokémon.";
+            this.label45.Text = "1. 在指定帧使用甜甜蜜/甜甜香气，然后击败野生宝可梦。";
             this.label45.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
+            //
             // label44
-            // 
+            //
             this.label44.AutoSize = true;
             this.label44.Location = new System.Drawing.Point(553, 165);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(321, 13);
             this.label44.TabIndex = 376;
-            this.label44.Text = "Celestial Tower rooftop is recommended since it also has no NPCs.";
+            this.label44.Text = "推荐天堂之塔塔顶，因为那里也没有 NPC。";
             this.label44.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
+            //
             // label43
-            // 
+            //
             this.label43.AutoSize = true;
             this.label43.Location = new System.Drawing.Point(540, 151);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(367, 13);
             this.label43.TabIndex = 375;
-            this.label43.Text = "4. Wild Pokémon that have a chance of holding an item, affect the frame hit.";
+            this.label43.Text = "4. 可能携带道具的野生宝可梦会影响命中帧。";
             this.label43.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
+            //
             // label42
-            // 
+            //
             this.label42.AutoSize = true;
             this.label42.Location = new System.Drawing.Point(540, 99);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(275, 13);
             this.label42.TabIndex = 374;
-            this.label42.Text = "2. An \"Active Roamer\" (BW only) affects the initial frame.";
+            this.label42.Text = "2. 活动游走宝可梦（仅 BW）会影响初始帧。";
             this.label42.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
+            //
             // label41
-            // 
+            //
             this.label41.AutoSize = true;
             this.label41.Location = new System.Drawing.Point(540, 125);
             this.label41.Name = "label41";
@@ -3966,34 +3966,34 @@ namespace RNGReporter
             this.label41.Text = "3. Shiny Charm / Memory Link (BW2 only) affect the frame hit and should be accoun" +
     "ted for.";
             this.label41.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
+            //
             // label37
-            // 
+            //
             this.label37.AutoSize = true;
             this.label37.Location = new System.Drawing.Point(553, 45);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(38, 13);
             this.label37.TabIndex = 372;
-            this.label37.Text = "Notes:";
+            this.label37.Text = "备注:";
             this.label37.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
+            //
             // cbActiveRoamer
-            // 
+            //
             this.cbActiveRoamer.AutoSize = true;
             this.cbActiveRoamer.Location = new System.Drawing.Point(332, 35);
             this.cbActiveRoamer.Name = "cbActiveRoamer";
             this.cbActiveRoamer.Size = new System.Drawing.Size(96, 17);
             this.cbActiveRoamer.TabIndex = 371;
-            this.cbActiveRoamer.Text = "Active Roamer";
+            this.cbActiveRoamer.Text = "活动游走宝可梦";
             this.cbActiveRoamer.UseVisualStyleBackColor = true;
-            // 
+            //
             // dataGridViewPickup
-            // 
+            //
             this.dataGridViewPickup.AllowUserToAddRows = false;
             this.dataGridViewPickup.AllowUserToDeleteRows = false;
             this.dataGridViewPickup.AllowUserToResizeRows = false;
-            this.dataGridViewPickup.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dataGridViewPickup.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewPickup.ColumnHeadersHeight = 20;
             this.dataGridViewPickup.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
@@ -4023,9 +4023,9 @@ namespace RNGReporter
             this.dataGridViewPickup.Size = new System.Drawing.Size(1061, 255);
             this.dataGridViewPickup.TabIndex = 361;
             this.dataGridViewPickup.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridViewPickup_ColumnHeaderMouseClick);
-            // 
+            //
             // dataGridViewTextBoxColumn31
-            // 
+            //
             this.dataGridViewTextBoxColumn31.DataPropertyName = "Seed";
             dataGridViewCellStyle18.Font = new System.Drawing.Font("Consolas", 8.75F);
             dataGridViewCellStyle18.Format = "X16";
@@ -4036,70 +4036,70 @@ namespace RNGReporter
             this.dataGridViewTextBoxColumn31.ReadOnly = true;
             this.dataGridViewTextBoxColumn31.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
             this.dataGridViewTextBoxColumn31.Width = 140;
-            // 
+            //
             // dataGridViewTextBoxColumn32
-            // 
-            this.dataGridViewTextBoxColumn32.DataPropertyName = "Offset";
+            //
+            this.dataGridViewTextBoxColumn32.DataPropertyName = "偏移";
             this.dataGridViewTextBoxColumn32.FillWeight = 80F;
-            this.dataGridViewTextBoxColumn32.HeaderText = "Frame";
+            this.dataGridViewTextBoxColumn32.HeaderText = "帧";
             this.dataGridViewTextBoxColumn32.Name = "dataGridViewTextBoxColumn32";
             this.dataGridViewTextBoxColumn32.ReadOnly = true;
             this.dataGridViewTextBoxColumn32.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
             this.dataGridViewTextBoxColumn32.Width = 55;
-            // 
+            //
             // colItem1
-            // 
+            //
             this.colItem1.DataPropertyName = "DisplayItem1";
-            this.colItem1.HeaderText = "Item 1";
+            this.colItem1.HeaderText = "道具 1";
             this.colItem1.Name = "colItem1";
             this.colItem1.ReadOnly = true;
-            // 
+            //
             // colItem2
-            // 
+            //
             this.colItem2.DataPropertyName = "DisplayItem2";
-            this.colItem2.HeaderText = "Item 2";
+            this.colItem2.HeaderText = "道具 2";
             this.colItem2.Name = "colItem2";
             this.colItem2.ReadOnly = true;
-            // 
+            //
             // colItem3
-            // 
+            //
             this.colItem3.DataPropertyName = "DisplayItem3";
-            this.colItem3.HeaderText = "Item 3";
+            this.colItem3.HeaderText = "道具 3";
             this.colItem3.Name = "colItem3";
             this.colItem3.ReadOnly = true;
-            // 
+            //
             // colItem4
-            // 
+            //
             this.colItem4.DataPropertyName = "DisplayItem4";
-            this.colItem4.HeaderText = "Item 4";
+            this.colItem4.HeaderText = "道具 4";
             this.colItem4.Name = "colItem4";
             this.colItem4.ReadOnly = true;
-            // 
+            //
             // colItem5
-            // 
+            //
             this.colItem5.DataPropertyName = "DisplayItem5";
-            this.colItem5.HeaderText = "Item 5";
+            this.colItem5.HeaderText = "道具 5";
             this.colItem5.Name = "colItem5";
             this.colItem5.ReadOnly = true;
-            // 
+            //
             // colItem6
-            // 
+            //
             this.colItem6.DataPropertyName = "DisplayItem6";
-            this.colItem6.HeaderText = "Item 6";
+            this.colItem6.HeaderText = "道具 6";
             this.colItem6.Name = "colItem6";
             this.colItem6.ReadOnly = true;
-            // 
+            //
             // dataGridViewTextBoxColumn69
-            // 
+            //
             this.dataGridViewTextBoxColumn69.DataPropertyName = "TimeDate";
             dataGridViewCellStyle19.Format = "MM/dd/yy HH:mm:ss";
             this.dataGridViewTextBoxColumn69.DefaultCellStyle = dataGridViewCellStyle19;
-            this.dataGridViewTextBoxColumn69.HeaderText = "Date\\Time";
+            this.dataGridViewTextBoxColumn69.HeaderText = "日期\\时间";
             this.dataGridViewTextBoxColumn69.Name = "dataGridViewTextBoxColumn69";
             this.dataGridViewTextBoxColumn69.ReadOnly = true;
-            // 
+            //
             // dataGridViewTextBoxColumn70
-            // 
+            //
             this.dataGridViewTextBoxColumn70.DataPropertyName = "Timer0";
             dataGridViewCellStyle20.Format = "X";
             this.dataGridViewTextBoxColumn70.DefaultCellStyle = dataGridViewCellStyle20;
@@ -4108,16 +4108,16 @@ namespace RNGReporter
             this.dataGridViewTextBoxColumn70.Name = "dataGridViewTextBoxColumn70";
             this.dataGridViewTextBoxColumn70.Visible = false;
             this.dataGridViewTextBoxColumn70.Width = 45;
-            // 
+            //
             // dataGridViewTextBoxColumn71
-            // 
-            this.dataGridViewTextBoxColumn71.DataPropertyName = "Keypress";
-            this.dataGridViewTextBoxColumn71.HeaderText = "Keypresses";
+            //
+            this.dataGridViewTextBoxColumn71.DataPropertyName = "按键";
+            this.dataGridViewTextBoxColumn71.HeaderText = "按键";
             this.dataGridViewTextBoxColumn71.Name = "dataGridViewTextBoxColumn71";
             this.dataGridViewTextBoxColumn71.Width = 120;
-            // 
+            //
             // buttonPickupSearch
-            // 
+            //
             this.buttonPickupSearch.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonPickupSearch.ForeColor = System.Drawing.Color.Black;
             this.buttonPickupSearch.Location = new System.Drawing.Point(543, 209);
@@ -4126,11 +4126,11 @@ namespace RNGReporter
             this.buttonPickupSearch.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonPickupSearch.Size = new System.Drawing.Size(124, 32);
             this.buttonPickupSearch.TabIndex = 360;
-            this.buttonPickupSearch.Text = "Search";
+            this.buttonPickupSearch.Text = "搜索";
             this.buttonPickupSearch.Click += new System.EventHandler(this.buttonPickupSearch_Click);
-            // 
+            //
             // groupBox2
-            // 
+            //
             this.groupBox2.Controls.Add(this.ClearList6);
             this.groupBox2.Controls.Add(this.ClearList5);
             this.groupBox2.Controls.Add(this.ClearList4);
@@ -4148,10 +4148,10 @@ namespace RNGReporter
             this.groupBox2.Size = new System.Drawing.Size(253, 185);
             this.groupBox2.TabIndex = 358;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Target Item";
-            // 
+            this.groupBox2.Text = "目标道具";
+            //
             // ClearList6
-            // 
+            //
             this.ClearList6.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClearList6.ForeColor = System.Drawing.Color.Black;
             this.ClearList6.Location = new System.Drawing.Point(173, 154);
@@ -4160,11 +4160,11 @@ namespace RNGReporter
             this.ClearList6.ShineColor = System.Drawing.SystemColors.Window;
             this.ClearList6.Size = new System.Drawing.Size(55, 21);
             this.ClearList6.TabIndex = 383;
-            this.ClearList6.Text = "Clear";
+            this.ClearList6.Text = "清除";
             this.ClearList6.Click += new System.EventHandler(this.ClearList6_Click);
-            // 
+            //
             // ClearList5
-            // 
+            //
             this.ClearList5.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClearList5.ForeColor = System.Drawing.Color.Black;
             this.ClearList5.Location = new System.Drawing.Point(173, 127);
@@ -4173,11 +4173,11 @@ namespace RNGReporter
             this.ClearList5.ShineColor = System.Drawing.SystemColors.Window;
             this.ClearList5.Size = new System.Drawing.Size(55, 21);
             this.ClearList5.TabIndex = 382;
-            this.ClearList5.Text = "Clear";
+            this.ClearList5.Text = "清除";
             this.ClearList5.Click += new System.EventHandler(this.ClearList5_Click);
-            // 
+            //
             // ClearList4
-            // 
+            //
             this.ClearList4.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClearList4.ForeColor = System.Drawing.Color.Black;
             this.ClearList4.Location = new System.Drawing.Point(173, 100);
@@ -4186,11 +4186,11 @@ namespace RNGReporter
             this.ClearList4.ShineColor = System.Drawing.SystemColors.Window;
             this.ClearList4.Size = new System.Drawing.Size(55, 21);
             this.ClearList4.TabIndex = 381;
-            this.ClearList4.Text = "Clear";
+            this.ClearList4.Text = "清除";
             this.ClearList4.Click += new System.EventHandler(this.ClearList4_Click);
-            // 
+            //
             // ClearList3
-            // 
+            //
             this.ClearList3.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClearList3.ForeColor = System.Drawing.Color.Black;
             this.ClearList3.Location = new System.Drawing.Point(173, 73);
@@ -4199,11 +4199,11 @@ namespace RNGReporter
             this.ClearList3.ShineColor = System.Drawing.SystemColors.Window;
             this.ClearList3.Size = new System.Drawing.Size(55, 21);
             this.ClearList3.TabIndex = 380;
-            this.ClearList3.Text = "Clear";
+            this.ClearList3.Text = "清除";
             this.ClearList3.Click += new System.EventHandler(this.ClearList3_Click);
-            // 
+            //
             // ClearList2
-            // 
+            //
             this.ClearList2.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClearList2.ForeColor = System.Drawing.Color.Black;
             this.ClearList2.Location = new System.Drawing.Point(173, 46);
@@ -4212,11 +4212,11 @@ namespace RNGReporter
             this.ClearList2.ShineColor = System.Drawing.SystemColors.Window;
             this.ClearList2.Size = new System.Drawing.Size(55, 21);
             this.ClearList2.TabIndex = 379;
-            this.ClearList2.Text = "Clear";
+            this.ClearList2.Text = "清除";
             this.ClearList2.Click += new System.EventHandler(this.ClearList2_Click);
-            // 
+            //
             // ClearList1
-            // 
+            //
             this.ClearList1.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClearList1.ForeColor = System.Drawing.Color.Black;
             this.ClearList1.Location = new System.Drawing.Point(173, 19);
@@ -4225,11 +4225,11 @@ namespace RNGReporter
             this.ClearList1.ShineColor = System.Drawing.SystemColors.Window;
             this.ClearList1.Size = new System.Drawing.Size(55, 21);
             this.ClearList1.TabIndex = 378;
-            this.ClearList1.Text = "Clear";
+            this.ClearList1.Text = "清除";
             this.ClearList1.Click += new System.EventHandler(this.ClearList1_Click);
-            // 
+            //
             // TargetItem2
-            // 
+            //
             this.TargetItem2.BlankText = "Don\'t Care";
             checkBoxProperties13.ForeColor = System.Drawing.SystemColors.ControlText;
             this.TargetItem2.CheckBoxProperties = checkBoxProperties13;
@@ -4242,9 +4242,9 @@ namespace RNGReporter
             this.TargetItem2.Name = "TargetItem2";
             this.TargetItem2.Size = new System.Drawing.Size(139, 21);
             this.TargetItem2.TabIndex = 362;
-            // 
+            //
             // TargetItem6
-            // 
+            //
             this.TargetItem6.BlankText = "Don\'t Care";
             checkBoxProperties14.ForeColor = System.Drawing.SystemColors.ControlText;
             this.TargetItem6.CheckBoxProperties = checkBoxProperties14;
@@ -4257,9 +4257,9 @@ namespace RNGReporter
             this.TargetItem6.Name = "TargetItem6";
             this.TargetItem6.Size = new System.Drawing.Size(139, 21);
             this.TargetItem6.TabIndex = 366;
-            // 
+            //
             // TargetItem5
-            // 
+            //
             this.TargetItem5.BlankText = "Don\'t Care";
             checkBoxProperties15.ForeColor = System.Drawing.SystemColors.ControlText;
             this.TargetItem5.CheckBoxProperties = checkBoxProperties15;
@@ -4272,9 +4272,9 @@ namespace RNGReporter
             this.TargetItem5.Name = "TargetItem5";
             this.TargetItem5.Size = new System.Drawing.Size(139, 21);
             this.TargetItem5.TabIndex = 365;
-            // 
+            //
             // TargetItem3
-            // 
+            //
             this.TargetItem3.BlankText = "Don\'t Care";
             checkBoxProperties16.ForeColor = System.Drawing.SystemColors.ControlText;
             this.TargetItem3.CheckBoxProperties = checkBoxProperties16;
@@ -4287,9 +4287,9 @@ namespace RNGReporter
             this.TargetItem3.Name = "TargetItem3";
             this.TargetItem3.Size = new System.Drawing.Size(139, 21);
             this.TargetItem3.TabIndex = 363;
-            // 
+            //
             // TargetItem4
-            // 
+            //
             this.TargetItem4.BlankText = "Don\'t Care";
             checkBoxProperties17.ForeColor = System.Drawing.SystemColors.ControlText;
             this.TargetItem4.CheckBoxProperties = checkBoxProperties17;
@@ -4302,9 +4302,9 @@ namespace RNGReporter
             this.TargetItem4.Name = "TargetItem4";
             this.TargetItem4.Size = new System.Drawing.Size(139, 21);
             this.TargetItem4.TabIndex = 364;
-            // 
+            //
             // TargetItem1
-            // 
+            //
             this.TargetItem1.BlankText = "Don\'t Care";
             checkBoxProperties18.ForeColor = System.Drawing.SystemColors.ControlText;
             this.TargetItem1.CheckBoxProperties = checkBoxProperties18;
@@ -4317,9 +4317,9 @@ namespace RNGReporter
             this.TargetItem1.Name = "TargetItem1";
             this.TargetItem1.Size = new System.Drawing.Size(139, 21);
             this.TargetItem1.TabIndex = 361;
-            // 
+            //
             // groupBox1
-            // 
+            //
             this.groupBox1.Controls.Add(this.SlotLevel1);
             this.groupBox1.Controls.Add(this.SlotLevel2);
             this.groupBox1.Controls.Add(this.SlotLevel6);
@@ -4331,10 +4331,10 @@ namespace RNGReporter
             this.groupBox1.Size = new System.Drawing.Size(178, 185);
             this.groupBox1.TabIndex = 357;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Level";
-            // 
+            this.groupBox1.Text = "等级";
+            //
             // SlotLevel1
-            // 
+            //
             this.SlotLevel1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.SlotLevel1.Enabled = false;
             this.SlotLevel1.FormattingEnabled = true;
@@ -4354,9 +4354,9 @@ namespace RNGReporter
             this.SlotLevel1.Size = new System.Drawing.Size(126, 21);
             this.SlotLevel1.TabIndex = 361;
             this.SlotLevel1.SelectedIndexChanged += new System.EventHandler(this.SlotLevel1_SelectedIndexChanged);
-            // 
+            //
             // SlotLevel2
-            // 
+            //
             this.SlotLevel2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.SlotLevel2.Enabled = false;
             this.SlotLevel2.FormattingEnabled = true;
@@ -4376,9 +4376,9 @@ namespace RNGReporter
             this.SlotLevel2.Size = new System.Drawing.Size(126, 21);
             this.SlotLevel2.TabIndex = 362;
             this.SlotLevel2.SelectedIndexChanged += new System.EventHandler(this.SlotLevel2_SelectedIndexChanged);
-            // 
+            //
             // SlotLevel6
-            // 
+            //
             this.SlotLevel6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.SlotLevel6.Enabled = false;
             this.SlotLevel6.FormattingEnabled = true;
@@ -4398,9 +4398,9 @@ namespace RNGReporter
             this.SlotLevel6.Size = new System.Drawing.Size(126, 21);
             this.SlotLevel6.TabIndex = 366;
             this.SlotLevel6.SelectedIndexChanged += new System.EventHandler(this.SlotLevel6_SelectedIndexChanged);
-            // 
+            //
             // SlotLevel3
-            // 
+            //
             this.SlotLevel3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.SlotLevel3.Enabled = false;
             this.SlotLevel3.FormattingEnabled = true;
@@ -4420,9 +4420,9 @@ namespace RNGReporter
             this.SlotLevel3.Size = new System.Drawing.Size(126, 21);
             this.SlotLevel3.TabIndex = 363;
             this.SlotLevel3.SelectedIndexChanged += new System.EventHandler(this.SlotLevel3_SelectedIndexChanged);
-            // 
+            //
             // SlotLevel4
-            // 
+            //
             this.SlotLevel4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.SlotLevel4.Enabled = false;
             this.SlotLevel4.FormattingEnabled = true;
@@ -4442,9 +4442,9 @@ namespace RNGReporter
             this.SlotLevel4.Size = new System.Drawing.Size(126, 21);
             this.SlotLevel4.TabIndex = 364;
             this.SlotLevel4.SelectedIndexChanged += new System.EventHandler(this.SlotLevel4_SelectedIndexChanged);
-            // 
+            //
             // SlotLevel5
-            // 
+            //
             this.SlotLevel5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.SlotLevel5.Enabled = false;
             this.SlotLevel5.FormattingEnabled = true;
@@ -4464,84 +4464,84 @@ namespace RNGReporter
             this.SlotLevel5.Size = new System.Drawing.Size(126, 21);
             this.SlotLevel5.TabIndex = 365;
             this.SlotLevel5.SelectedIndexChanged += new System.EventHandler(this.SlotLevel5_SelectedIndexChanged);
-            // 
+            //
             // checkBoxParty6
-            // 
+            //
             this.checkBoxParty6.AutoSize = true;
             this.checkBoxParty6.Location = new System.Drawing.Point(11, 229);
             this.checkBoxParty6.Name = "checkBoxParty6";
             this.checkBoxParty6.Size = new System.Drawing.Size(59, 17);
             this.checkBoxParty6.TabIndex = 356;
-            this.checkBoxParty6.Text = "Party 6";
+            this.checkBoxParty6.Text = "队伍 6";
             this.checkBoxParty6.UseVisualStyleBackColor = true;
             this.checkBoxParty6.CheckedChanged += new System.EventHandler(this.checkBoxParty6_CheckedChanged);
-            // 
+            //
             // checkBoxParty5
-            // 
+            //
             this.checkBoxParty5.AutoSize = true;
             this.checkBoxParty5.Location = new System.Drawing.Point(11, 202);
             this.checkBoxParty5.Name = "checkBoxParty5";
             this.checkBoxParty5.Size = new System.Drawing.Size(59, 17);
             this.checkBoxParty5.TabIndex = 354;
-            this.checkBoxParty5.Text = "Party 5";
+            this.checkBoxParty5.Text = "队伍 5";
             this.checkBoxParty5.UseVisualStyleBackColor = true;
             this.checkBoxParty5.CheckedChanged += new System.EventHandler(this.checkBoxParty5_CheckedChanged);
-            // 
+            //
             // checkBoxParty4
-            // 
+            //
             this.checkBoxParty4.AutoSize = true;
             this.checkBoxParty4.Location = new System.Drawing.Point(11, 175);
             this.checkBoxParty4.Name = "checkBoxParty4";
             this.checkBoxParty4.Size = new System.Drawing.Size(59, 17);
             this.checkBoxParty4.TabIndex = 352;
-            this.checkBoxParty4.Text = "Party 4";
+            this.checkBoxParty4.Text = "队伍 4";
             this.checkBoxParty4.UseVisualStyleBackColor = true;
             this.checkBoxParty4.CheckedChanged += new System.EventHandler(this.checkBoxParty4_CheckedChanged);
-            // 
+            //
             // checkBoxParty3
-            // 
+            //
             this.checkBoxParty3.AutoSize = true;
             this.checkBoxParty3.Location = new System.Drawing.Point(11, 148);
             this.checkBoxParty3.Name = "checkBoxParty3";
             this.checkBoxParty3.Size = new System.Drawing.Size(59, 17);
             this.checkBoxParty3.TabIndex = 350;
-            this.checkBoxParty3.Text = "Party 3";
+            this.checkBoxParty3.Text = "队伍 3";
             this.checkBoxParty3.UseVisualStyleBackColor = true;
             this.checkBoxParty3.CheckedChanged += new System.EventHandler(this.checkBoxParty3_CheckedChanged);
-            // 
+            //
             // checkBoxParty2
-            // 
+            //
             this.checkBoxParty2.AutoSize = true;
             this.checkBoxParty2.Location = new System.Drawing.Point(11, 121);
             this.checkBoxParty2.Name = "checkBoxParty2";
             this.checkBoxParty2.Size = new System.Drawing.Size(59, 17);
             this.checkBoxParty2.TabIndex = 348;
-            this.checkBoxParty2.Text = "Party 2";
+            this.checkBoxParty2.Text = "队伍 2";
             this.checkBoxParty2.UseVisualStyleBackColor = true;
             this.checkBoxParty2.CheckedChanged += new System.EventHandler(this.checkBoxParty2_CheckedChanged);
-            // 
+            //
             // checkBoxParty1
-            // 
+            //
             this.checkBoxParty1.AutoSize = true;
             this.checkBoxParty1.Location = new System.Drawing.Point(11, 94);
             this.checkBoxParty1.Name = "checkBoxParty1";
             this.checkBoxParty1.Size = new System.Drawing.Size(59, 17);
             this.checkBoxParty1.TabIndex = 345;
-            this.checkBoxParty1.Text = "Party 1";
+            this.checkBoxParty1.Text = "队伍 1";
             this.checkBoxParty1.UseVisualStyleBackColor = true;
             this.checkBoxParty1.CheckedChanged += new System.EventHandler(this.checkBoxParty1_CheckedChanged);
-            // 
+            //
             // label49
-            // 
+            //
             this.label49.AutoSize = true;
             this.label49.Location = new System.Drawing.Point(172, 18);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(106, 13);
             this.label49.TabIndex = 343;
-            this.label49.Text = "Min / Max Advances";
-            // 
+            this.label49.Text = "最小 / 最大推进";
+            //
             // minPickupAdv
-            // 
+            //
             this.minPickupAdv.Hex = false;
             this.minPickupAdv.Location = new System.Drawing.Point(169, 33);
             this.minPickupAdv.Mask = "00000";
@@ -4549,9 +4549,9 @@ namespace RNGReporter
             this.minPickupAdv.Size = new System.Drawing.Size(44, 21);
             this.minPickupAdv.TabIndex = 341;
             this.minPickupAdv.Text = "0";
-            // 
+            //
             // maxPickupAdv
-            // 
+            //
             this.maxPickupAdv.Hex = false;
             this.maxPickupAdv.Location = new System.Drawing.Point(219, 33);
             this.maxPickupAdv.Mask = "00000";
@@ -4559,28 +4559,28 @@ namespace RNGReporter
             this.maxPickupAdv.Size = new System.Drawing.Size(44, 21);
             this.maxPickupAdv.TabIndex = 342;
             this.maxPickupAdv.Text = "10";
-            // 
+            //
             // label47
-            // 
+            //
             this.label47.AutoSize = true;
             this.label47.Location = new System.Drawing.Point(32, 18);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(29, 13);
             this.label47.TabIndex = 327;
-            this.label47.Text = "Year";
-            // 
+            this.label47.Text = "年份";
+            //
             // label48
-            // 
+            //
             this.label48.AutoSize = true;
             this.label48.Location = new System.Drawing.Point(76, 18);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(37, 13);
             this.label48.TabIndex = 329;
-            this.label48.Text = "Month";
+            this.label48.Text = "月份";
             this.label48.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
+            //
             // comboBoxPickupMonth
-            // 
+            //
             this.comboBoxPickupMonth.BlankText = null;
             checkBoxProperties19.ForeColor = System.Drawing.SystemColors.ControlText;
             this.comboBoxPickupMonth.CheckBoxProperties = checkBoxProperties19;
@@ -4605,9 +4605,9 @@ namespace RNGReporter
             this.comboBoxPickupMonth.Name = "comboBoxPickupMonth";
             this.comboBoxPickupMonth.Size = new System.Drawing.Size(87, 21);
             this.comboBoxPickupMonth.TabIndex = 324;
-            // 
+            //
             // maskedTextBoxPickupYear
-            // 
+            //
             this.maskedTextBoxPickupYear.Hex = false;
             this.maskedTextBoxPickupYear.Location = new System.Drawing.Point(35, 33);
             this.maskedTextBoxPickupYear.Mask = "0000";
@@ -4615,24 +4615,24 @@ namespace RNGReporter
             this.maskedTextBoxPickupYear.Size = new System.Drawing.Size(35, 21);
             this.maskedTextBoxPickupYear.TabIndex = 323;
             this.maskedTextBoxPickupYear.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
+            //
             // toolTipGenderRatio
-            // 
+            //
             this.toolTipGenderRatio.AutoPopDelay = 6000;
             this.toolTipGenderRatio.InitialDelay = 300;
             this.toolTipGenderRatio.ReshowDelay = 100;
-            this.toolTipGenderRatio.ToolTipTitle = "Gender Ratio";
-            // 
+            this.toolTipGenderRatio.ToolTipTitle = "性别比例";
+            //
             // toolTipDataGrid
-            // 
+            //
             this.toolTipDataGrid.AutoPopDelay = 6000;
             this.toolTipDataGrid.InitialDelay = 300;
             this.toolTipDataGrid.ReshowDelay = 100;
-            this.toolTipDataGrid.ToolTipTitle = "Gender Ratio";
-            // 
+            this.toolTipDataGrid.ToolTipTitle = "性别比例";
+            //
             // groupBoxConfiguration
-            // 
-            this.groupBoxConfiguration.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            //
+            this.groupBoxConfiguration.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBoxConfiguration.Controls.Add(this.labelProfileInformation);
             this.groupBoxConfiguration.Controls.Add(this.comboBoxProfiles);
@@ -4642,18 +4642,18 @@ namespace RNGReporter
             this.groupBoxConfiguration.Size = new System.Drawing.Size(1075, 48);
             this.groupBoxConfiguration.TabIndex = 2;
             this.groupBoxConfiguration.TabStop = false;
-            this.groupBoxConfiguration.Text = "Configuration";
-            // 
+            this.groupBoxConfiguration.Text = "基本配置";
+            //
             // labelProfileInformation
-            // 
+            //
             this.labelProfileInformation.AutoSize = true;
             this.labelProfileInformation.Location = new System.Drawing.Point(131, 17);
             this.labelProfileInformation.Name = "labelProfileInformation";
             this.labelProfileInformation.Size = new System.Drawing.Size(0, 13);
             this.labelProfileInformation.TabIndex = 320;
-            // 
+            //
             // comboBoxProfiles
-            // 
+            //
             this.comboBoxProfiles.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxProfiles.ForeColor = System.Drawing.Color.Black;
             this.comboBoxProfiles.FormattingEnabled = true;
@@ -4664,9 +4664,9 @@ namespace RNGReporter
             this.comboBoxProfiles.Size = new System.Drawing.Size(119, 21);
             this.comboBoxProfiles.TabIndex = 33;
             this.comboBoxProfiles.SelectedIndexChanged += new System.EventHandler(this.comboBoxProfiles_SelectedIndexChanged);
-            // 
+            //
             // buttonEditProfile
-            // 
+            //
             this.buttonEditProfile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonEditProfile.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonEditProfile.ForeColor = System.Drawing.Color.Black;
@@ -4676,11 +4676,11 @@ namespace RNGReporter
             this.buttonEditProfile.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonEditProfile.Size = new System.Drawing.Size(73, 23);
             this.buttonEditProfile.TabIndex = 11;
-            this.buttonEditProfile.Text = "Edit";
+            this.buttonEditProfile.Text = "编辑";
             this.buttonEditProfile.Click += new System.EventHandler(this.buttonEditProfile_Click);
-            // 
+            //
             // CapSeed
-            // 
+            //
             this.CapSeed.DataPropertyName = "Seed";
             dataGridViewCellStyle4.Font = new System.Drawing.Font("Consolas", 8.75F);
             dataGridViewCellStyle4.Format = "X16";
@@ -4691,44 +4691,44 @@ namespace RNGReporter
             this.CapSeed.ReadOnly = true;
             this.CapSeed.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
             this.CapSeed.Width = 70;
-            // 
+            //
             // CapOffset
-            // 
-            this.CapOffset.DataPropertyName = "Offset";
+            //
+            this.CapOffset.DataPropertyName = "偏移";
             this.CapOffset.FillWeight = 80F;
-            this.CapOffset.HeaderText = "IV Frame";
+            this.CapOffset.HeaderText = "帧数";
             this.CapOffset.Name = "CapOffset";
             this.CapOffset.ReadOnly = true;
             this.CapOffset.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
             this.CapOffset.Width = 55;
-            // 
+            //
             // EncounterMod
-            // 
+            //
             this.EncounterMod.DataPropertyName = "EncounterMod";
             this.EncounterMod.FillWeight = 150F;
-            this.EncounterMod.HeaderText = "Required Lead";
+            this.EncounterMod.HeaderText = "需要首发";
             this.EncounterMod.Name = "EncounterMod";
             this.EncounterMod.ReadOnly = true;
             this.EncounterMod.Width = 130;
-            // 
+            //
             // LuckyLevel
-            // 
+            //
             this.LuckyLevel.DataPropertyName = "LuckyPower";
-            this.LuckyLevel.HeaderText = "Lucky Power";
+            this.LuckyLevel.HeaderText = "幸运之力";
             this.LuckyLevel.Name = "LuckyLevel";
             this.LuckyLevel.ReadOnly = true;
             this.LuckyLevel.Width = 80;
-            // 
+            //
             // NearestShiny
-            // 
+            //
             this.NearestShiny.DataPropertyName = "NearestShiny";
-            this.NearestShiny.HeaderText = "Shiny Frame";
+            this.NearestShiny.HeaderText = "异色帧";
             this.NearestShiny.Name = "NearestShiny";
             this.NearestShiny.ReadOnly = true;
             this.NearestShiny.Width = 75;
-            // 
+            //
             // PID
-            // 
+            //
             this.PID.DataPropertyName = "Pid";
             dataGridViewCellStyle5.Font = new System.Drawing.Font("Consolas", 8.75F);
             dataGridViewCellStyle5.Format = "X8";
@@ -4737,141 +4737,141 @@ namespace RNGReporter
             this.PID.Name = "PID";
             this.PID.ReadOnly = true;
             this.PID.Width = 80;
-            // 
+            //
             // EncounterRatio
-            // 
-            this.EncounterRatio.DataPropertyName = "Ratio";
-            this.EncounterRatio.HeaderText = "Encounter Ratio";
+            //
+            this.EncounterRatio.DataPropertyName = "比例";
+            this.EncounterRatio.HeaderText = "遇敌比例";
             this.EncounterRatio.Name = "EncounterRatio";
             this.EncounterRatio.ReadOnly = true;
-            // 
+            //
             // EncType
-            // 
+            //
             this.EncType.DataPropertyName = "Double";
-            this.EncType.HeaderText = "Encounter Type";
+            this.EncType.HeaderText = "遭遇类型";
             this.EncType.Name = "EncType";
             this.EncType.ReadOnly = true;
             this.EncType.Width = 90;
-            // 
+            //
             // EncounterSlot
-            // 
+            //
             this.EncounterSlot.DataPropertyName = "EncounterSlot";
             this.EncounterSlot.FillWeight = 120F;
-            this.EncounterSlot.HeaderText = "Encounter Slot";
+            this.EncounterSlot.HeaderText = "遭遇槽位";
             this.EncounterSlot.Name = "EncounterSlot";
             this.EncounterSlot.ReadOnly = true;
             this.EncounterSlot.Width = 85;
-            // 
+            //
             // Lvl
-            // 
-            this.Lvl.DataPropertyName = "Level";
-            this.Lvl.HeaderText = "Level";
+            //
+            this.Lvl.DataPropertyName = "等级";
+            this.Lvl.HeaderText = "等级";
             this.Lvl.Name = "Lvl";
             this.Lvl.ReadOnly = true;
             this.Lvl.Width = 60;
-            // 
+            //
             // Shiny
-            // 
+            //
             this.Shiny.DataPropertyName = "ShinyDisplay";
             this.Shiny.FillWeight = 30F;
-            this.Shiny.HeaderText = "!!!";
+            this.Shiny.HeaderText = "异色";
             this.Shiny.Name = "Shiny";
             this.Shiny.ReadOnly = true;
             this.Shiny.Visible = false;
             this.Shiny.Width = 31;
-            // 
+            //
             // Nature
-            // 
-            this.Nature.DataPropertyName = "Nature";
+            //
+            this.Nature.DataPropertyName = "性格";
             this.Nature.FillWeight = 80F;
-            this.Nature.HeaderText = "Nature";
-            this.Nature.Name = "Nature";
+            this.Nature.HeaderText = "性格";
+            this.Nature.Name = "性格";
             this.Nature.ReadOnly = true;
             this.Nature.Width = 65;
-            // 
+            //
             // Ability
-            // 
-            this.Ability.DataPropertyName = "Ability";
+            //
+            this.Ability.DataPropertyName = "特性";
             this.Ability.FillWeight = 50F;
-            this.Ability.HeaderText = "Ability";
-            this.Ability.Name = "Ability";
+            this.Ability.HeaderText = "特性";
+            this.Ability.Name = "特性";
             this.Ability.ReadOnly = true;
             this.Ability.Width = 40;
-            // 
+            //
             // CapHP
-            // 
+            //
             this.CapHP.DataPropertyName = "Hp";
             this.CapHP.FillWeight = 45F;
-            this.CapHP.HeaderText = "HP";
+            this.CapHP.HeaderText = "觉醒力量";
             this.CapHP.Name = "CapHP";
             this.CapHP.ReadOnly = true;
             this.CapHP.Width = 30;
-            // 
+            //
             // CapAtk
-            // 
-            this.CapAtk.DataPropertyName = "Atk";
+            //
+            this.CapAtk.DataPropertyName = "攻击";
             this.CapAtk.FillWeight = 45F;
-            this.CapAtk.HeaderText = "Atk";
+            this.CapAtk.HeaderText = "攻击";
             this.CapAtk.Name = "CapAtk";
             this.CapAtk.ReadOnly = true;
             this.CapAtk.Width = 30;
-            // 
+            //
             // CapDef
-            // 
-            this.CapDef.DataPropertyName = "Def";
+            //
+            this.CapDef.DataPropertyName = "防御";
             this.CapDef.FillWeight = 45F;
-            this.CapDef.HeaderText = "Def";
+            this.CapDef.HeaderText = "防御";
             this.CapDef.Name = "CapDef";
             this.CapDef.ReadOnly = true;
             this.CapDef.Width = 30;
-            // 
+            //
             // CapSpA
-            // 
-            this.CapSpA.DataPropertyName = "SpA";
+            //
+            this.CapSpA.DataPropertyName = "特攻";
             this.CapSpA.FillWeight = 45F;
-            this.CapSpA.HeaderText = "SpA";
+            this.CapSpA.HeaderText = "特攻";
             this.CapSpA.Name = "CapSpA";
             this.CapSpA.ReadOnly = true;
             this.CapSpA.Width = 30;
-            // 
+            //
             // CapSpD
-            // 
-            this.CapSpD.DataPropertyName = "SpD";
+            //
+            this.CapSpD.DataPropertyName = "特防";
             this.CapSpD.FillWeight = 45F;
-            this.CapSpD.HeaderText = "SpD";
+            this.CapSpD.HeaderText = "特防";
             this.CapSpD.Name = "CapSpD";
             this.CapSpD.ReadOnly = true;
             this.CapSpD.Width = 30;
-            // 
+            //
             // CapSpe
-            // 
-            this.CapSpe.DataPropertyName = "Spe";
+            //
+            this.CapSpe.DataPropertyName = "速度";
             this.CapSpe.FillWeight = 45F;
-            this.CapSpe.HeaderText = "Spe";
+            this.CapSpe.HeaderText = "速度";
             this.CapSpe.Name = "CapSpe";
             this.CapSpe.ReadOnly = true;
             this.CapSpe.Width = 30;
-            // 
+            //
             // HiddenPower
-            // 
+            //
             this.HiddenPower.DataPropertyName = "HiddenPowerType";
             this.HiddenPower.FillWeight = 80F;
-            this.HiddenPower.HeaderText = "Hidden";
+            this.HiddenPower.HeaderText = "觉醒力量";
             this.HiddenPower.Name = "HiddenPower";
             this.HiddenPower.ReadOnly = true;
             this.HiddenPower.Width = 50;
-            // 
+            //
             // HiddenPowerPower
-            // 
+            //
             this.HiddenPowerPower.DataPropertyName = "HiddenPowerPower";
             this.HiddenPowerPower.FillWeight = 50F;
-            this.HiddenPowerPower.HeaderText = "Power";
+            this.HiddenPowerPower.HeaderText = "觉醒力量威力";
             this.HiddenPowerPower.Name = "HiddenPowerPower";
             this.HiddenPowerPower.ReadOnly = true;
             this.HiddenPowerPower.Width = 50;
-            // 
+            //
             // f50
-            // 
+            //
             this.f50.DataPropertyName = "Female50";
             this.f50.FillWeight = 50F;
             this.f50.HeaderText = "50% F";
@@ -4879,9 +4879,9 @@ namespace RNGReporter
             this.f50.ReadOnly = true;
             this.f50.Visible = false;
             this.f50.Width = 50;
-            // 
+            //
             // f125
-            // 
+            //
             this.f125.DataPropertyName = "Female125";
             this.f125.FillWeight = 50F;
             this.f125.HeaderText = "12.5%F";
@@ -4889,9 +4889,9 @@ namespace RNGReporter
             this.f125.ReadOnly = true;
             this.f125.Visible = false;
             this.f125.Width = 50;
-            // 
+            //
             // f25
-            // 
+            //
             this.f25.DataPropertyName = "Female25";
             this.f25.FillWeight = 50F;
             this.f25.HeaderText = "25% F";
@@ -4899,9 +4899,9 @@ namespace RNGReporter
             this.f25.ReadOnly = true;
             this.f25.Visible = false;
             this.f25.Width = 50;
-            // 
+            //
             // f75
-            // 
+            //
             this.f75.DataPropertyName = "Female75";
             this.f75.FillWeight = 50F;
             this.f75.HeaderText = "75% F";
@@ -4909,18 +4909,18 @@ namespace RNGReporter
             this.f75.ReadOnly = true;
             this.f75.Visible = false;
             this.f75.Width = 50;
-            // 
+            //
             // CapDateTime
-            // 
+            //
             this.CapDateTime.DataPropertyName = "TimeDate";
             dataGridViewCellStyle6.Format = "MM/dd/yy HH:mm:ss";
             this.CapDateTime.DefaultCellStyle = dataGridViewCellStyle6;
-            this.CapDateTime.HeaderText = "Date\\Time";
+            this.CapDateTime.HeaderText = "日期\\时间";
             this.CapDateTime.Name = "CapDateTime";
             this.CapDateTime.ReadOnly = true;
-            // 
+            //
             // CapTimer0
-            // 
+            //
             this.CapTimer0.DataPropertyName = "Timer0";
             dataGridViewCellStyle7.Format = "X";
             this.CapTimer0.DefaultCellStyle = dataGridViewCellStyle7;
@@ -4929,52 +4929,52 @@ namespace RNGReporter
             this.CapTimer0.Name = "CapTimer0";
             this.CapTimer0.Visible = false;
             this.CapTimer0.Width = 45;
-            // 
+            //
             // CapKeypress
-            // 
-            this.CapKeypress.DataPropertyName = "Keypress";
-            this.CapKeypress.HeaderText = "Keypresses";
+            //
+            this.CapKeypress.DataPropertyName = "按键";
+            this.CapKeypress.HeaderText = "按键";
             this.CapKeypress.Name = "CapKeypress";
             this.CapKeypress.Visible = false;
             this.CapKeypress.Width = 120;
-            // 
+            //
             // Synchable
-            // 
-            this.Synchable.DataPropertyName = "Synchable";
-            this.Synchable.HeaderText = "Synchronized";
-            this.Synchable.Name = "Synchable";
+            //
+            this.Synchable.DataPropertyName = "同步能力";
+            this.Synchable.HeaderText = "同步";
+            this.Synchable.Name = "同步能力";
             this.Synchable.ReadOnly = true;
             this.Synchable.Visible = false;
             this.Synchable.Width = 151;
-            // 
+            //
             // CgearSeed
-            // 
+            //
             this.CgearSeed.DataPropertyName = "CSeed";
             dataGridViewCellStyle8.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             dataGridViewCellStyle8.Format = "X8";
             this.CgearSeed.DefaultCellStyle = dataGridViewCellStyle8;
-            this.CgearSeed.HeaderText = "C-Gear Seed";
+            this.CgearSeed.HeaderText = "Ｃ装置 Seed";
             this.CgearSeed.Name = "CgearSeed";
             this.CgearSeed.ReadOnly = true;
             this.CgearSeed.Width = 90;
-            // 
+            //
             // Delay
-            // 
+            //
             this.Delay.DataPropertyName = "Delay";
             this.Delay.HeaderText = "Delay";
             this.Delay.Name = "Delay";
             this.Delay.ReadOnly = true;
             this.Delay.Width = 60;
-            // 
+            //
             // TimeFinder5th
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(1100, 626);
             this.Controls.Add(this.tabControl);
             this.Controls.Add(this.groupBoxConfiguration);
             this.Name = "TimeFinder5th";
-            this.Text = "5th Generation Time Finder";
+            this.Text = "第五世代时间查找器";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PlatinumTime_FormClosing);
             this.Load += new System.EventHandler(this.PlatinumTime_Load);
             this.contextMenuStripCap.ResumeLayout(false);

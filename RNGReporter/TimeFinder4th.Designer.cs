@@ -228,9 +228,9 @@ namespace RNGReporter
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewShinyResults)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEggIVValues)).BeginInit();
             this.SuspendLayout();
-            // 
+            //
             // contextMenuStripEggPid
-            // 
+            //
             this.contextMenuStripEggPid.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.copySeedToClipboardToolStripMenuItem2,
             this.toolStripMenuItem7,
@@ -240,40 +240,40 @@ namespace RNGReporter
             this.contextMenuStripEggPid.Name = "contextMenuStripEggPid";
             this.contextMenuStripEggPid.Size = new System.Drawing.Size(201, 82);
             this.contextMenuStripEggPid.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStripEggPid_Opening);
-            // 
+            //
             // copySeedToClipboardToolStripMenuItem2
-            // 
+            //
             this.copySeedToClipboardToolStripMenuItem2.Name = "copySeedToClipboardToolStripMenuItem2";
             this.copySeedToClipboardToolStripMenuItem2.Size = new System.Drawing.Size(200, 22);
-            this.copySeedToClipboardToolStripMenuItem2.Text = "Copy Seed to Clipboard";
+            this.copySeedToClipboardToolStripMenuItem2.Text = "复制Seed到剪贴板";
             this.copySeedToClipboardToolStripMenuItem2.Click += new System.EventHandler(this.copySeedToClipboardToolStripMenuItem2_Click);
-            // 
+            //
             // toolStripMenuItem7
-            // 
+            //
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
             this.toolStripMenuItem7.Size = new System.Drawing.Size(197, 6);
-            // 
+            //
             // generateTimeToolStripMenuItem
-            // 
+            //
             this.generateTimeToolStripMenuItem.Name = "generateTimeToolStripMenuItem";
             this.generateTimeToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
-            this.generateTimeToolStripMenuItem.Text = "Generate More Times ...";
+            this.generateTimeToolStripMenuItem.Text = "复制seed到seed to time";
             this.generateTimeToolStripMenuItem.Click += new System.EventHandler(this.generateTimeToolStripMenuItem_Click);
-            // 
+            //
             // toolStripMenuItem4
-            // 
+            //
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
             this.toolStripMenuItem4.Size = new System.Drawing.Size(197, 6);
-            // 
+            //
             // outputResultsToTXTToolStripMenuItem1
-            // 
+            //
             this.outputResultsToTXTToolStripMenuItem1.Name = "outputResultsToTXTToolStripMenuItem1";
             this.outputResultsToTXTToolStripMenuItem1.Size = new System.Drawing.Size(200, 22);
-            this.outputResultsToTXTToolStripMenuItem1.Text = "Output Results to TXT ...";
+            this.outputResultsToTXTToolStripMenuItem1.Text = "输出结果至TXT文本文件";
             this.outputResultsToTXTToolStripMenuItem1.Click += new System.EventHandler(this.outputResultsToTXTToolStripMenuItem1_Click);
-            // 
+            //
             // contextMenuStrip
-            // 
+            //
             this.contextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.copySeedToClipboardToolStripMenuItem,
             this.toolStripMenuItem5,
@@ -287,67 +287,67 @@ namespace RNGReporter
             this.contextMenuStrip.Name = "contextMenuStrip";
             this.contextMenuStrip.Size = new System.Drawing.Size(224, 154);
             this.contextMenuStrip.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip_Opening);
-            // 
+            //
             // copySeedToClipboardToolStripMenuItem
-            // 
+            //
             this.copySeedToClipboardToolStripMenuItem.Name = "copySeedToClipboardToolStripMenuItem";
             this.copySeedToClipboardToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
-            this.copySeedToClipboardToolStripMenuItem.Text = "Copy Seed to Clipboard";
+            this.copySeedToClipboardToolStripMenuItem.Text = "复制Seed到剪贴板";
             this.copySeedToClipboardToolStripMenuItem.Click += new System.EventHandler(this.copySeedToClipboardToolStripMenuItem_Click);
-            // 
+            //
             // toolStripMenuItem5
-            // 
+            //
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
             this.toolStripMenuItem5.Size = new System.Drawing.Size(220, 6);
-            // 
+            //
             // setAsTargetFrameToolStripMenuItem
-            // 
+            //
             this.setAsTargetFrameToolStripMenuItem.Name = "setAsTargetFrameToolStripMenuItem";
             this.setAsTargetFrameToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
-            this.setAsTargetFrameToolStripMenuItem.Text = "Set as Target Frame";
+            this.setAsTargetFrameToolStripMenuItem.Text = "设为目标帧";
             this.setAsTargetFrameToolStripMenuItem.Click += new System.EventHandler(this.setAsTargetFrameToolStripMenuItem_Click);
-            // 
+            //
             // jumpToTargetFrameToolStripMenuItem
-            // 
+            //
             this.jumpToTargetFrameToolStripMenuItem.Name = "jumpToTargetFrameToolStripMenuItem";
             this.jumpToTargetFrameToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
-            this.jumpToTargetFrameToolStripMenuItem.Text = "Jump to Target Frame";
+            this.jumpToTargetFrameToolStripMenuItem.Text = "跳至目标帧";
             this.jumpToTargetFrameToolStripMenuItem.Click += new System.EventHandler(this.jumpToTargetFrameToolStripMenuItem_Click);
-            // 
+            //
             // toolStripMenuItem2
-            // 
+            //
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Size = new System.Drawing.Size(220, 6);
-            // 
+            //
             // generateAdjacentToolStripMenuItem
-            // 
+            //
             this.generateAdjacentToolStripMenuItem.Name = "generateAdjacentToolStripMenuItem";
             this.generateAdjacentToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
-            this.generateAdjacentToolStripMenuItem.Text = "Generate Adjacent Results ...";
+            this.generateAdjacentToolStripMenuItem.Text = "计算相邻结果...";
             this.generateAdjacentToolStripMenuItem.Click += new System.EventHandler(this.generateAdjacentToolStripMenuItem_Click);
-            // 
+            //
             // returnToResultsToolStripMenuItem
-            // 
+            //
             this.returnToResultsToolStripMenuItem.Name = "returnToResultsToolStripMenuItem";
             this.returnToResultsToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
-            this.returnToResultsToolStripMenuItem.Text = "Return to Results";
+            this.returnToResultsToolStripMenuItem.Text = "返回至结果";
             this.returnToResultsToolStripMenuItem.Visible = false;
             this.returnToResultsToolStripMenuItem.Click += new System.EventHandler(this.returnToResultsToolStripMenuItem_Click);
-            // 
+            //
             // toolStripMenuItem1
-            // 
+            //
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(220, 6);
-            // 
+            //
             // outputResultsToTXTToolStripMenuItem
-            // 
+            //
             this.outputResultsToTXTToolStripMenuItem.Name = "outputResultsToTXTToolStripMenuItem";
             this.outputResultsToTXTToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
-            this.outputResultsToTXTToolStripMenuItem.Text = "Output Results to TXT ...";
+            this.outputResultsToTXTToolStripMenuItem.Text = "输出结果至TXT文本文件";
             this.outputResultsToTXTToolStripMenuItem.Click += new System.EventHandler(this.outputResultsToTXTToolStripMenuItem_Click);
-            // 
+            //
             // tabPageEggIVs
-            // 
+            //
             this.tabPageEggIVs.Controls.Add(this.ivFiltersEgg);
             this.tabPageEggIVs.Controls.Add(this.radioButtonEggHGSS);
             this.tabPageEggIVs.Controls.Add(this.radioButtonEggDPPt);
@@ -388,21 +388,21 @@ namespace RNGReporter
             this.tabPageEggIVs.Padding = new System.Windows.Forms.Padding(3);
             this.tabPageEggIVs.Size = new System.Drawing.Size(991, 498);
             this.tabPageEggIVs.TabIndex = 0;
-            this.tabPageEggIVs.Text = "Egg IVs";
+            this.tabPageEggIVs.Text = "蛋个体值";
             this.tabPageEggIVs.UseVisualStyleBackColor = true;
-            // 
+            //
             // radioButtonEggHGSS
-            // 
+            //
             this.radioButtonEggHGSS.AutoSize = true;
             this.radioButtonEggHGSS.Location = new System.Drawing.Point(178, 127);
             this.radioButtonEggHGSS.Name = "radioButtonEggHGSS";
             this.radioButtonEggHGSS.Size = new System.Drawing.Size(131, 17);
             this.radioButtonEggHGSS.TabIndex = 19;
-            this.radioButtonEggHGSS.Text = "Heart Gold\\Soul Silver";
+            this.radioButtonEggHGSS.Text = "心金\\魂银";
             this.radioButtonEggHGSS.UseVisualStyleBackColor = true;
-            // 
+            //
             // radioButtonEggDPPt
-            // 
+            //
             this.radioButtonEggDPPt.AutoSize = true;
             this.radioButtonEggDPPt.Checked = true;
             this.radioButtonEggDPPt.Location = new System.Drawing.Point(27, 127);
@@ -410,127 +410,127 @@ namespace RNGReporter
             this.radioButtonEggDPPt.Size = new System.Drawing.Size(141, 17);
             this.radioButtonEggDPPt.TabIndex = 18;
             this.radioButtonEggDPPt.TabStop = true;
-            this.radioButtonEggDPPt.Text = "Diamond\\Pearl\\Platinum";
+            this.radioButtonEggDPPt.Text = "钻石\\珍珠\\白金";
             this.radioButtonEggDPPt.UseVisualStyleBackColor = true;
-            // 
+            //
             // checkBoxShowInheritance
-            // 
+            //
             this.checkBoxShowInheritance.AutoSize = true;
             this.checkBoxShowInheritance.Location = new System.Drawing.Point(178, 160);
             this.checkBoxShowInheritance.Name = "checkBoxShowInheritance";
             this.checkBoxShowInheritance.Size = new System.Drawing.Size(109, 17);
             this.checkBoxShowInheritance.TabIndex = 22;
-            this.checkBoxShowInheritance.Text = "Show Inheritance";
+            this.checkBoxShowInheritance.Text = "显示遗传来源";
             this.checkBoxShowInheritance.UseVisualStyleBackColor = true;
             this.checkBoxShowInheritance.CheckedChanged += new System.EventHandler(this.checkBoxShowInheritance_CheckedChanged);
-            // 
+            //
             // label29
-            // 
+            //
             this.label29.AutoSize = true;
             this.label29.Location = new System.Drawing.Point(256, 57);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(26, 13);
             this.label29.TabIndex = 100;
-            this.label29.Text = "Spe";
+            this.label29.Text = "速度";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label27
-            // 
+            //
             this.label27.AutoSize = true;
             this.label27.Location = new System.Drawing.Point(224, 57);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(28, 13);
             this.label27.TabIndex = 99;
-            this.label27.Text = "SpD";
+            this.label27.Text = "特防";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label25
-            // 
+            //
             this.label25.AutoSize = true;
             this.label25.Location = new System.Drawing.Point(191, 57);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(27, 13);
             this.label25.TabIndex = 98;
-            this.label25.Text = "SpA";
+            this.label25.Text = "特攻";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label24
-            // 
+            //
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(161, 57);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(24, 13);
             this.label24.TabIndex = 97;
-            this.label24.Text = "Def";
+            this.label24.Text = "防御";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label12
-            // 
+            //
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(130, 57);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(23, 13);
             this.label12.TabIndex = 96;
-            this.label12.Text = "Atk";
+            this.label12.Text = "攻击";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label11
-            // 
+            //
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(97, 57);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(22, 13);
             this.label11.TabIndex = 95;
-            this.label11.Text = "HP";
+            this.label11.Text = "觉醒力量";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // lblIVB
-            // 
+            //
             this.lblIVB.AutoSize = true;
             this.lblIVB.Location = new System.Drawing.Point(43, 99);
             this.lblIVB.Name = "lblIVB";
             this.lblIVB.Size = new System.Drawing.Size(48, 13);
             this.lblIVB.TabIndex = 87;
-            this.lblIVB.Text = "Parent B";
-            // 
+            this.lblIVB.Text = "父母B";
+            //
             // lblIVA
-            // 
+            //
             this.lblIVA.AutoSize = true;
             this.lblIVA.Location = new System.Drawing.Point(43, 75);
             this.lblIVA.Name = "lblIVA";
             this.lblIVA.Size = new System.Drawing.Size(48, 13);
             this.lblIVA.TabIndex = 86;
-            this.lblIVA.Text = "Parent A";
-            // 
+            this.lblIVA.Text = "父母A";
+            //
             // label14
-            // 
+            //
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(52, 9);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(29, 13);
             this.label14.TabIndex = 0;
-            this.label14.Text = "Year";
-            // 
+            this.label14.Text = "年份";
+            //
             // label5
-            // 
+            //
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(97, 9);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(85, 13);
             this.label5.TabIndex = 14;
-            this.label5.Text = "Min / Max Delay";
-            // 
+            this.label5.Text = "最小/最大Delay";
+            //
             // label3
-            // 
+            //
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(191, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(87, 13);
             this.label3.TabIndex = 12;
-            this.label3.Text = "Min / Max Frame";
-            // 
+            this.label3.Text = "最小/最大帧";
+            //
             // tabPageShinyEgg
-            // 
+            //
             this.tabPageShinyEgg.Controls.Add(this.labelHappinessWarning);
             this.tabPageShinyEgg.Controls.Add(this.checkBoxNoHappiness);
             this.tabPageShinyEgg.Controls.Add(this.label8);
@@ -563,61 +563,61 @@ namespace RNGReporter
             this.tabPageShinyEgg.Name = "tabPageShinyEgg";
             this.tabPageShinyEgg.Size = new System.Drawing.Size(991, 498);
             this.tabPageShinyEgg.TabIndex = 2;
-            this.tabPageShinyEgg.Text = "Shiny Egg";
+            this.tabPageShinyEgg.Text = "异色蛋";
             this.tabPageShinyEgg.UseVisualStyleBackColor = true;
-            // 
+            //
             // labelHappinessWarning
-            // 
+            //
             this.labelHappinessWarning.Location = new System.Drawing.Point(221, 84);
             this.labelHappinessWarning.Name = "labelHappinessWarning";
             this.labelHappinessWarning.Size = new System.Drawing.Size(269, 81);
             this.labelHappinessWarning.TabIndex = 325;
             this.labelHappinessWarning.Text = "It also assumes that you start the game from the coin flip application, and then " +
     "switch to the happiness checker application.\r\n";
-            // 
+            //
             // checkBoxNoHappiness
-            // 
+            //
             this.checkBoxNoHappiness.AutoSize = true;
             this.checkBoxNoHappiness.Location = new System.Drawing.Point(499, 50);
             this.checkBoxNoHappiness.Name = "checkBoxNoHappiness";
             this.checkBoxNoHappiness.Size = new System.Drawing.Size(149, 17);
             this.checkBoxNoHappiness.TabIndex = 8;
-            this.checkBoxNoHappiness.Text = "Avoid Happiness Checker";
+            this.checkBoxNoHappiness.Text = "不轻触亲密度检测器";
             this.checkBoxNoHappiness.UseVisualStyleBackColor = true;
             this.checkBoxNoHappiness.CheckedChanged += new System.EventHandler(this.checkBoxNoHappiness_CheckedChanged);
-            // 
+            //
             // label8
-            // 
+            //
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(496, 8);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(54, 13);
             this.label8.TabIndex = 322;
-            this.label8.Text = "Max Taps";
-            // 
+            this.label8.Text = "最大轻触下屏次数";
+            //
             // checkBoxIntlParents
-            // 
+            //
             this.checkBoxIntlParents.AutoSize = true;
             this.checkBoxIntlParents.Location = new System.Drawing.Point(55, 86);
             this.checkBoxIntlParents.Name = "checkBoxIntlParents";
             this.checkBoxIntlParents.Size = new System.Drawing.Size(123, 17);
             this.checkBoxIntlParents.TabIndex = 5;
-            this.checkBoxIntlParents.Text = "International Parents";
+            this.checkBoxIntlParents.Text = "国际婚姻";
             this.checkBoxIntlParents.UseVisualStyleBackColor = true;
-            // 
+            //
             // radioButtonHGSS
-            // 
+            //
             this.radioButtonHGSS.AutoSize = true;
             this.radioButtonHGSS.Location = new System.Drawing.Point(55, 67);
             this.radioButtonHGSS.Name = "radioButtonHGSS";
             this.radioButtonHGSS.Size = new System.Drawing.Size(131, 17);
             this.radioButtonHGSS.TabIndex = 4;
-            this.radioButtonHGSS.Text = "Heart Gold\\Soul Silver";
+            this.radioButtonHGSS.Text = "心金\\魂银";
             this.radioButtonHGSS.UseVisualStyleBackColor = true;
             this.radioButtonHGSS.CheckedChanged += new System.EventHandler(this.comboBoxShinyVersion_SelectedIndexChanged);
-            // 
+            //
             // radioButtonDPPt
-            // 
+            //
             this.radioButtonDPPt.AutoSize = true;
             this.radioButtonDPPt.Checked = true;
             this.radioButtonDPPt.Location = new System.Drawing.Point(55, 49);
@@ -625,94 +625,94 @@ namespace RNGReporter
             this.radioButtonDPPt.Size = new System.Drawing.Size(141, 17);
             this.radioButtonDPPt.TabIndex = 3;
             this.radioButtonDPPt.TabStop = true;
-            this.radioButtonDPPt.Text = "Diamond\\Pearl\\Platinum";
+            this.radioButtonDPPt.Text = "钻石\\珍珠\\白金";
             this.radioButtonDPPt.UseVisualStyleBackColor = true;
             this.radioButtonDPPt.CheckedChanged += new System.EventHandler(this.comboBoxShinyVersion_SelectedIndexChanged);
-            // 
+            //
             // label92
-            // 
+            //
             this.label92.AutoSize = true;
             this.label92.Location = new System.Drawing.Point(655, 94);
             this.label92.Name = "label92";
             this.label92.Size = new System.Drawing.Size(42, 13);
             this.label92.TabIndex = 317;
-            this.label92.Text = "Gender";
-            // 
+            this.label92.Text = "性别比例";
+            //
             // checkBoxShinyShinyOnly
-            // 
+            //
             this.checkBoxShinyShinyOnly.AutoSize = true;
             this.checkBoxShinyShinyOnly.Location = new System.Drawing.Point(700, 157);
             this.checkBoxShinyShinyOnly.Name = "checkBoxShinyShinyOnly";
             this.checkBoxShinyShinyOnly.Size = new System.Drawing.Size(76, 17);
             this.checkBoxShinyShinyOnly.TabIndex = 16;
-            this.checkBoxShinyShinyOnly.Text = "Shiny Only";
+            this.checkBoxShinyShinyOnly.Text = "仅异色";
             this.checkBoxShinyShinyOnly.UseVisualStyleBackColor = true;
-            // 
+            //
             // labelDPPtWarning
-            // 
+            //
             this.labelDPPtWarning.Location = new System.Drawing.Point(221, 11);
             this.labelDPPtWarning.Name = "labelDPPtWarning";
             this.labelDPPtWarning.Size = new System.Drawing.Size(269, 71);
             this.labelDPPtWarning.TabIndex = 117;
             this.labelDPPtWarning.Text = "Please note that number of flips and taps that are listed assume that you will al" +
     "so be doing 10 coin flips to verify your initial seed. ";
-            // 
+            //
             // labelShinySecretID
-            // 
+            //
             this.labelShinySecretID.AutoSize = true;
             this.labelShinySecretID.Location = new System.Drawing.Point(753, 117);
             this.labelShinySecretID.Name = "labelShinySecretID";
             this.labelShinySecretID.Size = new System.Drawing.Size(25, 13);
             this.labelShinySecretID.TabIndex = 23;
             this.labelShinySecretID.Text = "SID";
-            // 
+            //
             // labelShinyNature
-            // 
+            //
             this.labelShinyNature.AutoSize = true;
             this.labelShinyNature.Location = new System.Drawing.Point(660, 20);
             this.labelShinyNature.Name = "labelShinyNature";
             this.labelShinyNature.Size = new System.Drawing.Size(39, 13);
             this.labelShinyNature.TabIndex = 14;
-            this.labelShinyNature.Text = "Nature";
-            // 
+            this.labelShinyNature.Text = "性格";
+            //
             // labelShinyTrainerID
-            // 
+            //
             this.labelShinyTrainerID.AutoSize = true;
             this.labelShinyTrainerID.Location = new System.Drawing.Point(699, 117);
             this.labelShinyTrainerID.Name = "labelShinyTrainerID";
             this.labelShinyTrainerID.Size = new System.Drawing.Size(18, 13);
             this.labelShinyTrainerID.TabIndex = 21;
             this.labelShinyTrainerID.Text = "ID";
-            // 
+            //
             // labelShinyAbility
-            // 
+            //
             this.labelShinyAbility.AutoSize = true;
             this.labelShinyAbility.Location = new System.Drawing.Point(663, 47);
             this.labelShinyAbility.Name = "labelShinyAbility";
             this.labelShinyAbility.Size = new System.Drawing.Size(34, 13);
             this.labelShinyAbility.TabIndex = 20;
-            this.labelShinyAbility.Text = "Ability";
-            // 
+            this.labelShinyAbility.Text = "特性";
+            //
             // labelShinyDelay
-            // 
+            //
             this.labelShinyDelay.AutoSize = true;
             this.labelShinyDelay.Location = new System.Drawing.Point(97, 9);
             this.labelShinyDelay.Name = "labelShinyDelay";
             this.labelShinyDelay.Size = new System.Drawing.Size(85, 13);
             this.labelShinyDelay.TabIndex = 12;
-            this.labelShinyDelay.Text = "Min / Max Delay";
-            // 
+            this.labelShinyDelay.Text = "最小/最大Delay";
+            //
             // labelShinyYear
-            // 
+            //
             this.labelShinyYear.AutoSize = true;
             this.labelShinyYear.Location = new System.Drawing.Point(52, 9);
             this.labelShinyYear.Name = "labelShinyYear";
             this.labelShinyYear.Size = new System.Drawing.Size(29, 13);
             this.labelShinyYear.TabIndex = 2;
-            this.labelShinyYear.Text = "Year";
-            // 
+            this.labelShinyYear.Text = "年份";
+            //
             // tabPageCapture
-            // 
+            //
             this.tabPageCapture.Controls.Add(this.ivFiltersCapture);
             this.tabPageCapture.Controls.Add(this.comboBoxCapGenderRatio);
             this.tabPageCapture.Controls.Add(this.label2);
@@ -750,29 +750,29 @@ namespace RNGReporter
             this.tabPageCapture.Padding = new System.Windows.Forms.Padding(3);
             this.tabPageCapture.Size = new System.Drawing.Size(991, 498);
             this.tabPageCapture.TabIndex = 1;
-            this.tabPageCapture.Text = "Capture";
+            this.tabPageCapture.Text = "正常捕捉";
             this.tabPageCapture.UseVisualStyleBackColor = true;
-            // 
+            //
             // label2
-            // 
+            //
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(811, 95);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(32, 13);
             this.label2.TabIndex = 324;
-            this.label2.Text = "Ratio";
-            // 
+            this.label2.Text = "比例";
+            //
             // label31
-            // 
+            //
             this.label31.AutoSize = true;
             this.label31.Location = new System.Drawing.Point(698, 94);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(42, 13);
             this.label31.TabIndex = 321;
-            this.label31.Text = "Gender";
-            // 
+            this.label31.Text = "性别";
+            //
             // contextMenuStripCap
-            // 
+            //
             this.contextMenuStripCap.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.copySeedToClipboardToolStripMenuItem1,
             this.toolStripMenuItem6,
@@ -782,97 +782,97 @@ namespace RNGReporter
             this.contextMenuStripCap.Name = "contextMenuStripCap";
             this.contextMenuStripCap.Size = new System.Drawing.Size(201, 82);
             this.contextMenuStripCap.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStripCap_Opening);
-            // 
+            //
             // copySeedToClipboardToolStripMenuItem1
-            // 
+            //
             this.copySeedToClipboardToolStripMenuItem1.Name = "copySeedToClipboardToolStripMenuItem1";
             this.copySeedToClipboardToolStripMenuItem1.Size = new System.Drawing.Size(200, 22);
-            this.copySeedToClipboardToolStripMenuItem1.Text = "Copy Seed to Clipboard";
+            this.copySeedToClipboardToolStripMenuItem1.Text = "复制Seed到剪贴板";
             this.copySeedToClipboardToolStripMenuItem1.Click += new System.EventHandler(this.copySeedToClipboardToolStripMenuItem1_Click);
-            // 
+            //
             // toolStripMenuItem6
-            // 
+            //
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
             this.toolStripMenuItem6.Size = new System.Drawing.Size(197, 6);
-            // 
+            //
             // generateTimesToolStripMenuItem
-            // 
+            //
             this.generateTimesToolStripMenuItem.Name = "generateTimesToolStripMenuItem";
             this.generateTimesToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
-            this.generateTimesToolStripMenuItem.Text = "Generate More Times ...";
+            this.generateTimesToolStripMenuItem.Text = "复制seed到seed to time";
             this.generateTimesToolStripMenuItem.Click += new System.EventHandler(this.generateTimesToolStripMenuItem_Click);
-            // 
+            //
             // toolStripMenuItem3
-            // 
+            //
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             this.toolStripMenuItem3.Size = new System.Drawing.Size(197, 6);
-            // 
+            //
             // outputCapResultsToTXTToolStripMenuItem
-            // 
+            //
             this.outputCapResultsToTXTToolStripMenuItem.Name = "outputCapResultsToTXTToolStripMenuItem";
             this.outputCapResultsToTXTToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
-            this.outputCapResultsToTXTToolStripMenuItem.Text = "Output Results to TXT ...";
+            this.outputCapResultsToTXTToolStripMenuItem.Text = "输出结果至TXT文本文件";
             this.outputCapResultsToTXTToolStripMenuItem.Click += new System.EventHandler(this.outputCapResultsToTXTToolStripMenuItem_Click);
-            // 
+            //
             // label54
-            // 
+            //
             this.label54.AutoSize = true;
             this.label54.Location = new System.Drawing.Point(17, 104);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(77, 13);
             this.label54.TabIndex = 120;
-            this.label54.Text = "Encounter Slot";
+            this.label54.Text = "遭遇槽位";
             this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label52
-            // 
+            //
             this.label52.AutoSize = true;
             this.label52.Location = new System.Drawing.Point(12, 81);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(83, 13);
             this.label52.TabIndex = 121;
-            this.label52.Text = "Encounter Type";
+            this.label52.Text = "相遇类型";
             this.label52.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // labelCapMinMaxFrame
-            // 
+            //
             this.labelCapMinMaxFrame.AutoSize = true;
             this.labelCapMinMaxFrame.Location = new System.Drawing.Point(191, 9);
             this.labelCapMinMaxFrame.Name = "labelCapMinMaxFrame";
             this.labelCapMinMaxFrame.Size = new System.Drawing.Size(87, 13);
             this.labelCapMinMaxFrame.TabIndex = 107;
-            this.labelCapMinMaxFrame.Text = "Min / Max Frame";
-            // 
+            this.labelCapMinMaxFrame.Text = "最小/最大帧";
+            //
             // label22
-            // 
+            //
             this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(97, 9);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(85, 13);
             this.label22.TabIndex = 108;
-            this.label22.Text = "Min / Max Delay";
-            // 
+            this.label22.Text = "最小/最大Delay";
+            //
             // label20
-            // 
+            //
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(52, 9);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(29, 13);
             this.label20.TabIndex = 106;
-            this.label20.Text = "Year";
-            // 
+            this.label20.Text = "年份";
+            //
             // label30
-            // 
+            //
             this.label30.AutoSize = true;
             this.label30.Location = new System.Drawing.Point(51, 57);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(43, 13);
             this.label30.TabIndex = 113;
-            this.label30.Text = "Method";
+            this.label30.Text = "算法 ";
             this.label30.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
+            //
             // lblID
-            // 
+            //
             this.lblID.AutoSize = true;
             this.lblID.Location = new System.Drawing.Point(742, 117);
             this.lblID.Name = "lblID";
@@ -880,9 +880,9 @@ namespace RNGReporter
             this.lblID.TabIndex = 69;
             this.lblID.Text = "ID";
             this.lblID.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label26
-            // 
+            //
             this.label26.AutoSize = true;
             this.label26.Location = new System.Drawing.Point(796, 117);
             this.label26.Name = "label26";
@@ -890,40 +890,40 @@ namespace RNGReporter
             this.label26.TabIndex = 71;
             this.label26.Text = "SID";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // label23
-            // 
+            //
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(706, 47);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(34, 13);
             this.label23.TabIndex = 68;
-            this.label23.Text = "Ability";
-            // 
+            this.label23.Text = "特性";
+            //
             // checkBoxShinyOnly
-            // 
+            //
             this.checkBoxShinyOnly.AutoSize = true;
             this.checkBoxShinyOnly.Location = new System.Drawing.Point(743, 157);
             this.checkBoxShinyOnly.Name = "checkBoxShinyOnly";
             this.checkBoxShinyOnly.Size = new System.Drawing.Size(76, 17);
             this.checkBoxShinyOnly.TabIndex = 30;
-            this.checkBoxShinyOnly.Text = "Shiny Only";
+            this.checkBoxShinyOnly.Text = "仅异色";
             this.checkBoxShinyOnly.UseVisualStyleBackColor = true;
-            // 
+            //
             // label21
-            // 
+            //
             this.label21.AutoSize = true;
             this.label21.Location = new System.Drawing.Point(703, 20);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(39, 13);
             this.label21.TabIndex = 11;
-            this.label21.Text = "Nature";
+            this.label21.Text = "性格";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
+            //
             // tabControl
-            // 
-            this.tabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            //
+            this.tabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl.Controls.Add(this.tabPageCapture);
             this.tabControl.Controls.Add(this.tabPageShinyEgg);
@@ -933,40 +933,40 @@ namespace RNGReporter
             this.tabControl.SelectedIndex = 0;
             this.tabControl.Size = new System.Drawing.Size(999, 524);
             this.tabControl.TabIndex = 0;
-            // 
+            //
             // toolTipDataGrid
-            // 
+            //
             this.toolTipDataGrid.AutoPopDelay = 6000;
             this.toolTipDataGrid.InitialDelay = 300;
             this.toolTipDataGrid.ReshowDelay = 100;
-            this.toolTipDataGrid.ToolTipTitle = "Gender Ratio";
-            // 
+            this.toolTipDataGrid.ToolTipTitle = "性别比例";
+            //
             // toolTipGenderRatio
-            // 
+            //
             this.toolTipGenderRatio.AutoPopDelay = 6000;
             this.toolTipGenderRatio.InitialDelay = 300;
             this.toolTipGenderRatio.ReshowDelay = 100;
-            this.toolTipGenderRatio.ToolTipTitle = "Gender Ratio";
-            // 
+            this.toolTipGenderRatio.ToolTipTitle = "性别比例";
+            //
             // ivFiltersCapture
-            // 
+            //
             this.ivFiltersCapture.Location = new System.Drawing.Point(367, 6);
             this.ivFiltersCapture.Name = "ivFiltersCapture";
             this.ivFiltersCapture.Size = new System.Drawing.Size(315, 166);
             this.ivFiltersCapture.TabIndex = 325;
-            // 
+            //
             // comboBoxCapGenderRatio
-            // 
+            //
             this.comboBoxCapGenderRatio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxCapGenderRatio.ForeColor = System.Drawing.Color.Black;
             this.comboBoxCapGenderRatio.FormattingEnabled = true;
             this.comboBoxCapGenderRatio.Items.AddRange(new object[] {
-            "All Ratios",
+            "所有比例",
             "50% M / 50% F",
             "25% M / 75% F",
             "75% M / 25% F",
             "87.5% M / 12.5% F",
-            "Fixed Gender"});
+            "固定性别"});
             this.comboBoxCapGenderRatio.Location = new System.Drawing.Point(844, 90);
             this.comboBoxCapGenderRatio.MaxDropDownItems = 3;
             this.comboBoxCapGenderRatio.Name = "comboBoxCapGenderRatio";
@@ -977,35 +977,35 @@ namespace RNGReporter
         " filter out unwanted\r\nCute Charm results.\r\n");
             this.comboBoxCapGenderRatio.SelectedIndexChanged += new System.EventHandler(this.comboBoxCapGenderRatio_SelectedIndexChanged);
             this.comboBoxCapGenderRatio.MouseDown += new System.Windows.Forms.MouseEventHandler(this.comboBoxCapGenderRatio_MouseDown);
-            // 
+            //
             // comboBoxCapGender
-            // 
+            //
             this.comboBoxCapGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxCapGender.ForeColor = System.Drawing.Color.Black;
             this.comboBoxCapGender.FormattingEnabled = true;
             this.comboBoxCapGender.Items.AddRange(new object[] {
-            "Any",
-            "Male",
-            "Female"});
+            "任意",
+            "雄性",
+            "雌性"});
             this.comboBoxCapGender.Location = new System.Drawing.Point(743, 91);
             this.comboBoxCapGender.MaxDropDownItems = 3;
             this.comboBoxCapGender.Name = "comboBoxCapGender";
             this.comboBoxCapGender.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxCapGender.Size = new System.Drawing.Size(59, 21);
             this.comboBoxCapGender.TabIndex = 26;
-            // 
+            //
             // dataGridViewCapValues
-            // 
+            //
             this.dataGridViewCapValues.AllowUserToAddRows = false;
             this.dataGridViewCapValues.AllowUserToDeleteRows = false;
             this.dataGridViewCapValues.AllowUserToResizeRows = false;
-            this.dataGridViewCapValues.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dataGridViewCapValues.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewCapValues.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -1039,7 +1039,7 @@ namespace RNGReporter
             this.dataGridViewCapValues.ContextMenuStrip = this.contextMenuStripCap;
             dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -1051,7 +1051,7 @@ namespace RNGReporter
             this.dataGridViewCapValues.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -1073,11 +1073,11 @@ namespace RNGReporter
             this.dataGridViewCapValues.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridViewCapValues_ColumnHeaderMouseClick);
             this.dataGridViewCapValues.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridViewCapValues_KeyDown);
             this.dataGridViewCapValues.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridViewCapValues_MouseDown);
-            // 
+            //
             // buttonAnySlot
-            // 
+            //
             this.buttonAnySlot.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.buttonAnySlot.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.buttonAnySlot.Font = new System.Drawing.Font("宋体", 8.25F);
             this.buttonAnySlot.ForeColor = System.Drawing.Color.Black;
             this.buttonAnySlot.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonAnySlot.Location = new System.Drawing.Point(256, 98);
@@ -1087,12 +1087,12 @@ namespace RNGReporter
             this.buttonAnySlot.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonAnySlot.Size = new System.Drawing.Size(41, 22);
             this.buttonAnySlot.TabIndex = 8;
-            this.buttonAnySlot.Text = "Any";
+            this.buttonAnySlot.Text = "任意";
             this.buttonAnySlot.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonAnySlot.Click += new System.EventHandler(this.buttonAnySlot_Click);
-            // 
+            //
             // maskedTextBoxCapMinOffset
-            // 
+            //
             this.maskedTextBoxCapMinOffset.Hex = false;
             this.maskedTextBoxCapMinOffset.Location = new System.Drawing.Point(188, 24);
             this.maskedTextBoxCapMinOffset.Mask = "00000";
@@ -1100,23 +1100,23 @@ namespace RNGReporter
             this.maskedTextBoxCapMinOffset.Size = new System.Drawing.Size(44, 20);
             this.maskedTextBoxCapMinOffset.TabIndex = 3;
             this.maskedTextBoxCapMinOffset.Text = "1";
-            // 
+            //
             // comboBoxEncounterType
-            // 
+            //
             this.comboBoxEncounterType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxEncounterType.ForeColor = System.Drawing.Color.Black;
             this.comboBoxEncounterType.FormattingEnabled = true;
             this.comboBoxEncounterType.Items.AddRange(new object[] {
-            "Stationary\\Gift Pokémon"});
+            "定点\\礼物宝可梦"});
             this.comboBoxEncounterType.Location = new System.Drawing.Point(97, 76);
             this.comboBoxEncounterType.Name = "comboBoxEncounterType";
             this.comboBoxEncounterType.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxEncounterType.Size = new System.Drawing.Size(156, 21);
             this.comboBoxEncounterType.TabIndex = 6;
-            // 
+            //
             // comboBoxEncounterSlot
-            // 
-            this.comboBoxEncounterSlot.BlankText = "Any";
+            //
+            this.comboBoxEncounterSlot.BlankText = "任意";
             checkBoxProperties1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.comboBoxEncounterSlot.CheckBoxProperties = checkBoxProperties1;
             this.comboBoxEncounterSlot.DisplayMemberSingleItem = "";
@@ -1142,18 +1142,18 @@ namespace RNGReporter
             this.comboBoxEncounterSlot.Size = new System.Drawing.Size(156, 21);
             this.comboBoxEncounterSlot.TabIndex = 7;
             this.comboBoxEncounterSlot.MouseClick += new System.Windows.Forms.MouseEventHandler(this.FocusControl);
-            // 
+            //
             // maskedTextBoxCapMaxDelay
-            // 
+            //
             this.maskedTextBoxCapMaxDelay.Hex = false;
             this.maskedTextBoxCapMaxDelay.Location = new System.Drawing.Point(142, 24);
             this.maskedTextBoxCapMaxDelay.Mask = "00000";
             this.maskedTextBoxCapMaxDelay.Name = "maskedTextBoxCapMaxDelay";
             this.maskedTextBoxCapMaxDelay.Size = new System.Drawing.Size(41, 20);
             this.maskedTextBoxCapMaxDelay.TabIndex = 2;
-            // 
+            //
             // maskedTextBoxCapMinDelay
-            // 
+            //
             this.maskedTextBoxCapMinDelay.Hex = false;
             this.maskedTextBoxCapMinDelay.Location = new System.Drawing.Point(96, 24);
             this.maskedTextBoxCapMinDelay.Mask = "00000";
@@ -1161,9 +1161,9 @@ namespace RNGReporter
             this.maskedTextBoxCapMinDelay.Size = new System.Drawing.Size(41, 20);
             this.maskedTextBoxCapMinDelay.TabIndex = 1;
             this.maskedTextBoxCapMinDelay.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxCapYear
-            // 
+            //
             this.maskedTextBoxCapYear.Hex = false;
             this.maskedTextBoxCapYear.Location = new System.Drawing.Point(55, 24);
             this.maskedTextBoxCapYear.Mask = "0000";
@@ -1171,18 +1171,18 @@ namespace RNGReporter
             this.maskedTextBoxCapYear.Size = new System.Drawing.Size(35, 20);
             this.maskedTextBoxCapYear.TabIndex = 0;
             this.maskedTextBoxCapYear.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
+            //
             // maskedTextBoxCapMaxOffset
-            // 
+            //
             this.maskedTextBoxCapMaxOffset.Hex = false;
             this.maskedTextBoxCapMaxOffset.Location = new System.Drawing.Point(238, 24);
             this.maskedTextBoxCapMaxOffset.Mask = "00000";
             this.maskedTextBoxCapMaxOffset.Name = "maskedTextBoxCapMaxOffset";
             this.maskedTextBoxCapMaxOffset.Size = new System.Drawing.Size(44, 20);
             this.maskedTextBoxCapMaxOffset.TabIndex = 4;
-            // 
+            //
             // comboBoxMethod
-            // 
+            //
             this.comboBoxMethod.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxMethod.ForeColor = System.Drawing.Color.Black;
             this.comboBoxMethod.FormattingEnabled = true;
@@ -1192,9 +1192,9 @@ namespace RNGReporter
             this.comboBoxMethod.Size = new System.Drawing.Size(156, 21);
             this.comboBoxMethod.TabIndex = 5;
             this.comboBoxMethod.SelectedIndexChanged += new System.EventHandler(this.comboBoxMethod_SelectedIndexChanged);
-            // 
+            //
             // buttonCapGenerate
-            // 
+            //
             this.buttonCapGenerate.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonCapGenerate.ForeColor = System.Drawing.Color.Black;
             this.buttonCapGenerate.Location = new System.Drawing.Point(12, 157);
@@ -1203,13 +1203,13 @@ namespace RNGReporter
             this.buttonCapGenerate.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonCapGenerate.Size = new System.Drawing.Size(73, 23);
             this.buttonCapGenerate.TabIndex = 9;
-            this.buttonCapGenerate.Text = "Generate";
+            this.buttonCapGenerate.Text = "计算";
             this.buttonCapGenerate.Click += new System.EventHandler(this.buttonCapGenerate_Click);
-            // 
+            //
             // buttonAnyNature
-            // 
+            //
             this.buttonAnyNature.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.buttonAnyNature.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.buttonAnyNature.Font = new System.Drawing.Font("宋体", 8.25F);
             this.buttonAnyNature.ForeColor = System.Drawing.Color.Black;
             this.buttonAnyNature.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonAnyNature.Location = new System.Drawing.Point(922, 15);
@@ -1219,17 +1219,17 @@ namespace RNGReporter
             this.buttonAnyNature.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonAnyNature.Size = new System.Drawing.Size(41, 22);
             this.buttonAnyNature.TabIndex = 24;
-            this.buttonAnyNature.Text = "Any";
+            this.buttonAnyNature.Text = "任意";
             this.buttonAnyNature.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonAnyNature.Click += new System.EventHandler(this.buttonAnyNature_Click);
-            // 
+            //
             // comboBoxAbility
-            // 
+            //
             this.comboBoxAbility.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxAbility.ForeColor = System.Drawing.Color.Black;
             this.comboBoxAbility.FormattingEnabled = true;
             this.comboBoxAbility.Items.AddRange(new object[] {
-            "Any",
+            "任意",
             "Ability 0",
             "Ability 1"});
             this.comboBoxAbility.Location = new System.Drawing.Point(743, 43);
@@ -1237,9 +1237,9 @@ namespace RNGReporter
             this.comboBoxAbility.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxAbility.Size = new System.Drawing.Size(67, 21);
             this.comboBoxAbility.TabIndex = 25;
-            // 
+            //
             // maskedTextBoxID
-            // 
+            //
             this.maskedTextBoxID.Hex = false;
             this.maskedTextBoxID.Location = new System.Drawing.Point(743, 132);
             this.maskedTextBoxID.Mask = "00000";
@@ -1248,9 +1248,9 @@ namespace RNGReporter
             this.maskedTextBoxID.TabIndex = 28;
             this.maskedTextBoxID.Tag = "id/sid";
             this.maskedTextBoxID.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxSID
-            // 
+            //
             this.maskedTextBoxSID.Hex = false;
             this.maskedTextBoxSID.Location = new System.Drawing.Point(797, 132);
             this.maskedTextBoxSID.Mask = "00000";
@@ -1259,10 +1259,10 @@ namespace RNGReporter
             this.maskedTextBoxSID.TabIndex = 29;
             this.maskedTextBoxSID.Tag = "id/sid";
             this.maskedTextBoxSID.ValidatingType = typeof(int);
-            // 
+            //
             // comboBoxNature
-            // 
-            this.comboBoxNature.BlankText = "Any";
+            //
+            this.comboBoxNature.BlankText = "任意";
             checkBoxProperties2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.comboBoxNature.CheckBoxProperties = checkBoxProperties2;
             this.comboBoxNature.DisplayMemberSingleItem = "";
@@ -1274,19 +1274,19 @@ namespace RNGReporter
             this.comboBoxNature.Size = new System.Drawing.Size(176, 21);
             this.comboBoxNature.TabIndex = 23;
             this.comboBoxNature.MouseClick += new System.Windows.Forms.MouseEventHandler(this.FocusControl);
-            // 
+            //
             // dataGridViewShinyResults
-            // 
+            //
             this.dataGridViewShinyResults.AllowUserToAddRows = false;
             this.dataGridViewShinyResults.AllowUserToDeleteRows = false;
             this.dataGridViewShinyResults.AllowUserToOrderColumns = true;
             this.dataGridViewShinyResults.AllowUserToResizeRows = false;
-            this.dataGridViewShinyResults.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dataGridViewShinyResults.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -1310,7 +1310,7 @@ namespace RNGReporter
             this.dataGridViewShinyResults.ContextMenuStrip = this.contextMenuStripEggPid;
             dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -1322,7 +1322,7 @@ namespace RNGReporter
             this.dataGridViewShinyResults.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -1339,9 +1339,9 @@ namespace RNGReporter
             this.dataGridViewShinyResults.TabIndex = 17;
             this.dataGridViewShinyResults.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridViewShinyResults_CellFormatting);
             this.dataGridViewShinyResults.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridViewShinyResults_MouseDown);
-            // 
+            //
             // EggSeed
-            // 
+            //
             this.EggSeed.DataPropertyName = "Seed";
             dataGridViewCellStyle5.Font = new System.Drawing.Font("Consolas", 8.75F);
             this.EggSeed.DefaultCellStyle = dataGridViewCellStyle5;
@@ -1349,17 +1349,17 @@ namespace RNGReporter
             this.EggSeed.Name = "EggSeed";
             this.EggSeed.ReadOnly = true;
             this.EggSeed.Width = 65;
-            // 
+            //
             // ShinyOffset
-            // 
-            this.ShinyOffset.DataPropertyName = "Offset";
-            this.ShinyOffset.HeaderText = "Frame";
+            //
+            this.ShinyOffset.DataPropertyName = "偏移";
+            this.ShinyOffset.HeaderText = "帧数";
             this.ShinyOffset.Name = "ShinyOffset";
             this.ShinyOffset.ReadOnly = true;
             this.ShinyOffset.Width = 45;
-            // 
+            //
             // EggPID
-            // 
+            //
             this.EggPID.DataPropertyName = "Pid";
             dataGridViewCellStyle6.Font = new System.Drawing.Font("Consolas", 8.75F);
             this.EggPID.DefaultCellStyle = dataGridViewCellStyle6;
@@ -1367,98 +1367,98 @@ namespace RNGReporter
             this.EggPID.Name = "EggPID";
             this.EggPID.ReadOnly = true;
             this.EggPID.Width = 70;
-            // 
+            //
             // shinyShinyDisplay
-            // 
+            //
             this.shinyShinyDisplay.DataPropertyName = "ShinyDisplay";
-            this.shinyShinyDisplay.HeaderText = "!!!";
+            this.shinyShinyDisplay.HeaderText = "异色";
             this.shinyShinyDisplay.Name = "shinyShinyDisplay";
             this.shinyShinyDisplay.ReadOnly = true;
             this.shinyShinyDisplay.Width = 20;
-            // 
+            //
             // ShinyNature
-            // 
-            this.ShinyNature.DataPropertyName = "Nature";
-            this.ShinyNature.HeaderText = "Nature";
+            //
+            this.ShinyNature.DataPropertyName = "性格";
+            this.ShinyNature.HeaderText = "性格";
             this.ShinyNature.Name = "ShinyNature";
             this.ShinyNature.ReadOnly = true;
             this.ShinyNature.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.ShinyNature.Width = 75;
-            // 
+            //
             // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "Ability";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Ability";
+            //
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "特性";
+            this.dataGridViewTextBoxColumn4.HeaderText = "特性";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             this.dataGridViewTextBoxColumn4.ReadOnly = true;
             this.dataGridViewTextBoxColumn4.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.dataGridViewTextBoxColumn4.Width = 40;
-            // 
+            //
             // ShinyFemale50
-            // 
+            //
             this.ShinyFemale50.DataPropertyName = "Female50";
             this.ShinyFemale50.HeaderText = "50% F";
             this.ShinyFemale50.Name = "ShinyFemale50";
             this.ShinyFemale50.ReadOnly = true;
             this.ShinyFemale50.Width = 50;
-            // 
+            //
             // ShinyFemale25
-            // 
+            //
             this.ShinyFemale25.DataPropertyName = "Female25";
             this.ShinyFemale25.HeaderText = "25% F";
             this.ShinyFemale25.Name = "ShinyFemale25";
             this.ShinyFemale25.ReadOnly = true;
             this.ShinyFemale25.Width = 50;
-            // 
+            //
             // ShinyFemale125
-            // 
+            //
             this.ShinyFemale125.DataPropertyName = "Female125";
             this.ShinyFemale125.HeaderText = "12.5%F";
             this.ShinyFemale125.Name = "ShinyFemale125";
             this.ShinyFemale125.ReadOnly = true;
             this.ShinyFemale125.Width = 50;
-            // 
+            //
             // ShinyFemale75
-            // 
+            //
             this.ShinyFemale75.DataPropertyName = "Female75";
             this.ShinyFemale75.HeaderText = "75% F";
             this.ShinyFemale75.Name = "ShinyFemale75";
             this.ShinyFemale75.ReadOnly = true;
             this.ShinyFemale75.Width = 50;
-            // 
+            //
             // ShinyFlipSequence
-            // 
+            //
             this.ShinyFlipSequence.DataPropertyName = "FlipSequence";
-            this.ShinyFlipSequence.HeaderText = "Flip Sequence";
+            this.ShinyFlipSequence.HeaderText = "硬币序列";
             this.ShinyFlipSequence.Name = "ShinyFlipSequence";
             this.ShinyFlipSequence.ReadOnly = true;
             this.ShinyFlipSequence.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.ShinyFlipSequence.Width = 150;
-            // 
+            //
             // ShinyTaps
-            // 
+            //
             this.ShinyTaps.DataPropertyName = "Taps";
-            this.ShinyTaps.HeaderText = "Taps";
+            this.ShinyTaps.HeaderText = "轻触下屏次数";
             this.ShinyTaps.Name = "ShinyTaps";
             this.ShinyTaps.ReadOnly = true;
             this.ShinyTaps.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.ShinyTaps.Width = 50;
-            // 
+            //
             // ShinyFlips
-            // 
+            //
             this.ShinyFlips.DataPropertyName = "Flips";
-            this.ShinyFlips.HeaderText = "Additional Flips";
+            this.ShinyFlips.HeaderText = "还需掷硬币次数";
             this.ShinyFlips.Name = "ShinyFlips";
             this.ShinyFlips.ReadOnly = true;
             this.ShinyFlips.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
+            //
             // comboBoxShinyGender
-            // 
+            //
             this.comboBoxShinyGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxShinyGender.ForeColor = System.Drawing.Color.Black;
             this.comboBoxShinyGender.FormattingEnabled = true;
             this.comboBoxShinyGender.Items.AddRange(new object[] {
-            "Don\'t Care/Fixed Gender/Genderless",
+            "不考虑/固定性别/无性别",
             "Female (50% Male, 50% Female)",
             "Male (50% Male, 50% Female)",
             "Female (25% Male, 75% Female)",
@@ -1473,11 +1473,11 @@ namespace RNGReporter
             this.comboBoxShinyGender.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxShinyGender.Size = new System.Drawing.Size(220, 21);
             this.comboBoxShinyGender.TabIndex = 13;
-            // 
+            //
             // buttonShinyClearAbility
-            // 
+            //
             this.buttonShinyClearAbility.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.buttonShinyClearAbility.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.buttonShinyClearAbility.Font = new System.Drawing.Font("宋体", 8.25F);
             this.buttonShinyClearAbility.ForeColor = System.Drawing.Color.Black;
             this.buttonShinyClearAbility.Location = new System.Drawing.Point(784, 42);
             this.buttonShinyClearAbility.Name = "buttonShinyClearAbility";
@@ -1486,16 +1486,16 @@ namespace RNGReporter
             this.buttonShinyClearAbility.Size = new System.Drawing.Size(46, 22);
             this.buttonShinyClearAbility.TabIndex = 12;
             this.buttonShinyClearAbility.TabStop = false;
-            this.buttonShinyClearAbility.Text = "Any";
+            this.buttonShinyClearAbility.Text = "任意";
             this.buttonShinyClearAbility.Click += new System.EventHandler(this.buttonShinyClearAbility_Click);
-            // 
+            //
             // comboBoxShinyAbility
-            // 
+            //
             this.comboBoxShinyAbility.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxShinyAbility.ForeColor = System.Drawing.Color.Black;
             this.comboBoxShinyAbility.FormattingEnabled = true;
             this.comboBoxShinyAbility.Items.AddRange(new object[] {
-            "Any",
+            "任意",
             "Ability 0",
             "Ability 1"});
             this.comboBoxShinyAbility.Location = new System.Drawing.Point(700, 43);
@@ -1504,9 +1504,9 @@ namespace RNGReporter
             this.comboBoxShinyAbility.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxShinyAbility.Size = new System.Drawing.Size(76, 21);
             this.comboBoxShinyAbility.TabIndex = 11;
-            // 
+            //
             // buttonShinyGenerate
-            // 
+            //
             this.buttonShinyGenerate.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonShinyGenerate.ForeColor = System.Drawing.Color.Black;
             this.buttonShinyGenerate.Location = new System.Drawing.Point(12, 157);
@@ -1515,13 +1515,13 @@ namespace RNGReporter
             this.buttonShinyGenerate.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonShinyGenerate.Size = new System.Drawing.Size(73, 23);
             this.buttonShinyGenerate.TabIndex = 6;
-            this.buttonShinyGenerate.Text = "Generate";
+            this.buttonShinyGenerate.Text = "计算";
             this.buttonShinyGenerate.Click += new System.EventHandler(this.buttonShinyGenerate_Click);
-            // 
+            //
             // buttonShinyClearNature
-            // 
+            //
             this.buttonShinyClearNature.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.buttonShinyClearNature.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.buttonShinyClearNature.Font = new System.Drawing.Font("宋体", 8.25F);
             this.buttonShinyClearNature.ForeColor = System.Drawing.Color.Black;
             this.buttonShinyClearNature.Location = new System.Drawing.Point(784, 14);
             this.buttonShinyClearNature.Name = "buttonShinyClearNature";
@@ -1530,11 +1530,11 @@ namespace RNGReporter
             this.buttonShinyClearNature.Size = new System.Drawing.Size(46, 22);
             this.buttonShinyClearNature.TabIndex = 10;
             this.buttonShinyClearNature.TabStop = false;
-            this.buttonShinyClearNature.Text = "Any";
+            this.buttonShinyClearNature.Text = "任意";
             this.buttonShinyClearNature.Click += new System.EventHandler(this.buttonShinyClearNature_Click);
-            // 
+            //
             // comboBoxShinyNature
-            // 
+            //
             this.comboBoxShinyNature.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxShinyNature.ForeColor = System.Drawing.Color.Black;
             this.comboBoxShinyNature.FormattingEnabled = true;
@@ -1545,9 +1545,9 @@ namespace RNGReporter
             this.comboBoxShinyNature.Size = new System.Drawing.Size(76, 21);
             this.comboBoxShinyNature.TabIndex = 9;
             this.comboBoxShinyNature.MouseClick += new System.Windows.Forms.MouseEventHandler(this.FocusControl);
-            // 
+            //
             // maskedTextBoxMaxTaps
-            // 
+            //
             this.maskedTextBoxMaxTaps.Hex = false;
             this.maskedTextBoxMaxTaps.Location = new System.Drawing.Point(499, 24);
             this.maskedTextBoxMaxTaps.Mask = "000";
@@ -1555,9 +1555,9 @@ namespace RNGReporter
             this.maskedTextBoxMaxTaps.Size = new System.Drawing.Size(44, 20);
             this.maskedTextBoxMaxTaps.TabIndex = 7;
             this.maskedTextBoxMaxTaps.Text = "10";
-            // 
+            //
             // maskedTextBoxShinySecretID
-            // 
+            //
             this.maskedTextBoxShinySecretID.Hex = false;
             this.maskedTextBoxShinySecretID.Location = new System.Drawing.Point(754, 132);
             this.maskedTextBoxShinySecretID.Mask = "00000";
@@ -1566,9 +1566,9 @@ namespace RNGReporter
             this.maskedTextBoxShinySecretID.TabIndex = 15;
             this.maskedTextBoxShinySecretID.Tag = "id/sid";
             this.maskedTextBoxShinySecretID.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
+            //
             // maskedTextBoxShinyID
-            // 
+            //
             this.maskedTextBoxShinyID.Hex = false;
             this.maskedTextBoxShinyID.Location = new System.Drawing.Point(700, 132);
             this.maskedTextBoxShinyID.Mask = "00000";
@@ -1577,9 +1577,9 @@ namespace RNGReporter
             this.maskedTextBoxShinyID.TabIndex = 14;
             this.maskedTextBoxShinyID.Tag = "id/sid";
             this.maskedTextBoxShinyID.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
+            //
             // maskedTextBoxShinyMaxDelay
-            // 
+            //
             this.maskedTextBoxShinyMaxDelay.Hex = false;
             this.maskedTextBoxShinyMaxDelay.Location = new System.Drawing.Point(142, 24);
             this.maskedTextBoxShinyMaxDelay.Mask = "00000";
@@ -1587,9 +1587,9 @@ namespace RNGReporter
             this.maskedTextBoxShinyMaxDelay.Size = new System.Drawing.Size(40, 20);
             this.maskedTextBoxShinyMaxDelay.TabIndex = 2;
             this.maskedTextBoxShinyMaxDelay.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
+            //
             // maskedTextBoxShinyMinDelay
-            // 
+            //
             this.maskedTextBoxShinyMinDelay.Hex = false;
             this.maskedTextBoxShinyMinDelay.Location = new System.Drawing.Point(96, 24);
             this.maskedTextBoxShinyMinDelay.Mask = "00000";
@@ -1597,9 +1597,9 @@ namespace RNGReporter
             this.maskedTextBoxShinyMinDelay.Size = new System.Drawing.Size(41, 20);
             this.maskedTextBoxShinyMinDelay.TabIndex = 1;
             this.maskedTextBoxShinyMinDelay.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
+            //
             // maskedTextBoxShinyYear
-            // 
+            //
             this.maskedTextBoxShinyYear.Hex = false;
             this.maskedTextBoxShinyYear.Location = new System.Drawing.Point(55, 24);
             this.maskedTextBoxShinyYear.Mask = "0000";
@@ -1607,25 +1607,25 @@ namespace RNGReporter
             this.maskedTextBoxShinyYear.Size = new System.Drawing.Size(35, 20);
             this.maskedTextBoxShinyYear.TabIndex = 0;
             this.maskedTextBoxShinyYear.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
+            //
             // ivFiltersEgg
-            // 
+            //
             this.ivFiltersEgg.Location = new System.Drawing.Point(315, 6);
             this.ivFiltersEgg.Name = "ivFiltersEgg";
             this.ivFiltersEgg.Size = new System.Drawing.Size(315, 166);
             this.ivFiltersEgg.TabIndex = 101;
-            // 
+            //
             // dataGridViewEggIVValues
-            // 
+            //
             this.dataGridViewEggIVValues.AllowUserToAddRows = false;
             this.dataGridViewEggIVValues.AllowUserToDeleteRows = false;
             this.dataGridViewEggIVValues.AllowUserToResizeRows = false;
-            this.dataGridViewEggIVValues.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dataGridViewEggIVValues.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -1647,7 +1647,7 @@ namespace RNGReporter
             this.dataGridViewEggIVValues.ContextMenuStrip = this.contextMenuStrip;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -1659,7 +1659,7 @@ namespace RNGReporter
             this.dataGridViewEggIVValues.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("宋体", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -1676,97 +1676,97 @@ namespace RNGReporter
             this.dataGridViewEggIVValues.TabIndex = 35;
             this.dataGridViewEggIVValues.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridViewValues_CellFormatting);
             this.dataGridViewEggIVValues.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridViewValues_MouseDown);
-            // 
+            //
             // Seed
-            // 
+            //
             this.Seed.DataPropertyName = "Seed";
             this.Seed.HeaderText = "Seed";
             this.Seed.Name = "Seed";
             this.Seed.ReadOnly = true;
             this.Seed.Width = 60;
-            // 
+            //
             // Date
-            // 
+            //
             this.Date.DataPropertyName = "SeedTime";
-            this.Date.HeaderText = "Date";
-            this.Date.Name = "Date";
+            this.Date.HeaderText = "日期";
+            this.Date.Name = "日期";
             this.Date.ReadOnly = true;
             this.Date.Width = 120;
-            // 
+            //
             // Delay
-            // 
+            //
             this.Delay.DataPropertyName = "Delay";
             this.Delay.HeaderText = "Delay";
             this.Delay.Name = "Delay";
             this.Delay.ReadOnly = true;
             this.Delay.Width = 40;
-            // 
+            //
             // Offset
-            // 
-            this.Offset.DataPropertyName = "Offset";
-            this.Offset.HeaderText = "Frame";
-            this.Offset.Name = "Offset";
+            //
+            this.Offset.DataPropertyName = "偏移";
+            this.Offset.HeaderText = "帧数";
+            this.Offset.Name = "偏移";
             this.Offset.ReadOnly = true;
             this.Offset.Width = 40;
-            // 
+            //
             // HP
-            // 
+            //
             this.HP.DataPropertyName = "Hp";
-            this.HP.HeaderText = "HP";
-            this.HP.Name = "HP";
+            this.HP.HeaderText = "觉醒力量";
+            this.HP.Name = "觉醒力量";
             this.HP.ReadOnly = true;
             this.HP.Width = 30;
-            // 
+            //
             // Atk
-            // 
-            this.Atk.DataPropertyName = "Atk";
-            this.Atk.HeaderText = "Atk";
-            this.Atk.Name = "Atk";
+            //
+            this.Atk.DataPropertyName = "攻击";
+            this.Atk.HeaderText = "攻击";
+            this.Atk.Name = "攻击";
             this.Atk.ReadOnly = true;
             this.Atk.Width = 30;
-            // 
+            //
             // Def
-            // 
-            this.Def.DataPropertyName = "Def";
-            this.Def.HeaderText = "Def";
-            this.Def.Name = "Def";
+            //
+            this.Def.DataPropertyName = "防御";
+            this.Def.HeaderText = "防御";
+            this.Def.Name = "防御";
             this.Def.ReadOnly = true;
             this.Def.Width = 30;
-            // 
+            //
             // SpA
-            // 
+            //
             this.SpA.DataPropertyName = "Spa";
-            this.SpA.HeaderText = "SpA";
-            this.SpA.Name = "SpA";
+            this.SpA.HeaderText = "特攻";
+            this.SpA.Name = "特攻";
             this.SpA.ReadOnly = true;
             this.SpA.Width = 30;
-            // 
+            //
             // SpD
-            // 
+            //
             this.SpD.DataPropertyName = "Spd";
-            this.SpD.HeaderText = "SpD";
-            this.SpD.Name = "SpD";
+            this.SpD.HeaderText = "特防";
+            this.SpD.Name = "特防";
             this.SpD.ReadOnly = true;
             this.SpD.Width = 30;
-            // 
+            //
             // Spe
-            // 
-            this.Spe.DataPropertyName = "Spe";
-            this.Spe.HeaderText = "Spe";
-            this.Spe.Name = "Spe";
+            //
+            this.Spe.DataPropertyName = "速度";
+            this.Spe.HeaderText = "速度";
+            this.Spe.Name = "速度";
             this.Spe.ReadOnly = true;
             this.Spe.Width = 30;
-            // 
+            //
             // Flips
-            // 
+            //
             this.Flips.DataPropertyName = "Flips";
-            this.Flips.HeaderText = "Flip Sequence";
+            this.Flips.HeaderText = "硬币序列";
             this.Flips.Name = "Flips";
             this.Flips.ReadOnly = true;
             this.Flips.Width = 400;
-            // 
+            //
             // button1
-            // 
+            //
             this.button1.BackColor = System.Drawing.Color.AntiqueWhite;
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(93, 157);
@@ -1775,11 +1775,11 @@ namespace RNGReporter
             this.button1.ShineColor = System.Drawing.SystemColors.Window;
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 21;
-            this.button1.Text = "Search Flips";
+            this.button1.Text = "硬币反查";
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
+            //
             // buttonEggGenerate
-            // 
+            //
             this.buttonEggGenerate.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonEggGenerate.ForeColor = System.Drawing.Color.Black;
             this.buttonEggGenerate.Location = new System.Drawing.Point(12, 157);
@@ -1788,11 +1788,11 @@ namespace RNGReporter
             this.buttonEggGenerate.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonEggGenerate.Size = new System.Drawing.Size(73, 23);
             this.buttonEggGenerate.TabIndex = 20;
-            this.buttonEggGenerate.Text = "Generate";
+            this.buttonEggGenerate.Text = "计算";
             this.buttonEggGenerate.Click += new System.EventHandler(this.buttonGenerate_Click);
-            // 
+            //
             // maskedTextBoxDefB
-            // 
+            //
             this.maskedTextBoxDefB.Hex = false;
             this.maskedTextBoxDefB.Location = new System.Drawing.Point(160, 96);
             this.maskedTextBoxDefB.Mask = "00";
@@ -1801,9 +1801,9 @@ namespace RNGReporter
             this.maskedTextBoxDefB.TabIndex = 14;
             this.maskedTextBoxDefB.Tag = "ivs";
             this.maskedTextBoxDefB.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxAtkB
-            // 
+            //
             this.maskedTextBoxAtkB.Hex = false;
             this.maskedTextBoxAtkB.Location = new System.Drawing.Point(129, 96);
             this.maskedTextBoxAtkB.Mask = "00";
@@ -1812,9 +1812,9 @@ namespace RNGReporter
             this.maskedTextBoxAtkB.TabIndex = 12;
             this.maskedTextBoxAtkB.Tag = "ivs";
             this.maskedTextBoxAtkB.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxSpeB
-            // 
+            //
             this.maskedTextBoxSpeB.Hex = false;
             this.maskedTextBoxSpeB.Location = new System.Drawing.Point(256, 96);
             this.maskedTextBoxSpeB.Mask = "00";
@@ -1823,9 +1823,9 @@ namespace RNGReporter
             this.maskedTextBoxSpeB.TabIndex = 17;
             this.maskedTextBoxSpeB.Tag = "ivs";
             this.maskedTextBoxSpeB.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxSpDB
-            // 
+            //
             this.maskedTextBoxSpDB.Hex = false;
             this.maskedTextBoxSpDB.Location = new System.Drawing.Point(224, 96);
             this.maskedTextBoxSpDB.Mask = "00";
@@ -1834,9 +1834,9 @@ namespace RNGReporter
             this.maskedTextBoxSpDB.TabIndex = 16;
             this.maskedTextBoxSpDB.Tag = "ivs";
             this.maskedTextBoxSpDB.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxSpAB
-            // 
+            //
             this.maskedTextBoxSpAB.Hex = false;
             this.maskedTextBoxSpAB.Location = new System.Drawing.Point(192, 96);
             this.maskedTextBoxSpAB.Mask = "00";
@@ -1845,9 +1845,9 @@ namespace RNGReporter
             this.maskedTextBoxSpAB.TabIndex = 15;
             this.maskedTextBoxSpAB.Tag = "ivs";
             this.maskedTextBoxSpAB.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxHPB
-            // 
+            //
             this.maskedTextBoxHPB.Hex = false;
             this.maskedTextBoxHPB.Location = new System.Drawing.Point(97, 96);
             this.maskedTextBoxHPB.Mask = "00";
@@ -1855,9 +1855,9 @@ namespace RNGReporter
             this.maskedTextBoxHPB.Size = new System.Drawing.Size(27, 20);
             this.maskedTextBoxHPB.TabIndex = 11;
             this.maskedTextBoxHPB.Tag = "ivs";
-            // 
+            //
             // maskedTextBoxDefA
-            // 
+            //
             this.maskedTextBoxDefA.Hex = false;
             this.maskedTextBoxDefA.Location = new System.Drawing.Point(160, 72);
             this.maskedTextBoxDefA.Mask = "00";
@@ -1866,9 +1866,9 @@ namespace RNGReporter
             this.maskedTextBoxDefA.TabIndex = 7;
             this.maskedTextBoxDefA.Tag = "ivs";
             this.maskedTextBoxDefA.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxAtkA
-            // 
+            //
             this.maskedTextBoxAtkA.Hex = false;
             this.maskedTextBoxAtkA.Location = new System.Drawing.Point(129, 72);
             this.maskedTextBoxAtkA.Mask = "00";
@@ -1877,9 +1877,9 @@ namespace RNGReporter
             this.maskedTextBoxAtkA.TabIndex = 6;
             this.maskedTextBoxAtkA.Tag = "ivs";
             this.maskedTextBoxAtkA.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxSpeA
-            // 
+            //
             this.maskedTextBoxSpeA.Hex = false;
             this.maskedTextBoxSpeA.Location = new System.Drawing.Point(256, 72);
             this.maskedTextBoxSpeA.Mask = "00";
@@ -1888,9 +1888,9 @@ namespace RNGReporter
             this.maskedTextBoxSpeA.TabIndex = 10;
             this.maskedTextBoxSpeA.Tag = "ivs";
             this.maskedTextBoxSpeA.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxSpDA
-            // 
+            //
             this.maskedTextBoxSpDA.Hex = false;
             this.maskedTextBoxSpDA.Location = new System.Drawing.Point(224, 72);
             this.maskedTextBoxSpDA.Mask = "00";
@@ -1899,9 +1899,9 @@ namespace RNGReporter
             this.maskedTextBoxSpDA.TabIndex = 9;
             this.maskedTextBoxSpDA.Tag = "ivs";
             this.maskedTextBoxSpDA.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxSpAA
-            // 
+            //
             this.maskedTextBoxSpAA.Hex = false;
             this.maskedTextBoxSpAA.Location = new System.Drawing.Point(192, 72);
             this.maskedTextBoxSpAA.Mask = "00";
@@ -1910,9 +1910,9 @@ namespace RNGReporter
             this.maskedTextBoxSpAA.TabIndex = 8;
             this.maskedTextBoxSpAA.Tag = "ivs";
             this.maskedTextBoxSpAA.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxHPA
-            // 
+            //
             this.maskedTextBoxHPA.Hex = false;
             this.maskedTextBoxHPA.Location = new System.Drawing.Point(97, 72);
             this.maskedTextBoxHPA.Mask = "00";
@@ -1920,27 +1920,27 @@ namespace RNGReporter
             this.maskedTextBoxHPA.Size = new System.Drawing.Size(27, 20);
             this.maskedTextBoxHPA.TabIndex = 5;
             this.maskedTextBoxHPA.Tag = "ivs";
-            // 
+            //
             // maskedTextBoxMaxOffset
-            // 
+            //
             this.maskedTextBoxMaxOffset.Hex = false;
             this.maskedTextBoxMaxOffset.Location = new System.Drawing.Point(238, 24);
             this.maskedTextBoxMaxOffset.Mask = "00";
             this.maskedTextBoxMaxOffset.Name = "maskedTextBoxMaxOffset";
             this.maskedTextBoxMaxOffset.Size = new System.Drawing.Size(44, 20);
             this.maskedTextBoxMaxOffset.TabIndex = 4;
-            // 
+            //
             // maskedTextBoxMinOffset
-            // 
+            //
             this.maskedTextBoxMinOffset.Hex = false;
             this.maskedTextBoxMinOffset.Location = new System.Drawing.Point(188, 24);
             this.maskedTextBoxMinOffset.Mask = "00";
             this.maskedTextBoxMinOffset.Name = "maskedTextBoxMinOffset";
             this.maskedTextBoxMinOffset.Size = new System.Drawing.Size(44, 20);
             this.maskedTextBoxMinOffset.TabIndex = 3;
-            // 
+            //
             // maskedTextBoxYear
-            // 
+            //
             this.maskedTextBoxYear.Hex = false;
             this.maskedTextBoxYear.Location = new System.Drawing.Point(55, 24);
             this.maskedTextBoxYear.Mask = "0000";
@@ -1948,9 +1948,9 @@ namespace RNGReporter
             this.maskedTextBoxYear.Size = new System.Drawing.Size(35, 20);
             this.maskedTextBoxYear.TabIndex = 0;
             this.maskedTextBoxYear.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
+            //
             // maskedTextBoxMinDelay
-            // 
+            //
             this.maskedTextBoxMinDelay.Hex = false;
             this.maskedTextBoxMinDelay.Location = new System.Drawing.Point(96, 24);
             this.maskedTextBoxMinDelay.Mask = "00000";
@@ -1958,18 +1958,18 @@ namespace RNGReporter
             this.maskedTextBoxMinDelay.Size = new System.Drawing.Size(41, 20);
             this.maskedTextBoxMinDelay.TabIndex = 1;
             this.maskedTextBoxMinDelay.ValidatingType = typeof(int);
-            // 
+            //
             // maskedTextBoxMaxDelay
-            // 
+            //
             this.maskedTextBoxMaxDelay.Hex = false;
             this.maskedTextBoxMaxDelay.Location = new System.Drawing.Point(142, 24);
             this.maskedTextBoxMaxDelay.Mask = "00000";
             this.maskedTextBoxMaxDelay.Name = "maskedTextBoxMaxDelay";
             this.maskedTextBoxMaxDelay.Size = new System.Drawing.Size(41, 20);
             this.maskedTextBoxMaxDelay.TabIndex = 2;
-            // 
+            //
             // CapSeed
-            // 
+            //
             this.CapSeed.DataPropertyName = "Seed";
             dataGridViewCellStyle10.Font = new System.Drawing.Font("Consolas", 8.75F);
             this.CapSeed.DefaultCellStyle = dataGridViewCellStyle10;
@@ -1979,43 +1979,43 @@ namespace RNGReporter
             this.CapSeed.ReadOnly = true;
             this.CapSeed.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
             this.CapSeed.Width = 65;
-            // 
+            //
             // ShinyPatchFrame
-            // 
+            //
             this.ShinyPatchFrame.DataPropertyName = "PatchFrame";
-            this.ShinyPatchFrame.HeaderText = "✨Patch Frame";
+            this.ShinyPatchFrame.HeaderText = "✨补丁帧";
             this.ShinyPatchFrame.Name = "ShinyPatchFrame";
             this.ShinyPatchFrame.ReadOnly = true;
             this.ShinyPatchFrame.Visible = false;
             this.ShinyPatchFrame.Width = 85;
-            // 
+            //
             // CapOffset
-            // 
-            this.CapOffset.DataPropertyName = "Offset";
-            this.CapOffset.HeaderText = "Frame";
+            //
+            this.CapOffset.DataPropertyName = "偏移";
+            this.CapOffset.HeaderText = "帧数";
             this.CapOffset.Name = "CapOffset";
             this.CapOffset.ReadOnly = true;
             this.CapOffset.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
             this.CapOffset.Width = 45;
-            // 
+            //
             // Hour
-            // 
-            this.Hour.DataPropertyName = "Hour";
-            this.Hour.HeaderText = "Hour";
-            this.Hour.Name = "Hour";
+            //
+            this.Hour.DataPropertyName = "时";
+            this.Hour.HeaderText = "时";
+            this.Hour.Name = "时";
             this.Hour.ReadOnly = true;
             this.Hour.Width = 40;
-            // 
+            //
             // EncounterMod
-            // 
+            //
             this.EncounterMod.DataPropertyName = "EncounterMod";
-            this.EncounterMod.HeaderText = "Required Lead";
+            this.EncounterMod.HeaderText = "需要首发";
             this.EncounterMod.Name = "EncounterMod";
             this.EncounterMod.ReadOnly = true;
             this.EncounterMod.Width = 115;
-            // 
+            //
             // PID
-            // 
+            //
             this.PID.DataPropertyName = "Pid";
             dataGridViewCellStyle11.Font = new System.Drawing.Font("Consolas", 8.75F);
             this.PID.DefaultCellStyle = dataGridViewCellStyle11;
@@ -2023,144 +2023,144 @@ namespace RNGReporter
             this.PID.Name = "PID";
             this.PID.ReadOnly = true;
             this.PID.Width = 70;
-            // 
+            //
             // EncounterSlot
-            // 
+            //
             this.EncounterSlot.DataPropertyName = "EncounterSlot";
             this.EncounterSlot.FillWeight = 50F;
-            this.EncounterSlot.HeaderText = "Encounter Slot";
+            this.EncounterSlot.HeaderText = "遭遇槽位";
             this.EncounterSlot.Name = "EncounterSlot";
             this.EncounterSlot.ReadOnly = true;
             this.EncounterSlot.Width = 85;
-            // 
+            //
             // Shiny
-            // 
+            //
             this.Shiny.DataPropertyName = "ShinyDisplay";
-            this.Shiny.HeaderText = "!!!";
+            this.Shiny.HeaderText = "异色";
             this.Shiny.Name = "Shiny";
             this.Shiny.ReadOnly = true;
             this.Shiny.Width = 20;
-            // 
+            //
             // Nature
-            // 
-            this.Nature.DataPropertyName = "Nature";
-            this.Nature.HeaderText = "Nature";
-            this.Nature.Name = "Nature";
+            //
+            this.Nature.DataPropertyName = "性格";
+            this.Nature.HeaderText = "性格";
+            this.Nature.Name = "性格";
             this.Nature.ReadOnly = true;
             this.Nature.Width = 65;
-            // 
+            //
             // Ability
-            // 
-            this.Ability.DataPropertyName = "Ability";
-            this.Ability.HeaderText = "Ability";
-            this.Ability.Name = "Ability";
+            //
+            this.Ability.DataPropertyName = "特性";
+            this.Ability.HeaderText = "特性";
+            this.Ability.Name = "特性";
             this.Ability.ReadOnly = true;
             this.Ability.Width = 40;
-            // 
+            //
             // CapHP
-            // 
+            //
             this.CapHP.DataPropertyName = "Hp";
-            this.CapHP.HeaderText = "HP";
+            this.CapHP.HeaderText = "觉醒力量";
             this.CapHP.Name = "CapHP";
             this.CapHP.ReadOnly = true;
             this.CapHP.Width = 30;
-            // 
+            //
             // CapAtk
-            // 
-            this.CapAtk.DataPropertyName = "Atk";
-            this.CapAtk.HeaderText = "Atk";
+            //
+            this.CapAtk.DataPropertyName = "攻击";
+            this.CapAtk.HeaderText = "攻击";
             this.CapAtk.Name = "CapAtk";
             this.CapAtk.ReadOnly = true;
             this.CapAtk.Width = 30;
-            // 
+            //
             // CapDef
-            // 
-            this.CapDef.DataPropertyName = "Def";
-            this.CapDef.HeaderText = "Def";
+            //
+            this.CapDef.DataPropertyName = "防御";
+            this.CapDef.HeaderText = "防御";
             this.CapDef.Name = "CapDef";
             this.CapDef.ReadOnly = true;
             this.CapDef.Width = 30;
-            // 
+            //
             // CapSpA
-            // 
-            this.CapSpA.DataPropertyName = "SpA";
-            this.CapSpA.HeaderText = "SpA";
+            //
+            this.CapSpA.DataPropertyName = "特攻";
+            this.CapSpA.HeaderText = "特攻";
             this.CapSpA.Name = "CapSpA";
             this.CapSpA.ReadOnly = true;
             this.CapSpA.Width = 30;
-            // 
+            //
             // CapSpD
-            // 
-            this.CapSpD.DataPropertyName = "SpD";
-            this.CapSpD.HeaderText = "SpD";
+            //
+            this.CapSpD.DataPropertyName = "特防";
+            this.CapSpD.HeaderText = "特防";
             this.CapSpD.Name = "CapSpD";
             this.CapSpD.ReadOnly = true;
             this.CapSpD.Width = 30;
-            // 
+            //
             // CapSpe
-            // 
-            this.CapSpe.DataPropertyName = "Spe";
-            this.CapSpe.HeaderText = "Spe";
+            //
+            this.CapSpe.DataPropertyName = "速度";
+            this.CapSpe.HeaderText = "速度";
             this.CapSpe.Name = "CapSpe";
             this.CapSpe.ReadOnly = true;
             this.CapSpe.Width = 30;
-            // 
+            //
             // HiddenPower
-            // 
+            //
             this.HiddenPower.DataPropertyName = "HiddenPowerType";
-            this.HiddenPower.HeaderText = "Hidden";
+            this.HiddenPower.HeaderText = "觉醒力量";
             this.HiddenPower.Name = "HiddenPower";
             this.HiddenPower.ReadOnly = true;
             this.HiddenPower.Width = 50;
-            // 
+            //
             // HiddenPowerPower
-            // 
+            //
             this.HiddenPowerPower.DataPropertyName = "HiddenPowerPower";
-            this.HiddenPowerPower.HeaderText = "Power";
+            this.HiddenPowerPower.HeaderText = "觉醒力量威力";
             this.HiddenPowerPower.Name = "HiddenPowerPower";
             this.HiddenPowerPower.ReadOnly = true;
             this.HiddenPowerPower.Width = 50;
-            // 
+            //
             // f50
-            // 
+            //
             this.f50.DataPropertyName = "Female50";
             this.f50.HeaderText = "50% F";
             this.f50.Name = "f50";
             this.f50.ReadOnly = true;
             this.f50.Width = 50;
-            // 
+            //
             // f125
-            // 
+            //
             this.f125.DataPropertyName = "Female125";
             this.f125.HeaderText = "12.5%F";
             this.f125.Name = "f125";
             this.f125.ReadOnly = true;
             this.f125.Width = 50;
-            // 
+            //
             // f25
-            // 
+            //
             this.f25.DataPropertyName = "Female25";
             this.f25.HeaderText = "25% F";
             this.f25.Name = "f25";
             this.f25.ReadOnly = true;
             this.f25.Width = 50;
-            // 
+            //
             // f75
-            // 
+            //
             this.f75.DataPropertyName = "Female75";
             this.f75.HeaderText = "75% F";
             this.f75.Name = "f75";
             this.f75.ReadOnly = true;
             this.f75.Width = 50;
-            // 
+            //
             // TimeFinder4th
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(1024, 548);
             this.Controls.Add(this.tabControl);
             this.Name = "TimeFinder4th";
-            this.Text = "4th Generation Time Finder";
+            this.Text = "第四世代时间查找器";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PlatinumTime_FormClosing);
             this.Load += new System.EventHandler(this.TimeFinder4th_Load);
             this.contextMenuStripEggPid.ResumeLayout(false);

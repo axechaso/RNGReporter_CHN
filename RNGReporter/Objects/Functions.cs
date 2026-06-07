@@ -33,7 +33,7 @@ namespace RNGReporter.Objects
 
         public static readonly string[] buttonStrings = new[]
             {
-                "None",
+                "无",
                 "Start",
                 "Select",
                 "A",
@@ -42,8 +42,8 @@ namespace RNGReporter.Objects
                 "Left",
                 "Up",
                 "Down",
-                "R",
-                "L",
+                "雷公",
+                "拉帝欧斯\\拉迪亚斯",
                 "X",
                 "Y"
             };
@@ -83,12 +83,12 @@ namespace RNGReporter.Objects
         {
             if (nature == -2)
             {
-                return "Any";
+                return "任意";
             }
 
             if (nature == -1)
             {
-                return "None";
+                return "无";
             }
 
             switch ((Language) Settings.Default.Language)
@@ -114,53 +114,53 @@ namespace RNGReporter.Objects
         {
             switch(nature)
             {
-                case "Hardy":
+                case "勤奋":
                     return 0;
-                case "Lonely":
+                case "怕寂寞":
                     return 1;
-                case "Brave":
+                case "勇敢":
                     return 2;
-                case "Adamant":
+                case "固执":
                     return 3;
-                case "Naughty":
+                case "顽皮":
                     return 4;
-                case "Bold":
+                case "大胆":
                     return 5;
-                case "Docile":
+                case "坦率":
                     return 6;
-                case "Relaxed":
+                case "悠闲":
                     return 7;
-                case "Impish":
+                case "淘气":
                     return 8;
-                case "Lax":
+                case "乐天":
                     return 9;
-                case "Timid":
+                case "胆小":
                     return 10;
-                case "Hasty":
+                case "急躁":
                     return 11;
-                case "Serious":
+                case "认真":
                     return 12;
-                case "Jolly":
+                case "爽朗":
                     return 13;
-                case "Naive":
+                case "天真":
                     return 14;
-                case "Modest":
+                case "内敛":
                     return 15;
-                case "Mild":
+                case "慢吞吞":
                     return 16;
-                case "Quiet":
+                case "冷静":
                     return 17;
-                case "Bashful":
+                case "害羞":
                     return 18;
-                case "Rash":
+                case "马虎":
                     return 19;
-                case "Calm":
+                case "温和":
                     return 20;
-                case "Gentle":
+                case "温顺":
                     return 21;
-                case "Sassy":
+                case "自大":
                     return 22;
-                case "Careful":
+                case "慎重":
                     return 23;
                 default:
                     return 24;
@@ -612,7 +612,7 @@ namespace RNGReporter.Objects
             return result;
         }
 
-        //----------------------------------------------------------------------------------------------------------------------        
+        //----------------------------------------------------------------------------------------------------------------------
 
         public static int GenderRatio(int species)
         {
@@ -624,7 +624,7 @@ namespace RNGReporter.Objects
                 return 3;
             else if (Pokemon.getFixedGender().Contains(species))    // Genderless / Fixed Gender
                 return 4;
-            return 0;                                               // 50% 
+            return 0;                                               // 50%
         }
 
         public static int GenderLockedCase(int gender, int GenderRatio)

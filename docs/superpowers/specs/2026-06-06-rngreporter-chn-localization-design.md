@@ -30,6 +30,8 @@ Do not redesign localization architecture in this pass. Keep the existing projec
 
 Reuse the CHN reference wording where the same source text or UI role exists. Keep established RNG terms and abbreviations stable, including `PID`, `SID`, `TID`, `IV`, `Seed`, `Frame`, `Method`, and game generation labels when translating them would reduce clarity for the existing audience.
 
+For Pokemon-specific names, use 52Poke / 神奇宝贝百科 terminology as the reference. This includes Pokemon species, moves, abilities, items, locations, and named in-game systems such as `C-Gear`, `Entralink`, and `Pass Power`.
+
 For new translations, prefer concise Chinese UI text that fits the existing WinForms layout. When a long English label becomes too wide in Chinese, adjust only the local control size or text wrapping needed to prevent clipping. Do not change calculations or event logic for translation-only edits.
 
 ## Implementation Shape
