@@ -127,13 +127,12 @@
     <value>452, 17</value>
   </metadata>
   <data name="textBoxChatot.ToolTip" xml:space="preserve">
-    <value>一只聒噪鸟有一个录音后的喋喋不休（不是原本的叫声）则可以用来推进帧数
-	每次在这只聒噪鸟的状态面板查看时，听到他发出你的录音（不用听完），则帧数+1。
-	每一帧的叫声音高也不同。通过倾听仔细地分辨出音高，才有可能确定当前的帧数
+    <value>录制过喋喋不休的聒噪鸟（不是普通叫声）在状态界面每叫一声，RNG 就会推进 1 帧。
+每一帧的叫声音高都不同，仔细分辨音高，可以用来判断当前帧。
 
-    "Low"表示低音，"High"表示高音。这些括号内的数字表示可以听到音高的细微区别，这可能被训练有素的耳朵察觉到
+"Low" 表示低音，"High" 表示高音。括号内的数字表示细微音高差异，听力熟练时可能可以分辨。
 
-    L = Low, ML = Mid-Low(中低音), M = Mid(中音), MH = Mid-High(中高音), H = High</value>
+L = Low, ML = Mid-Low（中低音）, M = Mid（中音）, MH = Mid-High（中高音）, H = High</value>
   </data>
   <metadata name="Timer0.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

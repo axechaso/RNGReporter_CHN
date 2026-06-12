@@ -74,7 +74,7 @@ namespace RNGReporter
             // But Visual Studio seems to like deleting them without warning
             comboBoxMethod.Items.AddRange(new object[]
                 {
-                    new ComboBoxItem("算法 1", FrameType.Method1),
+                    new ComboBoxItem("Method 1", FrameType.Method1),
                     new ComboBoxItem("Method 1 Reverse PID", FrameType.Method1Reverse),
                     new ComboBoxItem("Method 2 (Gen 3)", FrameType.Method2),
                     new ComboBoxItem("Method 4 (Gen 3)", FrameType.Method4),
@@ -97,8 +97,8 @@ namespace RNGReporter
                     new ComboBoxItem("孵蛋（心金魂银）", FrameType.HGSSBred),
                     new ComboBoxItem("孵蛋（黑白）", FrameType.BWBred),
                     new ComboBoxItem("孵蛋（黑白，异国）", FrameType.BWBredInternational),
-                    new ComboBoxItem("神秘卡片个体值（GEN4）", FrameType.WondercardIVs),
-                    new ComboBoxItem("神秘卡片（GEN5）", FrameType.Wondercard5thGen),
+                    new ComboBoxItem("神秘礼物个体值（GEN4）", FrameType.WondercardIVs),
+                    new ComboBoxItem("神秘礼物（GEN5）", FrameType.Wondercard5thGen),
                     new ComboBoxItem("圆形竞技场\\XD暗之旋风", FrameType.ColoXD),
                     new ComboBoxItem("宝可梦频道", FrameType.Channel),
                     new ComboBoxItem("Pickup (Gen 5)", FrameType.Gen5Pickup),
@@ -846,7 +846,7 @@ namespace RNGReporter
             {
                 if (WCdata == null)
                 {
-                    if (MessageBox.Show("你需要先导入神秘卡片（.pgf 文件）。现在导入吗？",
+                    if (MessageBox.Show("你需要先导入神秘礼物（.pgf 文件）。现在导入吗？",
                         "警告", MessageBoxButtons.YesNo) == DialogResult.Yes)
                     {
                         MainImportWC_Click(null, null);
@@ -2203,7 +2203,7 @@ namespace RNGReporter
         private void comboBoxMethod_SelectedIndexChanged(object sender, EventArgs e)
         {
             string[] encounterMenu;
-            string previousEncounter = "Wild Pokémon (Tall Grass)";
+            string previousEncounter = "野生宝可梦（草丛）";
             if (comboBoxEncounterType.SelectedItem != null)
                 previousEncounter = comboBoxEncounterType.SelectedItem.ToString();
 
@@ -2211,13 +2211,13 @@ namespace RNGReporter
             {
                 encounterMenu = new[]
                     {
-                        "Wild Pokémon (Tall Grass)",
-                        "Wild Pokémon (Surfing)",
+                        "野生宝可梦（草丛）",
+                        "野生宝可梦（冲浪）",
                         "野生宝可梦（破旧钓竿）",
                         "野生宝可梦（好钓竿）",
                         "野生宝可梦（厉害钓竿）",
                         "定点宝可梦",
-                        "Bug-Catching Contest",
+                        "捕虫大赛",
                         "狩猎地带",
                         "头锤树"
                     };
@@ -2230,8 +2230,8 @@ namespace RNGReporter
             {
                 encounterMenu = new[]
                     {
-                        "Wild Pokémon (Tall Grass)",
-                        "Wild Pokémon (Surfing)",
+                        "野生宝可梦（草丛）",
+                        "野生宝可梦（冲浪）",
                         "野生宝可梦（破旧钓竿）",
                         "野生宝可梦（好钓竿）",
                         "野生宝可梦（厉害钓竿）",
@@ -2245,9 +2245,9 @@ namespace RNGReporter
             {
                 encounterMenu = new[]
                     {
-                        "Wild Pokémon (Tall Grass)",
-                        "Wild Pokemon (Poké Radar)",
-                        "Wild Pokémon (Surfing)",
+                        "野生宝可梦（草丛）",
+                        "野生宝可梦（宝可追踪）",
+                        "野生宝可梦（冲浪）",
                         "野生宝可梦（破旧钓竿）",
                         "野生宝可梦（好钓竿）",
                         "野生宝可梦（厉害钓竿）",
@@ -2261,25 +2261,25 @@ namespace RNGReporter
             {
                 encounterMenu = new[]
                     {
-                        "Wild Pokémon (Tall Grass)",
-                        "Wild Pokémon (Dark Grass)",
-                        "野生宝可梦（虫之预感）",
-                        "Wild Pokémon (Surfing)",
-                        "Wild Pokémon (Fishing)",
+                        "野生宝可梦（草丛）",
+                        "野生宝可梦（深色草丛）",
+                        "野生宝可梦（大量出现）",
+                        "野生宝可梦（冲浪）",
+                        "野生宝可梦（垂钓）",
                         "野生宝可梦（摇动草丛）",
                         "野生宝可梦（水纹水面）",
-                        "Wild Pokémon (Fishing Spot)",
+                        "野生宝可梦（钓鱼点）",
                         "野生宝可梦（卷尘地面）",
-                        "Wild Pokémon (Flying Shadow)",
-                        "Roaming Pokémon",
+                        "野生宝可梦（飞行影子）",
+                        "游走宝可梦",
                         "定点宝可梦",
                         "礼物宝可梦",
-                        "Jellicent",
-                        "Larvesta/Happiny Egg",
-                        "Haxorus (Forced Shiny)",
-                        "Gible/Dratini (Forced Shiny)",
+                        "胖嘟嘟",
+                        "燃烧虫/小福蛋的蛋",
+                        "双斧战龙（强制异色）",
+                        "圆陆鲨/迷你龙（强制异色）",
                         "连入之森宝可梦",
-                        "Hidden Grotto (Shiny Locked)"
+                        "隐藏洞穴（锁定非异色）"
                     };
 
                 comboBoxEncounterType.DataSource = encounterMenu;
@@ -2289,9 +2289,9 @@ namespace RNGReporter
             {
                 encounterMenu = new[]
                     {
-                        "Wild Pokémon (Tall Grass)",
+                        "野生宝可梦（草丛）",
                         "定点宝可梦",
-                        "Roaming Pokémon",
+                        "游走宝可梦",
                         "礼物宝可梦"
                     };
 
@@ -2301,7 +2301,7 @@ namespace RNGReporter
             {
                 encounterMenu = new[]
                     {
-                        "普通神秘卡片",
+                        "普通神秘礼物",
                         "玛纳霏的蛋"
                     };
 
@@ -2311,7 +2311,7 @@ namespace RNGReporter
             {
                 encounterMenu = new[]
                     {
-                        "Wild Pokémon (Tall Grass)"
+                        "野生宝可梦（草丛）"
                     };
             }
 
@@ -2475,7 +2475,7 @@ namespace RNGReporter
                 comboBoxEncounterType.SelectedIndex != 5 &&
                 comboBoxEncounterType.SelectedIndex >= 2 && comboBoxEncounterType.SelectedIndex <= 7;
 
-            if (CheckEncType("Gible/Dratini (Forced Shiny)"))
+            if (CheckEncType("圆陆鲨/迷你龙（强制异色）"))
             {
                 comboBoxGender.SelectedIndex = 1;
                 comboBoxGender.Enabled = false;
@@ -3135,13 +3135,11 @@ namespace RNGReporter
                 {
                     toolTipDataGrid.ToolTipTitle = "聒噪鸟音高";
 
-                    toolTipDataGrid.Show("A Chatot with a recorded Chatter (not its normal cry) advances the RNG\r\n" +
-                                         "by 1 frame every time its call is heard on the status screen.\r\n" +
-                                         "The pitch of the cry is also different for each frame.  By listening\r\n" +
-                                         "carefully to the pitches, it is possible to determine the current frame.\r\n\r\n" +
-                                         "\"Low\" indicates a low pitch and \"High\", a higher pitch.  The numbers\r\n" +
-                                         "in parentheses indicate slight variations in pitch that may be detectable\r\n" +
-                                         "by a well-trained ear.",
+                    toolTipDataGrid.Show("录制过喋喋不休的聒噪鸟（不是普通叫声）在状态界面每叫一声，\r\n" +
+                                         "RNG 就会推进 1 帧。每一帧的叫声音高都不同，仔细分辨音高，\r\n" +
+                                         "可以用来判断当前帧。\r\n\r\n" +
+                                         "\"Low\" 表示低音，\"High\" 表示高音。括号内的数字表示细微音高差异，\r\n" +
+                                         "听力熟练时可能可以分辨。",
                                          this,
                                          dataGridViewValues.Location.X + cellRect.X + cellRect.Size.Width,
                                          dataGridViewValues.Location.Y + cellRect.Y + cellRect.Size.Height,
@@ -3383,8 +3381,8 @@ namespace RNGReporter
         {
             OpenFileDialog openFileDialog = new OpenFileDialog()
             {
-                Filter = "第五世代神秘卡片 |*.pgf",
-                Title = "选择神秘卡片文件"
+                Filter = "第五世代神秘礼物 |*.pgf",
+                Title = "选择神秘礼物文件"
             };
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
@@ -3392,7 +3390,7 @@ namespace RNGReporter
                 WCdata = br.ReadBytes(204);
                 Wondercard wc = setWC(WCdata);
                 MessageBox.Show(
-                    "神秘卡片加载成功：" + "\n\n" +
+                    "神秘礼物加载成功：" + "\n\n" +
                     "TID: " + wc.eventTid + "\n" +
                     "SID: " + wc.eventSid + "\n\n" +
                     "性格: " + (wc.eventNature == -1 ? "随机" : Functions.NatureStrings(wc.eventNature)) + "\n" +

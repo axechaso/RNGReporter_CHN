@@ -157,31 +157,34 @@ namespace RNGReporter.Objects
             switch (encounterType)
             {
                 case "草丛":
+                case "野生宝可梦":
+                case "野生宝可梦（草丛）":
                     return EncounterType.Wild;
                 case "深色草丛":
+                case "野生宝可梦（深色草丛）":
                     return EncounterType.WildDarkGrass;
                 case "大量出现":
+                case "野生宝可梦（大量出现）":
                     return EncounterType.WildSwarm;
                 case "冲浪":
+                case "野生宝可梦（冲浪）":
                     return EncounterType.WildSurfing;
                 case "垂钓":
+                case "野生宝可梦（垂钓）":
                     return EncounterType.WildSuperRod;
                 case "飞行影子":
+                case "野生宝可梦（飞行影子）":
                     return EncounterType.WildShadow;
-                case "游走宝可梦":
-                    return EncounterType.Roamer;
-                case "燃烧虫/小福蛋的蛋":
-                    return EncounterType.LarvestaHappiny;
                 case "胖嘟嘟":
                     return EncounterType.JellicentHA;
+                case "野生宝可梦（宝可追踪）":
+                    return EncounterType.WildRadar;
                 case "Wild Pokémon (Tall Grass)":
                     return EncounterType.Wild;
                 case "Wild Pokemon (Poké Radar)":
                     return EncounterType.WildRadar;
                 case "Wild Pokémon (Dark Grass)":
                     return EncounterType.WildDarkGrass;
-                case "野生宝可梦（冲浪）":
-                    return EncounterType.WildSurfing;
                 case "Wild Pokémon (Fishing)":
                     return EncounterType.WildSuperRod;
                 case "野生宝可梦（破旧钓竿）":
@@ -190,19 +193,19 @@ namespace RNGReporter.Objects
                     return EncounterType.WildGoodRod;
                 case "野生宝可梦（厉害钓竿）":
                     return EncounterType.WildSuperRod;
-                case "野生宝可梦（虫之预感）":
-                    return EncounterType.WildSwarm;
                 case "野生宝可梦（摇动草丛）":
                     return EncounterType.WildShakerGrass;
                 case "野生宝可梦（水纹水面）":
                     return EncounterType.WildWaterSpot;
                 case "Wild Pokémon (Fishing Spot)":
+                case "野生宝可梦（钓鱼点）":
                     return EncounterType.WildFishingSpot;
                 case "野生宝可梦（卷尘地面）":
                     return EncounterType.WildCaveSpot;
                 case "Wild Pokémon (Flying Shadow)":
                     return EncounterType.WildShadow;
                 case "Roaming Pokémon":
+                case "游走宝可梦":
                     return EncounterType.Roamer;
                 case "定点宝可梦":
                     return EncounterType.Stationary;
@@ -211,14 +214,18 @@ namespace RNGReporter.Objects
                 case "Jellicent":
                     return EncounterType.JellicentHA;
                 case "Larvesta/Happiny Egg":
+                case "燃烧虫/小福蛋的蛋":
                     return EncounterType.LarvestaHappiny;
                 case "Haxorus (Forced Shiny)":
+                case "双斧战龙（强制异色）":
                     return EncounterType.Haxorus;
                 case "Gible/Dratini (Forced Shiny)":
+                case "圆陆鲨/迷你龙（强制异色）":
                     return EncounterType.GibleDratini;
                 case "连入之森宝可梦":
                     return EncounterType.Entralink;
                 case "Hidden Grotto (Shiny Locked)":
+                case "隐藏洞穴（锁定非异色）":
                     return EncounterType.HiddenGrotto;
                 case "捕虫大赛":
                     return EncounterType.BugCatchingContest;

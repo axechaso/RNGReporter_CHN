@@ -595,7 +595,7 @@ namespace RNGReporter
             this.checkBoxEPresent.Name = "checkBoxEPresent";
             this.checkBoxEPresent.Size = new System.Drawing.Size(48, 16);
             this.checkBoxEPresent.TabIndex = 12;
-            this.checkBoxEPresent.Text = "炎帝";
+            this.checkBoxEPresent.Text = "E";
             this.checkBoxEPresent.UseVisualStyleBackColor = true;
             //
             // checkBoxRPresent
@@ -606,7 +606,7 @@ namespace RNGReporter
             this.checkBoxRPresent.Name = "checkBoxRPresent";
             this.checkBoxRPresent.Size = new System.Drawing.Size(48, 16);
             this.checkBoxRPresent.TabIndex = 10;
-            this.checkBoxRPresent.Text = "雷公";
+            this.checkBoxRPresent.Text = "R";
             this.checkBoxRPresent.UseVisualStyleBackColor = true;
             //
             // checkBoxLPresent
@@ -617,7 +617,7 @@ namespace RNGReporter
             this.checkBoxLPresent.Name = "checkBoxLPresent";
             this.checkBoxLPresent.Size = new System.Drawing.Size(126, 16);
             this.checkBoxLPresent.TabIndex = 14;
-            this.checkBoxLPresent.Text = "拉帝欧斯/拉帝亚斯";
+            this.checkBoxLPresent.Text = "L";
             this.checkBoxLPresent.UseVisualStyleBackColor = true;
             //
             // labelRoamerRoutes

@@ -350,8 +350,8 @@ namespace RNGReporter
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(400, 68);
             this.label1.TabIndex = 41;
-            this.label1.Text = "GEN3所有定点神兽和GEN4所有野生宝可梦都是通过算法Method 1生成的。GEN3所有野生宝可梦（非定点神兽）都通过算法Method1,2,3,4生成。竞技" +
-    "场和XD旋风中的宝可梦仅通过它们自己专属的算法生成。基拉祈则通过算法Reverse Method 1生成";
+            this.label1.Text = "GEN3所有定点神兽和GEN4所有野生宝可梦都是通过 Method 1 生成的。GEN3所有野生宝可梦（非定点神兽）都通过 Method 1/2/3/4 生成。竞技" +
+    "场和XD旋风中的宝可梦仅通过它们自己专属的 Method 生成。基拉祈则通过 Reverse Method 1 生成";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             //
             // label2

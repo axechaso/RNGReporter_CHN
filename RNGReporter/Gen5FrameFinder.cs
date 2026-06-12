@@ -182,7 +182,7 @@ namespace RNGReporter
                     case "中高": pitch = "MH"; break;
                     case "中": pitch = "M"; break;
                     case "中低":  pitch = "ML"; break;
-                    case "低": pitch = "拉帝欧斯\\拉迪亚斯"; break;
+                    case "低": pitch = "L"; break;
                 }
 
                 chatotPitches.Append( $"{pitch},");

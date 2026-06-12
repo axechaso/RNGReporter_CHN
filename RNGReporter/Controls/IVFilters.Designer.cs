@@ -83,11 +83,11 @@
             ">=",
             "<=",
             "!=",
-            "偶",
-            "奇",
+            "E",
+            "O",
             "HP",
-            "HP偶",
-            "HP奇"});
+            "HP_E",
+            "HP_O"});
             this.cbSpe.Location = new System.Drawing.Point(37, 138);
             this.cbSpe.Name = "cbSpe";
             this.cbSpe.ShineColor = System.Drawing.SystemColors.Window;
@@ -320,11 +320,11 @@
             ">=",
             "<=",
             "!=",
-            "偶",
-            "奇",
+            "E",
+            "O",
             "HP",
-            "HP偶",
-            "HP奇"});
+            "HP_E",
+            "HP_O"});
             this.cbHP.Location = new System.Drawing.Point(37, 3);
             this.cbHP.Name = "cbHP";
             this.cbHP.ShineColor = System.Drawing.SystemColors.Window;
@@ -357,11 +357,11 @@
             ">=",
             "<=",
             "!=",
-            "偶",
-            "奇",
+            "E",
+            "O",
             "HP",
-            "HP偶",
-            "HP奇"});
+            "HP_E",
+            "HP_O"});
             this.cbAtk.Location = new System.Drawing.Point(37, 30);
             this.cbAtk.Name = "cbAtk";
             this.cbAtk.ShineColor = System.Drawing.SystemColors.Window;
@@ -436,11 +436,11 @@
             ">=",
             "<=",
             "!=",
-            "偶",
-            "奇",
+            "E",
+            "O",
             "HP",
-            "HP偶",
-            "HP奇"});
+            "HP_E",
+            "HP_O"});
             this.cbDef.Location = new System.Drawing.Point(37, 57);
             this.cbDef.Name = "cbDef";
             this.cbDef.ShineColor = System.Drawing.SystemColors.Window;
@@ -473,11 +473,11 @@
             ">=",
             "<=",
             "!=",
-            "偶",
-            "奇",
+            "E",
+            "O",
             "HP",
-            "HP偶",
-            "HP奇"});
+            "HP_E",
+            "HP_O"});
             this.cbSpA.Location = new System.Drawing.Point(37, 84);
             this.cbSpA.Name = "cbSpA";
             this.cbSpA.ShineColor = System.Drawing.SystemColors.Window;
@@ -552,11 +552,11 @@
             ">=",
             "<=",
             "!=",
-            "偶",
-            "奇",
+            "E",
+            "O",
             "HP",
-            "HP偶",
-            "HP奇"});
+            "HP_E",
+            "HP_O"});
             this.cbSpD.Location = new System.Drawing.Point(37, 111);
             this.cbSpD.Name = "cbSpD";
             this.cbSpD.ShineColor = System.Drawing.SystemColors.Window;

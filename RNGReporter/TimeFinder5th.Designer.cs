@@ -3963,7 +3963,7 @@ namespace RNGReporter
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(437, 13);
             this.label41.TabIndex = 373;
-            this.label41.Text = "3. 异色护符 / 记忆连接（仅 BW2）会影响命中帧，请一并计算。";
+            this.label41.Text = "3. 闪耀护符 / 记忆连接（仅 BW2）会影响命中帧，请一并计算。";
             this.label41.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             //
             // label37

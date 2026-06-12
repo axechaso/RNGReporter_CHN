@@ -608,8 +608,8 @@ namespace RNGReporter
             "Left",
             "Up",
             "Down",
-            "雷公",
-            "拉帝欧斯\\拉迪亚斯",
+            "R",
+            "L",
             "X",
             "Y"});
             this.comboBoxKeypresses.Location = new System.Drawing.Point(12, 78);

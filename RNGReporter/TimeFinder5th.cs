@@ -353,7 +353,7 @@ namespace RNGReporter
             // So we don't have to create a new instance of Time Finder
             // Each time it's called from DS Parameters
             cpus = Settings.Default.CPUs;
-            if (cpus < 0) cpus = 1;
+            if (cpus < 1) cpus = 1;
 
             //initialize the profiles
             if (Profiles.List == null || Profiles.List.Count == 0)
@@ -373,6 +373,17 @@ namespace RNGReporter
             if (Settings.Default.LastProfile < 0) Settings.Default.LastProfile = 0;
             if (Settings.Default.LastProfile < Profiles.List.Count)
                 comboBoxProfiles.SelectedIndex = Settings.Default.LastProfile;
+        }
+
+        private Profile GetSelectedProfileOrWarn()
+        {
+            var profile = comboBoxProfiles.SelectedItem as Profile;
+            if (profile != null)
+                return profile;
+
+            MessageBox.Show("没有选中的GEN5存档信息，请先新增或选择一个存档信息。", "缺少存档信息",
+                            MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            return null;
         }
 
         private void PlatinumTime_FormClosing(object sender, FormClosingEventArgs e)
@@ -417,7 +428,8 @@ namespace RNGReporter
 
         private void buttonCapGenerate_Click(object sender, EventArgs e)
         {
-            var profile = (Profile)comboBoxProfiles.SelectedItem;
+            var profile = GetSelectedProfileOrWarn();
+            if (profile == null) return;
             iframes = new List<IFrameCapture>();
             listBindingCap = new BindingSource { DataSource = iframes };
             dataGridViewCapValues.DataSource = listBindingCap;
@@ -1507,7 +1519,8 @@ namespace RNGReporter
 
         private void dataGridViewCapValues_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
-            var profile = (Profile)comboBoxProfiles.SelectedItem;
+            var profile = comboBoxProfiles.SelectedItem as Profile;
+            if (profile == null) return;
 
             DefaultFormatting(dataGridViewCapValues, profile.ID, profile.SID, e, "PID");
 
@@ -1592,7 +1605,10 @@ namespace RNGReporter
                 seedToTime.AutoGenerate = true;
                 seedToTime.ShowMap = showMap;
                 seedToTime.Seed = (uint)frame.Seed;
-                seedToTime.MAC_Address = ((Profile)comboBoxProfiles.SelectedItem).MAC_Address;
+                var profile = GetSelectedProfileOrWarn();
+                if (profile == null) return;
+
+                seedToTime.MAC_Address = profile.MAC_Address;
 
                 //  Grab this from what the user had searched on
                 seedToTime.Year = (uint)DateTime.Now.Year;
@@ -1859,7 +1875,8 @@ namespace RNGReporter
                 return (minFrame >= 20 && minFrame < 26) && (maxFrame >= 20 && maxFrame <= 25);
             }
             // BW2 Entralink
-            if (((Profile)comboBoxProfiles.SelectedItem).IsBW2())
+            var profile = comboBoxProfiles.SelectedItem as Profile;
+            if (profile != null && profile.IsBW2())
             {
                 if (minFrame > 24 && minFrame < 31 && maxFrame > 24 && maxFrame < 31) return true;
             }
@@ -1874,7 +1891,8 @@ namespace RNGReporter
 
         private void buttonEventGenerate_Click(object sender, EventArgs e)
         {
-            var profile = (Profile)comboBoxProfiles.SelectedItem;
+            var profile = GetSelectedProfileOrWarn();
+            if (profile == null) return;
             iframes = new List<IFrameCapture>();
             listBindingEvent = new BindingSource { DataSource = iframes };
             dataGridViewEventResults.DataSource = listBindingEvent;
@@ -2265,7 +2283,9 @@ namespace RNGReporter
 
             if (data[0x5C] == 1)    // If egg, it will have the user's TID/SID obviously
             {
-                var profile = (Profile)comboBoxProfiles.SelectedItem;
+                var profile = GetSelectedProfileOrWarn();
+                if (profile == null) return;
+
                 maskedTextTID.Text = profile.ID.ToString();
                 maskedTextSID.Text = profile.SID.ToString();
             }
@@ -2395,6 +2415,8 @@ namespace RNGReporter
         private void buttonShinyGenerate_Click(object sender, EventArgs e)
         {
             //the main function for the shiny Time finder
+            var profile = GetSelectedProfileOrWarn();
+            if (profile == null) return;
 
             //check to make sure the user hasn't filled the text
             //boxes with exception-throwing garbage
@@ -2490,9 +2512,9 @@ namespace RNGReporter
                 MaxResults = maxFrame - minFrame + 1,
                 DittoUsed = checkBoxShinyDittoParent.Checked,
                 MaleOnlySpecies = cbNidoBeat.Checked,
-                RerollCount = ((Profile)comboBoxProfiles.SelectedItem).ShinyCharm ? 3 : 1,
-                MemoryLinkUsed = ((Profile)comboBoxProfiles.SelectedItem).MemoryLink,
-                MaxLuckyPowerLVL = ((Profile)comboBoxProfiles.SelectedItem).LuckyPowerLVL,
+                RerollCount = profile.ShinyCharm ? 3 : 1,
+                MemoryLinkUsed = profile.MemoryLink,
+                MaxLuckyPowerLVL = profile.LuckyPowerLVL,
             };
 
 
@@ -2540,8 +2562,6 @@ namespace RNGReporter
             iframesEgg = new List<IFrameCapture>();
             listBindingEgg = new BindingSource { DataSource = iframesEgg };
             dataGridViewShinyResults.DataSource = listBindingEgg;
-
-            var profile = (Profile)comboBoxProfiles.SelectedItem;
 
             List<List<ButtonComboType>> keypresses = profile.GetKeypresses();
 
@@ -3024,6 +3044,9 @@ namespace RNGReporter
 
         private void btnHHGenerate_Click(object sender, EventArgs e)
         {
+            var profile = GetSelectedProfileOrWarn();
+            if (profile == null) return;
+
             var searchParams = new HiddenGrottoSearchParams
                 {
                     GenerateButton = btnHHGenerate,
@@ -3032,7 +3055,7 @@ namespace RNGReporter
                     Year = txtHHYear,
                     OpenHollows = txtHHOpenHollows,
                     Months = cbHHMonth,
-                    Profile = (Profile) comboBoxProfiles.SelectedItem,
+                    Profile = profile,
                     Slots = cbHHSlot,
                     SubSlots = cbHHSubSlot,
                     Hollows = cbHHHollowNumber,
@@ -3102,9 +3125,12 @@ namespace RNGReporter
             {
                 comboBoxCapGenderRatio.SelectedIndex = 1;   // 50% gender ratio
                 comboBoxCapGenderRatio.Enabled = false;
-                if (((Profile)comboBoxProfiles.SelectedItem).VersionStr.Equals("Black2"))
+                var profile = comboBoxProfiles.SelectedItem as Profile;
+                if (profile == null) return;
+
+                if (profile.VersionStr.Equals("Black2"))
                     comboBoxCapGender.SelectedIndex = 1;
-                else if (((Profile)comboBoxProfiles.SelectedItem).VersionStr.Equals("White2"))
+                else if (profile.VersionStr.Equals("White2"))
                     comboBoxCapGender.SelectedIndex = 2;
             }
             else
@@ -3199,7 +3225,8 @@ namespace RNGReporter
                     label9.Text = "IV 筛选已适合快速搜索，但\r\n" +
                                   "最小/最大帧需要在 0 到 5 之间。\r\n" +
                                   "建议两者都设为 0。";
-                    if (((Profile) comboBoxProfiles.SelectedItem).IsBW2())
+                    var profile = comboBoxProfiles.SelectedItem as Profile;
+                    if (profile != null && profile.IsBW2())
                     {
                         label9.Text += "\r\n连接森林乱数可设为 25 到 30。";
                     }
@@ -3369,25 +3396,35 @@ namespace RNGReporter
 
         private void buttonEditProfile_Click(object sender, EventArgs e)
         {
-            var editor = new ProfileEditor {Profile = (Profile) comboBoxProfiles.SelectedItem};
+            var profile = GetSelectedProfileOrWarn();
+            if (profile == null) return;
+
+            var editor = new ProfileEditor {Profile = profile};
             if (editor.ShowDialog() != DialogResult.OK) return;
             Profiles.List[comboBoxProfiles.SelectedIndex] = editor.Profile;
 
             profilesSource.DataSource = Profiles.List;
             profilesSource.ResetBindings(false);
-            labelProfileInformation.Text = ((Profile) comboBoxProfiles.SelectedItem).ProfileInformation();
+            profile = comboBoxProfiles.SelectedItem as Profile;
+            labelProfileInformation.Text = profile != null ? profile.ProfileInformation() : "没有存档信息。";
         }
 
         private void comboBoxProfiles_SelectedIndexChanged(object sender, EventArgs e)
         {
-            labelProfileInformation.Text = Profiles.List.Count > 0
-                                               ? ((Profile) comboBoxProfiles.SelectedItem).ProfileInformation()
-                                               : "No profiles found.";
-            Settings.Default.ID = ((Profile) comboBoxProfiles.SelectedItem).ID.ToString();
-            Settings.Default.SID = ((Profile) comboBoxProfiles.SelectedItem).SID.ToString();
-            Settings.Default.BW2 = ((Profile)comboBoxProfiles.SelectedItem).IsBW2();
-            Settings.Default.ShinyCharm = ((Profile)comboBoxProfiles.SelectedItem).ShinyCharm;
-            Settings.Default.MemoryLink = ((Profile)comboBoxProfiles.SelectedItem).MemoryLink;
+            var profile = comboBoxProfiles.SelectedItem as Profile;
+            if (profile == null)
+            {
+                labelProfileInformation.Text = "没有存档信息。";
+                cbActiveRoamer.Enabled = false;
+                return;
+            }
+
+            labelProfileInformation.Text = profile.ProfileInformation();
+            Settings.Default.ID = profile.ID.ToString();
+            Settings.Default.SID = profile.SID.ToString();
+            Settings.Default.BW2 = profile.IsBW2();
+            Settings.Default.ShinyCharm = profile.ShinyCharm;
+            Settings.Default.MemoryLink = profile.MemoryLink;
             Settings.Default.Save();
             if (txtCallerID != null)
             {
@@ -3399,7 +3436,7 @@ namespace RNGReporter
                 cbCallerShinyCharm.Checked = Settings.Default.ShinyCharm;
             }
 
-            cbActiveRoamer.Enabled = !((Profile)comboBoxProfiles.SelectedItem).IsBW2();
+            cbActiveRoamer.Enabled = !profile.IsBW2();
         }
 
         private void buttonLoadEggSeeds_Click(object sender, EventArgs e)
@@ -3500,6 +3537,9 @@ namespace RNGReporter
 
         private void btnDRGenerate_Click(object sender, EventArgs e)
         {
+            var profile = GetSelectedProfileOrWarn();
+            if (profile == null) return;
+
             var searchParams = new DreamRadarSearchParams
                 {
                     Year = txtDRYear,
@@ -3514,7 +3554,7 @@ namespace RNGReporter
                     Shininess = cbDRShinyness,
                     DataGridView = gvDreamRadar,
                     GenerateButton = btnDRGenerate,
-                    Profile = (Profile)comboBoxProfiles.SelectedItem
+                    Profile = profile
                 };
             Searcher searcher = new DreamRadarSearcher(searchParams, new object(), this);
             if (!searcher.ParseInput()) return;
@@ -3561,7 +3601,7 @@ namespace RNGReporter
 
         private bool ShinyOnly() => checkBoxShinyOnly.Visible && checkBoxShinyOnly.Checked;
 
-        public Profile getProfile() => (Profile)comboBoxProfiles.SelectedItem;
+        public Profile getProfile() => comboBoxProfiles.SelectedItem as Profile;
 
 
         #endregion
@@ -3723,7 +3763,9 @@ namespace RNGReporter
 
         private void buttonPickupSearch_Click(object sender, EventArgs e)
         {
-            var profile = (Profile)comboBoxProfiles.SelectedItem;
+            var profile = GetSelectedProfileOrWarn();
+            if (profile == null) return;
+
             iframes = new List<IFrameCapture>();
             listBindingPickup = new BindingSource { DataSource = iframes };
             dataGridViewPickup.DataSource = listBindingPickup;

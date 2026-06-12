@@ -574,9 +574,9 @@ namespace RNGReporter
             this.checkBoxRPresent.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.checkBoxRPresent.Location = new System.Drawing.Point(184, 572);
             this.checkBoxRPresent.Name = "checkBoxRPresent";
-            this.checkBoxRPresent.Size = new System.Drawing.Size(34, 17);
+            this.checkBoxRPresent.Size = new System.Drawing.Size(33, 17);
             this.checkBoxRPresent.TabIndex = 39;
-            this.checkBoxRPresent.Text = "雷公";
+            this.checkBoxRPresent.Text = "R";
             this.checkBoxRPresent.UseVisualStyleBackColor = true;
             //
             // checkBoxEPresent
@@ -584,11 +584,11 @@ namespace RNGReporter
             this.checkBoxEPresent.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBoxEPresent.AutoSize = true;
             this.checkBoxEPresent.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEPresent.Location = new System.Drawing.Point(249, 572);
+            this.checkBoxEPresent.Location = new System.Drawing.Point(239, 572);
             this.checkBoxEPresent.Name = "checkBoxEPresent";
             this.checkBoxEPresent.Size = new System.Drawing.Size(33, 17);
             this.checkBoxEPresent.TabIndex = 41;
-            this.checkBoxEPresent.Text = "炎帝";
+            this.checkBoxEPresent.Text = "E";
             this.checkBoxEPresent.UseVisualStyleBackColor = true;
             //
             // checkBoxLPresent
@@ -596,11 +596,11 @@ namespace RNGReporter
             this.checkBoxLPresent.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBoxLPresent.AutoSize = true;
             this.checkBoxLPresent.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxLPresent.Location = new System.Drawing.Point(314, 572);
+            this.checkBoxLPresent.Location = new System.Drawing.Point(294, 572);
             this.checkBoxLPresent.Name = "checkBoxLPresent";
-            this.checkBoxLPresent.Size = new System.Drawing.Size(128, 17);
+            this.checkBoxLPresent.Size = new System.Drawing.Size(31, 17);
             this.checkBoxLPresent.TabIndex = 43;
-            this.checkBoxLPresent.Text = "拉帝亚斯/拉帝欧斯";
+            this.checkBoxLPresent.Text = "L";
             this.checkBoxLPresent.UseVisualStyleBackColor = true;
             //
             // label18
@@ -619,7 +619,7 @@ namespace RNGReporter
             this.labelRoamerRoutes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.labelRoamerRoutes.AutoSize = true;
             this.labelRoamerRoutes.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelRoamerRoutes.Location = new System.Drawing.Point(525, 573);
+            this.labelRoamerRoutes.Location = new System.Drawing.Point(370, 573);
             this.labelRoamerRoutes.Name = "labelRoamerRoutes";
             this.labelRoamerRoutes.Size = new System.Drawing.Size(0, 13);
             this.labelRoamerRoutes.TabIndex = 0;
@@ -1354,7 +1354,7 @@ namespace RNGReporter
             this.cbShinyCharm.Name = "cbShinyCharm";
             this.cbShinyCharm.Size = new System.Drawing.Size(85, 17);
             this.cbShinyCharm.TabIndex = 331;
-            this.cbShinyCharm.Text = "迷人之躯异色";
+            this.cbShinyCharm.Text = "闪耀护符";
             this.cbShinyCharm.UseVisualStyleBackColor = true;
             //
             // checkBoxMemoryLink
@@ -1552,7 +1552,7 @@ namespace RNGReporter
             //
             this.maskedTextBoxERoute.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.maskedTextBoxERoute.Hex = false;
-            this.maskedTextBoxERoute.Location = new System.Drawing.Point(282, 570);
+            this.maskedTextBoxERoute.Location = new System.Drawing.Point(263, 570);
             this.maskedTextBoxERoute.Mask = "00";
             this.maskedTextBoxERoute.Name = "maskedTextBoxERoute";
             this.maskedTextBoxERoute.Size = new System.Drawing.Size(20, 20);
@@ -1563,7 +1563,7 @@ namespace RNGReporter
             //
             this.maskedTextBoxRRoute.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.maskedTextBoxRRoute.Hex = false;
-            this.maskedTextBoxRRoute.Location = new System.Drawing.Point(217, 570);
+            this.maskedTextBoxRRoute.Location = new System.Drawing.Point(208, 570);
             this.maskedTextBoxRRoute.Mask = "00";
             this.maskedTextBoxRRoute.Name = "maskedTextBoxRRoute";
             this.maskedTextBoxRRoute.Size = new System.Drawing.Size(20, 20);
@@ -1574,7 +1574,7 @@ namespace RNGReporter
             //
             this.maskedTextBoxLRoute.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.maskedTextBoxLRoute.Hex = false;
-            this.maskedTextBoxLRoute.Location = new System.Drawing.Point(347, 570);
+            this.maskedTextBoxLRoute.Location = new System.Drawing.Point(318, 570);
             this.maskedTextBoxLRoute.Mask = "00";
             this.maskedTextBoxLRoute.Name = "maskedTextBoxLRoute";
             this.maskedTextBoxLRoute.Size = new System.Drawing.Size(20, 20);
@@ -1649,16 +1649,16 @@ namespace RNGReporter
             this.comboBoxEncounterType.FormattingEnabled = true;
             this.comboBoxEncounterType.Items.AddRange(new object[] {
             "野生宝可梦",
-            "Wild Pokémon (Surfing)",
-            "Wild Pokémon (Fishing)",
+            "野生宝可梦（冲浪）",
+            "野生宝可梦（垂钓）",
             "野生宝可梦（水纹水面）",
             "野生宝可梦（摇动草丛）",
             "野生宝可梦（卷尘地面）",
             "定点宝可梦",
-            "Roaming Pokémon",
+            "游走宝可梦",
             "礼物宝可梦 (非神秘礼物)",
             "狩猎地带",
-            "Bug-Catching Contest"});
+            "捕虫大赛"});
             this.comboBoxEncounterType.Location = new System.Drawing.Point(103, 74);
             this.comboBoxEncounterType.Name = "comboBoxEncounterType";
             this.comboBoxEncounterType.ShineColor = System.Drawing.SystemColors.Window;

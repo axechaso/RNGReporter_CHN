@@ -232,7 +232,7 @@
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "算法 1",
+            "Method 1",
             "Method 2",
             "Method 4",
             "圆形竞技场\\XD暗之旋风"});

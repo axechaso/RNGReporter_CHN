@@ -86,8 +86,8 @@ namespace RNGReporter
             {
                 profilesSource = new BindingSource {DataSource = Profiles.List};
                 comboBoxProfiles.DataSource = profilesSource;
+                comboBoxProfiles.SelectedIndex = Math.Min(Math.Max(profile, 0), Profiles.List.Count - 1);
             }
-            comboBoxProfiles.SelectedIndex = profile;
 
             // Add smart comboBox items
             // Would be nice if we left these in the Designer file
@@ -98,17 +98,17 @@ namespace RNGReporter
                     new ComboBoxItem("个体值（普通的Seed）", FrameType.Method5Standard),
                     new ComboBoxItem("PIDRNG", FrameType.Method5Natures),
                     new ComboBoxItem("蛋", FrameType.BWBred),
-                    new ComboBoxItem("神秘卡片", FrameType.Wondercard5thGen),
+                    new ComboBoxItem("神秘礼物", FrameType.Wondercard5thGen),
                 });
 
             comboBoxEncounterType.Items.AddRange(new object[]
                 {
                     new ComboBoxItem("野生宝可梦", EncounterType.Wild),
-                    new ComboBoxItem("野生宝可梦（虫之预感）",
+                    new ComboBoxItem("野生宝可梦（大量出现）",
                                      EncounterType.WildSwarm),
-                    new ComboBoxItem("Wild Pokémon (Surfing)",
+                    new ComboBoxItem("野生宝可梦（冲浪）",
                                      EncounterType.WildSurfing),
-                    new ComboBoxItem("Wild Pokémon (Fishing)",
+                    new ComboBoxItem("野生宝可梦（垂钓）",
                                      EncounterType.WildSuperRod),
                     new ComboBoxItem("野生宝可梦（摇动草丛）",
                                      EncounterType.WildShakerGrass),
@@ -118,9 +118,9 @@ namespace RNGReporter
                                      EncounterType.WildCaveSpot),
                     new ComboBoxItem("定点宝可梦", EncounterType.Stationary)
                     ,
-                    new ComboBoxItem("Roaming Pokémon", EncounterType.Roamer),
+                    new ComboBoxItem("游走宝可梦", EncounterType.Roamer),
                     new ComboBoxItem("礼物宝可梦", EncounterType.Gift),
-                    new ComboBoxItem("燃烧虫的蛋", EncounterType.LarvestaHappiny)
+                    new ComboBoxItem("燃烧虫/小福蛋的蛋", EncounterType.LarvestaHappiny)
                 });
 
             comboBoxLead.Items.AddRange(new object[]
@@ -243,6 +243,17 @@ namespace RNGReporter
             }
         }
 
+        private Profile GetSelectedProfileOrWarn()
+        {
+            var selectedProfile = comboBoxProfiles.SelectedItem as Profile;
+            if (selectedProfile != null)
+                return selectedProfile;
+
+            MessageBox.Show("没有选中的GEN5存档信息，请先新增或选择一个存档信息。", "缺少存档信息",
+                            MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            return null;
+        }
+
         public void ChangeLanguage(object sender, PropertyChangedEventArgs e)
         {
             if (e.PropertyName == "Language")
@@ -310,7 +321,9 @@ namespace RNGReporter
 
         private void Generate()
         {
-            var profile = (Profile) comboBoxProfiles.SelectedItem;
+            var profile = GetSelectedProfileOrWarn();
+            if (profile == null) return;
+
             uint minFrame = uint.Parse(maskedTextBoxCapMinOffset.Text);
             uint maxFrame = uint.Parse(maskedTextBoxCapMaxOffset.Text);
 
@@ -666,7 +679,9 @@ namespace RNGReporter
         {
             if (dataGridViewCapValues.SelectedRows.Count > 0)
             {
-                var profile = (Profile) comboBoxProfiles.SelectedItem;
+                var profile = comboBoxProfiles.SelectedItem as Profile;
+                if (profile == null) return;
+
                 textBoxChatot.Text =
                     Responses.ChatotResponses64(
                         ((IFrameCapture) dataGridViewCapValues.SelectedRows[0].DataBoundItem).Seed, profile);
@@ -738,7 +753,7 @@ namespace RNGReporter
 
                     textBoxDescription.Text =
                         "大多数神秘礼物都使用这种算法。神秘礼物宝可梦可以是任何性格，但仅限于单一性别。" +
-                        "必须使用GLAN（锁性别，任意性格）神秘卡片算法";
+                        "必须使用GLAN（锁性别，任意性格）神秘礼物算法";
                     break;
             }
 
@@ -753,18 +768,23 @@ namespace RNGReporter
 
         private void comboBoxProfiles_SelectedIndexChanged(object sender, EventArgs e)
         {
-            labelProfileInformation.Text = ((Profile) comboBoxProfiles.SelectedItem).ProfileInformationShort();
+            var profile = comboBoxProfiles.SelectedItem as Profile;
+            labelProfileInformation.Text = profile != null ? profile.ProfileInformationShort() : "没有存档信息。";
         }
 
         private void buttonEditProfile_Click(object sender, EventArgs e)
         {
-            var editor = new ProfileEditor {Profile = (Profile) comboBoxProfiles.SelectedItem};
+            var profile = GetSelectedProfileOrWarn();
+            if (profile == null) return;
+
+            var editor = new ProfileEditor {Profile = profile};
             if (editor.ShowDialog() != DialogResult.OK) return;
             Profiles.List[comboBoxProfiles.SelectedIndex] = editor.Profile;
 
             profilesSource.DataSource = Profiles.List;
             profilesSource.ResetBindings(false);
-            labelProfileInformation.Text = ((Profile) comboBoxProfiles.SelectedItem).ProfileInformationShort();
+            profile = comboBoxProfiles.SelectedItem as Profile;
+            labelProfileInformation.Text = profile != null ? profile.ProfileInformationShort() : "没有存档信息。";
         }
     }
 }

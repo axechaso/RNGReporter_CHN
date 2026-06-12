@@ -6574,7 +6574,7 @@ namespace RNGReporter
             this.comboBoxMethod.ForeColor = System.Drawing.Color.Black;
             this.comboBoxMethod.FormattingEnabled = true;
             this.comboBoxMethod.Items.AddRange(new object[] {
-            "算法 1",
+            "Method 1",
             "Method 2",
             "Method 4",
             "Method H1",

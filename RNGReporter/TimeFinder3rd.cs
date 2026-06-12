@@ -115,7 +115,7 @@ namespace RNGReporter
 
             cbMethod.Items.AddRange(new object[]
                 {
-                    new ComboBoxItem("算法 1", FrameType.Method1),
+                    new ComboBoxItem("Method 1", FrameType.Method1),
                     new ComboBoxItem("算法 2", FrameType.Method2),
                     new ComboBoxItem("算法 4", FrameType.Method4),
                     new ComboBoxItem("算法 H-1", FrameType.MethodH1),

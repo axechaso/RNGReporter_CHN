@@ -42,8 +42,8 @@ namespace RNGReporter.Objects
                 "Left",
                 "Up",
                 "Down",
-                "雷公",
-                "拉帝欧斯\\拉迪亚斯",
+                "R",
+                "L",
                 "X",
                 "Y"
             };

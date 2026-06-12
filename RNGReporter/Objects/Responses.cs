@@ -41,7 +41,7 @@ namespace RNGReporter.Objects
                 response %= 3;
 
                 if (response == 0)
-                    responses += "炎帝";
+                    responses += "E";
                 if (response == 1)
                     responses += "K";
                 if (response == 2)
@@ -71,7 +71,7 @@ namespace RNGReporter.Objects
             string responses = "";
 
             if (response == 0)
-                responses += "炎帝";
+                responses += "E";
             if (response == 1)
                 responses += "K";
             if (response == 2)
