@@ -86,7 +86,7 @@
             this.buttonPos1E.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonPos1E.Size = new System.Drawing.Size(45, 21);
             this.buttonPos1E.TabIndex = 35;
-            this.buttonPos1E.Text = "炎帝";
+            this.buttonPos1E.Text = "E";
             this.buttonPos1E.Click += new System.EventHandler(this.buttonPos1E_Click);
             //
             // buttonPos1K
@@ -190,7 +190,7 @@
             this.buttonPos2E.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonPos2E.Size = new System.Drawing.Size(45, 21);
             this.buttonPos2E.TabIndex = 36;
-            this.buttonPos2E.Text = "炎帝";
+            this.buttonPos2E.Text = "E";
             this.buttonPos2E.Click += new System.EventHandler(this.buttonPos2E_Click);
             //
             // buttonPos3E
@@ -203,7 +203,7 @@
             this.buttonPos3E.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonPos3E.Size = new System.Drawing.Size(45, 21);
             this.buttonPos3E.TabIndex = 37;
-            this.buttonPos3E.Text = "炎帝";
+            this.buttonPos3E.Text = "E";
             this.buttonPos3E.Click += new System.EventHandler(this.buttonPos3E_Click);
             //
             // buttonPos4E
@@ -216,7 +216,7 @@
             this.buttonPos4E.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonPos4E.Size = new System.Drawing.Size(45, 21);
             this.buttonPos4E.TabIndex = 38;
-            this.buttonPos4E.Text = "炎帝";
+            this.buttonPos4E.Text = "E";
             this.buttonPos4E.Click += new System.EventHandler(this.buttonPos4E_Click);
             //
             // buttonPos5E
@@ -229,7 +229,7 @@
             this.buttonPos5E.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonPos5E.Size = new System.Drawing.Size(45, 21);
             this.buttonPos5E.TabIndex = 39;
-            this.buttonPos5E.Text = "炎帝";
+            this.buttonPos5E.Text = "E";
             this.buttonPos5E.Click += new System.EventHandler(this.buttonPos5E_Click);
             //
             // labelPos7
@@ -252,7 +252,7 @@
             this.buttonPos6E.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonPos6E.Size = new System.Drawing.Size(45, 21);
             this.buttonPos6E.TabIndex = 40;
-            this.buttonPos6E.Text = "炎帝";
+            this.buttonPos6E.Text = "E";
             this.buttonPos6E.Click += new System.EventHandler(this.buttonPos6E_Click);
             //
             // labelPos6
@@ -275,7 +275,7 @@
             this.buttonPos7E.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonPos7E.Size = new System.Drawing.Size(45, 21);
             this.buttonPos7E.TabIndex = 41;
-            this.buttonPos7E.Text = "炎帝";
+            this.buttonPos7E.Text = "E";
             this.buttonPos7E.Click += new System.EventHandler(this.buttonPos7E_Click);
             //
             // labelPos5
@@ -468,7 +468,7 @@
             this.buttonPos8E.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonPos8E.Size = new System.Drawing.Size(45, 21);
             this.buttonPos8E.TabIndex = 59;
-            this.buttonPos8E.Text = "炎帝";
+            this.buttonPos8E.Text = "E";
             this.buttonPos8E.Click += new System.EventHandler(this.buttonPos8E_Click);
             //
             // labelPos10
@@ -491,7 +491,7 @@
             this.buttonPos9E.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonPos9E.Size = new System.Drawing.Size(45, 21);
             this.buttonPos9E.TabIndex = 60;
-            this.buttonPos9E.Text = "炎帝";
+            this.buttonPos9E.Text = "E";
             this.buttonPos9E.Click += new System.EventHandler(this.buttonPos9E_Click);
             //
             // labelPos9
@@ -514,7 +514,7 @@
             this.buttonPos10E.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonPos10E.Size = new System.Drawing.Size(45, 21);
             this.buttonPos10E.TabIndex = 61;
-            this.buttonPos10E.Text = "炎帝";
+            this.buttonPos10E.Text = "E";
             this.buttonPos10E.Click += new System.EventHandler(this.buttonPos10E_Click);
             //
             // labelPos8

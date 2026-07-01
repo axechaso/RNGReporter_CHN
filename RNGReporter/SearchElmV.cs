@@ -10,6 +10,7 @@ namespace RNGReporter
         public SearchElmV()
         {
             InitializeComponent();
+            ApplyLocalizedPhoneText();
         }
 
         public string[] ReturnArray
@@ -179,6 +180,22 @@ namespace RNGReporter
             returnArray[7] = labelPos8.Text;
             returnArray[8] = labelPos9.Text;
             returnArray[9] = labelPos10.Text;
+        }
+
+        private void ApplyLocalizedPhoneText()
+        {
+            label8.Text = ElmCallText.ElmK;
+            label9.Text = ElmCallText.ElmE;
+            label10.Text = ElmCallText.ElmP;
+
+            const int helpHeight = 62;
+            label8.Top = 123;
+            label9.Top = 189;
+            label10.Top = 255;
+            label8.Height = label9.Height = label10.Height = helpHeight;
+            buttonOk.Top = label10.Bottom + 10;
+            buttonCancel.Top = buttonOk.Top;
+            ClientSize = new System.Drawing.Size(ClientSize.Width, buttonOk.Bottom + 11);
         }
     }
 }

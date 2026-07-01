@@ -15,6 +15,10 @@ TIME_FINDER4_FILE = ROOT / "RNGReporter" / "TimeFinder4th.cs"
 TIME_FINDER4_DESIGNER_FILE = ROOT / "RNGReporter" / "TimeFinder4th.Designer.cs"
 TIME_FINDER5_FILE = ROOT / "RNGReporter" / "TimeFinder5th.cs"
 TIME_FINDER5_DESIGNER_FILE = ROOT / "RNGReporter" / "TimeFinder5th.Designer.cs"
+SEARCH_ELM_FILE = ROOT / "RNGReporter" / "SearchElm.cs"
+SEARCH_ELM_DESIGNER_FILE = ROOT / "RNGReporter" / "SearchElm.Designer.cs"
+SEARCH_ELM_V_FILE = ROOT / "RNGReporter" / "SearchElmV.cs"
+SEARCH_ELM_V_DESIGNER_FILE = ROOT / "RNGReporter" / "SearchElmV.Designer.cs"
 MANAGER_FILES = [
     ROOT / "RNGReporter" / "TimeFinder3rd.cs",
     TIME_FINDER4_FILE,
@@ -49,6 +53,10 @@ def main():
     time_finder4_designer = read(TIME_FINDER4_DESIGNER_FILE)
     time_finder5 = read(TIME_FINDER5_FILE)
     time_finder5_designer = read(TIME_FINDER5_DESIGNER_FILE)
+    search_elm = read(SEARCH_ELM_FILE)
+    search_elm_designer = read(SEARCH_ELM_DESIGNER_FILE)
+    search_elm_v = read(SEARCH_ELM_V_FILE)
+    search_elm_v_designer = read(SEARCH_ELM_V_DESIGNER_FILE)
     progress_source = read(PROGRESS_FILE)
 
     if "Gen5Pickup" not in frame_type:
@@ -122,6 +130,16 @@ def main():
         failures.append("MainForm is missing DataGridView DataError handling.")
     if "dataGridViewValues.DataSource = null;" not in main_form:
         failures.append("Main grid should clear its old data source before rebinding.")
+
+    if 'AddLetter("炎帝")' in search_elm or 'this.buttonE.Text = "炎帝";' in search_elm_designer:
+        failures.append("SearchElm should use E for Elm calls, not the Entei name.")
+    if 'Text = "炎帝";' in search_elm_v_designer:
+        failures.append("SearchElmV should use E buttons, not the Entei name.")
+    if "ElmCallText" not in search_elm or "ElmCallText" not in search_elm_v:
+        failures.append("Elm call help text should be shared between single and multi search windows.")
+    for marker in ("中：", "日：", "英：", "カントー地方", "Pokérus"):
+        if marker not in search_elm:
+            failures.append(f"Elm call help text is missing multilingual marker: {marker}")
 
     if 'throw new Exception("操作被取消")' in progress_source:
         failures.append("Progress cancellation still throws a generic localized Exception.")

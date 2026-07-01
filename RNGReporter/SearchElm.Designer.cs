@@ -84,7 +84,7 @@ namespace RNGReporter
             this.buttonE.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonE.Size = new System.Drawing.Size(60, 37);
             this.buttonE.TabIndex = 7;
-            this.buttonE.Text = "炎帝";
+            this.buttonE.Text = "E";
             this.buttonE.Click += new System.EventHandler(this.buttonE_Click);
             //
             // buttonP
