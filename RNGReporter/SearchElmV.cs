@@ -6,10 +6,13 @@ namespace RNGReporter
     public partial class SearchElmV : Form
     {
         private readonly string[] returnArray = new string[10];
+        private GlassButton buttonLanguage;
+        private PhoneHelpLanguage phoneHelpLanguage = PhoneHelpLanguage.Japanese;
 
         public SearchElmV()
         {
             InitializeComponent();
+            InitializeLanguageButton();
             ApplyLocalizedPhoneText();
         }
 
@@ -182,16 +185,41 @@ namespace RNGReporter
             returnArray[9] = labelPos10.Text;
         }
 
+        private void InitializeLanguageButton()
+        {
+            buttonLanguage = new GlassButton
+            {
+                Anchor = AnchorStyles.Top | AnchorStyles.Right,
+                BackColor = System.Drawing.Color.AntiqueWhite,
+                ForeColor = System.Drawing.Color.Black,
+                Location = new System.Drawing.Point(441, 94),
+                Name = "buttonLanguage",
+                OuterBorderColor = System.Drawing.Color.Transparent,
+                ShineColor = System.Drawing.SystemColors.Window,
+                Size = new System.Drawing.Size(75, 21),
+                TabIndex = 73
+            };
+            buttonLanguage.Click += buttonLanguage_Click;
+            Controls.Add(buttonLanguage);
+        }
+
+        private void buttonLanguage_Click(object sender, EventArgs e)
+        {
+            phoneHelpLanguage = ElmCallText.NextLanguage(phoneHelpLanguage);
+            ApplyLocalizedPhoneText();
+        }
+
         private void ApplyLocalizedPhoneText()
         {
-            label8.Text = ElmCallText.ElmK;
-            label9.Text = ElmCallText.ElmE;
-            label10.Text = ElmCallText.ElmP;
+            label8.Text = ElmCallText.ElmK(phoneHelpLanguage);
+            label9.Text = ElmCallText.ElmE(phoneHelpLanguage);
+            label10.Text = ElmCallText.ElmP(phoneHelpLanguage);
+            buttonLanguage.Text = ElmCallText.LanguageButtonText(phoneHelpLanguage);
 
-            const int helpHeight = 62;
+            const int helpHeight = 52;
             label8.Top = 123;
-            label9.Top = 189;
-            label10.Top = 255;
+            label9.Top = 177;
+            label10.Top = 231;
             label8.Height = label9.Height = label10.Height = helpHeight;
             buttonOk.Top = label10.Bottom + 10;
             buttonCancel.Top = buttonOk.Top;

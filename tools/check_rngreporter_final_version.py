@@ -137,9 +137,20 @@ def main():
         failures.append("SearchElmV should use E buttons, not the Entei name.")
     if "ElmCallText" not in search_elm or "ElmCallText" not in search_elm_v:
         failures.append("Elm call help text should be shared between single and multi search windows.")
-    for marker in ("中：", "日：", "英：", "カントー地方", "Pokérus"):
-        if marker not in search_elm:
-            failures.append(f"Elm call help text is missing multilingual marker: {marker}")
+    if "buttonLanguage" not in search_elm or "buttonLanguage" not in search_elm_v:
+        failures.append("Elm phone help text should have a language switch button in both search windows.")
+    if search_elm.count("PhoneHelpLanguage.Japanese") < 1 or search_elm_v.count("PhoneHelpLanguage.Japanese") < 1:
+        failures.append("Elm phone help text should default to Japanese in both search windows.")
+    if "NextLanguage" not in search_elm or "NextLanguage" not in search_elm_v:
+        failures.append("Elm phone help language button should cycle through languages.")
+    inline_multilingual_markers = [
+        chr(0x4E2D) + chr(0xFF1A),
+        chr(0x65E5) + chr(0xFF1A),
+        chr(0x82F1) + chr(0xFF1A),
+    ]
+    for marker in inline_multilingual_markers:
+        if marker in search_elm:
+            failures.append("Elm phone help text should show one selected language at a time, not inline trilingual text.")
 
     if 'throw new Exception("操作被取消")' in progress_source:
         failures.append("Progress cancellation still throws a generic localized Exception.")
