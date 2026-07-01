@@ -5,11 +5,20 @@ ROOT = Path(__file__).resolve().parents[1]
 
 PROGRESS_FILE = ROOT / "RNGReporter" / "Progress.cs"
 MAIN_FORM_FILE = ROOT / "RNGReporter" / "MainForm.cs"
+MAIN_FORM_DESIGNER_FILE = ROOT / "RNGReporter" / "MainForm.Designer.cs"
 FRAME_TYPE_FILE = ROOT / "RNGReporter" / "Objects" / "FrameType.cs"
+FRAME_FILE = ROOT / "RNGReporter" / "Objects" / "Frame.cs"
+FUNCTIONS_FILE = ROOT / "RNGReporter" / "Objects" / "Functions.cs"
+LANGUAGE_FILE = ROOT / "RNGReporter" / "Objects" / "Language.cs"
+SEED_FINDER_DESIGNER_FILE = ROOT / "RNGReporter" / "SeedFinder.Designer.cs"
+TIME_FINDER4_FILE = ROOT / "RNGReporter" / "TimeFinder4th.cs"
+TIME_FINDER4_DESIGNER_FILE = ROOT / "RNGReporter" / "TimeFinder4th.Designer.cs"
+TIME_FINDER5_FILE = ROOT / "RNGReporter" / "TimeFinder5th.cs"
+TIME_FINDER5_DESIGNER_FILE = ROOT / "RNGReporter" / "TimeFinder5th.Designer.cs"
 MANAGER_FILES = [
     ROOT / "RNGReporter" / "TimeFinder3rd.cs",
-    ROOT / "RNGReporter" / "TimeFinder4th.cs",
-    ROOT / "RNGReporter" / "TimeFinder5th.cs",
+    TIME_FINDER4_FILE,
+    TIME_FINDER5_FILE,
     ROOT / "RNGReporter" / "EntralinkSeedSearch.cs",
     ROOT / "RNGReporter" / "Objects" / "Searchers" / "Searcher.cs",
     ROOT / "RNGReporter" / "DSIDWizard.cs",
@@ -18,13 +27,28 @@ MANAGER_FILES = [
 
 
 def read(path):
-    return path.read_text(encoding="utf-8-sig")
+    data = path.read_bytes()
+    for encoding in ("utf-8-sig", "gb18030"):
+        try:
+            return data.decode(encoding)
+        except UnicodeDecodeError:
+            pass
+    return data.decode("utf-8-sig", errors="replace")
 
 
 def main():
     failures = []
     main_form = read(MAIN_FORM_FILE)
+    main_designer = read(MAIN_FORM_DESIGNER_FILE)
     frame_type = read(FRAME_TYPE_FILE)
+    frame_source = read(FRAME_FILE)
+    functions_source = read(FUNCTIONS_FILE)
+    language_source = read(LANGUAGE_FILE)
+    seed_finder_designer = read(SEED_FINDER_DESIGNER_FILE)
+    time_finder4 = read(TIME_FINDER4_FILE)
+    time_finder4_designer = read(TIME_FINDER4_DESIGNER_FILE)
+    time_finder5 = read(TIME_FINDER5_FILE)
+    time_finder5_designer = read(TIME_FINDER5_DESIGNER_FILE)
     progress_source = read(PROGRESS_FILE)
 
     if "Gen5Pickup" not in frame_type:
@@ -33,6 +57,49 @@ def main():
         failures.append("Main RNG method list is missing Pickup (Gen 5).")
     if "comboBoxMethod.SelectedIndex = 11;" not in main_form:
         failures.append("Main RNG method default is not Gen 5 PIDRNG.")
+
+    if '"Swarm"});' in main_designer:
+        failures.append("Main encounter-slot dropdown still shows raw Swarm.")
+    if '"大量出现"});' not in main_designer:
+        failures.append("Main encounter-slot dropdown is missing 大量出现.")
+    encounter_chs = language_source.split("public static readonly string[] encounterItemsCHS =", 1)[-1][:180]
+    if '"大量出现"' not in encounter_chs:
+        failures.append("Chinese encounter item 0 should be 大量出现, not the Swarm ability name.")
+    if '"虫之预感"' not in language_source.split("public static readonly string[] abilityNameCHS =", 1)[-1]:
+        failures.append("Ability Swarm translation should remain 虫之预感.")
+
+    if "Encounter slots are used to determine" in main_form + time_finder4 + time_finder5:
+        failures.append("Encounter-slot tooltip is still untranslated.")
+    if "遭遇槽用于决定野生对战中出现的宝可梦" not in main_form:
+        failures.append("Main encounter-slot tooltip is missing the Chinese text.")
+    if "Trigger at 20th step" in frame_source:
+        failures.append("20-step encounter trigger table text is still English.")
+
+    if 'new ComboBoxItem("算法 J", FrameType.MethodJ)' in time_finder4:
+        failures.append("TimeFinder4th Method J label should keep Method untranslated.")
+    if 'new ComboBoxItem("Method J", FrameType.MethodJ)' not in time_finder4:
+        failures.append("TimeFinder4th Method J label is missing.")
+    if 'new ComboBoxItem("Method K", FrameType.MethodK)' not in time_finder4:
+        failures.append("TimeFinder4th Method K label is missing.")
+
+    if '"拉帝欧斯\\\\拉迪亚斯"' in seed_finder_designer:
+        failures.append("SeedFinder keypress dropdown still translates L as Latios/Latias.")
+    button_strings = functions_source.split("public static readonly string[] buttonStrings", 1)[-1][:500]
+    if '"R"' not in button_strings or '"L"' not in button_strings:
+        failures.append("Button display strings should keep R/L untranslated.")
+
+    data_error_targets = {
+        "MainForm.Designer.cs": main_designer,
+        "TimeFinder4th.Designer.cs": time_finder4_designer,
+        "TimeFinder5th.Designer.cs": time_finder5_designer,
+    }
+    for name, source in data_error_targets.items():
+        if ".DataError +=" not in source:
+            failures.append(f"{name} does not wire DataGridView DataError handling.")
+    if "dataGridViewValues_DataError" not in main_form:
+        failures.append("MainForm is missing DataGridView DataError handling.")
+    if "dataGridViewValues.DataSource = null;" not in main_form:
+        failures.append("Main grid should clear its old data source before rebinding.")
 
     if 'throw new Exception("操作被取消")' in progress_source:
         failures.append("Progress cancellation still throws a generic localized Exception.")

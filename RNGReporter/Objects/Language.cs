@@ -664,7 +664,7 @@ namespace RNGReporter.Objects
 
         public static readonly string[] encounterItemsCHS =
     {
-                "虫之预感",
+                "大量出现",
                 "日之石",
                 "月之石",
                 "火之石",

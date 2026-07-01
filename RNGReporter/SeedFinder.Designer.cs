@@ -1983,7 +1983,7 @@ namespace RNGReporter
             "Up",
             "Down",
             "R",
-            "拉帝欧斯\\拉迪亚斯",
+            "L",
             "X",
             "Y"});
             this.comboBoxButton7.Location = new System.Drawing.Point(13, 281);
@@ -2018,7 +2018,7 @@ namespace RNGReporter
             "Up",
             "Down",
             "R",
-            "拉帝欧斯\\拉迪亚斯",
+            "L",
             "X",
             "Y"});
             this.comboBoxButton6.Location = new System.Drawing.Point(170, 237);
@@ -2061,7 +2061,7 @@ namespace RNGReporter
             "Up",
             "Down",
             "R",
-            "拉帝欧斯\\拉迪亚斯",
+            "L",
             "X",
             "Y"});
             this.comboBoxButton5.Location = new System.Drawing.Point(13, 237);
@@ -2138,7 +2138,7 @@ namespace RNGReporter
             "Up",
             "Down",
             "R",
-            "拉帝欧斯\\拉迪亚斯",
+            "L",
             "X",
             "Y"});
             this.comboBoxButton4.Location = new System.Drawing.Point(170, 190);
@@ -2181,7 +2181,7 @@ namespace RNGReporter
             "Up",
             "Down",
             "R",
-            "拉帝欧斯\\拉迪亚斯",
+            "L",
             "X",
             "Y"});
             this.comboBoxButton3.Location = new System.Drawing.Point(13, 190);
@@ -2216,7 +2216,7 @@ namespace RNGReporter
             "Up",
             "Down",
             "R",
-            "拉帝欧斯\\拉迪亚斯",
+            "L",
             "X",
             "Y"});
             this.comboBoxButton2.Location = new System.Drawing.Point(170, 146);
@@ -2259,7 +2259,7 @@ namespace RNGReporter
             "Up",
             "Down",
             "R",
-            "拉帝欧斯\\拉迪亚斯",
+            "L",
             "X",
             "Y"});
             this.comboBoxButton1.Location = new System.Drawing.Point(13, 146);

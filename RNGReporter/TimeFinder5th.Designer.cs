@@ -917,6 +917,7 @@ namespace RNGReporter
             this.dataGridViewShinyResults.Size = new System.Drawing.Size(1061, 333);
             this.dataGridViewShinyResults.TabIndex = 21;
             this.dataGridViewShinyResults.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridViewShinyResults_CellFormatting);
+            this.dataGridViewShinyResults.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dataGridView_DataError);
             this.dataGridViewShinyResults.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridViewShinyResults_MouseDown);
             //
             // EggSeed
@@ -2049,6 +2050,7 @@ namespace RNGReporter
             this.dataGridViewCapValues.CellMouseEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCapValues_CellMouseEnter);
             this.dataGridViewCapValues.CellMouseLeave += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCapValues_CellMouseLeave);
             this.dataGridViewCapValues.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridViewCapValues_ColumnHeaderMouseClick);
+            this.dataGridViewCapValues.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dataGridView_DataError);
             this.dataGridViewCapValues.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridViewCapValues_KeyDown);
             this.dataGridViewCapValues.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridViewCapValues_MouseDown);
             //
@@ -2128,6 +2130,7 @@ namespace RNGReporter
             this.dataGridViewEventResults.Size = new System.Drawing.Size(1061, 308);
             this.dataGridViewEventResults.TabIndex = 349;
             this.dataGridViewEventResults.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridViewEventResults_CellFormatting);
+            this.dataGridViewEventResults.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dataGridView_DataError);
             this.dataGridViewEventResults.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridViewEventResults_MouseDown);
             //
             // EventSeed
@@ -3283,6 +3286,7 @@ namespace RNGReporter
             this.dgvHiddenGrottos.ShowRowErrors = false;
             this.dgvHiddenGrottos.Size = new System.Drawing.Size(1061, 333);
             this.dgvHiddenGrottos.TabIndex = 1;
+            this.dgvHiddenGrottos.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dataGridView_DataError);
             //
             // dataGridViewTextBoxColumn1
             //
@@ -4022,6 +4026,7 @@ namespace RNGReporter
             this.dataGridViewPickup.Size = new System.Drawing.Size(1061, 255);
             this.dataGridViewPickup.TabIndex = 361;
             this.dataGridViewPickup.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridViewPickup_ColumnHeaderMouseClick);
+            this.dataGridViewPickup.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dataGridView_DataError);
             //
             // dataGridViewTextBoxColumn31
             //

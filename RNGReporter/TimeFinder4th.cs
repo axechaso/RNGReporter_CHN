@@ -106,8 +106,8 @@ namespace RNGReporter
             comboBoxMethod.Items.AddRange(new object[]
                 {
                     new ComboBoxItem("Method 1", FrameType.Method1),
-                    new ComboBoxItem("算法 J", FrameType.MethodJ),
-                    new ComboBoxItem("算法 K", FrameType.MethodK),
+                    new ComboBoxItem("Method J", FrameType.MethodJ),
+                    new ComboBoxItem("Method K", FrameType.MethodK),
                     new ComboBoxItem("神秘礼物 IV", FrameType.WondercardIVs),
                     new ComboBoxItem("宝可计步器 IV", FrameType.WondercardIVs),
                     new ComboBoxItem("连锁异色", FrameType.ChainedShiny)
@@ -541,6 +541,16 @@ namespace RNGReporter
 
         private void dataGridViewValues_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
+            if (e.RowIndex < 0 || e.ColumnIndex < 0 ||
+                e.RowIndex >= dataGridViewEggIVValues.Rows.Count ||
+                e.ColumnIndex >= dataGridViewEggIVValues.Columns.Count ||
+                e.Value == null)
+            {
+                return;
+            }
+
+            string valueText = Convert.ToString(e.Value);
+
             if (dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "HP" ||
                 dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "攻击" ||
                 dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "防御" ||
@@ -548,21 +558,26 @@ namespace RNGReporter
                 dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "特防" ||
                 dataGridViewEggIVValues.Columns[e.ColumnIndex].Name == "速度")
             {
-                if ((string) e.Value == "30" || (string) e.Value == "31")
+                if (valueText == "30" || valueText == "31")
                 {
                     e.CellStyle.Font = new Font(e.CellStyle.Font, FontStyle.Bold);
                 }
 
-                if ((string) e.Value == "0")
+                if (valueText == "0")
                 {
                     e.CellStyle.ForeColor = Color.Red;
                 }
 
-                if ((string) e.Value == "A" || (string) e.Value == "B")
+                if (valueText == "A" || valueText == "B")
                 {
                     e.CellStyle.ForeColor = Color.Blue;
                 }
             }
+        }
+
+        private void dataGridView_DataError(object sender, DataGridViewDataErrorEventArgs e)
+        {
+            e.ThrowException = false;
         }
 
         private void generateAdjacentToolStripMenuItem_Click(object sender, EventArgs e)
@@ -1447,10 +1462,18 @@ namespace RNGReporter
 
         private void dataGridViewCapValues_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
+            if (e.RowIndex < 0 || e.ColumnIndex < 0 ||
+                e.RowIndex >= dataGridViewCapValues.Rows.Count ||
+                e.ColumnIndex >= dataGridViewCapValues.Columns.Count ||
+                e.Value == null)
+            {
+                return;
+            }
+
             //  Make all of the junk natures show up in a lighter color
             if (e.ColumnIndex == CapNatureIndex)
             {
-                var nature = (string) e.Value;
+                var nature = Convert.ToString(e.Value);
 
                 if (nature == Functions.NatureStrings(18) ||
                     nature == Functions.NatureStrings(6) ||
@@ -1466,7 +1489,11 @@ namespace RNGReporter
 
             if (e.ColumnIndex >= CapHPIndex && e.ColumnIndex <= CapSpeedIndex)
             {
-                var number = (uint) e.Value;
+                uint number;
+                if (!uint.TryParse(Convert.ToString(e.Value), out number))
+                {
+                    return;
+                }
 
                 if (number >= 30)
                 {
@@ -2264,9 +2291,8 @@ namespace RNGReporter
                 {
                     toolTipDataGrid.ToolTipTitle = "遭遇槽";
 
-                    toolTipDataGrid.Show("Encounter slots are used to determine what Pokémon appears for\r\n" +
-                                         "a wild battle.  Use the encounter tables under the main menus to look up\r\n" +
-                                         "which Pokémon appears for each slot in each area.\r\n",
+                    toolTipDataGrid.Show("遭遇槽用于决定野生对战中出现的宝可梦。\r\n" +
+                                         "请参考主菜单中的遭遇表，查询各地区每个槽位对应的宝可梦。\r\n",
                                          this,
                                          dataGridViewCapValues.Location.X + cellRect.X + cellRect.Size.Width,
                                          dataGridViewCapValues.Location.Y + cellRect.Y + cellRect.Size.Height,

@@ -1069,6 +1069,7 @@ namespace RNGReporter
             this.dataGridViewCapValues.CellMouseEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCapValues_CellMouseEnter);
             this.dataGridViewCapValues.CellMouseLeave += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCapValues_CellMouseLeave);
             this.dataGridViewCapValues.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridViewCapValues_ColumnHeaderMouseClick);
+            this.dataGridViewCapValues.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dataGridView_DataError);
             this.dataGridViewCapValues.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridViewCapValues_KeyDown);
             this.dataGridViewCapValues.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridViewCapValues_MouseDown);
             //
@@ -1336,6 +1337,7 @@ namespace RNGReporter
             this.dataGridViewShinyResults.Size = new System.Drawing.Size(957, 303);
             this.dataGridViewShinyResults.TabIndex = 17;
             this.dataGridViewShinyResults.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridViewShinyResults_CellFormatting);
+            this.dataGridViewShinyResults.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dataGridView_DataError);
             this.dataGridViewShinyResults.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridViewShinyResults_MouseDown);
             //
             // EggSeed
@@ -1673,6 +1675,7 @@ namespace RNGReporter
             this.dataGridViewEggIVValues.Size = new System.Drawing.Size(957, 303);
             this.dataGridViewEggIVValues.TabIndex = 35;
             this.dataGridViewEggIVValues.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridViewValues_CellFormatting);
+            this.dataGridViewEggIVValues.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dataGridView_DataError);
             this.dataGridViewEggIVValues.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridViewValues_MouseDown);
             //
             // Seed

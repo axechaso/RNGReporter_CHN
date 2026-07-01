@@ -345,22 +345,34 @@ namespace RNGReporter
 
         private void dataGridViewValues_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
-            if (Convert.ToString(dataGridViewValues.Rows[e.RowIndex].Cells["Shiny"].Value).Equals("异色"))
+            if (e.RowIndex < 0 || e.ColumnIndex < 0 ||
+                e.RowIndex >= dataGridViewValues.Rows.Count ||
+                e.ColumnIndex >= dataGridViewValues.Columns.Count)
+            {
+                return;
+            }
+
+            DataGridViewRow row = dataGridViewValues.Rows[e.RowIndex];
+            string valueText = Convert.ToString(e.Value);
+
+            if (dataGridViewValues.Columns.Contains("Shiny") &&
+                Convert.ToString(row.Cells["Shiny"].Value).Equals("异色"))
             {
                 uint tid = (Convert.ToUInt32(maskedTextBoxID.Text) & 0xffff) | ((Convert.ToUInt32(maskedTextBoxSID.Text) & 0xffff) << 16);
-                uint a = Convert.ToUInt32(dataGridViewValues.Rows[e.RowIndex].Cells["PID"].Value) ^ tid;
+                uint a = Convert.ToUInt32(row.Cells["PID"].Value) ^ tid;
                 uint b = a & 0xffff;
                 uint c = (a >> 16);
                 uint d = b ^ c;
                 if (d == 0)
-                    dataGridViewValues.Rows[e.RowIndex].DefaultCellStyle.BackColor = Color.Aqua;
+                    row.DefaultCellStyle.BackColor = Color.Aqua;
                 else
-                    dataGridViewValues.Rows[e.RowIndex].DefaultCellStyle.BackColor = Color.LightCyan;
+                    row.DefaultCellStyle.BackColor = Color.LightCyan;
             }
 
             if (EncType.Visible)
             {
-                if (!Convert.ToString(dataGridViewValues.Rows[e.RowIndex].Cells["EncType"].Value).Equals(""))
+                if (dataGridViewValues.Columns.Contains("EncType") &&
+                    !Convert.ToString(row.Cells["EncType"].Value).Equals(""))
                 {
                     if (dataGridViewValues.Columns[e.ColumnIndex].Name == "EncType")
                     {
@@ -371,8 +383,10 @@ namespace RNGReporter
 
             if (Ratio.Visible)
             {
-                int RatioValue = Convert.ToInt32(dataGridViewValues.Rows[e.RowIndex].Cells["比例"].Value);
-                if (dataGridViewValues.Columns[e.ColumnIndex].Name == "比例")
+                int RatioValue;
+                if (dataGridViewValues.Columns.Contains("比例") &&
+                    int.TryParse(Convert.ToString(row.Cells["比例"].Value), out RatioValue) &&
+                    dataGridViewValues.Columns[e.ColumnIndex].Name == "比例")
                 {
                     if ((RatioValue < 14 && comboBoxEncounterType.SelectedIndex <= 2) ||
                         (RatioValue < 6 && comboBoxEncounterType.SelectedIndex == 3) ||
@@ -391,7 +405,7 @@ namespace RNGReporter
             //  Make all of the junk natures show up in a lighter color
             if (dataGridViewValues.Columns[e.ColumnIndex].Name == "性格")
             {
-                var nature = (string) e.Value;
+                var nature = valueText;
 
                 if (nature == Functions.NatureStrings(18) ||
                     nature == Functions.NatureStrings(6) ||
@@ -404,7 +418,8 @@ namespace RNGReporter
                     e.CellStyle.ForeColor = Color.Gray;
                 }
 
-                if ((bool) dataGridViewValues.Rows[e.RowIndex].Cells["同步能力"].Value)
+                if (dataGridViewValues.Columns.Contains("同步能力") &&
+                    row.Cells["同步能力"].Value is bool synchable && synchable)
                 {
                     e.CellStyle.Font = new Font(e.CellStyle.Font, FontStyle.Bold);
                 }
@@ -417,22 +432,27 @@ namespace RNGReporter
                 dataGridViewValues.Columns[e.ColumnIndex].Name == "特防" ||
                 dataGridViewValues.Columns[e.ColumnIndex].Name == "速度")
             {
-                if ((string) e.Value == "30" || (string) e.Value == "31")
+                if (valueText == "30" || valueText == "31")
                 {
                     e.CellStyle.Font = new Font(e.CellStyle.Font, FontStyle.Bold);
                 }
 
-                if ((string) e.Value == "0")
+                if (valueText == "0")
                 {
                     e.CellStyle.ForeColor = Color.Red;
                 }
 
-                if ((string) e.Value == "A" || (string) e.Value == "Ma" ||
-                    (string) e.Value == "B" || (string) e.Value == "Fe")
+                if (valueText == "A" || valueText == "Ma" ||
+                    valueText == "B" || valueText == "Fe")
                 {
                     e.CellStyle.ForeColor = Color.Blue;
                 }
             }
+        }
+
+        private void dataGridViewValues_DataError(object sender, DataGridViewDataErrorEventArgs e)
+        {
+            e.ThrowException = false;
         }
 
         private void buttonGenerate_Click(object sender, EventArgs e)
@@ -444,6 +464,9 @@ namespace RNGReporter
 
         private void Generate()
         {
+            dataGridViewValues.CurrentCell = null;
+            dataGridViewValues.DataSource = null;
+
             // We want to force an early garbage collection
             // Because the frame lists get very big, very fast
             if (frames != null)
@@ -3181,9 +3204,8 @@ namespace RNGReporter
                 {
                     toolTipDataGrid.ToolTipTitle = "遭遇槽";
 
-                    toolTipDataGrid.Show("Encounter slots are used to determine what Pokémon appears for\r\n" +
-                                         "a wild battle.  Use the encounter tables under the menus to look up\r\n" +
-                                         "which Pokémon appears for each slot in each area.\r\n",
+                    toolTipDataGrid.Show("遭遇槽用于决定野生对战中出现的宝可梦。\r\n" +
+                                         "请参考菜单中的遭遇表，查询各地区每个槽位对应的宝可梦。\r\n",
                                          this,
                                          dataGridViewValues.Location.X + cellRect.X + cellRect.Size.Width,
                                          dataGridViewValues.Location.Y + cellRect.Y + cellRect.Size.Height,
@@ -3193,9 +3215,8 @@ namespace RNGReporter
                 {
                     toolTipDataGrid.ToolTipTitle = "可能的洞穴尘点";
 
-                    toolTipDataGrid.Show("Every 20 steps, the game checks if the current frame will produce a\r\n" +
-                                         "swirling dust spot if in a cave.\r\n\r\n" +
-                                         "This step counter returns to its last saved state upon loading the game.",
+                    toolTipDataGrid.Show("每走 20 步，游戏会检查当前帧是否会在洞穴中产生卷尘地面。\r\n\r\n" +
+                                         "读取存档后，步数计数会恢复到上次保存时的状态。",
                                          this,
                                          dataGridViewValues.Location.X + cellRect.X + cellRect.Size.Width,
                                          dataGridViewValues.Location.Y + cellRect.Y + cellRect.Size.Height,
@@ -3205,9 +3226,8 @@ namespace RNGReporter
                 {
                     toolTipDataGrid.ToolTipTitle = "可能的水泡点";
 
-                    toolTipDataGrid.Show("Every 20 steps, the game checks if the current frame will produce a\r\n" +
-                                         "bubble in nearby water.\r\n\r\n" +
-                                         "This step counter returns to its last saved state upon loading the game.",
+                    toolTipDataGrid.Show("每走 20 步，游戏会检查当前帧是否会在附近水面产生水纹。\r\n\r\n" +
+                                         "读取存档后，步数计数会恢复到上次保存时的状态。",
                                          this,
                                          dataGridViewValues.Location.X + cellRect.X + cellRect.Size.Width,
                                          dataGridViewValues.Location.Y + cellRect.Y + cellRect.Size.Height,
@@ -3217,9 +3237,8 @@ namespace RNGReporter
                 {
                     toolTipDataGrid.ToolTipTitle = "可能的摇晃草丛";
 
-                    toolTipDataGrid.Show("Every 20 steps, the game checks if the current frame will produce a\r\n" +
-                                         "swirling dust spot.\r\n\r\n" +
-                                         "This step counter returns to its last saved state upon loading the game.",
+                    toolTipDataGrid.Show("每走 20 步，游戏会检查当前帧是否会产生摇动草丛。\r\n\r\n" +
+                                         "读取存档后，步数计数会恢复到上次保存时的状态。",
                                          this,
                                          dataGridViewValues.Location.X + cellRect.X + cellRect.Size.Width,
                                          dataGridViewValues.Location.Y + cellRect.Y + cellRect.Size.Height,

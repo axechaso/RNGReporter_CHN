@@ -1519,6 +1519,14 @@ namespace RNGReporter
 
         private void dataGridViewCapValues_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
+            if (e.RowIndex < 0 || e.ColumnIndex < 0 ||
+                e.RowIndex >= dataGridViewCapValues.Rows.Count ||
+                e.ColumnIndex >= dataGridViewCapValues.Columns.Count ||
+                e.Value == null)
+            {
+                return;
+            }
+
             var profile = comboBoxProfiles.SelectedItem as Profile;
             if (profile == null) return;
 
@@ -1526,8 +1534,10 @@ namespace RNGReporter
 
             if (EncounterRatio.Visible)
             {
-                int RatioValue = Convert.ToInt32(dataGridViewCapValues.Rows[e.RowIndex].Cells["EncounterRatio"].Value);
-                if (dataGridViewCapValues.Columns[e.ColumnIndex].Name == "EncounterRatio")
+                int RatioValue;
+                if (dataGridViewCapValues.Columns.Contains("EncounterRatio") &&
+                    int.TryParse(Convert.ToString(dataGridViewCapValues.Rows[e.RowIndex].Cells["EncounterRatio"].Value), out RatioValue) &&
+                    dataGridViewCapValues.Columns[e.ColumnIndex].Name == "EncounterRatio")
                 {
                     if ((RatioValue < 14 && comboBoxEncounterType.SelectedIndex <= 2) || (RatioValue < 6 && comboBoxEncounterType.SelectedIndex == 3))
                     {
@@ -1542,13 +1552,15 @@ namespace RNGReporter
             //  Make all of the junk natures show up in a lighter color
             if (e.ColumnIndex == CapNatureIndex)
             {
-                var nature = (string)e.Value;
+                var nature = Convert.ToString(e.Value);
 
-                if ((bool)dataGridViewCapValues.Rows[e.RowIndex].Cells["同步能力"].Value)
+                if (dataGridViewCapValues.Columns.Contains("同步能力") &&
+                    dataGridViewCapValues.Rows[e.RowIndex].Cells["同步能力"].Value is bool synchable && synchable)
                 {
                     e.CellStyle.Font = new Font(e.CellStyle.Font, FontStyle.Bold);
 
-                    if (((IFrameCapture)dataGridViewCapValues.Rows[e.RowIndex].DataBoundItem).Frame.EncounterMod ==
+                    var capture = dataGridViewCapValues.Rows[e.RowIndex].DataBoundItem as IFrameCapture;
+                    if (capture != null && capture.Frame.EncounterMod ==
                         Objects.EncounterMod.Synchronize)
                     {
                         e.Value = "Synch";
@@ -1568,7 +1580,11 @@ namespace RNGReporter
 
             if (e.ColumnIndex >= CapHPIndex && e.ColumnIndex <= CapSpeedIndex)
             {
-                var number = (uint)e.Value;
+                uint number;
+                if (!uint.TryParse(Convert.ToString(e.Value), out number))
+                {
+                    return;
+                }
 
                 if (number >= 30)
                 {
@@ -1580,6 +1596,11 @@ namespace RNGReporter
                     e.CellStyle.ForeColor = Color.Red;
                 }
             }
+        }
+
+        private void dataGridView_DataError(object sender, DataGridViewDataErrorEventArgs e)
+        {
+            e.ThrowException = false;
         }
 
         private void generateTimesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -1747,9 +1768,8 @@ namespace RNGReporter
                 {
                     toolTipDataGrid.ToolTipTitle = "遭遇槽";
 
-                    toolTipDataGrid.Show("Encounter slots are used to determine what Pokémon appears for\r\n" +
-                                         "a wild battle.  Use the encounter tables under the main menus to look up\r\n" +
-                                         "which Pokémon appears for each slot in each area.\r\n",
+                    toolTipDataGrid.Show("遭遇槽用于决定野生对战中出现的宝可梦。\r\n" +
+                                         "请参考主菜单中的遭遇表，查询各地区每个槽位对应的宝可梦。\r\n",
                                          this,
                                          dataGridViewCapValues.Location.X + cellRect.X + cellRect.Size.Width,
                                          dataGridViewCapValues.Location.Y + cellRect.Y + cellRect.Size.Height,
@@ -2808,10 +2828,18 @@ namespace RNGReporter
 
         private void dataGridViewShinyResults_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
+            if (e.RowIndex < 0 || e.ColumnIndex < 0 ||
+                e.RowIndex >= dataGridViewShinyResults.Rows.Count ||
+                e.ColumnIndex >= dataGridViewShinyResults.Columns.Count ||
+                e.Value == null)
+            {
+                return;
+            }
+
             //  Make all of the junk natures show up in a lighter color
             if (dataGridViewShinyResults.Columns[e.ColumnIndex].Name == "ShinyNature")
             {
-                var nature = (string)e.Value;
+                var nature = Convert.ToString(e.Value);
 
                 if (nature == Functions.NatureStrings(18) ||
                     nature == Functions.NatureStrings(6) ||
@@ -2832,17 +2860,19 @@ namespace RNGReporter
                 dataGridViewShinyResults.Columns[e.ColumnIndex].Name == "ShinySpD" ||
                 dataGridViewShinyResults.Columns[e.ColumnIndex].Name == "ShinySpe")
             {
-                if ((string)e.Value == "30" || (string)e.Value == "31")
+                string valueText = Convert.ToString(e.Value);
+
+                if (valueText == "30" || valueText == "31")
                 {
                     e.CellStyle.Font = new Font(e.CellStyle.Font, FontStyle.Bold);
                 }
 
-                if ((string)e.Value == "0")
+                if (valueText == "0")
                 {
                     e.CellStyle.ForeColor = Color.Red;
                 }
 
-                if ((string)e.Value == "Ma" || (string)e.Value == "Fe")
+                if (valueText == "Ma" || valueText == "Fe")
                 {
                     e.CellStyle.ForeColor = Color.Blue;
                 }
@@ -2878,8 +2908,27 @@ namespace RNGReporter
 
         private void DefaultFormatting(DataGridView DGV, ushort id, ushort sid, DataGridViewCellFormattingEventArgs e, string PIDColumn)
         {
+            if (e.RowIndex < 0 || e.ColumnIndex < 0 ||
+                e.RowIndex >= DGV.Rows.Count ||
+                e.ColumnIndex >= DGV.Columns.Count ||
+                !DGV.Columns.Contains(PIDColumn) ||
+                DGV.Rows[e.RowIndex].Cells[PIDColumn].Value == null)
+            {
+                return;
+            }
+
+            uint pid;
+            try
+            {
+                pid = Convert.ToUInt32(DGV.Rows[e.RowIndex].Cells[PIDColumn].Value);
+            }
+            catch
+            {
+                return;
+            }
+
             uint tid = (uint)((id & 0xffff) | ((sid & 0xffff) << 16));
-            uint a = Convert.ToUInt32(DGV.Rows[e.RowIndex].Cells[PIDColumn].Value) ^ tid;
+            uint a = pid ^ tid;
             uint b = a & 0xffff;
             uint c = (a >> 16);
             uint d = b ^ c;

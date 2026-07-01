@@ -85,7 +85,7 @@ namespace RNGReporter.Objects
 
         public string CaveSpotting
         {
-            get { return ((((ulong)(RngResultNext) * 1000) >> 32) < 100) ? "Trigger at 20th step" : ""; }
+            get { return ((((ulong)(RngResultNext) * 1000) >> 32) < 100) ? "第20步触发" : ""; }
         }
 
         // Chatot response for 4th Gen Games

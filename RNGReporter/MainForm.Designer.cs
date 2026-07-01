@@ -574,9 +574,9 @@ namespace RNGReporter
             this.checkBoxRPresent.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.checkBoxRPresent.Location = new System.Drawing.Point(184, 572);
             this.checkBoxRPresent.Name = "checkBoxRPresent";
-            this.checkBoxRPresent.Size = new System.Drawing.Size(33, 17);
+            this.checkBoxRPresent.Size = new System.Drawing.Size(50, 17);
             this.checkBoxRPresent.TabIndex = 39;
-            this.checkBoxRPresent.Text = "R";
+            this.checkBoxRPresent.Text = "雷公";
             this.checkBoxRPresent.UseVisualStyleBackColor = true;
             //
             // checkBoxEPresent
@@ -584,11 +584,11 @@ namespace RNGReporter
             this.checkBoxEPresent.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBoxEPresent.AutoSize = true;
             this.checkBoxEPresent.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEPresent.Location = new System.Drawing.Point(239, 572);
+            this.checkBoxEPresent.Location = new System.Drawing.Point(260, 572);
             this.checkBoxEPresent.Name = "checkBoxEPresent";
-            this.checkBoxEPresent.Size = new System.Drawing.Size(33, 17);
+            this.checkBoxEPresent.Size = new System.Drawing.Size(50, 17);
             this.checkBoxEPresent.TabIndex = 41;
-            this.checkBoxEPresent.Text = "E";
+            this.checkBoxEPresent.Text = "炎帝";
             this.checkBoxEPresent.UseVisualStyleBackColor = true;
             //
             // checkBoxLPresent
@@ -596,11 +596,11 @@ namespace RNGReporter
             this.checkBoxLPresent.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBoxLPresent.AutoSize = true;
             this.checkBoxLPresent.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxLPresent.Location = new System.Drawing.Point(294, 572);
+            this.checkBoxLPresent.Location = new System.Drawing.Point(336, 572);
             this.checkBoxLPresent.Name = "checkBoxLPresent";
-            this.checkBoxLPresent.Size = new System.Drawing.Size(31, 17);
+            this.checkBoxLPresent.Size = new System.Drawing.Size(132, 17);
             this.checkBoxLPresent.TabIndex = 43;
-            this.checkBoxLPresent.Text = "L";
+            this.checkBoxLPresent.Text = "拉帝欧斯/拉帝亚斯";
             this.checkBoxLPresent.UseVisualStyleBackColor = true;
             //
             // label18
@@ -608,7 +608,7 @@ namespace RNGReporter
             this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label18.AutoSize = true;
             this.label18.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label18.Location = new System.Drawing.Point(455, 573);
+            this.label18.Location = new System.Drawing.Point(505, 573);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(70, 13);
             this.label18.TabIndex = 85;
@@ -619,7 +619,7 @@ namespace RNGReporter
             this.labelRoamerRoutes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.labelRoamerRoutes.AutoSize = true;
             this.labelRoamerRoutes.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelRoamerRoutes.Location = new System.Drawing.Point(370, 573);
+            this.labelRoamerRoutes.Location = new System.Drawing.Point(575, 573);
             this.labelRoamerRoutes.Name = "labelRoamerRoutes";
             this.labelRoamerRoutes.Size = new System.Drawing.Size(0, 13);
             this.labelRoamerRoutes.TabIndex = 0;
@@ -1552,7 +1552,7 @@ namespace RNGReporter
             //
             this.maskedTextBoxERoute.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.maskedTextBoxERoute.Hex = false;
-            this.maskedTextBoxERoute.Location = new System.Drawing.Point(263, 570);
+            this.maskedTextBoxERoute.Location = new System.Drawing.Point(307, 570);
             this.maskedTextBoxERoute.Mask = "00";
             this.maskedTextBoxERoute.Name = "maskedTextBoxERoute";
             this.maskedTextBoxERoute.Size = new System.Drawing.Size(20, 20);
@@ -1563,7 +1563,7 @@ namespace RNGReporter
             //
             this.maskedTextBoxRRoute.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.maskedTextBoxRRoute.Hex = false;
-            this.maskedTextBoxRRoute.Location = new System.Drawing.Point(208, 570);
+            this.maskedTextBoxRRoute.Location = new System.Drawing.Point(231, 570);
             this.maskedTextBoxRRoute.Mask = "00";
             this.maskedTextBoxRRoute.Name = "maskedTextBoxRRoute";
             this.maskedTextBoxRRoute.Size = new System.Drawing.Size(20, 20);
@@ -1574,7 +1574,7 @@ namespace RNGReporter
             //
             this.maskedTextBoxLRoute.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.maskedTextBoxLRoute.Hex = false;
-            this.maskedTextBoxLRoute.Location = new System.Drawing.Point(318, 570);
+            this.maskedTextBoxLRoute.Location = new System.Drawing.Point(470, 570);
             this.maskedTextBoxLRoute.Mask = "00";
             this.maskedTextBoxLRoute.Name = "maskedTextBoxLRoute";
             this.maskedTextBoxLRoute.Size = new System.Drawing.Size(20, 20);
@@ -1701,7 +1701,7 @@ namespace RNGReporter
             "9",
             "10",
             "11",
-            "Swarm"});
+            "大量出现"});
             this.comboBoxEncounterSlot.Location = new System.Drawing.Point(662, 88);
             this.comboBoxEncounterSlot.Name = "comboBoxEncounterSlot";
             this.comboBoxEncounterSlot.Size = new System.Drawing.Size(170, 21);
@@ -1859,6 +1859,7 @@ namespace RNGReporter
             this.dataGridViewValues.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridViewValues_CellFormatting);
             this.dataGridViewValues.CellMouseEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewValues_CellMouseEnter);
             this.dataGridViewValues.CellMouseLeave += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewValues_CellMouseLeave);
+            this.dataGridViewValues.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dataGridViewValues_DataError);
             this.dataGridViewValues.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridViewValues_MouseDown);
             //
             // Frame
