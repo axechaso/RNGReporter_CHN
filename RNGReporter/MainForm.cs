@@ -497,7 +497,7 @@ namespace RNGReporter
                 MessageBox.Show("你需要先在 Time Finder 中调整设置。");
                 return;
             }
-            Offset.HeaderText = generator.FrameType == FrameType.Gen5Pickup ? "帧" : "偶然值Occidentary";
+            Offset.HeaderText = generator.FrameType == FrameType.Gen5Pickup ? "帧" : "偶然值";
 
             var offset = (uint)(checkBoxBW2.Visible && checkBoxBW2.Checked &&
                 generator.FrameType != FrameType.Method5Natures &&
@@ -1040,7 +1040,7 @@ namespace RNGReporter
                 ItemCalc.Visible = false;
                 PID.Visible = true;
                 Time.Visible = true;
-                Time.DataPropertyName = "时间";
+                Time.DataPropertyName = "Time";
                 Shiny.Visible = false;
                 Nature.Visible = false;
                 Ability.Visible = true;
@@ -1076,7 +1076,7 @@ namespace RNGReporter
                 ItemCalc.Visible = false;
                 PID.Visible = true;
                 Time.Visible = true;
-                Time.DataPropertyName = "时间";
+                Time.DataPropertyName = "Time";
                 Shiny.Visible = true;
                 Nature.Visible = true;
                 Ability.Visible = true;
@@ -1115,7 +1115,7 @@ namespace RNGReporter
                 ItemCalc.Visible = false;
                 PID.Visible = false;
                 Time.Visible = true;
-                Time.DataPropertyName = "时间";
+                Time.DataPropertyName = "Time";
                 Shiny.Visible = false;
                 Nature.Visible = false;
                 Ability.Visible = false;
@@ -1246,7 +1246,7 @@ namespace RNGReporter
                 else
                 {
                     Time.Visible = false;
-                    Time.DataPropertyName = "时间";
+                    Time.DataPropertyName = "Time";
                 }
 
                 Shiny.Visible = true;
@@ -1429,7 +1429,7 @@ namespace RNGReporter
                 ItemCalc.Visible = false;
                 PID.Visible = true;
                 Time.Visible = true;
-                Time.DataPropertyName = "时间";
+                Time.DataPropertyName = "Time";
                 Shiny.Visible = true;
                 Nature.Visible = true;
                 Ability.Visible = true;
@@ -1474,7 +1474,7 @@ namespace RNGReporter
                 if (generator.FrameType != FrameType.ColoXD && generator.FrameType != FrameType.Channel)
                 {
                     Time.Visible = true;
-                    Time.DataPropertyName = "时间";
+                    Time.DataPropertyName = "Time";
                 }
                 else
                 {
@@ -1601,7 +1601,7 @@ namespace RNGReporter
                 ItemCalc.Visible = false;
                 PID.Visible = true;
                 Time.Visible = true;
-                Time.DataPropertyName = "时间";
+                Time.DataPropertyName = "Time";
                 Shiny.Visible = true;
                 Nature.Visible = true;
                 Ability.Visible = true;
@@ -3172,8 +3172,7 @@ namespace RNGReporter
                 {
                     toolTipDataGrid.ToolTipTitle = "性格";
 
-                    toolTipDataGrid.Show("A bolded nature indicates that the nature can be changed by a lead\r\n" +
-                                         "Pokémon with Synchronize.\r\n\r\n" +
+                    toolTipDataGrid.Show("加粗的性格表示该帧可以被首发同步特性的宝可梦改变为对应性格。\r\n\r\n" +
                                          "灰色字体的性格是没有竞争价值的性格。",
                                          this,
                                          dataGridViewValues.Location.X + cellRect.X + cellRect.Size.Width,
@@ -3192,7 +3191,7 @@ namespace RNGReporter
                 }
                 else if (dataGridViewValues.Columns[e.ColumnIndex].Name == "偏移")
                 {
-                    toolTipDataGrid.ToolTipTitle = "偶然值Occidentary";
+                    toolTipDataGrid.ToolTipTitle = "偶然值";
 
                     toolTipDataGrid.Show("该值是对战结束后的帧数，宝可梦对战后的帧数等于偶然值+6，该值一般作用于大湿地等场景",
                                          this,

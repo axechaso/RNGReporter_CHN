@@ -74,6 +74,28 @@ def main():
         failures.append("Main encounter-slot tooltip is missing the Chinese text.")
     if "Trigger at 20th step" in frame_source:
         failures.append("20-step encounter trigger table text is still English.")
+    if "Occidentary" in main_form + main_designer + read(ROOT / "RNGReporter" / "TimeFinder3rd.Designer.cs"):
+        failures.append("Offset column header still contains the old Occidentary text.")
+    if "A bolded nature indicates" in main_form + time_finder4 + time_finder5:
+        failures.append("Nature tooltip is still partly untranslated.")
+    main_grid_bindings = {
+        "Offset": "Offset",
+        "Time": "Time",
+        "Elm": "Elm",
+        "Ratio": "Ratio",
+        "Level": "Level",
+        "Ability": "Ability",
+        "Coin": "Coin",
+        "Characteristic": "Characteristic",
+        "Synchable": "Synchable",
+    }
+    for column, property_name in main_grid_bindings.items():
+        expected_binding = f'this.{column}.DataPropertyName = "{property_name}";'
+        if expected_binding not in main_designer:
+            failures.append(f"Main grid column {column} is not bound to Frame.{property_name}.")
+    localized_time_binding = 'Time.DataPropertyName = "' + chr(0x65F6) + chr(0x95F4) + '";'
+    if localized_time_binding in main_form:
+        failures.append("MainForm still resets the Time column binding to a localized name.")
 
     if 'new ComboBoxItem("算法 J", FrameType.MethodJ)' in time_finder4:
         failures.append("TimeFinder4th Method J label should keep Method untranslated.")

@@ -1872,8 +1872,8 @@ namespace RNGReporter
             //
             // Offset
             //
-            this.Offset.DataPropertyName = "偏移";
-            this.Offset.HeaderText = "偶然值Occidentary";
+            this.Offset.DataPropertyName = "Offset";
+            this.Offset.HeaderText = "偶然值";
             this.Offset.Name = "偏移";
             this.Offset.ReadOnly = true;
             this.Offset.Visible = false;
@@ -1881,7 +1881,7 @@ namespace RNGReporter
             //
             // Time
             //
-            this.Time.DataPropertyName = "时间";
+            this.Time.DataPropertyName = "Time";
             this.Time.HeaderText = "时间";
             this.Time.Name = "时间";
             this.Time.ReadOnly = true;
@@ -1890,7 +1890,7 @@ namespace RNGReporter
             //
             // Elm
             //
-            this.Elm.DataPropertyName = "Elm电话";
+            this.Elm.DataPropertyName = "Elm";
             this.Elm.HeaderText = "Elm电话";
             this.Elm.Name = "Elm电话";
             this.Elm.ReadOnly = true;
@@ -1907,7 +1907,7 @@ namespace RNGReporter
             //
             // Ratio
             //
-            this.Ratio.DataPropertyName = "比例";
+            this.Ratio.DataPropertyName = "Ratio";
             this.Ratio.HeaderText = "比例";
             this.Ratio.Name = "比例";
             this.Ratio.ReadOnly = true;
@@ -1933,7 +1933,7 @@ namespace RNGReporter
             //
             // Level
             //
-            this.Level.DataPropertyName = "等级";
+            this.Level.DataPropertyName = "Level";
             this.Level.HeaderText = "等级";
             this.Level.Name = "等级";
             this.Level.ReadOnly = true;
@@ -1986,7 +1986,7 @@ namespace RNGReporter
             //
             // Ability
             //
-            this.Ability.DataPropertyName = "特性";
+            this.Ability.DataPropertyName = "Ability";
             this.Ability.HeaderText = "特性";
             this.Ability.Name = "特性";
             this.Ability.ReadOnly = true;
@@ -2003,7 +2003,7 @@ namespace RNGReporter
             //
             // Coin
             //
-            this.Coin.DataPropertyName = "硬币结果";
+            this.Coin.DataPropertyName = "Coin";
             this.Coin.HeaderText = "硬币结果";
             this.Coin.Name = "硬币结果";
             this.Coin.ReadOnly = true;
@@ -2132,7 +2132,7 @@ namespace RNGReporter
             //
             // Characteristic
             //
-            this.Characteristic.DataPropertyName = "个性";
+            this.Characteristic.DataPropertyName = "Characteristic";
             this.Characteristic.HeaderText = "个性";
             this.Characteristic.Name = "个性";
             this.Characteristic.ReadOnly = true;
@@ -2182,7 +2182,7 @@ namespace RNGReporter
             //
             // Synchable
             //
-            this.Synchable.DataPropertyName = "同步能力";
+            this.Synchable.DataPropertyName = "Synchable";
             this.Synchable.HeaderText = "同步能力";
             this.Synchable.Name = "同步能力";
             this.Synchable.ReadOnly = true;

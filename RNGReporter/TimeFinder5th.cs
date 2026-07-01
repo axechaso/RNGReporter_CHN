@@ -1746,8 +1746,7 @@ namespace RNGReporter
                 {
                     toolTipDataGrid.ToolTipTitle = "性格";
 
-                    toolTipDataGrid.Show("A bolded nature indicates that the nature can be changed by a lead\r\n" +
-                                         "Pokémon with Synchronize.\r\n\r\n" +
+                    toolTipDataGrid.Show("加粗的性格表示该帧可以被首发同步特性的宝可梦改变为对应性格。\r\n\r\n" +
                                          "灰色字体的性格是没有竞争价值的性格。",
                                          this,
                                          dataGridViewCapValues.Location.X + cellRect.X + cellRect.Size.Width,

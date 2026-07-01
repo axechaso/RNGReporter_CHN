@@ -2199,7 +2199,7 @@ namespace RNGReporter
             // Offset
             //
             this.Offset.DataPropertyName = "偏移";
-            this.Offset.HeaderText = "偶然值Occidentary";
+            this.Offset.HeaderText = "偶然值";
             this.Offset.Name = "偏移";
             this.Offset.ReadOnly = true;
             //
