@@ -568,7 +568,7 @@
             //
             // buttonCancel
             //
-            this.buttonCancel.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonCancel.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.buttonCancel.ForeColor = System.Drawing.Color.Black;
@@ -582,7 +582,7 @@
             //
             // buttonOk
             //
-            this.buttonOk.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonOk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonOk.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonOk.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.buttonOk.ForeColor = System.Drawing.Color.Black;

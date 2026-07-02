@@ -135,6 +135,20 @@ def main():
         failures.append("SearchElm should use E for Elm calls, not the Entei name.")
     if 'Text = "炎帝";' in search_elm_v_designer:
         failures.append("SearchElmV should use E buttons, not the Entei name.")
+    if "this.buttonOk.Anchor = System.Windows.Forms.AnchorStyles.Bottom;" in search_elm_designer:
+        failures.append("SearchElm OK button should not use Bottom anchor; dynamic height pushes it out of view.")
+    if "this.buttonCancel.Anchor = System.Windows.Forms.AnchorStyles.Bottom;" in search_elm_designer:
+        failures.append("SearchElm Cancel button should not use Bottom anchor; dynamic height pushes it out of view.")
+    if "this.buttonOk.Anchor = System.Windows.Forms.AnchorStyles.Bottom;" in search_elm_v_designer:
+        failures.append("SearchElmV OK button should not use Bottom anchor; dynamic height pushes it out of view.")
+    if "this.buttonCancel.Anchor = System.Windows.Forms.AnchorStyles.Bottom;" in search_elm_v_designer:
+        failures.append("SearchElmV Cancel button should not use Bottom anchor; dynamic height pushes it out of view.")
+    elm_label = "".join(chr(c) for c in [0x7A7A, 0x6728, 0x535A, 0x58EB, 0x20, 0x2F, 0x20, 0x30A6, 0x30C4, 0x30AE, 0x535A, 0x58EB, 0x20, 0x2F, 0x20, 0x45, 0x6C, 0x6D])
+    irwin_label = "".join(chr(c) for c in [0x9EA6, 0x514B, 0x20, 0x2F, 0x20, 0x30DE, 0x30A4, 0x30AF, 0x20, 0x2F, 0x20, 0x49, 0x72, 0x77, 0x69, 0x6E])
+    if elm_label not in search_elm_designer:
+        failures.append("SearchElm Elm radio label should show Chinese/Japanese/English names.")
+    if irwin_label not in search_elm_designer:
+        failures.append("SearchElm Irwin radio label should show Chinese/Japanese/English names.")
     if "ElmCallText" not in search_elm or "ElmCallText" not in search_elm_v:
         failures.append("Elm call help text should be shared between single and multi search windows.")
     if "buttonLanguage" not in search_elm or "buttonLanguage" not in search_elm_v:

@@ -103,7 +103,7 @@ namespace RNGReporter
             //
             // buttonCancel
             //
-            this.buttonCancel.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonCancel.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.buttonCancel.ForeColor = System.Drawing.Color.Black;
@@ -117,7 +117,7 @@ namespace RNGReporter
             //
             // buttonOk
             //
-            this.buttonOk.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonOk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonOk.BackColor = System.Drawing.Color.AntiqueWhite;
             this.buttonOk.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.buttonOk.ForeColor = System.Drawing.Color.Black;
@@ -251,11 +251,11 @@ namespace RNGReporter
             // radioButtonIrwin
             //
             this.radioButtonIrwin.AutoSize = true;
-            this.radioButtonIrwin.Location = new System.Drawing.Point(101, 115);
+            this.radioButtonIrwin.Location = new System.Drawing.Point(214, 115);
             this.radioButtonIrwin.Name = "radioButtonIrwin";
-            this.radioButtonIrwin.Size = new System.Drawing.Size(47, 16);
+            this.radioButtonIrwin.Size = new System.Drawing.Size(131, 16);
             this.radioButtonIrwin.TabIndex = 57;
-            this.radioButtonIrwin.Text = "麦克";
+            this.radioButtonIrwin.Text = "麦克 / マイク / Irwin";
             this.radioButtonIrwin.UseVisualStyleBackColor = true;
             this.radioButtonIrwin.CheckedChanged += new System.EventHandler(this.radioButtonIrwin_CheckedChanged);
             //
@@ -265,10 +265,10 @@ namespace RNGReporter
             this.radioButtonElm.Checked = true;
             this.radioButtonElm.Location = new System.Drawing.Point(27, 115);
             this.radioButtonElm.Name = "radioButtonElm";
-            this.radioButtonElm.Size = new System.Drawing.Size(71, 16);
+            this.radioButtonElm.Size = new System.Drawing.Size(179, 16);
             this.radioButtonElm.TabIndex = 56;
             this.radioButtonElm.TabStop = true;
-            this.radioButtonElm.Text = "空木博士";
+            this.radioButtonElm.Text = "空木博士 / ウツギ博士 / Elm";
             this.radioButtonElm.UseVisualStyleBackColor = true;
             this.radioButtonElm.CheckedChanged += new System.EventHandler(this.radioButtonElm_CheckedChanged);
             //
