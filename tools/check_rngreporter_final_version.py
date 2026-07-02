@@ -152,6 +152,18 @@ def main():
         if marker in search_elm:
             failures.append("Elm phone help text should show one selected language at a time, not inline trilingual text.")
 
+    expected_japanese_phone_text = [
+        "げんきかい？",
+        "きみの かつやくを きいて",
+        "でんわ うれしいなあ！",
+        "カントーには まだ ぼくの しらない ポケモンが いるだろうし、",
+        "ポケモンの しんかというのは ほんとうに おくが ふかいよねぇ！",
+        "ポケルスが くっついた ポケモンは どうやら そだちが よくなる みたい",
+    ]
+    for text in expected_japanese_phone_text:
+        if text not in search_elm:
+            failures.append(f"Elm phone Japanese text is missing: {text}")
+
     if 'throw new Exception("操作被取消")' in progress_source:
         failures.append("Progress cancellation still throws a generic localized Exception.")
     if "throw new OperationCanceledException" not in progress_source:

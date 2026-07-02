@@ -216,11 +216,15 @@ namespace RNGReporter
             label10.Text = ElmCallText.ElmP(phoneHelpLanguage);
             buttonLanguage.Text = ElmCallText.LanguageButtonText(phoneHelpLanguage);
 
-            const int helpHeight = 52;
+            int kHeight = phoneHelpLanguage == PhoneHelpLanguage.Japanese ? 72 : 52;
+            int eHeight = 52;
+            int pHeight = phoneHelpLanguage == PhoneHelpLanguage.Japanese ? 64 : 52;
             label8.Top = 123;
-            label9.Top = 177;
-            label10.Top = 231;
-            label8.Height = label9.Height = label10.Height = helpHeight;
+            label8.Height = kHeight;
+            label9.Top = label8.Bottom + 4;
+            label9.Height = eHeight;
+            label10.Top = label9.Bottom + 4;
+            label10.Height = pHeight;
             buttonOk.Top = label10.Bottom + 10;
             buttonCancel.Top = buttonOk.Top;
             ClientSize = new System.Drawing.Size(ClientSize.Width, buttonOk.Bottom + 11);

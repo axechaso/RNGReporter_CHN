@@ -102,13 +102,16 @@ namespace RNGReporter
             labelPIrwin.Text = ElmCallText.IrwinP(phoneHelpLanguage);
             buttonLanguage.Text = ElmCallText.LanguageButtonText(phoneHelpLanguage);
 
-            const int helpHeight = 52;
+            int kHeight = phoneHelpLanguage == PhoneHelpLanguage.Japanese ? 72 : 52;
+            int eHeight = phoneHelpLanguage == PhoneHelpLanguage.Japanese ? 52 : 52;
+            int pHeight = phoneHelpLanguage == PhoneHelpLanguage.Japanese ? 132 : 64;
             labelKElm.Top = labelKIrwin.Top = 139;
-            labelEElm.Top = labelEIrwin.Top = 193;
-            labelPElm.Top = labelPIrwin.Top = 247;
-            labelKElm.Height = labelEElm.Height = labelPElm.Height = helpHeight;
-            labelKIrwin.Height = labelEIrwin.Height = labelPIrwin.Height = helpHeight;
-            groupBox1.Height = 306;
+            labelKElm.Height = labelKIrwin.Height = kHeight;
+            labelEElm.Top = labelEIrwin.Top = labelKElm.Bottom + 4;
+            labelEElm.Height = labelEIrwin.Height = eHeight;
+            labelPElm.Top = labelPIrwin.Top = labelEElm.Bottom + 4;
+            labelPElm.Height = labelPIrwin.Height = pHeight;
+            groupBox1.Height = labelPElm.Bottom + 10;
             groupBox2.Top = groupBox1.Bottom + 7;
             buttonOk.Top = groupBox2.Bottom + 10;
             buttonCancel.Top = buttonOk.Top;
@@ -206,42 +209,56 @@ namespace RNGReporter
     {
         private static readonly string[] ElmKText =
         {
-            "K - カントー地方には、まだ私の知らないポケモンがいるはずだ。進化にも、まだ知らない方法があるかもしれないね。",
+            "K - カントーには まだ ぼくの しらない ポケモンが いるだろうし、\r\n" +
+            "ぼくの しらない しんかの ほうほうが あるかも しれないね。\r\n" +
+            "そのめで しっかり いろんなものを みておいで！",
             "K - 关都地区应该还有我不知道的宝可梦。也许还有我不熟悉的进化方式，我应该换个角度继续调查！",
             "K - I expect there are some Pokémon in the Kanto region that I don't know. There are probably methods of evolution that I'm not familiar with yet."
         };
 
         private static readonly string[] ElmEText =
         {
-            "E - ポケモンの進化には本当にいろいろな方法があるんだよ！なかには、ある条件を満たさないと進化しないポケモンもいるんだ！",
+            "E - ポケモンの しんかというのは ほんとうに おくが ふかいよねぇ！ あるじょうけんを みたしたときだけ しんかする ポケモンも いるみたい！",
             "E - 宝可梦的进化方式真是多种多样，不是吗？！有些宝可梦甚至要先满足特定条件才会进化！",
             "E - There are so many different ways that Pokémon evolve, aren't there?! Some Pokémon don't even evolve until they meet certain conditions first!"
         };
 
         private static readonly string[] ElmPText =
         {
-            "P - ポケルスに感染したポケモンは、レベルアップしたときの成長がよくなるようだね。理由はまだよく分かっていないんだ……",
+            "P - ポケルスが くっついた ポケモンは どうやら そだちが よくなる みたい げんいんは わからないけど……",
             "P - 感染过宝可病毒的宝可梦似乎升级时成长得更好。我们还不太清楚原因……",
             "P - It seems that Pokémon that have been infected with Pokérus level up better. We're not quite sure why..."
         };
 
         private static readonly string[] IrwinKText =
         {
-            "K - 電話してくれてうれしいよ！ぼくもちょうど電話しようとしてたんだ！ぼくたち相性ばっちりだね！",
+            "K - でんわ うれしいなあ！\r\n" +
+            "ちょうど ぼくも いま\r\n" +
+            "かけようとしてた ところなんだ！\r\n" +
+            "きが あうんだね ぼくたち！",
             "K - 你打电话来我真高兴！我正好也想打给你！看来我们很合得来！",
             "K - I'm so glad you called! I was just about to call you, too! I guess we must be a good match!"
         };
 
         private static readonly string[] IrwinEText =
         {
-            "E - きみの冒険の話を聞くと、本当に元気が出るよ！ほんとだよ！",
+            "E - きみの かつやくを きいて\r\n" +
+            "きょうも しびれているよ！",
             "E - 听说你的冒险事迹真让我热血沸腾！确实如此！",
             "E - Hearing about your escapades really inspires me! It sure does!"
         };
 
         private static readonly string[] IrwinPText =
         {
-            "P - 元気？何してる？どこにいる？バッジはいくつ？お金はどれくらいたまった？お母さんは元気？ポケモンはたくさんいる？明日は晴れるかな？ああ、話したいことが多すぎる！",
+            "P - げんきかい？\r\n" +
+            "なにしてるの？\r\n" +
+            "いま どこにいるの？\r\n" +
+            "バッジは いくつ あつまったの？\r\n" +
+            "おこづかい どのくらい たまった？\r\n" +
+            "おかあさん げんき？\r\n" +
+            "ポケモン いっぱい あつめたかい？\r\n" +
+            "あしたの てんきは はれかな？\r\n" +
+            "ああ もう ききたいこと だらけで はなしが すすまぬ わ！",
             "P - 你好吗？在做什么？在哪里？现在有几枚徽章了？存了多少钱？妈妈好吗？抓了很多宝可梦吗？明天天气会晴吗？啊啊，想聊的太多了！",
             "P - How are you? What are you doing? Where are you? How many Badges do you have now? How much money have you saved? How's your mom? Have you got lots of Pokémon? Is it going to be sunny tomorrow?"
         };
