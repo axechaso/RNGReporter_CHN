@@ -543,12 +543,18 @@ namespace RNGReporter
 
         private void dataGridViewCapValues_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
+            if (e.RowIndex < 0 || e.ColumnIndex < 0 || e.Value == null)
+                return;
+
             //  Make all of the junk natures show up in a lighter color
             if (e.ColumnIndex == CapNatureIndex)
             {
-                var nature = (string) e.Value;
+                var nature = e.Value as string;
+                if (nature == null)
+                    return;
 
-                if ((bool) dataGridViewCapValues.Rows[e.RowIndex].Cells["同步能力"].Value)
+                object synchableValue = dataGridViewCapValues.Rows[e.RowIndex].Cells["同步能力"].Value;
+                if (synchableValue is bool && (bool) synchableValue)
                 {
                     e.CellStyle.Font = new Font(e.CellStyle.Font, FontStyle.Bold);
                 }
@@ -566,12 +572,15 @@ namespace RNGReporter
 
             if (dataGridViewCapValues.Columns[e.ColumnIndex].Name == "CapSeed")
             {
-                if (seedMatch != (ulong) e.Value)
+                if (e.Value is ulong && seedMatch != (ulong) e.Value)
                     dataGridViewCapValues.Rows[e.RowIndex].DefaultCellStyle.BackColor = Color.LightGray;
             }
 
             if (e.ColumnIndex >= CapHPIndex && e.ColumnIndex <= CapSpeedIndex)
             {
+                if (!(e.Value is uint))
+                    return;
+
                 var number = (uint) e.Value;
 
                 if (number >= 30)

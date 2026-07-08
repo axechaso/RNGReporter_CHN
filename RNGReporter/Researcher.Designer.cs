@@ -1633,7 +1633,7 @@ namespace RNGReporter
             //
             // Custom1
             //
-            this.Custom1.DataPropertyName = "自定义1";
+            this.Custom1.DataPropertyName = "Custom1";
             this.Custom1.HeaderText = "自定义1";
             this.Custom1.Name = "自定义1";
             this.Custom1.ReadOnly = true;
@@ -1641,7 +1641,7 @@ namespace RNGReporter
             //
             // Custom2
             //
-            this.Custom2.DataPropertyName = "自定义2";
+            this.Custom2.DataPropertyName = "Custom2";
             this.Custom2.HeaderText = "自定义2";
             this.Custom2.Name = "自定义2";
             this.Custom2.ReadOnly = true;
@@ -1649,7 +1649,7 @@ namespace RNGReporter
             //
             // Custom3
             //
-            this.Custom3.DataPropertyName = "自定义3";
+            this.Custom3.DataPropertyName = "Custom3";
             this.Custom3.HeaderText = "自定义3";
             this.Custom3.Name = "自定义3";
             this.Custom3.ReadOnly = true;
@@ -1657,7 +1657,7 @@ namespace RNGReporter
             //
             // Custom4
             //
-            this.Custom4.DataPropertyName = "自定义4";
+            this.Custom4.DataPropertyName = "Custom4";
             this.Custom4.HeaderText = "自定义4";
             this.Custom4.Name = "自定义4";
             this.Custom4.ReadOnly = true;
@@ -1665,7 +1665,7 @@ namespace RNGReporter
             //
             // Custom5
             //
-            this.Custom5.DataPropertyName = "自定义5";
+            this.Custom5.DataPropertyName = "Custom5";
             this.Custom5.HeaderText = "自定义5";
             this.Custom5.Name = "自定义5";
             this.Custom5.ReadOnly = true;
@@ -1673,7 +1673,7 @@ namespace RNGReporter
             //
             // Custom6
             //
-            this.Custom6.DataPropertyName = "自定义6";
+            this.Custom6.DataPropertyName = "Custom6";
             this.Custom6.HeaderText = "自定义6";
             this.Custom6.Name = "自定义6";
             this.Custom6.ReadOnly = true;
@@ -1681,7 +1681,7 @@ namespace RNGReporter
             //
             // Custom7
             //
-            this.Custom7.DataPropertyName = "自定义7";
+            this.Custom7.DataPropertyName = "Custom7";
             this.Custom7.HeaderText = "自定义7";
             this.Custom7.Name = "自定义7";
             this.Custom7.ReadOnly = true;
@@ -1689,7 +1689,7 @@ namespace RNGReporter
             //
             // Custom8
             //
-            this.Custom8.DataPropertyName = "自定义8";
+            this.Custom8.DataPropertyName = "Custom8";
             this.Custom8.HeaderText = "自定义8";
             this.Custom8.Name = "自定义8";
             this.Custom8.ReadOnly = true;
@@ -1697,7 +1697,7 @@ namespace RNGReporter
             //
             // Custom9
             //
-            this.Custom9.DataPropertyName = "自定义9";
+            this.Custom9.DataPropertyName = "Custom9";
             this.Custom9.HeaderText = "自定义9";
             this.Custom9.Name = "自定义9";
             this.Custom9.ReadOnly = true;
@@ -1705,7 +1705,7 @@ namespace RNGReporter
             //
             // Custom10
             //
-            this.Custom10.DataPropertyName = "自定义10";
+            this.Custom10.DataPropertyName = "Custom10";
             this.Custom10.HeaderText = "自定义10";
             this.Custom10.Name = "自定义10";
             this.Custom10.ReadOnly = true;

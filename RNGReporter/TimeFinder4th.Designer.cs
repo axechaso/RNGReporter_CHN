@@ -1352,7 +1352,7 @@ namespace RNGReporter
             //
             // ShinyOffset
             //
-            this.ShinyOffset.DataPropertyName = "偏移";
+            this.ShinyOffset.DataPropertyName = "Offset";
             this.ShinyOffset.HeaderText = "帧数";
             this.ShinyOffset.Name = "ShinyOffset";
             this.ShinyOffset.ReadOnly = true;
@@ -1378,7 +1378,7 @@ namespace RNGReporter
             //
             // ShinyNature
             //
-            this.ShinyNature.DataPropertyName = "性格";
+            this.ShinyNature.DataPropertyName = "Nature";
             this.ShinyNature.HeaderText = "性格";
             this.ShinyNature.Name = "ShinyNature";
             this.ShinyNature.ReadOnly = true;
@@ -1387,7 +1387,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn4
             //
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "特性";
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Ability";
             this.dataGridViewTextBoxColumn4.HeaderText = "特性";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             this.dataGridViewTextBoxColumn4.ReadOnly = true;
@@ -1704,7 +1704,7 @@ namespace RNGReporter
             //
             // Offset
             //
-            this.Offset.DataPropertyName = "偏移";
+            this.Offset.DataPropertyName = "Offset";
             this.Offset.HeaderText = "帧数";
             this.Offset.Name = "偏移";
             this.Offset.ReadOnly = true;
@@ -1720,7 +1720,7 @@ namespace RNGReporter
             //
             // Atk
             //
-            this.Atk.DataPropertyName = "攻击";
+            this.Atk.DataPropertyName = "Atk";
             this.Atk.HeaderText = "攻击";
             this.Atk.Name = "攻击";
             this.Atk.ReadOnly = true;
@@ -1728,7 +1728,7 @@ namespace RNGReporter
             //
             // Def
             //
-            this.Def.DataPropertyName = "防御";
+            this.Def.DataPropertyName = "Def";
             this.Def.HeaderText = "防御";
             this.Def.Name = "防御";
             this.Def.ReadOnly = true;
@@ -1752,7 +1752,7 @@ namespace RNGReporter
             //
             // Spe
             //
-            this.Spe.DataPropertyName = "速度";
+            this.Spe.DataPropertyName = "Spe";
             this.Spe.HeaderText = "速度";
             this.Spe.Name = "速度";
             this.Spe.ReadOnly = true;
@@ -1992,7 +1992,7 @@ namespace RNGReporter
             //
             // CapOffset
             //
-            this.CapOffset.DataPropertyName = "偏移";
+            this.CapOffset.DataPropertyName = "Offset";
             this.CapOffset.HeaderText = "帧数";
             this.CapOffset.Name = "CapOffset";
             this.CapOffset.ReadOnly = true;
@@ -2001,7 +2001,7 @@ namespace RNGReporter
             //
             // Hour
             //
-            this.Hour.DataPropertyName = "时";
+            this.Hour.DataPropertyName = "Hour";
             this.Hour.HeaderText = "时";
             this.Hour.Name = "时";
             this.Hour.ReadOnly = true;
@@ -2044,7 +2044,7 @@ namespace RNGReporter
             //
             // Nature
             //
-            this.Nature.DataPropertyName = "性格";
+            this.Nature.DataPropertyName = "Nature";
             this.Nature.HeaderText = "性格";
             this.Nature.Name = "性格";
             this.Nature.ReadOnly = true;
@@ -2052,7 +2052,7 @@ namespace RNGReporter
             //
             // Ability
             //
-            this.Ability.DataPropertyName = "特性";
+            this.Ability.DataPropertyName = "Ability";
             this.Ability.HeaderText = "特性";
             this.Ability.Name = "特性";
             this.Ability.ReadOnly = true;
@@ -2068,7 +2068,7 @@ namespace RNGReporter
             //
             // CapAtk
             //
-            this.CapAtk.DataPropertyName = "攻击";
+            this.CapAtk.DataPropertyName = "Atk";
             this.CapAtk.HeaderText = "攻击";
             this.CapAtk.Name = "CapAtk";
             this.CapAtk.ReadOnly = true;
@@ -2076,7 +2076,7 @@ namespace RNGReporter
             //
             // CapDef
             //
-            this.CapDef.DataPropertyName = "防御";
+            this.CapDef.DataPropertyName = "Def";
             this.CapDef.HeaderText = "防御";
             this.CapDef.Name = "CapDef";
             this.CapDef.ReadOnly = true;
@@ -2084,7 +2084,7 @@ namespace RNGReporter
             //
             // CapSpA
             //
-            this.CapSpA.DataPropertyName = "特攻";
+            this.CapSpA.DataPropertyName = "SpA";
             this.CapSpA.HeaderText = "特攻";
             this.CapSpA.Name = "CapSpA";
             this.CapSpA.ReadOnly = true;
@@ -2092,7 +2092,7 @@ namespace RNGReporter
             //
             // CapSpD
             //
-            this.CapSpD.DataPropertyName = "特防";
+            this.CapSpD.DataPropertyName = "SpD";
             this.CapSpD.HeaderText = "特防";
             this.CapSpD.Name = "CapSpD";
             this.CapSpD.ReadOnly = true;
@@ -2100,7 +2100,7 @@ namespace RNGReporter
             //
             // CapSpe
             //
-            this.CapSpe.DataPropertyName = "速度";
+            this.CapSpe.DataPropertyName = "Spe";
             this.CapSpe.HeaderText = "速度";
             this.CapSpe.Name = "CapSpe";
             this.CapSpe.ReadOnly = true;

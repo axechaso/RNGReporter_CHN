@@ -1968,7 +1968,7 @@ namespace RNGReporter
             //
             // clmFrame
             //
-            this.clmFrame.DataPropertyName = "帧";
+            this.clmFrame.DataPropertyName = "Frame";
             this.clmFrame.HeaderText = "帧";
             this.clmFrame.Name = "clmFrame";
             this.clmFrame.ReadOnly = true;
@@ -2007,7 +2007,7 @@ namespace RNGReporter
             //
             // clmSeconds
             //
-            this.clmSeconds.DataPropertyName = "秒数";
+            this.clmSeconds.DataPropertyName = "Seconds";
             this.clmSeconds.HeaderText = "秒数";
             this.clmSeconds.Name = "clmSeconds";
             this.clmSeconds.ReadOnly = true;
@@ -2015,7 +2015,7 @@ namespace RNGReporter
             //
             // clmStarter
             //
-            this.clmStarter.DataPropertyName = "初始宝可梦";
+            this.clmStarter.DataPropertyName = "Starter";
             this.clmStarter.HeaderText = "初始宝可梦";
             this.clmStarter.Name = "clmStarter";
             this.clmStarter.ReadOnly = true;
@@ -2023,7 +2023,7 @@ namespace RNGReporter
             //
             // clmDate
             //
-            this.clmDate.DataPropertyName = "日期";
+            this.clmDate.DataPropertyName = "Date";
             this.clmDate.HeaderText = "日期";
             this.clmDate.Name = "clmDate";
             this.clmDate.ReadOnly = true;
@@ -2031,7 +2031,7 @@ namespace RNGReporter
             //
             // clmTime
             //
-            this.clmTime.DataPropertyName = "时间";
+            this.clmTime.DataPropertyName = "Time";
             this.clmTime.HeaderText = "时间";
             this.clmTime.Name = "clmTime";
             this.clmTime.ReadOnly = true;
@@ -2039,7 +2039,7 @@ namespace RNGReporter
             //
             // clmButton
             //
-            this.clmButton.DataPropertyName = "按键";
+            this.clmButton.DataPropertyName = "Keypress";
             this.clmButton.HeaderText = "按键";
             this.clmButton.Name = "clmButton";
             this.clmButton.ReadOnly = true;

@@ -593,7 +593,7 @@ namespace RNGReporter
             //
             // CapOffset
             //
-            this.CapOffset.DataPropertyName = "偏移";
+            this.CapOffset.DataPropertyName = "Offset";
             this.CapOffset.HeaderText = "帧";
             this.CapOffset.MinimumWidth = 6;
             this.CapOffset.Name = "CapOffset";
@@ -603,7 +603,7 @@ namespace RNGReporter
             //
             // Nature
             //
-            this.Nature.DataPropertyName = "性格";
+            this.Nature.DataPropertyName = "Nature";
             this.Nature.HeaderText = "性格";
             this.Nature.MinimumWidth = 6;
             this.Nature.Name = "性格";
@@ -621,7 +621,7 @@ namespace RNGReporter
             //
             // CapAtk
             //
-            this.CapAtk.DataPropertyName = "攻击";
+            this.CapAtk.DataPropertyName = "Atk";
             this.CapAtk.HeaderText = "攻击";
             this.CapAtk.MinimumWidth = 6;
             this.CapAtk.Name = "CapAtk";
@@ -630,7 +630,7 @@ namespace RNGReporter
             //
             // CapDef
             //
-            this.CapDef.DataPropertyName = "防御";
+            this.CapDef.DataPropertyName = "Def";
             this.CapDef.HeaderText = "防御";
             this.CapDef.MinimumWidth = 6;
             this.CapDef.Name = "CapDef";
@@ -639,7 +639,7 @@ namespace RNGReporter
             //
             // CapSpA
             //
-            this.CapSpA.DataPropertyName = "特攻";
+            this.CapSpA.DataPropertyName = "SpA";
             this.CapSpA.HeaderText = "特攻";
             this.CapSpA.MinimumWidth = 6;
             this.CapSpA.Name = "CapSpA";
@@ -648,7 +648,7 @@ namespace RNGReporter
             //
             // CapSpD
             //
-            this.CapSpD.DataPropertyName = "特防";
+            this.CapSpD.DataPropertyName = "SpD";
             this.CapSpD.HeaderText = "特防";
             this.CapSpD.MinimumWidth = 6;
             this.CapSpD.Name = "CapSpD";
@@ -657,7 +657,7 @@ namespace RNGReporter
             //
             // CapSpe
             //
-            this.CapSpe.DataPropertyName = "速度";
+            this.CapSpe.DataPropertyName = "Spe";
             this.CapSpe.HeaderText = "速度";
             this.CapSpe.MinimumWidth = 6;
             this.CapSpe.Name = "CapSpe";
@@ -666,7 +666,7 @@ namespace RNGReporter
             //
             // Keypresses
             //
-            this.Keypresses.DataPropertyName = "按键";
+            this.Keypresses.DataPropertyName = "Keypress";
             this.Keypresses.HeaderText = "按键";
             this.Keypresses.MinimumWidth = 6;
             this.Keypresses.Name = "按键";

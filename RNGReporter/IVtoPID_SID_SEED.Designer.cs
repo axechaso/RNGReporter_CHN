@@ -260,7 +260,7 @@ namespace RNGReporter
             //
             // Ability
             //
-            this.Ability.DataPropertyName = "特性";
+            this.Ability.DataPropertyName = "Ability";
             this.Ability.HeaderText = "特性";
             this.Ability.MinimumWidth = 6;
             this.Ability.Name = "特性";

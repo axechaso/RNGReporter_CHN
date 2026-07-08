@@ -1,3 +1,4 @@
+import re
 from pathlib import Path
 
 
@@ -6,6 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PROGRESS_FILE = ROOT / "RNGReporter" / "Progress.cs"
 MAIN_FORM_FILE = ROOT / "RNGReporter" / "MainForm.cs"
 MAIN_FORM_DESIGNER_FILE = ROOT / "RNGReporter" / "MainForm.Designer.cs"
+ADJACENTS_FILE = ROOT / "RNGReporter" / "Adjacents.cs"
 FRAME_TYPE_FILE = ROOT / "RNGReporter" / "Objects" / "FrameType.cs"
 FRAME_FILE = ROOT / "RNGReporter" / "Objects" / "Frame.cs"
 FUNCTIONS_FILE = ROOT / "RNGReporter" / "Objects" / "Functions.cs"
@@ -44,6 +46,7 @@ def main():
     failures = []
     main_form = read(MAIN_FORM_FILE)
     main_designer = read(MAIN_FORM_DESIGNER_FILE)
+    adjacents_source = read(ADJACENTS_FILE)
     frame_type = read(FRAME_TYPE_FILE)
     frame_source = read(FRAME_FILE)
     functions_source = read(FUNCTIONS_FILE)
@@ -58,6 +61,15 @@ def main():
     search_elm_v = read(SEARCH_ELM_V_FILE)
     search_elm_v_designer = read(SEARCH_ELM_V_DESIGNER_FILE)
     progress_source = read(PROGRESS_FILE)
+
+    binding_pattern = re.compile(r'this\.(\w+)\.DataPropertyName = "([^"]*)";')
+    for path in (ROOT / "RNGReporter").rglob("*.Designer.cs"):
+        for match in binding_pattern.finditer(read(path)):
+            property_name = match.group(2)
+            if any(ord(character) > 127 for character in property_name):
+                failures.append(
+                    f"{path.relative_to(ROOT)} column {match.group(1)} has localized DataPropertyName {property_name!r}."
+                )
 
     if "Gen5Pickup" not in frame_type:
         failures.append("FrameType.Gen5Pickup is missing; this is not the Bambo-based final version.")
@@ -130,6 +142,8 @@ def main():
         failures.append("MainForm is missing DataGridView DataError handling.")
     if "dataGridViewValues.DataSource = null;" not in main_form:
         failures.append("Main grid should clear its old data source before rebinding.")
+    if "e.Value == null" not in adjacents_source:
+        failures.append("Adjacent seed grid formatting should ignore empty cell values instead of throwing.")
 
     if 'AddLetter("炎帝")' in search_elm or 'this.buttonE.Text = "炎帝";' in search_elm_designer:
         failures.append("SearchElm should use E for Elm calls, not the Entei name.")

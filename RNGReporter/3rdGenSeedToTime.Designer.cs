@@ -123,7 +123,7 @@
             //
             // Time
             //
-            this.Time.DataPropertyName = "时间";
+            this.Time.DataPropertyName = "Time";
             dataGridViewCellStyle6.Format = "X";
             this.Time.DefaultCellStyle = dataGridViewCellStyle6;
             this.Time.HeaderText = "时间";
@@ -134,7 +134,7 @@
             //
             // Seconds
             //
-            this.Seconds.DataPropertyName = "秒数";
+            this.Seconds.DataPropertyName = "Seconds";
             this.Seconds.HeaderText = "秒数";
             this.Seconds.MinimumWidth = 6;
             this.Seconds.Name = "秒数";

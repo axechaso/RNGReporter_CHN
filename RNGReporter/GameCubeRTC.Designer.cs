@@ -258,7 +258,7 @@
             //
             // Time
             //
-            this.Time.DataPropertyName = "时间";
+            this.Time.DataPropertyName = "Time";
             dataGridViewCellStyle2.Format = "X";
             this.Time.DefaultCellStyle = dataGridViewCellStyle2;
             this.Time.HeaderText = "时间";
@@ -269,7 +269,7 @@
             //
             // Frame
             //
-            this.Frame.DataPropertyName = "帧";
+            this.Frame.DataPropertyName = "Frame";
             this.Frame.HeaderText = "帧数";
             this.Frame.MinimumWidth = 6;
             this.Frame.Name = "帧";

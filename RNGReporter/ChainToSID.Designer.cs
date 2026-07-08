@@ -339,7 +339,7 @@ namespace RNGReporter
             //
             // PokemonNature
             //
-            this.PokemonNature.DataPropertyName = "性格";
+            this.PokemonNature.DataPropertyName = "Nature";
             this.PokemonNature.HeaderText = "性格";
             this.PokemonNature.MinimumWidth = 6;
             this.PokemonNature.Name = "PokemonNature";
@@ -348,7 +348,7 @@ namespace RNGReporter
             //
             // PokemonAbility
             //
-            this.PokemonAbility.DataPropertyName = "特性";
+            this.PokemonAbility.DataPropertyName = "Ability";
             this.PokemonAbility.HeaderText = "特性";
             this.PokemonAbility.MinimumWidth = 6;
             this.PokemonAbility.Name = "PokemonAbility";
@@ -357,7 +357,7 @@ namespace RNGReporter
             //
             // PokemonGender
             //
-            this.PokemonGender.DataPropertyName = "性别";
+            this.PokemonGender.DataPropertyName = "Gender";
             this.PokemonGender.HeaderText = "性别";
             this.PokemonGender.MinimumWidth = 6;
             this.PokemonGender.Name = "PokemonGender";

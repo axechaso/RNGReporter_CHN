@@ -1347,7 +1347,7 @@
             //
             // Frame
             //
-            this.Frame.DataPropertyName = "帧";
+            this.Frame.DataPropertyName = "Frame";
             this.Frame.HeaderText = "帧数";
             this.Frame.Name = "帧";
             this.Frame.ReadOnly = true;
@@ -1364,7 +1364,7 @@
             //
             // dataGridViewTextBoxColumn15
             //
-            this.dataGridViewTextBoxColumn15.DataPropertyName = "性格";
+            this.dataGridViewTextBoxColumn15.DataPropertyName = "Nature";
             this.dataGridViewTextBoxColumn15.HeaderText = "性格";
             this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
             this.dataGridViewTextBoxColumn15.ReadOnly = true;
@@ -1372,7 +1372,7 @@
             //
             // dataGridViewTextBoxColumn16
             //
-            this.dataGridViewTextBoxColumn16.DataPropertyName = "特性";
+            this.dataGridViewTextBoxColumn16.DataPropertyName = "Ability";
             this.dataGridViewTextBoxColumn16.HeaderText = "特性";
             this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
             this.dataGridViewTextBoxColumn16.ReadOnly = true;
@@ -1388,7 +1388,7 @@
             //
             // dataGridViewTextBoxColumn18
             //
-            this.dataGridViewTextBoxColumn18.DataPropertyName = "攻击";
+            this.dataGridViewTextBoxColumn18.DataPropertyName = "Atk";
             this.dataGridViewTextBoxColumn18.HeaderText = "攻击";
             this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
             this.dataGridViewTextBoxColumn18.ReadOnly = true;
@@ -1396,7 +1396,7 @@
             //
             // dataGridViewTextBoxColumn19
             //
-            this.dataGridViewTextBoxColumn19.DataPropertyName = "防御";
+            this.dataGridViewTextBoxColumn19.DataPropertyName = "Def";
             this.dataGridViewTextBoxColumn19.HeaderText = "防御";
             this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
             this.dataGridViewTextBoxColumn19.ReadOnly = true;
@@ -1404,7 +1404,7 @@
             //
             // dataGridViewTextBoxColumn20
             //
-            this.dataGridViewTextBoxColumn20.DataPropertyName = "特攻";
+            this.dataGridViewTextBoxColumn20.DataPropertyName = "SpA";
             this.dataGridViewTextBoxColumn20.HeaderText = "特攻";
             this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
             this.dataGridViewTextBoxColumn20.ReadOnly = true;
@@ -1412,7 +1412,7 @@
             //
             // dataGridViewTextBoxColumn21
             //
-            this.dataGridViewTextBoxColumn21.DataPropertyName = "特防";
+            this.dataGridViewTextBoxColumn21.DataPropertyName = "SpD";
             this.dataGridViewTextBoxColumn21.HeaderText = "特防";
             this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
             this.dataGridViewTextBoxColumn21.ReadOnly = true;
@@ -1420,7 +1420,7 @@
             //
             // dataGridViewTextBoxColumn22
             //
-            this.dataGridViewTextBoxColumn22.DataPropertyName = "速度";
+            this.dataGridViewTextBoxColumn22.DataPropertyName = "Spe";
             this.dataGridViewTextBoxColumn22.HeaderText = "速度";
             this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
             this.dataGridViewTextBoxColumn22.ReadOnly = true;
@@ -1428,7 +1428,7 @@
             //
             // dataGridViewTextBoxColumn23
             //
-            this.dataGridViewTextBoxColumn23.DataPropertyName = "觉醒";
+            this.dataGridViewTextBoxColumn23.DataPropertyName = "Hidden";
             this.dataGridViewTextBoxColumn23.HeaderText = "觉醒力量";
             this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
             this.dataGridViewTextBoxColumn23.ReadOnly = true;
@@ -1436,7 +1436,7 @@
             //
             // dataGridViewTextBoxColumn24
             //
-            this.dataGridViewTextBoxColumn24.DataPropertyName = "威力";
+            this.dataGridViewTextBoxColumn24.DataPropertyName = "Power";
             this.dataGridViewTextBoxColumn24.HeaderText = "觉醒力量威力";
             this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
             this.dataGridViewTextBoxColumn24.ReadOnly = true;
@@ -2287,7 +2287,7 @@
             //
             // dataGridViewTextBoxColumn3
             //
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "性格";
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "Nature";
             this.dataGridViewTextBoxColumn3.HeaderText = "性格";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             this.dataGridViewTextBoxColumn3.ReadOnly = true;
@@ -2295,7 +2295,7 @@
             //
             // dataGridViewTextBoxColumn4
             //
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "特性";
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Ability";
             this.dataGridViewTextBoxColumn4.HeaderText = "特性";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             this.dataGridViewTextBoxColumn4.ReadOnly = true;
@@ -2311,7 +2311,7 @@
             //
             // dataGridViewTextBoxColumn6
             //
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "攻击";
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "Atk";
             this.dataGridViewTextBoxColumn6.HeaderText = "攻击";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             this.dataGridViewTextBoxColumn6.ReadOnly = true;
@@ -2319,7 +2319,7 @@
             //
             // dataGridViewTextBoxColumn7
             //
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "防御";
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "Def";
             this.dataGridViewTextBoxColumn7.HeaderText = "防御";
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             this.dataGridViewTextBoxColumn7.ReadOnly = true;
@@ -2327,7 +2327,7 @@
             //
             // dataGridViewTextBoxColumn8
             //
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "特攻";
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "SpA";
             this.dataGridViewTextBoxColumn8.HeaderText = "特攻";
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
             this.dataGridViewTextBoxColumn8.ReadOnly = true;
@@ -2335,7 +2335,7 @@
             //
             // dataGridViewTextBoxColumn9
             //
-            this.dataGridViewTextBoxColumn9.DataPropertyName = "特防";
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "SpD";
             this.dataGridViewTextBoxColumn9.HeaderText = "特防";
             this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
             this.dataGridViewTextBoxColumn9.ReadOnly = true;
@@ -2343,7 +2343,7 @@
             //
             // dataGridViewTextBoxColumn10
             //
-            this.dataGridViewTextBoxColumn10.DataPropertyName = "速度";
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "Spe";
             this.dataGridViewTextBoxColumn10.HeaderText = "速度";
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             this.dataGridViewTextBoxColumn10.ReadOnly = true;
@@ -2351,7 +2351,7 @@
             //
             // dataGridViewTextBoxColumn11
             //
-            this.dataGridViewTextBoxColumn11.DataPropertyName = "觉醒";
+            this.dataGridViewTextBoxColumn11.DataPropertyName = "Hidden";
             this.dataGridViewTextBoxColumn11.HeaderText = "觉醒力量";
             this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
             this.dataGridViewTextBoxColumn11.ReadOnly = true;
@@ -2359,7 +2359,7 @@
             //
             // HiddenPowerPower
             //
-            this.HiddenPowerPower.DataPropertyName = "威力";
+            this.HiddenPowerPower.DataPropertyName = "Power";
             this.HiddenPowerPower.HeaderText = "觉醒力量威力";
             this.HiddenPowerPower.Name = "HiddenPowerPower";
             this.HiddenPowerPower.ReadOnly = true;

@@ -933,7 +933,7 @@ namespace RNGReporter
             //
             // ShinyOffset
             //
-            this.ShinyOffset.DataPropertyName = "偏移";
+            this.ShinyOffset.DataPropertyName = "Offset";
             this.ShinyOffset.HeaderText = "帧数";
             this.ShinyOffset.Name = "ShinyOffset";
             this.ShinyOffset.ReadOnly = true;
@@ -960,7 +960,7 @@ namespace RNGReporter
             //
             // ShinyNature
             //
-            this.ShinyNature.DataPropertyName = "性格";
+            this.ShinyNature.DataPropertyName = "Nature";
             this.ShinyNature.HeaderText = "性格";
             this.ShinyNature.Name = "ShinyNature";
             this.ShinyNature.ReadOnly = true;
@@ -969,7 +969,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn4
             //
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "特性";
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Ability";
             this.dataGridViewTextBoxColumn4.HeaderText = "特性";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             this.dataGridViewTextBoxColumn4.ReadOnly = true;
@@ -1090,7 +1090,7 @@ namespace RNGReporter
             //
             // shinyKeypress
             //
-            this.shinyKeypress.DataPropertyName = "按键";
+            this.shinyKeypress.DataPropertyName = "Keypress";
             this.shinyKeypress.HeaderText = "按键";
             this.shinyKeypress.Name = "shinyKeypress";
             this.shinyKeypress.Width = 120;
@@ -2148,7 +2148,7 @@ namespace RNGReporter
             //
             // EventFrame
             //
-            this.EventFrame.DataPropertyName = "偏移";
+            this.EventFrame.DataPropertyName = "Offset";
             this.EventFrame.HeaderText = "帧";
             this.EventFrame.Name = "EventFrame";
             this.EventFrame.ReadOnly = true;
@@ -2176,7 +2176,7 @@ namespace RNGReporter
             //
             // EventNature
             //
-            this.EventNature.DataPropertyName = "性格";
+            this.EventNature.DataPropertyName = "Nature";
             this.EventNature.FillWeight = 80F;
             this.EventNature.HeaderText = "性格";
             this.EventNature.Name = "EventNature";
@@ -2203,7 +2203,7 @@ namespace RNGReporter
             //
             // EventAtk
             //
-            this.EventAtk.DataPropertyName = "攻击";
+            this.EventAtk.DataPropertyName = "Atk";
             this.EventAtk.FillWeight = 45F;
             this.EventAtk.HeaderText = "攻击";
             this.EventAtk.Name = "EventAtk";
@@ -2212,7 +2212,7 @@ namespace RNGReporter
             //
             // EventDef
             //
-            this.EventDef.DataPropertyName = "防御";
+            this.EventDef.DataPropertyName = "Def";
             this.EventDef.FillWeight = 45F;
             this.EventDef.HeaderText = "防御";
             this.EventDef.Name = "EventDef";
@@ -2221,7 +2221,7 @@ namespace RNGReporter
             //
             // EventSpA
             //
-            this.EventSpA.DataPropertyName = "特攻";
+            this.EventSpA.DataPropertyName = "SpA";
             this.EventSpA.FillWeight = 45F;
             this.EventSpA.HeaderText = "特攻";
             this.EventSpA.Name = "EventSpA";
@@ -2230,7 +2230,7 @@ namespace RNGReporter
             //
             // EventSpD
             //
-            this.EventSpD.DataPropertyName = "特防";
+            this.EventSpD.DataPropertyName = "SpD";
             this.EventSpD.FillWeight = 45F;
             this.EventSpD.HeaderText = "特防";
             this.EventSpD.Name = "EventSpD";
@@ -2239,7 +2239,7 @@ namespace RNGReporter
             //
             // EventSpe
             //
-            this.EventSpe.DataPropertyName = "速度";
+            this.EventSpe.DataPropertyName = "Spe";
             this.EventSpe.FillWeight = 45F;
             this.EventSpe.HeaderText = "速度";
             this.EventSpe.Name = "EventSpe";
@@ -2325,7 +2325,7 @@ namespace RNGReporter
             //
             // EventKeys
             //
-            this.EventKeys.DataPropertyName = "按键";
+            this.EventKeys.DataPropertyName = "Keypress";
             this.EventKeys.HeaderText = "按键";
             this.EventKeys.Name = "EventKeys";
             this.EventKeys.Width = 120;
@@ -3324,7 +3324,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn3
             //
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "帧";
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "Frame";
             this.dataGridViewTextBoxColumn3.FillWeight = 150F;
             this.dataGridViewTextBoxColumn3.HeaderText = "帧数";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
@@ -3334,7 +3334,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn5
             //
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "槽位";
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "Slot";
             this.dataGridViewTextBoxColumn5.HeaderText = "槽位";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             this.dataGridViewTextBoxColumn5.ReadOnly = true;
@@ -3342,7 +3342,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn7
             //
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "子槽位";
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "SubSlot";
             this.dataGridViewTextBoxColumn7.FillWeight = 120F;
             this.dataGridViewTextBoxColumn7.HeaderText = "子槽位";
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
@@ -3351,7 +3351,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn9
             //
-            this.dataGridViewTextBoxColumn9.DataPropertyName = "性别";
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "Gender";
             this.dataGridViewTextBoxColumn9.FillWeight = 80F;
             this.dataGridViewTextBoxColumn9.HeaderText = "性别比例";
             this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
@@ -3416,7 +3416,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn25
             //
-            this.dataGridViewTextBoxColumn25.DataPropertyName = "按键";
+            this.dataGridViewTextBoxColumn25.DataPropertyName = "Keypress";
             this.dataGridViewTextBoxColumn25.HeaderText = "按键";
             this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
             this.dataGridViewTextBoxColumn25.Width = 120;
@@ -3776,7 +3776,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn10
             //
-            this.dataGridViewTextBoxColumn10.DataPropertyName = "偏移";
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "Offset";
             this.dataGridViewTextBoxColumn10.HeaderText = "帧数";
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             this.dataGridViewTextBoxColumn10.ReadOnly = true;
@@ -3802,7 +3802,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn13
             //
-            this.dataGridViewTextBoxColumn13.DataPropertyName = "性格";
+            this.dataGridViewTextBoxColumn13.DataPropertyName = "Nature";
             this.dataGridViewTextBoxColumn13.HeaderText = "性格";
             this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
             this.dataGridViewTextBoxColumn13.ReadOnly = true;
@@ -3882,7 +3882,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn36
             //
-            this.dataGridViewTextBoxColumn36.DataPropertyName = "按键";
+            this.dataGridViewTextBoxColumn36.DataPropertyName = "Keypress";
             this.dataGridViewTextBoxColumn36.HeaderText = "按键";
             this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
             this.dataGridViewTextBoxColumn36.Width = 120;
@@ -4043,7 +4043,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn32
             //
-            this.dataGridViewTextBoxColumn32.DataPropertyName = "偏移";
+            this.dataGridViewTextBoxColumn32.DataPropertyName = "Offset";
             this.dataGridViewTextBoxColumn32.FillWeight = 80F;
             this.dataGridViewTextBoxColumn32.HeaderText = "帧";
             this.dataGridViewTextBoxColumn32.Name = "dataGridViewTextBoxColumn32";
@@ -4115,7 +4115,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn71
             //
-            this.dataGridViewTextBoxColumn71.DataPropertyName = "按键";
+            this.dataGridViewTextBoxColumn71.DataPropertyName = "Keypress";
             this.dataGridViewTextBoxColumn71.HeaderText = "按键";
             this.dataGridViewTextBoxColumn71.Name = "dataGridViewTextBoxColumn71";
             this.dataGridViewTextBoxColumn71.Width = 120;
@@ -4698,7 +4698,7 @@ namespace RNGReporter
             //
             // CapOffset
             //
-            this.CapOffset.DataPropertyName = "偏移";
+            this.CapOffset.DataPropertyName = "Offset";
             this.CapOffset.FillWeight = 80F;
             this.CapOffset.HeaderText = "帧数";
             this.CapOffset.Name = "CapOffset";
@@ -4744,7 +4744,7 @@ namespace RNGReporter
             //
             // EncounterRatio
             //
-            this.EncounterRatio.DataPropertyName = "比例";
+            this.EncounterRatio.DataPropertyName = "Ratio";
             this.EncounterRatio.HeaderText = "遇敌比例";
             this.EncounterRatio.Name = "EncounterRatio";
             this.EncounterRatio.ReadOnly = true;
@@ -4768,7 +4768,7 @@ namespace RNGReporter
             //
             // Lvl
             //
-            this.Lvl.DataPropertyName = "等级";
+            this.Lvl.DataPropertyName = "Level";
             this.Lvl.HeaderText = "等级";
             this.Lvl.Name = "Lvl";
             this.Lvl.ReadOnly = true;
@@ -4786,7 +4786,7 @@ namespace RNGReporter
             //
             // Nature
             //
-            this.Nature.DataPropertyName = "性格";
+            this.Nature.DataPropertyName = "Nature";
             this.Nature.FillWeight = 80F;
             this.Nature.HeaderText = "性格";
             this.Nature.Name = "性格";
@@ -4795,7 +4795,7 @@ namespace RNGReporter
             //
             // Ability
             //
-            this.Ability.DataPropertyName = "特性";
+            this.Ability.DataPropertyName = "Ability";
             this.Ability.FillWeight = 50F;
             this.Ability.HeaderText = "特性";
             this.Ability.Name = "特性";
@@ -4813,7 +4813,7 @@ namespace RNGReporter
             //
             // CapAtk
             //
-            this.CapAtk.DataPropertyName = "攻击";
+            this.CapAtk.DataPropertyName = "Atk";
             this.CapAtk.FillWeight = 45F;
             this.CapAtk.HeaderText = "攻击";
             this.CapAtk.Name = "CapAtk";
@@ -4822,7 +4822,7 @@ namespace RNGReporter
             //
             // CapDef
             //
-            this.CapDef.DataPropertyName = "防御";
+            this.CapDef.DataPropertyName = "Def";
             this.CapDef.FillWeight = 45F;
             this.CapDef.HeaderText = "防御";
             this.CapDef.Name = "CapDef";
@@ -4831,7 +4831,7 @@ namespace RNGReporter
             //
             // CapSpA
             //
-            this.CapSpA.DataPropertyName = "特攻";
+            this.CapSpA.DataPropertyName = "SpA";
             this.CapSpA.FillWeight = 45F;
             this.CapSpA.HeaderText = "特攻";
             this.CapSpA.Name = "CapSpA";
@@ -4840,7 +4840,7 @@ namespace RNGReporter
             //
             // CapSpD
             //
-            this.CapSpD.DataPropertyName = "特防";
+            this.CapSpD.DataPropertyName = "SpD";
             this.CapSpD.FillWeight = 45F;
             this.CapSpD.HeaderText = "特防";
             this.CapSpD.Name = "CapSpD";
@@ -4849,7 +4849,7 @@ namespace RNGReporter
             //
             // CapSpe
             //
-            this.CapSpe.DataPropertyName = "速度";
+            this.CapSpe.DataPropertyName = "Spe";
             this.CapSpe.FillWeight = 45F;
             this.CapSpe.HeaderText = "速度";
             this.CapSpe.Name = "CapSpe";
@@ -4936,7 +4936,7 @@ namespace RNGReporter
             //
             // CapKeypress
             //
-            this.CapKeypress.DataPropertyName = "按键";
+            this.CapKeypress.DataPropertyName = "Keypress";
             this.CapKeypress.HeaderText = "按键";
             this.CapKeypress.Name = "CapKeypress";
             this.CapKeypress.Visible = false;
@@ -4944,7 +4944,7 @@ namespace RNGReporter
             //
             // Synchable
             //
-            this.Synchable.DataPropertyName = "同步能力";
+            this.Synchable.DataPropertyName = "Synchable";
             this.Synchable.HeaderText = "同步";
             this.Synchable.Name = "同步能力";
             this.Synchable.ReadOnly = true;

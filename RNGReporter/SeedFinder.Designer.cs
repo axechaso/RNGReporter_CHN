@@ -319,7 +319,7 @@ namespace RNGReporter
             this.buttonOk.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonOk.Size = new System.Drawing.Size(75, 23);
             this.buttonOk.TabIndex = 4;
-            this.buttonOk.Text = "È·ÈÏ";
+            this.buttonOk.Text = "È·ï¿½ï¿½";
             this.buttonOk.Click += new System.EventHandler(this.buttonOk_Click);
             //
             // buttonCancel
@@ -333,7 +333,7 @@ namespace RNGReporter
             this.buttonCancel.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 5;
-            this.buttonCancel.Text = "¹Ø±Õ";
+            this.buttonCancel.Text = "ï¿½Ø±ï¿½";
             //
             // label1
             //
@@ -342,7 +342,7 @@ namespace RNGReporter
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(31, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Äê·Ý";
+            this.label1.Text = "ï¿½ï¿½ï¿½";
             //
             // label2
             //
@@ -351,7 +351,7 @@ namespace RNGReporter
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "ÔÂ·Ý ";
+            this.label2.Text = "ï¿½Â·ï¿½ ";
             //
             // label3
             //
@@ -360,7 +360,7 @@ namespace RNGReporter
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(31, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "ÈÕÆÚ";
+            this.label3.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label4
             //
@@ -387,7 +387,7 @@ namespace RNGReporter
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(19, 13);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Ãë";
+            this.label6.Text = "ï¿½ï¿½";
             //
             // label7
             //
@@ -396,7 +396,7 @@ namespace RNGReporter
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(19, 13);
             this.label7.TabIndex = 4;
-            this.label7.Text = "·Ö";
+            this.label7.Text = "ï¿½ï¿½";
             //
             // label_main_seed
             //
@@ -425,7 +425,7 @@ namespace RNGReporter
             this.buttonSimpleSeed.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonSimpleSeed.Size = new System.Drawing.Size(75, 23);
             this.buttonSimpleSeed.TabIndex = 14;
-            this.buttonSimpleSeed.Text = "¼ÆËã";
+            this.buttonSimpleSeed.Text = "ï¿½ï¿½ï¿½ï¿½";
             this.buttonSimpleSeed.Click += new System.EventHandler(this.buttonSimpleSeed_Click);
             //
             // tabControl1
@@ -482,7 +482,7 @@ namespace RNGReporter
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(509, 369);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "¸ù¾Ý¸öÌå¼ÆËãseed";
+            this.tabPage1.Text = "ï¿½ï¿½ï¿½Ý¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½seed";
             this.tabPage1.UseVisualStyleBackColor = true;
             //
             // radioButton_SIV_OPEN
@@ -492,7 +492,7 @@ namespace RNGReporter
             this.radioButton_SIV_OPEN.Name = "radioButton_SIV_OPEN";
             this.radioButton_SIV_OPEN.Size = new System.Drawing.Size(49, 17);
             this.radioButton_SIV_OPEN.TabIndex = 68;
-            this.radioButton_SIV_OPEN.Text = "´ò¿ª";
+            this.radioButton_SIV_OPEN.Text = "ï¿½ï¿½";
             this.radioButton_SIV_OPEN.UseVisualStyleBackColor = true;
             this.radioButton_SIV_OPEN.CheckedChanged += new System.EventHandler(this.radioButton_SIV_OPEN_CheckedChanged);
             //
@@ -503,7 +503,7 @@ namespace RNGReporter
             this.radioButton_SIV_CUSTOM.Name = "radioButton_SIV_CUSTOM";
             this.radioButton_SIV_CUSTOM.Size = new System.Drawing.Size(61, 17);
             this.radioButton_SIV_CUSTOM.TabIndex = 67;
-            this.radioButton_SIV_CUSTOM.Text = "×Ô¶¨Òå";
+            this.radioButton_SIV_CUSTOM.Text = "ï¿½Ô¶ï¿½ï¿½ï¿½";
             this.radioButton_SIV_CUSTOM.UseVisualStyleBackColor = true;
             this.radioButton_SIV_CUSTOM.CheckedChanged += new System.EventHandler(this.radioButton_SIV_CUSTOM_CheckedChanged);
             //
@@ -536,7 +536,7 @@ namespace RNGReporter
             this.checkBoxLowDelay.Name = "checkBoxLowDelay";
             this.checkBoxLowDelay.Size = new System.Drawing.Size(107, 17);
             this.checkBoxLowDelay.TabIndex = 64;
-            this.checkBoxLowDelay.Text = "DelayµÍÓÚ10000";
+            this.checkBoxLowDelay.Text = "Delayï¿½ï¿½ï¿½ï¿½10000";
             this.checkBoxLowDelay.UseVisualStyleBackColor = true;
             this.checkBoxLowDelay.Visible = false;
             //
@@ -547,7 +547,7 @@ namespace RNGReporter
             this.label_SIV_MaxDelay.Name = "label_SIV_MaxDelay";
             this.label_SIV_MaxDelay.Size = new System.Drawing.Size(58, 13);
             this.label_SIV_MaxDelay.TabIndex = 63;
-            this.label_SIV_MaxDelay.Text = "×î´óDelay";
+            this.label_SIV_MaxDelay.Text = "ï¿½ï¿½ï¿½Delay";
             this.label_SIV_MaxDelay.Visible = false;
             //
             // label_SIV_MinDelay
@@ -557,7 +557,7 @@ namespace RNGReporter
             this.label_SIV_MinDelay.Name = "label_SIV_MinDelay";
             this.label_SIV_MinDelay.Size = new System.Drawing.Size(58, 13);
             this.label_SIV_MinDelay.TabIndex = 62;
-            this.label_SIV_MinDelay.Text = "×îÐ¡Delay";
+            this.label_SIV_MinDelay.Text = "ï¿½ï¿½Ð¡Delay";
             this.label_SIV_MinDelay.Visible = false;
             //
             // maskedTextBoxMaxDelay_A
@@ -587,7 +587,7 @@ namespace RNGReporter
             this.label_a_y.Name = "label_a_y";
             this.label_a_y.Size = new System.Drawing.Size(31, 13);
             this.label_a_y.TabIndex = 0;
-            this.label_a_y.Text = "Äê·Ý";
+            this.label_a_y.Text = "ï¿½ï¿½ï¿½";
             //
             // dataGridViewValues
             //
@@ -622,10 +622,10 @@ namespace RNGReporter
             //
             // Type
             //
-            this.Type.DataPropertyName = "ÀàÐÍ";
-            this.Type.HeaderText = "ÀàÐÍ";
+            this.Type.DataPropertyName = "Type";
+            this.Type.HeaderText = "ï¿½ï¿½ï¿½ï¿½";
             this.Type.MinimumWidth = 6;
-            this.Type.Name = "ÀàÐÍ";
+            this.Type.Name = "ï¿½ï¿½ï¿½ï¿½";
             this.Type.ReadOnly = true;
             this.Type.Width = 125;
             //
@@ -643,8 +643,8 @@ namespace RNGReporter
             //
             // Frame
             //
-            this.Frame.DataPropertyName = "Æ«ÒÆ";
-            this.Frame.HeaderText = "Method 1 Ö¡Êý";
+            this.Frame.DataPropertyName = "Offset";
+            this.Frame.HeaderText = "Method 1 Ö¡ï¿½ï¿½";
             this.Frame.MinimumWidth = 6;
             this.Frame.Name = "Ö¡";
             this.Frame.ReadOnly = true;
@@ -652,8 +652,8 @@ namespace RNGReporter
             //
             // Secs
             //
-            this.Secs.DataPropertyName = "ÃëÊý";
-            this.Secs.HeaderText = "ÃëÊý";
+            this.Secs.DataPropertyName = "Seconds";
+            this.Secs.HeaderText = "ï¿½ï¿½ï¿½ï¿½";
             this.Secs.MinimumWidth = 6;
             this.Secs.Name = "Secs";
             this.Secs.ReadOnly = true;
@@ -688,7 +688,7 @@ namespace RNGReporter
             this.buttonFind_A.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonFind_A.Size = new System.Drawing.Size(75, 23);
             this.buttonFind_A.TabIndex = 24;
-            this.buttonFind_A.Text = "¼ÆËã";
+            this.buttonFind_A.Text = "ï¿½ï¿½ï¿½ï¿½";
             this.buttonFind_A.Click += new System.EventHandler(this.buttonGenerate_Click);
             //
             // maskedTextBoxMinutes_A
@@ -717,7 +717,7 @@ namespace RNGReporter
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(31, 13);
             this.label10.TabIndex = 10;
-            this.label10.Text = "ÐÔ¸ñ";
+            this.label10.Text = "ï¿½Ô¸ï¿½";
             //
             // maskedTextBoxYear_A
             //
@@ -746,7 +746,7 @@ namespace RNGReporter
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(31, 13);
             this.label15.TabIndex = 22;
-            this.label15.Text = "ËÙ¶È";
+            this.label15.Text = "ï¿½Ù¶ï¿½";
             //
             // label_a_min
             //
@@ -755,7 +755,7 @@ namespace RNGReporter
             this.label_a_min.Name = "label_a_min";
             this.label_a_min.Size = new System.Drawing.Size(64, 13);
             this.label_a_min.TabIndex = 8;
-            this.label_a_min.Text = "·Ö£¨0-59£©";
+            this.label_a_min.Text = "ï¿½Ö£ï¿½0-59ï¿½ï¿½";
             //
             // maskedTextBoxSpA_A
             //
@@ -774,7 +774,7 @@ namespace RNGReporter
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(31, 13);
             this.label16.TabIndex = 20;
-            this.label16.Text = "ÌØ·À";
+            this.label16.Text = "ï¿½Ø·ï¿½";
             //
             // maskedTextBoxMonth_A
             //
@@ -802,7 +802,7 @@ namespace RNGReporter
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(31, 13);
             this.label17.TabIndex = 18;
-            this.label17.Text = "ÌØ¹¥";
+            this.label17.Text = "ï¿½Ø¹ï¿½";
             //
             // label_a_h
             //
@@ -811,7 +811,7 @@ namespace RNGReporter
             this.label_a_h.Name = "label_a_h";
             this.label_a_h.Size = new System.Drawing.Size(64, 13);
             this.label_a_h.TabIndex = 6;
-            this.label_a_h.Text = "Ê±£¨0-23£©";
+            this.label_a_h.Text = "Ê±ï¿½ï¿½0-23ï¿½ï¿½";
             //
             // maskedTextBoxSpe_A
             //
@@ -830,7 +830,7 @@ namespace RNGReporter
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(31, 13);
             this.label18.TabIndex = 16;
-            this.label18.Text = "·ÀÓù";
+            this.label18.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // maskedTextBoxHours_A
             //
@@ -848,7 +848,7 @@ namespace RNGReporter
             this.label_a_m.Name = "label_a_m";
             this.label_a_m.Size = new System.Drawing.Size(31, 13);
             this.label_a_m.TabIndex = 2;
-            this.label_a_m.Text = "ÔÂ·Ý";
+            this.label_a_m.Text = "ï¿½Â·ï¿½";
             //
             // comboBoxNature_A
             //
@@ -868,7 +868,7 @@ namespace RNGReporter
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(31, 13);
             this.label19.TabIndex = 14;
-            this.label19.Text = "¹¥»÷";
+            this.label19.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label_a_d
             //
@@ -877,7 +877,7 @@ namespace RNGReporter
             this.label_a_d.Name = "label_a_d";
             this.label_a_d.Size = new System.Drawing.Size(31, 13);
             this.label_a_d.TabIndex = 4;
-            this.label_a_d.Text = "ÈÕÆÚ";
+            this.label_a_d.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // maskedTextBoxDate_A
             //
@@ -943,7 +943,7 @@ namespace RNGReporter
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(509, 369);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "¸ù¾ÝÄÜÁ¦Öµ¼ÆËãseed";
+            this.tabPage3.Text = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½seed";
             this.tabPage3.UseVisualStyleBackColor = true;
             //
             // radioButton_SS_CUSTOM
@@ -953,7 +953,7 @@ namespace RNGReporter
             this.radioButton_SS_CUSTOM.Name = "radioButton_SS_CUSTOM";
             this.radioButton_SS_CUSTOM.Size = new System.Drawing.Size(60, 17);
             this.radioButton_SS_CUSTOM.TabIndex = 73;
-            this.radioButton_SS_CUSTOM.Text = "×Ô¶¨Òå";
+            this.radioButton_SS_CUSTOM.Text = "ï¿½Ô¶ï¿½ï¿½ï¿½";
             this.radioButton_SS_CUSTOM.UseVisualStyleBackColor = true;
             this.radioButton_SS_CUSTOM.CheckedChanged += new System.EventHandler(this.radioButton_SS_CUSTOM_CheckedChanged);
             //
@@ -964,7 +964,7 @@ namespace RNGReporter
             this.label_SS_MaxDelay.Name = "label_SS_MaxDelay";
             this.label_SS_MaxDelay.Size = new System.Drawing.Size(58, 13);
             this.label_SS_MaxDelay.TabIndex = 72;
-            this.label_SS_MaxDelay.Text = "×î´óDelay";
+            this.label_SS_MaxDelay.Text = "ï¿½ï¿½ï¿½Delay";
             this.label_SS_MaxDelay.Visible = false;
             //
             // label_SS_MinDelay
@@ -974,7 +974,7 @@ namespace RNGReporter
             this.label_SS_MinDelay.Name = "label_SS_MinDelay";
             this.label_SS_MinDelay.Size = new System.Drawing.Size(58, 13);
             this.label_SS_MinDelay.TabIndex = 71;
-            this.label_SS_MinDelay.Text = "×îÐ¡Delay";
+            this.label_SS_MinDelay.Text = "ï¿½ï¿½Ð¡Delay";
             this.label_SS_MinDelay.Visible = false;
             //
             // radioButton_SS_HGSS
@@ -1009,7 +1009,7 @@ namespace RNGReporter
             this.buttonFind_Stat.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonFind_Stat.Size = new System.Drawing.Size(75, 23);
             this.buttonFind_Stat.TabIndex = 30;
-            this.buttonFind_Stat.Text = "¼ÆËã";
+            this.buttonFind_Stat.Text = "ï¿½ï¿½ï¿½ï¿½";
             this.buttonFind_Stat.Click += new System.EventHandler(this.buttonFind_Stat_Click);
             //
             // label32
@@ -1019,7 +1019,7 @@ namespace RNGReporter
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(31, 13);
             this.label32.TabIndex = 0;
-            this.label32.Text = "Äê·Ý";
+            this.label32.Text = "ï¿½ï¿½ï¿½";
             //
             // label33
             //
@@ -1028,7 +1028,7 @@ namespace RNGReporter
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(64, 13);
             this.label33.TabIndex = 8;
-            this.label33.Text = "·Ö£¨0-59£©";
+            this.label33.Text = "ï¿½Ö£ï¿½0-59ï¿½ï¿½";
             //
             // label34
             //
@@ -1037,7 +1037,7 @@ namespace RNGReporter
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(64, 13);
             this.label34.TabIndex = 6;
-            this.label34.Text = "Ê±£¨0-23£©";
+            this.label34.Text = "Ê±ï¿½ï¿½0-23ï¿½ï¿½";
             //
             // label35
             //
@@ -1046,7 +1046,7 @@ namespace RNGReporter
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(31, 13);
             this.label35.TabIndex = 2;
-            this.label35.Text = "ÔÂ·Ý";
+            this.label35.Text = "ï¿½Â·ï¿½";
             //
             // label36
             //
@@ -1055,7 +1055,7 @@ namespace RNGReporter
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(31, 13);
             this.label36.TabIndex = 4;
-            this.label36.Text = "ÈÕÆÚ";
+            this.label36.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // dataGridViewValues_Stat
             //
@@ -1090,8 +1090,8 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn1
             //
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "ÀàÐÍ";
-            this.dataGridViewTextBoxColumn1.HeaderText = "ÀàÐÍ";
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "Type";
+            this.dataGridViewTextBoxColumn1.HeaderText = "ï¿½ï¿½ï¿½ï¿½";
             this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.ReadOnly = true;
@@ -1111,8 +1111,8 @@ namespace RNGReporter
             //
             // OffsetStat
             //
-            this.OffsetStat.DataPropertyName = "Æ«ÒÆ";
-            this.OffsetStat.HeaderText = "Æ«²î";
+            this.OffsetStat.DataPropertyName = "Offset";
+            this.OffsetStat.HeaderText = "Æ«ï¿½ï¿½";
             this.OffsetStat.MinimumWidth = 6;
             this.OffsetStat.Name = "OffsetStat";
             this.OffsetStat.ReadOnly = true;
@@ -1121,8 +1121,8 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn4
             //
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "ÃëÊý";
-            this.dataGridViewTextBoxColumn4.HeaderText = "ÃëÊý";
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Seconds";
+            this.dataGridViewTextBoxColumn4.HeaderText = "ï¿½ï¿½ï¿½ï¿½";
             this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             this.dataGridViewTextBoxColumn4.ReadOnly = true;
@@ -1144,7 +1144,7 @@ namespace RNGReporter
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(31, 13);
             this.label22.TabIndex = 28;
-            this.label22.Text = "ËÙ¶È";
+            this.label22.Text = "ï¿½Ù¶ï¿½";
             //
             // label23
             //
@@ -1153,7 +1153,7 @@ namespace RNGReporter
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(31, 13);
             this.label23.TabIndex = 26;
-            this.label23.Text = "ÌØ·À";
+            this.label23.Text = "ï¿½Ø·ï¿½";
             //
             // label24
             //
@@ -1162,7 +1162,7 @@ namespace RNGReporter
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(31, 13);
             this.label24.TabIndex = 24;
-            this.label24.Text = "ÌØ¹¥";
+            this.label24.Text = "ï¿½Ø¹ï¿½";
             //
             // label25
             //
@@ -1171,7 +1171,7 @@ namespace RNGReporter
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(31, 13);
             this.label25.TabIndex = 22;
-            this.label25.Text = "·ÀÓù";
+            this.label25.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label26
             //
@@ -1180,7 +1180,7 @@ namespace RNGReporter
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(31, 13);
             this.label26.TabIndex = 20;
-            this.label26.Text = "¹¥»÷";
+            this.label26.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label27
             //
@@ -1198,7 +1198,7 @@ namespace RNGReporter
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(31, 13);
             this.label28.TabIndex = 14;
-            this.label28.Text = "¸öÐÔ";
+            this.label28.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label29
             //
@@ -1207,7 +1207,7 @@ namespace RNGReporter
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(31, 13);
             this.label29.TabIndex = 12;
-            this.label29.Text = "ÐÔ¸ñ";
+            this.label29.Text = "ï¿½Ô¸ï¿½";
             //
             // comboBoxNature_Stat
             //
@@ -1238,7 +1238,7 @@ namespace RNGReporter
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(31, 13);
             this.label30.TabIndex = 16;
-            this.label30.Text = "µÈ¼¶";
+            this.label30.Text = "ï¿½È¼ï¿½";
             //
             // label31
             //
@@ -1247,7 +1247,7 @@ namespace RNGReporter
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(43, 13);
             this.label31.TabIndex = 10;
-            this.label31.Text = "±¦¿ÉÃÎ";
+            this.label31.Text = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
             //
             // comboBoxPokemon_Stat
             //
@@ -1440,7 +1440,7 @@ namespace RNGReporter
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(509, 369);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "¸ù¾Ý¸öÌå·¶Î§¼ÆËãseed";
+            this.tabPage4.Text = "ï¿½ï¿½ï¿½Ý¸ï¿½ï¿½å·¶Î§ï¿½ï¿½ï¿½ï¿½seed";
             this.tabPage4.UseVisualStyleBackColor = true;
             //
             // buttonFind_ByIVRange
@@ -1453,7 +1453,7 @@ namespace RNGReporter
             this.buttonFind_ByIVRange.ShineColor = System.Drawing.SystemColors.Window;
             this.buttonFind_ByIVRange.Size = new System.Drawing.Size(75, 23);
             this.buttonFind_ByIVRange.TabIndex = 60;
-            this.buttonFind_ByIVRange.Text = "¼ÆËã";
+            this.buttonFind_ByIVRange.Text = "ï¿½ï¿½ï¿½ï¿½";
             this.buttonFind_ByIVRange.Click += new System.EventHandler(this.buttonFind_ByIVRange_Click);
             //
             // label98
@@ -1472,7 +1472,7 @@ namespace RNGReporter
             this.label96.Name = "label96";
             this.label96.Size = new System.Drawing.Size(31, 13);
             this.label96.TabIndex = 56;
-            this.label96.Text = "×î´ó";
+            this.label96.Text = "ï¿½ï¿½ï¿½";
             //
             // label97
             //
@@ -1481,7 +1481,7 @@ namespace RNGReporter
             this.label97.Name = "label97";
             this.label97.Size = new System.Drawing.Size(31, 13);
             this.label97.TabIndex = 55;
-            this.label97.Text = "×îÐ¡";
+            this.label97.Text = "ï¿½ï¿½Ð¡";
             //
             // dataGridViewSeeds_IVRange
             //
@@ -1515,8 +1515,8 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn14
             //
-            this.dataGridViewTextBoxColumn14.DataPropertyName = "ÀàÐÍ";
-            this.dataGridViewTextBoxColumn14.HeaderText = "ÀàÐÍ";
+            this.dataGridViewTextBoxColumn14.DataPropertyName = "Type";
+            this.dataGridViewTextBoxColumn14.HeaderText = "ï¿½ï¿½ï¿½ï¿½";
             this.dataGridViewTextBoxColumn14.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
             this.dataGridViewTextBoxColumn14.ReadOnly = true;
@@ -1536,8 +1536,8 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn16
             //
-            this.dataGridViewTextBoxColumn16.DataPropertyName = "Æ«ÒÆ";
-            this.dataGridViewTextBoxColumn16.HeaderText = "Method 1 Ö¡Êý";
+            this.dataGridViewTextBoxColumn16.DataPropertyName = "Offset";
+            this.dataGridViewTextBoxColumn16.HeaderText = "Method 1 Ö¡ï¿½ï¿½";
             this.dataGridViewTextBoxColumn16.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
             this.dataGridViewTextBoxColumn16.ReadOnly = true;
@@ -1545,8 +1545,8 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn17
             //
-            this.dataGridViewTextBoxColumn17.DataPropertyName = "ÃëÊý";
-            this.dataGridViewTextBoxColumn17.HeaderText = "ÃëÊý";
+            this.dataGridViewTextBoxColumn17.DataPropertyName = "Seconds";
+            this.dataGridViewTextBoxColumn17.HeaderText = "ï¿½ï¿½ï¿½ï¿½";
             this.dataGridViewTextBoxColumn17.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
             this.dataGridViewTextBoxColumn17.ReadOnly = true;
@@ -1568,7 +1568,7 @@ namespace RNGReporter
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(31, 13);
             this.label37.TabIndex = 24;
-            this.label37.Text = "Äê·Ý";
+            this.label37.Text = "ï¿½ï¿½ï¿½";
             //
             // label38
             //
@@ -1577,7 +1577,7 @@ namespace RNGReporter
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(31, 13);
             this.label38.TabIndex = 34;
-            this.label38.Text = "ÐÔ¸ñ";
+            this.label38.Text = "ï¿½Ô¸ï¿½";
             //
             // label39
             //
@@ -1586,7 +1586,7 @@ namespace RNGReporter
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(31, 13);
             this.label39.TabIndex = 46;
-            this.label39.Text = "ËÙ¶È";
+            this.label39.Text = "ï¿½Ù¶ï¿½";
             //
             // label40
             //
@@ -1595,7 +1595,7 @@ namespace RNGReporter
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(64, 13);
             this.label40.TabIndex = 32;
-            this.label40.Text = "·Ö£¨0-59£©";
+            this.label40.Text = "ï¿½Ö£ï¿½0-59ï¿½ï¿½";
             //
             // label41
             //
@@ -1604,7 +1604,7 @@ namespace RNGReporter
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(31, 13);
             this.label41.TabIndex = 44;
-            this.label41.Text = "ÌØ·À";
+            this.label41.Text = "ï¿½Ø·ï¿½";
             //
             // label42
             //
@@ -1613,7 +1613,7 @@ namespace RNGReporter
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(31, 13);
             this.label42.TabIndex = 42;
-            this.label42.Text = "ÌØ¹¥";
+            this.label42.Text = "ï¿½Ø¹ï¿½";
             //
             // label43
             //
@@ -1622,7 +1622,7 @@ namespace RNGReporter
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(64, 13);
             this.label43.TabIndex = 30;
-            this.label43.Text = "Ê±£¨0-23£©";
+            this.label43.Text = "Ê±ï¿½ï¿½0-23ï¿½ï¿½";
             //
             // label44
             //
@@ -1631,7 +1631,7 @@ namespace RNGReporter
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(31, 13);
             this.label44.TabIndex = 40;
-            this.label44.Text = "·ÀÓù";
+            this.label44.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label45
             //
@@ -1640,7 +1640,7 @@ namespace RNGReporter
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(34, 13);
             this.label45.TabIndex = 26;
-            this.label45.Text = "ÔÂ·Ý ";
+            this.label45.Text = "ï¿½Â·ï¿½ ";
             //
             // comboBoxNature_IVRange
             //
@@ -1660,7 +1660,7 @@ namespace RNGReporter
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(31, 13);
             this.label46.TabIndex = 38;
-            this.label46.Text = "¹¥»÷";
+            this.label46.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label47
             //
@@ -1669,7 +1669,7 @@ namespace RNGReporter
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(31, 13);
             this.label47.TabIndex = 28;
-            this.label47.Text = "ÈÕÆÚ";
+            this.label47.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label48
             //
@@ -1926,7 +1926,7 @@ namespace RNGReporter
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(509, 369);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "¼òÒ×°æseed¼ÆËãÆ÷";
+            this.tabPage2.Text = "ï¿½ï¿½ï¿½×°ï¿½seedï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
             this.tabPage2.UseVisualStyleBackColor = true;
             //
             // label14
@@ -1936,7 +1936,7 @@ namespace RNGReporter
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(55, 13);
             this.label14.TabIndex = 163;
-            this.label14.Text = "ÓÎÏ·ÓïÑÔ";
+            this.label14.Text = "ï¿½ï¿½Ï·ï¿½ï¿½ï¿½ï¿½";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
             // comboBoxLanguage
@@ -1965,7 +1965,7 @@ namespace RNGReporter
             this.label104.Name = "label104";
             this.label104.Size = new System.Drawing.Size(76, 13);
             this.label104.TabIndex = 147;
-            this.label104.Text = "°´×¡µÄ°´¼ü 7";
+            this.label104.Text = "ï¿½ï¿½×¡ï¿½Ä°ï¿½ï¿½ï¿½ 7";
             //
             // comboBoxButton7
             //
@@ -1973,7 +1973,7 @@ namespace RNGReporter
             this.comboBoxButton7.ForeColor = System.Drawing.Color.Black;
             this.comboBoxButton7.FormattingEnabled = true;
             this.comboBoxButton7.Items.AddRange(new object[] {
-            "ÎÞ",
+            "ï¿½ï¿½",
             "Start",
             "Select",
             "A",
@@ -2000,7 +2000,7 @@ namespace RNGReporter
             this.label105.Name = "label105";
             this.label105.Size = new System.Drawing.Size(76, 13);
             this.label105.TabIndex = 145;
-            this.label105.Text = "°´×¡µÄ°´¼ü 6";
+            this.label105.Text = "ï¿½ï¿½×¡ï¿½Ä°ï¿½ï¿½ï¿½ 6";
             //
             // comboBoxButton6
             //
@@ -2008,7 +2008,7 @@ namespace RNGReporter
             this.comboBoxButton6.ForeColor = System.Drawing.Color.Black;
             this.comboBoxButton6.FormattingEnabled = true;
             this.comboBoxButton6.Items.AddRange(new object[] {
-            "ÎÞ",
+            "ï¿½ï¿½",
             "Start",
             "Select",
             "A",
@@ -2043,7 +2043,7 @@ namespace RNGReporter
             this.label107.Name = "label107";
             this.label107.Size = new System.Drawing.Size(76, 13);
             this.label107.TabIndex = 142;
-            this.label107.Text = "°´×¡µÄ°´¼ü 5";
+            this.label107.Text = "ï¿½ï¿½×¡ï¿½Ä°ï¿½ï¿½ï¿½ 5";
             //
             // comboBoxButton5
             //
@@ -2051,7 +2051,7 @@ namespace RNGReporter
             this.comboBoxButton5.ForeColor = System.Drawing.Color.Black;
             this.comboBoxButton5.FormattingEnabled = true;
             this.comboBoxButton5.Items.AddRange(new object[] {
-            "ÎÞ",
+            "ï¿½ï¿½",
             "Start",
             "Select",
             "A",
@@ -2078,7 +2078,7 @@ namespace RNGReporter
             this.label101.Name = "label101";
             this.label101.Size = new System.Drawing.Size(46, 13);
             this.label101.TabIndex = 139;
-            this.label101.Text = "DS»úÐÍ";
+            this.label101.Text = "DSï¿½ï¿½ï¿½ï¿½";
             //
             // comboBoxDSType
             //
@@ -2102,7 +2102,7 @@ namespace RNGReporter
             this.checkBoxSoftReset.Name = "checkBoxSoftReset";
             this.checkBoxSoftReset.Size = new System.Drawing.Size(62, 17);
             this.checkBoxSoftReset.TabIndex = 6;
-            this.checkBoxSoftReset.Text = "Èí¸´Î»";
+            this.checkBoxSoftReset.Text = "ï¿½ï¿½ï¿½ï¿½Î»";
             this.checkBoxSoftReset.UseVisualStyleBackColor = true;
             //
             // textBoxButtonCode
@@ -2120,7 +2120,7 @@ namespace RNGReporter
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(76, 13);
             this.label11.TabIndex = 91;
-            this.label11.Text = "°´×¡µÄ°´¼ü 4";
+            this.label11.Text = "ï¿½ï¿½×¡ï¿½Ä°ï¿½ï¿½ï¿½ 4";
             //
             // comboBoxButton4
             //
@@ -2128,7 +2128,7 @@ namespace RNGReporter
             this.comboBoxButton4.ForeColor = System.Drawing.Color.Black;
             this.comboBoxButton4.FormattingEnabled = true;
             this.comboBoxButton4.Items.AddRange(new object[] {
-            "ÎÞ",
+            "ï¿½ï¿½",
             "Start",
             "Select",
             "A",
@@ -2163,7 +2163,7 @@ namespace RNGReporter
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(76, 13);
             this.label13.TabIndex = 88;
-            this.label13.Text = "°´×¡µÄ°´¼ü 3";
+            this.label13.Text = "ï¿½ï¿½×¡ï¿½Ä°ï¿½ï¿½ï¿½ 3";
             //
             // comboBoxButton3
             //
@@ -2171,7 +2171,7 @@ namespace RNGReporter
             this.comboBoxButton3.ForeColor = System.Drawing.Color.Black;
             this.comboBoxButton3.FormattingEnabled = true;
             this.comboBoxButton3.Items.AddRange(new object[] {
-            "ÎÞ",
+            "ï¿½ï¿½",
             "Start",
             "Select",
             "A",
@@ -2198,7 +2198,7 @@ namespace RNGReporter
             this.label84.Name = "label84";
             this.label84.Size = new System.Drawing.Size(76, 13);
             this.label84.TabIndex = 85;
-            this.label84.Text = "°´×¡µÄ°´¼ü 2";
+            this.label84.Text = "ï¿½ï¿½×¡ï¿½Ä°ï¿½ï¿½ï¿½ 2";
             //
             // comboBoxButton2
             //
@@ -2206,7 +2206,7 @@ namespace RNGReporter
             this.comboBoxButton2.ForeColor = System.Drawing.Color.Black;
             this.comboBoxButton2.FormattingEnabled = true;
             this.comboBoxButton2.Items.AddRange(new object[] {
-            "ÎÞ",
+            "ï¿½ï¿½",
             "Start",
             "Select",
             "A",
@@ -2241,7 +2241,7 @@ namespace RNGReporter
             this.label100.Name = "label100";
             this.label100.Size = new System.Drawing.Size(76, 13);
             this.label100.TabIndex = 82;
-            this.label100.Text = "°´×¡µÄ°´¼ü 1";
+            this.label100.Text = "ï¿½ï¿½×¡ï¿½Ä°ï¿½ï¿½ï¿½ 1";
             //
             // comboBoxButton1
             //
@@ -2249,7 +2249,7 @@ namespace RNGReporter
             this.comboBoxButton1.ForeColor = System.Drawing.Color.Black;
             this.comboBoxButton1.FormattingEnabled = true;
             this.comboBoxButton1.Items.AddRange(new object[] {
-            "ÎÞ",
+            "ï¿½ï¿½",
             "Start",
             "Select",
             "A",
@@ -2286,7 +2286,7 @@ namespace RNGReporter
             this.radioButton5thGenNonCGear.Size = new System.Drawing.Size(121, 17);
             this.radioButton5thGenNonCGear.TabIndex = 78;
             this.radioButton5thGenNonCGear.TabStop = true;
-            this.radioButton5thGenNonCGear.Text = "GEN5£¨·Ç£Ã×°ÖÃ£©";
+            this.radioButton5thGenNonCGear.Text = "GEN5ï¿½ï¿½ï¿½Ç£ï¿½×°ï¿½Ã£ï¿½";
             this.radioButton5thGenNonCGear.UseVisualStyleBackColor = true;
             //
             // radioButton5thGenCGear
@@ -2296,7 +2296,7 @@ namespace RNGReporter
             this.radioButton5thGenCGear.Name = "radioButton5thGenCGear";
             this.radioButton5thGenCGear.Size = new System.Drawing.Size(109, 17);
             this.radioButton5thGenCGear.TabIndex = 77;
-            this.radioButton5thGenCGear.Text = "GEN5£¨£Ã×°ÖÃ£©";
+            this.radioButton5thGenCGear.Text = "GEN5ï¿½ï¿½ï¿½ï¿½×°ï¿½Ã£ï¿½";
             this.radioButton5thGenCGear.UseVisualStyleBackColor = true;
             //
             // radioButton4thGen
@@ -2315,10 +2315,10 @@ namespace RNGReporter
             this.comboBoxVersion.ForeColor = System.Drawing.Color.Black;
             this.comboBoxVersion.FormattingEnabled = true;
             this.comboBoxVersion.Items.AddRange(new object[] {
-            "ºÚ",
-            "°×",
-            "ºÚ2",
-            "°×2"});
+            "ï¿½ï¿½",
+            "ï¿½ï¿½",
+            "ï¿½ï¿½2",
+            "ï¿½ï¿½2"});
             this.comboBoxVersion.Location = new System.Drawing.Point(338, 146);
             this.comboBoxVersion.Name = "comboBoxVersion";
             this.comboBoxVersion.ShineColor = System.Drawing.SystemColors.Window;
@@ -2332,7 +2332,7 @@ namespace RNGReporter
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(55, 13);
             this.label9.TabIndex = 74;
-            this.label9.Text = "ÓÎÏ·°æ±¾";
+            this.label9.Text = "ï¿½ï¿½Ï·ï¿½æ±¾";
             //
             // lblGxStat
             //
@@ -2413,7 +2413,7 @@ namespace RNGReporter
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(72, 13);
             this.label8.TabIndex = 61;
-            this.label8.Text = "DS MACµØÖ·";
+            this.label8.Text = "DS MACï¿½ï¿½Ö·";
             //
             // textBoxMACAddress
             //
@@ -2430,7 +2430,7 @@ namespace RNGReporter
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(346, 23);
             this.label21.TabIndex = 15;
-            this.label21.Text = "Èç¹ûÄãÕýÔÚÑ°ÕÒÄãµÄ³õÊ¼seed£¬Äã¿ÉÒÔÍêÈ«ºöÂÔÕâ¸ö±êÇ©¡£";
+            this.label21.Text = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ°ï¿½ï¿½ï¿½ï¿½Ä³ï¿½Ê¼seedï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½";
             //
             // maskedTextBoxDate
             //
@@ -2504,7 +2504,7 @@ namespace RNGReporter
             this.checkBoxShowMonster.Name = "checkBoxShowMonster";
             this.checkBoxShowMonster.Size = new System.Drawing.Size(86, 17);
             this.checkBoxShowMonster.TabIndex = 1;
-            this.checkBoxShowMonster.Text = "ÏÔÊ¾±¦¿ÉÃÎ";
+            this.checkBoxShowMonster.Text = "ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
             this.checkBoxShowMonster.UseVisualStyleBackColor = true;
             //
             // checkBox1
@@ -2514,7 +2514,7 @@ namespace RNGReporter
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(89, 17);
             this.checkBox1.TabIndex = 6;
-            this.checkBox1.Text = "´ò¿ªËÑË÷";
+            this.checkBox1.Text = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
             this.checkBox1.UseVisualStyleBackColor = true;
             //
             // label49
@@ -2524,7 +2524,7 @@ namespace RNGReporter
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(29, 13);
             this.label49.TabIndex = 0;
-            this.label49.Text = "Äê·Ý";
+            this.label49.Text = "ï¿½ï¿½ï¿½";
             //
             // dataGridView1
             //
@@ -2551,7 +2551,7 @@ namespace RNGReporter
             this.dataGridViewTextBoxColumn8});
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("ËÎÌå", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("ï¿½ï¿½ï¿½ï¿½", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -2563,7 +2563,7 @@ namespace RNGReporter
             this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("ËÎÌå", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("ï¿½ï¿½ï¿½ï¿½", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -2582,8 +2582,8 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn2
             //
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "ÀàÐÍ";
-            this.dataGridViewTextBoxColumn2.HeaderText = "ÀàÐÍ";
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "Type";
+            this.dataGridViewTextBoxColumn2.HeaderText = "ï¿½ï¿½ï¿½ï¿½";
             this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.ReadOnly = true;
@@ -2603,7 +2603,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn6
             //
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "Æ«ÒÆ";
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "Offset";
             this.dataGridViewTextBoxColumn6.HeaderText = "Method 1 Frame";
             this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
@@ -2612,8 +2612,8 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn7
             //
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "ÃëÊý";
-            this.dataGridViewTextBoxColumn7.HeaderText = "ÃëÊý";
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "Seconds";
+            this.dataGridViewTextBoxColumn7.HeaderText = "ï¿½ï¿½ï¿½ï¿½";
             this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             this.dataGridViewTextBoxColumn7.ReadOnly = true;
@@ -2646,7 +2646,7 @@ namespace RNGReporter
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(39, 13);
             this.label50.TabIndex = 10;
-            this.label50.Text = "ÐÔ¸ñ";
+            this.label50.Text = "ï¿½Ô¸ï¿½";
             //
             // label51
             //
@@ -2655,7 +2655,7 @@ namespace RNGReporter
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(26, 13);
             this.label51.TabIndex = 22;
-            this.label51.Text = "ËÙ¶È";
+            this.label51.Text = "ï¿½Ù¶ï¿½";
             //
             // label52
             //
@@ -2664,7 +2664,7 @@ namespace RNGReporter
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(69, 13);
             this.label52.TabIndex = 8;
-            this.label52.Text = "·Ö£¨0-59£©";
+            this.label52.Text = "ï¿½Ö£ï¿½0-59ï¿½ï¿½";
             //
             // label53
             //
@@ -2673,7 +2673,7 @@ namespace RNGReporter
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(28, 13);
             this.label53.TabIndex = 20;
-            this.label53.Text = "ÌØ·À";
+            this.label53.Text = "ï¿½Ø·ï¿½";
             //
             // label54
             //
@@ -2682,7 +2682,7 @@ namespace RNGReporter
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(27, 13);
             this.label54.TabIndex = 18;
-            this.label54.Text = "ÌØ¹¥";
+            this.label54.Text = "ï¿½Ø¹ï¿½";
             //
             // label55
             //
@@ -2691,7 +2691,7 @@ namespace RNGReporter
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(60, 13);
             this.label55.TabIndex = 6;
-            this.label55.Text = "Ê±£¨0-23£©";
+            this.label55.Text = "Ê±ï¿½ï¿½0-23ï¿½ï¿½";
             //
             // label56
             //
@@ -2700,7 +2700,7 @@ namespace RNGReporter
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(24, 13);
             this.label56.TabIndex = 16;
-            this.label56.Text = "·ÀÓù";
+            this.label56.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label57
             //
@@ -2709,7 +2709,7 @@ namespace RNGReporter
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(37, 13);
             this.label57.TabIndex = 2;
-            this.label57.Text = "ÔÂ·Ý ";
+            this.label57.Text = "ï¿½Â·ï¿½ ";
             //
             // comboBox2
             //
@@ -2729,7 +2729,7 @@ namespace RNGReporter
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(23, 13);
             this.label58.TabIndex = 14;
-            this.label58.Text = "¹¥»÷";
+            this.label58.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label59
             //
@@ -2738,7 +2738,7 @@ namespace RNGReporter
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(30, 13);
             this.label59.TabIndex = 4;
-            this.label59.Text = "ÈÕÆÚ";
+            this.label59.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label60
             //
@@ -2759,7 +2759,7 @@ namespace RNGReporter
             this.button2.ShineColor = System.Drawing.SystemColors.Window;
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 30;
-            this.button2.Text = "¼ÆËã";
+            this.button2.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label61
             //
@@ -2768,7 +2768,7 @@ namespace RNGReporter
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(29, 13);
             this.label61.TabIndex = 0;
-            this.label61.Text = "Äê·Ý";
+            this.label61.Text = "ï¿½ï¿½ï¿½";
             //
             // label62
             //
@@ -2777,7 +2777,7 @@ namespace RNGReporter
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(69, 13);
             this.label62.TabIndex = 8;
-            this.label62.Text = "·Ö£¨0-59£©";
+            this.label62.Text = "ï¿½Ö£ï¿½0-59ï¿½ï¿½";
             //
             // label63
             //
@@ -2786,7 +2786,7 @@ namespace RNGReporter
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(60, 13);
             this.label63.TabIndex = 6;
-            this.label63.Text = "Ê±£¨0-23£©";
+            this.label63.Text = "Ê±ï¿½ï¿½0-23ï¿½ï¿½";
             //
             // label64
             //
@@ -2795,7 +2795,7 @@ namespace RNGReporter
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(37, 13);
             this.label64.TabIndex = 2;
-            this.label64.Text = "ÔÂ·Ý ";
+            this.label64.Text = "ï¿½Â·ï¿½ ";
             //
             // label65
             //
@@ -2804,7 +2804,7 @@ namespace RNGReporter
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(30, 13);
             this.label65.TabIndex = 4;
-            this.label65.Text = "ÈÕÆÚ";
+            this.label65.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // dataGridView2
             //
@@ -2831,7 +2831,7 @@ namespace RNGReporter
             this.dataGridViewTextBoxColumn13});
             dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("ËÎÌå", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("ï¿½ï¿½ï¿½ï¿½", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -2843,7 +2843,7 @@ namespace RNGReporter
             this.dataGridView2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("ËÎÌå", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("ï¿½ï¿½ï¿½ï¿½", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -2862,8 +2862,8 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn9
             //
-            this.dataGridViewTextBoxColumn9.DataPropertyName = "ÀàÐÍ";
-            this.dataGridViewTextBoxColumn9.HeaderText = "ÀàÐÍ";
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "Type";
+            this.dataGridViewTextBoxColumn9.HeaderText = "ï¿½ï¿½ï¿½ï¿½";
             this.dataGridViewTextBoxColumn9.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
             this.dataGridViewTextBoxColumn9.ReadOnly = true;
@@ -2883,8 +2883,8 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn11
             //
-            this.dataGridViewTextBoxColumn11.DataPropertyName = "Æ«ÒÆ";
-            this.dataGridViewTextBoxColumn11.HeaderText = "Æ«ÒÆ";
+            this.dataGridViewTextBoxColumn11.DataPropertyName = "Offset";
+            this.dataGridViewTextBoxColumn11.HeaderText = "Æ«ï¿½ï¿½";
             this.dataGridViewTextBoxColumn11.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
             this.dataGridViewTextBoxColumn11.ReadOnly = true;
@@ -2893,8 +2893,8 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn12
             //
-            this.dataGridViewTextBoxColumn12.DataPropertyName = "ÃëÊý";
-            this.dataGridViewTextBoxColumn12.HeaderText = "ÃëÊý";
+            this.dataGridViewTextBoxColumn12.DataPropertyName = "Seconds";
+            this.dataGridViewTextBoxColumn12.HeaderText = "ï¿½ï¿½ï¿½ï¿½";
             this.dataGridViewTextBoxColumn12.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
             this.dataGridViewTextBoxColumn12.ReadOnly = true;
@@ -2916,7 +2916,7 @@ namespace RNGReporter
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(26, 13);
             this.label66.TabIndex = 28;
-            this.label66.Text = "ËÙ¶È";
+            this.label66.Text = "ï¿½Ù¶ï¿½";
             //
             // label67
             //
@@ -2925,7 +2925,7 @@ namespace RNGReporter
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(28, 13);
             this.label67.TabIndex = 26;
-            this.label67.Text = "ÌØ·À";
+            this.label67.Text = "ï¿½Ø·ï¿½";
             //
             // label68
             //
@@ -2934,7 +2934,7 @@ namespace RNGReporter
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(27, 13);
             this.label68.TabIndex = 24;
-            this.label68.Text = "ÌØ¹¥";
+            this.label68.Text = "ï¿½Ø¹ï¿½";
             //
             // label69
             //
@@ -2943,7 +2943,7 @@ namespace RNGReporter
             this.label69.Name = "label69";
             this.label69.Size = new System.Drawing.Size(24, 13);
             this.label69.TabIndex = 22;
-            this.label69.Text = "·ÀÓù";
+            this.label69.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label70
             //
@@ -2952,7 +2952,7 @@ namespace RNGReporter
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(23, 13);
             this.label70.TabIndex = 20;
-            this.label70.Text = "¹¥»÷";
+            this.label70.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label71
             //
@@ -2970,7 +2970,7 @@ namespace RNGReporter
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(71, 13);
             this.label72.TabIndex = 14;
-            this.label72.Text = "¸öÐÔ";
+            this.label72.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label73
             //
@@ -2979,7 +2979,7 @@ namespace RNGReporter
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(39, 13);
             this.label73.TabIndex = 12;
-            this.label73.Text = "ÐÔ¸ñ";
+            this.label73.Text = "ï¿½Ô¸ï¿½";
             //
             // label74
             //
@@ -2988,7 +2988,7 @@ namespace RNGReporter
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(33, 13);
             this.label74.TabIndex = 16;
-            this.label74.Text = "µÈ¼¶";
+            this.label74.Text = "ï¿½È¼ï¿½";
             //
             // label75
             //
@@ -2997,7 +2997,7 @@ namespace RNGReporter
             this.label75.Name = "label75";
             this.label75.Size = new System.Drawing.Size(52, 13);
             this.label75.TabIndex = 10;
-            this.label75.Text = "±¦¿ÉÃÎ";
+            this.label75.Text = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
             //
             // label76
             //
@@ -3005,7 +3005,7 @@ namespace RNGReporter
             this.label76.Name = "label76";
             this.label76.Size = new System.Drawing.Size(346, 23);
             this.label76.TabIndex = 15;
-            this.label76.Text = "Èç¹ûÄãÕýÔÚÑ°ÕÒÄãµÄ³õÊ¼seed£¬Äã¿ÉÒÔÍêÈ«ºöÂÔÕâ¸ö±êÇ©¡£";
+            this.label76.Text = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ°ï¿½ï¿½ï¿½ï¿½Ä³ï¿½Ê¼seedï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½";
             //
             // label77
             //
@@ -3014,7 +3014,7 @@ namespace RNGReporter
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(29, 13);
             this.label77.TabIndex = 0;
-            this.label77.Text = "Äê·Ý";
+            this.label77.Text = "ï¿½ï¿½ï¿½";
             //
             // label78
             //
@@ -3023,7 +3023,7 @@ namespace RNGReporter
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(37, 13);
             this.label78.TabIndex = 1;
-            this.label78.Text = "ÔÂ·Ý ";
+            this.label78.Text = "ï¿½Â·ï¿½ ";
             //
             // label79
             //
@@ -3032,7 +3032,7 @@ namespace RNGReporter
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(39, 13);
             this.label79.TabIndex = 4;
-            this.label79.Text = "·Ö";
+            this.label79.Text = "ï¿½ï¿½";
             //
             // label80
             //
@@ -3041,7 +3041,7 @@ namespace RNGReporter
             this.label80.Name = "label80";
             this.label80.Size = new System.Drawing.Size(30, 13);
             this.label80.TabIndex = 2;
-            this.label80.Text = "ÈÕÆÚ";
+            this.label80.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label81
             //
@@ -3050,7 +3050,7 @@ namespace RNGReporter
             this.label81.Name = "label81";
             this.label81.Size = new System.Drawing.Size(44, 13);
             this.label81.TabIndex = 5;
-            this.label81.Text = "ÃëÊý";
+            this.label81.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label82
             //
@@ -3077,7 +3077,7 @@ namespace RNGReporter
             this.label85.Name = "label85";
             this.label85.Size = new System.Drawing.Size(39, 13);
             this.label85.TabIndex = 34;
-            this.label85.Text = "ÐÔ¸ñ";
+            this.label85.Text = "ï¿½Ô¸ï¿½";
             //
             // label86
             //
@@ -3086,7 +3086,7 @@ namespace RNGReporter
             this.label86.Name = "label86";
             this.label86.Size = new System.Drawing.Size(26, 13);
             this.label86.TabIndex = 46;
-            this.label86.Text = "ËÙ¶È";
+            this.label86.Text = "ï¿½Ù¶ï¿½";
             //
             // label87
             //
@@ -3095,7 +3095,7 @@ namespace RNGReporter
             this.label87.Name = "label87";
             this.label87.Size = new System.Drawing.Size(69, 13);
             this.label87.TabIndex = 32;
-            this.label87.Text = "·Ö£¨0-59£©";
+            this.label87.Text = "ï¿½Ö£ï¿½0-59ï¿½ï¿½";
             //
             // label88
             //
@@ -3104,7 +3104,7 @@ namespace RNGReporter
             this.label88.Name = "label88";
             this.label88.Size = new System.Drawing.Size(28, 13);
             this.label88.TabIndex = 44;
-            this.label88.Text = "ÌØ·À";
+            this.label88.Text = "ï¿½Ø·ï¿½";
             //
             // label89
             //
@@ -3113,7 +3113,7 @@ namespace RNGReporter
             this.label89.Name = "label89";
             this.label89.Size = new System.Drawing.Size(27, 13);
             this.label89.TabIndex = 42;
-            this.label89.Text = "ÌØ¹¥";
+            this.label89.Text = "ï¿½Ø¹ï¿½";
             //
             // label90
             //
@@ -3122,7 +3122,7 @@ namespace RNGReporter
             this.label90.Name = "label90";
             this.label90.Size = new System.Drawing.Size(60, 13);
             this.label90.TabIndex = 30;
-            this.label90.Text = "Ê±£¨0-23£©";
+            this.label90.Text = "Ê±ï¿½ï¿½0-23ï¿½ï¿½";
             //
             // label91
             //
@@ -3131,7 +3131,7 @@ namespace RNGReporter
             this.label91.Name = "label91";
             this.label91.Size = new System.Drawing.Size(24, 13);
             this.label91.TabIndex = 40;
-            this.label91.Text = "·ÀÓù";
+            this.label91.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label92
             //
@@ -3140,7 +3140,7 @@ namespace RNGReporter
             this.label92.Name = "label92";
             this.label92.Size = new System.Drawing.Size(37, 13);
             this.label92.TabIndex = 26;
-            this.label92.Text = "ÔÂ·Ý ";
+            this.label92.Text = "ï¿½Â·ï¿½ ";
             //
             // comboBox6
             //
@@ -3160,7 +3160,7 @@ namespace RNGReporter
             this.label93.Name = "label93";
             this.label93.Size = new System.Drawing.Size(23, 13);
             this.label93.TabIndex = 38;
-            this.label93.Text = "¹¥»÷";
+            this.label93.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label94
             //
@@ -3169,7 +3169,7 @@ namespace RNGReporter
             this.label94.Name = "label94";
             this.label94.Size = new System.Drawing.Size(30, 13);
             this.label94.TabIndex = 28;
-            this.label94.Text = "ÈÕÆÚ";
+            this.label94.Text = "ï¿½ï¿½ï¿½ï¿½";
             //
             // label95
             //
@@ -3208,7 +3208,7 @@ namespace RNGReporter
             this.Name = "SeedFinder";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "GEN4 Seed²éÕÒ/¼ÆËã";
+            this.Text = "GEN4 Seedï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½";
             this.Load += new System.EventHandler(this.PlatinumSeed_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);

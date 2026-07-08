@@ -994,21 +994,21 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn3
             //
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "时刻";
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "Ticks";
             this.dataGridViewTextBoxColumn3.HeaderText = "时刻";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             this.dataGridViewTextBoxColumn3.ReadOnly = true;
             //
             // dataGridViewTextBoxColumn5
             //
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "时间";
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "Time";
             this.dataGridViewTextBoxColumn5.HeaderText = "时间";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             this.dataGridViewTextBoxColumn5.ReadOnly = true;
             //
             // dataGridViewTextBoxColumn6
             //
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "性格";
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "Nature";
             this.dataGridViewTextBoxColumn6.HeaderText = "性格";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             this.dataGridViewTextBoxColumn6.ReadOnly = true;
@@ -1725,21 +1725,21 @@ namespace RNGReporter
             //
             // XDTicks
             //
-            this.XDTicks.DataPropertyName = "时刻";
+            this.XDTicks.DataPropertyName = "Ticks";
             this.XDTicks.HeaderText = "时刻";
             this.XDTicks.Name = "XDTicks";
             this.XDTicks.ReadOnly = true;
             //
             // XDTime
             //
-            this.XDTime.DataPropertyName = "时间";
+            this.XDTime.DataPropertyName = "Time";
             this.XDTime.HeaderText = "时间";
             this.XDTime.Name = "XDTime";
             this.XDTime.ReadOnly = true;
             //
             // XDNature
             //
-            this.XDNature.DataPropertyName = "性格";
+            this.XDNature.DataPropertyName = "Nature";
             this.XDNature.HeaderText = "性格";
             this.XDNature.Name = "XDNature";
             this.XDNature.ReadOnly = true;
@@ -2198,7 +2198,7 @@ namespace RNGReporter
             //
             // Offset
             //
-            this.Offset.DataPropertyName = "偏移";
+            this.Offset.DataPropertyName = "Offset";
             this.Offset.HeaderText = "偶然值";
             this.Offset.Name = "偏移";
             this.Offset.ReadOnly = true;
@@ -2240,7 +2240,7 @@ namespace RNGReporter
             //
             // cNature
             //
-            this.cNature.DataPropertyName = "性格";
+            this.cNature.DataPropertyName = "Nature";
             this.cNature.HeaderText = "性格";
             this.cNature.Name = "cNature";
             this.cNature.ReadOnly = true;
@@ -2248,7 +2248,7 @@ namespace RNGReporter
             //
             // Ability
             //
-            this.Ability.DataPropertyName = "特性";
+            this.Ability.DataPropertyName = "Ability";
             this.Ability.HeaderText = "特性";
             this.Ability.Name = "特性";
             this.Ability.ReadOnly = true;
@@ -2264,7 +2264,7 @@ namespace RNGReporter
             //
             // CapAtk
             //
-            this.CapAtk.DataPropertyName = "攻击";
+            this.CapAtk.DataPropertyName = "Atk";
             this.CapAtk.HeaderText = "攻击";
             this.CapAtk.Name = "CapAtk";
             this.CapAtk.ReadOnly = true;
@@ -2272,7 +2272,7 @@ namespace RNGReporter
             //
             // CapDef
             //
-            this.CapDef.DataPropertyName = "防御";
+            this.CapDef.DataPropertyName = "Def";
             this.CapDef.HeaderText = "防御";
             this.CapDef.Name = "CapDef";
             this.CapDef.ReadOnly = true;
@@ -2280,7 +2280,7 @@ namespace RNGReporter
             //
             // CapSpA
             //
-            this.CapSpA.DataPropertyName = "特攻";
+            this.CapSpA.DataPropertyName = "SpA";
             this.CapSpA.HeaderText = "特攻";
             this.CapSpA.Name = "CapSpA";
             this.CapSpA.ReadOnly = true;
@@ -2288,7 +2288,7 @@ namespace RNGReporter
             //
             // CapSpD
             //
-            this.CapSpD.DataPropertyName = "特防";
+            this.CapSpD.DataPropertyName = "SpD";
             this.CapSpD.HeaderText = "特防";
             this.CapSpD.Name = "CapSpD";
             this.CapSpD.ReadOnly = true;
@@ -2296,7 +2296,7 @@ namespace RNGReporter
             //
             // CapSpe
             //
-            this.CapSpe.DataPropertyName = "速度";
+            this.CapSpe.DataPropertyName = "Spe";
             this.CapSpe.HeaderText = "速度";
             this.CapSpe.Name = "CapSpe";
             this.CapSpe.ReadOnly = true;
@@ -3413,7 +3413,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn18
             //
-            this.dataGridViewTextBoxColumn18.DataPropertyName = "查看图鉴次数";
+            this.dataGridViewTextBoxColumn18.DataPropertyName = "Redraws";
             this.dataGridViewTextBoxColumn18.HeaderText = "查看图鉴次数";
             this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
             this.dataGridViewTextBoxColumn18.ReadOnly = true;
@@ -3421,7 +3421,7 @@ namespace RNGReporter
             //
             // Advances
             //
-            this.Advances.DataPropertyName = "帧数";
+            this.Advances.DataPropertyName = "Advances";
             this.Advances.HeaderText = "帧数";
             this.Advances.Name = "帧数";
             this.Advances.ReadOnly = true;
@@ -3450,7 +3450,7 @@ namespace RNGReporter
             //
             // EPIDNature
             //
-            this.EPIDNature.DataPropertyName = "性格";
+            this.EPIDNature.DataPropertyName = "Nature";
             this.EPIDNature.HeaderText = "性格";
             this.EPIDNature.Name = "EPIDNature";
             this.EPIDNature.ReadOnly = true;
@@ -3458,7 +3458,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn24
             //
-            this.dataGridViewTextBoxColumn24.DataPropertyName = "特性";
+            this.dataGridViewTextBoxColumn24.DataPropertyName = "Ability";
             this.dataGridViewTextBoxColumn24.HeaderText = "特性";
             this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
             this.dataGridViewTextBoxColumn24.ReadOnly = true;
@@ -4346,7 +4346,7 @@ namespace RNGReporter
             //
             // shiny3rdNature
             //
-            this.shiny3rdNature.DataPropertyName = "性格";
+            this.shiny3rdNature.DataPropertyName = "Nature";
             this.shiny3rdNature.HeaderText = "性格";
             this.shiny3rdNature.Name = "shiny3rdNature";
             this.shiny3rdNature.ReadOnly = true;
@@ -4354,7 +4354,7 @@ namespace RNGReporter
             //
             // shiny3rdAbility
             //
-            this.shiny3rdAbility.DataPropertyName = "特性";
+            this.shiny3rdAbility.DataPropertyName = "Ability";
             this.shiny3rdAbility.HeaderText = "特性";
             this.shiny3rdAbility.Name = "shiny3rdAbility";
             this.shiny3rdAbility.ReadOnly = true;
@@ -5226,7 +5226,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn48
             //
-            this.dataGridViewTextBoxColumn48.DataPropertyName = "性格";
+            this.dataGridViewTextBoxColumn48.DataPropertyName = "Nature";
             this.dataGridViewTextBoxColumn48.HeaderText = "性格";
             this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
             this.dataGridViewTextBoxColumn48.ReadOnly = true;
@@ -5234,7 +5234,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn49
             //
-            this.dataGridViewTextBoxColumn49.DataPropertyName = "特性";
+            this.dataGridViewTextBoxColumn49.DataPropertyName = "Ability";
             this.dataGridViewTextBoxColumn49.HeaderText = "特性";
             this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
             this.dataGridViewTextBoxColumn49.ReadOnly = true;
@@ -5897,14 +5897,14 @@ namespace RNGReporter
             //
             // Lead
             //
-            this.Lead.DataPropertyName = "首发";
+            this.Lead.DataPropertyName = "Lead";
             this.Lead.HeaderText = "首发";
             this.Lead.Name = "首发";
             this.Lead.ReadOnly = true;
             //
             // WildEncounterSlot
             //
-            this.WildEncounterSlot.DataPropertyName = "槽位";
+            this.WildEncounterSlot.DataPropertyName = "Slot";
             this.WildEncounterSlot.HeaderText = "槽位";
             this.WildEncounterSlot.Name = "WildEncounterSlot";
             this.WildEncounterSlot.ReadOnly = true;
@@ -5930,7 +5930,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn20
             //
-            this.dataGridViewTextBoxColumn20.DataPropertyName = "性格";
+            this.dataGridViewTextBoxColumn20.DataPropertyName = "Nature";
             this.dataGridViewTextBoxColumn20.HeaderText = "性格";
             this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
             this.dataGridViewTextBoxColumn20.ReadOnly = true;
@@ -5938,7 +5938,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn21
             //
-            this.dataGridViewTextBoxColumn21.DataPropertyName = "特性";
+            this.dataGridViewTextBoxColumn21.DataPropertyName = "Ability";
             this.dataGridViewTextBoxColumn21.HeaderText = "特性";
             this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
             this.dataGridViewTextBoxColumn21.ReadOnly = true;
@@ -5954,7 +5954,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn25
             //
-            this.dataGridViewTextBoxColumn25.DataPropertyName = "攻击";
+            this.dataGridViewTextBoxColumn25.DataPropertyName = "Atk";
             this.dataGridViewTextBoxColumn25.HeaderText = "攻击";
             this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
             this.dataGridViewTextBoxColumn25.ReadOnly = true;
@@ -5962,7 +5962,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn26
             //
-            this.dataGridViewTextBoxColumn26.DataPropertyName = "防御";
+            this.dataGridViewTextBoxColumn26.DataPropertyName = "Def";
             this.dataGridViewTextBoxColumn26.HeaderText = "防御";
             this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
             this.dataGridViewTextBoxColumn26.ReadOnly = true;
@@ -5970,7 +5970,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn27
             //
-            this.dataGridViewTextBoxColumn27.DataPropertyName = "特攻";
+            this.dataGridViewTextBoxColumn27.DataPropertyName = "SpA";
             this.dataGridViewTextBoxColumn27.HeaderText = "特攻";
             this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
             this.dataGridViewTextBoxColumn27.ReadOnly = true;
@@ -5978,7 +5978,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn28
             //
-            this.dataGridViewTextBoxColumn28.DataPropertyName = "特防";
+            this.dataGridViewTextBoxColumn28.DataPropertyName = "SpD";
             this.dataGridViewTextBoxColumn28.HeaderText = "特防";
             this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
             this.dataGridViewTextBoxColumn28.ReadOnly = true;
@@ -5986,7 +5986,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn29
             //
-            this.dataGridViewTextBoxColumn29.DataPropertyName = "速度";
+            this.dataGridViewTextBoxColumn29.DataPropertyName = "Spe";
             this.dataGridViewTextBoxColumn29.HeaderText = "速度";
             this.dataGridViewTextBoxColumn29.Name = "dataGridViewTextBoxColumn29";
             this.dataGridViewTextBoxColumn29.ReadOnly = true;
@@ -5994,7 +5994,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn30
             //
-            this.dataGridViewTextBoxColumn30.DataPropertyName = "觉醒";
+            this.dataGridViewTextBoxColumn30.DataPropertyName = "Hidden";
             this.dataGridViewTextBoxColumn30.HeaderText = "觉醒力量威力";
             this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
             this.dataGridViewTextBoxColumn30.ReadOnly = true;
@@ -6002,7 +6002,7 @@ namespace RNGReporter
             //
             // dataGridViewTextBoxColumn35
             //
-            this.dataGridViewTextBoxColumn35.DataPropertyName = "威力";
+            this.dataGridViewTextBoxColumn35.DataPropertyName = "Power";
             this.dataGridViewTextBoxColumn35.HeaderText = "觉醒力量威力";
             this.dataGridViewTextBoxColumn35.Name = "dataGridViewTextBoxColumn35";
             this.dataGridViewTextBoxColumn35.ReadOnly = true;

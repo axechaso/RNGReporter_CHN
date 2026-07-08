@@ -452,7 +452,7 @@ namespace RNGReporter
             //
             // CapOffset
             //
-            this.CapOffset.DataPropertyName = "偏移";
+            this.CapOffset.DataPropertyName = "Offset";
             this.CapOffset.HeaderText = "帧数";
             this.CapOffset.Name = "CapOffset";
             this.CapOffset.ReadOnly = true;
@@ -488,7 +488,7 @@ namespace RNGReporter
             //
             // Nature
             //
-            this.Nature.DataPropertyName = "性格";
+            this.Nature.DataPropertyName = "Nature";
             this.Nature.HeaderText = "性格";
             this.Nature.Name = "性格";
             this.Nature.ReadOnly = true;
@@ -496,7 +496,7 @@ namespace RNGReporter
             //
             // Ability
             //
-            this.Ability.DataPropertyName = "特性";
+            this.Ability.DataPropertyName = "Ability";
             this.Ability.HeaderText = "特性";
             this.Ability.Name = "特性";
             this.Ability.ReadOnly = true;
@@ -512,7 +512,7 @@ namespace RNGReporter
             //
             // CapAtk
             //
-            this.CapAtk.DataPropertyName = "攻击";
+            this.CapAtk.DataPropertyName = "Atk";
             this.CapAtk.HeaderText = "攻击";
             this.CapAtk.Name = "CapAtk";
             this.CapAtk.ReadOnly = true;
@@ -520,7 +520,7 @@ namespace RNGReporter
             //
             // CapDef
             //
-            this.CapDef.DataPropertyName = "防御";
+            this.CapDef.DataPropertyName = "Def";
             this.CapDef.HeaderText = "防御";
             this.CapDef.Name = "CapDef";
             this.CapDef.ReadOnly = true;
@@ -528,7 +528,7 @@ namespace RNGReporter
             //
             // CapSpA
             //
-            this.CapSpA.DataPropertyName = "特攻";
+            this.CapSpA.DataPropertyName = "SpA";
             this.CapSpA.HeaderText = "特攻";
             this.CapSpA.Name = "CapSpA";
             this.CapSpA.ReadOnly = true;
@@ -536,7 +536,7 @@ namespace RNGReporter
             //
             // CapSpD
             //
-            this.CapSpD.DataPropertyName = "特防";
+            this.CapSpD.DataPropertyName = "SpD";
             this.CapSpD.HeaderText = "特防";
             this.CapSpD.Name = "CapSpD";
             this.CapSpD.ReadOnly = true;
@@ -544,7 +544,7 @@ namespace RNGReporter
             //
             // CapSpe
             //
-            this.CapSpe.DataPropertyName = "速度";
+            this.CapSpe.DataPropertyName = "Spe";
             this.CapSpe.HeaderText = "速度";
             this.CapSpe.Name = "CapSpe";
             this.CapSpe.ReadOnly = true;
@@ -584,7 +584,7 @@ namespace RNGReporter
             //
             // Synchable
             //
-            this.Synchable.DataPropertyName = "同步能力";
+            this.Synchable.DataPropertyName = "Synchable";
             this.Synchable.HeaderText = "同步";
             this.Synchable.Name = "同步能力";
             this.Synchable.ReadOnly = true;

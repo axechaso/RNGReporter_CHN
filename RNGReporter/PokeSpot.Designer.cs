@@ -255,7 +255,7 @@
             //
             // Frame
             //
-            this.Frame.DataPropertyName = "帧";
+            this.Frame.DataPropertyName = "Frame";
             this.Frame.HeaderText = "帧数";
             this.Frame.MinimumWidth = 6;
             this.Frame.Name = "帧";
@@ -284,7 +284,7 @@
             //
             // Type
             //
-            this.Type.DataPropertyName = "类型";
+            this.Type.DataPropertyName = "Type";
             this.Type.HeaderText = "类型";
             this.Type.MinimumWidth = 6;
             this.Type.Name = "类型";
@@ -293,7 +293,7 @@
             //
             // dataGridViewTextBoxColumn3
             //
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "性格";
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "Nature";
             this.dataGridViewTextBoxColumn3.HeaderText = "性格";
             this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
@@ -302,7 +302,7 @@
             //
             // dataGridViewTextBoxColumn4
             //
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "特性";
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Ability";
             this.dataGridViewTextBoxColumn4.HeaderText = "特性";
             this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
