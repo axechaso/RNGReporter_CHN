@@ -5,6 +5,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 PROGRESS_FILE = ROOT / "RNGReporter" / "Progress.cs"
+PROGRAM_FILE = ROOT / "RNGReporter" / "Program.cs"
+GLOBAL_UI_FONT_FILE = ROOT / "RNGReporter" / "GlobalUiFont.cs"
 MAIN_FORM_FILE = ROOT / "RNGReporter" / "MainForm.cs"
 MAIN_FORM_DESIGNER_FILE = ROOT / "RNGReporter" / "MainForm.Designer.cs"
 ADJACENTS_FILE = ROOT / "RNGReporter" / "Adjacents.cs"
@@ -44,6 +46,8 @@ def read(path):
 
 def main():
     failures = []
+    program_source = read(PROGRAM_FILE)
+    global_ui_font = read(GLOBAL_UI_FONT_FILE)
     main_form = read(MAIN_FORM_FILE)
     main_designer = read(MAIN_FORM_DESIGNER_FILE)
     adjacents_source = read(ADJACENTS_FILE)
@@ -70,6 +74,12 @@ def main():
                 failures.append(
                     f"{path.relative_to(ROOT)} column {match.group(1)} has localized DataPropertyName {property_name!r}."
                 )
+    if "GlobalUiFont.Install();" not in program_source:
+        failures.append("Program should install the global UI font hook before opening forms.")
+    if 'FontFamilyName = "Microsoft YaHei UI"' not in global_ui_font:
+        failures.append("Global UI font should use Microsoft YaHei UI.")
+    if "ApplyToolStripFont" not in global_ui_font or "ApplyGridFont" not in global_ui_font:
+        failures.append("Global UI font should cover menus/toolstrips and data grids.")
 
     if "Gen5Pickup" not in frame_type:
         failures.append("FrameType.Gen5Pickup is missing; this is not the Bambo-based final version.")

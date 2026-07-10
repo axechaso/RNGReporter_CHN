@@ -229,6 +229,7 @@
     <Compile Include="GenderRatioLookup.Designer.cs">
       <DependentUpon>GenderRatioLookup.cs</DependentUpon>
     </Compile>
+    <Compile Include="GlobalUiFont.cs" />
     <Compile Include="DSParametersIVCheck.cs">
       <SubType>Form</SubType>
     </Compile>

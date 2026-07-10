@@ -35,10 +35,11 @@ namespace RNGReporter
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            GlobalUiFont.Install();
             if (args.Length > 0 && args[0] == "-r")
-                Application.Run(new Researcher());
+                Application.Run(GlobalUiFont.Prepare(new Researcher()));
             else
-                Application.Run(new MainForm());
+                Application.Run(GlobalUiFont.Prepare(new MainForm()));
         }
     }
 }
