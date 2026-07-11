@@ -724,8 +724,9 @@
             this.Controls.Add(this.txtAtk);
             this.Controls.Add(this.txtDef);
             this.Controls.Add(this.txtSpe);
+            this.MinimumSize = new System.Drawing.Size(365, 166);
             this.Name = "IVFilters";
-            this.Size = new System.Drawing.Size(315, 166);
+            this.Size = new System.Drawing.Size(365, 166);
             this.Load += new System.EventHandler(this.IVFilters_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

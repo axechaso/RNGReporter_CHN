@@ -9,12 +9,14 @@ PROGRAM_FILE = ROOT / "RNGReporter" / "Program.cs"
 GLOBAL_UI_FONT_FILE = ROOT / "RNGReporter" / "GlobalUiFont.cs"
 MAIN_FORM_FILE = ROOT / "RNGReporter" / "MainForm.cs"
 MAIN_FORM_DESIGNER_FILE = ROOT / "RNGReporter" / "MainForm.Designer.cs"
+IV_FILTERS_DESIGNER_FILE = ROOT / "RNGReporter" / "Controls" / "IVFilters.Designer.cs"
 ADJACENTS_FILE = ROOT / "RNGReporter" / "Adjacents.cs"
 FRAME_TYPE_FILE = ROOT / "RNGReporter" / "Objects" / "FrameType.cs"
 FRAME_FILE = ROOT / "RNGReporter" / "Objects" / "Frame.cs"
 FUNCTIONS_FILE = ROOT / "RNGReporter" / "Objects" / "Functions.cs"
 LANGUAGE_FILE = ROOT / "RNGReporter" / "Objects" / "Language.cs"
 SEED_FINDER_DESIGNER_FILE = ROOT / "RNGReporter" / "SeedFinder.Designer.cs"
+TIME_FINDER3_DESIGNER_FILE = ROOT / "RNGReporter" / "TimeFinder3rd.Designer.cs"
 TIME_FINDER4_FILE = ROOT / "RNGReporter" / "TimeFinder4th.cs"
 TIME_FINDER4_DESIGNER_FILE = ROOT / "RNGReporter" / "TimeFinder4th.Designer.cs"
 TIME_FINDER5_FILE = ROOT / "RNGReporter" / "TimeFinder5th.cs"
@@ -50,12 +52,14 @@ def main():
     global_ui_font = read(GLOBAL_UI_FONT_FILE)
     main_form = read(MAIN_FORM_FILE)
     main_designer = read(MAIN_FORM_DESIGNER_FILE)
+    iv_filters_designer = read(IV_FILTERS_DESIGNER_FILE)
     adjacents_source = read(ADJACENTS_FILE)
     frame_type = read(FRAME_TYPE_FILE)
     frame_source = read(FRAME_FILE)
     functions_source = read(FUNCTIONS_FILE)
     language_source = read(LANGUAGE_FILE)
     seed_finder_designer = read(SEED_FINDER_DESIGNER_FILE)
+    time_finder3_designer = read(TIME_FINDER3_DESIGNER_FILE)
     time_finder4 = read(TIME_FINDER4_FILE)
     time_finder4_designer = read(TIME_FINDER4_DESIGNER_FILE)
     time_finder5 = read(TIME_FINDER5_FILE)
@@ -80,6 +84,12 @@ def main():
         failures.append("Global UI font should use Microsoft YaHei UI.")
     if "ApplyToolStripFont" not in global_ui_font or "ApplyGridFont" not in global_ui_font:
         failures.append("Global UI font should cover menus/toolstrips and data grids.")
+    if "this.MinimumSize = new System.Drawing.Size(365, 166);" not in iv_filters_designer:
+        failures.append("IVFilters should keep a 365px minimum width for the global UI font.")
+    if "new System.Drawing.Size(315, 166)" in (
+        main_designer + iv_filters_designer + time_finder3_designer + time_finder4_designer + time_finder5_designer
+    ):
+        failures.append("An IVFilters host still uses the old 315px width.")
 
     if "Gen5Pickup" not in frame_type:
         failures.append("FrameType.Gen5Pickup is missing; this is not the Bambo-based final version.")
@@ -104,7 +114,7 @@ def main():
         failures.append("Main encounter-slot tooltip is missing the Chinese text.")
     if "Trigger at 20th step" in frame_source:
         failures.append("20-step encounter trigger table text is still English.")
-    if "Occidentary" in main_form + main_designer + read(ROOT / "RNGReporter" / "TimeFinder3rd.Designer.cs"):
+    if "Occidentary" in main_form + main_designer + time_finder3_designer:
         failures.append("Offset column header still contains the old Occidentary text.")
     if "A bolded nature indicates" in main_form + time_finder4 + time_finder5:
         failures.append("Nature tooltip is still partly untranslated.")

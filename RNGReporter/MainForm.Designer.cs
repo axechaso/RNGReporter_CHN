@@ -481,7 +481,7 @@ namespace RNGReporter
             //
             this.label13.AutoSize = true;
             this.label13.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label13.Location = new System.Drawing.Point(619, 39);
+            this.label13.Location = new System.Drawing.Point(669, 39);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(39, 13);
             this.label13.TabIndex = 46;
@@ -515,7 +515,7 @@ namespace RNGReporter
             //
             this.label16.AutoSize = true;
             this.label16.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label16.Location = new System.Drawing.Point(624, 66);
+            this.label16.Location = new System.Drawing.Point(674, 66);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(34, 13);
             this.label16.TabIndex = 49;
@@ -629,7 +629,7 @@ namespace RNGReporter
             this.label20.AutoSize = true;
             this.label20.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label20.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label20.Location = new System.Drawing.Point(581, 92);
+            this.label20.Location = new System.Drawing.Point(631, 92);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(77, 13);
             this.label20.TabIndex = 57;
@@ -1259,7 +1259,7 @@ namespace RNGReporter
             //
             this.label41.AutoSize = true;
             this.label41.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label41.Location = new System.Drawing.Point(616, 119);
+            this.label41.Location = new System.Drawing.Point(666, 119);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(42, 13);
             this.label41.TabIndex = 317;
@@ -1399,7 +1399,7 @@ namespace RNGReporter
             this.Gen5GroupBox.Controls.Add(this.labelCalcWarning);
             this.Gen5GroupBox.Controls.Add(this.buttonDSParameters);
             this.Gen5GroupBox.Controls.Add(this.label21);
-            this.Gen5GroupBox.Location = new System.Drawing.Point(584, 144);
+            this.Gen5GroupBox.Location = new System.Drawing.Point(634, 144);
             this.Gen5GroupBox.Name = "Gen5GroupBox";
             this.Gen5GroupBox.Size = new System.Drawing.Size(366, 205);
             this.Gen5GroupBox.TabIndex = 334;
@@ -1607,7 +1607,7 @@ namespace RNGReporter
             //
             this.ivFilters.Location = new System.Drawing.Point(260, 42);
             this.ivFilters.Name = "ivFilters";
-            this.ivFilters.Size = new System.Drawing.Size(315, 166);
+            this.ivFilters.Size = new System.Drawing.Size(365, 166);
             this.ivFilters.TabIndex = 318;
             //
             // buttonAnySlot
@@ -1616,7 +1616,7 @@ namespace RNGReporter
             this.buttonAnySlot.ForeColor = System.Drawing.Color.Black;
             this.buttonAnySlot.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonAnySlot.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAnySlot.Location = new System.Drawing.Point(846, 86);
+            this.buttonAnySlot.Location = new System.Drawing.Point(896, 86);
             this.buttonAnySlot.Margin = new System.Windows.Forms.Padding(0);
             this.buttonAnySlot.Name = "buttonAnySlot";
             this.buttonAnySlot.OuterBorderColor = System.Drawing.Color.Transparent;
@@ -1633,7 +1633,7 @@ namespace RNGReporter
             this.comboBoxGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxGender.ForeColor = System.Drawing.Color.Black;
             this.comboBoxGender.FormattingEnabled = true;
-            this.comboBoxGender.Location = new System.Drawing.Point(662, 115);
+            this.comboBoxGender.Location = new System.Drawing.Point(712, 115);
             this.comboBoxGender.MaxDropDownItems = 3;
             this.comboBoxGender.Name = "comboBoxGender";
             this.comboBoxGender.ShineColor = System.Drawing.SystemColors.Window;
@@ -1702,7 +1702,7 @@ namespace RNGReporter
             "10",
             "11",
             "大量出现"});
-            this.comboBoxEncounterSlot.Location = new System.Drawing.Point(662, 88);
+            this.comboBoxEncounterSlot.Location = new System.Drawing.Point(712, 88);
             this.comboBoxEncounterSlot.Name = "comboBoxEncounterSlot";
             this.comboBoxEncounterSlot.Size = new System.Drawing.Size(170, 21);
             this.comboBoxEncounterSlot.TabIndex = 31;
@@ -1718,7 +1718,7 @@ namespace RNGReporter
             "任意",
             "特性 0",
             "特性 1"});
-            this.comboBoxAbility.Location = new System.Drawing.Point(662, 61);
+            this.comboBoxAbility.Location = new System.Drawing.Point(712, 61);
             this.comboBoxAbility.Name = "comboBoxAbility";
             this.comboBoxAbility.ShineColor = System.Drawing.SystemColors.Window;
             this.comboBoxAbility.Size = new System.Drawing.Size(79, 21);
@@ -1756,7 +1756,7 @@ namespace RNGReporter
             this.comboBoxNature.DropDownHeight = 300;
             this.comboBoxNature.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxNature.FormattingEnabled = true;
-            this.comboBoxNature.Location = new System.Drawing.Point(662, 34);
+            this.comboBoxNature.Location = new System.Drawing.Point(712, 34);
             this.comboBoxNature.Name = "comboBoxNature";
             this.comboBoxNature.Size = new System.Drawing.Size(170, 21);
             this.comboBoxNature.TabIndex = 28;
@@ -1768,7 +1768,7 @@ namespace RNGReporter
             this.buttonAnyNature.ForeColor = System.Drawing.Color.Black;
             this.buttonAnyNature.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonAnyNature.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAnyNature.Location = new System.Drawing.Point(846, 32);
+            this.buttonAnyNature.Location = new System.Drawing.Point(896, 32);
             this.buttonAnyNature.Margin = new System.Windows.Forms.Padding(0);
             this.buttonAnyNature.Name = "buttonAnyNature";
             this.buttonAnyNature.OuterBorderColor = System.Drawing.Color.Transparent;

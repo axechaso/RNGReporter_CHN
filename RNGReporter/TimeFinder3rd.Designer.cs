@@ -2510,7 +2510,7 @@ namespace RNGReporter
             //
             this.ivFiltersCapture.Location = new System.Drawing.Point(335, 6);
             this.ivFiltersCapture.Name = "ivFiltersCapture";
-            this.ivFiltersCapture.Size = new System.Drawing.Size(315, 166);
+            this.ivFiltersCapture.Size = new System.Drawing.Size(365, 166);
             this.ivFiltersCapture.TabIndex = 357;
             //
             // cbCapGender
@@ -2727,7 +2727,7 @@ namespace RNGReporter
             //
             this.ivFiltersEEgg.Location = new System.Drawing.Point(609, 9);
             this.ivFiltersEEgg.Name = "ivFiltersEEgg";
-            this.ivFiltersEEgg.Size = new System.Drawing.Size(315, 166);
+            this.ivFiltersEEgg.Size = new System.Drawing.Size(365, 166);
             this.ivFiltersEEgg.TabIndex = 421;
             //
             // panel2
@@ -3914,7 +3914,7 @@ namespace RNGReporter
             //
             this.ivFiltersRSEgg.Location = new System.Drawing.Point(609, 9);
             this.ivFiltersRSEgg.Name = "ivFiltersRSEgg";
-            this.ivFiltersRSEgg.Size = new System.Drawing.Size(315, 166);
+            this.ivFiltersRSEgg.Size = new System.Drawing.Size(365, 166);
             this.ivFiltersRSEgg.TabIndex = 320;
             //
             // buttonAnyNature
@@ -4805,7 +4805,7 @@ namespace RNGReporter
             //
             this.ivFiltersFRLG.Location = new System.Drawing.Point(625, 9);
             this.ivFiltersFRLG.Name = "ivFiltersFRLG";
-            this.ivFiltersFRLG.Size = new System.Drawing.Size(315, 166);
+            this.ivFiltersFRLG.Size = new System.Drawing.Size(365, 166);
             this.ivFiltersFRLG.TabIndex = 369;
             //
             // anyNatureFRLG

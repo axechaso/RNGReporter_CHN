@@ -950,7 +950,7 @@ namespace RNGReporter
             //
             this.ivFiltersCapture.Location = new System.Drawing.Point(367, 6);
             this.ivFiltersCapture.Name = "ivFiltersCapture";
-            this.ivFiltersCapture.Size = new System.Drawing.Size(315, 166);
+            this.ivFiltersCapture.Size = new System.Drawing.Size(365, 166);
             this.ivFiltersCapture.TabIndex = 325;
             //
             // comboBoxCapGenderRatio
@@ -1612,7 +1612,7 @@ namespace RNGReporter
             //
             this.ivFiltersEgg.Location = new System.Drawing.Point(315, 6);
             this.ivFiltersEgg.Name = "ivFiltersEgg";
-            this.ivFiltersEgg.Size = new System.Drawing.Size(315, 166);
+            this.ivFiltersEgg.Size = new System.Drawing.Size(365, 166);
             this.ivFiltersEgg.TabIndex = 101;
             //
             // dataGridViewEggIVValues

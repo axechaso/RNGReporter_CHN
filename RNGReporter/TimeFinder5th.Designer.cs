@@ -853,7 +853,7 @@ namespace RNGReporter
             //
             this.ivFiltersEggs.Location = new System.Drawing.Point(319, 9);
             this.ivFiltersEggs.Name = "ivFiltersEggs";
-            this.ivFiltersEggs.Size = new System.Drawing.Size(315, 166);
+            this.ivFiltersEggs.Size = new System.Drawing.Size(365, 166);
             this.ivFiltersEggs.TabIndex = 328;
             //
             // buttonLoadEggSeeds
@@ -1419,7 +1419,7 @@ namespace RNGReporter
             //
             this.ivFiltersCapture.Location = new System.Drawing.Point(6, 28);
             this.ivFiltersCapture.Name = "ivFiltersCapture";
-            this.ivFiltersCapture.Size = new System.Drawing.Size(315, 166);
+            this.ivFiltersCapture.Size = new System.Drawing.Size(365, 166);
             this.ivFiltersCapture.TabIndex = 329;
             this.ivFiltersCapture.FiltersChanged += new System.EventHandler(this.IVFilters_Changed);
             //
@@ -2353,7 +2353,7 @@ namespace RNGReporter
             //
             this.ivFiltersEvent.Location = new System.Drawing.Point(6, 33);
             this.ivFiltersEvent.Name = "ivFiltersEvent";
-            this.ivFiltersEvent.Size = new System.Drawing.Size(315, 166);
+            this.ivFiltersEvent.Size = new System.Drawing.Size(365, 166);
             this.ivFiltersEvent.TabIndex = 329;
             //
             // glassComboBox1
@@ -3491,7 +3491,7 @@ namespace RNGReporter
             //
             this.ivDR.Location = new System.Drawing.Point(319, 9);
             this.ivDR.Name = "ivDR";
-            this.ivDR.Size = new System.Drawing.Size(315, 166);
+            this.ivDR.Size = new System.Drawing.Size(365, 166);
             this.ivDR.TabIndex = 345;
             //
             // cbDRShinyness
