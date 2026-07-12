@@ -662,11 +662,11 @@
             this.gbSpins.Controls.Add(this.btnUR);
             this.gbSpins.Controls.Add(this.btnU);
             this.gbSpins.Controls.Add(this.txtSpins);
-            this.gbSpins.Location = new System.Drawing.Point(12, 294);
+            this.gbSpins.Location = new System.Drawing.Point(434, 11);
             this.gbSpins.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gbSpins.Name = "gbSpins";
             this.gbSpins.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.gbSpins.Size = new System.Drawing.Size(414, 185);
+            this.gbSpins.Size = new System.Drawing.Size(414, 277);
             this.gbSpins.TabIndex = 170;
             this.gbSpins.TabStop = false;
             this.gbSpins.Text = "进入连接方向序列";
@@ -880,7 +880,7 @@
             dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvResults.DefaultCellStyle = dataGridViewCellStyle7;
             this.dgvResults.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgvResults.Location = new System.Drawing.Point(0, 484);
+            this.dgvResults.Location = new System.Drawing.Point(0, 300);
             this.dgvResults.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvResults.MultiSelect = false;
             this.dgvResults.Name = "dgvResults";
@@ -900,7 +900,7 @@
             this.dgvResults.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvResults.ShowCellErrors = false;
             this.dgvResults.ShowCellToolTips = false;
-            this.dgvResults.Size = new System.Drawing.Size(434, 145);
+            this.dgvResults.Size = new System.Drawing.Size(860, 220);
             this.dgvResults.TabIndex = 171;
             //
             // clmnActualSeconds
@@ -971,7 +971,7 @@
             //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(434, 629);
+            this.ClientSize = new System.Drawing.Size(860, 520);
             this.Controls.Add(this.dgvResults);
             this.Controls.Add(this.gbSpins);
             this.Controls.Add(this.gbSeed);

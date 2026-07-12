@@ -16,6 +16,7 @@ FRAME_FILE = ROOT / "RNGReporter" / "Objects" / "Frame.cs"
 FUNCTIONS_FILE = ROOT / "RNGReporter" / "Objects" / "Functions.cs"
 LANGUAGE_FILE = ROOT / "RNGReporter" / "Objects" / "Language.cs"
 SEED_FINDER_DESIGNER_FILE = ROOT / "RNGReporter" / "SeedFinder.Designer.cs"
+UNOVA_LINK_DESIGNER_FILE = ROOT / "RNGReporter" / "UnovaLinkCalibration.Designer.cs"
 TIME_FINDER3_DESIGNER_FILE = ROOT / "RNGReporter" / "TimeFinder3rd.Designer.cs"
 TIME_FINDER4_FILE = ROOT / "RNGReporter" / "TimeFinder4th.cs"
 TIME_FINDER4_DESIGNER_FILE = ROOT / "RNGReporter" / "TimeFinder4th.Designer.cs"
@@ -59,6 +60,7 @@ def main():
     functions_source = read(FUNCTIONS_FILE)
     language_source = read(LANGUAGE_FILE)
     seed_finder_designer = read(SEED_FINDER_DESIGNER_FILE)
+    unova_link_designer = read(UNOVA_LINK_DESIGNER_FILE)
     time_finder3_designer = read(TIME_FINDER3_DESIGNER_FILE)
     time_finder4 = read(TIME_FINDER4_FILE)
     time_finder4_designer = read(TIME_FINDER4_DESIGNER_FILE)
@@ -146,6 +148,22 @@ def main():
 
     if '"拉帝欧斯\\\\拉迪亚斯"' in seed_finder_designer:
         failures.append("SeedFinder keypress dropdown still translates L as Latios/Latias.")
+    if 'this.Text = "GEN4 Seed查找/计算";' not in seed_finder_designer:
+        failures.append("SeedFinder title should be readable Chinese, not mojibake.")
+    if any(marker in seed_finder_designer for marker in ("�", "锟", "����")):
+        failures.append("SeedFinder designer still contains mojibake markers.")
+    if "4th Gen Seed Finder / Generator" in seed_finder_designer:
+        failures.append("SeedFinder title regressed to English.")
+    if "If you are looking for your initial seed" in seed_finder_designer:
+        failures.append("SeedFinder initial-seed help text is still English.")
+    if '"Black",' in seed_finder_designer or '"White",' in seed_finder_designer:
+        failures.append("SeedFinder version dropdown should use Chinese game names.")
+    if 'this.gbSpins.Location = new System.Drawing.Point(434, 11);' not in unova_link_designer:
+        failures.append("Unova Link calibration should keep the direction sequence panel in the horizontal layout.")
+    if 'this.ClientSize = new System.Drawing.Size(860, 520);' not in unova_link_designer:
+        failures.append("Unova Link calibration should keep the wider horizontal window.")
+    if 'this.dgvResults.Size = new System.Drawing.Size(860, 220);' not in unova_link_designer:
+        failures.append("Unova Link calibration results grid should be below the horizontal panels.")
     button_strings = functions_source.split("public static readonly string[] buttonStrings", 1)[-1][:500]
     if '"R"' not in button_strings or '"L"' not in button_strings:
         failures.append("Button display strings should keep R/L untranslated.")
