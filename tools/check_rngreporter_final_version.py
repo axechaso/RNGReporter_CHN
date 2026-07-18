@@ -88,6 +88,8 @@ def main():
         failures.append("Global UI font should cover menus/toolstrips and data grids.")
     if "this.MinimumSize = new System.Drawing.Size(365, 166);" not in iv_filters_designer:
         failures.append("IVFilters should keep a 365px minimum width for the global UI font.")
+    if "this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;" not in iv_filters_designer:
+        failures.append("IVFilters should inherit host DPI scaling so the Speed row is not clipped after the global font change.")
     if "new System.Drawing.Size(315, 166)" in (
         main_designer + iv_filters_designer + time_finder3_designer + time_finder4_designer + time_finder5_designer
     ):
