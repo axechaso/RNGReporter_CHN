@@ -743,8 +743,8 @@ namespace RNGReporter
                     labelMinFrame.Text = "最小帧";
                     labelMaxFrame.Text = "最大帧";
                     textBoxDescription.Text =
-                        "After obtaining an egg from the Day-Care Man, you must immediately capture a Pokémon to confirm your seed.  " +
-                        "The IVs of the captured Pokémon will appear on frames 14-20.";
+                        "从培育屋爷爷处获得蛋后，必须立即捕捉一只宝可梦来确认 Seed。" +
+                        "捕获的宝可梦的个体值会出现在第 14～20 帧。";
                     break;
                 case FrameType.Wondercard5thGen:
                     comboBoxEncounterType.Enabled = false;

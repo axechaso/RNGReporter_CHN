@@ -184,6 +184,10 @@ def main():
         failures.append("Main grid should clear its old data source before rebinding.")
     if "e.Value == null" not in adjacents_source:
         failures.append("Adjacent seed grid formatting should ignore empty cell values instead of throwing.")
+    if "After obtaining an egg from the Day-Care Man" in adjacents_source:
+        failures.append("Adjacent Seed egg instructions are still untranslated.")
+    if "从培育屋爷爷处获得蛋后" not in adjacents_source or "第 14～20 帧" not in adjacents_source:
+        failures.append("Adjacent Seed egg instructions are missing the reviewed Chinese translation.")
 
     if 'AddLetter("炎帝")' in search_elm or 'this.buttonE.Text = "炎帝";' in search_elm_designer:
         failures.append("SearchElm should use E for Elm calls, not the Entei name.")
